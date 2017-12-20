@@ -1,0 +1,579 @@
+--------- beginning of main
+01-05 11:36:51.627   842   842 I auditd  : type=1403 audit(0.0:2): policy loaded auid=4294967295 ses=4294967295
+01-05 11:36:52.783     1     1 I init    : type=1400 audit(0.0:3): avc: denied { module_request } for kmod="fs-cpuset" scontext=u:r:init:s0 tcontext=u:r:kernel:s0 tclass=system permissive=1
+01-05 11:36:52.967   343   343 W fsck.f2fs: type=1400 audit(0.0:4): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:fsck:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:53.003   344   344 W fsck.f2fs: type=1400 audit(0.0:5): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:fsck:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.007   404   404 I init    : type=1400 audit(0.0:46): avc: denied { execute_no_trans } for path="/system/bin/sh" dev="mmcblk0p47" ino=392 scontext=u:r:init:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
+01-05 11:36:54.007   404   404 I init    : type=1400 audit(0.0:46): avc: denied { execute_no_trans } for path="/system/bin/sh" dev="mmcblk0p47" ino=392 scontext=u:r:init:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
+01-05 11:36:54.019   405   405 W netd    : type=1400 audit(0.0:47): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.019   405   405 W netd    : type=1400 audit(0.0:47): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.431   413   413 W iptables-restor: type=1400 audit(0.0:48): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.431   413   413 W iptables-restor: type=1400 audit(0.0:48): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.495   415   415 W ip6tables-resto: type=1400 audit(0.0:49): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.495   415   415 W ip6tables-resto: type=1400 audit(0.0:49): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.511   416   416 W iptables: type=1400 audit(0.0:50): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.511   416   416 W iptables: type=1400 audit(0.0:50): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.523   417   417 W ip6tables: type=1400 audit(0.0:51): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.523   417   417 W ip6tables: type=1400 audit(0.0:51): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.535   418   418 W iptables: type=1400 audit(0.0:52): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.535   418   418 W iptables: type=1400 audit(0.0:52): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.547   421   421 W ip6tables: type=1400 audit(0.0:53): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.547   421   421 W ip6tables: type=1400 audit(0.0:53): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.559   422   422 W iptables: type=1400 audit(0.0:54): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.559   422   422 W iptables: type=1400 audit(0.0:54): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.571   424   424 W ip6tables: type=1400 audit(0.0:55): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.571   424   424 W ip6tables: type=1400 audit(0.0:55): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.587   425   425 W iptables: type=1400 audit(0.0:56): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.587   425   425 W iptables: type=1400 audit(0.0:56): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.595   428   428 W ip6tables: type=1400 audit(0.0:57): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.595   428   428 W ip6tables: type=1400 audit(0.0:57): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.611   429   429 W iptables: type=1400 audit(0.0:58): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.611   429   429 W iptables: type=1400 audit(0.0:58): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.627   433   433 W ip6tables: type=1400 audit(0.0:59): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.627   433   433 W ip6tables: type=1400 audit(0.0:59): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.639   434   434 W iptables: type=1400 audit(0.0:60): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.639   434   434 W iptables: type=1400 audit(0.0:60): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.651   436   436 W ip6tables: type=1400 audit(0.0:61): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.651   436   436 W ip6tables: type=1400 audit(0.0:61): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.663   438   438 W iptables: type=1400 audit(0.0:62): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.663   438   438 W iptables: type=1400 audit(0.0:62): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.675   440   440 W ip6tables: type=1400 audit(0.0:63): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.675   440   440 W ip6tables: type=1400 audit(0.0:63): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:54.851   329   329 I kworker/u12:4: type=1400 audit(0.0:64): avc: denied { search } for name="ipc_logging" dev="debugfs" ino=2066 scontext=u:r:kernel:s0 tcontext=u:object_r:debugfs_ipc:s0 tclass=dir permissive=1
+01-05 11:36:54.851   329   329 I kworker/u12:4: type=1400 audit(0.0:64): avc: denied { search } for name="ipc_logging" dev="debugfs" ino=2066 scontext=u:r:kernel:s0 tcontext=u:object_r:debugfs_ipc:s0 tclass=dir permissive=1
+01-05 11:36:54.879   465   465 I init    : type=1400 audit(0.0:65): avc: denied { execute_no_trans } for path="/system/bin/qseecomd" dev="mmcblk0p47" ino=356 scontext=u:r:init:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+01-05 11:36:54.879   465   465 I init    : type=1400 audit(0.0:65): avc: denied { execute_no_trans } for path="/system/bin/qseecomd" dev="mmcblk0p47" ino=356 scontext=u:r:init:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+01-05 11:36:55.051   481   481 I rmt_storage: type=1400 audit(0.0:66): avc: denied { write } for name="rmts" dev="debugfs" ino=9291 scontext=u:r:rmt:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+01-05 11:36:55.051   481   481 I rmt_storage: type=1400 audit(0.0:66): avc: denied { write } for name="rmts" dev="debugfs" ino=9291 scontext=u:r:rmt:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+01-05 11:36:55.055   481   481 I rmt_storage: type=1400 audit(0.0:67): avc: denied { open } for path="/sys/kernel/debug/rmt_storage/rmts" dev="debugfs" ino=9291 scontext=u:r:rmt:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+01-05 11:36:55.055   481   481 I rmt_storage: type=1400 audit(0.0:67): avc: denied { open } for path="/sys/kernel/debug/rmt_storage/rmts" dev="debugfs" ino=9291 scontext=u:r:rmt:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+01-05 11:36:55.063   482   482 I rfs_access: type=1400 audit(0.0:68): avc: denied { write } for name="rfsa" dev="debugfs" ino=9290 scontext=u:r:init:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+01-05 11:36:55.063   482   482 I rfs_access: type=1400 audit(0.0:68): avc: denied { write } for name="rfsa" dev="debugfs" ino=9290 scontext=u:r:init:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+01-05 11:36:55.063   482   482 I rfs_access: type=1400 audit(0.0:69): avc: denied { write } for name="uio1" dev="tmpfs" ino=10363 scontext=u:r:init:s0 tcontext=u:object_r:uio_device:s0 tclass=chr_file permissive=1
+01-05 11:36:55.063   482   482 I rfs_access: type=1400 audit(0.0:69): avc: denied { write } for name="uio1" dev="tmpfs" ino=10363 scontext=u:r:init:s0 tcontext=u:object_r:uio_device:s0 tclass=chr_file permissive=1
+01-05 11:36:55.063   482   482 W rfs_access: type=1400 audit(0.0:70): avc: granted { read open } for path="/dev/uio1" dev="tmpfs" ino=10363 scontext=u:r:init:s0 tcontext=u:object_r:uio_device:s0 tclass=chr_file
+01-05 11:36:55.063   482   482 W rfs_access: type=1400 audit(0.0:70): avc: granted { read open } for path="/dev/uio1" dev="tmpfs" ino=10363 scontext=u:r:init:s0 tcontext=u:object_r:uio_device:s0 tclass=chr_file
+01-05 11:36:55.063   482   482 W rfs_access: type=1400 audit(0.0:71): avc: granted { read } for path="/dev/uio1" dev="tmpfs" ino=10363 scontext=u:r:init:s0 tcontext=u:object_r:uio_device:s0 tclass=chr_file
+01-05 11:36:55.063   482   482 W rfs_access: type=1400 audit(0.0:71): avc: granted { read } for path="/dev/uio1" dev="tmpfs" ino=10363 scontext=u:r:init:s0 tcontext=u:object_r:uio_device:s0 tclass=chr_file
+01-05 11:36:55.063   482   482 W rfs_access: type=1400 audit(0.0:72): avc: granted { read } for name="uio2" dev="tmpfs" ino=9747 scontext=u:r:init:s0 tcontext=u:object_r:uio_device:s0 tclass=chr_file
+01-05 11:36:55.063   482   482 W rfs_access: type=1400 audit(0.0:72): avc: granted { read } for name="uio2" dev="tmpfs" ino=9747 scontext=u:r:init:s0 tcontext=u:object_r:uio_device:s0 tclass=chr_file
+01-05 11:36:55.063   482   482 W rfs_access: type=1400 audit(0.0:73): avc: granted { read open } for path="/dev/uio2" dev="tmpfs" ino=9747 scontext=u:r:init:s0 tcontext=u:object_r:uio_device:s0 tclass=chr_file
+01-05 11:36:55.063   482   482 W rfs_access: type=1400 audit(0.0:73): avc: granted { read open } for path="/dev/uio2" dev="tmpfs" ino=9747 scontext=u:r:init:s0 tcontext=u:object_r:uio_device:s0 tclass=chr_file
+01-05 11:36:55.063   482   482 W rfs_access: type=1400 audit(0.0:74): avc: granted { read } for path="/dev/uio2" dev="tmpfs" ino=9747 scontext=u:r:init:s0 tcontext=u:object_r:uio_device:s0 tclass=chr_file
+01-05 11:36:55.063   482   482 W rfs_access: type=1400 audit(0.0:74): avc: granted { read } for path="/dev/uio2" dev="tmpfs" ino=9747 scontext=u:r:init:s0 tcontext=u:object_r:uio_device:s0 tclass=chr_file
+01-05 11:36:55.063   482   482 W rfs_access: type=1400 audit(0.0:75): avc: granted { read } for name="uio3" dev="tmpfs" ino=10004 scontext=u:r:init:s0 tcontext=u:object_r:uio_device:s0 tclass=chr_file
+01-05 11:36:55.063   482   482 W rfs_access: type=1400 audit(0.0:75): avc: granted { read } for name="uio3" dev="tmpfs" ino=10004 scontext=u:r:init:s0 tcontext=u:object_r:uio_device:s0 tclass=chr_file
+01-05 11:36:55.063   482   482 W rfs_access: type=1400 audit(0.0:76): avc: granted { read open } for path="/dev/uio3" dev="tmpfs" ino=10004 scontext=u:r:init:s0 tcontext=u:object_r:uio_device:s0 tclass=chr_file
+01-05 11:36:55.063   482   482 W rfs_access: type=1400 audit(0.0:76): avc: granted { read open } for path="/dev/uio3" dev="tmpfs" ino=10004 scontext=u:r:init:s0 tcontext=u:object_r:uio_device:s0 tclass=chr_file
+01-05 11:36:55.063   482   482 W rfs_access: type=1400 audit(0.0:77): avc: granted { read } for path="/dev/uio3" dev="tmpfs" ino=10004 scontext=u:r:init:s0 tcontext=u:object_r:uio_device:s0 tclass=chr_file
+01-05 11:36:55.063   482   482 W rfs_access: type=1400 audit(0.0:77): avc: granted { read } for path="/dev/uio3" dev="tmpfs" ino=10004 scontext=u:r:init:s0 tcontext=u:object_r:uio_device:s0 tclass=chr_file
+01-05 11:36:55.071     1     1 I init    : type=1400 audit(0.0:78): avc: denied { read write } for name="ttyHSL0" dev="tmpfs" ino=10364 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+01-05 11:36:55.071     1     1 I init    : type=1400 audit(0.0:78): avc: denied { read write } for name="ttyHSL0" dev="tmpfs" ino=10364 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+01-05 11:36:55.071     1     1 I init    : type=1400 audit(0.0:79): avc: denied { open } for path="/dev/ttyHSL0" dev="tmpfs" ino=10364 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+01-05 11:36:55.071     1     1 I init    : type=1400 audit(0.0:79): avc: denied { open } for path="/dev/ttyHSL0" dev="tmpfs" ino=10364 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+01-05 11:36:55.087   482   482 I rfs_access: type=1400 audit(0.0:80): avc: denied { create } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+01-05 11:36:55.087   482   482 I rfs_access: type=1400 audit(0.0:80): avc: denied { create } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+01-05 11:36:55.087   482   482 I rfs_access: type=1400 audit(0.0:81): avc: denied { ioctl } for path="socket:[11172]" dev="sockfs" ino=11172 ioctlcmd=c304 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+01-05 11:36:55.087   482   482 I rfs_access: type=1400 audit(0.0:81): avc: denied { ioctl } for path="socket:[11172]" dev="sockfs" ino=11172 ioctlcmd=c304 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+01-05 11:36:55.087   482   482 I rfs_access: type=1400 audit(0.0:82): avc: denied { bind } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+01-05 11:36:55.087   482   482 I rfs_access: type=1400 audit(0.0:82): avc: denied { bind } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+01-05 11:36:55.087   498   498 I init    : type=1400 audit(0.0:83): avc: denied { execute_no_trans } for path="/system/bin/sh" dev="mmcblk0p47" ino=392 scontext=u:r:init:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
+01-05 11:36:55.087   498   498 I init    : type=1400 audit(0.0:83): avc: denied { execute_no_trans } for path="/system/bin/sh" dev="mmcblk0p47" ino=392 scontext=u:r:init:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
+01-05 11:36:55.087   493   493 I init    : type=1400 audit(0.0:84): avc: denied { ioctl } for path="/dev/ttyHSL0" dev="tmpfs" ino=10364 ioctlcmd=540e scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+01-05 11:36:55.087   493   493 I init    : type=1400 audit(0.0:84): avc: denied { ioctl } for path="/dev/ttyHSL0" dev="tmpfs" ino=10364 ioctlcmd=540e scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+01-05 11:36:55.315   619   619 W ip6tables: type=1400 audit(0.0:172): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:55.315   619   619 W ip6tables: type=1400 audit(0.0:172): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:55.323   574   574 I sensors.qcom: type=1400 audit(0.0:173): avc: denied { read } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+01-05 11:36:55.323   574   574 I sensors.qcom: type=1400 audit(0.0:173): avc: denied { read } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+01-05 11:36:55.323   521   521 I sensors.qcom: type=1400 audit(0.0:174): avc: denied { create } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+01-05 11:36:55.323   521   521 I sensors.qcom: type=1400 audit(0.0:174): avc: denied { create } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+01-05 11:36:55.323   521   521 I sensors.qcom: type=1400 audit(0.0:175): avc: denied { ioctl } for path="socket:[16023]" dev="sockfs" ino=16023 ioctlcmd=c304 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+01-05 11:36:55.323   521   521 I sensors.qcom: type=1400 audit(0.0:175): avc: denied { ioctl } for path="socket:[16023]" dev="sockfs" ino=16023 ioctlcmd=c304 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+01-05 11:36:55.323   521   521 I sensors.qcom: type=1400 audit(0.0:176): avc: denied { bind } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+01-05 11:36:55.323   521   521 I sensors.qcom: type=1400 audit(0.0:176): avc: denied { bind } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+01-05 11:36:55.323   574   574 I sensors.qcom: type=1400 audit(0.0:177): avc: denied { write } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+01-05 11:36:55.323   574   574 I sensors.qcom: type=1400 audit(0.0:177): avc: denied { write } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+01-05 11:36:55.323   521   521 I sensors.qcom: type=1400 audit(0.0:178): avc: denied { read } for name="sensors" dev="tmpfs" ino=10371 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+01-05 11:36:55.323   521   521 I sensors.qcom: type=1400 audit(0.0:178): avc: denied { read } for name="sensors" dev="tmpfs" ino=10371 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+01-05 11:36:55.323   521   521 I sensors.qcom: type=1400 audit(0.0:179): avc: denied { ioctl } for path="/dev/sensors" dev="tmpfs" ino=10371 ioctlcmd=6403 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+01-05 11:36:55.323   521   521 I sensors.qcom: type=1400 audit(0.0:179): avc: denied { ioctl } for path="/dev/sensors" dev="tmpfs" ino=10371 ioctlcmd=6403 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+01-05 11:36:55.375   620   620 I mkdir   : type=1400 audit(0.0:180): avc: denied { create } for name="modem_config" scontext=u:r:toolbox:s0 tcontext=u:object_r:radio_data_file:s0 tclass=dir permissive=1
+01-05 11:36:55.375   620   620 I mkdir   : type=1400 audit(0.0:180): avc: denied { create } for name="modem_config" scontext=u:r:toolbox:s0 tcontext=u:object_r:radio_data_file:s0 tclass=dir permissive=1
+01-05 11:36:55.383   625   625 W iptables: type=1400 audit(0.0:181): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:55.383   625   625 W iptables: type=1400 audit(0.0:181): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:55.419   628   628 W ip6tables: type=1400 audit(0.0:182): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:55.419   628   628 W ip6tables: type=1400 audit(0.0:182): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:55.443   627   627 I chmod   : type=1400 audit(0.0:183): avc: denied { getattr } for path="/data/misc/radio/modem_config" dev="mmcblk0p50" ino=874883 scontext=u:r:toolbox:s0 tcontext=u:object_r:radio_data_file:s0 tclass=dir permissive=1
+01-05 11:36:55.443   627   627 I chmod   : type=1400 audit(0.0:183): avc: denied { getattr } for path="/data/misc/radio/modem_config" dev="mmcblk0p50" ino=874883 scontext=u:r:toolbox:s0 tcontext=u:object_r:radio_data_file:s0 tclass=dir permissive=1
+01-05 11:36:55.443   627   627 I chmod   : type=1400 audit(0.0:184): avc: denied { setattr } for name="modem_config" dev="mmcblk0p50" ino=874883 scontext=u:r:toolbox:s0 tcontext=u:object_r:radio_data_file:s0 tclass=dir permissive=1
+01-05 11:36:55.443   627   627 I chmod   : type=1400 audit(0.0:184): avc: denied { setattr } for name="modem_config" dev="mmcblk0p50" ino=874883 scontext=u:r:toolbox:s0 tcontext=u:object_r:radio_data_file:s0 tclass=dir permissive=1
+01-05 11:36:55.483   521   521 I sensors.qcom: type=1400 audit(0.0:185): avc: denied { append } for name="error_log" dev="mmcblk0p23" ino=30 scontext=u:r:init:s0 tcontext=u:object_r:persist_file:s0 tclass=file permissive=1
+01-05 11:36:55.483   521   521 I sensors.qcom: type=1400 audit(0.0:185): avc: denied { append } for name="error_log" dev="mmcblk0p23" ino=30 scontext=u:r:init:s0 tcontext=u:object_r:persist_file:s0 tclass=file permissive=1
+01-05 11:36:55.483   521   521 I sensors.qcom: type=1400 audit(0.0:186): avc: denied { append } for path="/persist/sensors/error_log" dev="mmcblk0p23" ino=30 scontext=u:r:init:s0 tcontext=u:object_r:persist_file:s0 tclass=file permissive=1
+01-05 11:36:55.483   521   521 I sensors.qcom: type=1400 audit(0.0:186): avc: denied { append } for path="/persist/sensors/error_log" dev="mmcblk0p23" ino=30 scontext=u:r:init:s0 tcontext=u:object_r:persist_file:s0 tclass=file permissive=1
+01-05 11:36:55.487   632   632 W iptables: type=1400 audit(0.0:187): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:55.487   632   632 W iptables: type=1400 audit(0.0:187): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:55.555   732   732 W ip6tables: type=1400 audit(0.0:188): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:55.555   732   732 W ip6tables: type=1400 audit(0.0:188): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=8787 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+01-05 11:36:55.563   630   630 I cp      : type=1400 audit(0.0:189): avc: denied { dac_override } for capability=1 scontext=u:r:toolbox:s0 tcontext=u:r:toolbox:s0 tclass=capability permissive=1
+01-05 11:36:55.563   630   630 I cp      : type=1400 audit(0.0:189): avc: denied { dac_override } for capability=1 scontext=u:r:toolbox:s0 tcontext=u:r:toolbox:s0 tclass=capability permissive=1
+01-05 11:36:55.599   521   521 I sensors.qcom: type=1400 audit(0.0:190): avc: denied { getattr } for path="/dev/socket/sensor_ctl_socket" dev="tmpfs" ino=16188 scontext=u:r:init:s0 tcontext=u:object_r:socket_device:s0 tclass=sock_file permissive=1
+01-05 11:36:55.599   521   521 I sensors.qcom: type=1400 audit(0.0:190): avc: denied { getattr } for path="/dev/socket/sensor_ctl_socket" dev="tmpfs" ino=16188 scontext=u:r:init:s0 tcontext=u:object_r:socket_device:s0 tclass=sock_file permissive=1
+01-05 11:36:55.603   521   521 I sensors.qcom: type=1400 audit(0.0:191): avc: denied { write } for name="sensor_ctl_socket" dev="tmpfs" ino=16188 scontext=u:r:init:s0 tcontext=u:object_r:socket_device:s0 tclass=sock_file permissive=1
+01-05 11:36:55.603   521   521 I sensors.qcom: type=1400 audit(0.0:191): avc: denied { write } for name="sensor_ctl_socket" dev="tmpfs" ino=16188 scontext=u:r:init:s0 tcontext=u:object_r:socket_device:s0 tclass=sock_file permissive=1
+01-05 11:36:56.331   804   804 I init    : type=1400 audit(0.0:216): avc: denied { execute_no_trans } for path="/system/vendor/bin/qti" dev="mmcblk0p47" ino=2264 scontext=u:r:init:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+01-05 11:36:56.331   804   804 I init    : type=1400 audit(0.0:216): avc: denied { execute_no_trans } for path="/system/vendor/bin/qti" dev="mmcblk0p47" ino=2264 scontext=u:r:init:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+01-05 11:36:56.383   804   804 I qti     : type=1400 audit(0.0:217): avc: denied { write } for name="smem_log" dev="tmpfs" ino=10426 scontext=u:r:init:s0 tcontext=u:object_r:smem_log_device:s0 tclass=chr_file permissive=1
+01-05 11:36:56.383   804   804 I qti     : type=1400 audit(0.0:217): avc: denied { write } for name="smem_log" dev="tmpfs" ino=10426 scontext=u:r:init:s0 tcontext=u:object_r:smem_log_device:s0 tclass=chr_file permissive=1
+01-05 11:36:56.383   804   804 W qti     : type=1400 audit(0.0:218): avc: granted { read open } for path="/dev/smem_log" dev="tmpfs" ino=10426 scontext=u:r:init:s0 tcontext=u:object_r:smem_log_device:s0 tclass=chr_file
+01-05 11:36:56.383   804   804 W qti     : type=1400 audit(0.0:218): avc: granted { read open } for path="/dev/smem_log" dev="tmpfs" ino=10426 scontext=u:r:init:s0 tcontext=u:object_r:smem_log_device:s0 tclass=chr_file
+01-05 11:36:56.383   804   804 I qti     : type=1400 audit(0.0:219): avc: denied { ioctl } for path="/dev/smem_log" dev="tmpfs" ino=10426 ioctlcmd=3001 scontext=u:r:init:s0 tcontext=u:object_r:smem_log_device:s0 tclass=chr_file permissive=1
+01-05 11:36:56.383   804   804 I qti     : type=1400 audit(0.0:219): avc: denied { ioctl } for path="/dev/smem_log" dev="tmpfs" ino=10426 ioctlcmd=3001 scontext=u:r:init:s0 tcontext=u:object_r:smem_log_device:s0 tclass=chr_file permissive=1
+01-05 11:36:56.383   804   804 I qti     : type=1400 audit(0.0:220): avc: denied { write } for name="rmnet_ctrl" dev="tmpfs" ino=10397 scontext=u:r:init:s0 tcontext=u:object_r:rmnet_device:s0 tclass=chr_file permissive=1
+01-05 11:36:56.383   804   804 I qti     : type=1400 audit(0.0:220): avc: denied { write } for name="rmnet_ctrl" dev="tmpfs" ino=10397 scontext=u:r:init:s0 tcontext=u:object_r:rmnet_device:s0 tclass=chr_file permissive=1
+01-05 11:36:56.383   804   804 W qti     : type=1400 audit(0.0:221): avc: granted { read open } for path="/dev/rmnet_ctrl" dev="tmpfs" ino=10397 scontext=u:r:init:s0 tcontext=u:object_r:rmnet_device:s0 tclass=chr_file
+01-05 11:36:56.383   804   804 W qti     : type=1400 audit(0.0:221): avc: granted { read open } for path="/dev/rmnet_ctrl" dev="tmpfs" ino=10397 scontext=u:r:init:s0 tcontext=u:object_r:rmnet_device:s0 tclass=chr_file
+01-05 11:36:56.507   530   530 I qseecomd: type=1400 audit(0.0:222): avc: denied { ioctl } for path="/dev/ion" dev="tmpfs" ino=10385 ioctlcmd=4901 scontext=u:r:init:s0 tcontext=u:object_r:ion_device:s0 tclass=chr_file permissive=1
+01-05 11:36:56.507   530   530 I qseecomd: type=1400 audit(0.0:222): avc: denied { ioctl } for path="/dev/ion" dev="tmpfs" ino=10385 ioctlcmd=4901 scontext=u:r:init:s0 tcontext=u:object_r:ion_device:s0 tclass=chr_file permissive=1
+01-05 11:36:56.507   530   530 I qseecomd: type=1400 audit(0.0:223): avc: denied { write } for name="qseecom" dev="tmpfs" ino=10445 scontext=u:r:init:s0 tcontext=u:object_r:tee_device:s0 tclass=chr_file permissive=1
+01-05 11:36:56.507   530   530 I qseecomd: type=1400 audit(0.0:223): avc: denied { write } for name="qseecom" dev="tmpfs" ino=10445 scontext=u:r:init:s0 tcontext=u:object_r:tee_device:s0 tclass=chr_file permissive=1
+01-05 11:36:56.507   530   530 W qseecomd: type=1400 audit(0.0:224): avc: granted { read open } for path="/dev/qseecom" dev="tmpfs" ino=10445 scontext=u:r:init:s0 tcontext=u:object_r:tee_device:s0 tclass=chr_file
+01-05 11:36:56.507   530   530 W qseecomd: type=1400 audit(0.0:224): avc: granted { read open } for path="/dev/qseecom" dev="tmpfs" ino=10445 scontext=u:r:init:s0 tcontext=u:object_r:tee_device:s0 tclass=chr_file
+01-05 11:36:56.507   530   530 I qseecomd: type=1400 audit(0.0:225): avc: denied { ioctl } for path="/dev/qseecom" dev="tmpfs" ino=10445 ioctlcmd=970a scontext=u:r:init:s0 tcontext=u:object_r:tee_device:s0 tclass=chr_file permissive=1
+01-05 11:36:56.507   530   530 I qseecomd: type=1400 audit(0.0:225): avc: denied { ioctl } for path="/dev/qseecom" dev="tmpfs" ino=10445 ioctlcmd=970a scontext=u:r:init:s0 tcontext=u:object_r:tee_device:s0 tclass=chr_file permissive=1
+01-05 11:36:56.511   530   530 W qseecomd: type=1400 audit(0.0:226): avc: granted { read } for name="ion" dev="tmpfs" ino=10385 scontext=u:r:init:s0 tcontext=u:object_r:ion_device:s0 tclass=chr_file
+01-05 11:36:56.511   530   530 W qseecomd: type=1400 audit(0.0:226): avc: granted { read } for name="ion" dev="tmpfs" ino=10385 scontext=u:r:init:s0 tcontext=u:object_r:ion_device:s0 tclass=chr_file
+01-05 11:36:56.511   530   530 W qseecomd: type=1400 audit(0.0:227): avc: granted { read open } for path="/dev/ion" dev="tmpfs" ino=10385 scontext=u:r:init:s0 tcontext=u:object_r:ion_device:s0 tclass=chr_file
+01-05 11:36:56.511   530   530 W qseecomd: type=1400 audit(0.0:227): avc: granted { read open } for path="/dev/ion" dev="tmpfs" ino=10385 scontext=u:r:init:s0 tcontext=u:object_r:ion_device:s0 tclass=chr_file
+01-05 11:36:56.575   530   530 W qseecomd: type=1400 audit(0.0:228): avc: granted { read } for name="ion" dev="tmpfs" ino=10385 scontext=u:r:init:s0 tcontext=u:object_r:ion_device:s0 tclass=chr_file
+01-05 11:36:56.575   530   530 W qseecomd: type=1400 audit(0.0:228): avc: granted { read } for name="ion" dev="tmpfs" ino=10385 scontext=u:r:init:s0 tcontext=u:object_r:ion_device:s0 tclass=chr_file
+01-05 11:36:56.575   530   530 W qseecomd: type=1400 audit(0.0:229): avc: granted { read open } for path="/dev/ion" dev="tmpfs" ino=10385 scontext=u:r:init:s0 tcontext=u:object_r:ion_device:s0 tclass=chr_file
+01-05 11:36:56.575   530   530 W qseecomd: type=1400 audit(0.0:229): avc: granted { read open } for path="/dev/ion" dev="tmpfs" ino=10385 scontext=u:r:init:s0 tcontext=u:object_r:ion_device:s0 tclass=chr_file
+01-05 11:36:56.583   530   530 I qseecomd: type=1400 audit(0.0:230): avc: denied { write } for name="property_service" dev="tmpfs" ino=1843 scontext=u:r:init:s0 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=1
+01-05 11:36:56.583   530   530 I qseecomd: type=1400 audit(0.0:230): avc: denied { write } for name="property_service" dev="tmpfs" ino=1843 scontext=u:r:init:s0 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=1
+01-05 11:36:56.583   536   536 I energy-awarenes: type=1400 audit(0.0:231): avc: denied { read } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=netlink_kobject_uevent_socket permissive=1
+01-05 11:36:57.968     0   837 I rmt_storage: rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x6: req_h=0x6 msg_id=3: Bytes read = 512
+01-05 11:36:57.969     0   837 I rmt_storage: rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x6: req_h=0x6 msg_id=3: Send response: res=0 err=0
+01-05 11:36:57.969     0   837 I rmt_storage: rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x6 About to block rmt_storage client thread (th_id: 540260431088) wakelock released: 1, error no: 2
+01-05 11:36:57.969     0   837 I rmt_storage: 
+01-05 11:36:57.969     0   481 I rmt_storage: rmt_storage_disconnect_cb: clnt_h=0x6 conn_h=0x7dca22c230
+01-05 11:36:57.970     0   481 I rmt_storage: rmt_storage_connect_cb: clnt_h=0x7 conn_h=0x7dca22c230
+01-05 11:36:57.970     0   481 I rmt_storage: rmt_storage_rw_iovec_cb: /boot/modem_fs2: clnt_h=0x7: req_h=0x7 msg_id=3: R/W request received
+01-05 11:36:57.970     0   481 I rmt_storage: wakelock acquired: 1, error no: 42
+01-05 11:36:57.970     0   838 I rmt_storage: rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x7 Unblock worker thread (th_id: 540259394800)
+01-05 11:36:57.970     0   838 I rmt_storage: rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x7: req_h=0x7 msg_id=3: Bytes read = 512
+01-05 11:36:57.970     0   838 I rmt_storage: rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x7: req_h=0x7 msg_id=3: Send response: res=0 err=0
+01-05 11:36:57.971     0   838 I rmt_storage: rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x7 About to block rmt_storage client thread (th_id: 540259394800) wakelock released: 1, error no: 2
+01-05 11:36:57.971     0   838 I rmt_storage: 
+01-05 11:36:57.971     0   481 I rmt_storage: rmt_storage_disconnect_cb: clnt_h=0x7 conn_h=0x7dca22c230
+01-05 11:36:57.972     0   481 I rmt_storage: rmt_storage_connect_cb: clnt_h=0x8 conn_h=0x7dca22c230
+01-05 11:36:57.972     0   481 I rmt_storage: rmt_storage_rw_iovec_cb: /boot/modem_fs1: clnt_h=0x8: req_h=0x8 msg_id=3: R/W request received
+01-05 11:36:57.972     0   481 I rmt_storage: wakelock acquired: 1, error no: 42
+01-05 11:36:57.972     0   837 I rmt_storage: rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x8 Unblock worker thread (th_id: 540260431088)
+01-05 11:36:58.022   843   843 E hwservicemanager: BINDER_SET_INHERIT_FIFO_PRIO failed with error -1
+01-05 11:36:58.028   517   517 I Netd    : Registering NetdHwService: 1907.4ms
+01-05 11:36:58.028   517   517 I Netd    : Netd started in 3201ms
+01-05 11:36:58.116   481   837 I rmt_storage: rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x8: req_h=0x8 msg_id=3: Bytes read = 1571840
+01-05 11:36:58.116   481   837 I rmt_storage: rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x8: req_h=0x8 msg_id=3: Send response: res=0 err=0
+01-05 11:36:58.116   481   481 I rmt_storage: rmt_storage_disconnect_cb: clnt_h=0x8 conn_h=0x7dca22c230
+01-05 11:36:58.117   481   837 I rmt_storage: rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x8 About to block rmt_storage client thread (th_id: 540260431088) wakelock released: 1, error no: 2
+01-05 11:36:58.117   481   837 I rmt_storage: 
+01-05 11:36:58.128   510   510 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/hw/camera.msm8992.so from the current namespace instead.
+--------- beginning of system
+01-05 11:36:58.151   851   851 I vold    : Vold 3.0 (the awakening) firing up
+01-05 11:36:58.151   851   851 V vold    : Detected support for: exfat ext4 f2fs ntfs vfat
+01-05 11:36:58.155   851   851 I vold    : [libfs_mgr]fs_mgr_read_fstab_dt(): failed to read fstab from dt
+01-05 11:36:58.195   522   549 E QMI_FW  : QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+01-05 11:36:58.196   522   549 I chatty  : uid=1000(system) /system/bin/time_daemon identical 2 lines
+01-05 11:36:58.196   522   549 E QMI_FW  : QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+01-05 11:36:58.196   522   549 E QC-time-services: Daemon:genoff_modem_qmi_service_request: qmi_client_get_service_list returned 0num_services 1
+01-05 11:36:58.196   522   549 E QMI_FW  : QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+01-05 11:36:58.199   522   549 I chatty  : uid=1000(system) /system/bin/time_daemon identical 10 lines
+01-05 11:36:58.199   522   549 E QMI_FW  : QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+01-05 11:36:58.200   522   549 D QC-time-services: Daemon:genoff_modem_qmi_service_request: Initial transaction successfull
+01-05 11:36:58.243   524   524 I gatekeeperd: type=1400 audit(0.0:234): avc: denied { read } for name="u:object_r:qseecomtee_prop:s0" dev="tmpfs" ino=1789 scontext=u:r:gatekeeperd:s0 tcontext=u:object_r:qseecomtee_prop:s0 tclass=file permissive=1
+01-05 11:36:58.243   524   524 I gatekeeperd: type=1400 audit(0.0:235): avc: denied { open } for path="/dev/__properties__/u:object_r:qseecomtee_prop:s0" dev="tmpfs" ino=1789 scontext=u:r:gatekeeperd:s0 tcontext=u:object_r:qseecomtee_prop:s0 tclass=file permissive=1
+01-05 11:36:58.243   524   524 I gatekeeperd: type=1400 audit(0.0:236): avc: denied { getattr } for path="/dev/__properties__/u:object_r:qseecomtee_prop:s0" dev="tmpfs" ino=1789 scontext=u:r:gatekeeperd:s0 tcontext=u:object_r:qseecomtee_prop:s0 tclass=file permissive=1
+01-05 11:36:58.246   512   512 I android.hardware.keymaster@3.0-impl: Fetching keymaster device name default
+01-05 11:36:58.248   524   524 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib64/hw/gatekeeper.msm8992.so from the current namespace instead.
+01-05 11:36:58.248   512   512 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib64/hw/keystore.msm8992.so from the current namespace instead.
+01-05 11:36:58.249   524   524 D gatekeeper_device: HwKmOpen called
+01-05 11:36:58.250   524   524 E gatekeeper_device: Gatekeeper (Keymaster TA) loaded/ queried from Qseecomd
+01-05 11:36:58.250   524   524 D QSEECOMAPI: : QSEECom_get_handle sb_length = 0xa000
+01-05 11:36:58.250   524   524 D QSEECOMAPI: : App is already loaded QSEE and app id = 3
+01-05 11:36:58.251   512   512 I android.hardware.keymaster@3.0-impl: Found keymaster1 module Keymaster QTI HAL, version 100
+01-05 11:36:58.252   512   512 E keymaster1_device: Keymaster loaded/ queried from Qseecomd
+01-05 11:36:58.252   512   512 D QSEECOMAPI: : QSEECom_get_handle sb_length = 0xa000
+01-05 11:36:58.252   512   512 D QSEECOMAPI: : App is already loaded QSEE and app id = 3
+01-05 11:36:58.256   512   512 E keymaster1_device: TA API Major Verion: 1
+01-05 11:36:58.256   512   512 E keymaster1_device: TA API Minor Verion: 0
+01-05 11:36:58.256   512   512 E keymaster1_device: TA Major Verion: 1
+01-05 11:36:58.256   512   512 E keymaster1_device: TA Minor Verion: 10
+01-05 11:36:58.256   512   512 E keymaster1_device: set_version_req->flags: 1
+01-05 11:36:58.256   512   512 D android.hardware.keymaster@3.0-impl: Wrapping keymaster1 module Keymaster QTI HAL with SofKeymasterDevice
+01-05 11:36:58.382   524   524 I gatekeeperd: cold boot: clearing state
+01-05 11:36:58.442   509   509 I AudioFlinger: Using default 3000 mSec as standby time.
+01-05 11:36:58.444   509   509 E APM::Serializer: deserialize: Could not parse /odm/etc/audio_policy_configuration.xml document.
+01-05 11:36:58.444   509   509 E APM::Serializer: deserialize: Could not parse /vendor/etc/audio_policy_configuration.xml document.
+01-05 11:36:58.510   509   509 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/hw/audio.primary.default.so from the current namespace instead.
+01-05 11:36:58.513   509   509 W DeviceHAL: Device 0xf0ebf000 get_master_volume: Function not implemented
+01-05 11:36:58.513   509   509 W DeviceHAL: Device 0xf0ebf000 get_master_mute: Function not implemented
+01-05 11:36:58.513   509   509 W DeviceHAL: Device 0xf0ebf000 set_master_volume: Function not implemented
+01-05 11:36:58.513   509   509 W DeviceHAL: Device 0xf0ebf000 set_master_mute: Function not implemented
+01-05 11:36:58.513   509   509 I AudioFlinger: loadHwModule() Loaded primary audio interface, handle 10
+01-05 11:36:58.513   509   509 I AudioFlinger: openOutput() this 0xf0ebd000, module 10 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 2
+01-05 11:36:58.513   509   509 I AudioFlinger: HAL output buffer size 1024 frames, normal sink buffer size 1024 frames
+01-05 11:36:58.517   509   509 W EffectsFactory: checkLibraryPath() corrected library path /system/lib/soundfx/libbundlewrapper.so to /vendor/lib/soundfx/libbundlewrapper.so
+01-05 11:36:58.519   509   509 W EffectsFactory: checkLibraryPath() corrected library path /system/lib/soundfx/libreverbwrapper.so to /vendor/lib/soundfx/libreverbwrapper.so
+01-05 11:36:58.526   509   509 W EffectsFactory: checkLibraryPath() corrected library path /system/lib/soundfx/libvisualizer.so to /vendor/lib/soundfx/libvisualizer.so
+01-05 11:36:58.528   509   509 W EffectsFactory: loadLibrary() could not find library /system/lib/soundfx/libqcomvisualizer.so
+01-05 11:36:58.528   509   509 W EffectsFactory: checkLibraryPath() corrected library path /system/lib/soundfx/libdownmix.so to /vendor/lib/soundfx/libdownmix.so
+01-05 11:36:58.529   509   509 W EffectsFactory: checkLibraryPath() corrected library path /system/lib/soundfx/libldnhncr.so to /vendor/lib/soundfx/libldnhncr.so
+01-05 11:36:58.531   509   509 W EffectsFactory: checkLibraryPath() corrected library path /system/lib/soundfx/libeffectproxy.so to /vendor/lib/soundfx/libeffectproxy.so
+01-05 11:36:58.541   509   509 W EffectsFactory: loadLibrary() could not find library /system/lib/soundfx/libqcompostprocbundle.so
+01-05 11:36:58.541   509   509 W EffectsFactory: loadLibrary() could not find library /system/lib/soundfx/libqcomvoiceprocessing.so
+01-05 11:36:58.541   509   509 W EffectsFactory: addSubEffect() could not get library offload_bundle
+01-05 11:36:58.541   509   509 W EffectsFactory: loadEffect() could not add subEffect 
+01-05 11:36:58.541   509   509 W EffectsFactory: addSubEffect() could not get library offload_bundle
+01-05 11:36:58.542   509   509 W EffectsFactory: loadEffect() could not add subEffect 
+01-05 11:36:58.542   509   509 W EffectsFactory: addSubEffect() could not get library offload_bundle
+01-05 11:36:58.542   509   509 W EffectsFactory: loadEffect() could not add subEffect 
+01-05 11:36:58.542   509   509 W EffectsFactory: addSubEffect() could not get library offload_bundle
+01-05 11:36:58.542   509   509 W EffectsFactory: loadEffect() could not add subEffect 
+01-05 11:36:58.542   509   509 W EffectsFactory: addSubEffect() could not get library offload_bundle
+01-05 11:36:58.542   509   509 W EffectsFactory: loadEffect() could not add subEffect 
+01-05 11:36:58.542   509   509 W EffectsFactory: addSubEffect() could not get library offload_bundle
+01-05 11:36:58.542   509   509 W EffectsFactory: loadEffect() could not add subEffect 
+01-05 11:36:58.542   509   509 W EffectsFactory: addSubEffect() could not get library offload_bundle
+01-05 11:36:58.542   509   509 W EffectsFactory: loadEffect() could not add subEffect 
+01-05 11:36:58.542   509   509 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+01-05 11:36:58.542   509   509 W EffectsFactory: loadEffect() could not add subEffect 
+01-05 11:36:58.542   509   509 W EffectsFactory: loadEffect() could not get library offload_bundle
+01-05 11:36:58.542   509   509 W EffectsFactory: loadEffect() could not get library audio_pre_processing
+01-05 11:36:58.542   509   509 W EffectsFactory: loadEffect() could not get library audio_pre_processing
+01-05 11:36:58.542   509   509 I BufferProvider: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+01-05 11:36:58.543   509   509 I AudioFlinger: Using module 10 as the primary audio interface
+01-05 11:36:58.543   509   509 W AudioFlinger: moveEffects() bad srcOutput 0
+01-05 11:36:58.544   509   876 I AudioFlinger: AudioFlinger's thread 0xf0083b80 tid=876 ready to run
+01-05 11:36:58.544   509   876 W AudioFlinger: no wake lock to update, system not ready yet
+01-05 11:36:58.545   509   869 W DeviceHAL: Device 0xf0ebf000 set_voice_volume: Function not implemented
+01-05 11:36:58.545   509   509 W APM_AudioPolicyManager: Output profile contains no device on module primary
+01-05 11:36:58.546   509   509 I AudioFlinger: openOutput() this 0xf0ebd000, module 10 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 8
+01-05 11:36:58.546   509   509 I AudioFlinger: HAL output buffer size 1024 frames, normal sink buffer size 1024 frames
+01-05 11:36:58.547   509   876 W AudioFlinger: no wake lock to update, system not ready yet
+01-05 11:36:58.547   509   878 I AudioFlinger: AudioFlinger's thread 0xefb83540 tid=878 ready to run
+01-05 11:36:58.547   509   878 W AudioFlinger: no wake lock to update, system not ready yet
+01-05 11:36:58.548   509   509 I AudioFlinger: openOutput() this 0xf0ebd000, module 10 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 4
+01-05 11:36:58.549   509   509 I AudioFlinger: HAL output buffer size 1024 frames, normal sink buffer size 1024 frames
+01-05 11:36:58.549   509   878 W AudioFlinger: no wake lock to update, system not ready yet
+01-05 11:36:58.549   509   880 I AudioFlinger: AudioFlinger's thread 0xef903280 tid=880 ready to run
+01-05 11:36:58.549   509   880 W AudioFlinger: no wake lock to update, system not ready yet
+01-05 11:36:58.551   509   509 W APM_AudioPolicyManager: Output profile contains no device on module primary
+01-05 11:36:58.551   509   509 W APM_AudioPolicyManager: Output profile contains no device on module primary
+01-05 11:36:58.551   509   509 I AudioFlinger: openOutput() this 0xf0ebd000, module 10 Device 10000, SamplingRate 48000, Format 0x000001, Channels 3, flags 0
+01-05 11:36:58.551   509   509 I AudioFlinger: HAL output buffer size 1024 frames, normal sink buffer size 1024 frames
+01-05 11:36:58.552   509   880 W AudioFlinger: no wake lock to update, system not ready yet
+01-05 11:36:58.552   509   882 I AudioFlinger: AudioFlinger's thread 0xef683580 tid=882 ready to run
+01-05 11:36:58.552   509   882 W AudioFlinger: no wake lock to update, system not ready yet
+01-05 11:36:58.553   509   509 W APM_AudioPolicyManager: Output profile contains no device on module primary
+01-05 11:36:58.553   509   509 W APM_AudioPolicyManager: Output profile contains no device on module primary
+01-05 11:36:58.554   509   882 W AudioFlinger: no wake lock to update, system not ready yet
+01-05 11:36:58.554   509   884 I AudioFlinger: AudioFlinger's thread 0xef403bc0 tid=884 ready to run
+01-05 11:36:58.555   509   886 I AudioFlinger: AudioFlinger's thread 0xef183e00 tid=886 ready to run
+01-05 11:36:58.574   509   509 I bt_a2dp_hw: adev_open:  adev_open in A2dp_hw module
+01-05 11:36:58.574   509   509 I AudioFlinger: loadHwModule() Loaded a2dp audio interface, handle 18
+01-05 11:36:58.574   509   509 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/hw/audio.usb.default.so from the current namespace instead.
+01-05 11:36:58.580   509   509 I AudioFlinger: loadHwModule() Loaded usb audio interface, handle 26
+01-05 11:36:58.580   509   509 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/hw/audio.r_submix.default.so from the current namespace instead.
+01-05 11:36:58.582   509   509 I r_submix: adev_open(name=audio_hw_if)
+01-05 11:36:58.582   509   509 I r_submix: adev_init_check()
+01-05 11:36:58.582   509   509 W DeviceHAL: Device 0xef6d4b00 set_master_mute: Function not implemented
+01-05 11:36:58.582   509   509 I AudioFlinger: loadHwModule() Loaded r_submix audio interface, handle 34
+01-05 11:36:58.582   509   509 D r_submix: adev_open_input_stream(addr=0)
+01-05 11:36:58.582   509   509 D r_submix: submix_audio_device_create_pipe_l(addr=0, idx=9)
+01-05 11:36:58.582   509   509 D r_submix:   now using address 0 for route 9
+01-05 11:36:58.589   509   890 I AudioFlinger: AudioFlinger's thread 0xef183980 tid=890 ready to run
+01-05 11:36:58.590   509   890 D r_submix: adev_close_input_stream()
+01-05 11:36:58.590   509   890 D r_submix: submix_audio_device_release_pipe_l(idx=9) addr=0
+01-05 11:36:58.590   509   890 D r_submix: submix_audio_device_destroy_pipe_l(): pipe destroyed
+01-05 11:36:58.591   509   509 I RadioService: RadioService
+01-05 11:36:58.591   509   509 I RadioService: onFirstRef
+01-05 11:36:58.597   509   509 I BroadcastRadio: onFirstRef mClassId 0
+01-05 11:36:58.597   509   509 I BroadcastRadio: onFirstRef RADIO_HARDWARE_MODULE_ID radio fm
+01-05 11:36:58.597   509   509 E BroadcastRadio: couldn't load radio module radio.fm (No such file or directory)
+01-05 11:36:58.597   509   509 E RadioService: could not read implementation properties
+01-05 11:36:58.603   509   509 E SoundTriggerHalImpl: couldn't load sound trigger module sound_trigger.primary (No such file or directory)
+01-05 11:36:58.603   509   509 I SoundTriggerHalHidl: getProperties res implementor 
+01-05 11:36:58.603   509   509 I SoundTriggerHalHidl: getProperties ret -19
+01-05 11:36:58.603   509   509 E SoundTriggerHwService: could not read implementation properties
+01-05 11:36:59.096   483   483 W /system/bin/healthd: Waited one second for android.hardware.health@1.0::IHealth/default. Waiting another...
+01-05 11:36:59.096   488   488 W /system/bin/surfaceflinger: Waited one second for android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default. Waiting another...
+01-05 11:36:59.690   757   899 W dex2oat : Skipping class android.hidl.base.V1_0.IBase from /system/framework/android.hidl.base-V1.0-java.jar previously found in /system/framework/telephony-common.jar
+01-05 11:36:59.690   757   899 W dex2oat : Skipping class android.hidl.base.V1_0.IBase$Stub from /system/framework/android.hidl.base-V1.0-java.jar previously found in /system/framework/telephony-common.jar
+01-05 11:36:59.690   757   898 W dex2oat : Skipping class android.hidl.base.V1_0.DebugInfo from /system/framework/android.hidl.base-V1.0-java.jar previously found in /system/framework/telephony-common.jar
+01-05 11:36:59.690   757   900 W dex2oat : Skipping class android.hidl.base.V1_0.DebugInfo$Architecture from /system/framework/android.hidl.base-V1.0-java.jar previously found in /system/framework/telephony-common.jar
+01-05 11:36:59.690   757   757 W dex2oat : Skipping class android.hidl.base.V1_0.IBase$Proxy from /system/framework/android.hidl.base-V1.0-java.jar previously found in /system/framework/telephony-common.jar
+01-05 11:36:59.819   907   907 I init    : type=1400 audit(0.0:237): avc: denied { execute_no_trans } for path="/system/vendor/bin/perfd" dev="mmcblk0p47" ino=2263 scontext=u:r:init:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+01-05 11:36:59.844   629   629 W dex2oat : Skipping class android.hidl.base.V1_0.DebugInfo$Architecture from /system/framework/android.hidl.base-V1.0-java.jar previously found in /system/framework/telephony-common.jar
+01-05 11:36:59.844   629   897 W dex2oat : Skipping class android.hidl.base.V1_0.IBase from /system/framework/android.hidl.base-V1.0-java.jar previously found in /system/framework/telephony-common.jar
+01-05 11:36:59.844   629   895 W dex2oat : Skipping class android.hidl.base.V1_0.DebugInfo from /system/framework/android.hidl.base-V1.0-java.jar previously found in /system/framework/telephony-common.jar
+01-05 11:36:59.844   629   896 W dex2oat : Skipping class android.hidl.base.V1_0.IBase$Proxy from /system/framework/android.hidl.base-V1.0-java.jar previously found in /system/framework/telephony-common.jar
+01-05 11:36:59.844   629   629 W dex2oat : Skipping class android.hidl.base.V1_0.IBase$Stub from /system/framework/android.hidl.base-V1.0-java.jar previously found in /system/framework/telephony-common.jar
+01-05 11:36:59.908   500   500 E Diag_Lib:  Diag_LSM_Init: Failed to open handle to diag driver, error = 2
+01-05 11:36:59.976   500   500 E Diag_Lib:  Diag_LSM_Init: Failed to open handle to diag driver, error = 2
+01-05 11:37:00.106   483   483 W /system/bin/healthd: Waited one second for android.hardware.health@1.0::IHealth/default. Waiting another...
+01-05 11:37:00.106   488   488 W /system/bin/surfaceflinger: Waited one second for android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default. Waiting another...
+01-05 11:37:00.228   502   612 E ThermalEngine: [GPU_MON] ACTION: GPU - [GPU_MON] Setting GPU[0] to 600000000
+01-05 11:37:00.233   502   611 E ThermalEngine: [BMHB_GOV] read failed VS_TEMP
+01-05 11:37:00.463   539   539 I adsprpcd: type=1400 audit(0.0:238): avc: denied { ioctl } for path="/dev/adsprpc-smd" dev="tmpfs" ino=10485 ioctlcmd=5201 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+01-05 11:37:00.719   907   907 E ANDR-PERF-MPCTL: Unable to create control service (stage=1, rc=0)
+01-05 11:37:00.719   907   907 W libc    : invalid pthread_t (0) passed to libc
+01-05 11:37:00.864   905   905 I ServiceManagement: Removing namespace from process name android.hardware.health@1.0-service to health@1.0-serv.
+01-05 11:37:00.865   905   905 I android.hardware.health@1.0-service: Registration complete for android.hardware.health@1.0::IHealth/default.
+01-05 11:37:00.868   903   903 I ServiceManagement: Removing namespace from process name android.hardware.configstore@1.0-service to configstore@1.0.
+01-05 11:37:01.000   488   488 I /system/bin/surfaceflinger: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::maxFrameBufferAcquiredBuffers retrieved: 3
+01-05 11:37:01.156   488   488 I /system/bin/surfaceflinger: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::startGraphicsAllocatorService retrieved: 1
+01-05 11:37:01.259   908   908 I lsof    : type=1400 audit(0.0:239): avc: denied { read } for scontext=u:r:toolbox:s0 tcontext=u:r:init:s0 tclass=file permissive=1
+01-05 11:37:01.399   908   908 I lsof    : type=1400 audit(0.0:240): avc: denied { sys_ptrace } for capability=19 scontext=u:r:toolbox:s0 tcontext=u:r:toolbox:s0 tclass=capability permissive=1
+01-05 11:37:01.399   908   908 I lsof    : type=1400 audit(0.0:241): avc: denied { read } for scontext=u:r:toolbox:s0 tcontext=u:r:kernel:s0 tclass=file permissive=1
+01-05 11:37:01.475   908   908 I lsof    : type=1400 audit(0.0:242): avc: denied { getattr } for path="/proc/sysrq-trigger" dev="proc" ino=4026535472 scontext=u:r:toolbox:s0 tcontext=u:object_r:proc_sysrq:s0 tclass=file permissive=1
+01-05 11:37:01.475   908   908 I lsof    : type=1400 audit(0.0:243): avc: denied { getattr } for path="/proc/partitions" dev="proc" ino=4026535457 scontext=u:r:toolbox:s0 tcontext=u:object_r:proc:s0 tclass=file permissive=1
+01-05 11:37:01.475   908   908 I lsof    : type=1400 audit(0.0:244): avc: denied { getattr } for path="/proc/softirqs" dev="proc" ino=4026535448 scontext=u:r:toolbox:s0 tcontext=u:object_r:proc_timer:s0 tclass=file permissive=1
+01-05 11:37:01.475   908   908 I lsof    : type=1400 audit(0.0:245): avc: denied { getattr } for path="/proc/stat" dev="proc" ino=4026535445 scontext=u:r:toolbox:s0 tcontext=u:object_r:proc_stat:s0 tclass=file permissive=1
+01-05 11:37:01.475   908   908 I lsof    : type=1400 audit(0.0:246): avc: denied { getattr } for path="/proc/meminfo" dev="proc" ino=4026535444 scontext=u:r:toolbox:s0 tcontext=u:object_r:proc_meminfo:s0 tclass=file permissive=1
+01-05 11:37:01.475   908   908 I lsof    : type=1400 audit(0.0:247): avc: denied { getattr } for path="/proc/interrupts" dev="proc" ino=4026535442 scontext=u:r:toolbox:s0 tcontext=u:object_r:proc_interrupts:s0 tclass=file permissive=1
+01-05 11:37:01.475   908   908 I lsof    : type=1400 audit(0.0:248): avc: denied { getattr } for path="/proc/zoneinfo" dev="proc" ino=4026535433 scontext=u:r:toolbox:s0 tcontext=u:object_r:proc_zoneinfo:s0 tclass=file permissive=1
+01-05 11:37:01.475   908   908 I lsof    : type=1400 audit(0.0:249): avc: denied { getattr } for path="/proc/modules" dev="proc" ino=4026535428 scontext=u:r:toolbox:s0 tcontext=u:object_r:proc_modules:s0 tclass=file permissive=1
+01-05 11:37:01.475   908   908 I lsof    : type=1400 audit(0.0:250): avc: denied { getattr } for path="/proc/iomem" dev="proc" ino=4026535424 scontext=u:r:toolbox:s0 tcontext=u:object_r:proc_iomem:s0 tclass=file permissive=1
+01-05 11:37:01.475   908   908 I lsof    : type=1400 audit(0.0:251): avc: denied { getattr } for path="/proc/misc" dev="proc" ino=4026535337 scontext=u:r:toolbox:s0 tcontext=u:object_r:proc_misc:s0 tclass=file permissive=1
+01-05 11:37:01.475   908   908 I lsof    : type=1400 audit(0.0:252): avc: denied { getattr } for path="/proc/1" dev="proc" ino=1838 scontext=u:r:toolbox:s0 tcontext=u:r:init:s0 tclass=dir permissive=1
+01-05 11:37:01.475   908   908 I lsof    : type=1400 audit(0.0:253): avc: denied { search } for name="1" dev="proc" ino=1838 scontext=u:r:toolbox:s0 tcontext=u:r:init:s0 tclass=dir permissive=1
+01-05 11:37:01.475   908   908 I lsof    : type=1400 audit(0.0:254): avc: denied { open } for path="/proc/1/stat" dev="proc" ino=15315 scontext=u:r:toolbox:s0 tcontext=u:r:init:s0 tclass=file permissive=1
+01-05 11:37:01.475   908   908 I lsof    : type=1400 audit(0.0:255): avc: denied { read } for name="cwd" dev="proc" ino=15316 scontext=u:r:toolbox:s0 tcontext=u:r:init:s0 tclass=lnk_file permissive=1
+01-05 11:37:01.475   908   908 I lsof    : type=1400 audit(0.0:256): avc: denied { getattr } for path="/init" dev="rootfs" ino=8742 scontext=u:r:toolbox:s0 tcontext=u:object_r:init_exec:s0 tclass=file permissive=1
+01-05 11:37:01.475   908   908 I lsof    : type=1400 audit(0.0:257): avc: denied { getattr } for path="/proc/1/maps" dev="proc" ino=15319 scontext=u:r:toolbox:s0 tcontext=u:r:init:s0 tclass=file permissive=1
+01-05 11:37:01.475   908   908 I lsof    : type=1400 audit(0.0:258): avc: denied { getattr } for path="/dev/__properties__/u:object_r:asan_reboot_prop:s0" dev="tmpfs" ino=1833 scontext=u:r:toolbox:s0 tcontext=u:object_r:asan_reboot_prop:s0 tclass=file permissive=1
+01-05 11:37:01.475   908   908 I lsof    : type=1400 audit(0.0:259): avc: denied { getattr } for path="/dev/__properties__/u:object_r:bluetooth_prop:s0" dev="tmpfs" ino=1832 scontext=u:r:toolbox:s0 tcontext=u:object_r:bluetooth_prop:s0 tclass=file permissive=1
+01-05 11:37:01.475   908   908 I lsof    : type=1400 audit(0.0:260): avc: denied { getattr } for path="/dev/__properties__/u:object_r:dumpstate_options_prop:s0" dev="tmpfs" ino=1824 scontext=u:r:toolbox:s0 tcontext=u:object_r:dumpstate_options_prop:s0 tclass=file permissive=1
+01-05 11:37:01.475   908   908 I lsof    : type=1400 audit(0.0:261): avc: denied { getattr } for path="/dev/__properties__/u:object_r:hwservicemanager_prop:s0" dev="tmpfs" ino=1821 scontext=u:r:toolbox:s0 tcontext=u:object_r:hwservicemanager_prop:s0 tclass=file permissive=1
+01-05 11:37:01.475   908   908 I lsof    : type=1400 audit(0.0:262): avc: denied { getattr } for path="/dev/__properties__/u:object_r:logpersistd_logging_prop:s0" dev="tmpfs" ino=1820 scontext=u:r:toolbox:s0 tcontext=u:object_r:logpersistd_logging_prop:s0 tclass=file permissive=1
+01-05 11:37:01.475   908   908 I lsof    : type=1400 audit(0.0:263): avc: denied { getattr } for path="/dev/__properties__/u:object_r:net_dns_prop:s0" dev="tmpfs" ino=1815 scontext=u:r:toolbox:s0 tcontext=u:object_r:net_dns_prop:s0 tclass=file permissive=1
+01-05 11:37:01.787   908   908 I lsof    : type=1400 audit(0.0:264): avc: denied { getattr } for path="/dev/__properties__/u:object_r:device_logging_prop:s0" dev="tmpfs" ino=1811 scontext=u:r:toolbox:s0 tcontext=u:object_r:device_logging_prop:s0 tclass=file permissive=1
+01-05 11:37:01.787   908   908 I lsof    : type=1400 audit(0.0:265): avc: denied { getattr } for path="/dev/__properties__/u:object_r:mmc_prop:s0" dev="tmpfs" ino=1809 scontext=u:r:toolbox:s0 tcontext=u:object_r:mmc_prop:s0 tclass=file permissive=1
+01-05 11:37:01.787   908   908 I lsof    : type=1400 audit(0.0:266): avc: denied { getattr } for path="/dev/__properties__/u:object_r:safemode_prop:s0" dev="tmpfs" ino=1808 scontext=u:r:toolbox:s0 tcontext=u:object_r:safemode_prop:s0 tclass=file permissive=1
+01-05 11:37:01.787   908   908 I lsof    : type=1400 audit(0.0:267): avc: denied { getattr } for path="/dev/__properties__/u:object_r:overlay_prop:s0" dev="tmpfs" ino=1807 scontext=u:r:toolbox:s0 tcontext=u:object_r:overlay_prop:s0 tclass=file permissive=1
+01-05 11:37:01.787   908   908 I lsof    : type=1400 audit(0.0:268): avc: denied { getattr } for path="/dev/__properties__/u:object_r:serialno_prop:s0" dev="tmpfs" ino=1806 scontext=u:r:toolbox:s0 tcontext=u:object_r:serialno_prop:s0 tclass=file permissive=1
+01-05 11:37:01.787   908   908 I lsof    : type=1400 audit(0.0:269): avc: denied { getattr } for path="/dev/__properties__/u:object_r:boottime_prop:s0" dev="tmpfs" ino=1805 scontext=u:r:toolbox:s0 tcontext=u:object_r:boottime_prop:s0 tclass=file permissive=1
+01-05 11:37:01.787   908   908 I lsof    : type=1400 audit(0.0:270): avc: denied { getattr } for path="/dev/__properties__/u:object_r:persistent_properties_ready_prop:s0" dev="tmpfs" ino=1802 scontext=u:r:toolbox:s0 tcontext=u:object_r:persistent_properties_ready_prop:s0 tclass=file permissive=1
+01-05 11:37:01.787   908   908 I lsof    : type=1400 audit(0.0:271): avc: denied { getattr } for path="/dev/__properties__/u:object_r:firstboot_prop:s0" dev="tmpfs" ino=1801 scontext=u:r:toolbox:s0 tcontext=u:object_r:firstboot_prop:s0 tclass=file permissive=1
+01-05 11:37:01.787   908   908 I lsof    : type=1400 audit(0.0:272): avc: denied { getattr } for path="/dev/__properties__/u:object_r:wifi_prop:s0" dev="tmpfs" ino=1793 scontext=u:r:toolbox:s0 tcontext=u:object_r:wifi_prop:s0 tclass=file permissive=1
+01-05 11:37:01.787   908   908 I lsof    : type=1400 audit(0.0:273): avc: denied { getattr } for path="/dev/__properties__/u:object_r:radio_atfwd_prop:s0" dev="tmpfs" ino=1792 scontext=u:r:toolbox:s0 tcontext=u:object_r:radio_atfwd_prop:s0 tclass=file permissive=1
+01-05 11:37:01.787   908   908 I lsof    : type=1400 audit(0.0:274): avc: denied { getattr } for path="/dev/__properties__/u:object_r:contexthub_prop:s0" dev="tmpfs" ino=1791 scontext=u:r:toolbox:s0 tcontext=u:object_r:contexthub_prop:s0 tclass=file permissive=1
+01-05 11:37:01.787   908   908 I lsof    : type=1400 audit(0.0:275): avc: denied { getattr } for path="/dev/__properties__/u:object_r:qcom_ims_prop:s0" dev="tmpfs" ino=1790 scontext=u:r:toolbox:s0 tcontext=u:object_r:qcom_ims_prop:s0 tclass=file permissive=1
+01-05 11:37:01.799   843   843 E SELinux : avc:  denied  { add } for interface=android.hardware.graphics.allocator::IAllocator pid=488 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:hal_graphics_allocator_hwservice:s0 tclass=hwservice_manager
+01-05 11:37:02.065   629   895 W dex2oat : Verification of void android.content.ClipData$Item.<init>(java.lang.CharSequence, java.lang.String, android.content.Intent, android.net.Uri) took 117.342ms
+01-05 11:37:02.167   488   488 I SurfaceFlinger: Registration complete for android.hardware.graphics.allocator@2.0::IAllocator/default.
+01-05 11:37:02.329   488   488 I SurfaceFlinger: SurfaceFlinger is starting
+01-05 11:37:02.407   488   488 I /system/bin/surfaceflinger: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::vsyncEventPhaseOffsetNs retrieved: 1000000 (default)
+01-05 11:37:02.457   488   488 I /system/bin/surfaceflinger: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::vsyncSfEventPhaseOffsetNs retrieved: 1000000 (default)
+01-05 11:37:02.465   488   488 I /system/bin/surfaceflinger: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::maxVirtualDisplaySize retrieved: 0 (default)
+01-05 11:37:02.474   906   906 I ServiceManagement: Removing namespace from process name android.hardware.usb@1.0-service to usb@1.0-service.
+01-05 11:37:02.486   488   488 I /system/bin/surfaceflinger: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasSyncFramework retrieved: 1
+01-05 11:37:02.807   906   906 I android.hardware.usb@1.0-service: USB HAL Ready.
+01-05 11:37:02.912   629   895 W dex2oat : Verification of int android.mtp.MtpDatabase.beginSendObject(java.lang.String, int, int, int, long, long) took 101.780ms
+01-05 11:37:02.915   843   843 E hw-IPCThreadState: binder thread pool (1 threads) starved for 430 ms
+01-05 11:37:02.916   488   488 I /system/bin/surfaceflinger: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::useContextPriority retrieved: 0 (default)
+01-05 11:37:02.921   902   902 I ServiceManagement: Removing namespace from process name android.hidl.allocator@1.0-service to allocator@1.0-s.
+01-05 11:37:02.964   629   897 W dex2oat : Verification of void android.media.tv.TvInputService$ServiceHandler.handleMessage(android.os.Message) took 120.848ms
+01-05 11:37:03.204   843   843 E hw-IPCThreadState: binder thread pool (1 threads) starved for 264 ms
+01-05 11:37:03.205   488   488 I /system/bin/surfaceflinger: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::presentTimeOffsetFromVSyncNs retrieved: 0
+01-05 11:37:03.458   757   899 W dex2oat : Verification of void com.android.internal.telephony.Phone$1.onReceive(android.content.Context, android.content.Intent) took 158.407ms
+01-05 11:37:03.522   488   488 I /system/bin/surfaceflinger: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::useHwcForRGBtoYUV retrieved: 0
+01-05 11:37:03.522   488   488 I /system/bin/surfaceflinger: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::maxFrameBufferAcquiredBuffers retrieved: 3
+01-05 11:37:03.522   488   488 I SurfaceFlinger: Enabling HWC virtual displays
+01-05 11:37:03.522   488   488 I SurfaceFlinger: Disabling Triple Buffering
+01-05 11:37:03.522   488   488 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+01-05 11:37:03.523   843   843 E hw-IPCThreadState: binder thread pool (1 threads) starved for 316 ms
+01-05 11:37:03.526   488   488 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib64/egl/libEGL_adreno.so from the current namespace instead.
+01-05 11:37:03.546   488   488 D libEGL  : loaded /vendor/lib64/egl/libEGL_adreno.so
+01-05 11:37:03.619   908   908 I lsof    : type=1400 audit(0.0:285): avc: denied { getattr } for path="socket:[13331]" dev="sockfs" ino=13331 scontext=u:r:toolbox:s0 tcontext=u:r:init:s0 tclass=netlink_selinux_socket permissive=1
+01-05 11:37:03.619   908   908 I lsof    : type=1400 audit(0.0:286): avc: denied { getattr } for path="/proc/2" dev="proc" ino=15209 scontext=u:r:toolbox:s0 tcontext=u:r:kernel:s0 tclass=dir permissive=1
+01-05 11:37:03.619   908   908 I lsof    : type=1400 audit(0.0:287): avc: denied { read } for scontext=u:r:toolbox:s0 tcontext=u:r:kernel:s0 tclass=file permissive=1
+01-05 11:37:03.619   908   908 I lsof    : type=1400 audit(0.0:288): avc: denied { search } for name="2" dev="proc" ino=15209 scontext=u:r:toolbox:s0 tcontext=u:r:kernel:s0 tclass=dir permissive=1
+01-05 11:37:03.619   908   908 I lsof    : type=1400 audit(0.0:289): avc: denied { open } for path="/proc/2/stat" dev="proc" ino=17610 scontext=u:r:toolbox:s0 tcontext=u:r:kernel:s0 tclass=file permissive=1
+01-05 11:37:03.619   908   908 I lsof    : type=1400 audit(0.0:290): avc: denied { read } for name="cwd" dev="proc" ino=17611 scontext=u:r:toolbox:s0 tcontext=u:r:kernel:s0 tclass=lnk_file permissive=1
+01-05 11:37:03.619   908   908 I lsof    : type=1400 audit(0.0:291): avc: denied { getattr } for path="/proc/2/maps" dev="proc" ino=17614 scontext=u:r:toolbox:s0 tcontext=u:r:kernel:s0 tclass=file permissive=1
+01-05 11:37:03.619   908   908 I lsof    : type=1400 audit(0.0:292): avc: denied { read } for name="fd" dev="proc" ino=17615 scontext=u:r:toolbox:s0 tcontext=u:r:kernel:s0 tclass=dir permissive=1
+01-05 11:37:03.619   908   908 I lsof    : type=1400 audit(0.0:293): avc: denied { open } for path="/proc/2/fd" dev="proc" ino=17615 scontext=u:r:toolbox:s0 tcontext=u:r:kernel:s0 tclass=dir permissive=1
+01-05 11:37:03.687   488   488 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib64/egl/libGLESv1_CM_adreno.so from the current namespace instead.
+01-05 11:37:03.702   488   488 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_adreno.so
+01-05 11:37:03.932   488   488 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib64/egl/libGLESv2_adreno.so from the current namespace instead.
+01-05 11:37:03.932   488   488 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_adreno.so
+01-05 11:37:03.933   757   899 W dex2oat : Skipping class android.hidl.base.V1_0.DebugInfo from /system/framework/android.hidl.base-V1.0-java.jar previously found in /system/framework/telephony-common.jar
+01-05 11:37:03.933   757   898 W dex2oat : Skipping class android.hidl.base.V1_0.IBase$Proxy from /system/framework/android.hidl.base-V1.0-java.jar previously found in /system/framework/telephony-common.jar
+01-05 11:37:03.933   757   899 W dex2oat : Skipping class android.hidl.base.V1_0.IBase$Stub from /system/framework/android.hidl.base-V1.0-java.jar previously found in /system/framework/telephony-common.jar
+01-05 11:37:03.933   757   757 W dex2oat : Skipping class android.hidl.base.V1_0.DebugInfo$Architecture from /system/framework/android.hidl.base-V1.0-java.jar previously found in /system/framework/telephony-common.jar
+01-05 11:37:03.933   757   900 W dex2oat : Skipping class android.hidl.base.V1_0.IBase from /system/framework/android.hidl.base-V1.0-java.jar previously found in /system/framework/telephony-common.jar
+01-05 11:37:04.015   799   799 I qmuxd   : type=1400 audit(0.0:294): avc: denied { write } for name="qmux_nfc" dev="tmpfs" ino=11013 scontext=u:r:qmux:s0 tcontext=u:object_r:socket_device:s0 tclass=dir permissive=1
+01-05 11:37:04.015   799   799 I qmuxd   : type=1400 audit(0.0:295): avc: denied { add_name } for name="qmux_connect_socket" scontext=u:r:qmux:s0 tcontext=u:object_r:socket_device:s0 tclass=dir permissive=1
+01-05 11:37:04.015   799   799 I qmuxd   : type=1400 audit(0.0:296): avc: denied { create } for name="qmux_connect_socket" scontext=u:r:qmux:s0 tcontext=u:object_r:socket_device:s0 tclass=sock_file permissive=1
+01-05 11:37:04.015   799   799 I qmuxd   : type=1400 audit(0.0:297): avc: denied { setattr } for name="qmux_connect_socket" dev="tmpfs" ino=18855 scontext=u:r:qmux:s0 tcontext=u:object_r:socket_device:s0 tclass=sock_file permissive=1
+01-05 11:37:04.075   488   488 I Adreno  : QUALCOMM build                   : d3015e9, I25dc76dc3f
+01-05 11:37:04.075   488   488 I Adreno  : Build Date                       : 01/26/17
+01-05 11:37:04.075   488   488 I Adreno  : OpenGL ES Shader Compiler Version: XE031.09.00.03
+01-05 11:37:04.075   488   488 I Adreno  : Local Branch                     : 
+01-05 11:37:04.075   488   488 I Adreno  : Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.BF64.1.2.3_RB1.07.00.00.258.011
+01-05 11:37:04.075   488   488 I Adreno  : Remote Branch                    : NONE
+01-05 11:37:04.075   488   488 I Adreno  : Reconstruct Branch               : NOTHING
+01-05 11:37:04.179   565   565 I thermal-engine: type=1400 audit(0.0:298): avc: denied { write } for name="qmux_connect_socket" dev="tmpfs" ino=18847 scontext=u:r:init:s0 tcontext=u:object_r:qmuxd_socket:s0 tclass=sock_file permissive=1
+01-05 11:37:04.179   565   565 I thermal-engine: type=1400 audit(0.0:299): avc: denied { connectto } for path="/dev/socket/qmux_radio/qmux_connect_socket" scontext=u:r:init:s0 tcontext=u:r:qmux:s0 tclass=unix_stream_socket permissive=1
+01-05 11:37:04.383   563   563 I thermal-engine: type=1400 audit(0.0:300): avc: denied { create } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+01-05 11:37:04.383   563   563 I thermal-engine: type=1400 audit(0.0:301): avc: denied { ioctl } for path="socket:[18899]" dev="sockfs" ino=18899 ioctlcmd=c304 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+01-05 11:37:04.388   629   896 W dex2oat : Verification of void com.android.internal.telephony.ServiceStateTracker.pollStateDone() took 127.094ms
+01-05 11:37:04.389   502   565 I ThermalEngine: qmi: Instance id 157 for fusion TS
+01-05 11:37:04.499   502   564 I ThermalEngine: ADSP thermal mitigation available.
+01-05 11:37:04.514   502   564 I ThermalEngine: ACTION: ADSP - Pending request: cpuv_restriction_cold mitigation succeeded for level 0.
+01-05 11:37:04.514   904   904 I ServiceManagement: Removing namespace from process name android.hardware.graphics.allocator@2.0-service to allocator@2.0-s.
+01-05 11:37:04.491   564   564 I thermal-engine: type=1400 audit(0.0:302): avc: denied { write } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+01-05 11:37:04.495   994   994 I thermal-engine: type=1400 audit(0.0:303): avc: denied { read } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+01-05 11:37:04.566   502   562 I ThermalEngine: MODEM thermal mitigation available.
+01-05 11:37:04.568   502   562 I ThermalEngine: ACTION: MODEM - Pending request: pa mitigation succeeded for level 0.
+01-05 11:37:04.578   502   562 I ThermalEngine: ACTION: MODEM - Pending request: cpuv_restriction_cold mitigation succeeded for level 0.
+01-05 11:37:04.605   629   629 W dex2oat : Skipping class android.hidl.base.V1_0.DebugInfo$Architecture from /system/framework/android.hidl.base-V1.0-java.jar previously found in /system/framework/telephony-common.jar
+01-05 11:37:04.605   629   895 W dex2oat : Skipping class android.hidl.base.V1_0.DebugInfo from /system/framework/android.hidl.base-V1.0-java.jar previously found in /system/framework/telephony-common.jar
+01-05 11:37:04.605   629   897 W dex2oat : Skipping class android.hidl.base.V1_0.IBase from /system/framework/android.hidl.base-V1.0-java.jar previously found in /system/framework/telephony-common.jar
+01-05 11:37:04.605   629   896 W dex2oat : Skipping class android.hidl.base.V1_0.IBase$Proxy from /system/framework/android.hidl.base-V1.0-java.jar previously found in /system/framework/telephony-common.jar
+01-05 11:37:04.605   629   629 W dex2oat : Skipping class android.hidl.base.V1_0.IBase$Stub from /system/framework/android.hidl.base-V1.0-java.jar previously found in /system/framework/telephony-common.jar
+01-05 11:37:04.607   908   908 I lsof    : type=1400 audit(0.0:304): avc: denied { read } for scontext=u:r:toolbox:s0 tcontext=u:r:ueventd:s0 tclass=file permissive=1
+01-05 11:37:04.613   488   853 E hw-IPCThreadState: binder thread pool (1 threads) starved for 6509 ms
+01-05 11:37:04.613   904   904 I android.hardware.graphics.allocator@2.0-service: Registration complete for android.hardware.graphics.allocator@2.0::IAllocator/default.
+01-05 11:37:04.633   901   901 I android.hardware.wifi@1.0-service: Wifi Hal is starting up...
+01-05 11:37:04.633   901   901 I ServiceManagement: Removing namespace from process name android.hardware.wifi@1.0-service to wifi@1.0-servic.
+01-05 11:37:04.695  1041  1041 I init    : type=1400 audit(0.0:319): avc: denied { execute_no_trans } for path="/system/vendor/bin/perfd" dev="mmcblk0p47" ino=2263 scontext=u:r:init:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+01-05 11:37:04.715   908   908 I lsof    : type=1400 audit(0.0:320): avc: denied { getattr } for path="/proc/333" dev="proc" ino=9740 scontext=u:r:toolbox:s0 tcontext=u:r:ueventd:s0 tclass=dir permissive=1
+01-05 11:37:04.715   908   908 I lsof    : type=1400 audit(0.0:321): avc: denied { search } for name="333" dev="proc" ino=9740 scontext=u:r:toolbox:s0 tcontext=u:r:ueventd:s0 tclass=dir permissive=1
+01-05 11:37:04.715   908   908 I lsof    : type=1400 audit(0.0:322): avc: denied { open } for path="/proc/333/stat" dev="proc" ino=20787 scontext=u:r:toolbox:s0 tcontext=u:r:ueventd:s0 tclass=file permissive=1
+01-05 11:37:04.715   908   908 I lsof    : type=1400 audit(0.0:323): avc: denied { read } for name="cwd" dev="proc" ino=20788 scontext=u:r:toolbox:s0 tcontext=u:r:ueventd:s0 tclass=lnk_file permissive=1
+01-05 11:37:04.715   908   908 I lsof    : type=1400 audit(0.0:324): avc: denied { getattr } for path="/init" dev="rootfs" ino=8742 scontext=u:r:toolbox:s0 tcontext=u:object_r:init_exec:s0 tclass=file permissive=1
+01-05 11:37:04.715   908   908 I lsof    : type=1400 audit(0.0:325): avc: denied { getattr } for path="/proc/333/maps" dev="proc" ino=20791 scontext=u:r:toolbox:s0 tcontext=u:r:ueventd:s0 tclass=file permissive=1
+01-05 11:37:04.715   908   908 I lsof    : type=1400 audit(0.0:326): avc: denied { read } for name="fd" dev="proc" ino=20792 scontext=u:r:toolbox:s0 tcontext=u:r:ueventd:s0 tclass=dir permissive=1
+01-05 11:37:04.715   908   908 I lsof    : type=1400 audit(0.0:327): avc: denied { open } for path="/proc/333/fd" dev="proc" ino=20792 scontext=u:r:toolbox:s0 tcontext=u:r:ueventd:s0 tclass=dir permissive=1
+01-05 11:37:04.715   908   908 I lsof    : type=1400 audit(0.0:328): avc: denied { getattr } for path="socket:[9745]" dev="sockfs" ino=9745 scontext=u:r:toolbox:s0 tcontext=u:r:ueventd:s0 tclass=netlink_kobject_uevent_socket permissive=1
+01-05 11:37:04.723   908   908 I lsof    : type=1400 audit(0.0:329): avc: denied { getattr } for path="/proc/468" dev="proc" ino=10875 scontext=u:r:toolbox:s0 tcontext=u:r:init:s0 tclass=dir permissive=1
+01-05 11:37:04.723   908   908 I lsof    : type=1400 audit(0.0:330): avc: denied { search } for name="468" dev="proc" ino=10875 scontext=u:r:toolbox:s0 tcontext=u:r:init:s0 tclass=dir permissive=1
+01-05 11:37:04.723   908   908 I lsof    : type=1400 audit(0.0:331): avc: denied { open } for path="/proc/468/stat" dev="proc" ino=20908 scontext=u:r:toolbox:s0 tcontext=u:r:init:s0 tclass=file permissive=1
+01-05 11:37:04.723   908   908 I lsof    : type=1400 audit(0.0:332): avc: denied { read } for name="cwd" dev="proc" ino=20909 scontext=u:r:toolbox:s0 tcontext=u:r:init:s0 tclass=lnk_file permissive=1
+01-05 11:37:04.723   908   908 I lsof    : type=1400 audit(0.0:333): avc: denied { getattr } for path="/proc/468/maps" dev="proc" ino=20912 scontext=u:r:toolbox:s0 tcontext=u:r:init:s0 tclass=file permissive=1
+01-05 11:37:04.727   908   908 I lsof    : type=1400 audit(0.0:334): avc: denied { getattr } for path="/dev/__properties__/u:object_r:firstboot_prop:s0" dev="tmpfs" ino=1801 scontext=u:r:toolbox:s0 tcontext=u:object_r:firstboot_prop:s0 tclass=file permissive=1
+01-05 11:37:04.727   908   908 I lsof    : type=1400 audit(0.0:335): avc: denied { getattr } for path="/dev/__properties__/u:object_r:wifi_prop:s0" dev="tmpfs" ino=1793 scontext=u:r:toolbox:s0 tcontext=u:object_r:wifi_prop:s0 tclass=file permissive=1
+01-05 11:37:04.727   908   908 I lsof    : type=1400 audit(0.0:336): avc: denied { getattr } for path="/dev/__properties__/u:object_r:radio_atfwd_prop:s0" dev="tmpfs" ino=1792 scontext=u:r:toolbox:s0 tcontext=u:object_r:radio_atfwd_prop:s0 tclass=file permissive=1
+01-05 11:37:04.727   908   908 I lsof    : type=1400 audit(0.0:337): avc: denied { getattr } for path="/dev/__properties__/u:object_r:contexthub_prop:s0" dev="tmpfs" ino=1791 scontext=u:r:toolbox:s0 tcontext=u:object_r:contexthub_prop:s0 tclass=file permissive=1
+01-05 11:37:04.727   908   908 I lsof    : type=1400 audit(0.0:338): avc: denied { getattr } for path="/dev/__properties__/u:object_r:qcom_ims_prop:s0" dev="tmpfs" ino=1790 scontext=u:r:toolbox:s0 tcontext=u:object_r:qcom_ims_prop:s0 tclass=file permissive=1
+01-05 11:37:04.741  1041  1041 E ANDR-PERF-MPCTL: Unable to create control service (stage=1, rc=0)
+01-05 11:37:04.741  1041  1041 W libc    : invalid pthread_t (0) passed to libc
+01-05 11:37:04.828   488   488 I qdutils : PartialUpdate status: Disabled
+01-05 11:37:04.828   488   488 I qdutils : Left Align: 0
+01-05 11:37:04.828   488   488 I qdutils : Width Align: 0
+01-05 11:37:04.828   488   488 I qdutils : Top Align: 0
+01-05 11:37:04.828   488   488 I qdutils : Height Align: 0
+01-05 11:37:04.828   488   488 I qdutils : Min ROI Width: 0
+01-05 11:37:04.828   488   488 I qdutils : Min ROI Height: 0
+01-05 11:37:04.828   488   488 I qdutils : Needs ROI Merge: 0
+01-05 11:37:04.828   488   488 I qdutils : Dynamic Fps: Disabled
+01-05 11:37:04.828   488   488 I qdutils : Min Panel fps: 0
+01-05 11:37:04.828   488   488 I qdutils : Max Panel fps: 0
+01-05 11:37:04.828   488   488 I qdutils : Left Split=720
+01-05 11:37:04.828   488   488 I qdutils : Right Split=720
+01-05 11:37:04.828   488   488 D qdutils : getHDMINode: HDMI is at fb1
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 0 surface_id=-1026555902
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 1 surface_id=-1026555901
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 2 surface_id=-1026555900
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 3 surface_id=-1026555899
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 4 surface_id=-1026555898
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 5 surface_id=-1026555897
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 6 surface_id=-1026555896
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 7 surface_id=-1026555895
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 8 surface_id=-1026555894
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 9 surface_id=-1026555893
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 10 surface_id=-1026555892
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 11 surface_id=-1026555891
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 12 surface_id=-1026555890
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 13 surface_id=-1026555889
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 14 surface_id=-1026555888
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 15 surface_id=-1026555887
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 16 surface_id=-1026555886
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 17 surface_id=-1026555885
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 18 surface_id=-1026555884
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 19 surface_id=-1026555883
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 20 surface_id=-1026555882
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 21 surface_id=-1026555881
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 22 surface_id=-1026555880
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 23 surface_id=-1026555879
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 24 surface_id=-1026555878
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 25 surface_id=-1026555877
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 26 surface_id=-1026555876
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 27 surface_id=-1026555875
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 28 surface_id=-1026555874
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 29 surface_id=-1026555873
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 30 surface_id=-1026555872
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit i = 31 surface_id=-1026555871
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit: 2 Plane YUV i=0 surface_id=-1026555869
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit: 2 Plane YUV i=1 surface_id=-1026555868
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit: 2 Plane YUV i=2 surface_id=-1026555867
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit: 2 Plane YUV i=3 surface_id=-1026555866
+01-05 11:37:04.841   488   488 W qdcopybit: open_copybit: 3 Plane YUV i=0 surface_id=-1026555864
+01-05 11:37:04.844   488   488 I qdhwcomposer: Successfully Loaded perf hint API's
+01-05 11:37:04.844   488   488 I qdhwcomposer: PerfHintWindow = 50
+01-05 11:37:04.844   488   488 I qdhwcomposer: Initializing Qualcomm Hardware Composer
+01-05 11:37:04.844   488   488 I qdhwcomposer: MDP version: 500
+01-05 11:37:04.844   488   488 I SurfaceFlinger: Using composer version 1.5
+01-05 11:37:04.844   488   488 I qdhwcomposer: hwc_registerProcs
+01-05 11:37:04.844   488   488 I qdhwcomposer: Initializing UEVENT Thread
+01-05 11:37:04.845   488   488 I qdhwcomposer: Initializing VSYNC Thread
+01-05 11:37:04.845   488   488 D qdhwcomposer: hwc_getDisplayAttributes disp = 0, width = 1440
+01-05 11:37:04.845   488   488 D qdhwcomposer: hwc_getDisplayAttributes disp = 0, height = 2560
+01-05 11:37:04.845   488   488 W qdhwcomposer: hwc_getDisplayConfigs display (1) is not connected anymore
+01-05 11:37:04.846   488   488 I SurfaceFlinger: EGL information:
+01-05 11:37:04.846   488   488 I SurfaceFlinger: vendor    : Android
+01-05 11:37:04.846   488   488 I SurfaceFlinger: version   : 1.4 Android META-EGL
+01-05 11:37:04.846   488   488 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_ANDROID_get_native_client_buffer EGL_ANDROID_front_buffer_auto_refresh EGL_ANDROID_get_frame_timestamps EGL_KHR_image EGL_KHR_image_base EGL_KHR_lock_surface EGL_KHR_gl_colorspace EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_reusable_sync EGL_KHR_fence_sync EGL_KHR_create_context EGL_KHR_surfaceless_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_KHR_partial_update EGL_KHR_create_context_no_error EGL_KHR_mutable_render_buffer EGL_EXT_yuv_surface EGL_IMG_context_priority 
+01-05 11:37:04.846   488   488 I SurfaceFlinger: Client API: OpenGL_ES
+01-05 11:37:04.846   488   488 I SurfaceFlinger: EGLSurface: 8-8-8-8, config=0x7dfb1c9da0
+01-05 11:37:04.849   488  1047 I qdhwcomposer: vsync_loop: Reading event 0 for dpy 0 from /sys/class/graphics/fb0/vsync_event
+01-05 11:37:04.849   488  1047 I qdhwcomposer: vsync_loop: Reading event 1 for dpy 0 from /sys/class/graphics/fb0/show_blank_event
+01-05 11:37:04.849   488  1047 I qdhwcomposer: vsync_loop: Reading event 2 for dpy 0 from /sys/class/graphics/fb0/msm_fb_thermal_level
+01-05 11:37:04.849   488  1047 I qdhwcomposer: vsync_loop: Reading event 0 for dpy 1 from /sys/class/graphics/fb1/vsync_event
+01-05 11:37:04.849   488  1047 I qdhwcomposer: vsync_loop: Reading event 1 for dpy 1 from /sys/class/graphics/fb1/show_blank_event
+01-05 11:37:04.849   488  1047 I qdhwcomposer: vsync_loop: Reading event 2 for dpy 1 from /sys/class/graphics/fb1/msm_fb_thermal_level
+01-05 11:37:04.849   488  1047 I qdhwcomposer: vsync_loop: Reading event 0 for dpy 2 from /sys/class/graphics/fb1/vsync_event
+01-05 11:37:04.849   488  1047 I qdhwcomposer: vsync_loop: Reading event 1 for dpy 2 from /sys/class/graphics/fb1/show_blank_event
+01-05 11:37:04.849   488  1047 I qdhwcomposer: vsync_loop: Reading event 2 for dpy 2 from /sys/class/graphics/fb1/msm_fb_thermal_level
+01-05 11:37:04.851   488   488 I SurfaceFlinger: OpenGL ES informations:
+01-05 11:37:04.851   488   488 I SurfaceFlinger: vendor    : Qualcomm
+01-05 11:37:04.851   488   488 I SurfaceFlinger: renderer  : Adreno (TM) 418
+01-05 11:37:04.851   488   488 I SurfaceFlinger: version   : OpenGL ES 3.2 V@145.0 (GIT@I25dc76dc3f)
+01-05 11:37:04.851   488   488 I SurfaceFlinger: extensions: GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_vertex_half_float GL_OES_framebuffer_object GL_OES_rgb8_rgba8 GL_OES_compressed_ETC1_RGB8_texture GL_AMD_compressed_ATC_texture GL_KHR_texture_compression_astc_ldr GL_OES_texture_npot GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_OES_texture_3D GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_QCOM_alpha_test GL_OES_depth24 GL_OES_packed_depth_stencil GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_EXT_sRGB GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_EXT_texture_type_2_10_10_10_REV GL_EXT_texture_sRGB_decode GL_OES_element_index_uint GL_EXT_copy_image GL_EXT_geometry_shader GL_EXT_tessellation_shader GL_OES_texture_stencil8 GL_EXT_shader_io_blocks GL_OES_shader_image_atomic GL_OES_sample_variables GL_EXT_texture_border_clamp GL_EXT_multisampled_render_to_texture GL_OES_shader_multisample_interpolation GL_EXT_texture_cube_map_arr
+01-05 11:37:04.851   488   488 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 16384
+01-05 11:37:04.851   488   488 I SurfaceFlinger: GL_MAX_VIEWPORT_DIMS = 16384
+01-05 11:37:04.882   904   904 I qdutils : PartialUpdate status: Disabled
+01-05 11:37:04.882   904   904 I qdutils : Left Align: 0
+01-05 11:37:04.882   904   904 I qdutils : Width Align: 0
+01-05 11:37:04.882   904   904 I qdutils : Top Align: 0
+01-05 11:37:04.882   904   904 I qdutils : Height Align: 0
+01-05 11:37:04.882   904   904 I qdutils : Min ROI Width: 0
+01-05 11:37:04.882   904   904 I qdutils : Min ROI Height: 0
+01-05 11:37:04.882   904   904 I qdutils : Needs ROI Merge: 0
+01-05 11:37:04.882   904   904 I qdutils : Dynamic Fps: Disabled
+01-05 11:37:04.882   904   904 I qdutils : Min Panel fps: 0
+01-05 11:37:04.882   904   904 I qdutils : Max Panel fps: 0
+01-05 11:37:05.029   506   506 D ImsWmsClient: ImsWmsClient :: Modem is initialized; handle=255
+01-05 11:37:05.233   502   611 E ThermalEngine: [BMHB_GOV] read failed VS_TEMP
+01-05 11:37:05.246   488   488 D SurfaceFlinger: shader cache generated - 24 shaders in 326.642426 ms
+01-05 11:37:05.248   488   488 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7dfb06d000
+01-05 11:37:05.248   488   488 D qdhwcomposer: hwc_setPowerMode: Setting mode 2 on display: 0
+01-05 11:37:05.248   488  1047 I qdhwcomposer: handle_blank_event: dpy:0 panel power state: 1
+01-05 11:37:05.249   488   488 E qdhdmi  : writeHPDOption: file write failed 'hpd'
+01-05 11:37:05.249   488   488 D qdhwcomposer: hwc_setPowerMode: Done setting mode 2 on display 0
+01-05 11:37:05.292   488   488 D qdutils : DEBUG_CALC_FPS: 0
+01-05 11:37:05.292   488   488 D qdutils : period: 10
+01-05 11:37:05.292   488   488 D qdutils : ignorethresh_us: 500000
