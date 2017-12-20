@@ -1,394 +1,645 @@
 --------- beginning of main
-01-04 01:58:44.619  1174  1174 E hwservicemanager: BINDER_SET_INHERIT_FIFO_PRIO failed with error -1
-01-04 01:58:44.625   962   962 E keymaster1_device: Keymaster loaded/ queried from Qseecomd
-01-04 01:58:44.671   962   962 E keymaster1_device: TA API Major Verion: 1
-01-04 01:58:44.671   962   962 E keymaster1_device: TA API Minor Verion: 0
-01-04 01:58:44.671   962   962 E keymaster1_device: TA Major Verion: 1
-01-04 01:58:44.671   962   962 E keymaster1_device: TA Minor Verion: 10
-01-04 01:58:44.671   962   962 E keymaster1_device: set_version_req->flags: 1
+01-05 13:43:38.495     0  1247 E Zygote  : System zygote died with exception
+01-05 13:43:38.495     0  1247 E Zygote  : java.lang.NullPointerException: Attempt to invoke interface method 'android.os.IBinder android.os.IServiceManager.getService(java.lang.String)' on a null object reference
+01-05 13:43:38.495     0  1247 E Zygote  : 	at android.os.ServiceManager.getService(ServiceManager.java:56)
+01-05 13:43:38.495     0  1247 E Zygote  : 	at com.android.internal.os.ZygoteInit.performSystemServerDexOpt(ZygoteInit.java:538)
+01-05 13:43:38.495     0  1247 E Zygote  : 	at com.android.internal.os.ZygoteInit.handleSystemServerProcess(ZygoteInit.java:462)
+01-05 13:43:38.495     0  1247 E Zygote  : 	at com.android.internal.os.ZygoteInit.startSystemServer(ZygoteInit.java:651)
+01-05 13:43:38.495     0  1247 E Zygote  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:759)
+01-05 13:43:38.538   996   996 E Zygote  : Exit zygote because system server (1247) has terminated
+01-05 13:43:38.545  1260  1260 E hwservicemanager: BINDER_SET_INHERIT_FIFO_PRIO failed with error -1
+01-05 13:43:38.552  1002  1002 E keymaster1_device: Keymaster loaded/ queried from Qseecomd
+01-05 13:43:38.599  1002  1002 E keymaster1_device: TA API Major Verion: 1
+01-05 13:43:38.599  1002  1002 E keymaster1_device: TA API Minor Verion: 0
+01-05 13:43:38.599  1002  1002 E keymaster1_device: TA Major Verion: 1
+01-05 13:43:38.599  1002  1002 E keymaster1_device: TA Minor Verion: 10
+01-05 13:43:38.599  1002  1002 E keymaster1_device: set_version_req->flags: 1
 --------- beginning of system
-01-04 01:58:45.044   956   977 E QMI_FW  : QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
-01-04 01:58:45.044   956   977 E QMI_FW  : QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
-01-04 01:58:45.044   956   977 E QC-time-services: Daemon:genoff_modem_qmi_service_request: qmi_client_get_service_list returned -2num_services 0
-01-04 01:58:45.090   960   960 E gatekeeper_device: Gatekeeper (Keymaster TA) loaded/ queried from Qseecomd
-01-04 01:58:45.143  1188  1188 E Netd    : Error adding route 0.0.0.0/0 -> (null) dummy0 to table 1002: File exists
-01-04 01:58:45.760  1241  1241 E QSEECOMD: : Listener: index = 0, hierarchy = 0
-01-04 01:58:45.773  1241  1241 E DrmLibRpmb: rpmb_init succeeded! with ret = 0
-01-04 01:58:45.773  1241  1241 E QSEECOMD: : Listener: index = 1, hierarchy = 0
-01-04 01:58:45.773  1241  1241 E SSD     : ssd_init_service succeeded!
-01-04 01:58:45.773  1241  1241 E QSEECOMD: : Listener: index = 2, hierarchy = 0
-01-04 01:58:45.796  1241  1241 E QSEECOMD: : Init dlopen(libsecureui.so, RLTD_NOW) is failed....
-01-04 01:58:45.797  1241  1241 E QSEECOMD: : Listener: index = 5, hierarchy = 0
-01-04 01:58:45.797  1241  1241 E QSEECOMD: : Init dlopen(libmdtp.so, RLTD_NOW) is failed....
-01-04 01:58:45.799  1246  1246 E QSEECOMD: : Listener: index = 0, hierarchy = 1
-01-04 01:58:45.801  1246  1246 E QSEECOMD: : Listener: index = 1, hierarchy = 1
-01-04 01:58:45.802  1246  1246 E QSEECOMD: : Listener: index = 2, hierarchy = 1
-01-04 01:58:45.809  1189  1189 E ActivityRecognitionHardware: activity_recognition HAL is deprecated. class_init is effectively a no-op
-01-04 01:58:45.810  1246  1246 E QSEECOMD: : Init dlopen(libsecureui.so, RLTD_NOW) is failed....
-01-04 01:58:45.810  1246  1246 E QSEECOMD: : Listener: index = 3, hierarchy = 1
-01-04 01:58:45.815  1246  1246 E QSEECOMD: : Listener: index = 4, hierarchy = 1
-01-04 01:58:45.817  1246  1246 E QSEECOMD: : Listener: index = 5, hierarchy = 1
-01-04 01:58:45.817  1246  1246 E QSEECOMD: : Init dlopen(libmdtp.so, RLTD_NOW) is failed....
-01-04 01:58:45.817  1246  1246 E QSEECOMD: : Listener: index = 6, hierarchy = 1
-01-04 01:58:45.832  1246  1246 E QSEECOMAPI: : Error::Error while trying to allocate data
-01-04 01:58:45.832  1246  1246 E QSEECOMAPI: : Error::ION_memalloc failed
-01-04 01:58:45.832  1246  1246 E QSEECOMAPI: : Error::Loading image failed with ret = -12
-01-04 01:58:45.832  1246  1246 E QSEECOMD: : Loading keymaste app failied
-01-04 01:58:45.836  1252  1252 E ANDR-PERF-MPCTL: Unable to create control service (stage=1, rc=0)
-01-04 01:58:45.840  1246  1246 E QSEECOMAPI: : Error::Load image request failed ret = -1, errno = 22
-01-04 01:58:45.840  1246  1246 E QSEECOMAPI: : Error::Loading image failed with ret = -1
-01-04 01:58:45.840  1246  1246 E QSEECOMD: : Loading keymaster app failied
-01-04 01:58:45.951  1174  1174 E SELinux : avc:  denied  { add } for interface=android.hardware.graphics.allocator::IAllocator pid=1244 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:hal_graphics_allocator_hwservice:s0 tclass=hwservice_manager
-01-04 01:58:46.141  1258  1258 E APM::Serializer: deserialize: Could not parse /odm/etc/audio_policy_configuration.xml document.
-01-04 01:58:46.142  1258  1258 E APM::Serializer: deserialize: Could not parse /vendor/etc/audio_policy_configuration.xml document.
-01-04 01:58:46.200  1258  1258 E BroadcastRadio: couldn't load radio module radio.fm (No such file or directory)
-01-04 01:58:46.200  1258  1258 E RadioService: could not read implementation properties
-01-04 01:58:46.203  1258  1258 E SoundTriggerHalImpl: couldn't load sound trigger module sound_trigger.primary (No such file or directory)
-01-04 01:58:46.204  1258  1258 E SoundTriggerHwService: could not read implementation properties
-01-04 01:58:46.611  1244  1244 E qdhdmi  : writeHPDOption: file write failed 'hpd'
-01-04 01:58:47.049   956   977 E QMI_FW  : QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
-01-04 01:58:47.049   956   977 E QMI_FW  : QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
-01-04 01:58:47.049   956   977 E QC-time-services: Daemon:genoff_modem_qmi_service_request: qmi_client_get_service_list returned -2num_services 0
-01-04 01:58:47.682  1336  1371 E light   : light_open lights keyboard failed: -22
-01-04 01:58:47.682  1336  1371 E light   : Light passthrough failed to load legacy HAL.
-01-04 01:58:47.683  1336  1371 E light   : light_open lights buttons failed: -22
-01-04 01:58:47.683  1336  1371 E light   : Light passthrough failed to load legacy HAL.
-01-04 01:58:47.685  1336  1371 E light   : light_open lights bluetooth failed: -22
-01-04 01:58:47.685  1336  1371 E light   : Light passthrough failed to load legacy HAL.
-01-04 01:58:47.686  1336  1371 E light   : light_open lights wifi failed: -22
-01-04 01:58:47.686  1336  1371 E light   : Light passthrough failed to load legacy HAL.
-01-04 01:58:48.050   956   977 E QMI_FW  : QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
-01-04 01:58:48.050   956   977 E QMI_FW  : QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
-01-04 01:58:48.050   956   977 E QC-time-services: Daemon:genoff_modem_qmi_service_request: qmi_client_get_service_list returned 0num_services 1
-01-04 01:58:48.051   956   977 E QMI_FW  : QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
-01-04 01:58:48.053   956   977 E QMI_FW  : QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
-01-04 01:58:48.067   950   950 E Diag_Lib:  Diag_LSM_Init: Failed to open handle to diag driver, error = 2
-01-04 01:58:48.067   950   950 E Diag_Lib:  Diag_LSM_Init: Failed to open handle to diag driver, error = 2
-01-04 01:58:48.106   954  1030 E ThermalEngine: [BMHB_GOV] read failed VS_TEMP
-01-04 01:58:48.195  1336  1336 E PackageManager: There should probably be a verifier, but, none were found
-01-04 01:58:48.288  1336  1354 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu4/cpufreq/stats/time_in_state (No such file or directory)
-01-04 01:58:48.328  1336  1406 E sensors_hal_Ctx: enableLogging: Mag filter level is 1
-01-04 01:58:48.339   952   952 E QMI_FW  : xport_send: Sendto failed for port 1792
-01-04 01:58:48.339   952   952 E QMI_FW  : QCCI qmi_cci_flush_tx_q: Error sending TXN: svc_id: 256 txn_id: 1 msg_id: 1
-01-04 01:58:48.339   952   952 E Sensors : sns_acm_mr.c(499):Transport error -16
-01-04 01:58:48.697  1190  1190 E ActivityRecognitionHardware: activity_recognition HAL is deprecated. class_init is effectively a no-op
-01-04 01:58:49.338  1336  1406 E sensors_hal_Util: waitForResponse: pthread_cond_timedwait() rc=110 (cond: 0)
-01-04 01:58:49.338  1336  1406 E sensors_hal_Ctx: sendSMGRVersionReq: SMGR version request timed out
-01-04 01:58:49.338  1336  1406 E sensors_hal_Ctx: SensorsContext: SMGR version request failed!
-01-04 01:58:49.339   952   952 E QMI_FW  : xport_send: Sendto failed for port 1792
-01-04 01:58:49.339   952   952 E QMI_FW  : QCCI qmi_cci_flush_tx_q: Error sending TXN: svc_id: 256 txn_id: 2 msg_id: 5
-01-04 01:58:49.339   952   952 E Sensors : sns_acm_mr.c(499):Transport error -16
-01-04 01:58:49.423   950  1400 E Diag_Lib:  Diag_LSM_Init: Failed to open handle to diag driver, error = 2
-01-04 01:58:50.339  1336  1406 E sensors_hal_Util: waitForResponse: pthread_cond_timedwait() rc=110 (cond: 0)
-01-04 01:58:50.339  1336  1406 E sensors_hal_Ctx: getSensorList: Request timed out
-01-04 01:58:50.339  1336  1406 E sensors_hal_Ctx: SensorsContext: get sensor list failed!
-12-18 17:57:50.199  1336  2000 E EventHub: could not get driver version for /dev/input/mice, Not a typewriter
-12-18 17:57:50.310  1336  1350 E AppIdleHistory: Unable to read app idle file for user 0
-12-18 17:57:50.389  2004  2004 E ANDR-PERF-MPCTL: Unable to create control service (stage=1, rc=0)
-12-18 17:57:50.487  1336  1349 E PersistentDataBlockService: not able to find package com.google.android.gms
-12-18 17:57:50.487  1336  1349 E PersistentDataBlockService: android.content.pm.PackageManager$NameNotFoundException: com.google.android.gms
-12-18 17:57:50.487  1336  1349 E PersistentDataBlockService: 	at android.app.ApplicationPackageManager.getPackageUidAsUser(ApplicationPackageManager.java:277)
-12-18 17:57:50.487  1336  1349 E PersistentDataBlockService: 	at com.android.server.PersistentDataBlockService.getAllowedUid(PersistentDataBlockService.java:106)
-12-18 17:57:50.487  1336  1349 E PersistentDataBlockService: 	at com.android.server.PersistentDataBlockService.lambda$-com_android_server_PersistentDataBlockService_4652(PersistentDataBlockService.java:119)
-12-18 17:57:50.487  1336  1349 E PersistentDataBlockService: 	at com.android.server.-$Lambda$Vs1k-33pKk0_ZNh1UtgE1Q9ZrgU.$m$0(Unknown Source:4)
-12-18 17:57:50.487  1336  1349 E PersistentDataBlockService: 	at com.android.server.-$Lambda$Vs1k-33pKk0_ZNh1UtgE1Q9ZrgU.run(Unknown Source:0)
-12-18 17:57:50.487  1336  1349 E PersistentDataBlockService: 	at com.android.server.SystemServerInitThreadPool.lambda$-com_android_server_SystemServerInitThreadPool_2249(SystemServerInitThreadPool.java:64)
-12-18 17:57:50.487  1336  1349 E PersistentDataBlockService: 	at com.android.server.-$Lambda$HTEfptnAsu3OjkqY28AzP7WiEyA.$m$0(Unknown Source:8)
-12-18 17:57:50.487  1336  1349 E PersistentDataBlockService: 	at com.android.server.-$Lambda$HTEfptnAsu3OjkqY28AzP7WiEyA.run(Unknown Source:0)
-12-18 17:57:50.487  1336  1349 E PersistentDataBlockService: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:457)
-12-18 17:57:50.487  1336  1349 E PersistentDataBlockService: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-12-18 17:57:50.487  1336  1349 E PersistentDataBlockService: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
-12-18 17:57:50.487  1336  1349 E PersistentDataBlockService: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
-12-18 17:57:50.487  1336  1349 E PersistentDataBlockService: 	at com.android.internal.util.ConcurrentUtils$1$1.run(ConcurrentUtils.java:59)
-12-18 17:57:50.852  1336  2010 E HalDeviceManager: isSupported: called but mServiceManager is null!?
-12-18 17:57:50.861  1336  1336 E SupplicantStaIfaceHal: Can't call setDebugParams, ISupplicant is null
-12-18 17:57:50.890  1336  1336 E IpConfigStore: Error opening configuration file: java.io.FileNotFoundException: /data/misc/ethernet/ipconfig.txt (No such file or directory)
-12-18 17:57:50.907  1336  1336 E ConnectivityService: Ignoring protectedNetwork 15
-12-18 17:57:51.091  1237  1237 E android.hardware.usb@1.0-service: Failed to open /sys/class/dual_role_usb
-12-18 17:57:51.091  1237  2024 E android.hardware.usb@1.0-service: creating thread
-12-18 17:57:51.097  1336  1336 E HardwarePropertiesManagerService-JNI: Unable to get Thermal service.
-12-18 17:57:51.142  1336  1336 E ContextHubService: Could not load context hub hal
-12-18 17:57:51.251  1336  1336 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/gatekeeper.password.key: open failed: ENOENT (No such file or directory)
-12-18 17:57:51.252  1336  1336 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/password.key: open failed: ENOENT (No such file or directory)
-12-18 17:57:51.252  1336  1336 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/gatekeeper.pattern.key: open failed: ENOENT (No such file or directory)
-12-18 17:57:51.252  1336  1336 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/gatekeeper.gesture.key: open failed: ENOENT (No such file or directory)
-12-18 17:57:51.253  1336  1336 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/gesture.key: open failed: ENOENT (No such file or directory)
-12-18 17:57:51.334  1336  1354 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu4/cpufreq/stats/time_in_state (No such file or directory)
-12-18 17:57:51.443  1336  1336 E BitmapFactory: Unable to decode stream: java.io.FileNotFoundException: /data/system/users/0/wallpaper_orig (No such file or directory)
-12-18 17:57:51.443  1336  1336 E WallpaperManagerService: Unable to apply new wallpaper
-12-18 17:57:51.471  1237  1237 E android.hardware.usb@1.0-service: Failed to open /sys/class/dual_role_usb
-12-18 17:57:51.472  1336  1998 E UsbPortManager: port status enquiry failed
-12-18 17:57:51.516  1336  2010 E HalDeviceManager: Should have at least 1 chip!
-12-18 17:57:51.516  1336  2010 E HalDeviceManager: getSupportedIfaceTypesInternal: no chip info found
-12-18 17:57:51.518  1336  1357 E BatteryStatsService: no controller energy info supplied
-12-18 17:57:51.518  1336  1357 E BatteryStatsService: no controller energy info supplied
-12-18 17:57:51.635  2052  2052 E JniUtils: Could not load native library jni_latinimegoogle
-12-18 17:57:51.635  2052  2052 E JniUtils: java.lang.UnsatisfiedLinkError: dalvik.system.PathClassLoader[DexPathList[[zip file "/system/app/LatinIME/LatinIME.apk"],nativeLibraryDirectories=[/system/app/LatinIME/lib/arm64, /system/fake-libs64, /system/app/LatinIME/LatinIME.apk!/lib/arm64-v8a, /system/lib64, /system/vendor/lib64, /system/lib64, /system/vendor/lib64]]] couldn't find "libjni_latinimegoogle.so"
-12-18 17:57:51.635  2052  2052 E JniUtils: 	at java.lang.Runtime.loadLibrary0(Runtime.java:1011)
-12-18 17:57:51.635  2052  2052 E JniUtils: 	at java.lang.System.loadLibrary(System.java:1657)
-12-18 17:57:51.635  2052  2052 E JniUtils: 	at com.android.inputmethod.latin.utils.JniUtils.<clinit>(JniUtils.java:29)
-12-18 17:57:51.635  2052  2052 E JniUtils: 	at com.android.inputmethod.latin.utils.JniUtils.loadNativeLibrary(JniUtils.java:47)
-12-18 17:57:51.635  2052  2052 E JniUtils: 	at com.android.inputmethod.latin.LatinIME.<clinit>(LatinIME.java:546)
-12-18 17:57:51.635  2052  2052 E JniUtils: 	at java.lang.Class.newInstance(Native Method)
-12-18 17:57:51.635  2052  2052 E JniUtils: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:3386)
-12-18 17:57:51.635  2052  2052 E JniUtils: 	at android.app.ActivityThread.-wrap4(Unknown Source:0)
-12-18 17:57:51.635  2052  2052 E JniUtils: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1683)
-12-18 17:57:51.635  2052  2052 E JniUtils: 	at android.os.Handler.dispatchMessage(Handler.java:105)
-12-18 17:57:51.635  2052  2052 E JniUtils: 	at android.os.Looper.loop(Looper.java:164)
-12-18 17:57:51.635  2052  2052 E JniUtils: 	at android.app.ActivityThread.main(ActivityThread.java:6541)
-12-18 17:57:51.635  2052  2052 E JniUtils: 	at java.lang.reflect.Method.invoke(Native Method)
-12-18 17:57:51.635  2052  2052 E JniUtils: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
-12-18 17:57:51.635  2052  2052 E JniUtils: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
-12-18 17:57:51.740  1336  1336 E LocSvc_eng: I/===> loc_eng_read_config line 2986 
-12-18 17:57:51.758  1336  1336 E GnssHAL_GnssInterface: getExtensionAGnssRil GnssRil interface not implemented by GNSS HAL
-12-18 17:57:51.758  1336  1336 E GnssHAL_GnssInterface: getExtensionGnssNavigationMessage GnssNavigationMessage interface not implemented by GNSS HAL
-12-18 17:57:51.758  1336  1336 E GnssHAL_GnssInterface: getExtensionGnssDebug: GnssDebug interface is not implemented by HAL
-12-18 17:57:51.768  1336  1336 E GnssHAL_GnssInterface: getExtensionGnssGeofencing GnssGeofencing interface not implemented by GNSS HAL
-12-18 17:57:51.775  1336  1336 E HAL     : load: module=/vendor/lib64/hw/flp.default.so
-12-18 17:57:51.775  1336  1336 E HAL     : dlopen failed: library "libloc_pla.so" not found
-12-18 17:57:51.775  1336  1336 E GnssHAL_GnssInterface: gnss flp hw_get_module failed: -22
-12-18 17:57:51.775  1336  1336 E GnssHAL_GnssInterface: getExtensionGnssBatching: GnssBatching interface is not implemented by HAL
-12-18 17:57:51.901  1336  1336 E LocSvc_ApiV02: E/static loc_core::LocApiBase *LocApiV02::createLocApiV02(const MsgTask *, LOC_API_ADAPTER_EVENT_MASK_T, loc_core::ContextBase *):217]: msgTask can not be NULL
-12-18 17:57:51.905  1336  1336 E GnssLocationProvider: Unable to initialize GNSS Geofencing interface
-12-18 17:57:51.913  1336  1336 E LocationManagerService: no geocoder provider found
-12-18 17:57:51.921  1336  1336 E ActivityRecognitionHardware: activity_recognition HAL is deprecated. is_supported is effectively a no-op
-12-18 17:57:51.922  1336  1336 E ActivityRecognitionProxy: ServiceWatcher could not start.
-12-18 17:57:51.930  1336  1350 E GnssLocationProvider: Unable to initialize GNSS Geofencing interface
-12-18 17:57:51.931  1336  1350 E GnssLocationProvider: Failed to initialize GNSS batching
-12-18 17:57:52.008   971  1222 E OMX-VENC: Setting session priority failed
-12-18 17:57:52.024   971  2150 E OMX-VENC: Setting session priority failed
-12-18 17:57:52.027   971  1222 E OMX-VENC: get_parameter: OMX_IndexParamVideoProfileLevelQuerySupported nProfileIndex ret NoMore 2
-12-18 17:57:52.037   971  1222 E OMX-VENC: Setting session priority failed
-12-18 17:57:52.041   971  2150 E OMX-VENC: get_parameter: OMX_IndexParamVideoProfileLevelQuerySupported nProfileIndex ret NoMore 1
-12-18 17:57:52.055   971   971 E OMX-VENC: Setting session priority failed
-12-18 17:57:52.084   971  2150 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
-12-18 17:57:52.084   971  2150 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
-12-18 17:57:52.085   971  2150 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
-12-18 17:57:52.085   971  2150 E OMXNodeInstance: getParameter(0xeb403e04:qcom.decoder.avc, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
-12-18 17:57:52.085   971  2150 E OMXNodeInstance: getParameter(0xeb403e04:qcom.decoder.avc, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
-12-18 17:57:52.086   971  1222 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
-12-18 17:57:52.086   971  1222 E OMXNodeInstance: getExtensionIndex(0xeb403e04:qcom.decoder.avc, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
-12-18 17:57:52.086   971  2150 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
-12-18 17:57:52.125   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
-12-18 17:57:52.125   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
-12-18 17:57:52.125   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
-12-18 17:57:52.125   971   971 E OMXNodeInstance: getParameter(0xeb403e04:qcom.decoder.avc.secure, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
-12-18 17:57:52.125   971   971 E OMXNodeInstance: getParameter(0xeb403e04:qcom.decoder.avc.secure, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
-12-18 17:57:52.126   971  2150 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
-12-18 17:57:52.126   971  2150 E OMXNodeInstance: getExtensionIndex(0xeb403e04:qcom.decoder.avc.secure, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
-12-18 17:57:52.126   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
-12-18 17:57:52.146   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
-12-18 17:57:52.146   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
-12-18 17:57:52.146   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
-12-18 17:57:52.146   971   971 E OMXNodeInstance: getParameter(0xeb403e04:qcom.decoder.mpeg4, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
-12-18 17:57:52.148   971   971 E OMXNodeInstance: getParameter(0xeb403e04:qcom.decoder.mpeg4, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
-12-18 17:57:52.149   971  2150 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
-12-18 17:57:52.149   971  2150 E OMXNodeInstance: getExtensionIndex(0xeb403e04:qcom.decoder.mpeg4, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
-12-18 17:57:52.149   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
-12-18 17:57:52.183   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
-12-18 17:57:52.184   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
-12-18 17:57:52.184   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
-12-18 17:57:52.202   971   971 E OMXNodeInstance: getParameter(0xeb403e04:qcom.decoder.mpeg2, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
-12-18 17:57:52.203   971   971 E OMXNodeInstance: getParameter(0xeb403e04:qcom.decoder.mpeg2, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
-12-18 17:57:52.208   971  2150 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
-12-18 17:57:52.208   971  2150 E OMXNodeInstance: getExtensionIndex(0xeb403e04:qcom.decoder.mpeg2, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
-12-18 17:57:52.213   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
-12-18 17:57:52.252   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
-12-18 17:57:52.253   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
-12-18 17:57:52.253   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
-12-18 17:57:52.254   971   971 E OMXNodeInstance: getParameter(0xeb403e04:qcom.decoder.mpeg2.secure, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
-12-18 17:57:52.255   971   971 E OMXNodeInstance: getParameter(0xeb403e04:qcom.decoder.mpeg2.secure, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
-12-18 17:57:52.255   971  2150 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
-12-18 17:57:52.255   971  2150 E OMXNodeInstance: getExtensionIndex(0xeb403e04:qcom.decoder.mpeg2.secure, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
-12-18 17:57:52.256   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
-12-18 17:57:52.291   971  2150 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
-12-18 17:57:52.291   971  2150 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
-12-18 17:57:52.291   971  2150 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
-12-18 17:57:52.292   971  2150 E OMXNodeInstance: getParameter(0xeb403e04:qcom.decoder.h263, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
-12-18 17:57:52.292   971  2150 E OMXNodeInstance: getParameter(0xeb403e04:qcom.decoder.h263, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
-12-18 17:57:52.293   971  1222 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
-12-18 17:57:52.294   971  1222 E OMXNodeInstance: getExtensionIndex(0xeb403e04:qcom.decoder.h263, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
-12-18 17:57:52.294   971  2150 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
-12-18 17:57:52.332   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
-12-18 17:57:52.332   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
-12-18 17:57:52.332   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
-12-18 17:57:52.333   971   971 E OMXNodeInstance: getParameter(0xeb403e04:qcom.decoder.vp8, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
-12-18 17:57:52.336   971   971 E OMXNodeInstance: getParameter(0xeb403e04:qcom.decoder.vp8, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
-12-18 17:57:52.337   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
-12-18 17:57:52.337   971   971 E OMXNodeInstance: getExtensionIndex(0xeb403e04:qcom.decoder.vp8, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
-12-18 17:57:52.338   971  2150 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
-12-18 17:57:52.362  1336  1336 E WiredAccessoryManager: No state change.
-12-18 17:57:52.367   971  2150 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
-12-18 17:57:52.367   971  2150 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
-12-18 17:57:52.367   971  2150 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
-12-18 17:57:52.368   971  2150 E OMXNodeInstance: getParameter(0xeb403e04:qcom.decoder.hevc, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
-12-18 17:57:52.370   971  2150 E OMXNodeInstance: getParameter(0xeb403e04:qcom.decoder.hevc, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
-12-18 17:57:52.374   971  1222 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
-12-18 17:57:52.374   971  1222 E OMXNodeInstance: getExtensionIndex(0xeb403e04:qcom.decoder.hevc, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
-12-18 17:57:52.375   971  2150 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
-12-18 17:57:52.407   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
-12-18 17:57:52.407   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
-12-18 17:57:52.407   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
-12-18 17:57:52.407   971   971 E OMXNodeInstance: getParameter(0xeb403e04:qcom.decoder.hevc.secure, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
-12-18 17:57:52.408   971   971 E OMXNodeInstance: getParameter(0xeb403e04:qcom.decoder.hevc.secure, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
-12-18 17:57:52.409   971  1222 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
-12-18 17:57:52.409   971  1222 E OMXNodeInstance: getExtensionIndex(0xeb403e04:qcom.decoder.hevc.secure, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
-12-18 17:57:52.409   971   971 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
-12-18 17:57:52.427   971  2150 E OMX     : FAILED to allocate omx component 'OMX.qti.audio.decoder.flac' err=??(0x80001002)
-12-18 17:57:52.440   971  2150 E OMXNodeInstance: getExtensionIndex(0xeb707240:google.mpeg4.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
-12-18 17:57:52.440   971  1222 E OMXNodeInstance: getExtensionIndex(0xeb707240:google.mpeg4.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
-12-18 17:57:52.472   971  1222 E OMXNodeInstance: getExtensionIndex(0xeb707240:google.h263.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
-12-18 17:57:52.472   971   971 E OMXNodeInstance: getExtensionIndex(0xeb707240:google.h263.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
-12-18 17:57:52.493   971   971 E OMXNodeInstance: getExtensionIndex(0xeb707240:google.h264.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
-12-18 17:57:52.493   971  2150 E OMXNodeInstance: getExtensionIndex(0xeb707240:google.h264.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
-12-18 17:57:52.523   971  2150 E OMXNodeInstance: getExtensionIndex(0xeb707240:google.hevc.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
-12-18 17:57:52.523   971   971 E OMXNodeInstance: getExtensionIndex(0xeb707240:google.hevc.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
-12-18 17:57:52.539   971  1222 E OMXNodeInstance: getExtensionIndex(0xeb707240:google.vp8.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
-12-18 17:57:52.540   971  2150 E OMXNodeInstance: getExtensionIndex(0xeb707240:google.vp8.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
-12-18 17:57:52.556   971  1222 E OMXNodeInstance: getExtensionIndex(0xeb707240:google.vp9.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
-12-18 17:57:52.556   971  2150 E OMXNodeInstance: getExtensionIndex(0xeb707240:google.vp9.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
-12-18 17:57:52.585   971  2150 E OMXNodeInstance: getConfig(0xeb707240:google.h263.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
-12-18 17:57:52.621   971   971 E OMXNodeInstance: getConfig(0xeb707240:google.mpeg4.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
-12-18 17:57:52.655   971  1222 E OMXNodeInstance: getConfig(0xebaa2ea0:google.vp8.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
-12-18 17:57:52.666   954  1030 E ThermalEngine: [BMHB_GOV] read failed VS_TEMP
-12-18 17:57:52.675   971  2150 E OMXNodeInstance: getConfig(0xebaa2ea0:google.vp9.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
-12-18 17:57:52.704   971   971 E OMXNodeInstance: getConfig(0xebaa2ea0:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
-12-18 17:57:52.709   971  1222 E OMXNodeInstance: getConfig(0xeb707540:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
-12-18 17:57:52.823   971  1222 E OMXNodeInstance: getConfig(0xeb7075a0:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
-12-18 17:57:52.857   971  2150 E OMXNodeInstance: getConfig(0xeb707000:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
-12-18 17:57:52.918   971  1222 E OMXNodeInstance: getConfig(0xeb7075a0:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
-12-18 17:57:53.013   971  1222 E OMXNodeInstance: getConfig(0xeb707840:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
-12-18 17:57:53.026   971   971 E OMXNodeInstance: getConfig(0xebaa3020:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
-12-18 17:57:53.079  2038  2388 E bt_att  : gatt_profile_db_init:  gatt_if=1
-12-18 17:57:53.136   971  2150 E OMXNodeInstance: getConfig(0xebaa3020:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
-12-18 17:57:53.141  2190  2190 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
-12-18 17:57:53.233   971  1222 E OMXNodeInstance: getConfig(0xebaa3020:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
-12-18 17:57:53.359  2038  2173 E bt_btif_storage: btif_storage_get_adapter_property: Controller ready!
-12-18 17:57:53.394  2038  2173 E bt_btif : btif_hf_upstreams_evt: Invalid index 19631
-12-18 17:57:53.417  2038  2173 E bt_btif : btif_sm_dispatch : Invalid handle
-12-18 17:57:53.418  2038  2173 E bt_btif : btif_sm_dispatch : Invalid handle
-12-18 17:57:53.419  2038  2038 E a2dp_vendor_aptx_encoder: A2DP_VendorLoadEncoderAptx: cannot open aptX encoder library libaptX_encoder.so: dlopen failed: library "libaptX_encoder.so" not found
-12-18 17:57:53.419  2038  2038 E a2dp_vendor_aptx: init: cannot load the encoder
-12-18 17:57:53.420  2038  2038 E a2dp_vendor_aptx_hd_encoder: A2DP_VendorLoadEncoderAptxHd: cannot open aptX-HD encoder library libaptXHD_encoder.so: dlopen failed: library "libaptXHD_encoder.so" not found
-12-18 17:57:53.420  2038  2038 E a2dp_vendor_aptx_hd: init: cannot load the encoder
-12-18 17:57:55.071  1244  1244 E qdhwcomposer: processBootAnimCompleted: Not able to load libmm-qdcm.so
-12-18 17:57:55.162   971  1222 E OMXNodeInstance: setConfig(0xeb707600:google.vorbis.decoder, ConfigPriority(0x6f800002)) ERROR: Undefined(0x80001001)
-12-18 17:57:55.162   971   971 E OMXNodeInstance: getConfig(0xeb707600:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
-12-18 17:57:55.396  2453  2453 E ANDR-PERF-MPCTL: Unable to create control service (stage=1, rc=0)
-12-18 17:57:55.470   954  1032 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1344000
-12-18 17:57:55.501   954  1032 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1248000
-12-18 17:57:55.531   954  1032 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 960000
-12-18 17:57:57.018   954  1032 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1248000
-12-18 17:57:57.049   954  1032 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1344000
-12-18 17:57:57.079   954  1032 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1440000
-12-18 17:57:57.667   954  1030 E ThermalEngine: [BMHB_GOV] read failed VS_TEMP
-12-18 17:57:58.188  1336  1373 E SensorManager: sensor or listener is null
-12-18 17:57:58.487   954  1032 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1344000
-12-18 17:57:58.518   954  1032 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1248000
-12-18 17:57:58.549   954  1032 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 960000
-12-18 17:57:58.925  2190  2190 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
-12-18 17:57:59.164  2647  2647 E ANDR-PERF-MPCTL: Unable to create control service (stage=1, rc=0)
+01-05 13:43:39.078   992  1018 E QMI_FW  : QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+01-05 13:43:39.078   992  1018 E QMI_FW  : QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+01-05 13:43:39.079   992  1018 E QC-time-services: Daemon:genoff_modem_qmi_service_request: qmi_client_get_service_list returned -2num_services 0
+01-05 13:43:39.212  1000  1000 E gatekeeper_device: Gatekeeper (Keymaster TA) loaded/ queried from Qseecomd
+01-05 13:43:39.659  1293  1293 E DrmLibRpmb: rpmb_init succeeded! with ret = 0
+01-05 13:43:39.659  1293  1293 E QSEECOMD: : Listener: index = 1, hierarchy = 0
+01-05 13:43:39.660  1293  1293 E SSD     : ssd_init_service succeeded!
+01-05 13:43:39.660  1293  1293 E QSEECOMD: : Listener: index = 2, hierarchy = 0
+01-05 13:43:39.667  1293  1293 E QSEECOMD: : Init dlopen(libsecureui.so, RLTD_NOW) is failed....
+01-05 13:43:39.667  1293  1293 E QSEECOMD: : Listener: index = 5, hierarchy = 0
+01-05 13:43:39.678  1293  1293 E QSEECOMD: : file_init handle failed
+01-05 13:43:39.679  1299  1299 E QSEECOMD: : Listener: index = 0, hierarchy = 1
+01-05 13:43:39.687  1299  1299 E QSEECOMD: : Listener: index = 1, hierarchy = 1
+01-05 13:43:39.688  1299  1299 E QSEECOMD: : Listener: index = 2, hierarchy = 1
+01-05 13:43:39.697  1299  1299 E QSEECOMD: : Init dlopen(libsecureui.so, RLTD_NOW) is failed....
+01-05 13:43:39.697  1299  1299 E QSEECOMD: : Listener: index = 3, hierarchy = 1
+01-05 13:43:39.699  1299  1299 E QSEECOMD: : Listener: index = 4, hierarchy = 1
+01-05 13:43:39.700  1299  1299 E QSEECOMD: : Listener: index = 5, hierarchy = 1
+01-05 13:43:39.701  1299  1299 E QSEECOMD: : Init dlopen(libmdtp.so, RLTD_NOW) is failed....
+01-05 13:43:39.701  1299  1299 E QSEECOMD: : Listener: index = 6, hierarchy = 1
+01-05 13:43:39.704  1299  1299 E QSEECOMAPI: : Error::Error while trying to allocate data
+01-05 13:43:39.704  1299  1299 E QSEECOMAPI: : Error::ION_memalloc failed
+01-05 13:43:39.704  1299  1299 E QSEECOMAPI: : Error::Loading image failed with ret = -12
+01-05 13:43:39.704  1299  1299 E QSEECOMD: : Loading keymaste app failied
+01-05 13:43:39.710  1299  1299 E QSEECOMAPI: : Error::Load image request failed ret = -1, errno = 22
+01-05 13:43:39.710  1299  1299 E QSEECOMAPI: : Error::Loading image failed with ret = -1
+01-05 13:43:39.710  1299  1299 E QSEECOMD: : Loading keymaster app failied
+01-05 13:43:39.750  1309  1309 E ANDR-PERF-MPCTL: Unable to create control service (stage=1, rc=0)
+01-05 13:43:39.771  1260  1260 E SELinux : avc:  denied  { add } for interface=android.hardware.graphics.allocator::IAllocator pid=1296 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:hal_graphics_allocator_hwservice:s0 tclass=hwservice_manager
+01-05 13:43:40.374  1296  1296 E qdhdmi  : writeHPDOption: file write failed 'hpd'
+01-05 13:43:41.079   992  1018 E QMI_FW  : QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+01-05 13:43:41.080   992  1018 E QMI_FW  : QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+01-05 13:43:41.080   992  1018 E QC-time-services: Daemon:genoff_modem_qmi_service_request: qmi_client_get_service_list returned -2num_services 0
+01-05 13:43:42.081   992  1018 E QMI_FW  : QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+01-05 13:43:42.081   992  1018 E QMI_FW  : QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+01-05 13:43:42.081   992  1018 E QC-time-services: Daemon:genoff_modem_qmi_service_request: qmi_client_get_service_list returned 0num_services 1
+01-05 13:43:42.081   992  1018 E QMI_FW  : QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+01-05 13:43:42.083   992  1018 E QMI_FW  : QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+01-05 13:43:42.157  1367  1367 E APM::Serializer: deserialize: Could not parse /odm/etc/audio_policy_configuration.xml document.
+01-05 13:43:42.158  1367  1367 E APM::Serializer: deserialize: Could not parse /vendor/etc/audio_policy_configuration.xml document.
+01-05 13:43:42.180   990  1071 E ThermalEngine: [BMHB_GOV] read failed VS_TEMP
+01-05 13:43:42.225  1367  1367 E BroadcastRadio: couldn't load radio module radio.fm (No such file or directory)
+01-05 13:43:42.226  1367  1367 E RadioService: could not read implementation properties
+01-05 13:43:42.232  1367  1367 E SoundTriggerHalImpl: couldn't load sound trigger module sound_trigger.primary (No such file or directory)
+01-05 13:43:42.232  1367  1367 E SoundTriggerHwService: could not read implementation properties
+01-05 13:43:42.316   987   987 E Diag_Lib:  Diag_LSM_Init: Failed to open handle to diag driver, error = 2
+01-05 13:43:42.316   987   987 E Diag_Lib:  Diag_LSM_Init: Failed to open handle to diag driver, error = 2
+01-05 13:43:42.496  1369  1369 E Netd    : Error adding route 0.0.0.0/0 -> (null) dummy0 to table 1002: File exists
+01-05 13:43:42.923  1366  1366 E ActivityRecognitionHardware: activity_recognition HAL is deprecated. class_init is effectively a no-op
+01-05 13:43:43.667   987  1426 E Diag_Lib:  Diag_LSM_Init: Failed to open handle to diag driver, error = 2
+01-05 13:43:44.067  1586  1781 E light   : light_open lights keyboard failed: -22
+01-05 13:43:44.067  1586  1781 E light   : Light passthrough failed to load legacy HAL.
+01-05 13:43:44.068  1586  1781 E light   : light_open lights buttons failed: -22
+01-05 13:43:44.068  1586  1781 E light   : Light passthrough failed to load legacy HAL.
+01-05 13:43:44.072  1586  1781 E light   : light_open lights bluetooth failed: -22
+01-05 13:43:44.072  1586  1781 E light   : Light passthrough failed to load legacy HAL.
+01-05 13:43:44.073  1586  1781 E light   : light_open lights wifi failed: -22
+01-05 13:43:44.073  1586  1781 E light   : Light passthrough failed to load legacy HAL.
+01-05 13:43:44.498  1586  1586 E PackageManager: There should probably be a verifier, but, none were found
+01-05 13:43:44.635  1586  2005 E sensors_hal_Ctx: enableLogging: Mag filter level is 1
+01-05 13:43:44.642   989   989 E QMI_FW  : xport_send: Sendto failed for port 1792
+01-05 13:43:44.642   989   989 E QMI_FW  : QCCI qmi_cci_flush_tx_q: Error sending TXN: svc_id: 256 txn_id: 1 msg_id: 1
+01-05 13:43:44.642   989   989 E Sensors : sns_acm_mr.c(499):Transport error -16
+01-05 13:43:44.666  1586  1718 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu4/cpufreq/stats/time_in_state (No such file or directory)
+01-05 13:43:44.769  2067  2067 E ANDR-PERF-MPCTL: Unable to create control service (stage=1, rc=0)
+01-05 13:43:45.046   997   997 E ActivityRecognitionHardware: activity_recognition HAL is deprecated. class_init is effectively a no-op
+01-05 13:43:45.641  1586  2005 E sensors_hal_Util: waitForResponse: pthread_cond_timedwait() rc=110 (cond: 0)
+01-05 13:43:45.641  1586  2005 E sensors_hal_Ctx: sendSMGRVersionReq: SMGR version request timed out
+01-05 13:43:45.641  1586  2005 E sensors_hal_Ctx: SensorsContext: SMGR version request failed!
+01-05 13:43:45.642   989   989 E QMI_FW  : xport_send: Sendto failed for port 1792
+01-05 13:43:45.642   989   989 E QMI_FW  : QCCI qmi_cci_flush_tx_q: Error sending TXN: svc_id: 256 txn_id: 2 msg_id: 5
+01-05 13:43:45.642   989   989 E Sensors : sns_acm_mr.c(499):Transport error -16
+01-05 13:43:46.642  1586  2005 E sensors_hal_Util: waitForResponse: pthread_cond_timedwait() rc=110 (cond: 0)
+01-05 13:43:46.642  1586  2005 E sensors_hal_Ctx: getSensorList: Request timed out
+01-05 13:43:46.642  1586  2005 E sensors_hal_Ctx: SensorsContext: get sensor list failed!
+01-05 13:43:46.642  1586  2005 E sensors_hal_Util: waitForResponse: pthread_cond_timedwait() rc=110 (cond: 0)
+01-05 13:43:46.642  1586  2005 E sensors_hal_Ctx: getSensorList: Request timed out
+01-05 13:43:46.642  1586  2005 E sensors_hal_Ctx: SensorsContext: get sensor list failed!
+12-19 21:14:40.156  1586  2089 E EventHub: could not get driver version for /dev/input/mice, Not a typewriter
+12-19 21:14:40.238  1586  1717 E AppIdleHistory: Unable to read app idle file for user 0
+12-19 21:14:40.395  1586  1679 E PersistentDataBlockService: not able to find package com.google.android.gms
+12-19 21:14:40.395  1586  1679 E PersistentDataBlockService: android.content.pm.PackageManager$NameNotFoundException: com.google.android.gms
+12-19 21:14:40.395  1586  1679 E PersistentDataBlockService: 	at android.app.ApplicationPackageManager.getPackageUidAsUser(ApplicationPackageManager.java:277)
+12-19 21:14:40.395  1586  1679 E PersistentDataBlockService: 	at com.android.server.PersistentDataBlockService.getAllowedUid(PersistentDataBlockService.java:106)
+12-19 21:14:40.395  1586  1679 E PersistentDataBlockService: 	at com.android.server.PersistentDataBlockService.lambda$-com_android_server_PersistentDataBlockService_4652(PersistentDataBlockService.java:119)
+12-19 21:14:40.395  1586  1679 E PersistentDataBlockService: 	at com.android.server.-$Lambda$Vs1k-33pKk0_ZNh1UtgE1Q9ZrgU.$m$0(Unknown Source:4)
+12-19 21:14:40.395  1586  1679 E PersistentDataBlockService: 	at com.android.server.-$Lambda$Vs1k-33pKk0_ZNh1UtgE1Q9ZrgU.run(Unknown Source:0)
+12-19 21:14:40.395  1586  1679 E PersistentDataBlockService: 	at com.android.server.SystemServerInitThreadPool.lambda$-com_android_server_SystemServerInitThreadPool_2249(SystemServerInitThreadPool.java:64)
+12-19 21:14:40.395  1586  1679 E PersistentDataBlockService: 	at com.android.server.-$Lambda$HTEfptnAsu3OjkqY28AzP7WiEyA.$m$0(Unknown Source:8)
+12-19 21:14:40.395  1586  1679 E PersistentDataBlockService: 	at com.android.server.-$Lambda$HTEfptnAsu3OjkqY28AzP7WiEyA.run(Unknown Source:0)
+12-19 21:14:40.395  1586  1679 E PersistentDataBlockService: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:457)
+12-19 21:14:40.395  1586  1679 E PersistentDataBlockService: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+12-19 21:14:40.395  1586  1679 E PersistentDataBlockService: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-19 21:14:40.395  1586  1679 E PersistentDataBlockService: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-19 21:14:40.395  1586  1679 E PersistentDataBlockService: 	at com.android.internal.util.ConcurrentUtils$1$1.run(ConcurrentUtils.java:59)
+12-19 21:14:40.474   990  1071 E ThermalEngine: [BMHB_GOV] read failed VS_TEMP
+12-19 21:14:40.679  1586  2100 E HalDeviceManager: isSupported: called but mServiceManager is null!?
+12-19 21:14:40.686  1586  1586 E SupplicantStaIfaceHal: Can't call setDebugParams, ISupplicant is null
+12-19 21:14:40.712  1586  1586 E IpConfigStore: Error opening configuration file: java.io.FileNotFoundException: /data/misc/ethernet/ipconfig.txt (No such file or directory)
+12-19 21:14:40.727  1586  1586 E ConnectivityService: Ignoring protectedNetwork 15
+12-19 21:14:40.903  1289  1289 E android.hardware.usb@1.0-service: Failed to open /sys/class/dual_role_usb
+12-19 21:14:40.903  1289  2114 E android.hardware.usb@1.0-service: creating thread
+12-19 21:14:40.910  1586  1586 E HardwarePropertiesManagerService-JNI: Unable to get Thermal service.
+12-19 21:14:40.955  1586  1586 E ContextHubService: Could not load context hub hal
+12-19 21:14:41.073  1586  1586 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/gatekeeper.password.key: open failed: ENOENT (No such file or directory)
+12-19 21:14:41.074  1586  1586 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/password.key: open failed: ENOENT (No such file or directory)
+12-19 21:14:41.074  1586  1586 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/gatekeeper.pattern.key: open failed: ENOENT (No such file or directory)
+12-19 21:14:41.074  1586  1586 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/gatekeeper.gesture.key: open failed: ENOENT (No such file or directory)
+12-19 21:14:41.074  1586  1586 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/gesture.key: open failed: ENOENT (No such file or directory)
+12-19 21:14:41.157  1586  1718 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu4/cpufreq/stats/time_in_state (No such file or directory)
+12-19 21:14:41.267  1586  1586 E BitmapFactory: Unable to decode stream: java.io.FileNotFoundException: /data/system/users/0/wallpaper_orig (No such file or directory)
+12-19 21:14:41.267  1586  1586 E WallpaperManagerService: Unable to apply new wallpaper
+12-19 21:14:41.323  1289  1289 E android.hardware.usb@1.0-service: Failed to open /sys/class/dual_role_usb
+12-19 21:14:41.336  1586  2087 E UsbPortManager: port status enquiry failed
+12-19 21:14:41.379  1586  2100 E HalDeviceManager: Should have at least 1 chip!
+12-19 21:14:41.379  1586  2100 E HalDeviceManager: getSupportedIfaceTypesInternal: no chip info found
+12-19 21:14:41.382  1586  1723 E BatteryStatsService: no controller energy info supplied
+12-19 21:14:41.517  2139  2139 E JniUtils: Could not load native library jni_latinimegoogle
+12-19 21:14:41.517  2139  2139 E JniUtils: java.lang.UnsatisfiedLinkError: dalvik.system.PathClassLoader[DexPathList[[zip file "/system/app/LatinIME/LatinIME.apk"],nativeLibraryDirectories=[/system/app/LatinIME/lib/arm64, /system/fake-libs64, /system/app/LatinIME/LatinIME.apk!/lib/arm64-v8a, /system/lib64, /system/vendor/lib64, /system/lib64, /system/vendor/lib64]]] couldn't find "libjni_latinimegoogle.so"
+12-19 21:14:41.517  2139  2139 E JniUtils: 	at java.lang.Runtime.loadLibrary0(Runtime.java:1011)
+12-19 21:14:41.517  2139  2139 E JniUtils: 	at java.lang.System.loadLibrary(System.java:1657)
+12-19 21:14:41.517  2139  2139 E JniUtils: 	at com.android.inputmethod.latin.utils.JniUtils.<clinit>(JniUtils.java:29)
+12-19 21:14:41.517  2139  2139 E JniUtils: 	at com.android.inputmethod.latin.utils.JniUtils.loadNativeLibrary(JniUtils.java:47)
+12-19 21:14:41.517  2139  2139 E JniUtils: 	at com.android.inputmethod.latin.LatinIME.<clinit>(LatinIME.java:546)
+12-19 21:14:41.517  2139  2139 E JniUtils: 	at java.lang.Class.newInstance(Native Method)
+12-19 21:14:41.517  2139  2139 E JniUtils: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:3386)
+12-19 21:14:41.517  2139  2139 E JniUtils: 	at android.app.ActivityThread.-wrap4(Unknown Source:0)
+12-19 21:14:41.517  2139  2139 E JniUtils: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1683)
+12-19 21:14:41.517  2139  2139 E JniUtils: 	at android.os.Handler.dispatchMessage(Handler.java:105)
+12-19 21:14:41.517  2139  2139 E JniUtils: 	at android.os.Looper.loop(Looper.java:164)
+12-19 21:14:41.517  2139  2139 E JniUtils: 	at android.app.ActivityThread.main(ActivityThread.java:6541)
+12-19 21:14:41.517  2139  2139 E JniUtils: 	at java.lang.reflect.Method.invoke(Native Method)
+12-19 21:14:41.517  2139  2139 E JniUtils: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+12-19 21:14:41.517  2139  2139 E JniUtils: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+12-19 21:14:41.675  1586  1586 E LocSvc_eng: I/===> loc_eng_read_config line 2986 
+12-19 21:14:41.706  1586  1586 E GnssHAL_GnssInterface: getExtensionAGnssRil GnssRil interface not implemented by GNSS HAL
+12-19 21:14:41.706  1586  1586 E GnssHAL_GnssInterface: getExtensionGnssNavigationMessage GnssNavigationMessage interface not implemented by GNSS HAL
+12-19 21:14:41.706  1586  1586 E GnssHAL_GnssInterface: getExtensionGnssDebug: GnssDebug interface is not implemented by HAL
+12-19 21:14:41.752  1586  1586 E GnssHAL_GnssInterface: getExtensionGnssGeofencing GnssGeofencing interface not implemented by GNSS HAL
+12-19 21:14:41.774  1586  1586 E HAL     : load: module=/vendor/lib64/hw/flp.default.so
+12-19 21:14:41.774  1586  1586 E HAL     : dlopen failed: cannot locate symbol "get_process_name" referenced by "/system/vendor/lib64/libizat_core.so"...
+12-19 21:14:41.774  1586  1586 E GnssHAL_GnssInterface: gnss flp hw_get_module failed: -22
+12-19 21:14:41.774  1586  1586 E GnssHAL_GnssInterface: getExtensionGnssBatching: GnssBatching interface is not implemented by HAL
+12-19 21:14:41.812  1586  1586 E LocSvc_ApiV02: E/static loc_core::LocApiBase *LocApiV02::createLocApiV02(const MsgTask *, LOC_API_ADAPTER_EVENT_MASK_T, loc_core::ContextBase *):217]: msgTask can not be NULL
+12-19 21:14:41.812  1586  1586 E GnssLocationProvider: Unable to initialize GNSS Geofencing interface
+12-19 21:14:41.824  1586  1586 E LocationManagerService: no geocoder provider found
+12-19 21:14:41.834  1586  1586 E ActivityRecognitionHardware: activity_recognition HAL is deprecated. is_supported is effectively a no-op
+12-19 21:14:41.836  1586  1586 E ActivityRecognitionProxy: ServiceWatcher could not start.
+12-19 21:14:41.874  1586  1717 E GnssLocationProvider: Unable to initialize GNSS Geofencing interface
+12-19 21:14:41.874  1586  1717 E GnssLocationProvider: Failed to initialize GNSS batching
+12-19 21:14:41.943  1023  1276 E OMX-VENC: Setting session priority failed
+12-19 21:14:41.960  1023  1276 E OMX-VENC: Setting session priority failed
+12-19 21:14:41.962  1023  1276 E OMX-VENC: get_parameter: OMX_IndexParamVideoProfileLevelQuerySupported nProfileIndex ret NoMore 2
+12-19 21:14:41.970  1023  1276 E OMX-VENC: Setting session priority failed
+12-19 21:14:41.973  1023  1023 E OMX-VENC: get_parameter: OMX_IndexParamVideoProfileLevelQuerySupported nProfileIndex ret NoMore 1
+12-19 21:14:41.986  1023  1023 E OMX-VENC: Setting session priority failed
+12-19 21:14:42.046  1023  1276 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:42.046  1023  1276 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:42.046  1023  1276 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
+12-19 21:14:42.049  1023  1276 E OMXNodeInstance: getParameter(0xed917cc4:qcom.decoder.avc, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:42.051  1023  1276 E OMXNodeInstance: getParameter(0xed917cc4:qcom.decoder.avc, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:42.055  1023  2188 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:42.055  1023  2188 E OMXNodeInstance: getExtensionIndex(0xed917cc4:qcom.decoder.avc, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
+12-19 21:14:42.055  1023  1276 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:42.090  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:42.090  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:42.091  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
+12-19 21:14:42.091  1023  1023 E OMXNodeInstance: getParameter(0xed917cc4:qcom.decoder.avc.secure, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:42.092  1023  1023 E OMXNodeInstance: getParameter(0xed917cc4:qcom.decoder.avc.secure, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:42.094  1023  1276 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:42.094  1023  1276 E OMXNodeInstance: getExtensionIndex(0xed917cc4:qcom.decoder.avc.secure, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
+12-19 21:14:42.095  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:42.133  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:42.133  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:42.133  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
+12-19 21:14:42.134  1023  1023 E OMXNodeInstance: getParameter(0xed917cc4:qcom.decoder.mpeg4, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:42.134  1023  1023 E OMXNodeInstance: getParameter(0xed917cc4:qcom.decoder.mpeg4, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:42.135  1023  1276 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:42.135  1023  1276 E OMXNodeInstance: getExtensionIndex(0xed917cc4:qcom.decoder.mpeg4, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
+12-19 21:14:42.135  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:42.166  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:42.166  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:42.166  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
+12-19 21:14:42.169  1023  1023 E OMXNodeInstance: getParameter(0xed917cc4:qcom.decoder.mpeg2, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:42.170  1023  1023 E OMXNodeInstance: getParameter(0xed917cc4:qcom.decoder.mpeg2, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:42.171  1023  1276 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:42.171  1023  1276 E OMXNodeInstance: getExtensionIndex(0xed917cc4:qcom.decoder.mpeg2, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
+12-19 21:14:42.171  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:42.206  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:42.206  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:42.206  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
+12-19 21:14:42.208  1023  1023 E OMXNodeInstance: getParameter(0xed917cc4:qcom.decoder.mpeg2.secure, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:42.209  1023  1023 E OMXNodeInstance: getParameter(0xed917cc4:qcom.decoder.mpeg2.secure, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:42.214  1023  1276 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:42.214  1023  1276 E OMXNodeInstance: getExtensionIndex(0xed917cc4:qcom.decoder.mpeg2.secure, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
+12-19 21:14:42.220  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:42.241  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:42.241  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:42.241  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
+12-19 21:14:42.243  1023  1023 E OMXNodeInstance: getParameter(0xed917cc4:qcom.decoder.h263, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:42.244  1023  1023 E OMXNodeInstance: getParameter(0xed917cc4:qcom.decoder.h263, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:42.245  1023  2188 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:42.245  1023  2188 E OMXNodeInstance: getExtensionIndex(0xed917cc4:qcom.decoder.h263, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
+12-19 21:14:42.246  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:42.268  1023  1276 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:42.268  1023  1276 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:42.268  1023  1276 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
+12-19 21:14:42.268  1023  1276 E OMXNodeInstance: getParameter(0xed917cc4:qcom.decoder.vp8, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:42.269  1023  1276 E OMXNodeInstance: getParameter(0xed917cc4:qcom.decoder.vp8, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:42.271  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:42.271  1023  1023 E OMXNodeInstance: getExtensionIndex(0xed917cc4:qcom.decoder.vp8, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
+12-19 21:14:42.271  1023  1276 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:42.287  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:42.287  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:42.287  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
+12-19 21:14:42.288  1023  1023 E OMXNodeInstance: getParameter(0xed917cc4:qcom.decoder.hevc, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:42.288  1023  1023 E OMXNodeInstance: getParameter(0xed917cc4:qcom.decoder.hevc, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:42.289  1023  2188 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:42.289  1023  2188 E OMXNodeInstance: getExtensionIndex(0xed917cc4:qcom.decoder.hevc, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
+12-19 21:14:42.289  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:42.314  1023  2188 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:42.314  1023  2188 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:42.314  1023  2188 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
+12-19 21:14:42.317  1023  1023 E OMXNodeInstance: getParameter(0xed917cc4:qcom.decoder.hevc.secure, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:42.324  1023  1023 E OMXNodeInstance: getParameter(0xed917cc4:qcom.decoder.hevc.secure, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:42.325  1023  1276 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:42.325  1023  1276 E OMXNodeInstance: getExtensionIndex(0xed917cc4:qcom.decoder.hevc.secure, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
+12-19 21:14:42.325  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:42.335  1586  1586 E WiredAccessoryManager: No state change.
+12-19 21:14:42.342  1023  2188 E OMX     : FAILED to allocate omx component 'OMX.qti.audio.decoder.flac' err=??(0x80001002)
+12-19 21:14:42.352  1023  2188 E OMXNodeInstance: getExtensionIndex(0xee022fc0:google.mpeg4.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:42.352  1023  1276 E OMXNodeInstance: getExtensionIndex(0xee022fc0:google.mpeg4.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:42.364  1023  1276 E OMXNodeInstance: getExtensionIndex(0xee022fc0:google.h263.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:42.364  1023  2188 E OMXNodeInstance: getExtensionIndex(0xee022fc0:google.h263.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:42.378  1023  1023 E OMXNodeInstance: getExtensionIndex(0xee022fc0:google.h264.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:42.378  1023  2188 E OMXNodeInstance: getExtensionIndex(0xee022fc0:google.h264.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:42.422  1023  1023 E OMXNodeInstance: getExtensionIndex(0xee022fc0:google.hevc.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:42.422  1023  2188 E OMXNodeInstance: getExtensionIndex(0xee022fc0:google.hevc.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:42.436  1023  1276 E OMXNodeInstance: getExtensionIndex(0xee022fc0:google.vp8.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:42.436  1023  1023 E OMXNodeInstance: getExtensionIndex(0xee022fc0:google.vp8.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:42.445  1023  1276 E OMXNodeInstance: getExtensionIndex(0xee022fc0:google.vp9.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:42.445  1023  1023 E OMXNodeInstance: getExtensionIndex(0xee022fc0:google.vp9.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:42.461  1023  1276 E OMXNodeInstance: getConfig(0xee022fc0:google.h263.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
+12-19 21:14:42.496  1023  1023 E OMXNodeInstance: getConfig(0xee022fc0:google.mpeg4.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
+12-19 21:14:42.552  1023  2188 E OMXNodeInstance: getConfig(0xee022fc0:google.vp8.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
+12-19 21:14:42.575  1023  1023 E OMXNodeInstance: getConfig(0xee022fc0:google.vp9.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
+12-19 21:14:42.609  1023  2188 E OMXNodeInstance: getConfig(0xee023020:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-19 21:14:42.628  1023  1276 E OMXNodeInstance: getConfig(0xee022fc0:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-19 21:14:42.768  1023  1023 E OMXNodeInstance: getConfig(0xedc8c000:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-19 21:14:42.847  1023  2438 E OMXNodeInstance: getConfig(0xee0231a0:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-19 21:14:42.906  1023  2438 E OMXNodeInstance: getConfig(0xedc8c360:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-19 21:14:43.043  1023  1023 E OMXNodeInstance: getConfig(0xee023380:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-19 21:14:43.057  1023  1023 E OMXNodeInstance: getConfig(0xee023680:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-19 21:14:43.112  2463  2463 E ANDR-PERF-MPCTL: Unable to create control service (stage=1, rc=0)
+12-19 21:14:43.170  1023  2436 E OMXNodeInstance: getConfig(0xedc8c060:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-19 21:14:43.262  2125  2475 E bt_att  : gatt_profile_db_init:  gatt_if=1
+12-19 21:14:43.304  1023  1276 E OMXNodeInstance: getConfig(0xee0235c0:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-19 21:14:43.342  2277  2277 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+12-19 21:14:43.385  2277  2277 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+12-19 21:14:43.548  2125  2250 E bt_btif_storage: btif_storage_get_adapter_property: Controller ready!
+12-19 21:14:43.588  2125  2250 E bt_btif : btif_hf_upstreams_evt: Invalid index 50803
+12-19 21:14:43.615  2125  2250 E bt_btif : btif_sm_dispatch : Invalid handle
+12-19 21:14:43.616  2125  2250 E bt_btif : btif_sm_dispatch : Invalid handle
+12-19 21:14:45.117  1296  1296 E qdhwcomposer: processBootAnimCompleted: Not able to load libmm-qdcm.so
+12-19 21:14:45.242  1023  1276 E OMXNodeInstance: setConfig(0xedc8c060:google.vorbis.decoder, ConfigPriority(0x6f800002)) ERROR: Undefined(0x80001001)
+12-19 21:14:45.245  1023  1023 E OMXNodeInstance: getConfig(0xedc8c060:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-19 21:14:45.475   990  1071 E ThermalEngine: [BMHB_GOV] read failed VS_TEMP
+12-19 21:14:45.485   990  1072 E ThermalEngine: [GPU_MON] ACTION: GPU - [GPU_MON] Setting GPU[0] to 600000000
+12-19 21:14:45.728  1586  1783 E SensorManager: sensor or listener is null
+12-19 21:14:46.040   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1689600
+12-19 21:14:46.094   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1632000
+12-19 21:14:46.124   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1536000
+12-19 21:14:46.155   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1440000
+12-19 21:14:46.185   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1344000
+12-19 21:14:46.215   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1248000
+12-19 21:14:46.245   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 960000
+12-19 21:14:46.549  2277  2277 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
+12-19 21:14:46.911  2744  2744 E ANDR-PERF-MPCTL: Unable to create control service (stage=1, rc=0)
 --------- beginning of crash
-12-18 17:57:59.320  1336  1336 E AndroidRuntime: *** FATAL EXCEPTION IN SYSTEM PROCESS: main
-12-18 17:57:59.320  1336  1336 E AndroidRuntime: java.lang.UnsatisfiedLinkError: dlopen failed: library "libloc_pla.so" not found
-12-18 17:57:59.320  1336  1336 E AndroidRuntime: 	at java.lang.Runtime.loadLibrary0(Runtime.java:1016)
-12-18 17:57:59.320  1336  1336 E AndroidRuntime: 	at java.lang.System.loadLibrary(System.java:1657)
-12-18 17:57:59.320  1336  1336 E AndroidRuntime: 	at com.qualcomm.location.izatserviceprovider.service.IzatServiceBase.<clinit>(IzatServiceBase.java:199)
-12-18 17:57:59.320  1336  1336 E AndroidRuntime: 	at java.lang.Class.newInstance(Native Method)
-12-18 17:57:59.320  1336  1336 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:3386)
-12-18 17:57:59.320  1336  1336 E AndroidRuntime: 	at android.app.ActivityThread.-wrap4(Unknown Source:0)
-12-18 17:57:59.320  1336  1336 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1683)
-12-18 17:57:59.320  1336  1336 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:105)
-12-18 17:57:59.320  1336  1336 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:164)
-12-18 17:57:59.320  1336  1336 E AndroidRuntime: 	at com.android.server.SystemServer.run(SystemServer.java:423)
-12-18 17:57:59.320  1336  1336 E AndroidRuntime: 	at com.android.server.SystemServer.main(SystemServer.java:262)
-12-18 17:57:59.320  1336  1336 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-12-18 17:57:59.320  1336  1336 E AndroidRuntime: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
-12-18 17:57:59.320  1336  1336 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
-12-18 17:57:59.336  2515  2690 E NfcAdaptation: NfcAdaptation::Initialize: ver=NFCDROID-AOSP_M_00.01 nfa=NFA_PI_1.03.66+
-12-18 17:57:59.339  2515  2701 E BrcmNfcNfa: gki_task task_id=0 terminating
-12-18 17:57:59.356  2515  2690 E android.hardware.nfc@1.0-impl: hw_get_module nfc_nci failed: -2
-12-18 17:57:59.356  2515  2690 E android.hardware.nfc@1.0-impl: Passthrough failed to load legacy HAL.
-12-18 17:57:59.357  2515  2690 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 2690 (AsyncTask #1)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: FATAL EXCEPTION: main
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: Process: com.android.launcher3, PID: 2652
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: java.lang.RuntimeException: Unable to get provider com.android.launcher3.LauncherProvider: java.lang.RuntimeException: android.os.DeadObjectException
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:6288)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:5851)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5772)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at android.app.ActivityThread.-wrap1(Unknown Source:0)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1661)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:105)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:164)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6541)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: Caused by: java.lang.RuntimeException: android.os.DeadObjectException
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at android.os.storage.StorageManager.isUserKeyUnlocked(StorageManager.java:1283)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at android.app.ContextImpl.getSharedPreferences(ContextImpl.java:386)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at android.app.ContextImpl.getSharedPreferences(ContextImpl.java:370)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:167)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at com.android.launcher3.Utilities.getPrefs(Utilities.java:553)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at com.android.launcher3.SessionCommitReceiver.applyDefaultUserPrefs(SessionCommitReceiver.java:97)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at com.android.launcher3.LauncherProvider.onCreate(LauncherProvider.java:127)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:1919)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:1894)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:6285)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	... 10 more
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: Caused by: android.os.DeadObjectException
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at android.os.BinderProxy.transactNative(Native Method)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at android.os.BinderProxy.transact(Binder.java:748)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at android.os.storage.IStorageManager$Stub$Proxy.isUserKeyUnlocked(IStorageManager.java:2105)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	at android.os.storage.StorageManager.isUserKeyUnlocked(StorageManager.java:1281)
-12-18 17:57:59.392  2652  2652 E AndroidRuntime: 	... 19 more
-12-18 17:57:59.395  2683  2683 E AndroidRuntime: FATAL EXCEPTION: main
-12-18 17:57:59.395  2683  2683 E AndroidRuntime: PID: 2683
-12-18 17:57:59.395  2683  2683 E AndroidRuntime: DeadSystemException: The system died; earlier logs will point to the root cause
-12-18 17:57:59.398  1244  1265 E BufferQueueProducer: [StatusBar#0] dequeueBuffer: BufferQueue has been abandoned
-12-18 17:57:59.398  1244  1377 E BufferQueueProducer: [StatusBar#0] query: BufferQueue has been abandoned
-12-18 17:57:59.399  1244  1265 E BufferQueueProducer: [StatusBar#0] dequeueBuffer: BufferQueue has been abandoned
-12-18 17:57:59.400  1244  1377 E BufferQueueProducer: [StatusBar#0] dequeueBuffer: BufferQueue has been abandoned
-12-18 17:57:59.400  1244  1265 E BufferQueueProducer: [StatusBar#0] dequeueBuffer: BufferQueue has been abandoned
-12-18 17:57:59.400  1244  1266 E BufferQueueProducer: [StatusBar#0] dequeueBuffer: BufferQueue has been abandoned
-12-18 17:57:59.431  2709  2709 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
-12-18 17:57:59.431  2709  2709 F DEBUG   : Build fingerprint: 'lge/p1_global_com/p1:8.0/NRD90U/171931902b165:user/release-keys'
-12-18 17:57:59.431  2709  2709 F DEBUG   : Revision: '11'
-12-18 17:57:59.431  2709  2709 F DEBUG   : ABI: 'arm64'
-12-18 17:57:59.431  2709  2709 F DEBUG   : pid: 2515, tid: 2690, name: AsyncTask #1  >>> com.android.nfc <<<
-12-18 17:57:59.431  2709  2709 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
-12-18 17:57:59.431  2709  2709 F DEBUG   : Cause: null pointer dereference
-12-18 17:57:59.431  2709  2709 F DEBUG   :     x0   000000718160d380  x1   0000007172f42c40  x2   0000007181600000  x3   0000000000000002
-12-18 17:57:59.431  2709  2709 F DEBUG   :     x4   000000000000000d  x5   0000007172f428eb  x6   2e6c61685f636277  x7   2e746c7561666564
-12-18 17:57:59.431  2709  2709 F DEBUG   :     x8   000000000000000e  x9   b1b07d36ec175cd1  x10  0000000000000001  x11  0000000000000000
-12-18 17:57:59.431  2709  2709 F DEBUG   :     x12  000000000000001d  x13  6f732e746c756166  x14  000000719009e000  x15  000000719009e000
-12-18 17:57:59.431  2709  2709 F DEBUG   :     x16  000000717303e9b0  x17  000000718eeac6e8  x18  000000718bd1e280  x19  0000000000000000
-12-18 17:57:59.431  2709  2709 F DEBUG   :     x20  0000007172fce16c  x21  0000007172fce7f8  x22  0000007172f430fc  x23  00000071733f689e
-12-18 17:57:59.431  2709  2709 F DEBUG   :     x24  0000000000000004  x25  000000718be80698  x26  00000071730ea000  x27  0000000000000001
-12-18 17:57:59.431  2709  2709 F DEBUG   :     x28  0000000000000001  x29  0000007172f42da0  x30  0000007172fa5c98
-12-18 17:57:59.431  2709  2709 F DEBUG   :     sp   0000007172f42d50  pc   0000007172fa5cf0  pstate 0000000060000000
-12-18 17:57:59.440  2709  2709 F DEBUG   : 
-12-18 17:57:59.440  2709  2709 F DEBUG   : backtrace:
-12-18 17:57:59.440  2709  2709 F DEBUG   :     #00 pc 0000000000063cf0  /system/lib64/libnfc-nci.so (_ZN13NfcAdaptation26InitializeHalDeviceContextEv+368)
-12-18 17:57:59.440  2709  2709 F DEBUG   :     #01 pc 0000000000063814  /system/lib64/libnfc-nci.so (_ZN13NfcAdaptation10InitializeEv+760)
-12-18 17:57:59.440  2709  2709 F DEBUG   :     #02 pc 0000000000013358  /system/lib64/libnfc_nci_jni.so (_ZN7androidL23nfcManager_doInitializeEP7_JNIEnvP8_jobject+84)
-12-18 17:57:59.440  2709  2709 F DEBUG   :     #03 pc 00000000000399bc  /data/dalvik-cache/arm64/system@app@NfcNci@NfcNci.apk@classes.dex (offset 0xf000)
-12-18 17:57:59.697   954  1029 E ThermalEngine: TM Id 'SS-GPU_management' Sensor 'xo_therm' - alarm raised 1 at 46.0 degC
-12-18 17:57:59.963   970   970 E /system/bin/tombstoned: Tombstone written to: /data/tombstones//tombstone_01
-12-18 17:57:59.967  1189  1189 E Zygote  : Exit zygote because system server (1336) has terminated
-12-18 17:58:00.191   954  1032 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1248000
-12-18 17:58:00.223   954  1032 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1344000
-12-18 17:58:00.253   954  1032 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1440000
-12-18 17:58:00.344   954  1032 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1344000
-12-18 17:58:00.375   954  1032 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1248000
-12-18 17:58:00.406   954  1032 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 960000
-12-18 17:58:00.526  2721  2721 E APM::Serializer: deserialize: Could not parse /odm/etc/audio_policy_configuration.xml document.
-12-18 17:58:00.526  2721  2721 E APM::Serializer: deserialize: Could not parse /vendor/etc/audio_policy_configuration.xml document.
-12-18 17:58:00.611  2721  2721 E BroadcastRadio: couldn't load radio module radio.fm (No such file or directory)
-12-18 17:58:00.612  2721  2721 E RadioService: could not read implementation properties
-12-18 17:58:00.615  2724  2724 E Netd    : Error adding route 0.0.0.0/0 -> (null) dummy0 to table 1002: File exists
-12-18 17:58:00.618  2721  2721 E SoundTriggerHalImpl: couldn't load sound trigger module sound_trigger.primary (No such file or directory)
-12-18 17:58:00.618  2721  2721 E SoundTriggerHwService: could not read implementation properties
-12-18 17:58:00.986   954  1032 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1248000
-12-18 17:58:01.017   954  1032 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1344000
-12-18 17:58:01.048   954  1032 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1440000
+12-19 21:14:46.959  1586  1586 E AndroidRuntime: *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+12-19 21:14:46.959  1586  1586 E AndroidRuntime: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN9izat_core15IzatAdapterBase23onGdtDownloadBeginEventEijjPKhjS2_jPKcjjaja" referenced by "/system/vendor/lib64/libgeofence.so"...
+12-19 21:14:46.959  1586  1586 E AndroidRuntime: 	at java.lang.Runtime.loadLibrary0(Runtime.java:1016)
+12-19 21:14:46.959  1586  1586 E AndroidRuntime: 	at java.lang.System.loadLibrary(System.java:1657)
+12-19 21:14:46.959  1586  1586 E AndroidRuntime: 	at com.qualcomm.location.izatserviceprovider.service.IzatServiceBase.<clinit>(IzatServiceBase.java:199)
+12-19 21:14:46.959  1586  1586 E AndroidRuntime: 	at java.lang.Class.newInstance(Native Method)
+12-19 21:14:46.959  1586  1586 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:3386)
+12-19 21:14:46.959  1586  1586 E AndroidRuntime: 	at android.app.ActivityThread.-wrap4(Unknown Source:0)
+12-19 21:14:46.959  1586  1586 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1683)
+12-19 21:14:46.959  1586  1586 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:105)
+12-19 21:14:46.959  1586  1586 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:164)
+12-19 21:14:46.959  1586  1586 E AndroidRuntime: 	at com.android.server.SystemServer.run(SystemServer.java:423)
+12-19 21:14:46.959  1586  1586 E AndroidRuntime: 	at com.android.server.SystemServer.main(SystemServer.java:262)
+12-19 21:14:46.959  1586  1586 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+12-19 21:14:46.959  1586  1586 E AndroidRuntime: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+12-19 21:14:46.959  1586  1586 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+12-19 21:14:47.014  2588  2588 E AndroidRuntime: FATAL EXCEPTION: main
+12-19 21:14:47.014  2588  2588 E AndroidRuntime: Process: com.android.nfc, PID: 2588
+12-19 21:14:47.014  2588  2588 E AndroidRuntime: DeadSystemException: The system died; earlier logs will point to the root cause
+12-19 21:14:47.014  2721  2721 E AndroidRuntime: FATAL EXCEPTION: main
+12-19 21:14:47.014  2721  2721 E AndroidRuntime: Process: com.android.launcher3, PID: 2721
+12-19 21:14:47.014  2721  2721 E AndroidRuntime: DeadSystemException: The system died; earlier logs will point to the root cause
+12-19 21:14:47.017  2748  2748 E AndroidRuntime: FATAL EXCEPTION: main
+12-19 21:14:47.017  2748  2748 E AndroidRuntime: Process: android.process.media, PID: 2748
+12-19 21:14:47.017  2748  2748 E AndroidRuntime: DeadSystemException: The system died; earlier logs will point to the root cause
+12-19 21:14:47.049  1296  1802 E BufferQueueProducer: [com.android.systemui.ImageWallpaper#0] dequeueBuffer: BufferQueue has been abandoned
+12-19 21:14:47.065  1296  1313 E BufferQueueProducer: [com.android.systemui.ImageWallpaper#0] connect: BufferQueue has been abandoned
+12-19 21:14:47.065  2151  2151 E BaseSurfaceHolder: Exception locking surface
+12-19 21:14:47.065  2151  2151 E BaseSurfaceHolder: java.lang.IllegalArgumentException
+12-19 21:14:47.065  2151  2151 E BaseSurfaceHolder: 	at android.view.Surface.nativeLockCanvas(Native Method)
+12-19 21:14:47.065  2151  2151 E BaseSurfaceHolder: 	at android.view.Surface.lockCanvas(Surface.java:314)
+12-19 21:14:47.065  2151  2151 E BaseSurfaceHolder: 	at com.android.internal.view.BaseSurfaceHolder.internalLockCanvas(BaseSurfaceHolder.java:194)
+12-19 21:14:47.065  2151  2151 E BaseSurfaceHolder: 	at com.android.internal.view.BaseSurfaceHolder.lockCanvas(BaseSurfaceHolder.java:158)
+12-19 21:14:47.065  2151  2151 E BaseSurfaceHolder: 	at android.service.wallpaper.WallpaperService$Engine$1.lockCanvas(WallpaperService.java:247)
+12-19 21:14:47.065  2151  2151 E BaseSurfaceHolder: 	at com.android.systemui.ImageWallpaper$DrawableEngine.drawWallpaperWithCanvas(ImageWallpaper.java:567)
+12-19 21:14:47.065  2151  2151 E BaseSurfaceHolder: 	at com.android.systemui.ImageWallpaper$DrawableEngine.drawFrame(ImageWallpaper.java:404)
+12-19 21:14:47.065  2151  2151 E BaseSurfaceHolder: 	at com.android.systemui.ImageWallpaper$DrawableEngine.onSurfaceChanged(ImageWallpaper.java:272)
+12-19 21:14:47.065  2151  2151 E BaseSurfaceHolder: 	at android.service.wallpaper.WallpaperService$Engine.updateSurface(WallpaperService.java:786)
+12-19 21:14:47.065  2151  2151 E BaseSurfaceHolder: 	at android.service.wallpaper.WallpaperService$IWallpaperEngineWrapper.executeMessage(WallpaperService.java:1197)
+12-19 21:14:47.065  2151  2151 E BaseSurfaceHolder: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:37)
+12-19 21:14:47.065  2151  2151 E BaseSurfaceHolder: 	at android.os.Handler.dispatchMessage(Handler.java:105)
+12-19 21:14:47.065  2151  2151 E BaseSurfaceHolder: 	at android.os.Looper.loop(Looper.java:164)
+12-19 21:14:47.065  2151  2151 E BaseSurfaceHolder: 	at android.app.ActivityThread.main(ActivityThread.java:6541)
+12-19 21:14:47.065  2151  2151 E BaseSurfaceHolder: 	at java.lang.reflect.Method.invoke(Native Method)
+12-19 21:14:47.065  2151  2151 E BaseSurfaceHolder: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+12-19 21:14:47.065  2151  2151 E BaseSurfaceHolder: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+12-19 21:14:47.068  1296  1802 E BufferQueueProducer: [StatusBar#0] dequeueBuffer: BufferQueue has been abandoned
+12-19 21:14:47.068  1296  1314 E BufferQueueProducer: [StatusBar#0] query: BufferQueue has been abandoned
+12-19 21:14:47.069  2151  2151 E AndroidRuntime: FATAL EXCEPTION: main
+12-19 21:14:47.069  2151  2151 E AndroidRuntime: Process: com.android.systemui, PID: 2151
+12-19 21:14:47.069  2151  2151 E AndroidRuntime: DeadSystemException: The system died; earlier logs will point to the root cause
+12-19 21:14:47.070  1296  1313 E BufferQueueProducer: [StatusBar#0] dequeueBuffer: BufferQueue has been abandoned
+12-19 21:14:47.070  1296  2533 E BufferQueueProducer: [StatusBar#0] dequeueBuffer: BufferQueue has been abandoned
+12-19 21:14:47.070  1296  1802 E BufferQueueProducer: [StatusBar#0] dequeueBuffer: BufferQueue has been abandoned
+12-19 21:14:47.071  1296  1314 E BufferQueueProducer: [StatusBar#0] dequeueBuffer: BufferQueue has been abandoned
+12-19 21:14:47.377  1366  1366 E Zygote  : Exit zygote because system server (1586) has terminated
+12-19 21:14:47.733   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1248000
+12-19 21:14:47.733   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1248000
+12-19 21:14:47.766   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1344000
+12-19 21:14:47.796   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1440000
+12-19 21:14:47.827   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1536000
+12-19 21:14:47.858   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1632000
+12-19 21:14:47.888   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1689600
+12-19 21:14:47.919   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1824000
+12-19 21:14:47.927   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1689600
+12-19 21:14:47.963   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1824000
+12-19 21:14:47.964   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1689600
+12-19 21:14:47.994   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1632000
+12-19 21:14:48.025   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1536000
+12-19 21:14:48.055   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1440000
+12-19 21:14:48.085   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1344000
+12-19 21:14:48.091  2783  2783 E APM::Serializer: deserialize: Could not parse /odm/etc/audio_policy_configuration.xml document.
+12-19 21:14:48.092  2783  2783 E APM::Serializer: deserialize: Could not parse /vendor/etc/audio_policy_configuration.xml document.
+12-19 21:14:48.116   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1248000
+12-19 21:14:48.139  2783  2783 E BroadcastRadio: couldn't load radio module radio.fm (No such file or directory)
+12-19 21:14:48.140  2783  2783 E RadioService: could not read implementation properties
+12-19 21:14:48.143  2783  2783 E SoundTriggerHalImpl: couldn't load sound trigger module sound_trigger.primary (No such file or directory)
+12-19 21:14:48.144  2783  2783 E SoundTriggerHwService: could not read implementation properties
+12-19 21:14:48.146   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 960000
+12-19 21:14:48.161  2785  2785 E Netd    : Error adding route 0.0.0.0/0 -> (null) dummy0 to table 1002: File exists
+12-19 21:14:48.479   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1248000
+12-19 21:14:48.509   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1344000
+12-19 21:14:48.540   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1440000
+12-19 21:14:48.570   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1344000
+12-19 21:14:48.601   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1248000
+12-19 21:14:48.632   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 960000
+12-19 21:14:48.820  2782  2782 E ActivityRecognitionHardware: activity_recognition HAL is deprecated. class_init is effectively a no-op
+12-19 21:14:49.056   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1248000
+12-19 21:14:49.087   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1344000
+12-19 21:14:49.117   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1440000
+12-19 21:14:49.148   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1536000
+12-19 21:14:49.178   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1632000
+12-19 21:14:49.209   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1689600
+12-19 21:14:49.240   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1824000
+12-19 21:14:49.252   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1689600
+12-19 21:14:49.284   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1632000
+12-19 21:14:49.314   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1536000
+12-19 21:14:49.345   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1440000
+12-19 21:14:49.375   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1344000
+12-19 21:14:49.409   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1248000
+12-19 21:14:49.443   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 960000
+12-19 21:14:49.933  2856  2881 E light   : light_open lights keyboard failed: -22
+12-19 21:14:49.933  2856  2881 E light   : Light passthrough failed to load legacy HAL.
+12-19 21:14:49.934  2856  2881 E light   : light_open lights buttons failed: -22
+12-19 21:14:49.934  2856  2881 E light   : Light passthrough failed to load legacy HAL.
+12-19 21:14:49.937  2856  2881 E light   : light_open lights bluetooth failed: -22
+12-19 21:14:49.937  2856  2881 E light   : Light passthrough failed to load legacy HAL.
+12-19 21:14:49.938  2856  2881 E light   : light_open lights wifi failed: -22
+12-19 21:14:49.938  2856  2881 E light   : Light passthrough failed to load legacy HAL.
+12-19 21:14:50.289  2856  2856 E PackageManager: There should probably be a verifier, but, none were found
+12-19 21:14:50.423  2856  2902 E sensors_hal_Ctx: enableLogging: Mag filter level is 1
+12-19 21:14:50.440   989   989 E QMI_FW  : xport_send: Sendto failed for port 1792
+12-19 21:14:50.440   989   989 E QMI_FW  : QCCI qmi_cci_flush_tx_q: Error sending TXN: svc_id: 256 txn_id: 1 msg_id: 1
+12-19 21:14:50.440   989   989 E Sensors : sns_acm_mr.c(499):Transport error -16
+12-19 21:14:50.453  2856  2869 E SystemServer: Unable to preload default resources
+12-19 21:14:50.475   990  1071 E ThermalEngine: [BMHB_GOV] read failed VS_TEMP
+12-19 21:14:51.439  2856  2902 E sensors_hal_Util: waitForResponse: pthread_cond_timedwait() rc=110 (cond: 0)
+12-19 21:14:51.439  2856  2902 E sensors_hal_Ctx: sendSMGRVersionReq: SMGR version request timed out
+12-19 21:14:51.439  2856  2902 E sensors_hal_Ctx: SensorsContext: SMGR version request failed!
+12-19 21:14:51.440   989   989 E QMI_FW  : xport_send: Sendto failed for port 1792
+12-19 21:14:51.440   989   989 E QMI_FW  : QCCI qmi_cci_flush_tx_q: Error sending TXN: svc_id: 256 txn_id: 2 msg_id: 5
+12-19 21:14:51.440   989   989 E Sensors : sns_acm_mr.c(499):Transport error -16
+12-19 21:14:51.927   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1248000
+12-19 21:14:51.929  2914  2914 E ANDR-PERF-MPCTL: Unable to create control service (stage=1, rc=0)
+12-19 21:14:51.958   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1344000
+12-19 21:14:51.988   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1440000
+12-19 21:14:52.020   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1536000
+12-19 21:14:52.051   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1632000
+12-19 21:14:52.081   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1689600
+12-19 21:14:52.112   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1824000
+12-19 21:14:52.440  2856  2902 E sensors_hal_Util: waitForResponse: pthread_cond_timedwait() rc=110 (cond: 0)
+12-19 21:14:52.440  2856  2902 E sensors_hal_Ctx: getSensorList: Request timed out
+12-19 21:14:52.440  2856  2902 E sensors_hal_Ctx: SensorsContext: get sensor list failed!
+12-19 21:14:52.773  2856  2932 E EventHub: could not get driver version for /dev/input/mice, Not a typewriter
+12-19 21:14:52.810  2856  2870 E AppIdleHistory: Unable to read app idle file for user 0
+12-19 21:14:52.931  2856  2898 E PersistentDataBlockService: not able to find package com.google.android.gms
+12-19 21:14:52.931  2856  2898 E PersistentDataBlockService: android.content.pm.PackageManager$NameNotFoundException: com.google.android.gms
+12-19 21:14:52.931  2856  2898 E PersistentDataBlockService: 	at android.app.ApplicationPackageManager.getPackageUidAsUser(ApplicationPackageManager.java:277)
+12-19 21:14:52.931  2856  2898 E PersistentDataBlockService: 	at com.android.server.PersistentDataBlockService.getAllowedUid(PersistentDataBlockService.java:106)
+12-19 21:14:52.931  2856  2898 E PersistentDataBlockService: 	at com.android.server.PersistentDataBlockService.lambda$-com_android_server_PersistentDataBlockService_4652(PersistentDataBlockService.java:119)
+12-19 21:14:52.931  2856  2898 E PersistentDataBlockService: 	at com.android.server.-$Lambda$Vs1k-33pKk0_ZNh1UtgE1Q9ZrgU.$m$0(Unknown Source:4)
+12-19 21:14:52.931  2856  2898 E PersistentDataBlockService: 	at com.android.server.-$Lambda$Vs1k-33pKk0_ZNh1UtgE1Q9ZrgU.run(Unknown Source:0)
+12-19 21:14:52.931  2856  2898 E PersistentDataBlockService: 	at com.android.server.SystemServerInitThreadPool.lambda$-com_android_server_SystemServerInitThreadPool_2249(SystemServerInitThreadPool.java:64)
+12-19 21:14:52.931  2856  2898 E PersistentDataBlockService: 	at com.android.server.-$Lambda$HTEfptnAsu3OjkqY28AzP7WiEyA.$m$0(Unknown Source:8)
+12-19 21:14:52.931  2856  2898 E PersistentDataBlockService: 	at com.android.server.-$Lambda$HTEfptnAsu3OjkqY28AzP7WiEyA.run(Unknown Source:0)
+12-19 21:14:52.931  2856  2898 E PersistentDataBlockService: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:457)
+12-19 21:14:52.931  2856  2898 E PersistentDataBlockService: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+12-19 21:14:52.931  2856  2898 E PersistentDataBlockService: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-19 21:14:52.931  2856  2898 E PersistentDataBlockService: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-19 21:14:52.931  2856  2898 E PersistentDataBlockService: 	at com.android.internal.util.ConcurrentUtils$1$1.run(ConcurrentUtils.java:59)
+12-19 21:14:53.069  2856  2941 E HalDeviceManager: isSupported: called but mServiceManager is null!?
+12-19 21:14:53.077  2856  2856 E SupplicantStaIfaceHal: Can't call setDebugParams, ISupplicant is null
+12-19 21:14:53.093  2856  2856 E IpConfigStore: Error opening configuration file: java.io.FileNotFoundException: /data/misc/ethernet/ipconfig.txt (No such file or directory)
+12-19 21:14:53.104  2856  2856 E ConnectivityService: Ignoring protectedNetwork 15
+12-19 21:14:53.261  1289  1289 E android.hardware.usb@1.0-service: Failed to open /sys/class/dual_role_usb
+12-19 21:14:53.267  2856  2856 E HardwarePropertiesManagerService-JNI: Unable to get Thermal service.
+12-19 21:14:53.305  2856  2856 E ContextHubService: Could not load context hub hal
+12-19 21:14:53.430  2856  2856 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/gatekeeper.password.key: open failed: ENOENT (No such file or directory)
+12-19 21:14:53.431  2856  2856 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/password.key: open failed: ENOENT (No such file or directory)
+12-19 21:14:53.431  2856  2856 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/gatekeeper.pattern.key: open failed: ENOENT (No such file or directory)
+12-19 21:14:53.432  2856  2856 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/gatekeeper.gesture.key: open failed: ENOENT (No such file or directory)
+12-19 21:14:53.433  2856  2856 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/gesture.key: open failed: ENOENT (No such file or directory)
+12-19 21:14:53.710  2856  2856 E BitmapFactory: Unable to decode stream: java.io.FileNotFoundException: /data/system/users/0/wallpaper_orig (No such file or directory)
+12-19 21:14:53.710  2856  2856 E WallpaperManagerService: Unable to apply new wallpaper
+12-19 21:14:53.771  1289  1289 E android.hardware.usb@1.0-service: Failed to open /sys/class/dual_role_usb
+12-19 21:14:53.771  2856  2930 E UsbPortManager: port status enquiry failed
+12-19 21:14:53.835  2856  2941 E HalDeviceManager: Should have at least 1 chip!
+12-19 21:14:53.835  2856  2941 E HalDeviceManager: getSupportedIfaceTypesInternal: no chip info found
+12-19 21:14:53.839  2856  2876 E BatteryStatsService: no controller energy info supplied
+12-19 21:14:53.839  2856  2876 E BatteryStatsService: no controller energy info supplied
+12-19 21:14:53.851  2980  2980 E JniUtils: Could not load native library jni_latinimegoogle
+12-19 21:14:53.851  2980  2980 E JniUtils: java.lang.UnsatisfiedLinkError: dalvik.system.PathClassLoader[DexPathList[[zip file "/system/app/LatinIME/LatinIME.apk"],nativeLibraryDirectories=[/system/app/LatinIME/lib/arm64, /system/fake-libs64, /system/app/LatinIME/LatinIME.apk!/lib/arm64-v8a, /system/lib64, /system/vendor/lib64, /system/lib64, /system/vendor/lib64]]] couldn't find "libjni_latinimegoogle.so"
+12-19 21:14:53.851  2980  2980 E JniUtils: 	at java.lang.Runtime.loadLibrary0(Runtime.java:1011)
+12-19 21:14:53.851  2980  2980 E JniUtils: 	at java.lang.System.loadLibrary(System.java:1657)
+12-19 21:14:53.851  2980  2980 E JniUtils: 	at com.android.inputmethod.latin.utils.JniUtils.<clinit>(JniUtils.java:29)
+12-19 21:14:53.851  2980  2980 E JniUtils: 	at com.android.inputmethod.latin.utils.JniUtils.loadNativeLibrary(JniUtils.java:47)
+12-19 21:14:53.851  2980  2980 E JniUtils: 	at com.android.inputmethod.latin.LatinIME.<clinit>(LatinIME.java:546)
+12-19 21:14:53.851  2980  2980 E JniUtils: 	at java.lang.Class.newInstance(Native Method)
+12-19 21:14:53.851  2980  2980 E JniUtils: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:3386)
+12-19 21:14:53.851  2980  2980 E JniUtils: 	at android.app.ActivityThread.-wrap4(Unknown Source:0)
+12-19 21:14:53.851  2980  2980 E JniUtils: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1683)
+12-19 21:14:53.851  2980  2980 E JniUtils: 	at android.os.Handler.dispatchMessage(Handler.java:105)
+12-19 21:14:53.851  2980  2980 E JniUtils: 	at android.os.Looper.loop(Looper.java:164)
+12-19 21:14:53.851  2980  2980 E JniUtils: 	at android.app.ActivityThread.main(ActivityThread.java:6541)
+12-19 21:14:53.851  2980  2980 E JniUtils: 	at java.lang.reflect.Method.invoke(Native Method)
+12-19 21:14:53.851  2980  2980 E JniUtils: 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+12-19 21:14:53.851  2980  2980 E JniUtils: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+12-19 21:14:53.978  2856  2856 E LocSvc_eng: I/===> loc_eng_read_config line 2986 
+12-19 21:14:53.981  2856  2856 E GnssHAL_GnssInterface: getExtensionAGnssRil GnssRil interface not implemented by GNSS HAL
+12-19 21:14:53.981  2856  2856 E GnssHAL_GnssInterface: getExtensionGnssNavigationMessage GnssNavigationMessage interface not implemented by GNSS HAL
+12-19 21:14:53.981  2856  2856 E GnssHAL_GnssInterface: getExtensionGnssDebug: GnssDebug interface is not implemented by HAL
+12-19 21:14:53.986  1023  2436 E OMX-VENC: Setting session priority failed
+12-19 21:14:53.991  2856  2856 E GnssHAL_GnssInterface: getExtensionGnssGeofencing GnssGeofencing interface not implemented by GNSS HAL
+12-19 21:14:54.000  2856  2856 E HAL     : load: module=/vendor/lib64/hw/flp.default.so
+12-19 21:14:54.000  2856  2856 E HAL     : dlopen failed: cannot locate symbol "get_process_name" referenced by "/system/vendor/lib64/libizat_core.so"...
+12-19 21:14:54.000  2856  2856 E GnssHAL_GnssInterface: gnss flp hw_get_module failed: -22
+12-19 21:14:54.000  2856  2856 E GnssHAL_GnssInterface: getExtensionGnssBatching: GnssBatching interface is not implemented by HAL
+12-19 21:14:54.002   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1689600
+12-19 21:14:54.003  1023  1023 E OMX-VENC: Setting session priority failed
+12-19 21:14:54.006  1023  1023 E OMX-VENC: get_parameter: OMX_IndexParamVideoProfileLevelQuerySupported nProfileIndex ret NoMore 2
+12-19 21:14:54.015  1023  1023 E OMX-VENC: Setting session priority failed
+12-19 21:14:54.017  1023  2436 E OMX-VENC: get_parameter: OMX_IndexParamVideoProfileLevelQuerySupported nProfileIndex ret NoMore 1
+12-19 21:14:54.021  2856  2856 E LocSvc_ApiV02: E/static loc_core::LocApiBase *LocApiV02::createLocApiV02(const MsgTask *, LOC_API_ADAPTER_EVENT_MASK_T, loc_core::ContextBase *):217]: msgTask can not be NULL
+12-19 21:14:54.022  2856  2856 E GnssLocationProvider: Unable to initialize GNSS Geofencing interface
+12-19 21:14:54.025  1023  2436 E OMX-VENC: Setting session priority failed
+12-19 21:14:54.027  2856  2856 E LocationManagerService: no geocoder provider found
+12-19 21:14:54.030  2856  2856 E ActivityRecognitionHardware: activity_recognition HAL is deprecated. is_supported is effectively a no-op
+12-19 21:14:54.031  2856  2856 E ActivityRecognitionProxy: ServiceWatcher could not start.
+12-19 21:14:54.032   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1824000
+12-19 21:14:54.035  2856  2870 E GnssLocationProvider: Unable to initialize GNSS Geofencing interface
+12-19 21:14:54.036  2856  2870 E GnssLocationProvider: Failed to initialize GNSS batching
+12-19 21:14:54.049  1023  2188 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:54.049  1023  2188 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:54.049  1023  2188 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
+12-19 21:14:54.050  1023  2438 E OMXNodeInstance: getParameter(0xec355d04:qcom.decoder.avc, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:54.054  1023  2436 E OMXNodeInstance: getParameter(0xec355d04:qcom.decoder.avc, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:54.055  1023  2436 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:54.055  1023  2436 E OMXNodeInstance: getExtensionIndex(0xec355d04:qcom.decoder.avc, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
+12-19 21:14:54.055  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:54.070  1023  2188 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:54.070  1023  2188 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:54.070  1023  2188 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
+12-19 21:14:54.070  1023  2438 E OMXNodeInstance: getParameter(0xec362084:qcom.decoder.avc.secure, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:54.071  1023  2436 E OMXNodeInstance: getParameter(0xec362084:qcom.decoder.avc.secure, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:54.073  1023  2436 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:54.073  1023  2436 E OMXNodeInstance: getExtensionIndex(0xec362084:qcom.decoder.avc.secure, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
+12-19 21:14:54.074  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:54.077   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1689600
+12-19 21:14:54.085  1023  1276 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:54.085  1023  1276 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:54.085  1023  1276 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
+12-19 21:14:54.085  1023  1023 E OMXNodeInstance: getParameter(0xec36fc04:qcom.decoder.mpeg4, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:54.086  1023  2188 E OMXNodeInstance: getParameter(0xec36fc04:qcom.decoder.mpeg4, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:54.086  1023  2188 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:54.086  1023  2188 E OMXNodeInstance: getExtensionIndex(0xec36fc04:qcom.decoder.mpeg4, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
+12-19 21:14:54.086  1023  2436 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:54.102  1023  2438 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:54.103  1023  2438 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:54.103  1023  2438 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
+12-19 21:14:54.103  1023  2436 E OMXNodeInstance: getParameter(0xed917cc4:qcom.decoder.mpeg2, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:54.104  1023  1276 E OMXNodeInstance: getParameter(0xed917cc4:qcom.decoder.mpeg2, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:54.104  1023  1276 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:54.104  1023  1276 E OMXNodeInstance: getExtensionIndex(0xed917cc4:qcom.decoder.mpeg2, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
+12-19 21:14:54.105  1023  2188 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:54.108   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1632000
+12-19 21:14:54.122  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:54.122  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:54.122  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
+12-19 21:14:54.124   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1536000
+12-19 21:14:54.125  1023  2188 E OMXNodeInstance: getParameter(0xed965604:qcom.decoder.mpeg2.secure, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:54.126  1023  2438 E OMXNodeInstance: getParameter(0xed965604:qcom.decoder.mpeg2.secure, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:54.129  1023  2438 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:54.129  1023  2438 E OMXNodeInstance: getExtensionIndex(0xed965604:qcom.decoder.mpeg2.secure, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
+12-19 21:14:54.130  1023  1276 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:54.150  1023  2188 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:54.150  1023  2188 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:54.150  1023  2188 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
+12-19 21:14:54.151  1023  2438 E OMXNodeInstance: getParameter(0xec362084:qcom.decoder.h263, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:54.152  1023  2436 E OMXNodeInstance: getParameter(0xec362084:qcom.decoder.h263, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:54.153  1023  2436 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:54.153  1023  2436 E OMXNodeInstance: getExtensionIndex(0xec362084:qcom.decoder.h263, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
+12-19 21:14:54.153  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:54.155   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1632000
+12-19 21:14:54.176  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:54.176  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:54.176  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
+12-19 21:14:54.177  1023  2188 E OMXNodeInstance: getParameter(0xed917cc4:qcom.decoder.vp8, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:54.177  1023  2438 E OMXNodeInstance: getParameter(0xed917cc4:qcom.decoder.vp8, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:54.178  1023  2438 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:54.178  1023  2438 E OMXNodeInstance: getExtensionIndex(0xed917cc4:qcom.decoder.vp8, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
+12-19 21:14:54.178  1023  1276 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:54.182   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1689600
+12-19 21:14:54.191  1023  2188 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:54.191  1023  2188 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:54.191  1023  2188 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
+12-19 21:14:54.192  1023  2438 E OMXNodeInstance: getParameter(0xec362084:qcom.decoder.hevc, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:54.193  1023  2436 E OMXNodeInstance: getParameter(0xec362084:qcom.decoder.hevc, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:54.194  1023  2436 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:54.194  1023  2436 E OMXNodeInstance: getExtensionIndex(0xec362084:qcom.decoder.hevc, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
+12-19 21:14:54.194  1023  1023 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:54.207  1023  2438 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:54.207  1023  2438 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:54.207  1023  2438 E OMX-VDEC-1080P: Extension: OMX.google.android.index.useAndroidNativeBuffer is supported
+12-19 21:14:54.208  1023  2436 E OMXNodeInstance: getParameter(0xed783104:qcom.decoder.hevc.secure, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:54.209  1023  1276 E OMXNodeInstance: getParameter(0xed783104:qcom.decoder.hevc.secure, ??(0x7f000044)) ERROR: UnsupportedSetting(0x80001019)
+12-19 21:14:54.210  1023  1276 E OMX-VDEC-1080P: Extension: OMX.google.android.index.configureVideoTunnelMode not implemented
+12-19 21:14:54.210  1023  1276 E OMXNodeInstance: getExtensionIndex(0xed783104:qcom.decoder.hevc.secure, OMX.google.android.index.configureVideoTunnelMode) ERROR: NotImplemented(0x80001006)
+12-19 21:14:54.210  1023  2188 E OMX-VDEC-1080P: Extension: OMX.google.android.index.storeANWBufferInMetadata not implemented
+12-19 21:14:54.213   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1632000
+12-19 21:14:54.220  1023  1276 E OMX     : FAILED to allocate omx component 'OMX.qti.audio.decoder.flac' err=??(0x80001002)
+12-19 21:14:54.226  1023  1276 E OMXNodeInstance: getExtensionIndex(0xedc8c180:google.mpeg4.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:54.226  1023  2188 E OMXNodeInstance: getExtensionIndex(0xedc8c180:google.mpeg4.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:54.235  1023  2436 E OMXNodeInstance: getExtensionIndex(0xedc8c060:google.h263.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:54.235  1023  1023 E OMXNodeInstance: getExtensionIndex(0xedc8c060:google.h263.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:54.243   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1536000
+12-19 21:14:54.244  1023  2438 E OMXNodeInstance: getExtensionIndex(0xedc8c180:google.h264.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:54.244  1023  1276 E OMXNodeInstance: getExtensionIndex(0xedc8c180:google.h264.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:54.255  2856  2856 E WiredAccessoryManager: No state change.
+12-19 21:14:54.257  1023  2188 E OMXNodeInstance: getExtensionIndex(0xedc8c060:google.hevc.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:54.258  1023  1023 E OMXNodeInstance: getExtensionIndex(0xedc8c060:google.hevc.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:54.272  1023  2436 E OMXNodeInstance: getExtensionIndex(0xedc8c1e0:google.vp8.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:54.273  1023  2188 E OMXNodeInstance: getExtensionIndex(0xedc8c1e0:google.vp8.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:54.273   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1440000
+12-19 21:14:54.280  1023  2436 E OMXNodeInstance: getExtensionIndex(0xee022ea0:google.vp9.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:54.280  1023  2188 E OMXNodeInstance: getExtensionIndex(0xee022ea0:google.vp9.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+12-19 21:14:54.293  1023  2188 E OMXNodeInstance: getConfig(0xedc8c000:google.h263.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
+12-19 21:14:54.304   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1344000
+12-19 21:14:54.315  1023  1276 E OMXNodeInstance: getConfig(0xedc8c060:google.mpeg4.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
+12-19 21:14:54.325  1023  2188 E OMXNodeInstance: getConfig(0xee022ea0:google.vp8.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
+12-19 21:14:54.333  1023  2436 E OMXNodeInstance: getConfig(0xedc8c060:google.vp9.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
+12-19 21:14:54.334   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1248000
+12-19 21:14:54.360  1023  1023 E OMXNodeInstance: getConfig(0xedc8c600:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-19 21:14:54.360  1023  2188 E OMXNodeInstance: getConfig(0xedc8c060:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-19 21:14:54.364   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 960000
+12-19 21:14:54.439  1023  2436 E OMXNodeInstance: getConfig(0xedc8c060:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-19 21:14:54.464  1023  1276 E OMXNodeInstance: getConfig(0xedc8c300:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-19 21:14:54.510   990  1070 E ThermalEngine: TM Id 'wlchg_monitor' Sensor 'xo_therm' - alarm raised 1 at 42.0 degC
+12-19 21:14:54.526  1023  2438 E OMXNodeInstance: getConfig(0xedc8c000:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-19 21:14:54.554  1023  2188 E OMXNodeInstance: getConfig(0xedc8c060:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-19 21:14:54.585  1023  1023 E OMXNodeInstance: getConfig(0xedc8c180:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-19 21:14:54.636   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1248000
+12-19 21:14:54.646  1023  2438 E OMXNodeInstance: getConfig(0xee023020:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-19 21:14:54.667   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1344000
+12-19 21:14:54.675  3130  3130 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+12-19 21:14:54.697   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1440000
+12-19 21:14:54.705  3130  3130 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+12-19 21:14:54.728   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1536000
+12-19 21:14:54.730  1023  2438 E OMXNodeInstance: getConfig(0xee0232c0:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-19 21:14:54.758   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1632000
+12-19 21:14:54.788   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1689600
+12-19 21:14:54.816   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1824000
+12-19 21:14:54.816   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1689600
+12-19 21:14:54.846   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1824000
+12-19 21:14:54.863   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1689600
+12-19 21:14:54.912   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1632000
+12-19 21:14:54.942   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1536000
+12-19 21:14:54.973   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1440000
+12-19 21:14:55.003   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1344000
+12-19 21:14:55.033   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1248000
+12-19 21:14:55.048  2965  3309 E bt_att  : gatt_profile_db_init:  gatt_if=1
+12-19 21:14:55.064   990  1074 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 960000
+12-19 21:14:55.339  2965  3054 E bt_btif_storage: btif_storage_get_adapter_property: Controller ready!
+12-19 21:14:55.386  2965  3054 E bt_btif : btif_hf_upstreams_evt: Invalid index 44649
+12-19 21:14:55.410  2965  3054 E bt_btif : btif_sm_dispatch : Invalid handle
+12-19 21:14:55.410  2965  3054 E bt_btif : btif_sm_dispatch : Invalid handle
+12-19 21:14:55.475   990  1071 E ThermalEngine: [BMHB_GOV] read failed VS_TEMP
+12-19 21:14:56.187  1023  2188 E OMXNodeInstance: setConfig(0xedc8c000:google.vorbis.decoder, ConfigPriority(0x6f800002)) ERROR: Undefined(0x80001001)
+12-19 21:14:56.188  1023  1276 E OMXNodeInstance: getConfig(0xedc8c000:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-19 21:14:56.910  3362  3362 E ANDR-PERF-MPCTL: Unable to create control service (stage=1, rc=0)
