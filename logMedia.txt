@@ -1,0 +1,270 @@
+12-27 18:15:05.503   926  5710 I am_pause_activity: [0,169915752,com.android.launcher3/.Launcher]
+12-27 18:15:05.510   926   955 I AppWidgetServiceImpl: Async processing of onUserUnlocked u0 took 319 ms
+12-27 18:15:05.510   926   947 I am_meminfo: [422887424,1703292928,0,90173440,272915456]
+12-27 18:15:05.541   926   941 I am_uid_running: 10080
+12-27 18:15:05.565   926   941 I am_proc_start: [0,5766,10080,com.google.android.apps.photos,broadcast,com.google.android.apps.photos/.sdcard.envcache.ExternalStorageStateChangeBroadcastReceiver]
+12-27 18:15:05.566   926   941 I ActivityManager: Start proc 5766:com.google.android.apps.photos/u0a80 for broadcast com.google.android.apps.photos/.sdcard.envcache.ExternalStorageStateChangeBroadcastReceiver
+12-27 18:15:05.580   926  4525 I am_proc_start: [0,5781,10031,com.google.process.gapps,content provider,com.google.android.gsf/.gservices.GservicesProvider]
+12-27 18:15:05.580   926  4525 I ActivityManager: Start proc 5781:com.google.process.gapps/u0a31 for content provider com.google.android.gsf/.gservices.GservicesProvider
+12-27 18:15:05.580   926  5728 I am_proc_bound: [0,5766,com.google.android.apps.photos]
+12-27 18:15:05.601  3885  3885 I auditd  : type=1400 audit(0.0:478): avc: denied { ioctl } for comm="rild" path="socket:[18519]" dev="sockfs" ino=18519 ioctlcmd=c302 scontext=u:r:rild:s0 tcontext=u:r:rild:s0 tclass=socket permissive=1
+12-27 18:15:05.602   926  4377 I am_proc_bound: [0,5781,com.google.process.gapps]
+12-27 18:15:05.627   926  5710 W ActivityManager: Unable to start service Intent { act=android.nfc.cardemulation.action.HOST_APDU_SERVICE cmp=com.google.android.gms/.tapandpay.hce.service.TpHceService } U=0: not found
+12-27 18:15:05.633  5812  5812 I auditd  : type=1400 audit(0.0:479): avc: denied { open } for comm=4173796E635461736B202331 path="/data/nfc/nfaStorage.bin1" dev="mmcblk0p50" ino=1054707 scontext=u:r:nfc:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+12-27 18:15:05.636   926   947 I am_uid_running: 10061
+12-27 18:15:05.651   926   947 I am_proc_start: [0,5819,10061,com.android.printspooler,service,com.android.printspooler/.model.PrintSpoolerService]
+12-27 18:15:05.652   926   947 I ActivityManager: Start proc 5819:com.android.printspooler/u0a61 for service com.android.printspooler/.model.PrintSpoolerService
+12-27 18:15:05.655   926  5733 I force_gc: Binder
+12-27 18:15:05.677   926  4377 I am_proc_bound: [0,5819,com.android.printspooler]
+12-27 18:15:05.680   926  4377 I am_uid_active: 10061
+--------- beginning of crash
+12-27 18:15:05.702  5628  5764 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 5764 (MediaScannerSer), pid 5628 (d.process.media)
+12-27 18:15:05.769  5843  5843 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+12-27 18:15:05.769  5843  5843 F DEBUG   : Build fingerprint: 'lge/p1_global_com/p1:8.0/NRD90U/171931902b165:user/release-keys'
+12-27 18:15:05.769  5843  5843 F DEBUG   : Revision: '11'
+12-27 18:15:05.769  5843  5843 F DEBUG   : ABI: 'arm64'
+12-27 18:15:05.769  5843  5843 F DEBUG   : pid: 5628, tid: 5764, name: MediaScannerSer  >>> android.process.media <<<
+12-27 18:15:05.769  5843  5843 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+12-27 18:15:05.773  5843  5843 F DEBUG   : Abort message: 'frameworks/av/media/libmedia/MediaProfiles.cpp:329 CHECK(quality != -1) failed.'
+12-27 18:15:05.773  5843  5843 F DEBUG   :     x0   0000000000000000  x1   0000000000001684  x2   0000000000000006  x3   0000000000000008
+12-27 18:15:05.773  5843  5843 F DEBUG   :     x4   0000000000000000  x5   0000000000000000  x6   0000000000000000  x7   7f7f7f7f7f7f7f7f
+12-27 18:15:05.773  5843  5843 F DEBUG   :     x8   0000000000000083  x9   77561ee02543211b  x10  0000000000000000  x11  0000000000000001
+12-27 18:15:05.773  5843  5843 F DEBUG   :     x12  ffffffffffffffff  x13  ffffffffffffffff  x14  ff00000000000000  x15  ffffffffffffffff
+12-27 18:15:05.773  5843  5843 F DEBUG   :     x16  0000005586c66fa8  x17  00000075605fde64  x18  0000000000000000  x19  00000000000015fc
+12-27 18:15:05.773  5843  5843 F DEBUG   :     x20  0000000000001684  x21  0000000000000000  x22  00000074d5c8e50c  x23  00000074c777c588
+12-27 18:15:05.773  5843  5843 F DEBUG   :     x24  0000000000000018  x25  00000075604639a8  x26  00000074c777c588  x27  00000074c777c588
+12-27 18:15:05.774  5843  5843 F DEBUG   :     x28  00000074d5c77030  x29  00000074c77777b0  x30  00000075605b3978
+12-27 18:15:05.774  5843  5843 F DEBUG   :     sp   00000074c7777770  pc   00000075605b3994  pstate 0000000060000000
+12-27 18:15:05.783   926  5073 I ntp_success: [time.android.com/216.239.35.8,162,329]
+12-27 18:15:05.786   926   947 I am_proc_start: [0,5846,1000,com.android.keychain,service,com.android.keychain/.KeyChainService]
+12-27 18:15:05.786   926   947 I ActivityManager: Start proc 5846:com.android.keychain/1000 for service com.android.keychain/.KeyChainService
+12-27 18:15:05.795  5843  5843 F DEBUG   : 
+12-27 18:15:05.795  5843  5843 F DEBUG   : backtrace:
+12-27 18:15:05.795  5843  5843 F DEBUG   :     #00 pc 000000000001d994  /system/lib64/libc.so (abort+104)
+12-27 18:15:05.795  5843  5843 F DEBUG   :     #01 pc 0000000000007f20  /system/lib64/liblog.so (__android_log_assert+304)
+12-27 18:15:05.795  5843  5843 F DEBUG   :     #02 pc 00000000000b9d7c  /system/lib64/libmedia.so (_ZN7android13MediaProfiles22createCamcorderProfileEiPPKcRNS_6VectorIiEE.cfi+200)
+12-27 18:15:05.795  5843  5843 F DEBUG   :     #03 pc 00000000000baa24  /system/lib64/libmedia.so (_ZN7android13MediaProfiles19startElementHandlerEPvPKcPS3_.cfi+940)
+--
+12-27 18:15:06.072   502  5915 E use-Rlog/RLOG-RIL-MOTEXT: mothook_oem_ex: header type 0, requestCode 0x0
+12-27 18:15:06.072   502  5915 E RILC    : getOperatorResponse Invalid response: NULL
+12-27 18:15:06.073  4510  4649 D RILJ    : [3806]< OPERATOR error 66 [SUB0]
+12-27 18:15:06.073  4510  4649 E GSM     : Unrecognized RIL errno 66
+12-27 18:15:06.073  4510  4649 D RilRequest: [3806]< OPERATOR error: com.android.internal.telephony.CommandException: INVALID_RESPONSE ret={, , }
+12-27 18:15:06.073  4510  4510 E SST     : RIL implementation has returned an error where it must succeedcom.android.internal.telephony.CommandException: INVALID_RESPONSE
+12-27 18:15:06.079  4510  4510 D SST     : handlPollStateResultMessage: GsmSST setDataRegState=0 regState=1 dataRadioTechnology=14
+12-27 18:15:06.079  4510  4649 D RILJ    : [3807]< DATA_REGISTRATION_STATE {.regState = REG_HOME, .rat = 14, .reasonDataDenied = -1, .maxDataCalls = 20, .cellIdentity = {.cellInfoType = LTE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [{.mcc = -1, .mnc = -1, .ci = 73987, .pci = 125, .tac = 4040, .earfcn = -1}], .cellIdentityTdscdma = []}} [SUB0]
+12-27 18:15:06.080  4510  4649 D RILJ    : [3809]< QUERY_NETWORK_SELECTION_MODE {0} [SUB0]
+12-27 18:15:06.080  4510  4510 D SST     : EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+12-27 18:15:06.081  4474  4474 I auditd  : type=1400 audit(0.0:484): avc: denied { ioctl } for comm="Thread-3" path="socket:[28239]" dev="sockfs" ino=28239 ioctlcmd=c302 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=socket permissive=1
+12-27 18:15:06.082  4510  4510 D SST     : Poll ServiceState done:  oldSS=[{mVoiceRegState=0(IN_SERVICE), mDataRegState=0(IN_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=null, mVoiceOperatorAlphaShort=null, mDataOperatorAlphaLong=null, mDataOperatorAlphaShort=null, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=14(LTE), mRilDataRadioTechnology=14(LTE), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0}] newSS=[{mVoiceRegState=0(IN_SERVICE), mDataRegState=0(IN_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=null, mVoiceOperatorAlphaShort=null, mDataOperatorAlphaLong=null, mDataOperatorAlphaShort=null, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=14(LTE), mRilDataRadioTechnology=14(LTE), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0}] oldMaxDataCalls=20 mNewMaxDataCalls=20 oldReasonDataDenied=-1 mNewReasonDataDenied=-1
+12-27 18:15:06.082  4510  4510 D SST     : pollStateDone: hasRegistered=false hasDeregistered=false hasDataAttached=false hasDataDetached=false hasDataRegStateChanged=false hasRilVoiceRadioTechnologyChanged= false hasRilDataRadioTechnologyChanged=false hasChanged=false hasVoiceRoamingOn=false hasVoiceRoamingOff=false hasDataRoamingOn=false hasDataRoamingOff=false hasLocationChanged=false has4gHandoff = false hasMultiApnSupport=false hasLostMultiApnSupport=false
+12-27 18:15:06.085  4474  4474 I auditd  : type=1400 audit(0.0:485): avc: denied { create } for comm="Thread-3" name=716D75785F636C69656E745F736F636B657420202034343734 scontext=u:r:system_server:s0 tcontext=u:object_r:socket_device:s0 tclass=sock_file permissive=1
+12-27 18:15:06.085  4474  4474 I auditd  : type=1400 audit(0.0:486): avc: denied { setattr } for comm="Thread-3" name=716D75785F636C69656E745F736F636B657420202034343734 dev="tmpfs" ino=34630 scontext=u:r:system_server:s0 tcontext=u:object_r:socket_device:s0 tclass=sock_file permissive=1
+12-27 18:15:06.110   926  5952 I am_crash: [926,0,android.process.media,952647237,Native crash,Aborted,unknown,0]
+12-27 18:15:06.118   926  5952 I sysui_action: [316,-1]
+12-27 18:15:06.119   926  5952 I sysui_multi_action: [757,316,758,4,759,-1]
+12-27 18:15:06.135   926  4364 I ActivityManager: Process android.process.media (pid 5628) has died: svc  SVC 
+12-27 18:15:06.135   926  4364 I am_proc_died: [0,5628,android.process.media,500,11]
+12-27 18:15:06.135   926  4364 W ActivityManager: Scheduling restart of crashed service com.android.providers.media/.MediaScannerService in 1190ms
+12-27 18:15:06.135   926  4364 I am_schedule_service_restart: [0,com.android.providers.media/.MediaScannerService,1190]
+12-27 18:15:06.135   926  4364 I am_uid_stopped: 10008
+12-27 18:15:06.138   926  4364 I am_mem_factor: [1,0]
+12-27 18:15:06.307   926  4364 I am_proc_start: [0,5981,10031,com.google.android.gms,service,com.google.android.gms/.measurement.service.MeasurementBrokerService]
+12-27 18:15:06.308   926  4364 I ActivityManager: Start proc 5981:com.google.android.gms/u0a31 for service com.google.android.gms/.measurement.service.MeasurementBrokerService
+12-27 18:15:06.311   926   926 I backup_transport_lifecycle: [com.google.android.gms/.backup.BackupTransportService,1]
+12-27 18:15:06.315   926   926 D BackupTransportManager: Bound to transport: com.google.android.gms/.backup.BackupTransportService
+12-27 18:15:06.322   926  5708 I am_proc_bound: [0,5981,com.google.android.gms]
+12-27 18:15:06.343   926   926 I backup_transport_lifecycle: [com.google.android.gms/.backup.component.D2dTransportService,1]
+12-27 18:15:06.347   926   926 D BackupTransportManager: Bound to transport: com.google.android.gms/.backup.component.D2dTransportService
+12-27 18:15:06.613  5891  5891 I auditd  : type=1400 audit(0.0:487): avc: denied { read write } for comm="cameraserver" name="media0" dev="tmpfs" ino=9937 scontext=u:r:cameraserver:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+12-27 18:15:06.613  5891  5891 I auditd  : type=1400 audit(0.0:488): avc: denied { open } for comm="cameraserver" path="/dev/media0" dev="tmpfs" ino=9937 scontext=u:r:cameraserver:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+12-27 18:15:06.613   504   504 I auditd  : type=1400 audit(0.0:489): avc: denied { ioctl } for comm="mm-qcamera-daem" path="/dev/video0" dev="tmpfs" ino=1929 ioctlcmd=5659 scontext=u:r:init:s0 tcontext=u:object_r:video_device:s0 tclass=chr_file permissive=1
+12-27 18:15:06.617  6024  6024 I auditd  : type=1400 audit(0.0:490): avc: denied { read write } for comm="CAM_startsensor" name="v4l-subdev15" dev="tmpfs" ino=10544 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+12-27 18:15:06.617  6024  6024 I auditd  : type=1400 audit(0.0:491): avc: denied { open } for comm="CAM_startsensor" path="/dev/v4l-subdev15" dev="tmpfs" ino=10544 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+12-27 18:15:06.617  6025  6025 I auditd  : type=1400 audit(0.0:492): avc: granted { read } for comm="CAM_startiface" name="ion" dev="tmpfs" ino=6054 scontext=u:r:init:s0 tcontext=u:object_r:ion_device:s0 tclass=chr_file
+12-27 18:15:06.617  6025  6025 I auditd  : type=1400 audit(0.0:493): avc: granted { read open } for comm="CAM_startiface" path="/dev/ion" dev="tmpfs" ino=6054 scontext=u:r:init:s0 tcontext=u:object_r:ion_device:s0 tclass=chr_file
+12-27 18:15:06.617  6025  6025 I auditd  : type=1400 audit(0.0:494): avc: granted { read } for comm="CAM_startiface" name="ion" dev="tmpfs" ino=6054 scontext=u:r:init:s0 tcontext=u:object_r:ion_device:s0 tclass=chr_file
+12-27 18:15:06.617  6025  6025 I auditd  : type=1400 audit(0.0:495): avc: granted { read open } for comm="CAM_startiface" path="/dev/ion" dev="tmpfs" ino=6054 scontext=u:r:init:s0 tcontext=u:object_r:ion_device:s0 tclass=chr_file
+12-27 18:15:06.621  3885  3885 I auditd  : type=1400 audit(0.0:496): avc: denied { ioctl } for comm="rild" path="socket:[18519]" dev="sockfs" ino=18519 ioctlcmd=c302 scontext=u:r:rild:s0 tcontext=u:r:rild:s0 tclass=socket permissive=1
+12-27 18:15:06.629  6029  6029 I auditd  : type=1400 audit(0.0:497): avc: granted { read } for comm="CAM_startstats" name="event4" dev="tmpfs" ino=15805 scontext=u:r:init:s0 tcontext=u:object_r:input_device:s0 tclass=chr_file
+--
+12-27 18:15:07.151   926  4377 I am_proc_bound: [0,6166,com.grarak.kerneladiutor]
+12-27 18:15:07.161  4510  4510 D GsmCdmaPhone: mBroadcastReceiver: action android.telephony.action.CARRIER_CONFIG_CHANGED
+12-27 18:15:07.166  4510  4510 D CarrierSignalAgent: [0]CarrierSignalAgent receiver action: android.telephony.action.CARRIER_CONFIG_CHANGED
+12-27 18:15:07.169  4510  4510 D CarrierSignalAgent: [0]Loading carrier config: carrier_app_wake_signal_config
+12-27 18:15:07.170  4510  4510 D CarrierSignalAgent: [0]Loading carrier config: carrier_app_no_wake_signal_config
+12-27 18:15:07.172   926   926 I Telecom : PhoneAccountRegistrar: SimCallManager queried, returning: null: TSI.gSCMFU@ADI
+12-27 18:15:07.176  4510  4510 I CSST    : reading time to delay notification emergency: -1
+12-27 18:15:07.177  4510  4510 I CSST    : reading time to delay notification emergency: -1
+12-27 18:15:07.177  4510  4510 I CSST    : PrefNetworkNotification: sendMessage() w/values: ,true,-1,false,true
+12-27 18:15:07.178  4510  4510 I CSST    : canceling notifications: 1000
+12-27 18:15:07.178  4510  4510 D Phone   : isWifiCallingEnabled =false
+12-27 18:15:07.178  4510  4510 D CSST    : isPhoneRegisteredForWifiCalling: false
+12-27 18:15:07.178  4510  4510 D Phone   : isWifiCallingEnabled =false
+12-27 18:15:07.178  4510  4510 I CSST    : EmergencyNetworkNotification: sendMessage() w/values: ,true,-1,false,true
+12-27 18:15:07.179  4510  4510 I CSST    : canceling notifications: 1001
+12-27 18:15:07.180  4510  4510 D DCT     : [0]setDefaultDataRoamingEnabled: data_roamingdefault value: false
+12-27 18:15:07.181  4510  4510 D SubscriptionController: [setDataRoaming]+ roaming:0 subId:1
+12-27 18:15:07.182  4510  4510 D SubscriptionController: validateSubId subId: 1
+12-27 18:15:07.182  4510  4510 D SubscriptionController: [setDataRoaming]- roaming:0 set
+12-27 18:15:07.192  4510  4510 D SubscriptionController: notifySubscriptionInfoChanged:
+12-27 18:15:07.192  6109  6152 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 6152 (MediaScannerSer), pid 6109 (d.process.media)
+12-27 18:15:07.196  4510  4510 D DCT     : [0]isEmergency: result=false
+12-27 18:15:07.198  4510  4510 I ImsManager: Creating ImsService using ServiceManager
+12-27 18:15:07.204  4510  4510 D ImsManager: updateVolteFeatureValue: available = false, enabled = true, nonTTY = true
+12-27 18:15:07.204  4510  4510 I ImsManager: Creating ImsService using ServiceManager
+12-27 18:15:07.205  4510  4510 E ImsManager: updateImsServiceConfig: 
+12-27 18:15:07.205  4510  4510 E ImsManager: com.android.ims.ImsException: getConfigInterface()
+12-27 18:15:07.205  4510  4510 E ImsManager: 	at com.android.ims.ImsManager.getConfigInterface(ImsManager.java:1915)
+12-27 18:15:07.205  4510  4510 E ImsManager: 	at com.android.ims.ImsManager.updateVolteFeatureValue(ImsManager.java:1399)
+12-27 18:15:07.205  4510  4510 E ImsManager: 	at com.android.ims.ImsManager.updateImsServiceConfig(ImsManager.java:1309)
+12-27 18:15:07.205  4510  4510 E ImsManager: 	at com.android.internal.telephony.GsmCdmaPhone.handleMessage(GsmCdmaPhone.java:2216)
+12-27 18:15:07.205  4510  4510 E ImsManager: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+12-27 18:15:07.205  4510  4510 E ImsManager: 	at android.os.Looper.loop(Looper.java:164)
+12-27 18:15:07.205  4510  4510 E ImsManager: 	at android.app.ActivityThread.main(ActivityThread.java:6494)
+12-27 18:15:07.205  4510  4510 E ImsManager: 	at java.lang.reflect.Method.invoke(Native Method)
+12-27 18:15:07.205  4510  4510 E ImsManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:440)
+12-27 18:15:07.205  4510  4510 E ImsManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+12-27 18:15:07.205  4510  4510 E ImsManager: Caused by: android.os.RemoteException: ImsServiceProxy is not available for that feature.
+12-27 18:15:07.205  4510  4510 E ImsManager: 	at android.telephony.ims.ImsServiceProxyCompat.checkBinderConnection(ImsServiceProxyCompat.java:180)
+12-27 18:15:07.205  4510  4510 E ImsManager: 	at android.telephony.ims.ImsServiceProxyCompat.getConfigInterface(ImsServiceProxyCompat.java:125)
+12-27 18:15:07.205  4510  4510 E ImsManager: 	at com.android.ims.ImsManager.getConfigInterface(ImsManager.java:1908)
+--
+12-27 18:15:07.211  4510  4510 E GsmCdmaPhone: [GsmCdmaPhone] Invalid cdma_roaming_mode settings: -1
+12-27 18:15:07.211  4510  4510 D EriManager: loadEriFileFromXml: check for alternate file
+12-27 18:15:07.212  4510  4510 D EriManager: loadEriFileFromXml: no alternate file
+12-27 18:15:07.216  4510  4510 D EriManager: eriFile = eri.xml
+12-27 18:15:07.220  4510  4510 D EriManager: loadEriFileFromXml: eri parsing successful, file loaded. ver = 1357, # of entries = 176
+12-27 18:15:07.220  4510  4510 D GsmCdmaPhone: [GsmCdmaPhone] ERI read, notify registrants
+12-27 18:15:07.220  4510  4510 D SST     : SubscriptionListener.onSubscriptionInfoChanged
+12-27 18:15:07.220  4510  4510 D DCT     : [0]SubscriptionListener.onSubscriptionInfoChanged
+12-27 18:15:07.225  4510  4510 I TelecomFramework: PstnIncomingCallNotifier: Unregistering: Handler (com.android.internal.telephony.GsmCdmaPhone) {354bf90}
+12-27 18:15:07.233  4510  4510 D SubscriptionController: [getActiveSubscriptionInfo]+ subId=1 subInfo={id=1, iccId=89300100160427481402 simSlotIndex=0 displayName=CARD 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@751a0e6 mcc 202 mnc 1 isEmbedded false accessRules null}
+12-27 18:15:07.254   926  4364 I Telecom : PhoneAccountRegistrar: Modify account: [ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5d76fdb08b9af24aa18299fef4e0e805dac3ee08], UserHandle{0}]: TSI.rPA@ADM
+12-27 18:15:07.264  4510  4510 I TelecomFramework: AccountEntry: Registered phoneAccount: [[ ] PhoneAccount: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5d76fdb08b9af24aa18299fef4e0e805dac3ee08], UserHandle{0} Capabilities: CallProvider MultiUser PlaceEmerg SimSub  Audio Routes: BESW Schemes: tel voicemail  Extras: Bundle[{android.telecom.extra.SUPPORTS_VIDEO_CALLING_FALLBACK=false}] GroupId: [da39a3ee5e6b4b0d3255bfef95601890afd80709]] with handle: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5d76fdb08b9af24aa18299fef4e0e805dac3ee08], UserHandle{0}
+12-27 18:15:07.264  4510  4510 I TelecomFramework: PstnIncomingCallNotifier: Registering: Handler (com.android.internal.telephony.GsmCdmaPhone) {354bf90}
+12-27 18:15:07.270  4510  4510 I TelecomFramework: PstnPhoneCapabilitiesNotifier: handleVideoCapabilitesChanged. Video capability - false
+12-27 18:15:07.273  4510  4510 D SubscriptionController: [getActiveSubscriptionInfo]+ subId=1 subInfo={id=1, iccId=89300100160427481402 simSlotIndex=0 displayName=CARD 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@751a0e6 mcc 202 mnc 1 isEmbedded false accessRules null}
+12-27 18:15:07.295   926  4377 I Telecom : PhoneAccountRegistrar: Modify account: [ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5d76fdb08b9af24aa18299fef4e0e805dac3ee08], UserHandle{0}]: TSI.rPA@ADY
+12-27 18:15:07.300  6196  6196 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+12-27 18:15:07.300  6196  6196 F DEBUG   : Build fingerprint: 'lge/p1_global_com/p1:8.0/NRD90U/171931902b165:user/release-keys'
+12-27 18:15:07.300  6196  6196 F DEBUG   : Revision: '11'
+12-27 18:15:07.300  6196  6196 F DEBUG   : ABI: 'arm64'
+12-27 18:15:07.300  6196  6196 F DEBUG   : pid: 6109, tid: 6152, name: MediaScannerSer  >>> android.process.media <<<
+12-27 18:15:07.300  6196  6196 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+12-27 18:15:07.305  6196  6196 F DEBUG   : Abort message: 'frameworks/av/media/libmedia/MediaProfiles.cpp:329 CHECK(quality != -1) failed.'
+12-27 18:15:07.305  6196  6196 F DEBUG   :     x0   0000000000000000  x1   0000000000001808  x2   0000000000000006  x3   0000000000000008
+12-27 18:15:07.305  6196  6196 F DEBUG   :     x4   0000000000000000  x5   0000000000000000  x6   0000000000000000  x7   7f7f7f7f7f7f7f7f
+12-27 18:15:07.305  6196  6196 F DEBUG   :     x8   0000000000000083  x9   77561ee02543211b  x10  0000000000000000  x11  0000000000000001
+12-27 18:15:07.305  6196  6196 F DEBUG   :     x12  ffffffffffffffff  x13  ffffffffffffffff  x14  ff00000000000000  x15  ffffffffffffffff
+12-27 18:15:07.305  6196  6196 F DEBUG   :     x16  0000005586c66fa8  x17  00000075605fde64  x18  0000000000000000  x19  00000000000017dd
+12-27 18:15:07.305  6196  6196 F DEBUG   :     x20  0000000000001808  x21  0000000000000000  x22  00000074dc12b40c  x23  00000074c7886588
+12-27 18:15:07.305  6196  6196 F DEBUG   :     x24  0000000000000018  x25  00000075604639a8  x26  00000074c7886588  x27  00000074c7886588
+12-27 18:15:07.305  6196  6196 F DEBUG   :     x28  00000074dc1ff030  x29  00000074c78817b0  x30  00000075605b3978
+12-27 18:15:07.305  6196  6196 F DEBUG   :     sp   00000074c7881770  pc   00000075605b3994  pstate 0000000060000000
+12-27 18:15:07.318   926  4377 I am_uid_running: 10056
+12-27 18:15:07.327  6196  6196 F DEBUG   : 
+12-27 18:15:07.327  6196  6196 F DEBUG   : backtrace:
+12-27 18:15:07.327  6196  6196 F DEBUG   :     #00 pc 000000000001d994  /system/lib64/libc.so (abort+104)
+12-27 18:15:07.327  6196  6196 F DEBUG   :     #01 pc 0000000000007f20  /system/lib64/liblog.so (__android_log_assert+304)
+12-27 18:15:07.327  6196  6196 F DEBUG   :     #02 pc 00000000000b9d7c  /system/lib64/libmedia.so (_ZN7android13MediaProfiles22createCamcorderProfileEiPPKcRNS_6VectorIiEE.cfi+200)
+12-27 18:15:07.327  6196  6196 F DEBUG   :     #03 pc 00000000000baa24  /system/lib64/libmedia.so (_ZN7android13MediaProfiles19startElementHandlerEPvPKcPS3_.cfi+940)
+12-27 18:15:07.327  6196  6196 F DEBUG   :     #04 pc 000000000000b598  /system/lib64/libexpat.so (doContent+3028)
+12-27 18:15:07.327  6196  6196 F DEBUG   :     #05 pc 00000000000095b4  /system/lib64/libexpat.so (contentProcessor+60)
+--
+12-27 18:15:07.802   926   926 W InputMethodManagerService: 	at com.android.server.SystemServer.main(SystemServer.java:269)
+12-27 18:15:07.802   926   926 W InputMethodManagerService: 	at java.lang.reflect.Method.invoke(Native Method)
+12-27 18:15:07.802   926   926 W InputMethodManagerService: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:440)
+12-27 18:15:07.802   926   926 W InputMethodManagerService: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:787)
+12-27 18:15:07.802   926  5710 I ActivityManager: Process com.android.inputmethod.latin (pid 4332) has died: fore IMPB
+12-27 18:15:07.803   926  5710 I am_proc_died: [0,4332,com.android.inputmethod.latin,0,7]
+12-27 18:15:07.803   926  5710 W ActivityManager: Scheduling restart of crashed service com.android.inputmethod.latin/.LatinIME in 1000ms
+12-27 18:15:07.803   926  5710 I am_schedule_service_restart: [0,com.android.inputmethod.latin/.LatinIME,1000]
+12-27 18:15:07.803   926  5710 I am_broadcast_discard_app: [0,238295364,android.intent.action.BOOT_COMPLETED,17,ResolveInfo{350cb71 com.android.inputmethod.latin/.SystemBroadcastReceiver m=0x108000}]
+12-27 18:15:07.803   926  5710 I am_uid_stopped: 10064
+12-27 18:15:07.811   926   948 I am_uid_running: 10016
+12-27 18:15:07.823   926   948 I am_proc_start: [0,6329,10016,com.android.managedprovisioning,broadcast,com.android.managedprovisioning/.preprovisioning.BootReminder]
+12-27 18:15:07.824   926   948 I ActivityManager: Start proc 6329:com.android.managedprovisioning/u0a16 for broadcast com.android.managedprovisioning/.preprovisioning.BootReminder
+12-27 18:15:07.830   926  6336 I am_crash: [926,0,android.process.media,952647237,Native crash,Aborted,unknown,0]
+12-27 18:15:07.832   926  6336 I sysui_action: [316,-1]
+12-27 18:15:07.832   926  6336 I sysui_multi_action: [757,316,758,4,759,-1]
+12-27 18:15:07.832   926   954 I BootReceiver: Copying /data/tombstones/tombstone_12 to DropBox (SYSTEM_TOMBSTONE)
+12-27 18:15:07.848   926  5708 I am_proc_bound: [0,6329,com.android.managedprovisioning]
+12-27 18:15:07.855   926   941 I ActivityManager: Process android.process.media (pid 6109) has died: svcb SVC 
+12-27 18:15:07.855   926   941 I am_proc_died: [0,6109,android.process.media,800,11]
+12-27 18:15:07.855   926   941 W ActivityManager: Scheduling restart of crashed service com.android.providers.media/.MediaScannerService in 1800000ms
+12-27 18:15:07.855   926   941 I am_schedule_service_restart: [0,com.android.providers.media/.MediaScannerService,1800000]
+12-27 18:15:07.856   926   941 I am_uid_stopped: 10008
+12-27 18:15:07.903   926   940 I am_uid_running: 10069
+12-27 18:15:07.915   926   940 I am_proc_start: [0,6349,10069,com.android.messaging,broadcast,com.android.messaging/.receiver.BootAndPackageReplacedReceiver]
+12-27 18:15:07.915   926   940 I ActivityManager: Start proc 6349:com.android.messaging/u0a69 for broadcast com.android.messaging/.receiver.BootAndPackageReplacedReceiver
+12-27 18:15:07.928   926  4525 I am_proc_bound: [0,6349,com.android.messaging]
+12-27 18:15:08.049   926  5710 I am_uid_running: 10021
+12-27 18:15:08.057  4510  4524 D SubscriptionController: [getPhoneId] asked for default subId=1
+12-27 18:15:08.062   926  5710 I am_proc_start: [0,6369,10021,com.android.packageinstaller,broadcast,com.android.packageinstaller/.TemporaryFileManager]
+12-27 18:15:08.063   926  5710 I ActivityManager: Start proc 6369:com.android.packageinstaller/u0a21 for broadcast com.android.packageinstaller/.TemporaryFileManager
+12-27 18:15:08.064  4510  5056 D SubscriptionController: [getActiveSubscriptionInfo]+ subId=1 subInfo={id=1, iccId=89300100160427481402 simSlotIndex=0 displayName=CARD 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@751a0e6 mcc 202 mnc 1 isEmbedded false accessRules null}
+12-27 18:15:08.079   926  4364 I am_proc_bound: [0,6369,com.android.packageinstaller]
+12-27 18:15:08.084   926  5733 D MmsServiceBroker: getCarrierConfigValues() by com.android.messaging
+12-27 18:15:08.085   926  5733 W MmsServiceBroker: MmsService not connected. Try connecting...
+12-27 18:15:08.085   926   926 I MmsServiceBroker: Connecting to MmsService
+12-27 18:15:08.085   926   926 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 com.android.server.MmsServiceBroker.tryConnecting:241 com.android.server.MmsServiceBroker.-wrap3:0 com.android.server.MmsServiceBroker$1.handleMessage:83 android.os.Handler.dispatchMessage:106 
+12-27 18:15:08.103  4510  5310 D SubscriptionController: [getActiveSubscriptionInfo]+ subId=1 subInfo={id=1, iccId=89300100160427481402 simSlotIndex=0 displayName=CARD 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@751a0e6 mcc 202 mnc 1 isEmbedded false accessRules null}
+12-27 18:15:08.106  4510  4524 D SubscriptionController: [getActiveSubscriptionInfo]+ subId=1 subInfo={id=1, iccId=89300100160427481402 simSlotIndex=0 displayName=CARD 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@751a0e6 mcc 202 mnc 1 isEmbedded false accessRules null}
+12-27 18:15:08.112   926   926 I MmsServiceBroker: MmsService connected
+12-27 18:15:08.124  4510  5056 D SubscriptionController: [getActiveSubscriptionInfo]+ subId=1 subInfo={id=1, iccId=89300100160427481402 simSlotIndex=0 displayName=CARD 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@751a0e6 mcc 202 mnc 1 isEmbedded false accessRules null}
+12-27 18:15:08.129   926   940 D MmsServiceBroker: getCarrierConfigValues() by com.android.messaging
+--
+12-27 18:15:08.185   926  4525 I am_uid_active: 10018
+12-27 18:15:08.191   926  5710 I am_uid_running: 10008
+12-27 18:15:08.204   926  5710 I am_proc_start: [0,6395,10008,android.process.media,broadcast,com.android.providers.downloads/.DownloadReceiver]
+12-27 18:15:08.205   926  5710 I ActivityManager: Start proc 6395:android.process.media/u0a8 for broadcast com.android.providers.downloads/.DownloadReceiver
+12-27 18:15:08.207  4510  4510 D DCT     : [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=false
+12-27 18:15:08.238   926  4525 I am_proc_bound: [0,6395,android.process.media]
+12-27 18:15:08.273  4510  4524 D SubscriptionController: [getPhoneId] asked for default subId=1
+12-27 18:15:08.280  4510  4510 D DCT     : [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=false
+12-27 18:15:08.296  4510  4510 I chatty  : uid=1001(radio) com.android.phone identical 3 lines
+12-27 18:15:08.298   926  4046 D ConnectivityService: registerNetworkAgent NetworkAgentInfo{ ni{[type: WIFI[], state: CONNECTING/CONNECTING, reason: (unspecified), extra: "Forthnet", failover: false, available: true, roaming: false]}  network{101}  nethandle{433808132830}  lp{{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null MTU: 0}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps]}  Score{20}  everValidated{false}  lastValidated{false}  created{false} lingering{false} explicitlySelected{false} acceptUnvalidated{false} everCaptivePortalDetected{false} lastCaptivePortalDetected{false} clat{null} }
+12-27 18:15:08.299   926  4160 D ConnectivityService: NetworkAgentInfo [WIFI () - 101] EVENT_NETWORK_INFO_CHANGED, going from null to CONNECTING
+12-27 18:15:08.303  4510  4510 D DCT     : [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=false
+12-27 18:15:08.550  4510  4510 D CAT     : com.android.stk.BootCompletedReceiver: [ACTION_BOOT_COMPLETED]
+12-27 18:15:08.552   926   940 I am_uid_running: 10014
+12-27 18:15:08.553  4510  4510 D CAT     : com.android.stk.StkAppService: onCreate()+
+12-27 18:15:08.553  4510  4510 D CAT     : com.android.stk.StkAppService: simCount: 1
+12-27 18:15:08.582   926   940 I am_proc_start: [0,6428,10014,com.android.vending,broadcast,com.android.vending/com.google.android.finsky.boothandler.BootCompletedReceiver]
+12-27 18:15:08.582   926   940 I ActivityManager: Start proc 6428:com.android.vending/u0a14 for broadcast com.android.vending/com.google.android.finsky.boothandler.BootCompletedReceiver
+12-27 18:15:08.587  4510  4510 D CAT     : com.android.stk.StkAppService: slotId: 0
+12-27 18:15:08.590  4510  4510 D CAT     : com.android.stk.StkAppService: onStart sim id: 0, op: 5, *****
+12-27 18:15:08.607  6395  6422 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 6422 (MediaScannerSer), pid 6395 (d.process.media)
+12-27 18:15:08.618   926  4525 I am_proc_bound: [0,6428,com.android.vending]
+12-27 18:15:08.653  3885  3885 I auditd  : type=1400 audit(0.0:533): avc: denied { ioctl } for comm="rild" path="socket:[18519]" dev="sockfs" ino=18519 ioctlcmd=c302 scontext=u:r:rild:s0 tcontext=u:r:rild:s0 tclass=socket permissive=1
+12-27 18:15:08.691  4510  6434 D CAT     : com.android.stk.StkAppService: handleMessage opcode[5], sim id[0]
+12-27 18:15:08.691  4510  6434 D CAT     : com.android.stk.StkAppService:  OP_BOOT_COMPLETED
+12-27 18:15:08.691  4510  6434 D CAT     : StkAppInstaller: [setAppState]+
+12-27 18:15:08.696  4510  6434 D CAT     : StkAppInstaller: Change app state[false]
+12-27 18:15:08.698  4510  6434 D CAT     : StkAppInstaller: [setAppState]-
+12-27 18:15:08.738  6454  6454 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+12-27 18:15:08.740  6454  6454 F DEBUG   : Build fingerprint: 'lge/p1_global_com/p1:8.0/NRD90U/171931902b165:user/release-keys'
+12-27 18:15:08.740  6454  6454 F DEBUG   : Revision: '11'
+12-27 18:15:08.740  6454  6454 F DEBUG   : ABI: 'arm64'
+12-27 18:15:08.740  6454  6454 F DEBUG   : pid: 6395, tid: 6422, name: MediaScannerSer  >>> android.process.media <<<
+12-27 18:15:08.740  6454  6454 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+12-27 18:15:08.746  6454  6454 F DEBUG   : Abort message: 'frameworks/av/media/libmedia/MediaProfiles.cpp:329 CHECK(quality != -1) failed.'
+12-27 18:15:08.747  6454  6454 F DEBUG   :     x0   0000000000000000  x1   0000000000001916  x2   0000000000000006  x3   0000000000000008
+12-27 18:15:08.747  6454  6454 F DEBUG   :     x4   0000000000000000  x5   0000000000000000  x6   0000000000000000  x7   7f7f7f7f7f7f7f7f
+12-27 18:15:08.747  6454  6454 F DEBUG   :     x8   0000000000000083  x9   77561ee02543211b  x10  0000000000000000  x11  0000000000000001
+12-27 18:15:08.747  6454  6454 F DEBUG   :     x12  ffffffffffffffff  x13  ffffffffffffffff  x14  ff00000000000000  x15  ffffffffffffffff
+12-27 18:15:08.747  6454  6454 F DEBUG   :     x16  0000005586c66fa8  x17  00000075605fde64  x18  0000000000000000  x19  00000000000018fb
+12-27 18:15:08.747  6454  6454 F DEBUG   :     x20  0000000000001916  x21  0000000000000000  x22  00000074d5c8e50c  x23  00000074c7582588
+12-27 18:15:08.747  6454  6454 F DEBUG   :     x24  0000000000000018  x25  00000075604639a8  x26  00000074c7582588  x27  00000074c7582588
+12-27 18:15:08.747  6454  6454 F DEBUG   :     x28  00000074d5c77030  x29  00000074c757d7b0  x30  00000075605b3978
+12-27 18:15:08.747  6454  6454 F DEBUG   :     sp   00000074c757d770  pc   00000075605b3994  pstate 0000000060000000
+12-27 18:15:08.778  6454  6454 F DEBUG   : 
+12-27 18:15:08.778  6454  6454 F DEBUG   : backtrace:
+12-27 18:15:08.778  6454  6454 F DEBUG   :     #00 pc 000000000001d994  /system/lib64/libc.so (abort+104)
+12-27 18:15:08.778  6454  6454 F DEBUG   :     #01 pc 0000000000007f20  /system/lib64/liblog.so (__android_log_assert+304)
+12-27 18:15:08.778  6454  6454 F DEBUG   :     #02 pc 00000000000b9d7c  /system/lib64/libmedia.so (_ZN7android13MediaProfiles22createCamcorderProfileEiPPKcRNS_6VectorIiEE.cfi+200)
+12-27 18:15:08.778  6454  6454 F DEBUG   :     #03 pc 00000000000baa24  /system/lib64/libmedia.so (_ZN7android13MediaProfiles19startElementHandlerEPvPKcPS3_.cfi+940)
+12-27 18:15:08.778  6454  6454 F DEBUG   :     #04 pc 000000000000b598  /system/lib64/libexpat.so (doContent+3028)
+12-27 18:15:08.779  6454  6454 F DEBUG   :     #05 pc 00000000000095b4  /system/lib64/libexpat.so (contentProcessor+60)
+12-27 18:15:08.779  6454  6454 F DEBUG   :     #06 pc 0000000000005df8  /system/lib64/libexpat.so (XML_ParseBuffer+148)
