@@ -1,0 +1,205 @@
+--------- beginning of main
+01-03 17:42:37.891   492   587 E ThermalEngine: [BMHB_GOV] read failed VS_TEMP
+01-03 17:42:39.454   465   465 I MSM-irqbalance: Decided to move IRQ81 from CPU0 to CPU1
+01-03 17:42:39.512   934  2046 E QCOM PowerHAL: Failed to acquire lock.
+01-03 17:42:39.578 20773 20893 I CAM_FlashBasedPhotoCmd: running flash-auto command: com.android.camera.one.v2.photo.ConvergedImageCaptureCommand@467fc9f
+01-03 17:42:39.591 20773 20773 I CAM_FilmstripView: [ViewItem:0] mData.renderThumbnail()
+01-03 17:42:39.646 19537 20886 E QCamera3HWI: int qcamera::lookupHalName(const mapType*, size_t, fwkType) [with fwkType = unsigned char; mapType = qcamera::QCamera3HardwareInterface::QCameraMap<camera_metadata_enum_android_color_correction_aberration_mode, cam_aberration_mode_t>; size_t = unsigned int]: Cannot find matching hal type fwk_name=236
+01-03 17:42:39.646 19537 20886 E QCamera3HWI: int qcamera::QCamera3HardwareInterface::translateToHalMetadata(const camera3_capture_request_t*, metadata_buffer_t*, uint32_t): Invalid framework CAC mode: 236
+01-03 17:42:39.694   515 20881 E mm-camera: iface_set_super_param:2360 store q_idx 4
+01-03 17:42:39.696   515 20881 E mm-camera: cpp_module_get_params_for_identity:283, failed, identity=0x20000
+01-03 17:42:39.696   515 20881 E mm-camera: module_sensor_set_parm_led_mode:130failed NULL pointer detected led_module_params->func_tbl.process
+01-03 17:42:39.696   515 20881 E mm-camera: module_sensor_event_control_set_parm:4965failed: module_sensor_set_parm_led_mode
+01-03 17:42:39.698   515 20854 E mm-camera-isp2: scaler44_check_hw_limit:561 Entry 1 y_cfg->hOut 3264 y_cfg->vOut 2448
+01-03 17:42:39.699   515 20865 E mm-camera-sensor: sensor_process_thread_message:103sensor_process_thread_message: task took 0 ms
+01-03 17:42:39.700 19537 20886 E QCamera3HWI: int qcamera::lookupHalName(const mapType*, size_t, fwkType) [with fwkType = unsigned char; mapType = qcamera::QCamera3HardwareInterface::QCameraMap<camera_metadata_enum_android_color_correction_aberration_mode, cam_aberration_mode_t>; size_t = unsigned int]: Cannot find matching hal type fwk_name=236
+01-03 17:42:39.700 19537 20886 E QCamera3HWI: int qcamera::QCamera3HardwareInterface::translateToHalMetadata(const camera3_capture_request_t*, metadata_buffer_t*, uint32_t): Invalid framework CAC mode: 236
+01-03 17:42:39.755   515 20881 E mm-camera: iface_set_super_param:2360 store q_idx 5
+01-03 17:42:39.756   515 20881 E mm-camera: cpp_module_get_params_for_identity:283, failed, identity=0x20000
+01-03 17:42:39.756   515 20881 E mm-camera: module_sensor_set_parm_led_mode:130failed NULL pointer detected led_module_params->func_tbl.process
+01-03 17:42:39.756   515 20881 E mm-camera: module_sensor_event_control_set_parm:4965failed: module_sensor_set_parm_led_mode
+01-03 17:42:39.757   515 20881 E mm-camera: iface_util_set_hfr: can't find hw stream, only save hfr mode
+01-03 17:42:39.758 19537 20886 E QCamera3HWI: int qcamera::lookupHalName(const mapType*, size_t, fwkType) [with fwkType = unsigned char; mapType = qcamera::QCamera3HardwareInterface::QCameraMap<camera_metadata_enum_android_color_correction_aberration_mode, cam_aberration_mode_t>; size_t = unsigned int]: Cannot find matching hal type fwk_name=236
+01-03 17:42:39.758 19537 20886 E QCamera3HWI: int qcamera::QCamera3HardwareInterface::translateToHalMetadata(const camera3_capture_request_t*, metadata_buffer_t*, uint32_t): Invalid framework CAC mode: 236
+01-03 17:42:39.759   515 20854 E mm-camera-isp2: scaler44_check_hw_limit:561 Entry 1 y_cfg->hOut 3264 y_cfg->vOut 2448
+01-03 17:42:39.760   515 20865 E mm-camera-sensor: sensor_process_thread_message:103sensor_process_thread_message: task took 0 ms
+01-03 17:42:39.814   515 20881 E mm-camera: iface_set_super_param:2360 store q_idx 0
+01-03 17:42:39.816   515 20881 E mm-camera: cpp_module_get_params_for_identity:283, failed, identity=0x20000
+01-03 17:42:39.816   515 20881 E mm-camera: module_sensor_set_parm_led_mode:130failed NULL pointer detected led_module_params->func_tbl.process
+01-03 17:42:39.816   515 20881 E mm-camera: module_sensor_event_control_set_parm:4965failed: module_sensor_set_parm_led_mode
+01-03 17:42:39.816   515 20865 E mm-camera-sensor: sensor_process_thread_message:103sensor_process_thread_message: task took 0 ms
+01-03 17:42:39.816   515 20881 E mm-camera: iface_util_set_hfr: can't find hw stream, only save hfr mode
+01-03 17:42:39.816 19537 20886 E QCamera3HWI: int qcamera::lookupHalName(const mapType*, size_t, fwkType) [with fwkType = unsigned char; mapType = qcamera::QCamera3HardwareInterface::QCameraMap<camera_metadata_enum_android_color_correction_aberration_mode, cam_aberration_mode_t>; size_t = unsigned int]: Cannot find matching hal type fwk_name=236
+01-03 17:42:39.816 19537 20886 E QCamera3HWI: int qcamera::QCamera3HardwareInterface::translateToHalMetadata(const camera3_capture_request_t*, metadata_buffer_t*, uint32_t): Invalid framework CAC mode: 236
+01-03 17:42:39.820   515 20854 E mm-camera-isp2: scaler44_check_hw_limit:561 Entry 1 y_cfg->hOut 3264 y_cfg->vOut 2448
+01-03 17:42:39.875   515 20881 E mm-camera: iface_set_super_param:2360 store q_idx 1
+01-03 17:42:39.876   515 20881 E mm-camera: cpp_module_get_params_for_identity:283, failed, identity=0x20000
+01-03 17:42:39.876   515 20881 E mm-camera: module_sensor_set_parm_led_mode:130failed NULL pointer detected led_module_params->func_tbl.process
+01-03 17:42:39.877   515 20881 E mm-camera: module_sensor_event_control_set_parm:4965failed: module_sensor_set_parm_led_mode
+01-03 17:42:39.877   515 20865 E mm-camera-sensor: sensor_process_thread_message:103sensor_process_thread_message: task took 0 ms
+01-03 17:42:39.877   515 20881 E mm-camera: iface_util_set_hfr: can't find hw stream, only save hfr mode
+01-03 17:42:39.880   515 20854 E mm-camera-isp2: scaler44_check_hw_limit:561 Entry 1 y_cfg->hOut 3264 y_cfg->vOut 2448
+01-03 17:42:39.882   515 20881 E mm-camera: mct: mct_stream_fill_metadata_v3:2780 Unsupported message type 80
+01-03 17:42:39.936   515 20881 E mm-camera: iface_util_set_hfr: can't find hw stream, only save hfr mode
+01-03 17:42:39.942   515 20881 E mm-camera: mct: mct_stream_fill_metadata_v3:2780 Unsupported message type 80
+01-03 17:42:40.000   515 20881 E mm-camera: mct: mct_stream_fill_metadata_v3:2780 Unsupported message type 80
+01-03 17:42:40.021 19537 20886 E QCamera3HWI: int qcamera::lookupHalName(const mapType*, size_t, fwkType) [with fwkType = unsigned char; mapType = qcamera::QCamera3HardwareInterface::QCameraMap<camera_metadata_enum_android_color_correction_aberration_mode, cam_aberration_mode_t>; size_t = unsigned int]: Cannot find matching hal type fwk_name=236
+01-03 17:42:40.021 19537 20886 E QCamera3HWI: int qcamera::QCamera3HardwareInterface::translateToHalMetadata(const camera3_capture_request_t*, metadata_buffer_t*, uint32_t): Invalid framework CAC mode: 236
+01-03 17:42:40.032   515 20880 D mm-camera: mct: mct_pipeline_process_set:command=8000008
+01-03 17:42:40.032   515 20880 D mm-camera: mct: mct_pipeline_process_set: STREAM-ON on stream 0x20003 stream type=5
+01-03 17:42:40.033   515 20880 E mm-camera: iface_sink_port_stream_config: port state = 3, skip set stream config
+01-03 17:42:40.033   515 20880 E mm-camera-isp2: scaler44_handle_isp_private_event:1599 failed: invalid private event 17
+01-03 17:42:40.033   515 20880 E mm-camera-isp2: scaler44_handle_isp_private_event:1599 failed: invalid private event 17
+01-03 17:42:40.033   515 20880 E mm-camera-isp2: scaler44_check_hw_limit:561 Entry 1 y_cfg->hOut 3264 y_cfg->vOut 2448
+01-03 17:42:40.050   515 20930 I mm-camera-eztune: vendor/qcom/proprietary/mm-camera/mm-camera2/server-tuning/tuning/eztune_process.cpp(445): "EZTune: ResumeTuningSession applying 0 items"
+01-03 17:42:40.057   515 20881 E mm-camera: mct: mct_stream_fill_metadata_v3:2780 Unsupported message type 80
+01-03 17:42:40.057   515 20854 E mm-camera-isp2: be_stats44_stats_config_validate:623 Invalid BG from 3A h_num = 0, v_num = 0
+01-03 17:42:40.057   515 20854 E mm-camera-isp2: 
+01-03 17:42:40.057   515 20854 E mm-camera-isp2: bhist_stats44_stats_config_validate:363 Invalid BG from 3A h_num = 0, v_num = 0
+01-03 17:42:40.057   515 20854 E mm-camera-isp2: 
+01-03 17:42:40.058   515 20854 E mm-camera-isp2: bg_stats44_trigger_update:388 bg_rgn_width 51 bg_rgn_height 51
+01-03 17:42:40.058   515 20854 E mm-camera-isp2: be_stats44_trigger_update:419 Be stats ROI width > sensor height 2448
+01-03 17:42:40.236   515 20858 E mm-camera: iface_ispif_get_cfg_params_from_hw_streams: interface 0 already active
+01-03 17:42:40.237   515 20880 D mm-camera: mct: mct_pipeline_process_set: STREAM-ON success for stream 0x20003, stream type=5
+01-03 17:42:40.256 19537 20886 E QCamera3HWI: int qcamera::lookupHalName(const mapType*, size_t, fwkType) [with fwkType = unsigned char; mapType = qcamera::QCamera3HardwareInterface::QCameraMap<camera_metadata_enum_android_color_correction_aberration_mode, cam_aberration_mode_t>; size_t = unsigned int]: Cannot find matching hal type fwk_name=236
+01-03 17:42:40.256 19537 20886 E QCamera3HWI: int qcamera::QCamera3HardwareInterface::translateToHalMetadata(const camera3_capture_request_t*, metadata_buffer_t*, uint32_t): Invalid framework CAC mode: 236
+01-03 17:42:40.295   515 20881 E mm-camera: iface_set_super_param:2360 store q_idx 2
+01-03 17:42:40.296   515 20881 E mm-camera: q3a_port_process_event_for_led_af:1862  q3a_port_process_event_for_led_af Still capture ongoing! unexpected aec estimation ongoing led_state 0
+01-03 17:42:40.296   515 20881 E mm-camera: cpp_module_get_params_for_identity:283, failed, identity=0x20000
+01-03 17:42:40.297   515 20881 E mm-camera: module_sensor_set_parm_led_mode:130failed NULL pointer detected led_module_params->func_tbl.process
+01-03 17:42:40.297   515 20881 E mm-camera: module_sensor_event_control_set_parm:4965failed: module_sensor_set_parm_led_mode
+01-03 17:42:40.297   515 20865 E mm-camera-sensor: sensor_process_thread_message:103sensor_process_thread_message: task took 0 ms
+01-03 17:42:40.302   515 20854 E mm-camera-isp2: scaler44_check_hw_limit:561 Entry 1 y_cfg->hOut 3264 y_cfg->vOut 2448
+01-03 17:42:40.355   515 20881 E mm-camera: iface_set_super_param:2360 store q_idx 3
+01-03 17:42:40.357   515 20881 E mm-camera: cpp_module_get_params_for_identity:283, failed, identity=0x20000
+01-03 17:42:40.358   515 20881 E mm-camera: module_sensor_set_parm_led_mode:130failed NULL pointer detected led_module_params->func_tbl.process
+01-03 17:42:40.358   515 20881 E mm-camera: module_sensor_event_control_set_parm:4965failed: module_sensor_set_parm_led_mode
+01-03 17:42:40.358   515 20865 E mm-camera-sensor: sensor_process_thread_message:103sensor_process_thread_message: task took 0 ms
+01-03 17:42:40.359   515 20881 E mm-camera: iface_util_set_hfr: can't find hw stream, only save hfr mode
+01-03 17:42:40.361   515 20854 E mm-camera-isp2: scaler44_check_hw_limit:561 Entry 1 y_cfg->hOut 3264 y_cfg->vOut 2448
+01-03 17:42:40.416   515 20881 E mm-camera: iface_util_set_hfr: can't find hw stream, only save hfr mode
+01-03 17:42:40.479   515 20881 E mm-camera: mct: mct_stream_fill_metadata_v3:2780 Unsupported message type 80
+01-03 17:42:40.495 20773 20773 I AudioTrack: AUDIO_OUTPUT_FLAG_FAST successful; frameCount 19657 -> 19657
+01-03 17:42:40.496   497   794 D audio_hw_primary: out_set_parameters: enter: usecase(1: low-latency-playback) kvpairs: routing=2
+01-03 17:42:40.498   497 15593 D audio_hw_primary: start_output_stream: enter: stream(0xe9ea5000)usecase(1: low-latency-playback) devices(0x2)
+01-03 17:42:40.499   497 15593 E audio_hw_extn: audio_extn_perf_lock_acquire: Failed to acquire perf lock, err: -1
+01-03 17:42:40.499   497 15593 D audio_hw_primary: select_devices: out_snd_device(2: speaker) in_snd_device(0: )
+01-03 17:42:40.499   497 15593 W msm8974_platform: Codec backend bitwidth 16, samplerate 48000
+01-03 17:42:40.499   497 15593 D hardware_info: hw_info_append_hw_type : device_name = speaker
+01-03 17:42:40.499   497 15593 D audio_hw_primary: enable_snd_device: snd_device(2: speaker)
+01-03 17:42:40.499   497 15593 D audio_route: Apply path: speaker
+01-03 17:42:40.499   497 15593 I audio_hw_primary: select_devices Selected apptype: 69937
+01-03 17:42:40.499   497 15593 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 14, path =  0
+01-03 17:42:40.499   497 15593 D ACDB-LOADER: ACDB -> send_asm_topology
+01-03 17:42:40.499   497 15593 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TOPOLOGY_ID
+01-03 17:42:40.499   497 15593 D ACDB-LOADER: ACDB -> send_adm_topology
+01-03 17:42:40.499   497 15593 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+01-03 17:42:40.499   497 15593 D ACDB-LOADER: ACDB -> send_audtable
+01-03 17:42:40.499   497 15593 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+01-03 17:42:40.499   497 15593 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_CAL
+01-03 17:42:40.500   497 15593 D ACDB-LOADER: ACDB -> send_audvoltable
+01-03 17:42:40.500   497 15593 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_STEP_TABLE
+01-03 17:42:40.500   497 15593 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_VOL_CAL
+01-03 17:42:40.500   497 15593 D ACDB-LOADER: ACDB -> send_afe_cal
+01-03 17:42:40.500   497 15593 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+01-03 17:42:40.500   497 15593 D ACDB-LOADER: ACDB -> AUDIO_SET_AFE_CAL
+01-03 17:42:40.500   497 15593 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 14 path = 0
+01-03 17:42:40.500   497 15593 D ACDB-LOADER: ACDB -> ACDB_AVSYNC_INFO: ACDB_CMD_GET_DEVICE_PROPERTY
+01-03 17:42:40.501   497 15593 I audio_hw_utils: audio_extn_utils_send_app_type_cfg app_type 69937, acdb_dev_id 14, sample_rate 48000
+01-03 17:42:40.501   497 15593 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback speaker
+01-03 17:42:40.501   497 15593 D audio_route: Apply path: low-latency-playback speaker
+01-03 17:42:40.504   497 15593 D audio_hw_primary: select_devices: done
+01-03 17:42:40.513   497 15593 D msm8974_platform: platform_set_channel_map mixer_ctl_name:Playback Channel Map15
+01-03 17:42:40.513   497 15593 D msm8974_platform: platform_set_channel_map: set mapping(1 2 0 0 0 0 0 0) for channel:2
+01-03 17:42:40.539   515 20881 E mm-camera: mct: mct_stream_fill_metadata_v3:2780 Unsupported message type 80
+01-03 17:42:40.552   497 15593 E audio_hw_extn: audio_extn_perf_lock_release: Perf lock release error 
+01-03 17:42:40.552   497 15593 D audio_hw_primary: start_output_stream: exit
+--------- beginning of system
+01-03 17:42:40.581   934   970 W ActivityManager: Unable to start service Intent { cmp=com.android.camera2/com.android.camera.processing.ProcessingService } U=0: not found
+01-03 17:42:40.603 19537 20886 E QCamera3HWI: int qcamera::lookupHalName(const mapType*, size_t, fwkType) [with fwkType = unsigned char; mapType = qcamera::QCamera3HardwareInterface::QCameraMap<camera_metadata_enum_android_color_correction_aberration_mode, cam_aberration_mode_t>; size_t = unsigned int]: Cannot find matching hal type fwk_name=236
+01-03 17:42:40.603 19537 20886 E QCamera3HWI: int qcamera::QCamera3HardwareInterface::translateToHalMetadata(const camera3_capture_request_t*, metadata_buffer_t*, uint32_t): Invalid framework CAC mode: 236
+01-03 17:42:40.655   515 20881 E mm-camera: iface_set_super_param:2360 store q_idx 2
+01-03 17:42:40.656   515 20881 E mm-camera: cpp_module_get_params_for_identity:283, failed, identity=0x20000
+01-03 17:42:40.656   515 20881 E mm-camera: module_sensor_set_parm_led_mode:130failed NULL pointer detected led_module_params->func_tbl.process
+01-03 17:42:40.656   515 20881 E mm-camera: module_sensor_event_control_set_parm:4965failed: module_sensor_set_parm_led_mode
+01-03 17:42:40.658   515 20854 E mm-camera-isp2: scaler44_check_hw_limit:561 Entry 1 y_cfg->hOut 3264 y_cfg->vOut 2448
+01-03 17:42:40.658 19537 20886 E QCamera3HWI: int qcamera::lookupHalName(const mapType*, size_t, fwkType) [with fwkType = unsigned char; mapType = qcamera::QCamera3HardwareInterface::QCameraMap<camera_metadata_enum_android_color_correction_aberration_mode, cam_aberration_mode_t>; size_t = unsigned int]: Cannot find matching hal type fwk_name=236
+01-03 17:42:40.658 19537 20886 E QCamera3HWI: int qcamera::QCamera3HardwareInterface::translateToHalMetadata(const camera3_capture_request_t*, metadata_buffer_t*, uint32_t): Invalid framework CAC mode: 236
+01-03 17:42:40.658   515 20865 E mm-camera-sensor: sensor_process_thread_message:103sensor_process_thread_message: task took 0 ms
+01-03 17:42:40.708 20773 20777 I zygote64: Do partial code cache collection, code=30KB, data=26KB
+01-03 17:42:40.709 20773 20777 I zygote64: After code cache collection, code=29KB, data=26KB
+01-03 17:42:40.709 20773 20777 I zygote64: Increasing code cache capacity to 128KB
+01-03 17:42:40.718   515 20881 E mm-camera: iface_set_super_param:2360 store q_idx 3
+01-03 17:42:40.718   515 20881 E mm-camera: cpp_module_get_params_for_identity:283, failed, identity=0x20000
+01-03 17:42:40.718   515 20881 E mm-camera: module_sensor_set_parm_led_mode:130failed NULL pointer detected led_module_params->func_tbl.process
+01-03 17:42:40.718   515 20881 E mm-camera: module_sensor_event_control_set_parm:4965failed: module_sensor_set_parm_led_mode
+01-03 17:42:40.719   515 20865 E mm-camera-sensor: sensor_process_thread_message:103sensor_process_thread_message: task took 0 ms
+01-03 17:42:40.719   515 20881 E mm-camera: iface_util_set_hfr: can't find hw stream, only save hfr mode
+01-03 17:42:40.719 19537 20886 E QCamera3HWI: int qcamera::lookupHalName(const mapType*, size_t, fwkType) [with fwkType = unsigned char; mapType = qcamera::QCamera3HardwareInterface::QCameraMap<camera_metadata_enum_android_color_correction_aberration_mode, cam_aberration_mode_t>; size_t = unsigned int]: Cannot find matching hal type fwk_name=236
+01-03 17:42:40.719 19537 20886 E QCamera3HWI: int qcamera::QCamera3HardwareInterface::translateToHalMetadata(const camera3_capture_request_t*, metadata_buffer_t*, uint32_t): Invalid framework CAC mode: 236
+01-03 17:42:40.720   515 20854 E mm-camera-isp2: scaler44_check_hw_limit:561 Entry 1 y_cfg->hOut 3264 y_cfg->vOut 2448
+01-03 17:42:40.776   515 20881 E mm-camera: iface_set_super_param:2360 store q_idx 4
+01-03 17:42:40.776   515 20881 E mm-camera: cpp_module_get_params_for_identity:283, failed, identity=0x20000
+01-03 17:42:40.777   515 20881 E mm-camera: module_sensor_set_parm_led_mode:130failed NULL pointer detected led_module_params->func_tbl.process
+01-03 17:42:40.777   515 20881 E mm-camera: module_sensor_event_control_set_parm:4965failed: module_sensor_set_parm_led_mode
+01-03 17:42:40.777   515 20881 E mm-camera: iface_util_set_hfr: can't find hw stream, only save hfr mode
+01-03 17:42:40.779   515 20865 E mm-camera-sensor: sensor_process_thread_message:103sensor_process_thread_message: task took 0 ms
+01-03 17:42:40.782   515 20854 E mm-camera-isp2: scaler44_check_hw_limit:561 Entry 1 y_cfg->hOut 3264 y_cfg->vOut 2448
+01-03 17:42:40.782   492   589 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1689600
+01-03 17:42:40.788 20773 20936 I CAM_JpegUtilNative: Compressing jpeg with size = (3264, 2448); y-channel pixel stride = 1; y-channel row stride =  3264; cb-channel pixel stride = 2; cb-channel row stride =  3264; cr-channel pixel stride = 2; cr-channel row stride =  3264; crop = [(0, 0) - (3264, 2448)]; rotation = 1 * 90 deg. 
+01-03 17:42:40.818   492   589 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1824000
+01-03 17:42:40.819   492   589 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1689600
+01-03 17:42:40.836   515 20881 E mm-camera: iface_util_set_hfr: can't find hw stream, only save hfr mode
+01-03 17:42:40.837   515 20881 E mm-camera: mct: mct_stream_fill_metadata_v3:2780 Unsupported message type 80
+01-03 17:42:40.849   492   589 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1632000
+01-03 17:42:40.880   492   589 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1536000
+01-03 17:42:40.897   515 20881 E mm-camera: mct: mct_stream_fill_metadata_v3:2780 Unsupported message type 80
+01-03 17:42:40.941   492   589 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1440000
+01-03 17:42:40.958   515 20881 E mm-camera: mct: mct_stream_fill_metadata_v3:2780 Unsupported message type 80
+01-03 17:42:40.971   492   589 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1344000
+01-03 17:42:41.002   492   589 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1440000
+01-03 17:42:41.032   492   589 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1536000
+01-03 17:42:41.063   492   589 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1632000
+01-03 17:42:41.093   492   589 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1689600
+01-03 17:42:41.123   492   589 E ThermalEngine: ACTION: CLUSTER - Setting CLUSTER[1] to 1824000
+01-03 17:42:41.139 20939 20939 E ANDR-PERF-MPCTL: Unable to create control service (stage=1, rc=0)
+01-03 17:42:41.139 20939 20939 W libc    : invalid pthread_t (0) passed to libc
+01-03 17:42:41.186   934  8037 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.photos/com.google.android.libraries.social.mediamonitor.BackgroundThreadNotifierIntentService (has extras) } to com.google.android.apps.photos/com.google.android.libraries.social.mediamonitor.BackgroundThreadNotifierIntentService from pid=15620 uid=10080 pkg=com.google.android.apps.photos
+01-03 17:42:41.190   934   971 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+01-03 17:42:41.190   934   971 W Binder  : java.lang.Throwable
+01-03 17:42:41.190   934   971 W Binder  : 	at android.os.BinderProxy.transact(Binder.java:752)
+01-03 17:42:41.190   934   971 W Binder  : 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:451)
+01-03 17:42:41.190   934   971 W Binder  : 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:12259)
+01-03 17:42:41.190   934   971 W Binder  : 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:1799)
+01-03 17:42:41.190   934   971 W Binder  : 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2922)
+01-03 17:42:41.190   934   971 W Binder  : 	at android.os.Binder.execTransact(Binder.java:697)
+01-03 17:42:41.244   934   980 I ActivityManager: Start proc 20942:mega.privacy.android.app/u0a74 for broadcast mega.privacy.android.app/.receivers.CameraEventReceiver
+01-03 17:42:41.274 20773 20773 I CAM_FilmstripView: [ViewItem:0] mData.renderTiny()
+01-03 17:42:41.280 20773 20773 I CAM_FilmstripView: [ViewItem:0] mData.renderThumbnail()
+01-03 17:42:41.343 20942 20942 D FirebaseApp: com.google.firebase.auth.FirebaseAuth is not linked. Skipping initialization.
+01-03 17:42:41.350 20942 20942 D FirebaseApp: com.google.firebase.crash.FirebaseCrash is not linked. Skipping initialization.
+01-03 17:42:41.361 20942 20942 I FA      : App measurement is starting up, version: 10084
+01-03 17:42:41.361 20942 20942 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+01-03 17:42:41.368 20942 20942 I FA      : To enable faster debug mode event logging run:
+01-03 17:42:41.368 20942 20942 I FA      :   adb shell setprop debug.firebase.analytics.app mega.privacy.android.app
+01-03 17:42:41.376 20942 20942 I FirebaseInitProvider: FirebaseApp initialization successful
+01-03 17:42:41.405 20942 20942 D MegaApplication: Database path: /data/user/0/mega.privacy.android.app/
+01-03 17:42:41.424 20942 20942 D MegaApplication: Database path: /data/user/0/mega.privacy.android.app/
+01-03 17:42:41.435 20812 20832 E DatabaseUtils: Writing exception to parcel
+01-03 17:42:41.435 20812 20832 E DatabaseUtils: java.lang.SecurityException: Permission Denial: reading com.android.providers.media.MediaProvider uri content://media/external/images/media/2711 from pid=20942, uid=10074 requires android.permission.READ_EXTERNAL_STORAGE, or grantUriPermission()
+01-03 17:42:41.435 20812 20832 E DatabaseUtils: 	at android.content.ContentProvider.enforceReadPermissionInner(ContentProvider.java:631)
+01-03 17:42:41.435 20812 20832 E DatabaseUtils: 	at android.content.ContentProvider$Transport.enforceReadPermission(ContentProvider.java:501)
+01-03 17:42:41.435 20812 20832 E DatabaseUtils: 	at android.content.ContentProvider$Transport.query(ContentProvider.java:213)
+01-03 17:42:41.435 20812 20832 E DatabaseUtils: 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:102)
+01-03 17:42:41.435 20812 20832 E DatabaseUtils: 	at android.os.Binder.execTransact(Binder.java:697)
+01-03 17:42:41.440   934  6467 I ActivityManager: Killing 17716:com.google.android.partnersetup/u0a33 (adj 906): empty for 1882s
+01-03 17:42:41.440   934   982 W system_server: kill(-17716, 9) failed: No such process
+01-03 17:42:41.445   934  8386 W BroadcastQueue: Background execution not allowed: receiving Intent { act=com.android.camera.NEW_PICTURE dat=content://media/external/images/media/2711 flg=0x10 } to com.google.android.apps.photos/.cameraassistant.CameraAssistantBroadcastReceiver
+01-03 17:42:41.445   934   980 W BroadcastQueue: Background execution not allowed: receiving Intent { act=com.android.camera.NEW_PICTURE dat=content://media/external/images/media/2711 flg=0x10 } to com.google.android.apps.photos/.camerashortcut.CameraShortcutBroadcastReceiver
+01-03 17:42:41.445   934   980 W BroadcastQueue: Background execution not allowed: receiving Intent { act=com.android.camera.NEW_PICTURE dat=content://media/external/images/media/2711 flg=0x10 } to com.google.android.apps.photos/com.google.android.libraries.social.mediamonitor.MediaMonitor
+01-03 17:42:41.483   934   982 W system_server: kill(-17716, 9) failed: No such process
+01-03 17:42:41.483   934   982 I system_server: Successfully killed process cgroup uid 10033 pid 17716 in 43ms
+01-03 17:42:42.892   492   587 E ThermalEngine: [BMHB_GOV] read failed VS_TEMP
+01-03 17:42:43.217 20465 20470 I zygote  : Do partial code cache collection, code=45KB, data=62KB
+01-03 17:42:43.223 20465 20470 I zygote  : After code cache collection, code=45KB, data=62KB
+01-03 17:42:43.223 20465 20470 I zygote  : Increasing code cache capacity to 256KB
