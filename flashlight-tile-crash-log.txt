@@ -1,0 +1,218 @@
+--------- beginning of main
+01-15 17:45:38.597  7571 10585 D sensors_hal_SMGR: processBufferingInd:report(on_change_sensor) eventtype 0
+01-15 17:45:38.681 16110 16556 I CameraHardwareInterface: Opening camera 0
+01-15 17:45:38.682 16110 16556 I CamDev@1.0-impl: Opening camera 0
+01-15 17:45:38.682 16110 16556 I QCamera2Factory: :static int qcamera::QCamera2Factory::openLegacy(int32_t, uint32_t, hw_device_t**) openLegacy halVersion: 256
+01-15 17:45:38.684 16110 16556 D vndksupport: Loading /odm/lib/hw/power.msm8992.so from current namespace instead of sphal namespace.
+01-15 17:45:38.685 16110 16777 D QCamera2HWI: static void* qcamera::QCamera2HardwareInterface::defferedWorkRoutine(void*): start data proc
+01-15 17:45:38.699 16110 16556 I QCamera2HWI: [KPI Perf] int qcamera::QCamera2HardwareInterface::openCamera(hw_device_t**): E PROFILE_OPEN_CAMERA camera id 0
+01-15 17:45:38.700 16714 16714 D mm-camera: mct: mct_controller_new: Creating new mct_controller with session-id 1
+01-15 17:45:38.701 16714 16778 D mm-camera: mct: mct_pipeline_start_session_thread: E sensor
+01-15 17:45:38.702 16714 16778 E mm-camera: module_sensor_start_session:1660failed NULL pointer detected s_list
+01-15 17:45:38.702 16714 16778 D mm-camera: mct: mct_pipeline_start_session_thread: X iface
+01-15 17:45:38.703 16779 16779 W mm-qcamera-daem: type=1400 audit(0.0:1805): avc: granted { read } for name="ion" dev="tmpfs" ino=10505 scontext=u:r:init:s0 tcontext=u:object_r:ion_device:s0 tclass=chr_file
+01-15 17:45:38.723 16714 16782 D mm-camera: mct: mct_pipeline_start_session_thread: E stats
+01-15 17:45:38.726 16714 16783 D mm-camera: mct: mct_pipeline_start_session_thread: E pproc
+01-15 17:45:38.727 16714 16782 E mm-camera: tcc_init: TCC ver.150418a
+01-15 17:45:38.732 16714 16784 D mm-camera: mct: mct_pipeline_start_session_thread: E imglib
+01-15 17:45:38.734 16714 16784 E mm-camera: module_faceproc_start_session:1844] session cnt 1
+01-15 17:45:38.734 16714 16780 E mm-camera-isp2: isp_module_start_session:347 num_session_opened 1
+01-15 17:45:38.735 16714 16780 D mm-camera: mct: mct_pipeline_start_session_thread: X imglib
+01-15 17:45:38.736 10832 10839 I zygote64: Do full code cache collection, code=503KB, data=317KB
+01-15 17:45:38.738 10832 10839 I zygote64: After code cache collection, code=488KB, data=277KB
+01-15 17:45:38.740 16714 16782 I libsensor1: sensor1_init_once: Setting log level to 5
+01-15 17:45:38.740 16714 16784 D mm-camera: mct: mct_pipeline_start_session_thread: X imglib
+01-15 17:45:38.743 16714 16782 E mm-camera: sensor_laser_init:144  HW module: id: sensors name: STMicroelectronics VL53L0 sensor module
+01-15 17:45:38.743 16714 16782 E Sensors : openInput
+01-15 17:45:38.744 16714 16782 E Sensors : devname: /dev/input/event4
+01-15 17:45:38.739 16782 16782 W mm-qcamera-daem: type=1400 audit(0.0:1809): avc: granted { read } for name="event4" dev="tmpfs" ino=14676 scontext=u:r:init:s0 tcontext=u:object_r:input_device:s0 tclass=chr_file
+01-15 17:45:38.739 16782 16782 W mm-qcamera-daem: type=1400 audit(0.0:1810): avc: granted { read open } for path="/dev/input/event4" dev="tmpfs" ino=14676 scontext=u:r:init:s0 tcontext=u:object_r:input_device:s0 tclass=chr_file
+01-15 17:45:38.767 16782 16782 W mm-qcamera-daem: type=1400 audit(0.0:1811): avc: granted { read } for name="event3" dev="tmpfs" ino=14675 scontext=u:r:init:s0 tcontext=u:object_r:input_device:s0 tclass=chr_file
+01-15 17:45:38.767 16782 16782 W mm-qcamera-daem: type=1400 audit(0.0:1812): avc: granted { read open } for path="/dev/input/event3" dev="tmpfs" ino=14675 scontext=u:r:init:s0 tcontext=u:object_r:input_device:s0 tclass=chr_file
+01-15 17:45:38.769 16714 16782 E Sensors : devname: /dev/input/event3
+01-15 17:45:38.780 16714 16782 E Sensors : devname: /dev/input/event0
+01-15 17:45:38.779 16782 16782 W mm-qcamera-daem: type=1400 audit(0.0:1813): avc: granted { read } for name="event0" dev="tmpfs" ino=10576 scontext=u:r:init:s0 tcontext=u:object_r:input_device:s0 tclass=chr_file
+01-15 17:45:38.783 16783 16783 W mm-qcamera-daem: type=1400 audit(0.0:1817): avc: granted { read } for name="ion" dev="tmpfs" ino=10505 scontext=u:r:init:s0 tcontext=u:object_r:ion_device:s0 tclass=chr_file
+01-15 17:45:38.783 16783 16783 W mm-qcamera-daem: type=1400 audit(0.0:1818): avc: granted { read open } for path="/dev/ion" dev="tmpfs" ino=10505 scontext=u:r:init:s0 tcontext=u:object_r:ion_device:s0 tclass=chr_file
+01-15 17:45:38.786 16714 16783 E mm-camera-pp: [INFO] base_module_start_session:91, E, session=1
+01-15 17:45:38.787 16714 16783 E mm-camera-pp: [INFO] base_module_start_session:91, E, session=1
+01-15 17:45:38.787 16714 16783 D mm-camera: mct: mct_pipeline_start_session_thread: X imglib
+01-15 17:45:38.804 16714 16782 E Sensors : devname: /dev/input/event1
+01-15 17:45:38.803 16782 16782 W mm-qcamera-daem: type=1400 audit(0.0:1819): avc: granted { read } for name="event1" dev="tmpfs" ino=11428 scontext=u:r:init:s0 tcontext=u:object_r:input_device:s0 tclass=chr_file
+01-15 17:45:38.803 16782 16782 W mm-qcamera-daem: type=1400 audit(0.0:1820): avc: granted { read open } for path="/dev/input/event1" dev="tmpfs" ino=11428 scontext=u:r:init:s0 tcontext=u:object_r:input_device:s0 tclass=chr_file
+01-15 17:45:38.831 16714 16782 E Sensors : devname: /dev/input/mice
+01-15 17:45:38.827 16782 16782 W mm-qcamera-daem: type=1400 audit(0.0:1821): avc: granted { read } for name="mice" dev="tmpfs" ino=11427 scontext=u:r:init:s0 tcontext=u:object_r:input_device:s0 tclass=chr_file
+01-15 17:45:38.827 16782 16782 W mm-qcamera-daem: type=1400 audit(0.0:1822): avc: granted { read open } for path="/dev/input/mice" dev="tmpfs" ino=11427 scontext=u:r:init:s0 tcontext=u:object_r:input_device:s0 tclass=chr_file
+01-15 17:45:38.856 16714 16782 E Sensors : devname: /dev/input/event2
+01-15 17:45:38.855 16782 16782 W mm-qcamera-daem: type=1400 audit(0.0:1823): avc: granted { read } for name="event2" dev="tmpfs" ino=10498 scontext=u:r:init:s0 tcontext=u:object_r:input_device:s0 tclass=chr_file
+01-15 17:45:38.855 16782 16782 W mm-qcamera-daem: type=1400 audit(0.0:1824): avc: granted { read open } for path="/dev/input/event2" dev="tmpfs" ino=10498 scontext=u:r:init:s0 tcontext=u:object_r:input_device:s0 tclass=chr_file
+01-15 17:45:38.882 16714 16782 E Sensors : couldn't find 'STM VL53L0 proximity sensor' input device
+01-15 17:45:38.882 16714 16782 E Sensors : ProximitySensor::ProximitySensor gets called!
+01-15 17:45:38.882 16714 16782 E Sensors : ProximitySensor: input_name:, input_sysfs_path:/sys/class/input/input
+01-15 17:45:38.882 16714 16782 E Sensors : ProximitySensor::enable function called for stmvl53L0!
+01-15 17:45:38.882 16714 16782 E Sensors : ProximitySensor::enable filename:/sys/class/input/input/enable_ps_sensor
+01-15 17:45:38.883 16714 16782 E Sensors : ProximitySensor::enable: Failed to open file descriptor for enabling VL53L0
+01-15 17:45:38.883 16714 16782 E Sensors : ProximitySensor::enable: Attempted to open file /sys/class/input/input/enable_ps_sensor. Error: -1
+01-15 17:45:38.883 16714 16782 E Sensors : open_sensors gets called!
+01-15 17:45:38.883 16714 16782 E Sensors : is_tof_sensor_available() called
+01-15 17:45:38.883 16714 16782 E Sensors : devname: /dev/input/event4
+01-15 17:45:38.879 16782 16782 W mm-qcamera-daem: type=1400 audit(0.0:1825): avc: granted { read } for name="event4" dev="tmpfs" ino=14676 scontext=u:r:init:s0 tcontext=u:object_r:input_device:s0 tclass=chr_file
+01-15 17:45:38.879 16782 16782 W mm-qcamera-daem: type=1400 audit(0.0:1826): avc: granted { read open } for path="/dev/input/event4" dev="tmpfs" ino=14676 scontext=u:r:init:s0 tcontext=u:object_r:input_device:s0 tclass=chr_file
+01-15 17:45:38.900 16714 16782 E Sensors : devname: /dev/input/event3
+01-15 17:45:38.899 16782 16782 W mm-qcamera-daem: type=1400 audit(0.0:1827): avc: granted { read } for name="event3" dev="tmpfs" ino=14675 scontext=u:r:init:s0 tcontext=u:object_r:input_device:s0 tclass=chr_file
+01-15 17:45:38.925 16714 16782 E Sensors : devname: /dev/input/event0
+01-15 17:45:38.923 16782 16782 W mm-qcamera-daem: type=1400 audit(0.0:1829): avc: granted { read } for name="event0" dev="tmpfs" ino=10576 scontext=u:r:init:s0 tcontext=u:object_r:input_device:s0 tclass=chr_file
+01-15 17:45:38.923 16782 16782 W mm-qcamera-daem: type=1400 audit(0.0:1830): avc: granted { read open } for path="/dev/input/event0" dev="tmpfs" ino=10576 scontext=u:r:init:s0 tcontext=u:object_r:input_device:s0 tclass=chr_file
+01-15 17:45:38.966 16714 16782 E Sensors : devname: /dev/input/event1
+01-15 17:45:38.963 16782 16782 W mm-qcamera-daem: type=1400 audit(0.0:1831): avc: granted { read } for name="event1" dev="tmpfs" ino=11428 scontext=u:r:init:s0 tcontext=u:object_r:input_device:s0 tclass=chr_file
+01-15 17:45:38.963 16782 16782 W mm-qcamera-daem: type=1400 audit(0.0:1832): avc: granted { read open } for path="/dev/input/event1" dev="tmpfs" ino=11428 scontext=u:r:init:s0 tcontext=u:object_r:input_device:s0 tclass=chr_file
+01-15 17:45:38.999 16782 16782 W mm-qcamera-daem: type=1400 audit(0.0:1833): avc: granted { read } for name="mice" dev="tmpfs" ino=11427 scontext=u:r:init:s0 tcontext=u:object_r:input_device:s0 tclass=chr_file
+01-15 17:45:39.001 16714 16782 E Sensors : devname: /dev/input/mice
+01-15 17:45:39.033 16714 16782 E Sensors : devname: /dev/input/event2
+01-15 17:45:39.056 16714 16782 E Sensors : No Tof sensor found!!!
+01-15 17:45:39.056 16714 16782 E mm-camera: sensor_laser_init:164  0 sensor supported
+01-15 17:45:39.057 16714 16782 E mm-camera: gyro_port_init:1404  Failure initializing laser sensor. Error: 4
+01-15 17:45:39.057 16714 16782 I CAMERA_SENSOR: start_accel_sensor
+01-15 17:45:39.057 16714 16782 E mm-camera: start_accel_sensor: sensor1_open E
+01-15 17:45:39.058 16714 16782 E mm-camera: start_accel_sensor: sensor1_open X, res = 0
+01-15 17:45:39.062 16714 16802 I CAMERA_SENSOR: accel_data_cb received RESP - SNS_SMGR_REPORT_RESP_V01
+01-15 17:45:39.062 16714 16782 D mm-camera: mct: mct_pipeline_start_session_thread: X imglib
+01-15 17:45:39.062 16714 16714 E mm-camera: module_sensor_query_mod:7000failed NULL pointer detected s_list
+01-15 17:45:39.062 16714 16714 E mm-camera: mct: mct_pipeline_query_modules: query_mod failed on sensor
+01-15 17:45:39.062 16714 16714 E mm-camera-sensor: sensor_util_get_sbundle:1006failed
+01-15 17:45:39.062 16714 16714 E mm-camera: module_module_set_session_data:7357failed evaluated expression is FALSE
+01-15 17:45:39.063 16714 16714 D mm-camera: mct: mct_pipeline_process_set:command=800000a
+01-15 17:45:39.063 16714 16714 D mm-camera: mct: mct_pipeline_process_set: Adding new stream: id [0f]
+01-15 17:45:39.063 16714 16714 D mm-camera: mct: mct_pipeline_process_set:command=8000012
+01-15 17:45:39.063 16714 16714 D mm-camera: mct: mct_stream_start_link: Start linking Session-stream 0x1000f
+01-15 17:45:39.063 16714 16714 I mm-camera: module_iface_set_mod_func: set module type = 8, identity 1000f
+01-15 17:45:39.063 16714 16714 E mm-camera-sensor: sensor_util_get_sbundle:1006failed
+01-15 17:45:39.063 16714 16714 E mm-camera-sensor: port_sensor_caps_reserve:77failed
+01-15 17:45:39.063 16714 16714 E mm-camera-sensor: sensor_util_get_sbundle:1006failed
+01-15 17:45:39.063 16714 16714 E mm-camera-sensor: port_sensor_caps_reserve:77failed
+01-15 17:45:39.063 16714 16714 E mm-camera: mct: mct_stream_link_modules: mct_module_link failed for mod1 (sensor) mod2(iface) 
+01-15 17:45:39.063 16714 16714 E mm-camera: mct: mct_stream_start_link:519] link failed
+01-15 17:45:39.063 16714 16714 E mm-camera: mct: mct_pipeline_process_set: Linking failed for stream 0x1000f, stream type=10
+01-15 17:45:39.064 16714 16714 E mm-camera: mct: mct_controller_new: Start session failed with status 1
+01-15 17:45:39.064 16714 16714 D mm-camera: mct: mct_pipeline_stop_session - E
+01-15 17:45:39.064 16714 16714 D mm-camera: mct: mct_pipeline_process_set:command=800000b
+01-15 17:45:39.064 16714 16714 D mm-camera: mct: mct_pipeline_process_set: Issuing DEL_STREAM on stream 0x1000f and stream type=10
+01-15 17:45:39.064 16714 16714 D mm-camera: mct: mct_pipeline_process_set: Stream 0x1000f and stream type=10, successfully deleted
+01-15 17:45:39.064 16714 16804 D mm-camera: mct: mct_pipeline_stop_session_thread: Stop module name: sensor - E
+01-15 17:45:39.064 16714 16804 E mm-camera: module_sensor_stop_session:1718failed NULL pointer detected s_list
+01-15 17:45:39.064 16714 16804 E mm-camera: mct: mct_pipeline_stop_session_thread: Failed to stop module name: sensor
+01-15 17:45:39.064 16714 16804 D mm-camera: mct: mct_pipeline_stop_session_thread: Stop module name: sensor - X
+01-15 17:45:39.065 16714 16805 D mm-camera: mct: mct_pipeline_stop_session_thread: Stop module name: iface - E
+01-15 17:45:39.065 16714 16805 D mm-camera: mct: mct_pipeline_stop_session_thread: Stop module name: iface - X
+01-15 17:45:39.067 16714 16806 D mm-camera: mct: mct_pipeline_stop_session_thread: Stop module name: isp - E
+01-15 17:45:39.067 16714 16806 E mm-camera-isp2: isp_module_stop_session:414 session id 1
+01-15 17:45:39.071 16714 16807 D mm-camera: mct: mct_pipeline_stop_session_thread: Stop module name: stats - E
+01-15 17:45:39.072 16714 16806 D mm-camera: mct: mct_pipeline_stop_session_thread: Stop module name: isp - X
+01-15 17:45:39.077 16714 16808 D mm-camera: mct: mct_pipeline_stop_session_thread: Stop module name: pproc - E
+01-15 17:45:39.079 16714 16807 E mm-camera: gyro_port_deinit:1446  gyro_port_deinit: Error in android Deinit
+01-15 17:45:39.079 16714 16807 I CAMERA_SENSOR: stop_accel_sensor
+01-15 17:45:39.080 16714 16809 D mm-camera: mct: mct_pipeline_stop_session_thread: Stop module name: imglib - E
+01-15 17:45:39.080 16714 16809 E mm-camera: module_faceproc_stop_session:1885] session cnt 1
+01-15 17:45:39.080 16714 16714 D mm-camera: mct: mct_pipeline_stop_session: left modules: 5
+01-15 17:45:39.080 16714 16714 D mm-camera: mct: mct_pipeline_stop_session: left modules: 4
+01-15 17:45:39.080 16714 16714 D mm-camera: mct: mct_pipeline_stop_session: left modules: 3
+01-15 17:45:39.082 16714 16802 I CAMERA_SENSOR: accel_data_cb received RESP - SNS_SMGR_CANCEL_RESP_V01
+01-15 17:45:39.082 16714 16807 D mm-camera: mct: mct_pipeline_stop_session_thread: Stop module name: stats - X
+01-15 17:45:39.082 16714 16714 D mm-camera: mct: mct_pipeline_stop_session: left modules: 2
+01-15 17:45:39.089 16714 16808 E mm-camera-pp: [INFO] base_module_stop_session:98, E, session=1
+01-15 17:45:39.092 16714 16808 E mm-camera-pp: [INFO] base_module_stop_session:98, E, session=1
+01-15 17:45:39.092 16714 16809 D mm-camera: mct: mct_pipeline_stop_session_thread: Stop module name: imglib - X
+01-15 17:45:39.092 16714 16808 D mm-camera: mct: mct_pipeline_stop_session_thread: Stop module name: pproc - X
+01-15 17:45:39.092 16714 16714 D mm-camera: mct: mct_pipeline_stop_session: left modules: 1
+01-15 17:45:39.092 16714 16714 D mm-camera: mct: mct_pipeline_stop_session: left modules: 0
+01-15 17:45:39.092 16714 16714 D mm-camera: mct: mct_pipeline_stop_session - X
+01-15 17:45:39.092 16714 16714 E mm-camera: main: New session [1] creation failed with error
+01-15 17:45:39.092 16714 16714 E mm-camera: main: camera daemon notify error
+01-15 17:45:43.697 16714 16714 E mm-camera: server_process_hal_event:210: shutting down qcamsvr here as timeout occurred
+01-15 17:45:43.697 16110 16556 E mm-camera-intf: mm_camera_open: cannot open control fd of '/dev/video1' (Connection timed out)
+01-15 17:45:43.697 16110 16556 E mm-camera-intf: camera_open: mm_camera_open err = -1
+01-15 17:45:43.698 16110 16556 E QCamera2HWI: camera_open failed. rc = -1, mCameraHandle = 0x0
+01-15 17:45:43.698 16714 16714 F mm-camera: *** timed out in posting event. please refer to tombstones ***
+01-15 17:45:43.698 16110 16556 I QCamera2HWI: [KPI Perf] int qcamera::QCamera2HardwareInterface::openCamera(hw_device_t**): X PROFILE_OPEN_CAMERA camera id 0, rc: -1
+01-15 17:45:43.698 16110 16556 E QCamera2HWI: int qcamera::QCamera2HardwareInterface::openCamera(hw_device_t**):[PREVIEW_COUNT] preview_count(2)
+--------- beginning of crash
+01-15 17:45:43.698 16714 16714 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 16714 (mm-qcamera-daem), pid 16714 (mm-qcamera-daem)
+01-15 17:45:43.719 16110 16556 E QCamera2HWI: int qcamera::QCamera2HardwareInterface::openCamera(hw_device_t**):[PREVIEW_COUNT] preview_count(1) // Set To MultiView Mode
+01-15 17:45:43.720 16110 16777 D QCamera2HWI: static void* qcamera::QCamera2HardwareInterface::defferedWorkRoutine(void*): stop data proc
+01-15 17:45:43.724 16110 16556 E CamDev@1.0-impl: Could not open camera 0: -1
+01-15 17:45:43.724 16110 16556 E CamDev@1.0-impl: getHidlStatus: unknown HAL status code -1
+01-15 17:45:43.724 16110 16556 E CameraHardwareInterface: initialize: openSession failed! Function not implemented (-38)
+01-15 17:45:43.724 16110 16556 E CameraFlashlight: connectCameraDevice: initializing camera 0 failed
+01-15 17:45:43.724 16110 16556 I CameraHardwareInterface: Destroying camera 0
+01-15 17:45:43.724 16110 16556 E CameraService: setTorchMode: Setting torch mode of camera "0" to 1 failed: Invalid argument (-22)
+01-15 17:45:43.727 10832 11031 E FlashlightController: Couldn't set torch mode
+01-15 17:45:43.727 10832 11031 E FlashlightController: android.hardware.camera2.CameraAccessException: CAMERA_ERROR (3): setTorchMode:1541: Setting torch mode of camera "0" to 1 failed: Invalid argument (-22)
+01-15 17:45:43.727 10832 11031 E FlashlightController: 	at android.hardware.camera2.CameraManager.throwAsPublicException(CameraManager.java:658)
+01-15 17:45:43.727 10832 11031 E FlashlightController: 	at android.hardware.camera2.CameraManager$CameraManagerGlobal.setTorchMode(CameraManager.java:878)
+01-15 17:45:43.727 10832 11031 E FlashlightController: 	at android.hardware.camera2.CameraManager.setTorchMode(CameraManager.java:519)
+01-15 17:45:43.727 10832 11031 E FlashlightController: 	at com.android.systemui.statusbar.policy.FlashlightControllerImpl.setFlashlight(FlashlightControllerImpl.java:91)
+01-15 17:45:43.727 10832 11031 E FlashlightController: 	at com.android.systemui.qs.tiles.FlashlightTile.handleClick(FlashlightTile.java:86)
+01-15 17:45:43.727 10832 11031 E FlashlightController: 	at com.android.systemui.qs.tileimpl.QSTileImpl$H.handleMessage(QSTileImpl.java:430)
+01-15 17:45:43.727 10832 11031 E FlashlightController: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+01-15 17:45:43.727 10832 11031 E FlashlightController: 	at android.os.Looper.loop(Looper.java:164)
+01-15 17:45:43.727 10832 11031 E FlashlightController: 	at android.os.HandlerThread.run(HandlerThread.java:65)
+01-15 17:45:43.727 10832 11031 E FlashlightController: Caused by: android.os.ServiceSpecificException: setTorchMode:1541: Setting torch mode of camera "0" to 1 failed: Invalid argument (-22) (code 10)
+01-15 17:45:43.727 10832 11031 E FlashlightController: 	at android.os.Parcel.readException(Parcel.java:2018)
+01-15 17:45:43.727 10832 11031 E FlashlightController: 	at android.os.Parcel.readException(Parcel.java:1950)
+01-15 17:45:43.727 10832 11031 E FlashlightController: 	at android.hardware.ICameraService$Stub$Proxy.setTorchMode(ICameraService.java:547)
+01-15 17:45:43.727 10832 11031 E FlashlightController: 	at android.hardware.camera2.CameraManager$CameraManagerGlobal.setTorchMode(CameraManager.java:876)
+01-15 17:45:43.727 10832 11031 E FlashlightController: 	... 7 more
+01-15 17:45:43.755 16817 16817 I crash_dump32: type=1400 audit(0.0:1837): avc: denied { ptrace } for scontext=u:r:crash_dump:s0 tcontext=u:r:init:s0 tclass=process permissive=1
+01-15 17:45:43.793 16817 16817 I crash_dump32: obtaining output fd from tombstoned, type: kDebuggerdTombstone
+01-15 17:45:43.794  6196  6196 I /system/bin/tombstoned: received crash request for pid 16714
+01-15 17:45:43.795 16817 16817 I crash_dump32: performing dump of process 16714 (target tid = 16714)
+01-15 17:45:43.795 16817 16817 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+01-15 17:45:43.795 16817 16817 F DEBUG   : Build fingerprint: 'lge/p1_global_com/p1:8.0/NRD90U/171931902b165:user/release-keys'
+01-15 17:45:43.795 16817 16817 F DEBUG   : Revision: '11'
+01-15 17:45:43.795 16817 16817 F DEBUG   : ABI: 'arm'
+01-15 17:45:43.796 16817 16817 F DEBUG   : pid: 16714, tid: 16714, name: mm-qcamera-daem  >>> /system/vendor/bin/mm-qcamera-daemon <<<
+01-15 17:45:43.796 16817 16817 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+01-15 17:45:43.804 16817 16817 F DEBUG   : Abort message: '*** timed out in posting event. please refer to tombstones ***'
+01-15 17:45:43.804 16817 16817 F DEBUG   :     r0 00000000  r1 0000414a  r2 00000006  r3 00000008
+01-15 17:45:43.804 16817 16817 F DEBUG   :     r4 0000414a  r5 0000414a  r6 ffe1062c  r7 0000010c
+01-15 17:45:43.804 16817 16817 F DEBUG   :     r8 00000000  r9 00000000  sl 08002000  fp 00000008
+01-15 17:45:43.804 16817 16817 F DEBUG   :     ip ffe10fb0  sp ffe10618  lr e53a08b1  pc e539a39a  cpsr 20010030
+01-15 17:45:43.812 16817 16817 F DEBUG   : 
+01-15 17:45:43.812 16817 16817 F DEBUG   : backtrace:
+01-15 17:45:43.812 16817 16817 F DEBUG   :     #00 pc 0001a39a  /system/lib/libc.so (abort+63)
+01-15 17:45:43.812 16817 16817 F DEBUG   :     #01 pc 0000655d  /system/lib/liblog.so (__android_log_assert+156)
+01-15 17:45:43.812 16817 16817 F DEBUG   :     #02 pc 00001c2d  /system/vendor/bin/mm-qcamera-daemon
+01-15 17:45:43.812 16817 16817 F DEBUG   :     #03 pc 0000162f  /system/vendor/bin/mm-qcamera-daemon (main+746)
+01-15 17:45:43.812 16817 16817 F DEBUG   :     #04 pc 0007935d  /system/lib/libc.so (__libc_init+48)
+01-15 17:45:43.812 16817 16817 F DEBUG   :     #05 pc 00001180  /system/vendor/bin/mm-qcamera-daemon
+--------- beginning of system
+01-15 17:45:44.027  7571 10831 W NativeCrashListener: Couldn't find ProcessRecord for pid 16714
+01-15 17:45:44.028  6196  6196 E /system/bin/tombstoned: Tombstone written to: /data/tombstones/tombstone_28
+01-15 17:45:44.035  7571  9067 I BootReceiver: Copying /data/tombstones/tombstone_28 to DropBox (SYSTEM_TOMBSTONE)
+01-15 17:45:44.771 16822 16822 W mm-qcamera-daem: type=1400 audit(0.0:1838): avc: granted { read } for name="video0" dev="tmpfs" ino=9940 scontext=u:r:init:s0 tcontext=u:object_r:video_device:s0 tclass=chr_file
+01-15 17:45:44.773 16822 16822 I mm-camera: server_process_module_init:59, int mods
+01-15 17:45:44.774 16822 16822 E mm-camera-sensor: eebin_read:387failed!
+01-15 17:45:44.774 16822 16822 E mm-camera-sensor: eebin_read:387failed!
+01-15 17:45:44.774 16822 16822 E mm-camera-sensor: sensor_init_probe:475failed: to oribe eeprom bin sensors
+01-15 17:45:44.774 16822 16822 E mm-camera-sensor: add_external_sensor:109NO external sensor lib: no external path
+01-15 17:45:44.775 16822 16822 E mm-camera-sensor: sensor_probe:270failed: to load 
+01-15 17:45:44.775 16822 16822 E mm-camera: module_sensor_find_sensor_subdev:7457Open subdev failed after retry subdev_name:/dev/v4l-subdev15 sd_fd:-1
+01-15 17:45:44.775 16822 16822 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev0 subdev id 0
+01-15 17:45:44.775 16822 16822 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev1 subdev id 1
+01-15 17:45:44.775 16822 16822 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev2 subdev id 2
+01-15 17:45:44.775 16822 16822 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev3 subdev id 0
+01-15 17:45:44.775 16822 16822 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev4 subdev id 1
+01-15 17:45:44.775 16822 16822 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev5 subdev id 2
+01-15 17:45:44.775 16822 16822 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev6 subdev id 3
+01-15 17:45:44.775 16822 16822 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev7 subdev id 1
+01-15 17:45:44.776 16822 16822 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev8 subdev id 0
+01-15 17:45:44.776 16822 16822 E mm-camera: module_sensor_find_other_subdev:7799SUB_MODULE_LED_FLASH subdev_name /dev/v4l-subdev8 subdev_id 0
+01-15 17:45:44.776 16822 16822 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev9 subdev id 0
+01-15 17:45:44.776 16822 16822 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev10 subdev id 2
+01-15 17:45:44.776 16822 16822 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev11 subdev id 0
+01-15 17:45:44.776 16822 16822 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev12 subdev id 998
+01-15 17:45:44.776 16822 16822 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev13 subdev id 997
+01-15 17:45:44.798 16822 16822 E mm-camera-isp2: module_chroma_enhan40_init:90 name chroma_enhan40
+01-15 17:45:44.800 16822 16822 E mm-camera-isp2: module_color_correct40_init:104 name color_correct40
+01-15 17:45:44.813 16822 16822 E mm-camera-isp2: module_chroma_enhan40_init:90 name chroma_enhan40
+01-15 17:45:44.814 16822 16822 E mm-camera-isp2: module_color_correct40_init:104 name color_correct40
