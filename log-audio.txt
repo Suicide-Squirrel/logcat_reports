@@ -1,0 +1,393 @@
+01-19 13:39:31.416   969   969 D PackageManager: Connected to instant app resolver
+01-19 13:39:37.809   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:39:37.821   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:39:41.876   969  1015 E RemotePrintSpooler: Error removing obsolete print jobs .
+01-19 13:39:41.876   969  1015 E RemotePrintSpooler: 	at com.android.server.print.RemotePrintSpooler.removeObsoletePrintJobs(RemotePrintSpooler.java:531)
+01-19 13:39:41.876   969  1015 E RemotePrintSpooler: 	at com.android.server.print.UserState.removeObsoletePrintJobs(UserState.java:207)
+01-19 13:39:48.727   969   969 I Telecom : CallIntentProcessor: onReceive - isUnknownCall: false: PCR.oR@AKQ
+01-19 13:39:49.025   969   969 I Telecom : CreateConnectionProcessor: Trying attempt CallAttemptRecord(ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5d76fdb08b9af24aa18299fef4e0e805dac3ee08], UserHandle{0},ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5d76fdb08b9af24aa18299fef4e0e805dac3ee08], UserHandle{0}): NOCBIR.oR@AKc
+01-19 13:39:50.298   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:39:50.305   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:39:54.999   969  4893 I Telecom : Event: RecordEntry TC@1: SET_DISCONNECTED, disconnected set explicitly> DisconnectCause [ Code: (LOCAL) Label: () Description: () Reason: (LOCAL) Tone: (27) ]: CSW.sDc@ANM
+01-19 13:39:55.049   969  4893 I Telecom : ProximitySensorManager: All calls removed, resetting proximity sensor to default state: CSW.rC@ANY
+01-19 13:39:57.051   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:39:57.059   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:41:05.533  8147  8147 F DEBUG   :     #00 pc 000198b4  /system/lib/libc.so (strcmp+119)
+01-19 13:41:05.533  8147  8147 F DEBUG   :     #01 pc 00008d2b  /system/lib/libaudiopolicyservice.so (android::AudioPolicyEffects::loadInputEffectConfigurations(cnode*, android::Vector<android::AudioPolicyEffects::EffectDesc*> const&)+58)
+01-19 13:41:10.771  8183  8183 F DEBUG   :     #00 pc 000198b4  /system/lib/libc.so (strcmp+119)
+01-19 13:41:10.771  8183  8183 F DEBUG   :     #01 pc 00008d2b  /system/lib/libaudiopolicyservice.so (android::AudioPolicyEffects::loadInputEffectConfigurations(cnode*, android::Vector<android::AudioPolicyEffects::EffectDesc*> const&)+58)
+01-19 13:41:15.496  8234  8234 F DEBUG   :     #00 pc 000198b4  /system/lib/libc.so (strcmp+119)
+01-19 13:41:15.496  8234  8234 F DEBUG   :     #01 pc 00008d2b  /system/lib/libaudiopolicyservice.so (android::AudioPolicyEffects::loadInputEffectConfigurations(cnode*, android::Vector<android::AudioPolicyEffects::EffectDesc*> const&)+58)
+01-19 13:41:20.043   969  1016 W BroadcastQueue: Receiver during timeout of BroadcastRecord{60817f1 u0 android.intent.action.CALL} : ResolveInfo{4f97df8 com.android.server.telecom/.components.PrimaryCallReceiver m=0x0}
+01-19 13:41:20.660  8271  8271 F DEBUG   :     #00 pc 000198b4  /system/lib/libc.so (strcmp+119)
+01-19 13:41:20.661  8271  8271 F DEBUG   :     #01 pc 00008d2b  /system/lib/libaudiopolicyservice.so (android::AudioPolicyEffects::loadInputEffectConfigurations(cnode*, android::Vector<android::AudioPolicyEffects::EffectDesc*> const&)+58)
+01-19 13:41:23.445   969  1016 E ActivityManager: Reason: Broadcast of Intent { act=android.intent.action.CALL dat=tel:xxxx flg=0x10000010 cmp=com.android.server.telecom/.components.PrimaryCallReceiver (has extras) }
+01-19 13:41:23.445   969  1016 E ActivityManager:   0% 3/ksoftirqd/0: 0% user + 0% kernel
+01-19 13:41:23.445   969  1016 E ActivityManager:   0% 517/sensors.qcom: 0% user + 0% kernel / faults: 21 minor
+01-19 13:41:23.445   969  1016 E ActivityManager:   0% 15/ksoftirqd/1: 0% user + 0% kernel
+01-19 13:41:25.738  8339  8339 F DEBUG   :     #00 pc 000198b4  /system/lib/libc.so (strcmp+119)
+01-19 13:41:25.738  8339  8339 F DEBUG   :     #01 pc 00008d2b  /system/lib/libaudiopolicyservice.so (android::AudioPolicyEffects::loadInputEffectConfigurations(cnode*, android::Vector<android::AudioPolicyEffects::EffectDesc*> const&)+58)
+01-19 13:41:30.524  8376  8376 F DEBUG   :     #00 pc 000198b4  /system/lib/libc.so (strcmp+119)
+01-19 13:41:30.524  8376  8376 F DEBUG   :     #01 pc 00008d2b  /system/lib/libaudiopolicyservice.so (android::AudioPolicyEffects::loadInputEffectConfigurations(cnode*, android::Vector<android::AudioPolicyEffects::EffectDesc*> const&)+58)
+01-19 13:41:33.504   969  1016 W BroadcastQueue: Receiver during timeout of BroadcastRecord{e4b5858 u0 android.intent.action.CALL} : ResolveInfo{ce54d90 com.android.server.telecom/.components.PrimaryCallReceiver m=0x0}
+01-19 13:41:33.561   969  1016 W ActivityManager: Slow operation: 54ms so far, now at startProcess: returned from zygote!
+01-19 13:41:33.561   969  1016 W ActivityManager: Slow operation: 55ms so far, now at startProcess: done updating battery stats
+01-19 13:41:33.561   969  1016 W ActivityManager: Slow operation: 55ms so far, now at startProcess: building log message
+01-19 13:41:33.561   969  1016 W ActivityManager: Slow operation: 55ms so far, now at startProcess: starting to update pids map
+01-19 13:41:33.562   969  1016 W ActivityManager: Slow operation: 55ms so far, now at startProcess: done updating pids map
+01-19 13:41:33.562   969  1016 W ActivityManager: Slow operation: 56ms so far, now at startProcess: done starting proc!
+01-19 13:41:35.608  8441  8441 F DEBUG   :     #00 pc 000198b4  /system/lib/libc.so (strcmp+119)
+01-19 13:41:35.608  8441  8441 F DEBUG   :     #01 pc 00008d2b  /system/lib/libaudiopolicyservice.so (android::AudioPolicyEffects::loadInputEffectConfigurations(cnode*, android::Vector<android::AudioPolicyEffects::EffectDesc*> const&)+58)
+01-19 13:41:36.638   969  1016 E ActivityManager: Reason: Broadcast of Intent { act=android.intent.action.CALL dat=tel:xxxx flg=0x10000010 cmp=com.android.server.telecom/.components.PrimaryCallReceiver (has extras) }
+01-19 13:41:36.638   969  1016 E ActivityManager:   0.1% 3/ksoftirqd/0: 0% user + 0.1% kernel
+01-19 13:41:36.638   969  1016 E ActivityManager:   0.1% 15/ksoftirqd/1: 0% user + 0.1% kernel
+01-19 13:41:36.638   969  1016 E ActivityManager:   0% 20/ksoftirqd/2: 0% user + 0% kernel
+01-19 13:41:36.638   969  1016 E ActivityManager: 40% TOTAL: 31% user + 8.2% kernel + 0% iowait + 0.9% irq + 0.5% softirq
+01-19 13:41:40.513  8497  8497 F DEBUG   :     #00 pc 000198b4  /system/lib/libc.so (strcmp+119)
+01-19 13:41:40.513  8497  8497 F DEBUG   :     #01 pc 00008d2b  /system/lib/libaudiopolicyservice.so (android::AudioPolicyEffects::loadInputEffectConfigurations(cnode*, android::Vector<android::AudioPolicyEffects::EffectDesc*> const&)+58)
+01-19 13:41:45.674  8535  8535 F DEBUG   :     #00 pc 000198b4  /system/lib/libc.so (strcmp+119)
+01-19 13:41:45.674  8535  8535 F DEBUG   :     #01 pc 00008d2b  /system/lib/libaudiopolicyservice.so (android::AudioPolicyEffects::loadInputEffectConfigurations(cnode*, android::Vector<android::AudioPolicyEffects::EffectDesc*> const&)+58)
+01-19 13:41:50.621  8589  8589 F DEBUG   :     #00 pc 000198b4  /system/lib/libc.so (strcmp+119)
+01-19 13:41:50.621  8589  8589 F DEBUG   :     #01 pc 00008d2b  /system/lib/libaudiopolicyservice.so (android::AudioPolicyEffects::loadInputEffectConfigurations(cnode*, android::Vector<android::AudioPolicyEffects::EffectDesc*> const&)+58)
+01-19 13:41:55.647  8626  8626 F DEBUG   :     #00 pc 000198b4  /system/lib/libc.so (strcmp+119)
+01-19 13:41:55.647  8626  8626 F DEBUG   :     #01 pc 00008d2b  /system/lib/libaudiopolicyservice.so (android::AudioPolicyEffects::loadInputEffectConfigurations(cnode*, android::Vector<android::AudioPolicyEffects::EffectDesc*> const&)+58)
+01-19 13:42:00.954   969   969 I Telecom : CallIntentProcessor: onReceive - isUnknownCall: false: PCR.oR@AW0
+01-19 13:42:01.048   969   969 I Telecom : CallIntentProcessor: onReceive - isUnknownCall: false: PCR.oR@AW4
+01-19 13:42:01.059   969   969 I Telecom : CallIntentProcessor: onReceive - isUnknownCall: false: PCR.oR@AW8
+01-19 13:42:04.165   969   969 I Telecom : CreateConnectionProcessor: Trying attempt CallAttemptRecord(ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5d76fdb08b9af24aa18299fef4e0e805dac3ee08], UserHandle{0},ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5d76fdb08b9af24aa18299fef4e0e805dac3ee08], UserHandle{0}): NOCBIR.oR@AXY
+01-19 13:42:05.358   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:42:05.373   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:42:08.626   969  4893 I Telecom : Event: RecordEntry TC@2: SET_DISCONNECTED, disconnected set explicitly> DisconnectCause [ Code: (LOCAL) Label: () Description: () Reason: (LOCAL) Tone: (27) ]: CSW.sDc@AaM
+01-19 13:42:08.675   969  4893 I Telecom : ProximitySensorManager: All calls removed, resetting proximity sensor to default state: CSW.rC@AaQ
+01-19 13:42:10.098   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:42:10.111   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:42:12.959   969   969 I Telecom : CallIntentProcessor: onReceive - isUnknownCall: false: PCR.oR@AhI
+01-19 13:42:13.125   969   969 I Telecom : CreateConnectionProcessor: Trying attempt CallAttemptRecord(ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5d76fdb08b9af24aa18299fef4e0e805dac3ee08], UserHandle{0},ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5d76fdb08b9af24aa18299fef4e0e805dac3ee08], UserHandle{0}): NOCBIR.oR@Ahk
+01-19 13:42:14.242   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:42:14.249   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:42:24.219   969  7693 I Telecom : Event: RecordEntry TC@5: SET_DISCONNECTED, disconnected set explicitly> DisconnectCause [ Code: (LOCAL) Label: () Description: () Reason: (LOCAL) Tone: (27) ]: CSW.sDc@Akg
+01-19 13:42:24.297   969  7693 I Telecom : ProximitySensorManager: All calls removed, resetting proximity sensor to default state: CSW.rC@Ak0
+01-19 13:42:26.109   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:42:26.118   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:42:49.195   969   969 I Telecom : CallIntentProcessor: onReceive - isUnknownCall: false: PCR.oR@Aog
+01-19 13:42:49.488   969   969 I Telecom : CreateConnectionProcessor: Trying attempt CallAttemptRecord(ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5d76fdb08b9af24aa18299fef4e0e805dac3ee08], UserHandle{0},ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5d76fdb08b9af24aa18299fef4e0e805dac3ee08], UserHandle{0}): NOCBIR.oR@Aow
+01-19 13:42:50.375   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:42:50.387   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:42:57.661   969  4280 I Telecom : Event: RecordEntry TC@6: SET_DISCONNECTED, disconnected set explicitly> DisconnectCause [ Code: (LOCAL) Label: () Description: () Reason: (LOCAL) Tone: (27) ]: CSW.sDc@Aro
+01-19 13:42:57.706   969  4280 I Telecom : ProximitySensorManager: All calls removed, resetting proximity sensor to default state: CSW.rC@Ar0
+01-19 13:43:00.146   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:43:00.156   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:43:14.313   969   969 I Telecom : CallIntentProcessor: onReceive - isUnknownCall: false: PCR.oR@Awg
+01-19 13:43:14.606   969   969 I Telecom : CreateConnectionProcessor: Trying attempt CallAttemptRecord(ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5d76fdb08b9af24aa18299fef4e0e805dac3ee08], UserHandle{0},ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5d76fdb08b9af24aa18299fef4e0e805dac3ee08], UserHandle{0}): NOCBIR.oR@Aww
+01-19 13:43:15.553   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:43:15.563   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:43:32.239   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:43:32.251   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:45:04.950  9857  9857 F DEBUG   :     #00 pc 000198d4  /system/lib/libc.so (strcmp+151)
+01-19 13:45:04.950  9857  9857 F DEBUG   :     #01 pc 00008d2b  /system/lib/libaudiopolicyservice.so (android::AudioPolicyEffects::loadInputEffectConfigurations(cnode*, android::Vector<android::AudioPolicyEffects::EffectDesc*> const&)+58)
+01-19 13:45:09.878  9891  9891 F DEBUG   :     #00 pc 000198d4  /system/lib/libc.so (strcmp+151)
+01-19 13:45:09.878  9891  9891 F DEBUG   :     #01 pc 00008d2b  /system/lib/libaudiopolicyservice.so (android::AudioPolicyEffects::loadInputEffectConfigurations(cnode*, android::Vector<android::AudioPolicyEffects::EffectDesc*> const&)+58)
+01-19 13:45:14.666  9929  9929 F DEBUG   :     #00 pc 000198d4  /system/lib/libc.so (strcmp+151)
+01-19 13:45:14.666  9929  9929 F DEBUG   :     #01 pc 00008d2b  /system/lib/libaudiopolicyservice.so (android::AudioPolicyEffects::loadInputEffectConfigurations(cnode*, android::Vector<android::AudioPolicyEffects::EffectDesc*> const&)+58)
+01-19 13:45:19.769  9965  9965 F DEBUG   :     #00 pc 000198d4  /system/lib/libc.so (strcmp+151)
+01-19 13:45:19.769  9965  9965 F DEBUG   :     #01 pc 00008d2b  /system/lib/libaudiopolicyservice.so (android::AudioPolicyEffects::loadInputEffectConfigurations(cnode*, android::Vector<android::AudioPolicyEffects::EffectDesc*> const&)+58)
+01-19 13:45:24.791  9999  9999 F DEBUG   :     #00 pc 000198d4  /system/lib/libc.so (strcmp+151)
+01-19 13:45:24.791  9999  9999 F DEBUG   :     #01 pc 00008d2b  /system/lib/libaudiopolicyservice.so (android::AudioPolicyEffects::loadInputEffectConfigurations(cnode*, android::Vector<android::AudioPolicyEffects::EffectDesc*> const&)+58)
+01-19 13:45:29.852 10035 10035 F DEBUG   :     #00 pc 000198d4  /system/lib/libc.so (strcmp+151)
+01-19 13:45:29.852 10035 10035 F DEBUG   :     #01 pc 00008d2b  /system/lib/libaudiopolicyservice.so (android::AudioPolicyEffects::loadInputEffectConfigurations(cnode*, android::Vector<android::AudioPolicyEffects::EffectDesc*> const&)+58)
+01-19 13:45:34.738 10076 10076 F DEBUG   :     #00 pc 000198d4  /system/lib/libc.so (strcmp+151)
+01-19 13:45:34.738 10076 10076 F DEBUG   :     #01 pc 00008d2b  /system/lib/libaudiopolicyservice.so (android::AudioPolicyEffects::loadInputEffectConfigurations(cnode*, android::Vector<android::AudioPolicyEffects::EffectDesc*> const&)+58)
+01-19 13:45:53.332   969  7693 I Telecom : Event: RecordEntry TC@7: SET_DISCONNECTED, disconnected set explicitly> DisconnectCause [ Code: (REMOTE) Label: () Description: () Reason: (Normal call clearing, NORMAL) Tone: (27) ]: CSW.sDc@Az0
+01-19 13:45:53.430   969  7693 I Telecom : ProximitySensorManager: All calls removed, resetting proximity sensor to default state: CSW.rC@A0E
+01-19 13:45:53.501   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:45:53.515   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:45:54.217   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:45:54.227   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:45:57.365   969   969 I Telecom : CallIntentProcessor: onReceive - isUnknownCall: false: PCR.oR@A30
+01-19 13:45:57.724   969   969 I Telecom : CreateConnectionProcessor: Trying attempt CallAttemptRecord(ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5d76fdb08b9af24aa18299fef4e0e805dac3ee08], UserHandle{0},ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5d76fdb08b9af24aa18299fef4e0e805dac3ee08], UserHandle{0}): NOCBIR.oR@A4E
+01-19 13:45:58.569   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:45:58.577   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:46:24.123   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:46:24.131   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:48:36.652   969  7693 I Telecom : Event: RecordEntry TC@8: SET_DISCONNECTED, disconnected set explicitly> DisconnectCause [ Code: (REMOTE) Label: () Description: () Reason: (Normal call clearing, NORMAL) Tone: (27) ]: CSW.sDc@A7I
+01-19 13:48:36.729   969  7693 I Telecom : ProximitySensorManager: All calls removed, resetting proximity sensor to default state: CSW.rC@A7Y
+01-19 13:48:36.808   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:48:36.815   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:48:38.111   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:48:38.122   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:49:12.697   969   969 I Telecom : CallIntentProcessor: onReceive - isUnknownCall: false: PCR.oR@BAE
+01-19 13:49:13.028   969   969 I Telecom : CreateConnectionProcessor: Trying attempt CallAttemptRecord(ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5d76fdb08b9af24aa18299fef4e0e805dac3ee08], UserHandle{0},ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5d76fdb08b9af24aa18299fef4e0e805dac3ee08], UserHandle{0}): NOCBIR.oR@BAU
+01-19 13:49:13.248  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:13.258   969  4089 D sensors_hal_SMGR: batch:sensor(android.sensor.accelerometer) sample_rate=5.000000Hz report_rate_f=0.000000Hz curr sample rate:5.000000 cur rpt rate:0 max:200.000000 min:1.000000
+01-19 13:49:13.258   969  4089 D sensors_hal_SMGR: enable:sensor(android.sensor.accelerometer) handle 0, freq=5.000000 report_rate=0 batched=0
+01-19 13:49:13.258   969  4089 D sensors_hal_SMGR: SMGRPrepareAddMsg sample_rate 5.000000 report_rate 327680 subhz_sample_rate_ms 0 sample_rate_hz 5
+01-19 13:49:13.258   969  4089 D sensors_hal_SMGR: SMGRPrepareAddMsg:sensor android.sensor.accelerometer 
+01-19 13:49:13.261   969  4089 D sensors_hal_SMGR: SMGRReportAdd: Received Response: 0
+01-19 13:49:13.262  8389  8389 I Dialer  : ProximitySensor.updateProximitySensorMode - screenOnImmediately: true, dialPadVisible: false, offHook: true, horizontal: false, uiShowing: true, audioRoute: BLUETOOTH
+01-19 13:49:13.262  8389  8389 I Dialer  : ProximitySensor.turnOffProximitySensor - wake lock already released
+01-19 13:49:13.281  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:13.308  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:13.326  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:13.347  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:13.356   969  2967 D sensors_hal_SMGR: processBufferingInd:report(on_change_sensor) eventtype 0
+01-19 13:49:13.365  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:13.381  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:13.396  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:13.408  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:13.421  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:13.433  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:13.453  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:13.465  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:13.478  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:13.495  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:13.537  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:13.558  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:13.566   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.255966 y:-0.006927 z:9.888458
+01-19 13:49:13.578  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:13.608  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:13.874   969  3797 D RecurrenceRule: Resolving using anchor 2018-01-19T13:49:13.873+02:00[Europe/Athens]
+01-19 13:49:13.894   969  3797 D RecurrenceRule: Resolving using anchor 2018-01-19T13:49:13.894+02:00[Europe/Athens]
+01-19 13:49:13.915   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:49:13.924   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:49:14.071  8389  8389 I Dialer  : ProximitySensor.updateProximitySensorMode - screenOnImmediately: true, dialPadVisible: false, offHook: true, horizontal: true, uiShowing: true, audioRoute: BLUETOOTH
+01-19 13:49:14.072  8389  8389 I Dialer  : ProximitySensor.turnOffProximitySensor - wake lock already released
+01-19 13:49:15.906  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:15.937  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:16.327  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:16.359  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:16.393  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:16.451  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:16.481  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:16.503  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:16.525  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:16.542  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:16.560  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:16.577  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:16.595  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:49:23.321   969  3797 D RecurrenceRule: Resolving using anchor 2018-01-19T13:49:23.320+02:00[Europe/Athens]
+01-19 13:49:23.338   969  3797 D RecurrenceRule: Resolving using anchor 2018-01-19T13:49:23.338+02:00[Europe/Athens]
+01-19 13:49:23.354   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:49:23.361   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:49:26.087   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.254181 y:-0.009201 z:9.897919
+01-19 13:49:35.626   969  4034 D sensors_hal_SMGR: batch:sensor(android.sensor.pressure) sample_rate=90.000000Hz report_rate_f=0.000000Hz curr sample rate:90.000000 cur rpt rate:0 max:90.000000 min:0.015259
+01-19 13:49:35.626   969  4034 D sensors_hal_SMGR: enable:sensor(android.sensor.pressure) handle 3, freq=90.000000 report_rate=0 batched=0
+01-19 13:49:35.626   969  4034 D sensors_hal_SMGR: SMGRPrepareAddMsg sample_rate 90.000000 report_rate 5898240 subhz_sample_rate_ms 0 sample_rate_hz 90
+01-19 13:49:35.626   969  4034 D sensors_hal_SMGR: SMGRPrepareAddMsg:sensor android.sensor.pressure 
+01-19 13:49:35.628   969  4034 D sensors_hal_SMGR: SMGRReportAdd: Received Response: 0
+01-19 13:49:35.656   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.255493 y:-0.006088 z:9.898285
+01-19 13:49:35.659   969  2967 V sensors_hal_Press: processReportInd: P: 1005.739075
+01-19 13:49:35.659   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:3, type:6, x:1005.739075 y:0.000000 z:0.000000
+01-19 13:49:35.665   969  2967 V sensors_hal_Press: processReportInd: P: 1005.738892
+01-19 13:49:35.665   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:3, type:6, x:1005.738892 y:0.000000 z:0.000000
+01-19 13:49:35.676   969  2967 V sensors_hal_Press: processReportInd: P: 1005.738647
+01-19 13:49:35.678   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:3, type:6, x:1005.738647 y:0.000000 z:0.000000
+01-19 13:49:35.687   969  2967 V sensors_hal_Press: processReportInd: P: 1005.738464
+01-19 13:49:35.687   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:3, type:6, x:1005.738464 y:0.000000 z:0.000000
+01-19 13:49:35.698   969  2967 V sensors_hal_Press: processReportInd: P: 1005.685913
+01-19 13:49:35.699   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:3, type:6, x:1005.685913 y:0.000000 z:0.000000
+01-19 13:49:35.703   969  4893 D sensors_hal_SMGR: enable:sensor(android.sensor.pressure) Deactivating sensor handle=3
+01-19 13:49:35.705   969  4893 D sensors_hal_SMGR: SMGRReportDelete: Rcvd success response from request
+01-19 13:49:35.743   969  2967 D sensors_hal_SMGR: processBufferingInd:report(on_change_sensor) eventtype 0
+01-19 13:49:35.851   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.257401 y:-0.008240 z:9.898758
+01-19 13:49:36.051   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.251175 y:-0.006805 z:9.899841
+01-19 13:49:39.098   969  2967 D sensors_hal_SMGR: processBufferingInd:report(on_change_sensor) eventtype 0
+01-19 13:49:39.240   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.251297 y:-0.011353 z:9.898163
+01-19 13:49:52.195   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.250824 y:-0.012421 z:9.900314
+01-19 13:50:05.349   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.249863 y:-0.007278 z:9.892410
+01-19 13:50:18.507   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.253220 y:-0.004776 z:9.895889
+01-19 13:50:31.665   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.255127 y:-0.006439 z:9.891098
+01-19 13:50:44.823   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.253693 y:-0.007874 z:9.897202
+01-19 13:50:44.852   969  2967 D sensors_hal_SMGR: processBufferingInd:report(on_change_sensor) eventtype 0
+01-19 13:50:57.980   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.256210 y:-0.008484 z:9.895172
+01-19 13:51:11.139   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.252853 y:-0.009552 z:9.895889
+01-19 13:51:24.209   969  2981 D sensors_hal_Time: time_service_sensor1_cb: msg_type 2
+01-19 13:51:24.209   969  2981 D sensors_hal_Time: time_service_sensor1_cb: Sn 24, msg Id 3, txn Id 0
+01-19 13:51:24.209   969  2981 D sensors_hal_Time: tsOffsetIs: Apps: 747181648924; DSPS: 24775039; Offset : -8892538734 (diff 4583 @5)
+01-19 13:51:24.247   969  2967 D sensors_hal_SMGR: processBufferingInd:report(on_change_sensor) eventtype 0
+01-19 13:51:24.294   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.258835 y:-0.012909 z:9.895401
+01-19 13:51:36.021   969  1001 D sensors_hal_SMGR: batch:sensor(android.sensor.pressure) sample_rate=90.000000Hz report_rate_f=0.000000Hz curr sample rate:90.000000 cur rpt rate:0 max:90.000000 min:0.015259
+01-19 13:51:36.021   969  1001 D sensors_hal_SMGR: enable:sensor(android.sensor.pressure) handle 3, freq=90.000000 report_rate=0 batched=0
+01-19 13:51:36.021   969  1001 D sensors_hal_SMGR: SMGRPrepareAddMsg sample_rate 90.000000 report_rate 5898240 subhz_sample_rate_ms 0 sample_rate_hz 90
+01-19 13:51:36.021   969  1001 D sensors_hal_SMGR: SMGRPrepareAddMsg:sensor android.sensor.pressure 
+01-19 13:51:36.024   969  1001 D sensors_hal_SMGR: SMGRReportAdd: Received Response: 0
+01-19 13:51:36.046   969  2967 V sensors_hal_Press: processReportInd: P: 1005.755371
+01-19 13:51:36.047   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:3, type:6, x:1005.755371 y:0.000000 z:0.000000
+01-19 13:51:36.048   969  4893 D sensors_hal_SMGR: enable:sensor(android.sensor.pressure) Deactivating sensor handle=3
+01-19 13:51:36.049   969  4893 D sensors_hal_SMGR: SMGRReportDelete: Rcvd success response from request
+01-19 13:51:36.054   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.258606 y:-0.010880 z:9.900314
+01-19 13:51:36.254   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.252975 y:-0.007645 z:9.898285
+01-19 13:51:36.453   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.257996 y:-0.006805 z:9.899231
+01-19 13:51:37.252   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.253342 y:-0.005966 z:9.897324
+01-19 13:51:50.409   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.257172 y:-0.003815 z:9.894928
+01-19 13:51:50.433   969  2967 D sensors_hal_SMGR: processBufferingInd:report(on_change_sensor) eventtype 0
+01-19 13:51:51.176   969  4189 I Telecom : Event: RecordEntry TC@9: SET_DISCONNECTED, disconnected set explicitly> DisconnectCause [ Code: (REMOTE) Label: () Description: () Reason: (Normal call clearing, NORMAL) Tone: (27) ]: CSW.sDc@BDU
+01-19 13:51:51.178  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:51.208  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:51.244   969  4189 I Telecom : ProximitySensorManager: All calls removed, resetting proximity sensor to default state: CSW.rC@BDk
+01-19 13:51:51.255  8389  8389 I Dialer  : InCallActivityCommon.maybeShowErrorDialogOnDisconnect - disconnect cause: DisconnectMessage {code: 3, description: , reason: Normal call clearing, NORMAL, message: null}
+01-19 13:51:51.270  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:51.279   969  4909 D sensors_hal_SMGR: enable:sensor(android.sensor.accelerometer) Deactivating sensor handle=0
+01-19 13:51:51.280   969  4909 D sensors_hal_SMGR: SMGRReportDelete: Rcvd success response from request
+01-19 13:51:51.281  8389  8389 I Dialer  : ProximitySensor.updateProximitySensorMode - screenOnImmediately: true, dialPadVisible: false, offHook: false, horizontal: false, uiShowing: true, audioRoute: BLUETOOTH
+01-19 13:51:51.282  8389  8389 I Dialer  : ProximitySensor.turnOffProximitySensor - wake lock already released
+01-19 13:51:51.286  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:51.304  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:51.324   969  3797 D RecurrenceRule: Resolving using anchor 2018-01-19T13:51:51.323+02:00[Europe/Athens]
+01-19 13:51:51.327  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:51.335  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:51.340   969  3797 D RecurrenceRule: Resolving using anchor 2018-01-19T13:51:51.340+02:00[Europe/Athens]
+01-19 13:51:51.354   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:51:51.363   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:51:51.367  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:51.379  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:51.430  8389  8389 I Dialer  : ProximitySensor.updateProximitySensorMode - screenOnImmediately: false, dialPadVisible: false, offHook: false, horizontal: false, uiShowing: true, audioRoute: EARPIECE
+01-19 13:51:51.430  8389  8389 I Dialer  : ProximitySensor.turnOffProximitySensor - wake lock already released
+01-19 13:51:53.146   969  3797 D RecurrenceRule: Resolving using anchor 2018-01-19T13:51:53.146+02:00[Europe/Athens]
+01-19 13:51:53.175   969  3797 D RecurrenceRule: Resolving using anchor 2018-01-19T13:51:53.174+02:00[Europe/Athens]
+01-19 13:51:53.199   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:51:53.209   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:51:54.160  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:54.247  8389  8389 I Dialer  : ProximitySensor.updateProximitySensorMode - screenOnImmediately: false, dialPadVisible: false, offHook: false, horizontal: false, uiShowing: false, audioRoute: EARPIECE
+01-19 13:51:54.247  8389  8389 I Dialer  : ProximitySensor.turnOffProximitySensor - wake lock already released
+01-19 13:51:54.263  8389  8389 I Dialer  : ProximitySensor.turnOffProximitySensor - wake lock already released
+01-19 13:51:57.453   969   969 I Telecom : CallIntentProcessor: onReceive - isUnknownCall: false: PCR.oR@BHQ
+01-19 13:51:57.487  8389  8389 I Dialer  : ProximitySensor.updateProximitySensorMode - screenOnImmediately: false, dialPadVisible: false, offHook: false, horizontal: false, uiShowing: false, audioRoute: EARPIECE
+01-19 13:51:57.487  8389  8389 I Dialer  : ProximitySensor.turnOffProximitySensor - wake lock already released
+01-19 13:51:57.684   969  1001 D sensors_hal_SMGR: batch:sensor(android.sensor.accelerometer) sample_rate=5.000000Hz report_rate_f=0.000000Hz curr sample rate:5.000000 cur rpt rate:0 max:200.000000 min:1.000000
+01-19 13:51:57.685   969  1001 D sensors_hal_SMGR: enable:sensor(android.sensor.accelerometer) handle 0, freq=5.000000 report_rate=0 batched=0
+01-19 13:51:57.685   969  1001 D sensors_hal_SMGR: SMGRPrepareAddMsg sample_rate 5.000000 report_rate 327680 subhz_sample_rate_ms 0 sample_rate_hz 5
+01-19 13:51:57.685   969  1001 D sensors_hal_SMGR: SMGRPrepareAddMsg:sensor android.sensor.accelerometer 
+01-19 13:51:57.687   969  1001 D sensors_hal_SMGR: SMGRReportAdd: Received Response: 0
+01-19 13:51:57.687  8389  8389 I Dialer  : ProximitySensor.updateProximitySensorMode - screenOnImmediately: false, dialPadVisible: false, offHook: true, horizontal: false, uiShowing: false, audioRoute: EARPIECE
+01-19 13:51:57.687  8389  8389 I Dialer  : ProximitySensor.turnOnProximitySensor - acquiring wake lock
+01-19 13:51:57.689   969  1027 D sensors_hal_SAM: batch:sensor(android.sensor.proximity) sample_rate=5.000000Hz report_rate_f=0.000000Hz curr sample rate:5.000000 cur rpt rate:5 max:5.000000 min:5.000000
+01-19 13:51:57.689   969  1027 D sensors_hal_Thresh: enable: handle=53
+01-19 13:51:57.692   969  3257 D sensors_hal_Thresh: processResp: Received SNS_SAM_SENSOR_THRESH_ENABLE_RESP_V01
+01-19 13:51:57.692   969  1027 D sensors_hal_Thresh: enable: Received response: 0
+01-19 13:51:57.698  8389  8389 I Dialer  : ProximitySensor.updateProximitySensorMode - screenOnImmediately: false, dialPadVisible: false, offHook: true, horizontal: false, uiShowing: true, audioRoute: EARPIECE
+01-19 13:51:57.699  8389  8389 I Dialer  : ProximitySensor.turnOnProximitySensor - wake lock already acquired
+01-19 13:51:57.751   969  4189 D sensors_hal_SMGR: enable:sensor(android.sensor.accelerometer) Deactivating sensor handle=0
+01-19 13:51:57.754   969  4189 D sensors_hal_SMGR: SMGRReportDelete: Rcvd success response from request
+01-19 13:51:57.755  8389  8389 I Dialer  : ProximitySensor.updateProximitySensorMode - screenOnImmediately: false, dialPadVisible: false, offHook: false, horizontal: false, uiShowing: true, audioRoute: EARPIECE
+01-19 13:51:57.755  8389  8389 I Dialer  : ProximitySensor.turnOffProximitySensor - releasing wake lock
+01-19 13:51:57.756   969  1027 D sensors_hal_Thresh: enable: handle=53
+01-19 13:51:57.756   969  1027 D sensors_hal_Thresh: enable: Disabling sensor handle=53
+01-19 13:51:57.759   969  3257 D sensors_hal_Thresh: processResp: Received SNS_SAM_SENSOR_THRESH_DISABLE/CANCEL_RESP_V01
+01-19 13:51:57.770   969   969 I Telecom : CreateConnectionProcessor: Trying attempt CallAttemptRecord(ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5d76fdb08b9af24aa18299fef4e0e805dac3ee08], UserHandle{0},ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5d76fdb08b9af24aa18299fef4e0e805dac3ee08], UserHandle{0}): NOCBIR.oR@BHk
+01-19 13:51:57.787  8389  8389 I Dialer  : PhoneNumberHelper.getCurrentCountryIso - No CountryDetector; falling back to countryIso based on locale: GR
+01-19 13:51:57.801  8389  8389 I Dialer  : PhoneNumberHelper.getCurrentCountryIso - No CountryDetector; falling back to countryIso based on locale: GR
+01-19 13:51:57.804  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:57.824  8389  8389 I Dialer  : ProximitySensor.updateProximitySensorMode - screenOnImmediately: true, dialPadVisible: false, offHook: false, horizontal: false, uiShowing: true, audioRoute: BLUETOOTH
+01-19 13:51:57.824  8389  8389 I Dialer  : ProximitySensor.turnOffProximitySensor - wake lock already released
+01-19 13:51:57.824  8389  8404 I Dialer  : PhoneNumberHelper.getCurrentCountryIso - No CountryDetector; falling back to countryIso based on locale: GR
+01-19 13:51:57.829  8389  8404 I Dialer  : PhoneNumberHelper.getCurrentCountryIso - No CountryDetector; falling back to countryIso based on locale: GR
+01-19 13:51:57.960   969  4089 D sensors_hal_SMGR: batch:sensor(android.sensor.accelerometer) sample_rate=5.000000Hz report_rate_f=0.000000Hz curr sample rate:5.000000 cur rpt rate:0 max:200.000000 min:1.000000
+01-19 13:51:57.960   969  4089 D sensors_hal_SMGR: enable:sensor(android.sensor.accelerometer) handle 0, freq=5.000000 report_rate=0 batched=0
+01-19 13:51:57.960   969  4089 D sensors_hal_SMGR: SMGRPrepareAddMsg sample_rate 5.000000 report_rate 327680 subhz_sample_rate_ms 0 sample_rate_hz 5
+01-19 13:51:57.960   969  4089 D sensors_hal_SMGR: SMGRPrepareAddMsg:sensor android.sensor.accelerometer 
+01-19 13:51:57.964   969  4089 D sensors_hal_SMGR: SMGRReportAdd: Received Response: 0
+01-19 13:51:57.965  8389  8389 I Dialer  : ProximitySensor.updateProximitySensorMode - screenOnImmediately: true, dialPadVisible: false, offHook: true, horizontal: false, uiShowing: true, audioRoute: BLUETOOTH
+01-19 13:51:57.965  8389  8389 I Dialer  : ProximitySensor.turnOffProximitySensor - wake lock already released
+01-19 13:51:58.003  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:58.018   969  2967 D sensors_hal_SMGR: processBufferingInd:report(on_change_sensor) eventtype 0
+01-19 13:51:58.018   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:1, type:5, x:5.000000 y:0.000000 z:0.000000
+01-19 13:51:58.023  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:58.048  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:58.057  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:58.087  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:58.096  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:58.117  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:58.124  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:58.141  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:58.149  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:58.168  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:58.186  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:58.197  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:58.216  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:58.223  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:58.259   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.253220 y:-0.004288 z:9.897324
+01-19 13:51:58.270  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:58.281  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:58.303  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:58.313  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:51:58.458   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.249023 y:-0.005005 z:9.906296
+01-19 13:51:58.622   969  3797 D RecurrenceRule: Resolving using anchor 2018-01-19T13:51:58.622+02:00[Europe/Athens]
+01-19 13:51:58.642   969  3797 D RecurrenceRule: Resolving using anchor 2018-01-19T13:51:58.642+02:00[Europe/Athens]
+01-19 13:51:58.663   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:51:58.673   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:51:58.782  8389  8389 I Dialer  : ProximitySensor.updateProximitySensorMode - screenOnImmediately: true, dialPadVisible: false, offHook: true, horizontal: true, uiShowing: true, audioRoute: BLUETOOTH
+01-19 13:51:58.782  8389  8389 I Dialer  : ProximitySensor.turnOffProximitySensor - wake lock already released
+01-19 13:52:00.631  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:52:00.648  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:52:01.037  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:52:01.050  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:52:01.124  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:52:01.145  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:52:01.177  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:52:01.204  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:52:01.215  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:52:01.237  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:52:01.248  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:52:01.274  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:52:01.286  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:52:03.499   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.256805 y:-0.029190 z:9.892654
+01-19 13:52:16.534   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.250107 y:-0.011108 z:9.894211
+01-19 13:52:23.957   969  3797 D RecurrenceRule: Resolving using anchor 2018-01-19T13:52:23.957+02:00[Europe/Athens]
+01-19 13:52:23.978   969  3797 D RecurrenceRule: Resolving using anchor 2018-01-19T13:52:23.978+02:00[Europe/Athens]
+01-19 13:52:23.995   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:52:24.003   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:52:29.689   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.248672 y:-0.011826 z:9.901276
+01-19 13:52:29.731   969  2967 D sensors_hal_SMGR: processBufferingInd:report(on_change_sensor) eventtype 0
+01-19 13:52:42.844   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.253815 y:-0.014343 z:9.897324
+01-19 13:52:55.880   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.250946 y:-0.019730 z:9.896011
+01-19 13:53:03.772   969  7402 D sensors_hal_SMGR: enable:sensor(android.sensor.accelerometer) Deactivating sensor handle=0
+01-19 13:53:03.777   969  7402 D sensors_hal_SMGR: SMGRReportDelete: Rcvd success response from request
+01-19 13:53:03.779  8389  8389 I Dialer  : ProximitySensor.updateProximitySensorMode - screenOnImmediately: true, dialPadVisible: false, offHook: false, horizontal: false, uiShowing: true, audioRoute: BLUETOOTH
+01-19 13:53:03.779  8389  8389 I Dialer  : ProximitySensor.turnOffProximitySensor - wake lock already released
+01-19 13:53:03.799  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:53:04.071   969  4089 I Telecom : Event: RecordEntry TC@10: SET_DISCONNECTED, disconnected set explicitly> DisconnectCause [ Code: (LOCAL) Label: () Description: () Reason: (LOCAL) Tone: (27) ]: CSW.sDc@BKg
+01-19 13:53:04.076  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:53:04.117  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:53:04.117   969  4089 I Telecom : ProximitySensorManager: All calls removed, resetting proximity sensor to default state: CSW.rC@BKo
+01-19 13:53:04.131  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:53:04.153  8389  8389 I Dialer  : InCallActivityCommon.maybeShowErrorDialogOnDisconnect - disconnect cause: DisconnectMessage {code: 2, description: , reason: LOCAL, message: null}
+01-19 13:53:04.165  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:53:04.175  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:53:04.185   969  3797 D RecurrenceRule: Resolving using anchor 2018-01-19T13:53:04.185+02:00[Europe/Athens]
+01-19 13:53:04.189  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:53:04.196  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:53:04.200   969  3797 D RecurrenceRule: Resolving using anchor 2018-01-19T13:53:04.200+02:00[Europe/Athens]
+01-19 13:53:04.210  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:53:04.215   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:53:04.224  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:53:04.230   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:53:04.232  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:53:04.281  8389  8389 I Dialer  : ProximitySensor.updateProximitySensorMode - screenOnImmediately: false, dialPadVisible: false, offHook: false, horizontal: false, uiShowing: true, audioRoute: EARPIECE
+01-19 13:53:04.281  8389  8389 I Dialer  : ProximitySensor.turnOffProximitySensor - wake lock already released
+01-19 13:53:04.370  8389  8389 I Dialer  : ProximitySensor.updateProximitySensorMode - screenOnImmediately: false, dialPadVisible: false, offHook: false, horizontal: false, uiShowing: false, audioRoute: EARPIECE
+01-19 13:53:04.370  8389  8389 I Dialer  : ProximitySensor.turnOffProximitySensor - wake lock already released
+01-19 13:53:05.100   969  3797 D RecurrenceRule: Resolving using anchor 2018-01-19T13:53:05.100+02:00[Europe/Athens]
+01-19 13:53:05.115   969  3797 D RecurrenceRule: Resolving using anchor 2018-01-19T13:53:05.115+02:00[Europe/Athens]
+01-19 13:53:05.127   969  3797 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+01-19 13:53:05.144   969  3797 D NetworkStats: Resolved to plan null
+01-19 13:53:05.746   969   969 I Telecom : CallIntentProcessor: onReceive - isUnknownCall: false: PCR.oR@BN0
+01-19 13:53:05.824  8389  8389 I Dialer  : ProximitySensor.updateProximitySensorMode - screenOnImmediately: true, dialPadVisible: false, offHook: false, horizontal: false, uiShowing: false, audioRoute: BLUETOOTH
+01-19 13:53:05.824  8389  8389 I Dialer  : ProximitySensor.turnOffProximitySensor - wake lock already released
+01-19 13:53:05.871   969   969 I Telecom : CreateConnectionProcessor: Trying attempt CallAttemptRecord(ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5d76fdb08b9af24aa18299fef4e0e805dac3ee08], UserHandle{0},ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5d76fdb08b9af24aa18299fef4e0e805dac3ee08], UserHandle{0}): NOCBIR.oR@BOQ
+01-19 13:53:05.997   969  4909 D sensors_hal_SMGR: batch:sensor(android.sensor.accelerometer) sample_rate=5.000000Hz report_rate_f=0.000000Hz curr sample rate:5.000000 cur rpt rate:0 max:200.000000 min:1.000000
+01-19 13:53:05.997   969  4909 D sensors_hal_SMGR: enable:sensor(android.sensor.accelerometer) handle 0, freq=5.000000 report_rate=0 batched=0
+01-19 13:53:05.997   969  4909 D sensors_hal_SMGR: SMGRPrepareAddMsg sample_rate 5.000000 report_rate 327680 subhz_sample_rate_ms 0 sample_rate_hz 5
+01-19 13:53:05.997   969  4909 D sensors_hal_SMGR: SMGRPrepareAddMsg:sensor android.sensor.accelerometer 
+01-19 13:53:05.999   969  4909 D sensors_hal_SMGR: SMGRReportAdd: Received Response: 0
+01-19 13:53:06.000  8389  8389 I Dialer  : ProximitySensor.updateProximitySensorMode - screenOnImmediately: true, dialPadVisible: false, offHook: true, horizontal: false, uiShowing: false, audioRoute: BLUETOOTH
+01-19 13:53:06.000  8389  8389 I Dialer  : ProximitySensor.turnOffProximitySensor - wake lock already released
+01-19 13:53:06.013  8389  8389 I Dialer  : PhoneNumberHelper.getCurrentCountryIso - No CountryDetector; falling back to countryIso based on locale: GR
+01-19 13:53:06.036  8389  8404 I Dialer  : PhoneNumberHelper.getCurrentCountryIso - No CountryDetector; falling back to countryIso based on locale: GR
+01-19 13:53:06.049  8389  8404 I Dialer  : PhoneNumberHelper.getCurrentCountryIso - No CountryDetector; falling back to countryIso based on locale: GR
+01-19 13:53:06.222  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:53:06.250  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:53:06.271  8389  8389 I Dialer  : ProximitySensor.updateProximitySensorMode - screenOnImmediately: true, dialPadVisible: false, offHook: true, horizontal: false, uiShowing: true, audioRoute: BLUETOOTH
+01-19 13:53:06.271  8389  8389 I Dialer  : ProximitySensor.turnOffProximitySensor - wake lock already released
+01-19 13:53:06.299   969  3287 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-0.250229 y:-0.014816 z:9.905701
+01-19 13:53:06.456  8389  8389 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+01-19 13:53:06.475  8389  8389 W ResourceType: Failure getting ent
