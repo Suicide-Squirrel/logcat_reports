@@ -1,0 +1,62 @@
+[  170.768427] [Touch] LPWG Double-Tap mode
+[  170.769259] [Touch] get_tci_data : knock code coordinates, count = 2
+[  170.769282] [Touch] LPWG data 885, 1194
+[  170.769295] [Touch] LPWG data 913, 1207
+[  170.769602] [Touch] uevent[TOUCH_GESTURE_WAKEUP=WAKEUP]
+[  170.769627] [Touch] LPWG report key KEY_WAKEUP
+[  170.778264] SMBCHG: power_ok_handler: triggered: 0x00
+[  170.778286] SMBCHG: usbin_uv_handler: chip->usb_present = 1 usb_present = 1
+[  170.783973] mdss_fb_blank_sub: + mdss_fb_blank+0x130/0x144 fb0 mode:0
+[  170.784003] dhd_set_suspend: Remove extra suspend setting 
+[  170.787142] hdmi_tx_panel_event_handler: event = 9 suspend=0, hpd_feature=0
+[  170.798581] SMBCHG: usbin_uv_handler: chip->usb_present = 1 usb_present = 1
+[  170.798591] SMBCHG: power_ok_handler: triggered: 0x01
+[  170.804862] [Touch] Deep to Active!
+[  170.814873] [Touch] safety_reset start
+[  170.814877] [Touch] SOFT_RESET
+[  170.850988] [Touch] safety_reset end
+[  170.851013] mdss_dsi_panel_power_ctrl: cur_power_state=0 req_power_state=1
+[  170.851019] [Touch E] [synaptics_ts_get_data 6781] synaptics_ts_get_data, 6781 : ts->is_init == 0, IGNORE_EVENT!!, s:
+[  170.851026] [Touch E] [synaptics_ts_get_data 6781] synaptics_ts_get_data, 6781 : ts->is_init == 0, IGNORE_EVENT!!, s:
+[  170.868440] mdss_dsi_on-:
+[  170.868464] mdss_dsi_panel_power_ctrl: cur_power_state=0 req_power_state=1
+[  170.868470] jdi_qhd_command_mdss_dsi_panel_reset: enable = 1, ndx = 1
+[  170.868474] dw8768_mode_change mode = 1
+[  170.880140] mdss_dsi_on-:
+[  170.885946] mdss_dsi_panel_on:-
+[  170.888015] mdss_dsi_unblank-:
+[  171.093670] mdss_dsi_panel_on:-
+[  171.116920] mdss_dsi_unblank-:
+[  171.121374] mdss_fb_blank_sub: -
+[  171.121382] [Touch] fb_notifier_callback : event = 0
+[  171.121385] [Touch] touch_resume : touch_resume start
+[  171.121387] [Touch] touch_resume : Normal mode
+[  171.121396] [Touch E] [print_swipe_fail_reason 501] print_swipe_fail_reason, 501 : swipe fail reason
+[  171.122128] [Touch] last swipe_down fail reason:0(SUCCESS)
+[  171.122140] [Touch] synaptics_ts_power : power_state[0]
+[  171.122148] [Touch] synaptics_ts_power : power_state[1]
+[  171.122155] [Touch] touch_resume : touch_resume done
+[  171.126006] mdss_fb_set_bl_brightness: [LCD][WLED] backlight level=8, cal_value=34
+[  171.132693] [Touch E] [synaptics_ts_get_data 6781] synaptics_ts_get_data, 6781 : ts->is_init == 0, IGNORE_EVENT!!, s:
+[  171.140408] [Touch E] [synaptics_ts_get_data 6781] synaptics_ts_get_data, 6781 : ts->is_init == 0, IGNORE_EVENT!!, s:
+[  171.199404] [Touch] touch_ic_init : value = 0, panel_id = 0
+[  171.199423] [Touch] [synaptics_ts_init] DEVICE_CONTROL_NORMAL_OP
+[  171.202941] [Touch] set_rebase_param : Set for Normal
+[  171.204197] [Touch] palm_ctrl_mode:0
+[  171.204497] [Touch] Sensor Status: 1
+[  171.204508] [Touch] lpwg_is_enabled: 1
+[  171.204522] lcd_notifier_callback: TOUCH_EVENT_PROXY_STATUS received : PROXY_FAR
+[  171.204537] [Touch] synaptics_toggle_swipe: [S/Q/P/L] = [1/0/1/0]
+[  171.204548] [Touch] swipe_down_disable: (swipe_mode:0x01)
+[  171.205255] [Touch] swipe_up_disable: (swipe_mode:0x01)
+[  171.209094] [Touch] lpwg_control : lpwg_mode[0]
+[  171.209106] [Touch] Start [matchUp_f51_regMap]
+[  171.209117] [Touch] [matchUp_f51_regMap] This is P1
+[  171.209127] [Touch] [matchUp_f51_regMap] Complete to match-up regmap.
+[  171.209137] [Touch] [matchUp_f54_regMap] This is P1
+[  171.209146] [Touch] [matchUp_f54_regMap] Complete to match-up regmap.
+[  171.209330] [Touch] current_thermal_mode = LOW
+[  171.375760] SMBCHG: power_ok_handler: triggered: 0x00
+[  171.375845] SMBCHG: usbin_uv_handler: chip->usb_present = 1 usb_present = 1
+[  171.396460] SMBCHG: usbin_uv_handler: chip->usb_present = 1 usb_present = 1
+[  171.396686] SMBCHG: power_ok_handler: triggered: 0x01
