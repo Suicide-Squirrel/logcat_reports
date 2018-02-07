@@ -1,23 +1,17 @@
-01-07 06:05:10.595   470   470 I init    : type=1400 audit(0.0:34): avc: denied { execute_no_trans } for path="/system/vendor/bin/btnvtool" dev="mmcblk0p47" ino=64268 scontext=u:r:init:s0 tcontext=u:object_r:btnvtool_exec:s0 tclass=file permissive=1
 01-07 06:05:10.807   402   402 I servicemanager: type=1400 audit(0.0:124): avc: denied { transfer } for scontext=u:r:servicemanager:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
 01-07 06:05:10.807   490   490 I pm-proxy: type=1400 audit(0.0:125): avc: denied { call } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
 01-07 06:05:10.807   490   490 I pm-proxy: type=1400 audit(0.0:126): avc: denied { transfer } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
 01-07 06:05:10.811   402   402 E SELinux : avc:  denied  { find } for service=vendor.qcom.PeripheralManager pid=490 uid=1000 scontext=u:r:init:s0 tcontext=u:object_r:binder_per_mgr_service:s0 tclass=service_manager permissive=1
-01-07 06:05:10.827   490   490 I init    : type=1400 audit(0.0:41): avc: denied { execute_no_trans } for path="/system/vendor/bin/pm-proxy" dev="mmcblk0p47" ino=64380 scontext=u:r:init:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
 01-07 06:05:10.851   481   481 I rmt_storage: type=1400 audit(0.0:54): avc: denied { ioctl } for path="socket:[14391]" dev="sockfs" ino=14391 ioctlcmd=c304 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
 01-07 06:05:10.891   495   495 I vold    : type=1400 audit(0.0:55): avc: denied { ioctl } for path="/dev/block/mmcblk0p50" dev="tmpfs" ino=9718 ioctlcmd=1260 scontext=u:r:vold:s0 tcontext=u:object_r:data_block_device:s0 tclass=blk_file permissive=1
-01-07 06:05:10.903   501   501 I init    : type=1400 audit(0.0:56): avc: denied { execute_no_trans } for path="/system/bin/sh" dev="mmcblk0p47" ino=209094 scontext=u:r:init:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
-01-07 06:05:10.907   505   505 I init    : type=1400 audit(0.0:57): avc: denied { execute_no_trans } for path="/system/bin/perfd" dev="mmcblk0p47" ino=209042 scontext=u:r:init:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
 01-07 06:05:10.944   402   402 E SELinux : avc:  denied  { add } for service=vendor.qcom.PeripheralManager pid=473 uid=1000 scontext=u:r:init:s0 tcontext=u:object_r:binder_per_mgr_service:s0 tclass=service_manager permissive=1
 01-07 06:05:11.523   495   495 I vold    : type=1400 audit(0.0:129): avc: denied { read write } for name="qseecom" dev="tmpfs" ino=10373 scontext=u:r:vold:s0 tcontext=u:object_r:qseecom_device:s0 tclass=chr_file permissive=1
 01-07 06:05:11.523   495   495 I vold    : type=1400 audit(0.0:130): avc: denied { open } for path="/dev/qseecom" dev="tmpfs" ino=10373 scontext=u:r:vold:s0 tcontext=u:object_r:qseecom_device:s0 tclass=chr_file permissive=1
 01-07 06:05:11.523   495   495 I vold    : type=1400 audit(0.0:131): avc: denied { ioctl } for path="/dev/qseecom" dev="tmpfs" ino=10373 ioctlcmd=9711 scontext=u:r:vold:s0 tcontext=u:object_r:qseecom_device:s0 tclass=chr_file permissive=1
-01-07 06:05:12.287   639   639 I init    : type=1400 audit(0.0:132): avc: denied { execute_no_trans } for path="/system/bin/sysinit" dev="mmcblk0p47" ino=209121 scontext=u:r:init:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
 01-07 06:05:12.335   517   517 I pm-service: type=1400 audit(0.0:133): avc: denied { call } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
 01-07 06:05:14.283   648   648 I init    : type=1400 audit(0.0:134): avc: denied { execute_no_trans } for path="/system/vendor/bin/imsqmidaemon" dev="mmcblk0p47" ino=64332 scontext=u:r:init:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
 01-07 06:05:14.607   654   654 I thermal-engine: type=1400 audit(0.0:143): avc: denied { read write } for name="msm_thermal_query" dev="tmpfs" ino=9781 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
 01-07 06:05:14.607   654   654 I thermal-engine: type=1400 audit(0.0:144): avc: denied { open } for path="/dev/msm_thermal_query" dev="tmpfs" ino=9781 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
-01-07 06:05:14.607   678   678 I init    : type=1400 audit(0.0:145): avc: denied { execute_no_trans } for path="/system/vendor/bin/imsdatadaemon" dev="mmcblk0p47" ino=64331 scontext=u:r:init:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
 01-07 06:05:15.135   678   678 I imsdatadaemon: type=1400 audit(0.0:154): avc: denied { ioctl } for path="socket:[17912]" dev="sockfs" ino=17912 ioctlcmd=c304 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
 01-07 06:05:16.051   652   652 I rild    : type=1400 audit(0.0:155): avc: denied { call } for scontext=u:r:rild:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
 01-07 06:05:16.051   652   652 I rild    : type=1400 audit(0.0:156): avc: denied { transfer } for scontext=u:r:rild:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
@@ -36,20 +30,16 @@
 01-07 06:05:19.987   650   650 I netmgrd : type=1400 audit(0.0:170): avc: denied { ioctl } for path="socket:[19509]" dev="sockfs" ino=19509 ioctlcmd=c302 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
 01-07 06:05:19.991   650   650 I netmgrd : type=1400 audit(0.0:171): avc: denied { ioctl } for path="socket:[19513]" dev="sockfs" ino=19513 ioctlcmd=89f2 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
 01-07 06:05:19.991   650   650 I netmgrd : type=1400 audit(0.0:172): avc: denied { ioctl } for path="socket:[19515]" dev="sockfs" ino=19515 ioctlcmd=89f8 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
-01-07 06:05:19.995   902   902 I netmgrd : type=1400 audit(0.0:173): avc: denied { execute_no_trans } for path="/system/bin/sh" dev="mmcblk0p47" ino=209094 scontext=u:r:init:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
 01-07 06:05:20.043   903   903 I ifconfig: type=1400 audit(0.0:174): avc: denied { ioctl } for path="socket:[16923]" dev="sockfs" ino=16923 ioctlcmd=8914 scontext=u:r:toolbox:s0 tcontext=u:r:toolbox:s0 tclass=udp_socket permissive=1
 01-07 06:05:20.043   650   650 I netmgrd : type=1400 audit(0.0:175): avc: denied { ioctl } for path="socket:[16924]" dev="sockfs" ino=16924 ioctlcmd=89fd scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
 01-07 06:05:20.107   650   650 I netmgrd : type=1400 audit(0.0:176): avc: denied { ioctl } for path="socket:[19078]" dev="sockfs" ino=19078 ioctlcmd=89f3 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
 01-07 06:05:20.107   650   650 I netmgrd : type=1400 audit(0.0:177): avc: denied { ioctl } for path="socket:[19079]" dev="sockfs" ino=19079 ioctlcmd=89f8 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
 01-07 06:05:20.619   650   650 I netmgrd : type=1400 audit(0.0:178): avc: denied { ioctl } for path="socket:[16949]" dev="sockfs" ino=16949 ioctlcmd=89f4 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
 01-07 06:05:20.623   650   650 I netmgrd : type=1400 audit(0.0:179): avc: denied { create } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=netlink_route_socket permissive=1
-01-07 06:05:20.631   913   913 I sh      : type=1400 audit(0.0:180): avc: denied { execute_no_trans } for path="/system/bin/tc" dev="mmcblk0p47" ino=209126 scontext=u:r:init:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
 01-07 06:05:32.979   985   985 I system-server-i: type=1400 audit(0.0:181): avc: denied { read } for name="socket" dev="tmpfs" ino=9651 scontext=u:r:system_server:s0 tcontext=u:object_r:sockets:s0 tclass=dir permissive=1
 01-07 06:05:45.551  1100  1100 I Loc_hal_worker: type=1400 audit(0.0:182): avc: denied { ioctl } for path="socket:[25847]" dev="sockfs" ino=25847 ioctlcmd=c304 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=socket permissive=1
 01-07 06:05:46.387   932   932 I android.bg: type=1400 audit(0.0:185): avc: denied { call } for scontext=u:r:system_server:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
 01-07 06:05:49.442  1064  1298 W AudioTrack: AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 4810 -> 4810
-01-07 06:05:56.911  1365  1365 I init    : type=1400 audit(0.0:186): avc: denied { execute_no_trans } for path="/system/bin/sh" dev="mmcblk0p47" ino=209094 scontext=u:r:init:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
-01-07 06:05:57.195  1378  1378 I init    : type=1400 audit(0.0:187): avc: denied { execute_no_trans } for path="/system/bin/sh" dev="mmcblk0p47" ino=209094 scontext=u:r:init:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
 01-07 06:05:57.303   416   416 I vold    : type=1400 audit(0.0:188): avc: denied { write } for name="media" dev="tmpfs" ino=14171 scontext=u:r:vold:s0 tcontext=u:object_r:emulated_block_device:s0 tclass=dir permissive=1
 01-07 06:05:57.303   416   416 I vold    : type=1400 audit(0.0:189): avc: denied { add_name } for name="0" scontext=u:r:vold:s0 tcontext=u:object_r:emulated_block_device:s0 tclass=dir permissive=1
 01-07 06:05:57.303   416   416 I vold    : type=1400 audit(0.0:190): avc: denied { create } for name="0" scontext=u:r:vold:s0 tcontext=u:object_r:emulated_block_device:s0 tclass=dir permissive=1
@@ -59,57 +49,23 @@
 01-07 06:06:45.575  1100  1100 I Loc_hal_worker: type=1400 audit(0.0:194): avc: denied { remove_name } for name=716D75785F636C69656E745F736F636B657420202031313030 dev="tmpfs" ino=23119 scontext=u:r:system_server:s0 tcontext=u:object_r:rild_socket:s0 tclass=dir permissive=1
 01-07 06:09:16.139   775   775 I rild    : type=1400 audit(0.0:196): avc: denied { ioctl } for path="socket:[17947]" dev="sockfs" ino=17947 ioctlcmd=c302 scontext=u:r:rild:s0 tcontext=u:r:rild:s0 tclass=socket permissive=1
 01-07 06:09:45.623  1100  1100 I Loc_hal_worker: type=1400 audit(0.0:197): avc: denied { ioctl } for path="socket:[25849]" dev="sockfs" ino=25849 ioctlcmd=c302 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=socket permissive=1
-01-07 06:10:54.247  1858  1858 I netmgrd : type=1400 audit(0.0:198): avc: denied { execute_no_trans } for path="/system/bin/sh" dev="mmcblk0p47" ino=209094 scontext=u:r:init:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
 01-07 06:10:54.327     1     1 I init    : type=1400 audit(0.0:199): avc: denied { unlink } for name="thermal-send-client" dev="tmpfs" ino=17861 scontext=u:r:init:s0 tcontext=u:object_r:sockets:s0 tclass=sock_file permissive=1
-01-07 06:10:54.335  1858  1858 I sh      : type=1400 audit(0.0:200): avc: denied { execute_no_trans } for path="/system/bin/tc" dev="mmcblk0p47" ino=209126 scontext=u:r:init:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
 01-07 06:10:54.375  1858  1858 I tc      : type=1400 audit(0.0:201): avc: denied { create } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=netlink_route_socket permissive=1
-01-07 06:10:54.383  1859  1859 I netmgrd : type=1400 audit(0.0:202): avc: denied { execute_no_trans } for path="/system/bin/sh" dev="mmcblk0p47" ino=209094 scontext=u:r:init:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
-01-07 06:10:55.071   650   650 I netmgrd : type=1400 audit(0.0:203): avc: denied { ioctl } for path="socket:[43061]" dev="sockfs" ino=43061 ioctlcmd=89fd scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
-01-07 06:10:55.183   650   650 I netmgrd : type=1400 audit(0.0:204): avc: denied { ioctl } for path="socket:[31703]" dev="sockfs" ino=31703 ioctlcmd=8946 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
-01-07 06:10:55.223   650   650 I netmgrd : type=1400 audit(0.0:205): avc: denied { ioctl } for path="socket:[31715]" dev="sockfs" ino=31715 ioctlcmd=89f2 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
-pavlaras@titan:~/Λήψεις $ adb logcat|grep denied
-- waiting for device -
-01-07 06:11:10.747   407   407 I init    : type=1400 audit(0.0:31): avc: denied { execute_no_trans } for path="/system/bin/sysinit" dev="mmcblk0p47" ino=209121 scontext=u:r:init:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
-01-07 06:11:11.127   437   437 I init    : type=1400 audit(0.0:32): avc: denied { execute_no_trans } for path="/system/bin/sh" dev="mmcblk0p47" ino=209094 scontext=u:r:init:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
-01-07 06:11:11.131   439   439 I init    : type=1400 audit(0.0:33): avc: denied { execute_no_trans } for path="/system/vendor/bin/btnvtool" dev="mmcblk0p47" ino=64268 scontext=u:r:init:s0 tcontext=u:object_r:btnvtool_exec:s0 tclass=file permissive=1
-01-07 06:11:11.131   438   438 I init    : type=1400 audit(0.0:34): avc: denied { execute_no_trans } for path="/system/vendor/bin/rfs_access" dev="mmcblk0p47" ino=64394 scontext=u:r:init:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
 01-07 06:11:11.243   438   438 I rfs_access: type=1400 audit(0.0:44): avc: denied { ioctl } for path="socket:[13009]" dev="sockfs" ino=13009 ioctlcmd=c304 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
-01-07 06:11:11.299   458   458 I init    : type=1400 audit(0.0:56): avc: denied { execute_no_trans } for path="/system/vendor/bin/pm-proxy" dev="mmcblk0p47" ino=64380 scontext=u:r:init:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
 01-07 06:11:11.306   391   391 E SELinux : avc:  denied  { add } for service=vendor.qcom.PeripheralManager pid=442 uid=1000 scontext=u:r:init:s0 tcontext=u:object_r:binder_per_mgr_service:s0 tclass=service_manager permissive=1
-01-07 06:11:11.339   471   471 I init    : type=1400 audit(0.0:67): avc: denied { execute_no_trans } for path="/system/bin/sh" dev="mmcblk0p47" ino=209094 scontext=u:r:init:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
-01-07 06:11:11.343   477   477 I init    : type=1400 audit(0.0:68): avc: denied { execute_no_trans } for path="/system/bin/perfd" dev="mmcblk0p47" ino=209042 scontext=u:r:init:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
 01-07 06:11:11.363   391   391 I servicemanager: type=1400 audit(0.0:69): avc: denied { transfer } for scontext=u:r:servicemanager:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
 01-07 06:11:11.368   391   391 E SELinux : avc:  denied  { find } for service=vendor.qcom.PeripheralManager pid=458 uid=1000 scontext=u:r:init:s0 tcontext=u:object_r:binder_per_mgr_service:s0 tclass=service_manager permissive=1
 01-07 06:11:11.655   729   729 I chown   : type=1400 audit(0.0:138): avc: denied { getattr } for path="/data/misc/radio/qcril.db" dev="tmpfs" ino=15793 scontext=u:r:toolbox:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
 01-07 06:11:11.655   729   729 I chown   : type=1400 audit(0.0:139): avc: denied { setattr } for name="qcril.db" dev="tmpfs" ino=15793 scontext=u:r:toolbox:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
-01-07 06:11:11.799   773   773 I init    : type=1400 audit(0.0:142): avc: denied { execute_no_trans } for path="/system/vendor/bin/qti" dev="mmcblk0p47" ino=64389 scontext=u:r:init:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
 01-07 06:11:13.067   476   476 I rild    : type=1400 audit(0.0:165): avc: denied { call } for scontext=u:r:rild:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
 01-07 06:11:13.067   476   476 I rild    : type=1400 audit(0.0:166): avc: denied { transfer } for scontext=u:r:rild:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
 01-07 06:11:13.449   391   391 E SELinux : avc:  denied  { add } for service=qti.ims.connectionmanagerservice pid=469 uid=1000 scontext=u:r:init:s0 tcontext=u:object_r:binder_conn_service:s0 tclass=service_manager permissive=1
-01-07 06:11:15.881   921   921 W system_server: Failed to remove /acct/uid_1003: Permission denied
-01-07 06:11:15.881   921   921 W system_server: Failed to remove /acct/uid_1058: Permission denied
-01-07 06:11:15.881   921   921 W system_server: Failed to remove /acct/uid_1006: Permission denied
-01-07 06:11:15.882   921   921 W system_server: Failed to remove /acct/uid_1046: Permission denied
-01-07 06:11:15.882   921   921 W system_server: Failed to remove /acct/uid_1040: Permission denied
-01-07 06:11:15.882   921   921 W system_server: Failed to remove /acct/uid_1017: Permission denied
-01-07 06:11:15.882   921   921 W system_server: Failed to remove /acct/uid_1019: Permission denied
-01-07 06:11:15.882   921   921 W system_server: Failed to remove /acct/uid_1047: Permission denied
-01-07 06:11:15.882   921   921 W system_server: Failed to remove /acct/uid_1041: Permission denied
-01-07 06:11:15.882   921   921 W system_server: Failed to remove /acct/uid_2000: Permission denied
-01-07 06:11:15.882   921   921 W system_server: Failed to remove /acct/uid_1002: Permission denied
-01-07 06:11:15.882   921   921 W system_server: Failed to remove /acct/uid_1010: Permission denied
-01-07 06:11:15.882   921   921 W system_server: Failed to remove /acct/uid_1027: Permission denied
-01-07 06:11:15.883   921   921 W system_server: Failed to remove /acct/uid_1013: Permission denied
-01-07 06:11:15.883   921   921 W system_server: Failed to remove /acct/uid_1000: Permission denied
-01-07 06:11:15.884   921   921 W system_server: Failed to remove /acct/uid_1036: Permission denied
-01-07 06:11:15.887   921   921 W system_server: Failed to remove /acct/uid_0: Permission denied
 01-07 06:11:16.179   473   473 I netmgrd : type=1400 audit(0.0:285): avc: denied { ioctl } for path="socket:[19940]" dev="sockfs" ino=19940 ioctlcmd=89fd scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
 01-07 06:11:16.183   473   473 I netmgrd : type=1400 audit(0.0:286): avc: denied { ioctl } for path="socket:[17684]" dev="sockfs" ino=17684 ioctlcmd=89f2 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
 01-07 06:11:16.183   473   473 I netmgrd : type=1400 audit(0.0:287): avc: denied { ioctl } for path="socket:[17686]" dev="sockfs" ino=17686 ioctlcmd=89f8 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
 01-07 06:11:16.227   969   969 I ifconfig: type=1400 audit(0.0:289): avc: denied { ioctl } for path="socket:[19964]" dev="sockfs" ino=19964 ioctlcmd=8914 scontext=u:r:toolbox:s0 tcontext=u:r:toolbox:s0 tclass=udp_socket permissive=1
 01-07 06:11:16.303   473   473 I netmgrd : type=1400 audit(0.0:290): avc: denied { ioctl } for path="socket:[17704]" dev="sockfs" ino=17704 ioctlcmd=89f3 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
 01-07 06:11:16.819   473   473 I netmgrd : type=1400 audit(0.0:291): avc: denied { ioctl } for path="socket:[18871]" dev="sockfs" ino=18871 ioctlcmd=89f4 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
-01-07 06:11:16.851  1081  1081 I sh      : type=1400 audit(0.0:293): avc: denied { execute_no_trans } for path="/system/bin/tc" dev="mmcblk0p47" ino=209126 scontext=u:r:init:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
 01-07 06:11:17.659   970   970 I netmgrd : type=1400 audit(0.0:294): avc: denied { ioctl } for path="socket:[19942]" dev="sockfs" ino=19942 ioctlcmd=c302 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
 01-07 06:11:17.871   476   476 I rild    : type=1400 audit(0.0:295): avc: denied { add_name } for name="dummy_file" scontext=u:r:rild:s0 tcontext=u:object_r:system_data_file:s0 tclass=dir permissive=1
 01-07 06:11:17.875   476   476 I rild    : type=1400 audit(0.0:296): avc: denied { create } for name="dummy_file" scontext=u:r:rild:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
@@ -143,51 +99,20 @@ pavlaras@titan:~/Λήψεις $ adb logcat|grep denied
 01-07 06:12:45.755  5564  5564 I gatekeeperd: type=1400 audit(0.0:326): avc: denied { getattr } for path="/firmware/image/kmota.mdt" dev="mmcblk0p1" ino=46 scontext=u:r:gatekeeperd:s0 tcontext=u:object_r:firmware_file:s0 tclass=file permissive=1
 01-07 06:12:47.443     1     1 I init    : type=1400 audit(0.0:327): avc: denied { search } for name="com.android.dialer" dev="dm-0" ino=1136522 scontext=u:r:init:s0 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=dir permissive=1
 01-07 06:12:47.447     1     1 I init    : type=1400 audit(0.0:328): avc: denied { setattr } for name="com.android.opengl.shaders_cache" dev="dm-0" ino=1136526 scontext=u:r:init:s0 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=1
-01-07 06:12:47.499  5580  5580 I init    : type=1400 audit(0.0:329): avc: denied { execute_no_trans } for path="/system/bin/sysinit" dev="mmcblk0p47" ino=209121 scontext=u:r:init:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
-01-07 08:12:48.627  5583  5583 I init    : type=1400 audit(0.0:330): avc: denied { execute_no_trans } for path="/system/vendor/bin/imsqmidaemon" dev="mmcblk0p47" ino=64332 scontext=u:r:init:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
 01-07 08:12:48.639  5582  5582 I logd    : type=1400 audit(0.0:331): avc: denied { search } for name="socket" dev="tmpfs" ino=9594 scontext=u:r:logd:s0 tcontext=u:object_r:sockets:s0 tclass=dir permissive=1
-01-07 08:12:48.811  5614  5614 I init    : type=1400 audit(0.0:338): avc: denied { execute_no_trans } for path="/system/bin/sh" dev="mmcblk0p47" ino=209094 scontext=u:r:init:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
 01-07 08:12:49.071  5589  5589 I thermal-engine: type=1400 audit(0.0:341): avc: denied { read write } for name="msm_thermal_query" dev="tmpfs" ino=1964 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
 01-07 08:12:49.071  5589  5589 I thermal-engine: type=1400 audit(0.0:342): avc: denied { open } for path="/dev/msm_thermal_query" dev="tmpfs" ino=1964 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
 01-07 08:12:49.103  5629  5629 I thermal-engine: type=1400 audit(0.0:343): avc: denied { ioctl } for path="socket:[48419]" dev="sockfs" ino=48419 ioctlcmd=c304 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
-01-07 08:12:49.231  5689  5689 I init    : type=1400 audit(0.0:346): avc: denied { execute_no_trans } for path="/system/vendor/bin/imsdatadaemon" dev="mmcblk0p47" ino=64331 scontext=u:r:init:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
 01-07 08:12:49.327  5689  5689 I imsdatadaemon: type=1400 audit(0.0:361): avc: denied { ioctl } for path="socket:[47493]" dev="sockfs" ino=47493 ioctlcmd=c304 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
-01-07 08:12:51.061  7403  7403 W system_server: Failed to remove /acct/uid_1058: Permission denied
-01-07 08:12:51.061  7403  7403 W system_server: Failed to remove /acct/uid_1046: Permission denied
-01-07 08:12:51.061  7403  7403 W system_server: Failed to remove /acct/uid_1040: Permission denied
-01-07 08:12:51.061  7403  7403 W system_server: Failed to remove /acct/uid_1017: Permission denied
-01-07 08:12:51.061  7403  7403 W system_server: Failed to remove /acct/uid_1019: Permission denied
-01-07 08:12:51.061  7403  7403 W system_server: Failed to remove /acct/uid_1047: Permission denied
-01-07 08:12:51.061  7403  7403 W system_server: Failed to remove /acct/uid_1041: Permission denied
-01-07 08:12:51.061  7403  7403 W system_server: Failed to remove /acct/uid_10003: Permission denied
-01-07 08:12:51.061  7403  7403 W system_server: Failed to remove /acct/uid_10001: Permission denied
-01-07 08:12:51.062  7403  7403 W system_server: Failed to remove /acct/uid_1001: Permission denied
-01-07 08:12:51.062  7403  7403 W system_server: Failed to remove /acct/uid_10004: Permission denied
-01-07 08:12:51.062  7403  7403 W system_server: Failed to remove /acct/uid_10008: Permission denied
-01-07 08:12:51.062  7403  7403 W system_server: Failed to remove /acct/uid_1003: Permission denied
-01-07 08:12:51.062  7403  7403 W system_server: Failed to remove /acct/uid_1006: Permission denied
-01-07 08:12:51.062  7403  7403 W system_server: Failed to remove /acct/uid_2000: Permission denied
-01-07 08:12:51.062  7403  7403 W system_server: Failed to remove /acct/uid_1002: Permission denied
-01-07 08:12:51.063  7403  7403 W system_server: Failed to remove /acct/uid_1010: Permission denied
-01-07 08:12:51.063  7403  7403 W system_server: Failed to remove /acct/uid_1027: Permission denied
-01-07 08:12:51.063  7403  7403 W system_server: Failed to remove /acct/uid_1013: Permission denied
-01-07 08:12:51.064  7403  7403 W system_server: Failed to remove /acct/uid_1000: Permission denied
-01-07 08:12:51.065  7403  7403 W system_server: Failed to remove /acct/uid_1036: Permission denied
-01-07 08:12:51.066  7403  7403 W system_server: Failed to remove /acct/uid_0: Permission denied
 01-07 08:12:51.239   501   501 I sensors.qcom: type=1400 audit(0.0:495): avc: denied { ioctl } for path="socket:[53413]" dev="sockfs" ino=53413 ioctlcmd=c304 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
 01-07 08:12:51.279  5594  5594 I cameraserver: type=1400 audit(0.0:508): avc: denied { sendto } for path="/data/misc/camera/cam_socket2" scontext=u:r:cameraserver:s0 tcontext=u:r:init:s0 tclass=unix_dgram_socket permissive=1
 01-07 08:12:54.275  5585  5585 I netmgrd : type=1400 audit(0.0:822): avc: denied { ioctl } for path="socket:[54187]" dev="sockfs" ino=54187 ioctlcmd=89fd scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
 01-07 08:12:54.279  5585  5585 I netmgrd : type=1400 audit(0.0:824): avc: denied { ioctl } for path="socket:[54195]" dev="sockfs" ino=54195 ioctlcmd=89f8 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
 01-07 08:12:56.031  8032  8032 I rild    : type=1400 audit(0.0:918): avc: denied { ioctl } for path="socket:[50428]" dev="sockfs" ino=50428 ioctlcmd=c302 scontext=u:r:rild:s0 tcontext=u:r:rild:s0 tclass=socket permissive=1
-01-07 08:12:56.091  8680  8680 I sh      : type=1400 audit(0.0:919): avc: denied { execute_no_trans } for path="/system/bin/tc" dev="mmcblk0p47" ino=209126 scontext=u:r:init:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
 01-07 08:12:56.103  8680  8680 I tc      : type=1400 audit(0.0:920): avc: denied { create } for scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=netlink_route_socket permissive=1
-01-07 08:12:56.151  8701  8701 I netmgrd : type=1400 audit(0.0:921): avc: denied { execute_no_trans } for path="/system/bin/sh" dev="mmcblk0p47" ino=209094 scontext=u:r:init:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
-01-07 08:12:56.307  8724  8724 I sh      : type=1400 audit(0.0:922): avc: denied { execute_no_trans } for path="/system/bin/iptables" dev="mmcblk0p47" ino=208964 scontext=u:r:init:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
-01-07 08:12:56.457  8535  8748 W AudioTrack: AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 4810 -> 4810
 01-07 08:12:57.087  8032  8032 I rild    : type=1400 audit(0.0:931): avc: denied { ioctl } for path="socket:[50428]" dev="sockfs" ino=50428 ioctlcmd=c302 scontext=u:r:rild:s0 tcontext=u:r:rild:s0 tclass=socket permissive=1
 01-07 08:12:57.279  8378  8378 I netmgrd : type=1400 audit(0.0:932): avc: denied { ioctl } for path="socket:[61729]" dev="sockfs" ino=61729 ioctlcmd=8946 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
 01-07 08:12:57.315  8378  8378 I netmgrd : type=1400 audit(0.0:933): avc: denied { ioctl } for path="socket:[59902]" dev="sockfs" ino=59902 ioctlcmd=89f2 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
-01-07 08:12:57.459  9117  9117 I sh      : type=1400 audit(0.0:934): avc: denied { execute_no_trans } for path="/system/bin/iptables" dev="mmcblk0p47" ino=208964 scontext=u:r:init:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
 01-07 08:12:57.935  8705  8705 I Binder:7403_3: type=1400 audit(0.0:935): avc: denied { read } for name="0000000000000000.handle" dev="dm-0" ino=1111959 scontext=u:r:system_server:s0 tcontext=u:object_r:system_crypt_file:s0 tclass=file permissive=1
 02-05 18:50:32.478  8032  8032 I rild    : type=1400 audit(0.0:952): avc: denied { ioctl } for path="socket:[50428]" dev="sockfs" ino=50428 ioctlcmd=c302 scontext=u:r:rild:s0 tcontext=u:r:rild:s0 tclass=socket permissive=1
 02-05 18:50:33.514  8032  8032 I rild    : type=1400 audit(0.0:997): avc: denied { ioctl } for path="socket:[50428]" dev="sockfs" ino=50428 ioctlcmd=c302 scontext=u:r:rild:s0 tcontext=u:r:rild:s0 tclass=socket permissive=1
