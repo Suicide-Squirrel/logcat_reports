@@ -1,0 +1,802 @@
+[ 6933.840641] <6>[ 6933.840641 / 02-10 03:51:08.444][0] SMBCHG: usbin_uv_handler: chip->usb_present = 1 usb_present = 1
+[ 6933.860890] <6>[ 6933.860890 / 02-10 03:51:08.464][0] SMBCHG: usbin_uv_handler: chip->usb_present = 1 usb_present = 1
+[ 6933.861215] <6>[ 6933.861215 / 02-10 03:51:08.464][1] SMBCHG: power_ok_handler: triggered: 0x01
+[ 6933.886218] <6>[ 6933.886218 / 02-10 03:51:08.488][0] SMBCHG: usbin_uv_handler: chip->usb_present = 1 usb_present = 1
+[ 6933.886541] <6>[ 6933.886541 / 02-10 03:51:08.488][1] SMBCHG: power_ok_handler: triggered: 0x00
+[ 6933.906462] <6>[ 6933.906462 / 02-10 03:51:08.508][0] SMBCHG: usbin_uv_handler: chip->usb_present = 1 usb_present = 1
+[ 6933.906796] <6>[ 6933.906796 / 02-10 03:51:08.508][1] SMBCHG: power_ok_handler: triggered: 0x01
+[ 6933.929250] <6>[ 6933.929250 / 02-10 03:51:08.536][0] SMBCHG: usbin_uv_handler: chip->usb_present = 1 usb_present = 1
+[ 6933.929583] <6>[ 6933.929583 / 02-10 03:51:08.536][1] SMBCHG: power_ok_handler: triggered: 0x00
+[ 6933.949079] <6>[ 6933.949079 / 02-10 03:51:08.556][0] SMBCHG: usbin_uv_handler: chip->usb_present = 1 usb_present = 1
+[ 6933.949401] <6>[ 6933.949401 / 02-10 03:51:08.556][1] SMBCHG: power_ok_handler: triggered: 0x01
+[ 6933.972286] <6>[ 6933.972286 / 02-10 03:51:08.576][0] SMBCHG: usbin_uv_handler: chip->usb_present = 1 usb_present = 1
+[ 6933.972697] <6>[ 6933.972697 / 02-10 03:51:08.576][1] SMBCHG: power_ok_handler: triggered: 0x00
+[ 6933.992536] <6>[ 6933.992536 / 02-10 03:51:08.596][0] SMBCHG: usbin_uv_handler: chip->usb_present = 1 usb_present = 1
+[ 6933.992866] <6>[ 6933.992866 / 02-10 03:51:08.596][1] SMBCHG: power_ok_handler: triggered: 0x01
+[ 6934.017786] <6>[ 6934.017786 / 02-10 03:51:08.620][0] SMBCHG: usbin_uv_handler: chip->usb_present = 1 usb_present = 1
+[ 6934.017804] <6>[ 6934.017804 / 02-10 03:51:08.620][1] SMBCHG: power_ok_handler: triggered: 0x00
+[ 6934.038035] <6>[ 6934.038035 / 02-10 03:51:08.640][0] SMBCHG: usbin_uv_handler: chip->usb_present = 1 usb_present = 1
+[ 6934.038357] <6>[ 6934.038357 / 02-10 03:51:08.640][1] SMBCHG: power_ok_handler: triggered: 0x01
+[ 6934.060435] <6>[ 6934.060435 / 02-10 03:51:08.664][1] SMBCHG: power_ok_handler: triggered: 0x00
+[ 6934.060488] <6>[ 6934.060488 / 02-10 03:51:08.664][0] SMBCHG: usbin_uv_handler: chip->usb_present = 1 usb_present = 1
+[ 6934.080644] <6>[ 6934.080644 / 02-10 03:51:08.684][1] SMBCHG: power_ok_handler: triggered: 0x01
+[ 6934.080688] <6>[ 6934.080688 / 02-10 03:51:08.684][0] SMBCHG: usbin_uv_handler: chip->usb_present = 1 usb_present = 1
+[ 6934.103448] <6>[ 6934.103448 / 02-10 03:51:08.708][1] SMBCHG: power_ok_handler: triggered: 0x00
+[ 6965.985505] <3>[ 6965.985505 / 02-10 03:51:40.588][0] [Touch] 1 finger pressed: <0> x[ 915] y[1161] z[ 57]
+[ 6966.012979] <6>[ 6966.012979 / 02-10 03:51:40.616][1] mdss_fb_set_bl_brightness: [LCD][WLED] backlight level=11, cal_value=34
+[ 6966.029508] <6>[ 6966.029508 / 02-10 03:51:40.632][2] mdss_fb_set_bl_brightness: [LCD][WLED] backlight level=14, cal_value=35
+[ 6966.041783] <3>[ 6966.041783 / 02-10 03:51:40.644][0] [Touch] touch_release[ ]: <0> x[ 914] y[1161]
+[ 6966.048698] <6>[ 6966.048698 / 02-10 03:51:40.652][0] mdss_fb_set_bl_brightness: [LCD][WLED] backlight level=17, cal_value=36
+[ 6966.063126] <6>[ 6966.063126 / 02-10 03:51:40.668][1] mdss_fb_set_bl_brightness: [LCD][WLED] backlight level=18, cal_value=36
+[ 6966.143142] <3>[ 6966.143142 / 02-10 03:51:40.748][0] [Touch] 1 finger pressed: <0> x[ 923] y[1133] z[ 55]
+[ 6966.209619] <3>[ 6966.209619 / 02-10 03:51:40.812][0] [Touch] touch_release[ ]: <0> x[ 924] y[1137]
+[ 6966.907777] <6>[ 6966.907777 / 02-10 03:51:41.512][0] mdss_fb_set_bl_brightness: [LCD][WLED] backlight level=0, cal_value=0
+[ 6966.945958] <6>[ 6966.945958 / 02-10 03:51:41.548][2] mdss_fb_blank_sub: + mdss_fb_blank+0x130/0x144 fb0 mode:4
+[ 6966.946623] <4>[ 6966.946623 / 02-10 03:51:41.548][1] mdss_mdp_overlay_release: Unable to unset pipe(s) ndx=0x8 unset=0x0
+[ 6966.993755] <6>[ 6966.993755 / 02-10 03:51:41.596][1] mdss_dsi_panel_off:-
+[ 6966.994280] <6>[ 6966.994280 / 02-10 03:51:41.596][1] mdss_dsi_blank-:End
+[ 6967.082086] <6>[ 6967.082086 / 02-10 03:51:41.684][3] mdss_dsi_panel_off:-
+[ 6967.083351] <6>[ 6967.083351 / 02-10 03:51:41.688][3] mdss_dsi_blank-:End
+[ 6967.086566] <6>[ 6967.086566 / 02-10 03:51:41.688][1] mdss_dsi_panel_power_ctrl: cur_power_state=1 req_power_state=0
+[ 6967.086644] <6>[ 6967.086644 / 02-10 03:51:41.688][1] mdss_dsi_off-:
+[ 6967.090868] <6>[ 6967.090868 / 02-10 03:51:41.692][1] mdss_dsi_panel_power_ctrl: cur_power_state=1 req_power_state=0
+[ 6967.090875] <6>[ 6967.090875 / 02-10 03:51:41.692][1] jdi_qhd_command_mdss_dsi_panel_reset: enable = 0, ndx = 1
+[ 6967.090878] <6>[ 6967.090878 / 02-10 03:51:41.692][1] dw8768_mode_change mode = 0
+[ 6967.092397] <6>[ 6967.092397 / 02-10 03:51:41.696][1] mdss_dsi_off-:
+[ 6967.092405] <6>[ 6967.092405 / 02-10 03:51:41.696][1] [Touch] LCD_EVENT_TOUCH_LPWG_ON
+[ 6967.093789] <6>[ 6967.093789 / 02-10 03:51:41.696][1] [Touch] set_rebase_param : Set for LPWG
+[ 6967.094248] <3>[ 6967.094248 / 02-10 03:51:41.696][1] [Touch] finger_amplitude(finger:0x33, small_finger:0x33)
+[ 6967.094893] <6>[ 6967.094893 / 02-10 03:51:41.696][1] [Touch] Protocol 9 enable!
+[ 6967.147018] <6>[ 6967.147018 / 02-10 03:51:41.752][1] jdi_qhd_command_mdss_dsi_event_handler: ACTIVE to DEEP
+[ 6967.147025] <6>[ 6967.147025 / 02-10 03:51:41.752][1] [Touch] LCD_EVENT_TOUCH_SET_SLEEP_STATUS
+[ 6967.147246] <6>[ 6967.147246 / 02-10 03:51:41.752][1] [Touch] sleep_control : curr:0x00
+[ 6967.147251] <6>[ 6967.147251 / 02-10 03:51:41.752][1] [Touch] sleep_control : next:0x04
+[ 6967.147395] <3>[ 6967.147395 / 02-10 03:51:41.752][1] [Touch] synaptics_ts_power : power_state[2]
+[ 6967.149018] <3>[ 6967.149018 / 02-10 03:51:41.752][1] hdmi_tx_panel_event_handler: event = 8 suspend=0, hpd_feature=0
+[ 6967.149442] <6>[ 6967.149442 / 02-10 03:51:41.752][1] mdss_fb_blank_sub: -
+[ 6967.149451] <3>[ 6967.149451 / 02-10 03:51:41.752][1] [Touch] fb_notifier_callback : event = 4
+[ 6967.149454] <3>[ 6967.149454 / 02-10 03:51:41.752][1] [Touch] touch_suspend : touch_suspend start
+[ 6967.149464] <3>[ 6967.149464 / 02-10 03:51:41.752][1] [Touch] synaptics_toggle_swipe: [S/Q/P/L] = [1/0/2/0]
+[ 6967.149467] <3>[ 6967.149467 / 02-10 03:51:41.752][1] [Touch] swipe_down_disable: (swipe_mode:0x01)
+[ 6967.150568] <3>[ 6967.150568 / 02-10 03:51:41.752][0] [Touch] swipe_up_disable: (swipe_mode:0x01)
+[ 6967.155623] <3>[ 6967.155623 / 02-10 03:51:41.760][0] [Touch] Partial LPWG doens't work after LPWG ON command
+[ 6967.155630] <3>[ 6967.155630 / 02-10 03:51:41.760][0] [Touch] lpwg_control : lpwg_mode[1]
+[ 6967.155635] <3>[ 6967.155635 / 02-10 03:51:41.760][0] [Touch] synaptics_ts_power : power_state[2]
+[ 6967.155651] <3>[ 6967.155651 / 02-10 03:51:41.760][0] [Touch] touch_suspend : touch_suspend done
+[ 6967.155665] <3>[ 6967.155665 / 02-10 03:51:41.760][1] [Touch] toggle_swipe : START !!
+[ 6967.155675] <3>[ 6967.155675 / 02-10 03:51:41.760][1] [Touch] synaptics_toggle_swipe: [S/Q/P/L] = [0/0/2/0]
+[ 6967.155683] <3>[ 6967.155683 / 02-10 03:51:41.760][1] [Touch] swipe_down_disable: (swipe_mode:0x01)
+[ 6967.157407] <3>[ 6967.157407 / 02-10 03:51:41.760][1] [Touch] swipe_up_disable: (swipe_mode:0x01)
+[ 6967.159626] <3>[ 6967.159626 / 02-10 03:51:41.764][0] [Touch] toggle_swipe : END !!
+[ 6967.176162] <6>[ 6967.176162 / 02-10 03:51:41.780][3] CFG80211-TRACE) __wl_cfg80211_scan : START SCAN
+[ 6967.177736] <4>[ 6967.177736 / 02-10 03:51:41.780][2] dhd_set_suspend: Remove extra suspend setting 
+[ 6967.722845] <6>[ 6967.722845 / 02-10 03:51:42.324][1] SMBCHG: power_ok_handler: triggered: 0x00
+[ 6967.722874] <6>[ 6967.722874 / 02-10 03:51:42.324][0] SMBCHG: usbin_uv_handler: chip->usb_present = 1 usb_present = 1
+[ 6967.743195] <6>[ 6967.743195 / 02-10 03:51:42.348][1] SMBCHG: power_ok_handler: triggered: 0x01
+[ 6967.743231] <6>[ 6967.743231 / 02-10 03:51:42.348][0] SMBCHG: usbin_uv_handler: chip->usb_present = 1 usb_present = 1
+[ 6967.808958] <6>[ 6967.808958 / 02-10 03:51:42.412][1] SMBCHG: power_ok_handler: triggered: 0x00
+[ 6967.808989] <6>[ 6967.808989 / 02-10 03:51:42.412][0] SMBCHG: usbin_uv_handler: chip->usb_present = 1 usb_present = 1
+[ 6967.810101] <6>[ 6967.810101 / 02-10 03:51:42.412][0] SMBCHG: src_detect_handler: chip->usb_present = 1 usb_present = 0 src_detect = 0
+[ 6967.810123] <6>[ 6967.810123 / 02-10 03:51:42.412][0] SMBCHG: smbchg_primary_usb_en: usb enabled, susp = 00, en? = 1, reason = 40
+[ 6967.810257] <6>[ 6967.810257 / 02-10 03:51:42.412][0] [CC] charge_type = 3
+[ 6967.815921] <6>[ 6967.815921 / 02-10 03:51:42.420][0] SMBCHG: fastchg_handler: p2f triggered
+[ 6967.815969] <6>[ 6967.815969 / 02-10 03:51:42.420][0] SMBCHG: get_parallel_psy: parallel charger not found
+[ 6967.816048] <6>[ 6967.816048 / 02-10 03:51:42.420][0] [CC] changed battery_status_charger = (1) -> (2)
+[ 6967.816071] <6>[ 6967.816071 / 02-10 03:51:42.420][0] [CC] changed batt_status_cc = (1) -> (2)
+[ 6967.816109] <6>[ 6967.816109 / 02-10 03:51:42.420][0] SMBCHG: smbchg_stay_awake: staying awake: 0x02 (bit 2)
+[ 6967.816136] <6>[ 6967.816136 / 02-10 03:51:42.420][0] SMBCHG: smbchg_vfloat_adjust_check: Starting vfloat adjustments
+[ 6967.816272] <6>[ 6967.816272 / 02-10 03:51:42.420][0] android_work: android_work: sent uevent USB_STATE=SUSPENDED
+[ 6967.816444] <6>[ 6967.816444 / 02-10 03:51:42.420][0] [CC] charge_type = 1
+[ 6967.816852] <6>[ 6967.816852 / 02-10 03:51:42.420][0] SMBCHG: smbchg_relax: relaxing: 0x00 (bit 2)
+[ 6967.816894] <6>[ 6967.816894 / 02-10 03:51:42.420][0] [CC] charge_type = 1
+[ 6967.824838] <3>[ 6967.824838 / 02-10 03:51:42.428][0] ffs_epfile_io(): Error: returning -5 value
+[ 6967.907336] <6>[ 6967.907336 / 02-10 03:51:42.512][0] SMBCHG: get_parallel_psy: parallel charger not found
+[ 6967.907368] <6>[ 6967.907368 / 02-10 03:51:42.512][0] SMBCHG: handle_usb_removal: triggered
+[ 6967.907421] <6>[ 6967.907421 / 02-10 03:51:42.512][0] SMBCHG: smbchg_aicl_deglitch_wa_check: Charger removed
+[ 6967.907555] <6>[ 6967.907555 / 02-10 03:51:42.512][0] SMBCHG: handle_usb_removal: cancel HVDCP detect work
+[ 6967.907608] <6>[ 6967.907608 / 02-10 03:51:42.512][0] [CC] After update_pm_psy_status (iusb=500)(CC=500)(org=500)(wlc=900)
+[ 6967.907643] <6>[ 6967.907643 / 02-10 03:51:42.512][0] [CC] OTP scenario disabled
+[ 6967.907662] <6>[ 6967.907662 / 02-10 03:51:42.512][0] [CC] USB Current Set!
+[ 6967.907754] <6>[ 6967.907754 / 02-10 03:51:42.512][0] SMBCHG: smbchg_stay_awake: staying awake: 0x02 (bit 2)
+[ 6967.907780] <6>[ 6967.907780 / 02-10 03:51:42.512][0] SMBCHG: smbchg_vfloat_adjust_check: Starting vfloat adjustments
+[ 6967.907854] <6>[ 6967.907854 / 02-10 03:51:42.512][0] [CC] chg_wake_unlocked
+[ 6967.907879] <6>[ 6967.907879 / 02-10 03:51:42.512][0] SMBCHG: get_parallel_psy: parallel charger not found
+[ 6967.908234] <6>[ 6967.908234 / 02-10 03:51:42.512][0] SMBCHG: smbchg_update_bmd_work: smbchg_update_bmd_work = 0
+[ 6967.908332] <6>[ 6967.908332 / 02-10 03:51:42.512][0] SMBCHG: smbchg_relax: relaxing: 0x00 (bit 2)
+[ 6967.908482] <6>[ 6967.908482 / 02-10 03:51:42.512][0] [CC] charge_type = 1
+[ 6967.908888] <6>[ 6967.908888 / 02-10 03:51:42.512][0] [CC] update usb online. cc->online = 1, online = 0.
+[ 6967.908911] <6>[ 6967.908911 / 02-10 03:51:42.512][0] [CC] After update_pm_psy_status (iusb=0)(CC=500)(org=500)(wlc=900)
+[ 6967.908929] <6>[ 6967.908929 / 02-10 03:51:42.512][0] [CC] USB PSY changed by original dwc (0)
+[ 6967.908966] <6>[ 6967.908966 / 02-10 03:51:42.512][0] [CC] Charger Off_line!
+[ 6967.908994] <6>[ 6967.908994 / 02-10 03:51:42.512][0] [CC] Set iUSB usb current value = 0
+[ 6967.909016] <6>[ 6967.909016 / 02-10 03:51:42.512][0] [CC] Ibat max = 0, OTP = -1, thermal = -1, set current = (2000) -> (0)
+[ 6967.909039] <6>[ 6967.909039 / 02-10 03:51:42.512][0] SMBCHG: smbchg_battchg_en: battchg enabled, susp = 00, en? = 0, reason = 01
+[ 6967.909090] <6>[ 6967.909090 / 02-10 03:51:42.512][0] SMBCHG: smbchg_battchg_en: batt charging disabled, battchg_disabled = 01
+[ 6967.909128] <6>[ 6967.909128 / 02-10 03:51:42.512][0] [CC] After update_pm_psy_status (iusb=0)(CC=0)(org=0)(wlc=900)
+[ 6967.909161] <6>[ 6967.909161 / 02-10 03:51:42.512][0] [CC] Charger Off_line!
+[ 6967.910896] <6>[ 6967.910896 / 02-10 03:51:42.512][0] SMBCHG: smbchg_stay_awake: staying awake: 0x02 (bit 2)
+[ 6967.910933] <6>[ 6967.910933 / 02-10 03:51:42.512][0] SMBCHG: smbchg_vfloat_adjust_check: Starting vfloat adjustments
+[ 6967.911137] <6>[ 6967.911137 / 02-10 03:51:42.516][0] SMBCHG: get_parallel_psy: parallel charger not found
+[ 6967.920221] <6>[ 6967.920221 / 02-10 03:51:42.524][0] SMBCHG: smbchg_relax: relaxing: 0x00 (bit 2)
+[ 6967.920441] <6>[ 6967.920441 / 02-10 03:51:42.524][0] [CC] charge_type = 1
+[ 6967.955391] <6>[ 6967.955391 / 02-10 03:51:42.560][0] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+[ 6967.955439] <6>[ 6967.955439 / 02-10 03:51:42.560][0] [Touch] TA Type : 0
+[ 6967.955475] <3>[ 6967.955475 / 02-10 03:51:42.560][0] [Touch] update_status : code[1] value[0]
+[ 6967.955502] <6>[ 6967.955502 / 02-10 03:51:42.560][0] dwc3 f9200000.dwc3: Avail curr from USB = 0
+[ 6967.955959] <3>[ 6967.955959 / 02-10 03:51:42.560][0] ffs_epfile_io(): Error: returning -19 value
+[ 6967.957254] <6>[ 6967.957254 / 02-10 03:51:42.560][0] [CC] After update_pm_psy_status (iusb=0)(CC=0)(org=0)(wlc=900)
+[ 6967.957320] <6>[ 6967.957320 / 02-10 03:51:42.560][0] [CC] Charger Off_line!
+[ 6967.957410] <6>[ 6967.957410 / 02-10 03:51:42.560][0] SMBCHG: smbchg_stay_awake: staying awake: 0x02 (bit 2)
+[ 6967.957436] <6>[ 6967.957436 / 02-10 03:51:42.560][0] SMBCHG: smbchg_vfloat_adjust_check: Starting vfloat adjustments
+[ 6967.957550] <6>[ 6967.957550 / 02-10 03:51:42.560][0] SMBCHG: get_parallel_psy: parallel charger not found
+[ 6967.957919] <6>[ 6967.957919 / 02-10 03:51:42.560][0] msm_bam_device_lpm_ok: Going to LPM now
+[ 6967.958092] <6>[ 6967.958092 / 02-10 03:51:42.560][0] SMBCHG: smbchg_relax: relaxing: 0x00 (bit 2)
+[ 6967.958305] <6>[ 6967.958305 / 02-10 03:51:42.560][0] [CC] charge_type = 1
+[ 6967.964192] <6>[ 6967.964192 / 02-10 03:51:42.568][0] msm-dwc3 f9200000.ssusb: DWC3 in low power mode
+[ 6969.106275] <6>[ 6969.106275 / 02-10 03:51:43.708][1] d.process.media[18469]: syscall 278
+[ 6969.106321] <4>[ 6969.106321 / 02-10 03:51:43.708][1] Code: aa0403e3 aa0503e4 aa0603e5 d4000001 (b140041f) 
+[ 6969.106356] <4>[ 6969.106356 / 02-10 03:51:43.708][1] CPU: 1 PID: 18469 Comm: d.process.media Not tainted 3.10.108-g0a019c8 #1
+[ 6969.106382] <4>[ 6969.106382 / 02-10 03:51:43.708][1] Hardware name: Qualcomm Technologies, Inc. MSM8992 P1 GLOBAL COM (DT)
+[ 6969.106413] <4>[ 6969.106413 / 02-10 03:51:43.708][1] task: ffffffc0818cb000 ti: ffffffc02c984000 task.ti: ffffffc02c984000
+[ 6969.106443] <4>[ 6969.106443 / 02-10 03:51:43.708][1] PC is at 0x7e233c7d40
+[ 6969.106469] <4>[ 6969.106469 / 02-10 03:51:43.708][1] LR is at 0x7e233e09a8
+[ 6969.106497] <4>[ 6969.106497 / 02-10 03:51:43.708][1] pc : [<0000007e233c7d40>] lr : [<0000007e233e09a8>] pstate: 80000000
+[ 6969.106522] <4>[ 6969.106522 / 02-10 03:51:43.708][1] sp : 0000007ff8920180
+[ 6969.106548] <4>[ 6969.106548 / 02-10 03:51:43.708][1] x29: 0000007ff8920270 x28: 0000007e23424000 
+[ 6969.106576] <4>[ 6969.106576 / 02-10 03:51:43.708][1] x27: 0000007ff8922918 x26: 0000007ff8920188 
+[ 6969.106601] <4>[ 6969.106601 / 02-10 03:51:43.708][1] x25: 0000007e23491a40 x24: 0000007ff8920448 
+[ 6969.106625] <4>[ 6969.106625 / 02-10 03:51:43.708][1] x23: 0000000000000000 x22: 000000000000001e 
+[ 6969.106650] <4>[ 6969.106650 / 02-10 03:51:43.708][1] x21: 0000000000000028 x20: 0000007ff8920280 
+[ 6969.106674] <4>[ 6969.106674 / 02-10 03:51:43.708][1] x19: 0000007e23491a50 x18: 00000000ebad6082 
+[ 6969.106699] <4>[ 6969.106699 / 02-10 03:51:43.708][1] x17: 0000007e23331e70 x16: 0000000000000000 
+[ 6969.106723] <4>[ 6969.106723 / 02-10 03:51:43.708][1] x15: 0000007e232cd000 x14: 0000007e23312000 
+[ 6969.106748] <4>[ 6969.106748 / 02-10 03:51:43.708][1] x13: 766f725061696465 x12: 4d4072656469766f 
+[ 6969.106773] <4>[ 6969.106773 / 02-10 03:51:43.708][1] x11: 7250616964654d40 x10: 0000000000000000 
+[ 6969.106797] <4>[ 6969.106797 / 02-10 03:51:43.708][1] x9 : 0000000000000000 x8 : 0000000000000116 
+[ 6969.106821] <4>[ 6969.106821 / 02-10 03:51:43.708][1] x7 : 6361632d6b69766c x6 : 61642f617461642f 
+[ 6969.106846] <4>[ 6969.106846 / 02-10 03:51:43.708][1] x5 : 61642f617461642f x4 : 0000007e232cd364 
+[ 6969.106871] <4>[ 6969.106871 / 02-10 03:51:43.708][1] x3 : 616c63406b70612e x2 : 0000000000000001 
+[ 6969.106895] <4>[ 6969.106895 / 02-10 03:51:43.708][1] x1 : 0000000000000028 x0 : 0000007ff8920280 
+[ 6969.106918] <4>[ 6969.106918 / 02-10 03:51:43.708][1] 
+[ 6969.372109] <6>[ 6969.372109 / 02-10 03:51:43.976][0] ndroid.settings[18485]: syscall 278
+[ 6969.372142] <4>[ 6969.372142 / 02-10 03:51:43.976][0] Code: aa0403e3 aa0503e4 aa0603e5 d4000001 (b140041f) 
+[ 6969.372163] <4>[ 6969.372163 / 02-10 03:51:43.976][0] CPU: 0 PID: 18485 Comm: ndroid.settings Not tainted 3.10.108-g0a019c8 #1
+[ 6969.372177] <4>[ 6969.372177 / 02-10 03:51:43.976][0] Hardware name: Qualcomm Technologies, Inc. MSM8992 P1 GLOBAL COM (DT)
+[ 6969.372194] <4>[ 6969.372194 / 02-10 03:51:43.976][0] task: ffffffc05ae0b000 ti: ffffffc0228e0000 task.ti: ffffffc0228e0000
+[ 6969.372211] <4>[ 6969.372211 / 02-10 03:51:43.976][0] PC is at 0x7e233c7d40
+[ 6969.372224] <4>[ 6969.372224 / 02-10 03:51:43.976][0] LR is at 0x7e233e09a8
+[ 6969.372238] <4>[ 6969.372238 / 02-10 03:51:43.976][0] pc : [<0000007e233c7d40>] lr : [<0000007e233e09a8>] pstate: 80000000
+[ 6969.372250] <4>[ 6969.372250 / 02-10 03:51:43.976][0] sp : 0000007ff8920180
+[ 6969.372263] <4>[ 6969.372263 / 02-10 03:51:43.976][0] x29: 0000007ff8920270 x28: 0000007e23424000 
+[ 6969.372279] <4>[ 6969.372279 / 02-10 03:51:43.976][0] x27: 0000007ff8922918 x26: 0000007ff8920188 
+[ 6969.372292] <4>[ 6969.372292 / 02-10 03:51:43.976][0] x25: 0000007e23491a40 x24: 0000007ff8920448 
+[ 6969.372304] <4>[ 6969.372304 / 02-10 03:51:43.976][0] x23: 0000000000000000 x22: 000000000000001e 
+[ 6969.372316] <4>[ 6969.372316 / 02-10 03:51:43.976][0] x21: 0000000000000028 x20: 0000007ff8920280 
+[ 6969.372329] <4>[ 6969.372329 / 02-10 03:51:43.976][0] x19: 0000007e23491a50 x18: 00000000ebad6082 
+[ 6969.372341] <4>[ 6969.372341 / 02-10 03:51:43.976][0] x17: 0000007e23331e70 x16: 0000000000000000 
+[ 6969.372353] <4>[ 6969.372353 / 02-10 03:51:43.976][0] x15: 0000007e232cd000 x14: 0000007e23312000 
+[ 6969.372366] <4>[ 6969.372366 / 02-10 03:51:43.976][0] x13: 63406b70612e7367 x12: 6e69747465534073 
+[ 6969.372378] <4>[ 6969.372378 / 02-10 03:51:43.976][0] x11: 676e697474655340 x10: 0000000000000000 
+[ 6969.372391] <4>[ 6969.372391 / 02-10 03:51:43.976][0] x9 : 0000000000000000 x8 : 0000000000000116 
+[ 6969.372403] <4>[ 6969.372403 / 02-10 03:51:43.976][0] x7 : 6361632d6b69766c x6 : 61642f617461642f 
+[ 6969.372415] <4>[ 6969.372415 / 02-10 03:51:43.976][0] x5 : 61642f617461642f x4 : 0000007e232cd35a 
+[ 6969.372428] <4>[ 6969.372428 / 02-10 03:51:43.976][0] x3 : 616c63406b70612e x2 : 0000000000000001 
+[ 6969.372440] <4>[ 6969.372440 / 02-10 03:51:43.976][0] x1 : 0000000000000028 x0 : 0000007ff8920280 
+[ 6969.372451] <4>[ 6969.372451 / 02-10 03:51:43.976][0] 
+[ 6969.436836] <4>[ 6969.436836 / 02-10 03:51:44.040][1] dhd_set_suspend: force extra Suspend setting 
+[ 6969.442020] <4>[ 6969.442020 / 02-10 03:51:44.044][2] dhd_get_suspend_bcn_li_dtim beacon=100 bcn_li_dtim=3 DTIM=1 Listen=10
+[ 6971.147933] <6>[ 6971.147933 / 02-10 03:51:45.752][0] PM: suspend entry 2018-02-10 01:51:45.756292225 UTC
+[ 6971.147989] <6>[ 6971.147989 / 02-10 03:51:45.752][0] PM: Background Syncing filesystems ... 
+[ 6971.148642] <7>[ 6971.148642 / 02-10 03:51:45.752][0] [bg_sync] queue start
+[ 6971.148700] <7>[ 6971.148700 / 02-10 03:51:45.752][0] [bg_sync] queue end, ret = true
+[ 6971.148729] <7>[ 6971.148729 / 02-10 03:51:45.752][1] [bg_sync] sys_sync start
+[ 6971.185903] <6>[ 6971.185903 / 02-10 03:51:45.788][0] CFG80211-TRACE) wl_escan_handler : SCAN COMPLETED: scanned AP count=15
+[ 6971.194465] <7>[ 6971.194465 / 02-10 03:51:45.796][1] [bg_sync] sys_sync done
+[ 6971.211436] <6>[ 6971.211436 / 02-10 03:51:45.816][2] [bg_sync] (5 * 10ms) ...
+[ 6971.211481] <4>[ 6971.211481 / 02-10 03:51:45.816][2] PM: done.
+[ 6971.215463] <14>[ 6971.215463 / 02-10 03:51:45.820][1] ueventd: firmware: loading 'adsp.mdt' for '/devices/virtual/firmware/adsp.mdt'
+[ 6971.218257] <14>[ 6971.218257 / 02-10 03:51:45.820][3] ueventd: firmware: loading 'cpp_firmware_v1_8_0.fw' for '/devices/virtual/firmware/cpp_firmware_v1_8_0.fw'
+[ 6971.219730] <14>[ 6971.219730 / 02-10 03:51:45.824][3] ueventd: loading /devices/virtual/firmware/cpp_firmware_v1_8_0.fw took 1ms
+[ 6971.220381] <14>[ 6971.220381 / 02-10 03:51:45.824][4] ueventd: loading /devices/virtual/firmware/adsp.mdt took 5ms
+[ 6971.221078] <14>[ 6971.221078 / 02-10 03:51:45.824][3] ueventd: firmware: loading 'modem.mdt' for '/devices/virtual/firmware/modem.mdt'
+[ 6971.224682] <14>[ 6971.224682 / 02-10 03:51:45.828][3] ueventd: firmware: loading 'venus.mdt' for '/devices/virtual/firmware/venus.mdt'
+[ 6971.227121] <14>[ 6971.227121 / 02-10 03:51:45.832][1] ueventd: firmware: loading 'mba.b00' for '/devices/virtual/firmware/mba.b00'
+[ 6971.228652] <14>[ 6971.228652 / 02-10 03:51:45.832][3] ueventd: firmware: loading 'cpe.mdt' for '/devices/virtual/firmware/cpe.mdt'
+[ 6971.230104] <14>[ 6971.230104 / 02-10 03:51:45.832][1] ueventd: loading /devices/virtual/firmware/venus.mdt took 5ms
+[ 6971.231622] <14>[ 6971.231622 / 02-10 03:51:45.836][2] ueventd: loading /devices/virtual/firmware/modem.mdt took 10ms
+[ 6971.232598] <14>[ 6971.232598 / 02-10 03:51:45.836][1] ueventd: firmware: loading 'cpe.b06' for '/devices/virtual/firmware/cpe.b06'
+[ 6971.234265] <14>[ 6971.234265 / 02-10 03:51:45.836][1] ueventd: loading /devices/virtual/firmware/cpe.mdt took 5ms
+[ 6971.234686] <14>[ 6971.234686 / 02-10 03:51:45.836][2] ueventd: loading /devices/virtual/firmware/cpe.b06 took 2ms
+[ 6971.234772] <14>[ 6971.234772 / 02-10 03:51:45.836][3] ueventd: loading /devices/virtual/firmware/mba.b00 took 8ms
+[ 6971.237422] <14>[ 6971.237422 / 02-10 03:51:45.840][1] ueventd: firmware: loading 'cpe.b08' for '/devices/virtual/firmware/cpe.b08'
+[ 6971.239771] <14>[ 6971.239771 / 02-10 03:51:45.844][0] ueventd: firmware: loading 'cpe.b10' for '/devices/virtual/firmware/cpe.b10'
+[ 6971.239972] <14>[ 6971.239972 / 02-10 03:51:45.844][1] ueventd: loading /devices/virtual/firmware/cpe.b08 took 2ms
+[ 6971.241316] <14>[ 6971.241316 / 02-10 03:51:45.844][0] ueventd: loading /devices/virtual/firmware/cpe.b10 took 1ms
+[ 6971.241706] <14>[ 6971.241706 / 02-10 03:51:45.844][1] ueventd: firmware: loading 'cpe.b11' for '/devices/virtual/firmware/cpe.b11'
+[ 6971.243234] <14>[ 6971.243234 / 02-10 03:51:45.848][1] ueventd: loading /devices/virtual/firmware/cpe.b11 took 1ms
+[ 6971.244606] <14>[ 6971.244606 / 02-10 03:51:45.848][1] ueventd: firmware: loading 'cpe.b12' for '/devices/virtual/firmware/cpe.b12'
+[ 6971.246078] <14>[ 6971.246078 / 02-10 03:51:45.848][1] ueventd: firmware: loading 'cpe.b14' for '/devices/virtual/firmware/cpe.b14'
+[ 6971.247972] <14>[ 6971.247972 / 02-10 03:51:45.852][1] ueventd: loading /devices/virtual/firmware/cpe.b14 took 2ms
+[ 6971.248248] <14>[ 6971.248248 / 02-10 03:51:45.852][0] ueventd: loading /devices/virtual/firmware/cpe.b12 took 3ms
+[ 6971.248555] <14>[ 6971.248555 / 02-10 03:51:45.852][4] ueventd: firmware: loading 'cpe.b16' for '/devices/virtual/firmware/cpe.b16'
+[ 6971.249811] <14>[ 6971.249811 / 02-10 03:51:45.852][3] ueventd: loading /devices/virtual/firmware/cpe.b16 took 1ms
+[ 6971.251312] <14>[ 6971.251312 / 02-10 03:51:45.856][0] ueventd: firmware: loading 'cpe.b18' for '/devices/virtual/firmware/cpe.b18'
+[ 6971.253381] <14>[ 6971.253381 / 02-10 03:51:45.856][0] ueventd: loading /devices/virtual/firmware/cpe.b18 took 2ms
+[ 6971.253606] <14>[ 6971.253606 / 02-10 03:51:45.856][1] ueventd: firmware: loading 'cpe.b21' for '/devices/virtual/firmware/cpe.b21'
+[ 6971.256002] <14>[ 6971.256002 / 02-10 03:51:45.860][1] ueventd: loading /devices/virtual/firmware/cpe.b21 took 2ms
+[ 6971.257812] <14>[ 6971.257812 / 02-10 03:51:45.860][3] ueventd: firmware: loading 'cpe.b20' for '/devices/virtual/firmware/cpe.b20'
+[ 6971.260707] <14>[ 6971.260707 / 02-10 03:51:45.864][3] ueventd: loading /devices/virtual/firmware/cpe.b20 took 3ms
+[ 6971.264501] <5>[ 6971.264501 / 02-10 03:51:45.868][0] pet_watchdog
+[ 6971.261887] <4>[ 6971.261887 / 02-10 03:51:45.872][3] Freezing user space processes ... 
+[ 6971.269750] <6>[ 6971.269750 / 02-10 03:51:45.872][3] PM: Wakeup pending, aborting suspend
+[ 6971.269874] <6>[ 6971.269874 / 02-10 03:51:45.872][3] active wakeup source: wlan_wd_wake
+[ 6971.269913] <6>[ 6971.269913 / 02-10 03:51:45.872][3] active wakeup source: wlan_ctrl_wake
+[ 6971.269966] <6>[ 6971.269966 / 02-10 03:51:45.872][3] active wakeup source: fd440000.qcrypto
+[ 6971.270067] <4>[ 6971.270067 / 02-10 03:51:45.872][3] 
+[ 6971.270097] <3>[ 6971.270097 / 02-10 03:51:45.872][3] Freezing of tasks aborted after 0.008 seconds
+[ 6971.270122] <4>[ 6971.270122 / 02-10 03:51:45.880][3] Restarting tasks ... done.
+[ 6971.278760] <6>[ 6971.278760 / 02-10 03:51:45.880][0] cpufreq: Frequency violation fixed for CPU4
+[ 6971.278872] <6>[ 6971.278872 / 02-10 03:51:45.880][2] [LGE][MMC][mmc_rescan        ( ) START!] mmc0
+[ 6971.278915] <6>[ 6971.278915 / 02-10 03:51:45.880][0] PM: suspend exit 2018-02-10 01:51:45.887275923 UTC
+[ 6971.279117] <6>[ 6971.279117 / 02-10 03:51:45.884][2] [LGE][MMC][mmc_rescan        ( ) START!] mmc1
+[ 6971.279274] <6>[ 6971.279274 / 02-10 03:51:45.884][2] [LGE][MMC][mmc_power_off     ( )] host->index:1, already power-off, skip below
+[ 6971.279612] <6>[ 6971.279612 / 02-10 03:51:45.884][2] [LGE][MMC][mmc_power_off     ( )] host->index:1, already power-off, skip below
+[ 6971.279656] <6>[ 6971.279656 / 02-10 03:51:45.884][2] [LGE][MMC][mmc_rescan        ( ) START!] mmc2
+[ 6976.496952] <6>[ 6976.496952 / 02-10 03:51:51.100][0] PM: suspend entry 2018-02-10 01:51:51.105312275 UTC
+[ 6976.497007] <6>[ 6976.497007 / 02-10 03:51:51.100][0] PM: Background Syncing filesystems ... 
+[ 6976.497039] <7>[ 6976.497039 / 02-10 03:51:51.100][0] [bg_sync] queue start
+[ 6976.497137] <7>[ 6976.497137 / 02-10 03:51:51.100][0] [bg_sync] queue end, ret = true
+[ 6976.497812] <7>[ 6976.497812 / 02-10 03:51:51.100][0] [bg_sync] sys_sync start
+[ 6976.545179] <7>[ 6976.545179 / 02-10 03:51:51.148][0] [bg_sync] sys_sync done
+[ 6976.560942] <6>[ 6976.560942 / 02-10 03:51:51.164][1] [bg_sync] (5 * 10ms) ...
+[ 6976.560993] <4>[ 6976.560993 / 02-10 03:51:51.164][1] PM: done.
+[ 6976.564648] <4>[ 6976.564648 / 02-10 03:51:51.180][1] Freezing user space processes ... 
+[ 6976.575665] <6>[ 6976.575665 / 02-10 03:51:51.180][1] PM: Wakeup pending, aborting suspend
+[ 6976.576241] <6>[ 6976.576241 / 02-10 03:51:51.180][1] active wakeup source: fd440000.qcrypto
+[ 6976.576367] <4>[ 6976.576367 / 02-10 03:51:51.180][1] 
+[ 6976.576394] <3>[ 6976.576394 / 02-10 03:51:51.180][1] Freezing of tasks aborted after 0.011 seconds
+[ 6976.576418] <4>[ 6976.576418 / 02-10 03:51:51.188][1] Restarting tasks ... done.
+[ 6976.585404] <6>[ 6976.585404 / 02-10 03:51:51.188][1] cpufreq: Frequency violation fixed for CPU4
+[ 6976.585559] <6>[ 6976.585559 / 02-10 03:51:51.188][1] PM: suspend exit 2018-02-10 01:51:51.193928733 UTC
+[ 6976.585713] <6>[ 6976.585713 / 02-10 03:51:51.188][1] [LGE][MMC][mmc_rescan        ( ) START!] mmc0
+[ 6976.585747] <6>[ 6976.585747 / 02-10 03:51:51.188][1] [LGE][MMC][mmc_rescan        ( ) START!] mmc1
+[ 6976.585929] <6>[ 6976.585929 / 02-10 03:51:51.188][1] [LGE][MMC][mmc_power_off     ( )] host->index:1, already power-off, skip below
+[ 6976.586706] <6>[ 6976.586706 / 02-10 03:51:51.188][1] [LGE][MMC][mmc_power_off     ( )] host->index:1, already power-off, skip below
+[ 6976.586746] <6>[ 6976.586746 / 02-10 03:51:51.188][1] [LGE][MMC][mmc_rescan        ( ) START!] mmc2
+[ 6978.509673] <6>[ 6978.509673 / 02-10 03:51:53.112][0] PM: suspend entry 2018-02-10 01:51:53.118035139 UTC
+[ 6978.509730] <6>[ 6978.509730 / 02-10 03:51:53.112][0] PM: Background Syncing filesystems ... 
+[ 6978.509761] <7>[ 6978.509761 / 02-10 03:51:53.112][0] [bg_sync] queue start
+[ 6978.509819] <7>[ 6978.509819 / 02-10 03:51:53.112][0] [bg_sync] queue end, ret = true
+[ 6978.509875] <7>[ 6978.509875 / 02-10 03:51:53.112][0] [bg_sync] sys_sync start
+[ 6978.551467] <7>[ 6978.551467 / 02-10 03:51:53.156][0] [bg_sync] sys_sync done
+[ 6978.555985] <6>[ 6978.555985 / 02-10 03:51:53.160][1] [bg_sync] (4 * 10ms) ...
+[ 6978.556017] <4>[ 6978.556017 / 02-10 03:51:53.160][1] PM: done.
+[ 6978.559484] <4>[ 6978.559484 / 02-10 03:51:53.172][1] Freezing user space processes ... 
+[ 6978.569133] <6>[ 6978.569133 / 02-10 03:51:53.172][1] PM: Wakeup pending, aborting suspend
+[ 6978.569420] <6>[ 6978.569420 / 02-10 03:51:53.172][1] active wakeup source: fd440000.qcrypto
+[ 6978.569546] <4>[ 6978.569546 / 02-10 03:51:53.172][1] 
+[ 6978.569580] <3>[ 6978.569580 / 02-10 03:51:53.172][1] Freezing of tasks aborted after 0.010 seconds
+[ 6978.569607] <4>[ 6978.569607 / 02-10 03:51:53.180][1] Restarting tasks ... done.
+[ 6978.579525] <6>[ 6978.579525 / 02-10 03:51:53.184][0] [LGE][MMC][mmc_rescan        ( ) START!] mmc0
+[ 6978.579580] <6>[ 6978.579580 / 02-10 03:51:53.184][1] PM: suspend exit 2018-02-10 01:51:53.187945608 UTC
+[ 6978.579589] <6>[ 6978.579589 / 02-10 03:51:53.184][0] [LGE][MMC][mmc_rescan        ( ) START!] mmc1
+[ 6978.579747] <6>[ 6978.579747 / 02-10 03:51:53.184][0] [LGE][MMC][mmc_power_off     ( )] host->index:1, already power-off, skip below
+[ 6978.580396] <6>[ 6978.580396 / 02-10 03:51:53.184][0] [LGE][MMC][mmc_power_off     ( )] host->index:1, already power-off, skip below
+[ 6978.580445] <6>[ 6978.580445 / 02-10 03:51:53.184][0] [LGE][MMC][mmc_rescan        ( ) START!] mmc2
+[ 6980.067594] <6>[ 6980.067594 / 02-10 03:51:54.672][2] [XO_THERM] Result:27 Raw:33453
+[ 6981.285275] <5>[ 6981.285275 / 02-10 03:51:55.888][0] pet_watchdog
+[ 6981.738399] <6>[ 6981.738399 / 02-10 03:51:56.344][0] PM: suspend entry 2018-02-10 01:51:56.346761596 UTC
+[ 6981.738457] <6>[ 6981.738457 / 02-10 03:51:56.344][0] PM: Background Syncing filesystems ... 
+[ 6981.738493] <7>[ 6981.738493 / 02-10 03:51:56.344][0] [bg_sync] queue start
+[ 6981.738571] <7>[ 6981.738571 / 02-10 03:51:56.344][0] [bg_sync] queue end, ret = true
+[ 6981.738638] <7>[ 6981.738638 / 02-10 03:51:56.344][0] [bg_sync] sys_sync start
+[ 6981.760222] <7>[ 6981.760222 / 02-10 03:51:56.364][1] [bg_sync] sys_sync done
+[ 6981.767542] <6>[ 6981.767542 / 02-10 03:51:56.372][0] [bg_sync] (3 * 10ms) ...
+[ 6981.767574] <4>[ 6981.767574 / 02-10 03:51:56.372][0] PM: done.
+[ 6981.774478] <4>[ 6981.774478 / 02-10 03:51:56.392][0] Freezing user space processes ... (elapsed 0.013 seconds) done.
+[ 6981.788494] <4>[ 6981.788494 / 02-10 03:51:56.400][0] Freezing remaining freezable tasks ... (elapsed 0.006 seconds) done.
+[ 6981.795439] <4>[ 6981.795439 / 02-10 03:51:56.400][0] Suspending console(s) (use no_console_suspend to debug)
+[ 6981.803601] <3>[ 6981.803601 / 02-10 03:51:56.408][0] mmc2: mmc_suspend_host: enter 
+[ 6981.803625] <4>[ 6981.803625 / 02-10 03:51:56.408][0] bcmsdh_sdmmc_suspend Enter
+[ 6981.803632] <4>[ 6981.803632 / 02-10 03:51:56.408][0] bcmsdh_sdmmc_suspend Enter
+[ 6981.803655] <3>[ 6981.803655 / 02-10 03:51:56.408][0] mmc2: mmc_suspend_host: exit 
+[ 6981.804186] <3>[ 6981.804186 / 02-10 03:51:56.408][0] hdmi_tx_panel_event_handler: event = 8 suspend=0, hpd_feature=0
+[ 6981.804876] <6>[ 6981.804876 / 02-10 03:51:56.408][0] max17048_set_alsc_alert. with 0
+[ 6981.807979] <3>[ 6981.807979 / 02-10 03:51:56.412][1] [Touch] touch_pm_suspend : PM_SUSPEND
+[ 6981.813158] <3>[ 6981.813158 / 02-10 03:51:56.416][1] mmc2: sdhci_msm_suspend: mmc_gpio_free_cd skip
+[ 6981.813754] <6>[ 6981.813754 / 02-10 03:51:56.416][1] [LGE VIBRATOR] qpnp_hap_play play : 0 voltage : 2088 
+[ 6981.935070] <6>[ 6981.935070 / 02-10 03:51:56.540][1] PM: suspend of devices complete after 136.742 msecs
+[ 6981.938614] <6>[ 6981.938614 / 02-10 03:51:56.540][1] PM: late suspend of devices complete after 3.211 msecs
+[ 6981.945886] <6>[ 6981.945886 / 02-10 03:51:56.548][1] PM: noirq suspend of devices complete after 7.202 msecs
+[ 6981.945956] <4>[ 6981.945956 / 02-10 03:51:56.548][1] Disabling non-boot CPUs ...
+[ 6981.949473] <4>[ 6981.949473 / 02-10 03:51:56.552][1] migrate_irqs: 339 callbacks suppressed
+[ 6981.949483] <4>[ 6981.949483 / 02-10 03:51:56.552][1] IRQ32 no longer affine to CPU1
+[ 6981.949497] <4>[ 6981.949497 / 02-10 03:51:56.552][1] IRQ33 no longer affine to CPU1
+[ 6981.949507] <4>[ 6981.949507 / 02-10 03:51:56.552][1] IRQ34 no longer affine to CPU1
+[ 6981.949520] <4>[ 6981.949520 / 02-10 03:51:56.552][1] IRQ35 no longer affine to CPU1
+[ 6981.949533] <4>[ 6981.949533 / 02-10 03:51:56.552][1] IRQ36 no longer affine to CPU1
+[ 6981.949545] <4>[ 6981.949545 / 02-10 03:51:56.552][1] IRQ37 no longer affine to CPU1
+[ 6981.949556] <4>[ 6981.949556 / 02-10 03:51:56.552][1] IRQ38 no longer affine to CPU1
+[ 6981.949568] <4>[ 6981.949568 / 02-10 03:51:56.552][1] IRQ39 no longer affine to CPU1
+[ 6981.949581] <4>[ 6981.949581 / 02-10 03:51:56.552][1] IRQ40 no longer affine to CPU1
+[ 6981.949593] <4>[ 6981.949593 / 02-10 03:51:56.552][1] IRQ41 no longer affine to CPU1
+[ 6981.954464] <5>[ 6981.954464 / 02-10 03:51:56.560][0] CPU1: shutdown
+[ 6981.965828] <5>[ 6981.965828 / 02-10 03:51:56.572][0] CPU2: shutdown
+[ 6981.976626] <5>[ 6981.976626 / 02-10 03:51:56.580][0] CPU3: shutdown
+[ 6981.992395] <5>[ 6981.992395 / 02-10 03:51:56.596][0] CPU4: shutdown
+[ 6982.006284] <5>[ 6982.006284 / 02-10 03:51:56.612][0] CPU5: shutdown
+[ 6982.013174] <6>[ 6982.013174 / 02-10 03:51:56.621][0] CPU0:msm_cpu_pm_enter_sleep mode:3 during suspend
+[ 6982.013174] <4>[ 6982.013174 / 02-10 03:51:56.621][0] gic_show_resume_irq: 57 triggered qcom,smd-modem
+[ 6982.013174] <4>[ 6982.013174 / 02-10 03:51:56.621][0] gic_show_resume_irq: 200 triggered qcom,smd-rpm
+[ 6982.013174] <6>[ 6982.013174 / 02-10 03:52:26.469][0] Suspended for 29.847 seconds
+[ 6982.014658] <6>[ 6982.014658 / 02-10 03:52:26.469][0] Enabling non-boot CPUs ...
+[ 6982.015532] <5>[ 6982.015532 / 02-10 03:52:26.469][1] CPU1: Booted secondary processor
+[ 6982.017189] <6>[ 6982.017189 / 02-10 03:52:26.469][0] CPU1 is up
+[ 6982.017669] <5>[ 6982.017669 / 02-10 03:52:26.469][2] CPU2: Booted secondary processor
+[ 6982.019010] <6>[ 6982.019010 / 02-10 03:52:26.473][1] CPU2 is up
+[ 6982.019604] <5>[ 6982.019604 / 02-10 03:52:26.473][3] CPU3: Booted secondary processor
+[ 6982.021047] <6>[ 6982.021047 / 02-10 03:52:26.473][3] CPU3 is up
+[ 6982.022427] <5>[ 6982.022427 / 02-10 03:52:26.473][4] CPU4: Booted secondary processor
+[ 6982.024593] <6>[ 6982.024593 / 02-10 03:52:26.477][0] CPU4 is up
+[ 6982.025134] <5>[ 6982.025134 / 02-10 03:52:26.477][5] CPU5: Booted secondary processor
+[ 6982.026527] <6>[ 6982.026527 / 02-10 03:52:26.477][0] CPU5 is up
+[ 6982.029239] <6>[ 6982.029239 / 02-10 03:52:26.481][0] PM: noirq resume of devices complete after 2.673 msecs
+[ 6982.035612] <6>[ 6982.035612 / 02-10 03:52:26.489][0] PM: early resume of devices complete after 3.127 msecs
+[ 6982.039466] <3>[ 6982.039466 / 02-10 03:52:26.493][0] mmc2: sdhci_msm_resume: mmc_gpio_request_cd skip
+[ 6982.045381] <3>[ 6982.045381 / 02-10 03:52:26.497][0] [Touch] touch_pm_resume : PM_RESUME
+[ 6982.047325] <6>[ 6982.047325 / 02-10 03:52:26.501][0] max17048_work config : 0x3a1e /status : 0xff.
+[ 6982.049666] <6>[ 6982.049666 / 02-10 03:52:26.501][0] max17048_work : Capacity : 96,  Voltage : 4195, raw soc : 90.3, bms soc : 93, ocv : 4200
+[ 6982.049825] <6>[ 6982.049825 / 02-10 03:52:26.501][0] SMBCHG: get_parallel_psy: parallel charger not found
+[ 6982.050258] <6>[ 6982.050258 / 02-10 03:52:26.501][0] [CC] charge_type = 1
+[ 6982.051228] <6>[ 6982.051228 / 02-10 03:52:26.505][0] max17048_set_alsc_alert. with 1
+[ 6982.052163] <3>[ 6982.052163 / 02-10 03:52:26.505][0] hdmi_tx_panel_event_handler: event = 9 suspend=0, hpd_feature=0
+[ 6982.052506] <3>[ 6982.052506 / 02-10 03:52:26.505][0] mmc2: mmc_resume_host: enter 
+[ 6982.053697] <4>[ 6982.053697 / 02-10 03:52:26.505][0] bcmsdh_sdmmc_resume Enter
+[ 6982.053705] <4>[ 6982.053705 / 02-10 03:52:26.505][0] bcmsdh_sdmmc_resume Enter
+[ 6982.053718] <3>[ 6982.053718 / 02-10 03:52:26.505][0] mmc2: mmc_resume_host: exit 
+[ 6982.054360] <4>[ 6982.054360 / 02-10 03:52:26.505][0] [LGE MBHC] wcd9xxx_event_notify: enter event WCD9XXX_EVENT_POST_RESUME(47)
+[ 6982.207093] <0>[ 6982.207093 / 02-10 03:52:26.661][0] async_resume: mmc0 (mmc_host) 170466
+[ 6982.207556] <0>[ 6982.207556 / 02-10 03:52:26.661][1] async_resume: mmc0:0001 (mmcblk) 170645
+[ 6982.207621] <6>[ 6982.207621 / 02-10 03:52:26.661][0] PM: resume of devices complete after 171.939 msecs
+[ 6982.207712] <0>[ 6982.207712 / 02-10 03:52:26.661][0] resume_time:02-10 03:52:26.661 176
+[ 6982.212639] <4>[ 6982.212639 / 02-10 03:52:26.681][3] Restarting tasks ... done.
+[ 6982.227428] <6>[ 6982.227428 / 02-10 03:52:26.681][2] [LGE][MMC][mmc_rescan        ( ) START!] mmc0
+[ 6982.227471] <6>[ 6982.227471 / 02-10 03:52:26.681][2] [LGE][MMC][mmc_rescan        ( ) START!] mmc1
+[ 6982.227640] <6>[ 6982.227640 / 02-10 03:52:26.681][2] [LGE][MMC][mmc_power_off     ( )] host->index:1, already power-off, skip below
+[ 6982.227805] <6>[ 6982.227805 / 02-10 03:52:26.681][2] [LGE][MMC][mmc_power_off     ( )] host->index:1, already power-off, skip below
+[ 6982.227853] <6>[ 6982.227853 / 02-10 03:52:26.681][2] [LGE][MMC][mmc_rescan        ( ) START!] mmc2
+[ 6982.228222] <6>[ 6982.228222 / 02-10 03:52:26.681][3] PM: suspend exit 2018-02-10 01:52:26.684121167 UTC
+[ 6982.329455] <6>[ 6982.329455 / 02-10 03:52:26.785][3] PM: suspend entry 2018-02-10 01:52:26.785361480 UTC
+[ 6982.329479] <6>[ 6982.329479 / 02-10 03:52:26.785][3] PM: Background Syncing filesystems ... 
+[ 6982.329493] <7>[ 6982.329493 / 02-10 03:52:26.785][3] [bg_sync] queue start
+[ 6982.329529] <7>[ 6982.329529 / 02-10 03:52:26.785][3] [bg_sync] queue end, ret = true
+[ 6982.329564] <7>[ 6982.329564 / 02-10 03:52:26.785][3] [bg_sync] sys_sync start
+[ 6982.338073] <7>[ 6982.338073 / 02-10 03:52:26.789][3] [bg_sync] sys_sync done
+[ 6982.343268] <6>[ 6982.343268 / 02-10 03:52:26.797][3] [bg_sync] (2 * 10ms) ...
+[ 6982.343282] <4>[ 6982.343282 / 02-10 03:52:26.797][3] PM: done.
+[ 6982.345590] <4>[ 6982.345590 / 02-10 03:52:26.805][0] Freezing user space processes ... (elapsed 0.007 seconds) done.
+[ 6982.352675] <4>[ 6982.352675 / 02-10 03:52:26.809][0] Freezing remaining freezable tasks ... (elapsed 0.004 seconds) done.
+[ 6982.356885] <4>[ 6982.356885 / 02-10 03:52:26.809][0] Suspending console(s) (use no_console_suspend to debug)
+[ 6982.362238] <3>[ 6982.362238 / 02-10 03:52:26.813][1] mmc2: mmc_suspend_host: enter 
+[ 6982.362254] <4>[ 6982.362254 / 02-10 03:52:26.813][1] bcmsdh_sdmmc_suspend Enter
+[ 6982.362257] <4>[ 6982.362257 / 02-10 03:52:26.813][1] bcmsdh_sdmmc_suspend Enter
+[ 6982.362268] <3>[ 6982.362268 / 02-10 03:52:26.813][1] mmc2: mmc_suspend_host: exit 
+[ 6982.362614] <3>[ 6982.362614 / 02-10 03:52:26.813][1] hdmi_tx_panel_event_handler: event = 8 suspend=0, hpd_feature=0
+[ 6982.363031] <6>[ 6982.363031 / 02-10 03:52:26.817][1] max17048_set_alsc_alert. with 0
+[ 6982.363867] <3>[ 6982.363867 / 02-10 03:52:26.817][0] [Touch] touch_pm_suspend : PM_SUSPEND
+[ 6982.366132] <3>[ 6982.366132 / 02-10 03:52:26.817][0] mmc2: sdhci_msm_suspend: mmc_gpio_free_cd skip
+[ 6982.366604] <6>[ 6982.366604 / 02-10 03:52:26.817][0] [LGE VIBRATOR] qpnp_hap_play play : 0 voltage : 2088 
+[ 6982.486135] <6>[ 6982.486135 / 02-10 03:52:26.937][1] PM: suspend of devices complete after 127.774 msecs
+[ 6982.487939] <6>[ 6982.487939 / 02-10 03:52:26.941][1] PM: late suspend of devices complete after 1.749 msecs
+[ 6982.493084] <6>[ 6982.493084 / 02-10 03:52:26.945][0] PM: noirq suspend of devices complete after 5.118 msecs
+[ 6982.493140] <4>[ 6982.493140 / 02-10 03:52:26.945][0] Disabling non-boot CPUs ...
+[ 6982.495227] <4>[ 6982.495227 / 02-10 03:52:26.949][1] NOHZ: local_softirq_pending 02
+[ 6982.499707] <5>[ 6982.499707 / 02-10 03:52:26.953][3] CPU1: shutdown
+[ 6982.506561] <5>[ 6982.506561 / 02-10 03:52:26.957][3] CPU2: shutdown
+[ 6982.511506] <5>[ 6982.511506 / 02-10 03:52:26.965][0] CPU3: shutdown
+[ 6982.516071] <5>[ 6982.516071 / 02-10 03:52:26.969][0] CPU4: shutdown
+[ 6982.525607] <5>[ 6982.525607 / 02-10 03:52:26.981][0] CPU5: shutdown
+[ 6982.527155] <6>[ 6982.527155 / 02-10 03:52:26.983][0] CPU0:msm_cpu_pm_enter_sleep mode:3 during suspend
+[ 6982.527155] <6>[ 6982.527155 / 02-10 03:52:26.983][0] msm_tlmm_gp_show_resume_irq: hwirq pin 64 fired
+[ 6982.527155] <4>[ 6982.527155 / 02-10 03:52:26.983][0] gic_show_resume_irq: 200 triggered qcom,smd-rpm
+[ 6982.527155] <4>[ 6982.527155 / 02-10 03:52:26.983][0] gic_show_resume_irq: 203 triggered fc4281d0.qcom,mpm
+[ 6982.527155] <4>[ 6982.527155 / 02-10 03:52:26.983][0] gic_show_resume_irq: 240 triggered fd510000.pinctrl
+[ 6982.527155] <6>[ 6982.527155 / 02-10 03:54:11.039][0] Suspended for 104.056 seconds
+[ 6982.527998] <6>[ 6982.527998 / 02-10 03:54:11.039][0] Enabling non-boot CPUs ...
+[ 6982.528362] <5>[ 6982.528362 / 02-10 03:54:11.039][1] CPU1: Booted secondary processor
+[ 6982.529115] <6>[ 6982.529115 / 02-10 03:54:11.039][1] CPU1 is up
+[ 6982.529430] <5>[ 6982.529430 / 02-10 03:54:11.039][2] CPU2: Booted secondary processor
+[ 6982.530050] <6>[ 6982.530050 / 02-10 03:54:11.039][2] CPU2 is up
+[ 6982.530369] <5>[ 6982.530369 / 02-10 03:54:11.039][3] CPU3: Booted secondary processor
+[ 6982.531055] <6>[ 6982.531055 / 02-10 03:54:11.039][3] CPU3 is up
+[ 6982.532065] <5>[ 6982.532065 / 02-10 03:54:11.043][4] CPU4: Booted secondary processor
+[ 6982.533942] <6>[ 6982.533942 / 02-10 03:54:11.043][3] CPU4 is up
+[ 6982.534306] <5>[ 6982.534306 / 02-10 03:54:11.043][5] CPU5: Booted secondary processor
+[ 6982.535758] <6>[ 6982.535758 / 02-10 03:54:11.043][3] CPU5 is up
+[ 6982.537066] <6>[ 6982.537066 / 02-10 03:54:11.043][3] PM: noirq resume of devices complete after 1.284 msecs
+[ 6982.540707] <6>[ 6982.540707 / 02-10 03:54:11.047][3] PM: early resume of devices complete after 1.601 msecs
+[ 6982.542780] <3>[ 6982.542780 / 02-10 03:54:11.047][3] mmc2: sdhci_msm_resume: mmc_gpio_request_cd skip
+[ 6982.546327] <3>[ 6982.546327 / 02-10 03:54:11.051][0] [Touch] touch_pm_resume : PM_RESUME
+[ 6982.549640] <6>[ 6982.549640 / 02-10 03:54:11.055][0] max17048_work config : 0x3a1e /status : 0xff.
+[ 6982.550748] <6>[ 6982.550748 / 02-10 03:54:11.055][0] max17048_work : Capacity : 96,  Voltage : 4186, raw soc : 90.3, bms soc : 93, ocv : 4200
+[ 6982.550770] <6>[ 6982.550770 / 02-10 03:54:11.055][0] max17048_set_alsc_alert. with 1
+[ 6982.551530] <3>[ 6982.551530 / 02-10 03:54:11.059][0] hdmi_tx_panel_event_handler: event = 9 suspend=0, hpd_feature=0
+[ 6982.553368] <3>[ 6982.553368 / 02-10 03:54:11.412][0] mmc2: mmc_resume_host: enter 
+[ 6982.554376] <4>[ 6982.554376 / 02-10 03:54:11.412][0] bcmsdh_sdmmc_resume Enter
+[ 6982.554380] <4>[ 6982.554380 / 02-10 03:54:11.412][0] bcmsdh_sdmmc_resume Enter
+[ 6982.554387] <3>[ 6982.554387 / 02-10 03:54:11.412][0] mmc2: mmc_resume_host: exit 
+[ 6982.554713] <4>[ 6982.554713 / 02-10 03:54:11.412][0] [LGE MBHC] wcd9xxx_event_notify: enter event WCD9XXX_EVENT_POST_RESUME(47)
+[ 6982.674568] <0>[ 6982.674568 / 02-10 03:54:11.528][0] async_resume: mmc0 (mmc_host) 133226
+[ 6982.675028] <0>[ 6982.675028 / 02-10 03:54:11.532][1] async_resume: mmc0:0001 (mmcblk) 133230
+[ 6982.675180] <6>[ 6982.675180 / 02-10 03:54:11.532][2] PM: resume of devices complete after 134.435 msecs
+[ 6982.675279] <0>[ 6982.675279 / 02-10 03:54:11.532][2] resume_time:02-10 03:54:11.532 136
+[ 6982.677462] <4>[ 6982.677462 / 02-10 03:54:11.540][2] Restarting tasks ... done.
+[ 6982.686160] <6>[ 6982.686160 / 02-10 03:54:11.540][3] [LGE][MMC][mmc_rescan        ( ) START!] mmc0
+[ 6982.686189] <6>[ 6982.686189 / 02-10 03:54:11.540][3] [LGE][MMC][mmc_rescan        ( ) START!] mmc1
+[ 6982.686345] <6>[ 6982.686345 / 02-10 03:54:11.540][3] [LGE][MMC][mmc_power_off     ( )] host->index:1, already power-off, skip below
+[ 6982.686594] <6>[ 6982.686594 / 02-10 03:54:11.540][2] PM: suspend exit 2018-02-10 01:54:11.547270659 UTC
+[ 6982.687007] <6>[ 6982.687007 / 02-10 03:54:11.544][3] [LGE][MMC][mmc_power_off     ( )] host->index:1, already power-off, skip below
+[ 6982.687027] <6>[ 6982.687027 / 02-10 03:54:11.544][3] [LGE][MMC][mmc_rescan        ( ) START!] mmc2
+[ 6984.834570] <6>[ 6984.834570 / 02-10 03:54:13.688][1] PM: suspend entry 2018-02-10 01:54:13.695267585 UTC
+[ 6984.834632] <6>[ 6984.834632 / 02-10 03:54:13.688][1] PM: Background Syncing filesystems ... 
+[ 6984.834665] <7>[ 6984.834665 / 02-10 03:54:13.688][1] [bg_sync] queue start
+[ 6984.834739] <7>[ 6984.834739 / 02-10 03:54:13.688][1] [bg_sync] queue end, ret = true
+[ 6984.835213] <7>[ 6984.835213 / 02-10 03:54:13.692][0] [bg_sync] sys_sync start
+[ 6984.890709] <7>[ 6984.890709 / 02-10 03:54:13.744][0] [bg_sync] sys_sync done
+[ 6984.895323] <6>[ 6984.895323 / 02-10 03:54:13.752][1] [bg_sync] (5 * 10ms) ...
+[ 6984.895345] <4>[ 6984.895345 / 02-10 03:54:13.752][1] PM: done.
+[ 6984.898375] <4>[ 6984.898375 / 02-10 03:54:13.760][0] Freezing user space processes ... 
+[ 6984.905311] <6>[ 6984.905311 / 02-10 03:54:13.760][0] PM: Wakeup pending, aborting suspend
+[ 6984.905571] <6>[ 6984.905571 / 02-10 03:54:13.760][0] active wakeup source: fd440000.qcrypto
+[ 6984.905653] <4>[ 6984.905653 / 02-10 03:54:13.760][0] 
+[ 6984.905666] <3>[ 6984.905666 / 02-10 03:54:13.760][0] Freezing of tasks aborted after 0.007 seconds
+[ 6984.905679] <4>[ 6984.905679 / 02-10 03:54:13.768][0] Restarting tasks ... done.
+[ 6984.912227] <6>[ 6984.912227 / 02-10 03:54:13.768][2] [LGE][MMC][mmc_rescan        ( ) START!] mmc0
+[ 6984.912247] <6>[ 6984.912247 / 02-10 03:54:13.768][0] PM: suspend exit 2018-02-10 01:54:13.772957116 UTC
+[ 6984.912265] <6>[ 6984.912265 / 02-10 03:54:13.768][2] [LGE][MMC][mmc_rescan        ( ) START!] mmc1
+[ 6984.912353] <6>[ 6984.912353 / 02-10 03:54:13.768][2] [LGE][MMC][mmc_power_off     ( )] host->index:1, already power-off, skip below
+[ 6984.912777] <6>[ 6984.912777 / 02-10 03:54:13.768][2] [LGE][MMC][mmc_power_off     ( )] host->index:1, already power-off, skip below
+[ 6984.912800] <6>[ 6984.912800 / 02-10 03:54:13.768][2] [LGE][MMC][mmc_rescan        ( ) START!] mmc2
+[ 6986.847783] <6>[ 6986.847783 / 02-10 03:54:15.704][0] PM: suspend entry 2018-02-10 01:54:15.708480449 UTC
+[ 6986.847847] <6>[ 6986.847847 / 02-10 03:54:15.704][0] PM: Background Syncing filesystems ... 
+[ 6986.847879] <7>[ 6986.847879 / 02-10 03:54:15.704][0] [bg_sync] queue start
+[ 6986.847968] <7>[ 6986.847968 / 02-10 03:54:15.704][0] [bg_sync] queue end, ret = true
+[ 6986.848541] <7>[ 6986.848541 / 02-10 03:54:15.704][1] [bg_sync] sys_sync start
+[ 6986.874728] <7>[ 6986.874728 / 02-10 03:54:15.728][1] [bg_sync] sys_sync done
+[ 6986.879433] <6>[ 6986.879433 / 02-10 03:54:15.736][0] [bg_sync] (3 * 10ms) ...
+[ 6986.879469] <4>[ 6986.879469 / 02-10 03:54:15.736][0] PM: done.
+[ 6986.883928] <4>[ 6986.883928 / 02-10 03:54:15.752][1] Freezing user space processes ... (elapsed 0.013 seconds) done.
+[ 6986.897755] <4>[ 6986.897755 / 02-10 03:54:15.760][1] Freezing remaining freezable tasks ... (elapsed 0.006 seconds) done.
+[ 6986.904752] <4>[ 6986.904752 / 02-10 03:54:15.760][1] Suspending console(s) (use no_console_suspend to debug)
+[ 6986.912555] <3>[ 6986.912555 / 02-10 03:54:15.768][0] mmc2: mmc_suspend_host: enter 
+[ 6986.912580] <4>[ 6986.912580 / 02-10 03:54:15.768][0] bcmsdh_sdmmc_suspend Enter
+[ 6986.912586] <4>[ 6986.912586 / 02-10 03:54:15.768][0] bcmsdh_sdmmc_suspend Enter
+[ 6986.912608] <3>[ 6986.912608 / 02-10 03:54:15.768][0] mmc2: mmc_suspend_host: exit 
+[ 6986.913180] <3>[ 6986.913180 / 02-10 03:54:15.768][0] hdmi_tx_panel_event_handler: event = 8 suspend=0, hpd_feature=0
+[ 6986.913765] <6>[ 6986.913765 / 02-10 03:54:15.768][0] max17048_set_alsc_alert. with 0
+[ 6986.919592] <3>[ 6986.919592 / 02-10 03:54:15.776][0] [Touch] touch_pm_suspend : PM_SUSPEND
+[ 6986.923811] <3>[ 6986.923811 / 02-10 03:54:15.780][0] mmc2: sdhci_msm_suspend: mmc_gpio_free_cd skip
+[ 6986.924706] <6>[ 6986.924706 / 02-10 03:54:15.780][0] [LGE VIBRATOR] qpnp_hap_play play : 0 voltage : 2088 
+[ 6987.041959] <6>[ 6987.041959 / 02-10 03:54:15.896][0] PM: suspend of devices complete after 134.256 msecs
+[ 6987.044807] <6>[ 6987.044807 / 02-10 03:54:15.900][0] PM: late suspend of devices complete after 2.761 msecs
+[ 6987.051530] <6>[ 6987.051530 / 02-10 03:54:15.908][0] PM: noirq suspend of devices complete after 6.670 msecs
+[ 6987.051587] <4>[ 6987.051587 / 02-10 03:54:15.908][0] Disabling non-boot CPUs ...
+[ 6987.055580] <4>[ 6987.055580 / 02-10 03:54:15.912][1] migrate_irqs: 3878 callbacks suppressed
+[ 6987.055591] <4>[ 6987.055591 / 02-10 03:54:15.912][1] IRQ32 no longer affine to CPU1
+[ 6987.055604] <4>[ 6987.055604 / 02-10 03:54:15.912][1] IRQ33 no longer affine to CPU1
+[ 6987.055616] <4>[ 6987.055616 / 02-10 03:54:15.912][1] IRQ34 no longer affine to CPU1
+[ 6987.055628] <4>[ 6987.055628 / 02-10 03:54:15.912][1] IRQ35 no longer affine to CPU1
+[ 6987.055639] <4>[ 6987.055639 / 02-10 03:54:15.912][1] IRQ36 no longer affine to CPU1
+[ 6987.055649] <4>[ 6987.055649 / 02-10 03:54:15.912][1] IRQ37 no longer affine to CPU1
+[ 6987.055661] <4>[ 6987.055661 / 02-10 03:54:15.912][1] IRQ38 no longer affine to CPU1
+[ 6987.055672] <4>[ 6987.055672 / 02-10 03:54:15.912][1] IRQ39 no longer affine to CPU1
+[ 6987.055685] <4>[ 6987.055685 / 02-10 03:54:15.912][1] IRQ41 no longer affine to CPU1
+[ 6987.055696] <4>[ 6987.055696 / 02-10 03:54:15.912][1] IRQ42 no longer affine to CPU1
+[ 6987.059752] <5>[ 6987.059752 / 02-10 03:54:15.916][0] CPU1: shutdown
+[ 6987.067260] <5>[ 6987.067260 / 02-10 03:54:15.924][0] CPU2: shutdown
+[ 6987.074525] <5>[ 6987.074525 / 02-10 03:54:15.932][0] CPU3: shutdown
+[ 6987.084277] <5>[ 6987.084277 / 02-10 03:54:15.944][0] CPU4: shutdown
+[ 6987.089396] <5>[ 6987.089396 / 02-10 03:54:15.948][0] CPU5: shutdown
+[ 6987.091505] <6>[ 6987.091505 / 02-10 03:54:15.952][0] CPU0:msm_cpu_pm_enter_sleep mode:3 during suspend
+[ 6987.091505] <4>[ 6987.091505 / 02-10 03:54:15.952][0] __qpnpint_handle_irq: 471 triggered [0x2, 0x13,0x0] usbin-uv
+[ 6987.091505] <4>[ 6987.091505 / 02-10 03:54:15.952][0] gic_show_resume_irq: 200 triggered qcom,smd-rpm
+[ 6987.091505] <4>[ 6987.091505 / 02-10 03:54:15.952][0] gic_show_resume_irq: 203 triggered fc4281d0.qcom,mpm
+[ 6987.091505] <4>[ 6987.091505 / 02-10 03:54:15.952][0] gic_show_resume_irq: 222 triggered fc4cf000.qcom,spmi
+[ 6987.091505] <6>[ 6987.091505 / 02-10 03:54:24.354][0] Suspended for 8.402 seconds
+[ 6987.092609] <6>[ 6987.092609 / 02-10 03:54:24.354][0] Enabling non-boot CPUs ...
+[ 6987.093156] <5>[ 6987.093156 / 02-10 03:54:24.354][1] CPU1: Booted secondary processor
+[ 6987.094407] <6>[ 6987.094407 / 02-10 03:54:24.354][0] CPU1 is up
+[ 6987.094820] <5>[ 6987.094820 / 02-10 03:54:24.354][2] CPU2: Booted secondary processor
+[ 6987.096206] <6>[ 6987.096206 / 02-10 03:54:24.354][2] CPU2 is up
+[ 6987.096842] <5>[ 6987.096842 / 02-10 03:54:24.354][3] CPU3: Booted secondary processor
+[ 6987.097990] <6>[ 6987.097990 / 02-10 03:54:24.354][2] CPU3 is up
+[ 6987.099162] <5>[ 6987.099162 / 02-10 03:54:24.354][4] CPU4: Booted secondary processor
+[ 6987.101484] <6>[ 6987.101484 / 02-10 03:54:24.362][2] CPU4 is up
+[ 6987.101942] <5>[ 6987.101942 / 02-10 03:54:24.362][5] CPU5: Booted secondary processor
+[ 6987.104016] <6>[ 6987.104016 / 02-10 03:54:24.362][2] CPU5 is up
+[ 6987.106161] <6>[ 6987.106161 / 02-10 03:54:24.362][2] PM: noirq resume of devices complete after 2.110 msecs
+[ 6987.108978] <6>[ 6987.108978 / 02-10 03:54:24.366][0] SMBCHG: usbin_uv_handler: chip->usb_present = 0 usb_present = 0
+[ 6987.111705] <6>[ 6987.111705 / 02-10 03:54:24.370][2] PM: early resume of devices complete after 2.688 msecs
+[ 6987.114962] <3>[ 6987.114962 / 02-10 03:54:24.374][0] mmc2: sdhci_msm_resume: mmc_gpio_request_cd skip
+[ 6987.119821] <3>[ 6987.119821 / 02-10 03:54:24.378][1] [Touch] touch_pm_resume : PM_RESUME
+[ 6987.121654] <6>[ 6987.121654 / 02-10 03:54:24.378][0] max17048_work config : 0x3a1e /status : 0xff.
+[ 6987.124258] <6>[ 6987.124258 / 02-10 03:54:24.382][0] max17048_work : Capacity : 96,  Voltage : 4200, raw soc : 90.3, bms soc : 93, ocv : 4200
+[ 6987.124298] <6>[ 6987.124298 / 02-10 03:54:24.382][0] max17048_set_alsc_alert. with 1
+[ 6987.125087] <3>[ 6987.125087 / 02-10 03:54:24.382][0] hdmi_tx_panel_event_handler: event = 9 suspend=0, hpd_feature=0
+[ 6987.126987] <3>[ 6987.126987 / 02-10 03:54:24.412][0] mmc2: mmc_resume_host: enter 
+[ 6987.128106] <4>[ 6987.128106 / 02-10 03:54:24.412][0] bcmsdh_sdmmc_resume Enter
+[ 6987.128114] <4>[ 6987.128114 / 02-10 03:54:24.412][0] bcmsdh_sdmmc_resume Enter
+[ 6987.128126] <3>[ 6987.128126 / 02-10 03:54:24.412][0] mmc2: mmc_resume_host: exit 
+[ 6987.128693] <4>[ 6987.128693 / 02-10 03:54:24.412][0] [LGE MBHC] wcd9xxx_event_notify: enter event WCD9XXX_EVENT_POST_RESUME(47)
+[ 6987.282143] <0>[ 6987.282143 / 02-10 03:54:24.564][0] async_resume: mmc0 (mmc_host) 169437
+[ 6987.282663] <0>[ 6987.282663 / 02-10 03:54:24.564][1] async_resume: mmc0:0001 (mmcblk) 169405
+[ 6987.282951] <6>[ 6987.282951 / 02-10 03:54:24.568][0] PM: resume of devices complete after 171.181 msecs
+[ 6987.283027] <0>[ 6987.283027 / 02-10 03:54:24.568][0] resume_time:02-10 03:54:24.568 175
+[ 6987.287540] <4>[ 6987.287540 / 02-10 03:54:24.584][2] Restarting tasks ... done.
+[ 6987.301192] <6>[ 6987.301192 / 02-10 03:54:24.584][2] PM: suspend exit 2018-02-10 01:54:24.588282846 UTC
+[ 6987.302723] <6>[ 6987.302723 / 02-10 03:54:24.584][0] [LGE][MMC][mmc_rescan        ( ) START!] mmc0
+[ 6987.303150] <6>[ 6987.303150 / 02-10 03:54:24.588][0] [LGE][MMC][mmc_rescan        ( ) START!] mmc1
+[ 6987.304108] <6>[ 6987.304108 / 02-10 03:54:24.588][0] [LGE][MMC][mmc_power_off     ( )] host->index:1, already power-off, skip below
+[ 6987.304768] <6>[ 6987.304768 / 02-10 03:54:24.588][0] [LGE][MMC][mmc_power_off     ( )] host->index:1, already power-off, skip below
+[ 6987.304819] <6>[ 6987.304819 / 02-10 03:54:24.588][0] [LGE][MMC][mmc_rescan        ( ) START!] mmc2
+[ 6987.936469] <6>[ 6987.936469 / 02-10 03:54:25.220][1] SMBCHG: power_ok_handler: triggered: 0x01
+[ 6987.936506] <6>[ 6987.936506 / 02-10 03:54:25.220][0] SMBCHG: src_detect_handler: chip->usb_present = 0 usb_present = 1 src_detect = 1
+[ 6987.936507] <6>[ 6987.936507 / 02-10 03:54:25.220][0] SMBCHG: smbchg_primary_usb_en: usb enabled, susp = 00, en? = 1, reason = 40
+[ 6987.936552] <6>[ 6987.936552 / 02-10 03:54:25.220][0] SMBCHG: get_parallel_psy: parallel charger not found
+[ 6987.936564] <6>[ 6987.936564 / 02-10 03:54:25.220][0] SMBCHG: handle_usb_insertion: triggered
+[ 6987.936599] <6>[ 6987.936599 / 02-10 03:54:25.220][0] SMBCHG: handle_usb_insertion: inserted type = 4 (SDP)
+[ 6987.937604] <6>[ 6987.937604 / 02-10 03:54:25.220][0] SMBCHG: handle_usb_insertion: SDP detected setting mA = 100
+[ 6987.937641] <6>[ 6987.937641 / 02-10 03:54:25.220][0] SMBCHG: smbchg_set_usb_current_max: USB current_ma = 100
+[ 6987.937654] <6>[ 6987.937654 / 02-10 03:54:25.220][0] SMBCHG: smbchg_primary_usb_en: usb enabled, susp = 00, en? = 1, reason = 04
+[ 6987.937784] <6>[ 6987.937784 / 02-10 03:54:25.220][0] SMBCHG: smbchg_set_usb_current_max: usb type = SDP current set to 100 mA
+[ 6987.937798] <6>[ 6987.937798 / 02-10 03:54:25.220][0] SMBCHG: smbchg_set_thermal_limited_usb_current_max: AICL = 1500, ICL = 100
+[ 6987.937819] <6>[ 6987.937819 / 02-10 03:54:25.220][0] SMBCHG: get_parallel_psy: parallel charger not found
+[ 6987.937973] <6>[ 6987.937973 / 02-10 03:54:25.220][0] [CC] After update_pm_psy_status (iusb=0)(CC=0)(org=0)(wlc=900)
+[ 6987.938005] <6>[ 6987.938005 / 02-10 03:54:25.220][0] [CC] OTP scenario enabled
+[ 6987.938022] <6>[ 6987.938022 / 02-10 03:54:25.220][0] [CC] Charger Off_line!
+[ 6987.938085] <6>[ 6987.938085 / 02-10 03:54:25.220][0] SMBCHG: smbchg_external_power_changed: changed current_limit = 0
+[ 6987.938112] <6>[ 6987.938112 / 02-10 03:54:25.220][0] SMBCHG: smbchg_set_usb_current_max: USB current_ma = 0
+[ 6987.938123] <6>[ 6987.938123 / 02-10 03:54:25.220][0] SMBCHG: smbchg_primary_usb_en: usb enabled, susp = 00, en? = 1, reason = 04
+[ 6987.938239] <6>[ 6987.938239 / 02-10 03:54:25.220][0] SMBCHG: smbchg_set_usb_current_max: usb type = SDP current set to 100 mA
+[ 6987.938250] <6>[ 6987.938250 / 02-10 03:54:25.220][0] SMBCHG: smbchg_set_thermal_limited_usb_current_max: AICL = 1500, ICL = 100
+[ 6987.938263] <6>[ 6987.938263 / 02-10 03:54:25.220][0] SMBCHG: get_parallel_psy: parallel charger not found
+[ 6987.938277] <6>[ 6987.938277 / 02-10 03:54:25.220][0] SMBCHG: smbchg_stay_awake: staying awake: 0x02 (bit 2)
+[ 6987.938295] <6>[ 6987.938295 / 02-10 03:54:25.220][0] SMBCHG: smbchg_vfloat_adjust_check: Starting vfloat adjustments
+[ 6987.938731] <6>[ 6987.938731 / 02-10 03:54:25.220][0] SMBCHG: smbchg_update_bmd_work: smbchg_update_bmd_work = 1
+[ 6987.973063] <6>[ 6987.973063 / 02-10 03:54:25.256][0] SMBCHG: smbchg_relax: relaxing: 0x00 (bit 2)
+[ 6987.973280] <6>[ 6987.973280 / 02-10 03:54:25.256][0] [CC] charge_type = 1
+[ 6987.980780] <6>[ 6987.980780 / 02-10 03:54:25.264][0] [CC] update usb online. cc->online = 0, online = 1.
+[ 6987.980799] <6>[ 6987.980799 / 02-10 03:54:25.264][0] [CC] After update_pm_psy_status (iusb=0)(CC=0)(org=0)(wlc=900)
+[ 6987.980828] <6>[ 6987.980828 / 02-10 03:54:25.264][0] [CC] USB Current Set!
+[ 6987.980842] <6>[ 6987.980842 / 02-10 03:54:25.264][0] [CC] Ibat max = 2000, OTP = -1, thermal = -1, set current = (0) -> (2000)
+[ 6987.980857] <6>[ 6987.980857 / 02-10 03:54:25.264][0] SMBCHG: smbchg_battchg_en: battchg disabled, susp = 01, en? = 1, reason = 01
+[ 6987.980897] <6>[ 6987.980897 / 02-10 03:54:25.264][0] SMBCHG: smbchg_battchg_en: batt charging enabled, battchg_disabled = 00
+[ 6987.980906] <6>[ 6987.980906 / 02-10 03:54:25.264][0] SMBCHG: smbchg_set_fastchg_current_user: User setting FCC to 2000
+[ 6987.980916] <6>[ 6987.980916 / 02-10 03:54:25.264][0] SMBCHG: smbchg_is_parallel_usb_ok: Parallel charging not enabled
+[ 6987.980926] <6>[ 6987.980926 / 02-10 03:54:25.264][0] SMBCHG: smbchg_set_fastchg_current: not configuring FCC current: 2000 FCC: 2000
+[ 6987.980974] <6>[ 6987.980974 / 02-10 03:54:25.264][0] SMBCHG: smbchg_stay_awake: staying awake: 0x02 (bit 2)
+[ 6987.980989] <6>[ 6987.980989 / 02-10 03:54:25.264][0] SMBCHG: smbchg_vfloat_adjust_check: Starting vfloat adjustments
+[ 6987.981078] <6>[ 6987.981078 / 02-10 03:54:25.264][0] [CC] changed battery_status_charger = (2) -> (3)
+[ 6987.981090] <6>[ 6987.981090 / 02-10 03:54:25.264][0] [CC] changed batt_status_cc = (2) -> (3)
+[ 6987.981098] <6>[ 6987.981098 / 02-10 03:54:25.264][0] [CC] chg_wake_locked
+[ 6987.981114] <6>[ 6987.981114 / 02-10 03:54:25.264][0] SMBCHG: get_parallel_psy: parallel charger not found
+[ 6987.981403] <6>[ 6987.981403 / 02-10 03:54:25.264][0] [CC] charge_type = 1
+[ 6987.981433] <6>[ 6987.981433 / 02-10 03:54:25.264][0] SMBCHG: smbchg_relax: relaxing: 0x00 (bit 2)
+[ 6987.981627] <6>[ 6987.981627 / 02-10 03:54:25.264][0] [CC] charge_type = 1
+[ 6987.996308] <6>[ 6987.996308 / 02-10 03:54:25.280][0] msm-usb-hsphy f92f8800.hsphy: OTG mode: 0
+[ 6988.007151] <6>[ 6988.007151 / 02-10 03:54:25.292][0] msm-dwc3 f9200000.ssusb: DWC3 exited from low power mode
+[ 6988.007208] <6>[ 6988.007208 / 02-10 03:54:25.292][0] msm-dwc3 f9200000.ssusb:  charger type: USB_SDP_CHARGER
+[ 6988.008543] <6>[ 6988.008543 / 02-10 03:54:25.292][0] lge_pm_get_cable_info : adc_read-1800000
+[ 6988.008562] <3>[ 6988.008562 / 02-10 03:54:25.292][0] 
+[ 6988.008562] <3>[ 6988.008562 / 02-10 03:54:25.292][0] 
+[ 6988.008562] <3>[ 6988.008562 / 02-10 03:54:25.292][0] [PM]Cable detected: 1800000(OPEN)(1800, 500)
+[ 6988.008562] <3>[ 6988.008562 / 02-10 03:54:25.292][0] 
+[ 6988.008612] <6>[ 6988.008612 / 02-10 03:54:25.292][0] [Touch] TA Type : 1
+[ 6988.008636] <3>[ 6988.008636 / 02-10 03:54:25.292][0] [Touch] update_status : code[1] value[1]
+[ 6988.008659] <6>[ 6988.008659 / 02-10 03:54:25.292][0] dwc3 f9200000.dwc3: Avail curr from USB = 500
+[ 6988.008735] <6>[ 6988.008735 / 02-10 03:54:25.292][0] [CC] Present iusb current =500
+[ 6988.008745] <6>[ 6988.008745 / 02-10 03:54:25.292][0] [CC] After update_pm_psy_status (iusb=500)(CC=0)(org=0)(wlc=900)
+[ 6988.008754] <6>[ 6988.008754 / 02-10 03:54:25.292][0] [CC] USB PSY changed by original dwc (500)
+[ 6988.008780] <6>[ 6988.008780 / 02-10 03:54:25.292][0] [CC] USB Current Set!
+[ 6988.008794] <6>[ 6988.008794 / 02-10 03:54:25.292][0] [CC] Set iUSB usb current value = 500
+[ 6988.008839] <6>[ 6988.008839 / 02-10 03:54:25.292][0] SMBCHG: smbchg_external_power_changed: changed current_limit = 500
+[ 6988.008862] <6>[ 6988.008862 / 02-10 03:54:25.292][0] SMBCHG: smbchg_set_usb_current_max: USB current_ma = 500
+[ 6988.008873] <6>[ 6988.008873 / 02-10 03:54:25.292][0] SMBCHG: smbchg_primary_usb_en: usb enabled, susp = 00, en? = 1, reason = 04
+[ 6988.008970] <6>[ 6988.008970 / 02-10 03:54:25.292][0] SMBCHG: smbchg_set_usb_current_max: usb type = SDP current set to 500 mA
+[ 6988.008979] <6>[ 6988.008979 / 02-10 03:54:25.292][0] SMBCHG: smbchg_set_thermal_limited_usb_current_max: AICL = 1500, ICL = 500
+[ 6988.008993] <6>[ 6988.008993 / 02-10 03:54:25.292][0] SMBCHG: get_parallel_psy: parallel charger not found
+[ 6988.009003] <6>[ 6988.009003 / 02-10 03:54:25.292][0] SMBCHG: smbchg_stay_awake: staying awake: 0x02 (bit 2)
+[ 6988.009016] <6>[ 6988.009016 / 02-10 03:54:25.292][0] SMBCHG: smbchg_vfloat_adjust_check: Starting vfloat adjustments
+[ 6988.009110] <6>[ 6988.009110 / 02-10 03:54:25.292][0] SMBCHG: get_parallel_psy: parallel charger not found
+[ 6988.009399] <6>[ 6988.009399 / 02-10 03:54:25.292][0] [CC] After update_pm_psy_status (iusb=500)(CC=500)(org=500)(wlc=900)
+[ 6988.009421] <6>[ 6988.009421 / 02-10 03:54:25.292][0] [CC] USB Current Set!
+[ 6988.009446] <6>[ 6988.009446 / 02-10 03:54:25.292][0] SMBCHG: smbchg_relax: relaxing: 0x00 (bit 2)
+[ 6988.009648] <6>[ 6988.009648 / 02-10 03:54:25.292][0] [CC] charge_type = 1
+[ 6988.276767] <6>[ 6988.276767 / 02-10 03:54:25.560][0] android_work: android_work: sent uevent USB_STATE=CONNECTED
+[ 6988.279669] <6>[ 6988.279669 / 02-10 03:54:25.564][0] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+[ 6988.320052] <6>[ 6988.320052 / 02-10 03:54:25.604][0] SMBCHG: fastchg_handler: p2f triggered
+[ 6988.320136] <6>[ 6988.320136 / 02-10 03:54:25.604][0] SMBCHG: get_parallel_psy: parallel charger not found
+[ 6988.320285] <6>[ 6988.320285 / 02-10 03:54:25.604][0] [CC] changed battery_status_charger = (3) -> (1)
+[ 6988.320324] <6>[ 6988.320324 / 02-10 03:54:25.604][0] [CC] changed batt_status_cc = (3) -> (1)
+[ 6988.320367] <6>[ 6988.320367 / 02-10 03:54:25.604][0] SMBCHG: get_parallel_psy: parallel charger not found
+[ 6988.320514] <6>[ 6988.320514 / 02-10 03:54:25.604][0] SMBCHG: smbchg_stay_awake: staying awake: 0x02 (bit 2)
+[ 6988.320559] <6>[ 6988.320559 / 02-10 03:54:25.604][0] SMBCHG: smbchg_vfloat_adjust_check: Starting vfloat adjustments
+[ 6988.321783] <6>[ 6988.321783 / 02-10 03:54:25.604][0] [CC] charge_type = 3
+[ 6988.323262] <6>[ 6988.323262 / 02-10 03:54:25.608][0] SMBCHG: smbchg_relax: relaxing: 0x00 (bit 2)
+[ 6988.324939] <6>[ 6988.324939 / 02-10 03:54:25.608][0] SMBCHG: smbchg_stay_awake: staying awake: 0x02 (bit 2)
+[ 6988.324996] <6>[ 6988.324996 / 02-10 03:54:25.608][0] SMBCHG: smbchg_vfloat_adjust_check: Starting vfloat adjustments
+[ 6988.325152] <6>[ 6988.325152 / 02-10 03:54:25.608][0] SMBCHG: get_parallel_psy: parallel charger not found
+[ 6988.325813] <6>[ 6988.325813 / 02-10 03:54:25.608][0] SMBCHG: smbchg_relax: relaxing: 0x00 (bit 2)
+[ 6988.326115] <6>[ 6988.326115 / 02-10 03:54:25.608][0] [CC] charge_type = 3
+[ 6988.424252] <6>[ 6988.424252 / 02-10 03:54:25.708][0] android_work: android_work: sent uevent USB_STATE=CONNECTED
+[ 6988.424693] <6>[ 6988.424693 / 02-10 03:54:25.708][0] android_usb gadget: high-speed config #1: fe80f0c8.android_usb
+[ 6988.425595] <6>[ 6988.425595 / 02-10 03:54:25.708][0] [CC] After update_pm_psy_status (iusb=500)(CC=500)(org=500)(wlc=900)
+[ 6988.425641] <6>[ 6988.425641 / 02-10 03:54:25.708][0] [CC] USB Current Set!
+[ 6988.425711] <6>[ 6988.425711 / 02-10 03:54:25.708][0] SMBCHG: smbchg_stay_awake: staying awake: 0x02 (bit 2)
+[ 6988.425736] <6>[ 6988.425736 / 02-10 03:54:25.708][0] SMBCHG: smbchg_vfloat_adjust_check: Starting vfloat adjustments
+[ 6988.425864] <6>[ 6988.425864 / 02-10 03:54:25.708][0] SMBCHG: get_parallel_psy: parallel charger not found
+[ 6988.426474] <6>[ 6988.426474 / 02-10 03:54:25.708][0] SMBCHG: smbchg_relax: relaxing: 0x00 (bit 2)
+[ 6988.426736] <6>[ 6988.426736 / 02-10 03:54:25.708][0] [CC] charge_type = 3
+[ 6988.479164] <6>[ 6988.479164 / 02-10 03:54:25.764][0] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+[ 6989.119550] <3>[ 6989.119550 / 02-10 03:54:26.404][0] qpnp_pon_input_dispatch: code(116), value(1)
+[ 6989.120009] <6>[ 6989.120009 / 02-10 03:54:26.404][1] SMBCHG: power_ok_handler: triggered: 0x01
+[ 6989.120044] <6>[ 6989.120044 / 02-10 03:54:26.404][0] SMBCHG: usbin_uv_handler: chip->usb_present = 1 usb_present = 1
+[ 6989.140553] <6>[ 6989.140553 / 02-10 03:54:26.424][0] mdss_fb_blank_sub: + mdss_fb_blank+0x130/0x144 fb0 mode:0
+[ 6989.141609] <3>[ 6989.141609 / 02-10 03:54:26.424][0] hdmi_tx_panel_event_handler: event = 9 suspend=0, hpd_feature=0
+[ 6989.158301] <6>[ 6989.158301 / 02-10 03:54:26.440][3] [Touch] Deep to Active!
+[ 6989.168313] <3>[ 6989.168313 / 02-10 03:54:26.452][3] [Touch] safety_reset start
+[ 6989.168319] <3>[ 6989.168319 / 02-10 03:54:26.452][3] [Touch] SOFT_RESET
+[ 6989.172850] <6>[ 6989.172850 / 02-10 03:54:26.456][0] CFG80211-TRACE) __wl_cfg80211_scan : START SCAN
+[ 6989.174640] <4>[ 6989.174640 / 02-10 03:54:26.456][1] dhd_set_suspend: Remove extra suspend setting 
+[ 6989.202069] <3>[ 6989.202069 / 02-10 03:54:26.484][0] qpnp_pon_input_dispatch: code(116), value(0)
+[ 6989.202934] <3>[ 6989.202934 / 02-10 03:54:26.488][3] [Touch] safety_reset end
+[ 6989.202970] <6>[ 6989.202970 / 02-10 03:54:26.488][3] mdss_dsi_panel_power_ctrl: cur_power_state=0 req_power_state=1
+[ 6989.202979] <3>[ 6989.202979 / 02-10 03:54:26.488][0] [Touch E] [synaptics_ts_get_data 6781] synaptics_ts_get_data, 6781 : ts->is_init == 0, IGNORE_EVENT!!, s:
+[ 6989.202990] <3>[ 6989.202990 / 02-10 03:54:26.488][0] [Touch E] [synaptics_ts_get_data 6781] synaptics_ts_get_data, 6781 : ts->is_init == 0, IGNORE_EVENT!!, s:
+[ 6989.221287] <6>[ 6989.221287 / 02-10 03:54:26.504][0] mdss_dsi_on-:
+[ 6989.221313] <6>[ 6989.221313 / 02-10 03:54:26.504][0] mdss_dsi_panel_power_ctrl: cur_power_state=0 req_power_state=1
+[ 6989.221338] <6>[ 6989.221338 / 02-10 03:54:26.504][0] jdi_qhd_command_mdss_dsi_panel_reset: enable = 1, ndx = 1
+[ 6989.221346] <6>[ 6989.221346 / 02-10 03:54:26.504][0] dw8768_mode_change mode = 1
+[ 6989.233039] <6>[ 6989.233039 / 02-10 03:54:26.516][2] mdss_dsi_on-:
+[ 6989.237621] <6>[ 6989.237621 / 02-10 03:54:26.520][0] mdss_dsi_panel_on:-
+[ 6989.239595] <6>[ 6989.239595 / 02-10 03:54:26.524][0] mdss_dsi_unblank-:
+[ 6989.414401] <6>[ 6989.414401 / 02-10 03:54:26.696][1] mdss_dsi_panel_on:-
+[ 6989.438192] <6>[ 6989.438192 / 02-10 03:54:26.720][2] mdss_dsi_unblank-:
+[ 6989.442748] <6>[ 6989.442748 / 02-10 03:54:26.724][2] mdss_fb_blank_sub: -
+[ 6989.442822] <3>[ 6989.442822 / 02-10 03:54:26.728][2] [Touch] fb_notifier_callback : event = 0
+[ 6989.442826] <3>[ 6989.442826 / 02-10 03:54:26.728][2] [Touch] touch_resume : touch_resume start
+[ 6989.442830] <3>[ 6989.442830 / 02-10 03:54:26.728][2] [Touch] touch_resume : Normal mode
+[ 6989.442841] <3>[ 6989.442841 / 02-10 03:54:26.728][2] [Touch E] [print_swipe_fail_reason 501] print_swipe_fail_reason, 501 : swipe fail reason
+[ 6989.443520] <3>[ 6989.443520 / 02-10 03:54:26.728][2] [Touch] last swipe_down fail reason:0(SUCCESS)
+[ 6989.443537] <3>[ 6989.443537 / 02-10 03:54:26.728][2] [Touch] synaptics_ts_power : power_state[0]
+[ 6989.443548] <3>[ 6989.443548 / 02-10 03:54:26.728][2] [Touch] synaptics_ts_power : power_state[1]
+[ 6989.443557] <3>[ 6989.443557 / 02-10 03:54:26.728][2] [Touch] touch_resume : touch_resume done
+[ 6989.447144] <6>[ 6989.447144 / 02-10 03:54:26.732][0] mdss_fb_set_bl_brightness: [LCD][WLED] backlight level=18, cal_value=36
+[ 6989.454145] <3>[ 6989.454145 / 02-10 03:54:26.736][2] [Touch E] [synaptics_ts_get_data 6781] synaptics_ts_get_data, 6781 : ts->is_init == 0, IGNORE_EVENT!!, s:
+[ 6989.461679] <3>[ 6989.461679 / 02-10 03:54:26.744][1] [Touch E] [synaptics_ts_get_data 6781] synaptics_ts_get_data, 6781 : ts->is_init == 0, IGNORE_EVENT!!, s:
+[ 6989.522947] <3>[ 6989.522947 / 02-10 03:54:26.808][1] [Touch] touch_ic_init : value = 0, panel_id = 0
+[ 6989.522992] <3>[ 6989.522992 / 02-10 03:54:26.808][1] [Touch] [synaptics_ts_init] DEVICE_CONTROL_NORMAL_OP
+[ 6989.526218] <6>[ 6989.526218 / 02-10 03:54:26.808][2] [Touch] set_rebase_param : Set for Normal
+[ 6989.527247] <3>[ 6989.527247 / 02-10 03:54:26.812][1] [Touch] palm_ctrl_mode:0
+[ 6989.529343] <6>[ 6989.529343 / 02-10 03:54:26.812][1] [Touch] Sensor Status: 1
+[ 6989.529385] <6>[ 6989.529385 / 02-10 03:54:26.812][1] [Touch] lpwg_is_enabled: 1
+[ 6989.529417] <3>[ 6989.529417 / 02-10 03:54:26.812][1] lcd_notifier_callback: TOUCH_EVENT_PROXY_STATUS received : PROXY_FAR
+[ 6989.529441] <3>[ 6989.529441 / 02-10 03:54:26.812][1] [Touch] synaptics_toggle_swipe: [S/Q/P/L] = [1/0/1/0]
+[ 6989.529460] <3>[ 6989.529460 / 02-10 03:54:26.812][1] [Touch] swipe_down_disable: (swipe_mode:0x01)
+[ 6989.530422] <3>[ 6989.530422 / 02-10 03:54:26.812][1] [Touch] swipe_up_disable: (swipe_mode:0x01)
+[ 6989.534849] <3>[ 6989.534849 / 02-10 03:54:26.820][0] [Touch] lpwg_control : lpwg_mode[0]
+[ 6989.534889] <3>[ 6989.534889 / 02-10 03:54:26.820][0] [Touch] Start [matchUp_f51_regMap]
+[ 6989.534907] <3>[ 6989.534907 / 02-10 03:54:26.820][0] [Touch] [matchUp_f51_regMap] This is P1
+[ 6989.534927] <3>[ 6989.534927 / 02-10 03:54:26.820][0] [Touch] [matchUp_f51_regMap] Complete to match-up regmap.
+[ 6989.534945] <3>[ 6989.534945 / 02-10 03:54:26.820][0] [Touch] [matchUp_f54_regMap] This is P1
+[ 6989.534963] <3>[ 6989.534963 / 02-10 03:54:26.820][0] [Touch] [matchUp_f54_regMap] Complete to match-up regmap.
+[ 6989.535220] <3>[ 6989.535220 / 02-10 03:54:26.820][1] [Touch] current_thermal_mode = LOW
+[ 6989.676246] <6>[ 6989.676246 / 02-10 03:54:26.960][0] FG: fg_rslow_charge_comp_clear: Cleared rslow charge comp values
+[ 6989.676587] <6>[ 6989.676587 / 02-10 03:54:26.960][0] [CC] charge_type = 3
+[ 6990.822930] <6>[ 6990.822930 / 02-10 03:54:28.108][0] [CC] current batt_temp[23], batt_temp_state[0], current batt_volt[4200], batt_volt_state[1]
+[ 6991.295016] <5>[ 6991.295016 / 02-10 03:54:28.580][1] pet_watchdog
+[ 6992.592708] <6>[ 6992.592708 / 02-10 03:54:29.876][0] FG: float_encode: uval = 761000, m = 0x217, sign = 0x00, exp = 0x0e, half = 0x7217
+[ 6992.592976] <6>[ 6992.592976 / 02-10 03:54:29.876][0] FG: float_encode: uval = 4365000, m = 0x5d, sign = 0x00, exp = 0x11, half = 0x885d
+[ 6992.593206] <6>[ 6992.593206 / 02-10 03:54:29.876][0] FG: float_encode: uval = 8609000, m = 0x4e, sign = 0x00, exp = 0x12, half = 0x904e
+[ 6992.593424] <6>[ 6992.593424 / 02-10 03:54:29.876][0] FG: fg_rslow_charge_comp_set: Activated rslow charge comp values
+[ 6993.171506] <6>[ 6993.171506 / 02-10 03:54:30.456][1] CFG80211-TRACE) wl_escan_handler : SCAN COMPLETED: scanned AP count=7
+[ 6997.826699] <6>[ 6997.826699 / 02-10 03:54:35.108][2] sh[18569]: syscall 278
+[ 6997.826881] <4>[ 6997.826881 / 02-10 03:54:35.112][2] Code: aa0403e3 aa0503e4 aa0603e5 d4000001 (b140041f) 
+[ 6997.826918] <4>[ 6997.826918 / 02-10 03:54:35.112][2] CPU: 2 PID: 18569 Comm: sh Not tainted 3.10.108-g0a019c8 #1
+[ 6997.826944] <4>[ 6997.826944 / 02-10 03:54:35.112][2] Hardware name: Qualcomm Technologies, Inc. MSM8992 P1 GLOBAL COM (DT)
+[ 6997.826975] <4>[ 6997.826975 / 02-10 03:54:35.112][2] task: ffffffc056f61000 ti: ffffffc026d98000 task.ti: ffffffc026d98000
+[ 6997.827005] <4>[ 6997.827005 / 02-10 03:54:35.112][2] PC is at 0x790ad83d40
+[ 6997.827030] <4>[ 6997.827030 / 02-10 03:54:35.112][2] LR is at 0x790ad9c9a8
+[ 6997.827058] <4>[ 6997.827058 / 02-10 03:54:35.112][2] pc : [<000000790ad83d40>] lr : [<000000790ad9c9a8>] pstate: 80000000
+[ 6997.827082] <4>[ 6997.827082 / 02-10 03:54:35.112][2] sp : 0000007fc9b17e50
+[ 6997.827108] <4>[ 6997.827108 / 02-10 03:54:35.112][2] x29: 0000007fc9b17f40 x28: 0000000000000000 
+[ 6997.827134] <4>[ 6997.827134 / 02-10 03:54:35.112][2] x27: 0000000000000000 x26: 0000007fc9b17e58 
+[ 6997.827160] <4>[ 6997.827160 / 02-10 03:54:35.112][2] x25: 000000790ae4da40 x24: 0000000000000000 
+[ 6997.827184] <4>[ 6997.827184 / 02-10 03:54:35.112][2] x23: 0000000000000000 x22: 0000000000000000 
+[ 6997.827208] <4>[ 6997.827208 / 02-10 03:54:35.112][2] x21: 0000000000000028 x20: 0000007fc9b17f50 
+[ 6997.827232] <4>[ 6997.827232 / 02-10 03:54:35.112][2] x19: 000000790ae4da50 x18: 0000000000000000 
+[ 6997.827282] <4>[ 6997.827282 / 02-10 03:54:35.112][2] x17: 0000000000000000 x16: 0000000000000000 
+[ 6997.827538] <4>[ 6997.827538 / 02-10 03:54:35.112][2] x15: 0000000000000000 x14: 0000000000000000 
+[ 6997.827621] <4>[ 6997.827621 / 02-10 03:54:35.112][2] x13: 0000000000000000 x12: 0000000000000001 
+[ 6997.827645] <4>[ 6997.827645 / 02-10 03:54:35.112][2] x11: 0000000000000000 x10: 0000000000000000 
+[ 6997.827669] <4>[ 6997.827669 / 02-10 03:54:35.112][2] x9 : 0000000000000000 x8 : 0000000000000116 
+[ 6997.827694] <4>[ 6997.827694 / 02-10 03:54:35.112][2] x7 : 0000000000000000 x6 : 0000000000000000 
+[ 6997.827718] <4>[ 6997.827718 / 02-10 03:54:35.112][2] x5 : 0000000000000000 x4 : 0000000000000000 
+[ 6997.827742] <4>[ 6997.827742 / 02-10 03:54:35.112][2] x3 : 0000000000000000 x2 : 0000000000000001 
+[ 6997.827766] <4>[ 6997.827766 / 02-10 03:54:35.112][2] x1 : 0000000000000028 x0 : 0000007fc9b17f50 
+[ 6997.827790] <4>[ 6997.827790 / 02-10 03:54:35.112][2] 
+[ 6997.863583] <6>[ 6997.863583 / 02-10 03:54:35.148][2] sh[18569]: syscall 278
+[ 6997.863631] <4>[ 6997.863631 / 02-10 03:54:35.148][2] Code: aa0403e3 aa0503e4 aa0603e5 d4000001 (b140041f) 
+[ 6997.863668] <4>[ 6997.863668 / 02-10 03:54:35.148][2] CPU: 2 PID: 18569 Comm: sh Not tainted 3.10.108-g0a019c8 #1
+[ 6997.863694] <4>[ 6997.863694 / 02-10 03:54:35.148][2] Hardware name: Qualcomm Technologies, Inc. MSM8992 P1 GLOBAL COM (DT)
+[ 6997.863725] <4>[ 6997.863725 / 02-10 03:54:35.148][2] task: ffffffc056f61000 ti: ffffffc026d98000 task.ti: ffffffc026d98000
+[ 6997.863756] <4>[ 6997.863756 / 02-10 03:54:35.148][2] PC is at 0x790a9e27b0
+[ 6997.863783] <4>[ 6997.863783 / 02-10 03:54:35.148][2] LR is at 0x790a9e07bc
+[ 6997.863811] <4>[ 6997.863811 / 02-10 03:54:35.148][2] pc : [<000000790a9e27b0>] lr : [<000000790a9e07bc>] pstate: 80000000
+[ 6997.863837] <4>[ 6997.863837 / 02-10 03:54:35.148][2] sp : 0000007fc9b17c20
+[ 6997.863862] <4>[ 6997.863862 / 02-10 03:54:35.148][2] x29: 0000007fc9b17d10 x28: 000000790aa6626c 
+[ 6997.863890] <4>[ 6997.863890 / 02-10 03:54:35.148][2] x27: 0000000000000003 x26: 0000007fc9b17c28 
+[ 6997.863916] <4>[ 6997.863916 / 02-10 03:54:35.148][2] x25: 000000790ae4da40 x24: 000000790adad352 
+[ 6997.863940] <4>[ 6997.863940 / 02-10 03:54:35.148][2] x23: 000000790adaa244 x22: 0000000000000002 
+[ 6997.863965] <4>[ 6997.863965 / 02-10 03:54:35.148][2] x21: 0000000000000028 x20: 0000007fc9b17d20 
+[ 6997.863990] <4>[ 6997.863990 / 02-10 03:54:35.148][2] x19: 000000790ae4da50 x18: 9a4b4776865aeb5a 
+[ 6997.864015] <4>[ 6997.864015 / 02-10 03:54:35.148][2] x17: 000000790a9e2790 x16: 000000790aa8f240 
+[ 6997.864040] <4>[ 6997.864040 / 02-10 03:54:35.148][2] x15: aaaaaaaaaaaaaaab x14: 0000000000000000 
+[ 6997.864065] <4>[ 6997.864065 / 02-10 03:54:35.148][2] x13: 000000006474e550 x12: 000000790ace3128 
+[ 6997.864089] <4>[ 6997.864089 / 02-10 03:54:35.148][2] x11: 0000000000000013 x10: 0000000000000000 
+[ 6997.864113] <4>[ 6997.864113 / 02-10 03:54:35.148][2] x9 : 0000000000000000 x8 : 0000000000000116 
+[ 6997.864138] <4>[ 6997.864138 / 02-10 03:54:35.148][2] x7 : 000000000068403d x6 : 0000131625302a31 
+[ 6997.864162] <4>[ 6997.864162 / 02-10 03:54:35.148][2] x5 : 0000131625302a31 x4 : 312a302516130000 
+[ 6997.864187] <4>[ 6997.864187 / 02-10 03:54:35.148][2] x3 : 0000000000000000 x2 : 0000000000000001 
+[ 6997.864211] <4>[ 6997.864211 / 02-10 03:54:35.148][2] x1 : 0000000000000028 x0 : 0000007fc9b17d20 
+[ 6997.864234] <4>[ 6997.864234 / 02-10 03:54:35.148][2] 
+[ 6997.880321] <6>[ 6997.880321 / 02-10 03:54:35.164][2] dmesg[18569]: syscall 278
+[ 6997.880355] <4>[ 6997.880355 / 02-10 03:54:35.164][2] Code: aa0403e3 aa0503e4 aa0603e5 d4000001 (b140041f) 
+[ 6997.880376] <4>[ 6997.880376 / 02-10 03:54:35.164][2] CPU: 2 PID: 18569 Comm: dmesg Not tainted 3.10.108-g0a019c8 #1
+[ 6997.880390] <4>[ 6997.880390 / 02-10 03:54:35.164][2] Hardware name: Qualcomm Technologies, Inc. MSM8992 P1 GLOBAL COM (DT)
+[ 6997.880406] <4>[ 6997.880406 / 02-10 03:54:35.164][2] task: ffffffc056f61000 ti: ffffffc026d98000 task.ti: ffffffc026d98000
+[ 6997.880421] <4>[ 6997.880421 / 02-10 03:54:35.164][2] PC is at 0x7397357d40
+[ 6997.880434] <4>[ 6997.880434 / 02-10 03:54:35.164][2] LR is at 0x73973709a8
+[ 6997.880447] <4>[ 6997.880447 / 02-10 03:54:35.164][2] pc : [<0000007397357d40>] lr : [<00000073973709a8>] pstate: 80000000
+[ 6997.880459] <4>[ 6997.880459 / 02-10 03:54:35.164][2] sp : 0000007fdec0f3d0
+[ 6997.880472] <4>[ 6997.880472 / 02-10 03:54:35.164][2] x29: 0000007fdec0f4c0 x28: 0000000000000000 
+[ 6997.880485] <4>[ 6997.880485 / 02-10 03:54:35.164][2] x27: 0000000000000000 x26: 0000007fdec0f3d8 
+[ 6997.880497] <4>[ 6997.880497 / 02-10 03:54:35.164][2] x25: 0000007397421a40 x24: 0000000000000000 
+[ 6997.880509] <4>[ 6997.880509 / 02-10 03:54:35.164][2] x23: 0000000000000000 x22: 0000000000000000 
+[ 6997.880521] <4>[ 6997.880521 / 02-10 03:54:35.164][2] x21: 0000000000000028 x20: 0000007fdec0f4d0 
+[ 6997.880533] <4>[ 6997.880533 / 02-10 03:54:35.164][2] x19: 0000007397421a50 x18: 0000000000000000 
+[ 6997.880544] <4>[ 6997.880544 / 02-10 03:54:35.164][2] x17: 0000000000000000 x16: 0000000000000000 
+[ 6997.880556] <4>[ 6997.880556 / 02-10 03:54:35.164][2] x15: 0000000000000000 x14: 0000000000000000 
+[ 6997.880568] <4>[ 6997.880568 / 02-10 03:54:35.164][2] x13: 0000000000000000 x12: 0000000000000001 
+[ 6997.880579] <4>[ 6997.880579 / 02-10 03:54:35.164][2] x11: 0000000000000000 x10: 0000000000000000 
+[ 6997.880591] <4>[ 6997.880591 / 02-10 03:54:35.164][2] x9 : 0000000000000000 x8 : 0000000000000116 
+[ 6997.880603] <4>[ 6997.880603 / 02-10 03:54:35.164][2] x7 : 0000000000000000 x6 : 0000000000000000 
+[ 6997.880617] <4>[ 6997.880617 / 02-10 03:54:35.164][2] x5 : 0000000000000000 x4 : 0000000000000000 
+[ 6997.880629] <4>[ 6997.880629 / 02-10 03:54:35.164][2] x3 : 0000000000000000 x2 : 0000000000000001 
+[ 6997.880641] <4>[ 6997.880641 / 02-10 03:54:35.164][2] x1 : 0000000000000028 x0 : 0000007fdec0f4d0 
+[ 6997.880653] <4>[ 6997.880653 / 02-10 03:54:35.164][2] 
+[ 6997.905913] <6>[ 6997.905913 / 02-10 03:54:35.188][2] dmesg[18569]: syscall 278
+[ 6997.905942] <4>[ 6997.905942 / 02-10 03:54:35.188][2] Code: aa0403e3 aa0503e4 aa0603e5 d4000001 (b140041f) 
+[ 6997.905964] <4>[ 6997.905964 / 02-10 03:54:35.188][2] CPU: 2 PID: 18569 Comm: dmesg Not tainted 3.10.108-g0a019c8 #1
+[ 6997.905979] <4>[ 6997.905979 / 02-10 03:54:35.188][2] Hardware name: Qualcomm Technologies, Inc. MSM8992 P1 GLOBAL COM (DT)
+[ 6997.905996] <4>[ 6997.905996 / 02-10 03:54:35.188][2] task: ffffffc056f61000 ti: ffffffc026d98000 task.ti: ffffffc026d98000
+[ 6997.906020] <4>[ 6997.906020 / 02-10 03:54:35.188][2] PC is at 0x7396faf7b0
+[ 6997.906033] <4>[ 6997.906033 / 02-10 03:54:35.188][2] LR is at 0x7396fad7bc
+[ 6997.906047] <4>[ 6997.906047 / 02-10 03:54:35.188][2] pc : [<0000007396faf7b0>] lr : [<0000007396fad7bc>] pstate: 80000000
+[ 6997.906060] <4>[ 6997.906060 / 02-10 03:54:35.188][2] sp : 0000007fdec0f120
+[ 6997.906074] <4>[ 6997.906074 / 02-10 03:54:35.188][2] x29: 0000007fdec0f210 x28: 000000739703326c 
+[ 6997.906088] <4>[ 6997.906088 / 02-10 03:54:35.188][2] x27: 0000000000000003 x26: 0000007fdec0f128 
+[ 6997.906102] <4>[ 6997.906102 / 02-10 03:54:35.188][2] x25: 0000007397421a40 x24: 0000007397381352 
+[ 6997.906115] <4>[ 6997.906115 / 02-10 03:54:35.188][2] x23: 000000739737e244 x22: 0000000000000002 
+[ 6997.906128] <4>[ 6997.906128 / 02-10 03:54:35.188][2] x21: 0000000000000028 x20: 0000007fdec0f220 
+[ 6997.906140] <4>[ 6997.906140 / 02-10 03:54:35.188][2] x19: 0000007397421a50 x18: 389d4a8fec0a1ee3 
+[ 6997.906153] <4>[ 6997.906153 / 02-10 03:54:35.188][2] x17: 0000007396faf790 x16: 000000739705c240 
+[ 6997.906166] <4>[ 6997.906166 / 02-10 03:54:35.188][2] x15: aaaaaaaaaaaaaaab x14: 0000000000000000 
+[ 6997.906177] <4>[ 6997.906177 / 02-10 03:54:35.188][2] x13: 000000006474e550 x12: 00000073972b7128 
+[ 6997.906189] <4>[ 6997.906189 / 02-10 03:54:35.188][2] x11: 0000000000000013 x10: 0000000000000000 
+[ 6997.906201] <4>[ 6997.906201 / 02-10 03:54:35.188][2] x9 : 0000000000000000 x8 : 0000000000000116 
+[ 6997.906213] <4>[ 6997.906213 / 02-10 03:54:35.188][2] x7 : 000000000028303d x6 : 0000131625302a31 
+[ 6997.906225] <4>[ 6997.906225 / 02-10 03:54:35.188][2] x5 : 0000131625302a31 x4 : 312a302516130000 
+[ 6997.906237] <4>[ 6997.906237 / 02-10 03:54:35.188][2] x3 : 0000000000000000 x2 : 0000000000000001 
+[ 6997.906250] <4>[ 6997.906250 / 02-10 03:54:35.188][2] x1 : 0000000000000028 x0 : 0000007fdec0f220 
+[ 6997.906263] <4>[ 6997.906263 / 02-10 03:54:35.188][2] 
