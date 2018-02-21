@@ -1,0 +1,757 @@
+02-21 09:21:36.334  5342  7903 I dvm_lock_sample: [com.android.systemui,0,Thread-9,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:21:36.590  5342  7903 I dvm_lock_sample: [com.android.systemui,0,Thread-9,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:21:37.062  5342  7903 I dvm_lock_sample: [com.android.systemui,0,Thread-9,23,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:21:37.725  5342  7903 I dvm_lock_sample: [com.android.systemui,0,Thread-9,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:21:37.805  5342  7903 I dvm_lock_sample: [com.android.systemui,0,Thread-9,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:21:37.895  5342  7903 I dvm_lock_sample: [com.android.systemui,0,Thread-9,29,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),5]
+02-21 09:21:38.115  5342  7903 I dvm_lock_sample: [com.android.systemui,0,Thread-9,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:21:38.944  5342  7903 I dvm_lock_sample: [com.android.systemui,0,Thread-9,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 09:21:39.295  5342  7903 I dvm_lock_sample: [com.android.systemui,0,Thread-9,21,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:21:39.471  5342  7903 I dvm_lock_sample: [com.android.systemui,0,Thread-9,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 09:21:39.510  5342  7903 I dvm_lock_sample: [com.android.systemui,0,Thread-9,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:21:39.550  5342  7903 I dvm_lock_sample: [com.android.systemui,0,Thread-9,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:22:16.137  5342  8877 I dvm_lock_sample: [com.android.systemui,0,Thread-17,39,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),7]
+02-21 09:22:16.256  5342  8877 I dvm_lock_sample: [com.android.systemui,0,Thread-17,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:22:16.907  5342  8877 I dvm_lock_sample: [com.android.systemui,0,Thread-17,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:22:17.102  5342  8877 I dvm_lock_sample: [com.android.systemui,0,Thread-17,36,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),7]
+02-21 09:22:18.311  5342  8877 I dvm_lock_sample: [com.android.systemui,0,Thread-17,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:22:18.351  5342  8877 I dvm_lock_sample: [com.android.systemui,0,Thread-17,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:22:19.767  5342  8877 I dvm_lock_sample: [com.android.systemui,0,Thread-17,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:22:19.787  5342  8877 I dvm_lock_sample: [com.android.systemui,0,Thread-17,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:22:19.826  5342  8877 I dvm_lock_sample: [com.android.systemui,0,Thread-17,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 09:22:19.976  5342  8877 I dvm_lock_sample: [com.android.systemui,0,Thread-17,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 09:22:20.039  5342  8877 I dvm_lock_sample: [com.android.systemui,0,Thread-17,42,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:22:20.476  5342  8877 I dvm_lock_sample: [com.android.systemui,0,Thread-17,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:22:20.606  5342  8877 I dvm_lock_sample: [com.android.systemui,0,Thread-17,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:22:20.706  5342  8877 I dvm_lock_sample: [com.android.systemui,0,Thread-17,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 09:22:46.198  5342  9233 I dvm_lock_sample: [com.android.systemui,0,Thread-25,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:22:46.257  5342  9233 I dvm_lock_sample: [com.android.systemui,0,Thread-25,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:22:46.587  5342  9233 I dvm_lock_sample: [com.android.systemui,0,Thread-25,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:23:34.987  5342  9309 I dvm_lock_sample: [com.android.systemui,0,Thread-38,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:23:35.085  5342  9309 I dvm_lock_sample: [com.android.systemui,0,Thread-38,39,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),7]
+02-21 09:24:02.414  5342  9340 I dvm_lock_sample: [com.android.systemui,0,Thread-41,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:24:05.298  5342  9342 I dvm_lock_sample: [com.android.systemui,0,Thread-42,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 09:24:05.439  5342  9342 I dvm_lock_sample: [com.android.systemui,0,Thread-42,41,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:24:45.543  5342  9380 I dvm_lock_sample: [com.android.systemui,0,Thread-52,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:25:06.338  5342  9390 I dvm_lock_sample: [com.android.systemui,0,Thread-55,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:25:09.371  5342  9393 I dvm_lock_sample: [com.android.systemui,0,Thread-56,39,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),7]
+02-21 09:25:09.533  5342  9393 I dvm_lock_sample: [com.android.systemui,0,Thread-56,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:25:44.041  5342  9467 I dvm_lock_sample: [com.android.systemui,0,Thread-63,39,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),7]
+02-21 09:25:47.392  5342  9470 I dvm_lock_sample: [com.android.systemui,0,Thread-64,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:25:47.502  5342  9470 I dvm_lock_sample: [com.android.systemui,0,Thread-64,21,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:26:06.500  5342  9489 I dvm_lock_sample: [com.android.systemui,0,Thread-68,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:26:12.136  5342  9494 I dvm_lock_sample: [com.android.systemui,0,Thread-70,48,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),9]
+02-21 09:26:21.476  5342  9502 I dvm_lock_sample: [com.android.systemui,0,Thread-73,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:26:21.725  5342  9502 I dvm_lock_sample: [com.android.systemui,0,Thread-73,41,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:26:43.956  5342  9523 I dvm_lock_sample: [com.android.systemui,0,Thread-76,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:26:44.937  5342  9523 I dvm_lock_sample: [com.android.systemui,0,Thread-76,49,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),9]
+02-21 09:26:50.091  5342  9543 I dvm_lock_sample: [com.android.systemui,0,Thread-78,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:26:50.131  5342  9543 I dvm_lock_sample: [com.android.systemui,0,Thread-78,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:26:50.372  5342  9543 I dvm_lock_sample: [com.android.systemui,0,Thread-78,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:26:50.393  5342  9543 I dvm_lock_sample: [com.android.systemui,0,Thread-78,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:27:09.948  5342  9626 I dvm_lock_sample: [com.android.systemui,0,Thread-82,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:27:10.168  5342  9626 I dvm_lock_sample: [com.android.systemui,0,Thread-82,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:27:13.103  5342  9629 I dvm_lock_sample: [com.android.systemui,0,Thread-83,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:27:13.443  5342  9629 I dvm_lock_sample: [com.android.systemui,0,Thread-83,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:27:47.800  5342  9659 I dvm_lock_sample: [com.android.systemui,0,Thread-90,42,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:27:51.254  5342  9667 I dvm_lock_sample: [com.android.systemui,0,Thread-91,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:28:16.251  5342  9763 I dvm_lock_sample: [com.android.systemui,0,Thread-98,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:28:16.680  5342  9763 I dvm_lock_sample: [com.android.systemui,0,Thread-98,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:28:16.900  5342  9763 I dvm_lock_sample: [com.android.systemui,0,Thread-98,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:28:22.776  5342  9821 I dvm_lock_sample: [com.android.systemui,0,Thread-100,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:28:22.957  5342  9821 I dvm_lock_sample: [com.android.systemui,0,Thread-100,17,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 09:28:23.176  5342  9821 I dvm_lock_sample: [com.android.systemui,0,Thread-100,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:28:41.324  5342  9900 I dvm_lock_sample: [com.android.systemui,0,Thread-103,39,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),7]
+02-21 09:29:02.877  5342  9969 I dvm_lock_sample: [com.android.systemui,0,Thread-107,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:29:03.151  5342  9969 I dvm_lock_sample: [com.android.systemui,0,Thread-107,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:29:03.369  5342  9969 I dvm_lock_sample: [com.android.systemui,0,Thread-107,47,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),9]
+02-21 09:29:06.125  5342  9984 I dvm_lock_sample: [com.android.systemui,0,Thread-108,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:29:06.167  5342  9984 I dvm_lock_sample: [com.android.systemui,0,Thread-108,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:29:15.066  5342  9991 I dvm_lock_sample: [com.android.systemui,0,Thread-111,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:29:15.442  5342  9991 I dvm_lock_sample: [com.android.systemui,0,Thread-111,21,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:29:51.346  5342 10052 I dvm_lock_sample: [com.android.systemui,0,Thread-120,21,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:30:13.449  5342 10067 I dvm_lock_sample: [com.android.systemui,0,Thread-123,21,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:30:34.715  5342 10141 I dvm_lock_sample: [com.android.systemui,0,Thread-127,18,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),AudioRecord.java,-2,int android.media.AudioRecord.native_read_in_byte_array(byte[], int, int, boolean),3]
+02-21 09:30:35.037  5342 10141 I dvm_lock_sample: [com.android.systemui,0,Thread-127,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:30:35.077  5342 10141 I dvm_lock_sample: [com.android.systemui,0,Thread-127,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:31:07.538  5342 10190 I dvm_lock_sample: [com.android.systemui,0,Thread-133,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:31:07.577  5342 10190 I dvm_lock_sample: [com.android.systemui,0,Thread-133,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:31:27.933  5342 10285 I dvm_lock_sample: [com.android.systemui,0,Thread-137,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:31:33.517  5342 10293 I dvm_lock_sample: [com.android.systemui,0,Thread-139,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:31:33.776  5342 10293 I dvm_lock_sample: [com.android.systemui,0,Thread-139,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:31:51.993  5342 10320 I dvm_lock_sample: [com.android.systemui,0,Thread-142,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:31:52.192  5342 10320 I dvm_lock_sample: [com.android.systemui,0,Thread-142,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:31:52.361  5342 10320 I dvm_lock_sample: [com.android.systemui,0,Thread-142,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:31:52.462  5342 10320 I dvm_lock_sample: [com.android.systemui,0,Thread-142,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:31:52.522  5342 10320 I dvm_lock_sample: [com.android.systemui,0,Thread-142,39,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),7]
+02-21 09:31:52.602  5342 10320 I dvm_lock_sample: [com.android.systemui,0,Thread-142,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:31:52.782  5342 10320 I dvm_lock_sample: [com.android.systemui,0,Thread-142,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:31:52.852  5342 10320 I dvm_lock_sample: [com.android.systemui,0,Thread-142,50,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),10]
+02-21 09:32:09.483  5342 10352 I dvm_lock_sample: [com.android.systemui,0,Thread-145,18,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),AudioRecord.java,-2,int android.media.AudioRecord.native_read_in_byte_array(byte[], int, int, boolean),3]
+02-21 09:32:09.643  5342 10352 I dvm_lock_sample: [com.android.systemui,0,Thread-145,21,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:32:15.557  5342 10359 I dvm_lock_sample: [com.android.systemui,0,Thread-147,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:32:32.497  5342 10375 I dvm_lock_sample: [com.android.systemui,0,Thread-150,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:32:32.647  5342 10375 I dvm_lock_sample: [com.android.systemui,0,Thread-150,30,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),6]
+02-21 09:32:32.887  5342 10375 I dvm_lock_sample: [com.android.systemui,0,Thread-150,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:32:33.047  5342 10375 I dvm_lock_sample: [com.android.systemui,0,Thread-150,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:33:14.405  5342 10468 I dvm_lock_sample: [com.android.systemui,0,Thread-158,41,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:33:14.564  5342 10468 I dvm_lock_sample: [com.android.systemui,0,Thread-158,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:34:07.839  5342 10507 I dvm_lock_sample: [com.android.systemui,0,Thread-170,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:34:19.973  5342 10514 I dvm_lock_sample: [com.android.systemui,0,Thread-174,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:35:16.803  5342 10563 I dvm_lock_sample: [com.android.systemui,0,Thread-186,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:35:16.823  5342 10563 I dvm_lock_sample: [com.android.systemui,0,Thread-186,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 09:35:16.863  5342 10563 I dvm_lock_sample: [com.android.systemui,0,Thread-186,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:35:56.582  5342 10588 I dvm_lock_sample: [com.android.systemui,0,Thread-195,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 09:35:56.832  5342 10588 I dvm_lock_sample: [com.android.systemui,0,Thread-195,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:36:08.773  5342 10595 I dvm_lock_sample: [com.android.systemui,0,Thread-199,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:36:50.722  5342 10624 I dvm_lock_sample: [com.android.systemui,0,Thread-207,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:37:24.764  5342 10648 I dvm_lock_sample: [com.android.systemui,0,Thread-214,41,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:37:44.468  5342 10674 I dvm_lock_sample: [com.android.systemui,0,Thread-218,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:38:47.251  5342 10721 I dvm_lock_sample: [com.android.systemui,0,Thread-234,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:38:50.195  5342 10726 I dvm_lock_sample: [com.android.systemui,0,Thread-235,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 09:38:50.335  5342 10726 I dvm_lock_sample: [com.android.systemui,0,Thread-235,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:38:50.385  5342 10726 I dvm_lock_sample: [com.android.systemui,0,Thread-235,31,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),6]
+02-21 09:39:24.498  5342 10743 I dvm_lock_sample: [com.android.systemui,0,Thread-242,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:39:24.599  5342 10743 I dvm_lock_sample: [com.android.systemui,0,Thread-242,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:39:30.493  5342 10750 I dvm_lock_sample: [com.android.systemui,0,Thread-244,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:41:10.176  5342 10953 I dvm_lock_sample: [com.android.systemui,0,Thread-266,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:41:10.444  5342 10953 I dvm_lock_sample: [com.android.systemui,0,Thread-266,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 09:41:13.229  5342 10957 I dvm_lock_sample: [com.android.systemui,0,Thread-267,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:42:09.472  5342 11014 I dvm_lock_sample: [com.android.systemui,0,Thread-279,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:42:18.470  5342 11021 I dvm_lock_sample: [com.android.systemui,0,Thread-282,33,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),6]
+02-21 09:42:18.600  5342 11021 I dvm_lock_sample: [com.android.systemui,0,Thread-282,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:42:45.989  5342 11037 I dvm_lock_sample: [com.android.systemui,0,Thread-286,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:42:46.069  5342 11037 I dvm_lock_sample: [com.android.systemui,0,Thread-286,21,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:43:37.405  5342 11082 I dvm_lock_sample: [com.android.systemui,0,Thread-297,29,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),5]
+02-21 09:43:37.706  5342 11082 I dvm_lock_sample: [com.android.systemui,0,Thread-297,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:44:11.890  5342 11102 I dvm_lock_sample: [com.android.systemui,0,Thread-304,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:44:48.917  5342 11144 I dvm_lock_sample: [com.android.systemui,0,Thread-312,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 09:45:25.654  5342 11168 I dvm_lock_sample: [com.android.systemui,0,Thread-320,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:45:25.733  5342 11168 I dvm_lock_sample: [com.android.systemui,0,Thread-320,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:46:11.960  5342 11204 I dvm_lock_sample: [com.android.systemui,0,Thread-332,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:46:38.717  5342 11223 I dvm_lock_sample: [com.android.systemui,0,Thread-338,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 09:46:38.857  5342 11223 I dvm_lock_sample: [com.android.systemui,0,Thread-338,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:46:38.978  5342 11223 I dvm_lock_sample: [com.android.systemui,0,Thread-338,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:46:38.997  5342 11223 I dvm_lock_sample: [com.android.systemui,0,Thread-338,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 09:47:08.809  5342 11239 I dvm_lock_sample: [com.android.systemui,0,Thread-344,21,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:47:52.245  5342 11287 I dvm_lock_sample: [com.android.systemui,0,Thread-352,39,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),7]
+02-21 09:47:52.895  5342 11287 I dvm_lock_sample: [com.android.systemui,0,Thread-352,39,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),7]
+02-21 09:47:52.956  5342 11287 I dvm_lock_sample: [com.android.systemui,0,Thread-352,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 09:47:53.165  5342 11287 I dvm_lock_sample: [com.android.systemui,0,Thread-352,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:47:53.541  5342 11287 I dvm_lock_sample: [com.android.systemui,0,Thread-352,35,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),7]
+02-21 09:48:34.354  5342 11322 I dvm_lock_sample: [com.android.systemui,0,Thread-364,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 09:48:57.192  5342 11389 I dvm_lock_sample: [com.android.systemui,0,Thread-368,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:48:57.392  5342 11389 I dvm_lock_sample: [com.android.systemui,0,Thread-368,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:49:03.088  5342 11394 I dvm_lock_sample: [com.android.systemui,0,Thread-370,50,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),10]
+02-21 09:49:12.248  5342 11402 I dvm_lock_sample: [com.android.systemui,0,Thread-373,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:49:12.347  5342 11402 I dvm_lock_sample: [com.android.systemui,0,Thread-373,41,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:49:34.026  5342 11422 I dvm_lock_sample: [com.android.systemui,0,Thread-376,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:49:39.492  5342 11428 I dvm_lock_sample: [com.android.systemui,0,Thread-378,50,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),10]
+02-21 09:49:39.612  5342 11428 I dvm_lock_sample: [com.android.systemui,0,Thread-378,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 09:49:39.652  5342 11428 I dvm_lock_sample: [com.android.systemui,0,Thread-378,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:49:48.812  5342 11445 I dvm_lock_sample: [com.android.systemui,0,Thread-381,21,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:49:48.872  5342 11445 I dvm_lock_sample: [com.android.systemui,0,Thread-381,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:49:48.932  5342 11445 I dvm_lock_sample: [com.android.systemui,0,Thread-381,21,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:49:48.962  5342 11445 I dvm_lock_sample: [com.android.systemui,0,Thread-381,28,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),5]
+02-21 09:50:10.182  5342 11466 I dvm_lock_sample: [com.android.systemui,0,Thread-384,39,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),7]
+02-21 09:50:10.502  5342 11466 I dvm_lock_sample: [com.android.systemui,0,Thread-384,39,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),7]
+02-21 09:50:10.522  5342 11466 I dvm_lock_sample: [com.android.systemui,0,Thread-384,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 09:50:16.477  5342 11473 I dvm_lock_sample: [com.android.systemui,0,Thread-386,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 09:50:39.573  5342 11495 I dvm_lock_sample: [com.android.systemui,0,Thread-392,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:50:54.488  5342 11522 I dvm_lock_sample: [com.android.systemui,0,Thread-397,17,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 09:50:54.528  5342 11522 I dvm_lock_sample: [com.android.systemui,0,Thread-397,21,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:51:54.895  5342 11601 I dvm_lock_sample: [com.android.systemui,0,Thread-409,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 09:52:37.898  5342 11648 I dvm_lock_sample: [com.android.systemui,0,Thread-420,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:53:52.080  5342 11734 I dvm_lock_sample: [com.android.systemui,0,Thread-436,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:53:52.210  5342 11734 I dvm_lock_sample: [com.android.systemui,0,Thread-436,30,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),6]
+02-21 09:53:52.351  5342 11734 I dvm_lock_sample: [com.android.systemui,0,Thread-436,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 09:54:13.163  5342 11748 I dvm_lock_sample: [com.android.systemui,0,Thread-440,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:54:16.187  5342 11751 I dvm_lock_sample: [com.android.systemui,0,Thread-441,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:54:25.228  5342 11759 I dvm_lock_sample: [com.android.systemui,0,Thread-444,21,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:56:01.519  5342 11847 I dvm_lock_sample: [com.android.systemui,0,Thread-464,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:56:04.404  5342 11856 I dvm_lock_sample: [com.android.systemui,0,Thread-465,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:56:38.293  5342 11889 I dvm_lock_sample: [com.android.systemui,0,Thread-473,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:56:50.072  5342 11898 I dvm_lock_sample: [com.android.systemui,0,Thread-477,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:57:47.225  5342 11945 I dvm_lock_sample: [com.android.systemui,0,Thread-487,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 09:58:14.911  5342 11972 I dvm_lock_sample: [com.android.systemui,0,Thread-493,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:58:21.246  5342 11980 I dvm_lock_sample: [com.android.systemui,0,Thread-495,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:58:21.406  5342 11980 I dvm_lock_sample: [com.android.systemui,0,Thread-495,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 09:58:47.405  5342 12012 I dvm_lock_sample: [com.android.systemui,0,Thread-501,39,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),7]
+02-21 09:58:53.541  5342 12017 I dvm_lock_sample: [com.android.systemui,0,Thread-503,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:00:11.720  5342 12105 I dvm_lock_sample: [com.android.systemui,0,Thread-519,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 10:00:15.036  5342 12108 I dvm_lock_sample: [com.android.systemui,0,Thread-520,21,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:00:15.320  5342 12108 I dvm_lock_sample: [com.android.systemui,0,Thread-520,30,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),6]
+02-21 10:00:15.460  5342 12108 I dvm_lock_sample: [com.android.systemui,0,Thread-520,39,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),7]
+02-21 10:00:15.501  5342 12108 I dvm_lock_sample: [com.android.systemui,0,Thread-520,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:00:23.876  5342 12117 I dvm_lock_sample: [com.android.systemui,0,Thread-523,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:00:23.935  5342 12117 I dvm_lock_sample: [com.android.systemui,0,Thread-523,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 10:00:49.967  5342 12156 I dvm_lock_sample: [com.android.systemui,0,Thread-527,21,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:00:50.105  5342 12156 I dvm_lock_sample: [com.android.systemui,0,Thread-527,21,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:00:56.471  5342 12163 I dvm_lock_sample: [com.android.systemui,0,Thread-529,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:01:15.846  5342 12196 I dvm_lock_sample: [com.android.systemui,0,Thread-533,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:01:15.976  5342 12196 I dvm_lock_sample: [com.android.systemui,0,Thread-533,31,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),6]
+02-21 10:01:16.236  5342 12196 I dvm_lock_sample: [com.android.systemui,0,Thread-533,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 10:01:16.256  5342 12196 I dvm_lock_sample: [com.android.systemui,0,Thread-533,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 10:01:16.496  5342 12196 I dvm_lock_sample: [com.android.systemui,0,Thread-533,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:01:16.565  5342 12196 I dvm_lock_sample: [com.android.systemui,0,Thread-533,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:01:18.510  5342 12203 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:01:21.533  5342 12215 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:01:22.898  5342 12196 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:01:24.825  5342 12219 D AmbientPlayRecognition: Preparing to send audio data: 269312 bytes
+02-21 10:01:24.826  5342 12219 D AmbientPlayRecognition: Sending mic data, 269312 bytes...
+02-21 10:01:27.550  5342 12224 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:01:30.561  5342 12227 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:01:31.497  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:01:31.497  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:01:31.498  5342 12191 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:01:31.500  5342 12228 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: Error while sending audio data
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: java.net.SocketTimeoutException: timeout
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: 	at com.android.okhttp.okio.Okio$3.newTimeoutException(Okio.java:212)
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: 	at com.android.okhttp.okio.AsyncTimeout.exit(AsyncTimeout.java:261)
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: 	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:215)
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: 	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:306)
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: 	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:300)
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: 	at com.android.okhttp.okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:196)
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: 	at com.android.okhttp.internal.http.Http1xStream.readResponse(Http1xStream.java:186)
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: 	at com.android.okhttp.internal.http.Http1xStream.readResponseHeaders(Http1xStream.java:127)
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: 	at com.android.okhttp.internal.http.HttpEngine.readNetworkResponse(HttpEngine.java:737)
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: 	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:609)
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:471)
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:407)
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:244)
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: 	at com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.sendAudioData(AmbientPlayRecognition.java:165)
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: 	at com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.-wrap0(Unknown Source:0)
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: 	at com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(AmbientPlayRecognition.java:137)
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: Caused by: java.net.SocketException: Socket closed
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: 	at java.net.SocketInputStream.read(SocketInputStream.java:203)
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: 	at java.net.SocketInputStream.read(SocketInputStream.java:139)
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: 	at com.android.okhttp.okio.Okio$2.read(Okio.java:136)
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: 	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:211)
+02-21 10:01:37.858  5342 12219 E AmbientPlayRecognition: 	... 13 more
+02-21 10:01:37.859  5342 12219 W AmbientPlayRecognition: Regular expression didn't match!
+02-21 10:01:37.859  5342 12219 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:01:37.862  5342 12219 D AmbientPlayRecognition: Reporting result
+02-21 10:01:47.893  5342 12238 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:01:51.074  5342 12242 I dvm_lock_sample: [com.android.systemui,0,Thread-541,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:01:51.336  5342 12242 D AmbientPlayRecognition: Preparing to send audio data: 73216 bytes
+02-21 10:01:51.337  5342 12242 D AmbientPlayRecognition: Sending mic data, 73216 bytes...
+02-21 10:01:53.918  5342 12251 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:01:55.096  5342 12242 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:01:57.249  5342 12252 D AmbientPlayRecognition: Preparing to send audio data: 203776 bytes
+02-21 10:01:57.249  5342 12252 D AmbientPlayRecognition: Sending mic data, 203776 bytes...
+02-21 10:01:59.933  5342 12257 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:02:02.940  5342 12259 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:02:05.949  5342 12260 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:02:06.375  5342 12252 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:02:06.910  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:02:06.910  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:02:06.911  5342 12238 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:02:06.915  5342 12262 D AmbientPlayRecognition: Preparing to send audio data: 416640 bytes
+02-21 10:02:06.916  5342 12262 D AmbientPlayRecognition: Sending mic data, 416640 bytes...
+02-21 10:02:17.814  5342 12262 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:02:17.814  5342 12262 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:02:27.852  5342 12274 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:02:30.875  5342 12276 D AmbientPlayRecognition: Preparing to send audio data: 64000 bytes
+02-21 10:02:30.875  5342 12276 D AmbientPlayRecognition: Sending mic data, 64000 bytes...
+02-21 10:02:33.861  5342 12285 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:02:34.716  5342 12276 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:02:37.269  5342 12289 D AmbientPlayRecognition: Preparing to send audio data: 204800 bytes
+02-21 10:02:37.270  5342 12289 D AmbientPlayRecognition: Sending mic data, 204800 bytes...
+02-21 10:02:39.896  5342 12293 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:02:42.901  5342 12294 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:02:45.909  5342 12296 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:02:46.317  5342 12289 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:02:46.861  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:02:46.861  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:02:46.862  5342 12274 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:02:46.866  5342 12298 D AmbientPlayRecognition: Preparing to send audio data: 416640 bytes
+02-21 10:02:46.866  5342 12298 D AmbientPlayRecognition: Sending mic data, 416640 bytes...
+02-21 10:02:55.995  5342 12298 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:02:55.996  5342 12298 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:03:06.032  5342 12305 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:03:09.113  5342 12312 D AmbientPlayRecognition: Preparing to send audio data: 65024 bytes
+02-21 10:03:09.113  5342 12312 D AmbientPlayRecognition: Sending mic data, 65024 bytes...
+02-21 10:03:11.955  5342 12312 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:03:12.370  5342 12319 D AmbientPlayRecognition: Preparing to send audio data: 136704 bytes
+02-21 10:03:12.372  5342 12319 D AmbientPlayRecognition: Sending mic data, 136704 bytes...
+02-21 10:03:15.078  5342 12322 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:03:18.093  5342 12325 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:03:19.155  5342 12319 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:03:21.387  5342 12326 D AmbientPlayRecognition: Preparing to send audio data: 335872 bytes
+02-21 10:03:21.388  5342 12326 D AmbientPlayRecognition: Sending mic data, 335872 bytes...
+02-21 10:03:24.107  5342 12329 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:03:25.037  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:03:25.037  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:03:25.038  5342 12305 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:03:25.040  5342 12330 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:03:28.036  5342 12326 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:03:28.036  5342 12326 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:03:38.064  5342 12341 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:03:41.180  5342 12343 I dvm_lock_sample: [com.android.systemui,0,Thread-565,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:03:41.300  5342 12343 I dvm_lock_sample: [com.android.systemui,0,Thread-565,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 10:03:41.480  5342 12343 D AmbientPlayRecognition: Preparing to send audio data: 72704 bytes
+02-21 10:03:41.481  5342 12343 D AmbientPlayRecognition: Sending mic data, 72704 bytes...
+02-21 10:03:43.954  5342 12343 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:03:44.224  5342 12352 I dvm_lock_sample: [com.android.systemui,0,Thread-566,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 10:03:44.304  5342 12352 D AmbientPlayRecognition: Preparing to send audio data: 135168 bytes
+02-21 10:03:44.305  5342 12352 D AmbientPlayRecognition: Sending mic data, 135168 bytes...
+02-21 10:03:47.087  5342 12355 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:03:50.101  5342 12357 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:03:51.791  5342 12352 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:03:53.204  5342 12359 I dvm_lock_sample: [com.android.systemui,0,Thread-569,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:03:53.245  5342 12359 I dvm_lock_sample: [com.android.systemui,0,Thread-569,21,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:03:53.535  5342 12359 D AmbientPlayRecognition: Preparing to send audio data: 338432 bytes
+02-21 10:03:53.536  5342 12359 D AmbientPlayRecognition: Sending mic data, 338432 bytes...
+02-21 10:03:56.115  5342 12363 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:03:57.078  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:03:57.078  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:03:57.082  5342 12341 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:03:57.087  5342 12364 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:04:07.549  5342 12359 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:04:07.550  5342 12359 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:04:17.587  5342 12373 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:04:20.973  5342 12376 D AmbientPlayRecognition: Preparing to send audio data: 72192 bytes
+02-21 10:04:20.974  5342 12376 D AmbientPlayRecognition: Sending mic data, 72192 bytes...
+02-21 10:04:23.452  5342 12376 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:04:23.738  5342 12386 I dvm_lock_sample: [com.android.systemui,0,Thread-574,39,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),7]
+02-21 10:04:23.968  5342 12386 I dvm_lock_sample: [com.android.systemui,0,Thread-574,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:04:23.969  5342 12386 D AmbientPlayRecognition: Preparing to send audio data: 138240 bytes
+02-21 10:04:23.969  5342 12386 D AmbientPlayRecognition: Sending mic data, 138240 bytes...
+02-21 10:04:26.599  5342 12388 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:04:29.614  5342 12392 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:04:30.814  5342 12386 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:04:32.637  5342 12394 I dvm_lock_sample: [com.android.systemui,0,Thread-577,18,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 10:04:33.009  5342 12394 D AmbientPlayRecognition: Preparing to send audio data: 337408 bytes
+02-21 10:04:33.009  5342 12394 D AmbientPlayRecognition: Sending mic data, 337408 bytes...
+02-21 10:04:35.628  5342 12396 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:04:36.588  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:04:36.588  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:04:36.589  5342 12373 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:04:36.590  5342 12398 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:04:47.614  5342 12394 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:04:47.615  5342 12394 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:04:57.644  5342 12411 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:05:00.718  5342 12415 D AmbientPlayRecognition: Preparing to send audio data: 65024 bytes
+02-21 10:05:00.719  5342 12415 D AmbientPlayRecognition: Sending mic data, 65024 bytes...
+02-21 10:05:03.666  5342 12424 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:05:04.277  5342 12415 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:05:06.995  5342 12426 D AmbientPlayRecognition: Preparing to send audio data: 203776 bytes
+02-21 10:05:06.996  5342 12426 D AmbientPlayRecognition: Sending mic data, 203776 bytes...
+02-21 10:05:09.700  5342 12430 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:05:12.706  5342 12432 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:05:15.716  5342 12434 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:05:16.645  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:05:16.645  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:05:16.647  5342 12411 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:05:16.649  5342 12436 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: Error while sending audio data
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: java.net.SocketTimeoutException: timeout
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: 	at com.android.okhttp.okio.Okio$3.newTimeoutException(Okio.java:212)
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: 	at com.android.okhttp.okio.AsyncTimeout.exit(AsyncTimeout.java:261)
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: 	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:215)
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: 	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:306)
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: 	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:300)
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: 	at com.android.okhttp.okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:196)
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: 	at com.android.okhttp.internal.http.Http1xStream.readResponse(Http1xStream.java:186)
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: 	at com.android.okhttp.internal.http.Http1xStream.readResponseHeaders(Http1xStream.java:127)
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: 	at com.android.okhttp.internal.http.HttpEngine.readNetworkResponse(HttpEngine.java:737)
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: 	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:609)
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:471)
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:407)
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:244)
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: 	at com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.sendAudioData(AmbientPlayRecognition.java:165)
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: 	at com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.-wrap0(Unknown Source:0)
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: 	at com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(AmbientPlayRecognition.java:137)
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: Caused by: java.net.SocketException: Socket closed
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: 	at java.net.SocketInputStream.read(SocketInputStream.java:203)
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: 	at java.net.SocketInputStream.read(SocketInputStream.java:139)
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: 	at com.android.okhttp.okio.Okio$2.read(Okio.java:136)
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: 	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:211)
+02-21 10:05:19.162  5342 12426 E AmbientPlayRecognition: 	... 13 more
+02-21 10:05:19.164  5342 12426 W AmbientPlayRecognition: Regular expression didn't match!
+02-21 10:05:19.164  5342 12426 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:05:19.168  5342 12426 D AmbientPlayRecognition: Reporting result
+02-21 10:05:29.195  5342 12446 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:05:32.465  5342 12469 D AmbientPlayRecognition: Preparing to send audio data: 69632 bytes
+02-21 10:05:32.466  5342 12469 D AmbientPlayRecognition: Sending mic data, 69632 bytes...
+02-21 10:05:35.117  5342 12469 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:05:35.309  5342 12475 I dvm_lock_sample: [com.android.systemui,0,Thread-590,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:05:35.431  5342 12475 D AmbientPlayRecognition: Preparing to send audio data: 135168 bytes
+02-21 10:05:35.432  5342 12475 D AmbientPlayRecognition: Sending mic data, 135168 bytes...
+02-21 10:05:38.231  5342 12479 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:05:41.246  5342 12481 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:05:43.679  5342 12475 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:05:44.560  5342 12483 I dvm_lock_sample: [com.android.systemui,0,Thread-593,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 10:05:44.562  5342 12483 D AmbientPlayRecognition: Preparing to send audio data: 336384 bytes
+02-21 10:05:44.564  5342 12483 D AmbientPlayRecognition: Sending mic data, 336384 bytes...
+02-21 10:05:47.260  5342 12486 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:05:48.197  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:05:48.197  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:05:48.198  5342 12446 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:05:48.200  5342 12488 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:05:53.040  5342 12483 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:05:53.040  5342 12483 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:06:03.066  5342 12498 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:06:06.460  5342 12502 D AmbientPlayRecognition: Preparing to send audio data: 72192 bytes
+02-21 10:06:06.461  5342 12502 D AmbientPlayRecognition: Sending mic data, 72192 bytes...
+02-21 10:06:09.085  5342 12512 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:06:09.187  5342 12502 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:06:12.215  5342 12514 I dvm_lock_sample: [com.android.systemui,0,Thread-599,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:06:12.236  5342 12514 D AmbientPlayRecognition: Preparing to send audio data: 199680 bytes
+02-21 10:06:12.237  5342 12514 D AmbientPlayRecognition: Sending mic data, 199680 bytes...
+02-21 10:06:15.122  5342 12517 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:06:18.125  5342 12520 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:06:19.906  5342 12514 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:06:21.763  5342 12524 I dvm_lock_sample: [com.android.systemui,0,Thread-602,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:06:21.824  5342 12524 I dvm_lock_sample: [com.android.systemui,0,Thread-602,21,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:06:22.024  5342 12524 I dvm_lock_sample: [com.android.systemui,0,Thread-602,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 10:06:22.068  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:06:22.068  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:06:22.069  5342 12498 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:06:22.074  5342 12524 D AmbientPlayRecognition: Preparing to send audio data: 416640 bytes
+02-21 10:06:22.074  5342 12524 D AmbientPlayRecognition: Sending mic data, 416640 bytes...
+02-21 10:06:22.077  5342 12525 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:06:29.506  5342 12524 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:06:29.506  5342 12524 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:06:39.529  5342 12537 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:06:42.848  5342 12540 D AmbientPlayRecognition: Preparing to send audio data: 70656 bytes
+02-21 10:06:42.848  5342 12540 D AmbientPlayRecognition: Sending mic data, 70656 bytes...
+02-21 10:06:45.428  5342 12540 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:06:45.713  5342 12543 I dvm_lock_sample: [com.android.systemui,0,Thread-606,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 10:06:45.924  5342 12543 D AmbientPlayRecognition: Preparing to send audio data: 138240 bytes
+02-21 10:06:45.925  5342 12543 D AmbientPlayRecognition: Sending mic data, 138240 bytes...
+02-21 10:06:48.576  5342 12547 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:06:51.589  5342 12549 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:06:52.149  5342 12543 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:06:54.673  5342 12551 I dvm_lock_sample: [com.android.systemui,0,Thread-609,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 10:06:54.965  5342 12551 D AmbientPlayRecognition: Preparing to send audio data: 337408 bytes
+02-21 10:06:54.965  5342 12551 D AmbientPlayRecognition: Sending mic data, 337408 bytes...
+02-21 10:06:57.603  5342 12554 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:06:58.549  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:06:58.549  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:06:58.550  5342 12537 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:06:58.553  5342 12556 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:07:04.229  5342 12551 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:07:04.229  5342 12551 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:07:14.258  5342 12566 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:07:17.337  5342 12569 I dvm_lock_sample: [com.android.systemui,0,Thread-613,41,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 10:07:17.658  5342 12569 D AmbientPlayRecognition: Preparing to send audio data: 72192 bytes
+02-21 10:07:17.659  5342 12569 D AmbientPlayRecognition: Sending mic data, 72192 bytes...
+02-21 10:07:20.285  5342 12579 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:07:20.667  5342 12569 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:07:23.613  5342 12581 D AmbientPlayRecognition: Preparing to send audio data: 203776 bytes
+02-21 10:07:23.613  5342 12581 D AmbientPlayRecognition: Sending mic data, 203776 bytes...
+02-21 10:07:26.317  5342 12584 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:07:29.324  5342 12587 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:07:32.333  5342 12589 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:07:33.260  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:07:33.260  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:07:33.261  5342 12566 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:07:33.263  5342 12590 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:07:35.308  5342 12581 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:07:35.308  5342 12581 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:07:45.338  5342 12607 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:07:48.618  5342 12610 D AmbientPlayRecognition: Preparing to send audio data: 69632 bytes
+02-21 10:07:48.618  5342 12610 D AmbientPlayRecognition: Sending mic data, 69632 bytes...
+02-21 10:07:51.364  5342 12613 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:07:51.551  5342 12610 D AmbientPlayRecognition: Got a match! Eiffel 65 - Blue 2009 [DJs From Mars Mars Attax Fm Remix] (Blue [Da Ba Dee Remix 2009]); http://static.midomi.com/a/pop/cov200/drn500/n516/n51667f0c86.jpg
+02-21 10:07:51.551  5342 12610 D AmbientPlayRecognition: Reporting result
+02-21 10:07:51.551  5342 12610 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:07:51.551  5342 12610 D AmbientPlayRecognition: Stopping recorder
+02-21 10:07:51.551  5342 12607 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=true
+02-21 10:08:01.685  5342 12620 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:08:05.312  5342 12626 D AmbientPlayRecognition: Preparing to send audio data: 77312 bytes
+02-21 10:08:05.312  5342 12626 D AmbientPlayRecognition: Sending mic data, 77312 bytes...
+02-21 10:08:07.708  5342 12631 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:08:07.973  5342 12626 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:08:11.000  5342 12634 D AmbientPlayRecognition: Preparing to send audio data: 202752 bytes
+02-21 10:08:11.002  5342 12634 D AmbientPlayRecognition: Sending mic data, 202752 bytes...
+02-21 10:08:13.741  5342 12636 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:08:16.748  5342 12637 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:08:18.928  5342 12634 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:08:20.138  5342 12639 D AmbientPlayRecognition: Preparing to send audio data: 404480 bytes
+02-21 10:08:20.139  5342 12639 D AmbientPlayRecognition: Sending mic data, 404480 bytes...
+02-21 10:08:20.686  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:08:20.686  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:08:20.686  5342 12620 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:08:20.687  5342 12656 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:08:25.324  5342 12639 D AmbientPlayRecognition: Got a match! Eiffel 65 - Blue (Da Ba Dee) (Europop); http://static.midomi.com/a/pop/cov200/dre100/e135/e135473r6v8.jpg
+02-21 10:08:25.324  5342 12639 D AmbientPlayRecognition: Reporting result
+02-21 10:08:35.363  5342 12672 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:08:38.728  5342 12674 D AmbientPlayRecognition: Preparing to send audio data: 71680 bytes
+02-21 10:08:38.729  5342 12674 D AmbientPlayRecognition: Sending mic data, 71680 bytes...
+02-21 10:08:41.375  5342 12683 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:08:41.508  5342 12674 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:08:44.724  5342 12686 D AmbientPlayRecognition: Preparing to send audio data: 203776 bytes
+02-21 10:08:44.724  5342 12686 D AmbientPlayRecognition: Sending mic data, 203776 bytes...
+02-21 10:08:47.409  5342 12689 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:08:50.415  5342 12692 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:08:52.555  5342 12686 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:08:54.153  5342 12695 I dvm_lock_sample: [com.android.systemui,0,Thread-637,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:08:54.212  5342 12695 I dvm_lock_sample: [com.android.systemui,0,Thread-637,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 10:08:54.364  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:08:54.364  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:08:54.366  5342 12672 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:08:54.369  5342 12695 D AmbientPlayRecognition: Preparing to send audio data: 416192 bytes
+02-21 10:08:54.369  5342 12695 D AmbientPlayRecognition: Sending mic data, 416192 bytes...
+02-21 10:08:54.375  5342 12696 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:09:02.229  5342 12695 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:09:02.229  5342 12695 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:09:12.266  5342 12706 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:09:15.878  5342 12708 D AmbientPlayRecognition: Preparing to send audio data: 76800 bytes
+02-21 10:09:15.879  5342 12708 D AmbientPlayRecognition: Sending mic data, 76800 bytes...
+02-21 10:09:18.274  5342 12717 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:09:19.033  5342 12708 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:09:21.683  5342 12719 I dvm_lock_sample: [com.android.systemui,0,Thread-642,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 10:09:21.863  5342 12719 D AmbientPlayRecognition: Preparing to send audio data: 208896 bytes
+02-21 10:09:21.864  5342 12719 D AmbientPlayRecognition: Sending mic data, 208896 bytes...
+02-21 10:09:24.308  5342 12726 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:09:27.313  5342 12728 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:09:30.075  5342 12719 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:09:30.624  5342 12731 D AmbientPlayRecognition: Preparing to send audio data: 401920 bytes
+02-21 10:09:30.625  5342 12731 D AmbientPlayRecognition: Sending mic data, 401920 bytes...
+02-21 10:09:31.266  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:09:31.267  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:09:31.268  5342 12706 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:09:31.271  5342 12733 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:09:38.792  5342 12731 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:09:38.794  5342 12731 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:09:48.831  5342 12744 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:09:52.465  5342 12748 D AmbientPlayRecognition: Preparing to send audio data: 77312 bytes
+02-21 10:09:52.465  5342 12748 D AmbientPlayRecognition: Sending mic data, 77312 bytes...
+02-21 10:09:54.776  5342 12748 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:09:55.287  5342 12756 D AmbientPlayRecognition: Preparing to send audio data: 139776 bytes
+02-21 10:09:55.288  5342 12756 D AmbientPlayRecognition: Sending mic data, 139776 bytes...
+02-21 10:09:57.860  5342 12767 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:10:00.873  5342 12769 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:10:03.094  5342 12756 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:10:04.128  5342 12777 I dvm_lock_sample: [com.android.systemui,0,Thread-652,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:10:04.713  5342 12777 I dvm_lock_sample: [com.android.systemui,0,Thread-652,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:10:05.915  5342 12777 D AmbientPlayRecognition: Preparing to send audio data: 373760 bytes
+02-21 10:10:05.916  5342 12777 D AmbientPlayRecognition: Sending mic data, 373760 bytes...
+02-21 10:10:06.889  5342 12780 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:10:07.833  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:10:07.833  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:10:07.833  5342 12744 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:10:07.834  5342 12782 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:10:14.617  5342 12777 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:10:14.618  5342 12777 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:10:24.658  5342 12796 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:10:27.996  5342 12798 D AmbientPlayRecognition: Preparing to send audio data: 71168 bytes
+02-21 10:10:27.996  5342 12798 D AmbientPlayRecognition: Sending mic data, 71168 bytes...
+02-21 10:10:30.060  5342 12798 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:10:30.740  5342 12807 I dvm_lock_sample: [com.android.systemui,0,Thread-657,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 10:10:30.760  5342 12807 D AmbientPlayRecognition: Preparing to send audio data: 132096 bytes
+02-21 10:10:30.760  5342 12807 D AmbientPlayRecognition: Sending mic data, 132096 bytes...
+02-21 10:10:33.702  5342 12810 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:10:36.715  5342 12812 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:10:39.721  5342 12819 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:10:41.424  5342 12807 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:10:42.810  5342 12820 I dvm_lock_sample: [com.android.systemui,0,Thread-661,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:10:43.243  5342 12820 D AmbientPlayRecognition: Preparing to send audio data: 407040 bytes
+02-21 10:10:43.243  5342 12820 D AmbientPlayRecognition: Sending mic data, 407040 bytes...
+02-21 10:10:43.675  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:10:43.675  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:10:43.676  5342 12796 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:10:43.684  5342 12822 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:10:51.825  5342 12820 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:10:51.825  5342 12820 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:11:01.864  5342 12838 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:11:05.103  5342 12840 I dvm_lock_sample: [com.android.systemui,0,Thread-664,40,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 10:11:05.323  5342 12840 I dvm_lock_sample: [com.android.systemui,0,Thread-664,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:11:05.593  5342 12840 D AmbientPlayRecognition: Preparing to send audio data: 79360 bytes
+02-21 10:11:05.593  5342 12840 D AmbientPlayRecognition: Sending mic data, 79360 bytes...
+02-21 10:11:07.889  5342 12850 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:11:08.249  5342 12840 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:11:10.958  5342 12852 D AmbientPlayRecognition: Preparing to send audio data: 197632 bytes
+02-21 10:11:10.958  5342 12852 D AmbientPlayRecognition: Sending mic data, 197632 bytes...
+02-21 10:11:13.924  5342 12869 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:11:16.928  5342 12876 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:11:18.888  5342 12852 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:11:20.239  5342 12880 D AmbientPlayRecognition: Preparing to send audio data: 402432 bytes
+02-21 10:11:20.239  5342 12880 D AmbientPlayRecognition: Sending mic data, 402432 bytes...
+02-21 10:11:20.865  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:11:20.865  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:11:20.866  5342 12838 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:11:20.868  5342 12882 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:11:28.407  5342 12880 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:11:28.407  5342 12880 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:11:38.435  5342 12891 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:11:41.461  5342 12893 D AmbientPlayRecognition: Preparing to send audio data: 64000 bytes
+02-21 10:11:41.462  5342 12893 D AmbientPlayRecognition: Sending mic data, 64000 bytes...
+02-21 10:11:44.480  5342 12901 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:11:44.903  5342 12893 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:11:48.059  5342 12903 D AmbientPlayRecognition: Preparing to send audio data: 209408 bytes
+02-21 10:11:48.059  5342 12903 D AmbientPlayRecognition: Sending mic data, 209408 bytes...
+02-21 10:11:50.533  5342 12906 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:11:53.539  5342 12908 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:11:56.549  5342 12911 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:11:57.441  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:11:57.441  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:11:57.442  5342 12891 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:11:57.444  5342 12912 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:11:59.300  5342 12903 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:11:59.300  5342 12903 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:12:09.336  5342 12920 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:12:12.736  5342 12922 D AmbientPlayRecognition: Preparing to send audio data: 72192 bytes
+02-21 10:12:12.736  5342 12922 D AmbientPlayRecognition: Sending mic data, 72192 bytes...
+02-21 10:12:15.361  5342 12931 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:12:18.381  5342 12933 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:12:20.653  5342 12922 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:12:21.637  5342 12934 D AmbientPlayRecognition: Preparing to send audio data: 268800 bytes
+02-21 10:12:21.637  5342 12934 D AmbientPlayRecognition: Sending mic data, 268800 bytes...
+02-21 10:12:24.400  5342 12936 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:12:27.411  5342 12937 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:12:28.356  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:12:28.356  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:12:28.359  5342 12920 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:12:28.363  5342 12939 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:12:31.214  5342 12934 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:12:31.214  5342 12934 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:12:41.256  5342 12945 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:12:44.517  5342 12948 D AmbientPlayRecognition: Preparing to send audio data: 69120 bytes
+02-21 10:12:44.518  5342 12948 D AmbientPlayRecognition: Sending mic data, 69120 bytes...
+02-21 10:12:47.037  5342 12948 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:12:47.672  5342 12954 D AmbientPlayRecognition: Preparing to send audio data: 138752 bytes
+02-21 10:12:47.672  5342 12954 D AmbientPlayRecognition: Sending mic data, 138752 bytes...
+02-21 10:12:50.265  5342 12959 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:12:53.278  5342 12960 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:12:54.080  5342 12954 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:12:56.593  5342 12961 D AmbientPlayRecognition: Preparing to send audio data: 335360 bytes
+02-21 10:12:56.593  5342 12961 D AmbientPlayRecognition: Sending mic data, 335360 bytes...
+02-21 10:12:59.293  5342 12965 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:13:00.258  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:13:00.258  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:13:00.259  5342 12945 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:13:00.260  5342 12966 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:13:04.480  5342 12961 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:13:04.480  5342 12961 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:13:14.508  5342 12974 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:13:18.198  5342 12977 D AmbientPlayRecognition: Preparing to send audio data: 78848 bytes
+02-21 10:13:18.198  5342 12977 D AmbientPlayRecognition: Sending mic data, 78848 bytes...
+02-21 10:13:20.503  5342 12977 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:13:20.861  5342 12986 D AmbientPlayRecognition: Preparing to send audio data: 137216 bytes
+02-21 10:13:20.861  5342 12986 D AmbientPlayRecognition: Sending mic data, 137216 bytes...
+02-21 10:13:23.555  5342 12990 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:13:26.568  5342 12992 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:13:29.573  5342 12994 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:13:32.104  5342 12986 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:13:33.073  5342 12996 I dvm_lock_sample: [com.android.systemui,0,Thread-701,30,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),6]
+02-21 10:13:33.510  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:13:33.511  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:13:33.514  5342 12974 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:13:33.517  5342 12997 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:13:33.521  5342 12996 D AmbientPlayRecognition: Preparing to send audio data: 416192 bytes
+02-21 10:13:33.521  5342 12996 D AmbientPlayRecognition: Sending mic data, 416192 bytes...
+02-21 10:13:42.984  5342 12996 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:13:42.984  5342 12996 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:13:53.014  5342 13014 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:13:56.356  5342 13016 D AmbientPlayRecognition: Preparing to send audio data: 71168 bytes
+02-21 10:13:56.357  5342 13016 D AmbientPlayRecognition: Sending mic data, 71168 bytes...
+02-21 10:13:59.022  5342 13026 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:13:59.210  5342 13016 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:14:02.432  5342 13030 D AmbientPlayRecognition: Preparing to send audio data: 204800 bytes
+02-21 10:14:02.434  5342 13030 D AmbientPlayRecognition: Sending mic data, 204800 bytes...
+02-21 10:14:05.036  5342 13032 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:14:08.042  5342 13035 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:14:10.011  5342 13030 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:14:11.313  5342 13037 D AmbientPlayRecognition: Preparing to send audio data: 400896 bytes
+02-21 10:14:11.314  5342 13037 D AmbientPlayRecognition: Sending mic data, 400896 bytes...
+02-21 10:14:12.025  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:14:12.025  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:14:12.026  5342 13014 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:14:12.029  5342 13039 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:14:21.051  5342 13037 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:14:21.051  5342 13037 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:14:31.081  5342 13065 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:14:34.282  5342 13078 D AmbientPlayRecognition: Preparing to send audio data: 68096 bytes
+02-21 10:14:34.283  5342 13078 D AmbientPlayRecognition: Sending mic data, 68096 bytes...
+02-21 10:14:37.087  5342 13121 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:14:40.088  5342 13163 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:14:43.104  5342 13171 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:14:44.009  5342 13078 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:14:46.518  5342 13173 I dvm_lock_sample: [com.android.systemui,0,Thread-717,41,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),8]
+02-21 10:14:46.836  5342 13173 D AmbientPlayRecognition: Preparing to send audio data: 344576 bytes
+02-21 10:14:46.836  5342 13173 D AmbientPlayRecognition: Sending mic data, 344576 bytes...
+02-21 10:14:49.120  5342 13177 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:14:50.079  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:14:50.079  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:14:50.080  5342 13065 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:14:50.082  5342 13179 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:14:54.819  5342 13173 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:14:54.819  5342 13173 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:15:04.843  5342 13229 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:15:08.451  5342 13235 D AmbientPlayRecognition: Preparing to send audio data: 76800 bytes
+02-21 10:15:08.452  5342 13235 D AmbientPlayRecognition: Sending mic data, 76800 bytes...
+02-21 10:15:10.408  5342 13235 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:15:11.046  5342 13238 I dvm_lock_sample: [com.android.systemui,0,Thread-722,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:15:11.116  5342 13238 I dvm_lock_sample: [com.android.systemui,0,Thread-722,31,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),6]
+02-21 10:15:11.701  5342 13238 I dvm_lock_sample: [com.android.systemui,0,Thread-722,21,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:15:11.721  5342 13238 I dvm_lock_sample: [com.android.systemui,0,Thread-722,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 10:15:12.021  5342 13238 D AmbientPlayRecognition: Preparing to send audio data: 155648 bytes
+02-21 10:15:12.022  5342 13238 D AmbientPlayRecognition: Sending mic data, 155648 bytes...
+02-21 10:15:13.868  5342 13241 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:15:16.882  5342 13243 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:15:19.887  5342 13246 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:15:20.971  5342 13238 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:15:23.137  5342 13248 I dvm_lock_sample: [com.android.systemui,0,Thread-726,15,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 10:15:23.296  5342 13248 I dvm_lock_sample: [com.android.systemui,0,Thread-726,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:15:23.406  5342 13248 I dvm_lock_sample: [com.android.systemui,0,Thread-726,29,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),5]
+02-21 10:15:23.486  5342 13248 I dvm_lock_sample: [com.android.systemui,0,Thread-726,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-21 10:15:23.745  5342 13248 I dvm_lock_sample: [com.android.systemui,0,Thread-726,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:15:23.767  5342 13248 D AmbientPlayRecognition: Preparing to send audio data: 414720 bytes
+02-21 10:15:23.768  5342 13248 D AmbientPlayRecognition: Sending mic data, 414720 bytes...
+02-21 10:15:23.844  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:15:23.845  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:15:23.847  5342 13229 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:15:23.849  5342 13251 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:15:30.334  5342 13248 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:15:30.334  5342 13248 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:15:40.366  5342 13265 D AmbientPlayRecognition: Started reading recorder...
+02-21 10:15:43.464  5342 13267 I dvm_lock_sample: [com.android.systemui,0,Thread-729,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:15:44.098  5342 13267 D AmbientPlayRecognition: Preparing to send audio data: 79360 bytes
+02-21 10:15:44.100  5342 13267 D AmbientPlayRecognition: Sending mic data, 79360 bytes...
+02-21 10:15:45.961  5342 13267 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:15:46.821  5342 13274 D AmbientPlayRecognition: Preparing to send audio data: 139776 bytes
+02-21 10:15:46.821  5342 13274 D AmbientPlayRecognition: Sending mic data, 139776 bytes...
+02-21 10:15:49.392  5342 13277 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:15:52.406  5342 13278 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:15:53.644  5342 13274 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-21 10:15:55.997  5342 13280 I dvm_lock_sample: [com.android.systemui,0,Thread-733,21,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-21 10:15:56.146  5342 13280 I dvm_lock_sample: [com.android.systemui,0,Thread-733,30,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),6]
+02-21 10:15:56.528  5342 13280 D AmbientPlayRecognition: Preparing to send audio data: 353792 bytes
+02-21 10:15:56.528  5342 13280 D AmbientPlayRecognition: Sending mic data, 353792 bytes...
+02-21 10:15:58.420  5342 13287 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:15:59.367  5342  5342 D AmbientPlayRecognition: Interrupting recorder thread
+02-21 10:15:59.367  5342  5342 D AmbientPlayRecognition: Stopping recorder
+02-21 10:15:59.367  5342 13265 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-21 10:15:59.371  5342 13289 D AmbientPlayRecognition: Not sending, data already sending
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: Error while sending audio data
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: java.net.SocketTimeoutException: timeout
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: 	at com.android.okhttp.okio.Okio$3.newTimeoutException(Okio.java:212)
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: 	at com.android.okhttp.okio.AsyncTimeout.exit(AsyncTimeout.java:261)
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: 	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:215)
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: 	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:306)
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: 	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:300)
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: 	at com.android.okhttp.okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:196)
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: 	at com.android.okhttp.internal.http.Http1xStream.readResponse(Http1xStream.java:186)
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: 	at com.android.okhttp.internal.http.Http1xStream.readResponseHeaders(Http1xStream.java:127)
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: 	at com.android.okhttp.internal.http.HttpEngine.readNetworkResponse(HttpEngine.java:737)
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: 	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:609)
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:471)
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:407)
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:244)
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: 	at com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.sendAudioData(AmbientPlayRecognition.java:165)
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: 	at com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.-wrap0(Unknown Source:0)
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: 	at com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(AmbientPlayRecognition.java:137)
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: Caused by: java.net.SocketException: Socket closed
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: 	at java.net.SocketInputStream.read(SocketInputStream.java:203)
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: 	at java.net.SocketInputStream.read(SocketInputStream.java:139)
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: 	at com.android.okhttp.okio.Okio$2.read(Okio.java:136)
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: 	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:211)
+02-21 10:16:07.980  5342 13280 E AmbientPlayRecognition: 	... 13 more
+02-21 10:16:07.981  5342 13280 W AmbientPlayRecognition: Regular expression didn't match!
+02-21 10:16:07.981  5342 13280 D AmbientPlayRecognition: Reporting onNoMatch
+02-21 10:16:07.981  5342 13280 D AmbientPlayRecognition: Reporting result
+02-21 10:16:17.998  5342 13308 D AmbientPlayRecognition: Started reading recorder...
