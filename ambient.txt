@@ -755,3 +755,38 @@
 02-21 10:16:07.981  5342 13280 D AmbientPlayRecognition: Reporting onNoMatch
 02-21 10:16:07.981  5342 13280 D AmbientPlayRecognition: Reporting result
 02-21 10:16:17.998  5342 13308 D AmbientPlayRecognition: Started reading recorder...
+
+
+
+02-22 14:15:11.289  9108 12982 D AmbientPlayRecognition: Preparing to send audio data: 214528 bytes
+02-22 14:15:11.289  9108 12982 D AmbientPlayRecognition: Sending mic data, 214528 bytes...
+02-22 14:15:13.502  9108 12986 D AmbientPlayRecognition: Not sending, data already sending
+02-22 14:15:16.509  9108 12989 D AmbientPlayRecognition: Not sending, data already sending
+02-22 14:15:19.519  9108 12993 D AmbientPlayRecognition: Not sending, data already sending
+02-22 14:15:20.444  9108  9108 D AmbientPlayRecognition: Interrupting recorder thread
+02-22 14:15:20.444  9108  9108 D AmbientPlayRecognition: Stopping recorder
+02-22 14:15:20.444  9108 12958 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-22 14:15:20.448  9108 12996 D AmbientPlayRecognition: Not sending, data already sending
+02-22 14:15:21.320  9108 12982 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-22 14:15:21.320  9108 12982 D AmbientPlayRecognition: Reporting onNoMatch
+02-22 14:15:31.332  9108 13021 D AmbientPlayRecognition: Started reading recorder...
+02-22 14:15:35.613  9108 13024 I dvm_lock_sample: [com.android.systemui,0,Thread-65,22,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-22 14:15:35.711  9108 13024 I dvm_lock_sample: [com.android.systemui,0,Thread-65,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-22 14:15:35.890  9108 13024 I dvm_lock_sample: [com.android.systemui,0,Thread-65,22,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-22 14:15:36.259  9108 13024 I dvm_lock_sample: [com.android.systemui,0,Thread-65,20,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),4]
+02-22 14:15:36.359  9108 13024 D AmbientPlayRecognition: Preparing to send audio data: 108544 bytes
+02-22 14:15:36.360  9108 13024 D AmbientPlayRecognition: Sending mic data, 108544 bytes...
+02-22 14:15:37.360  9108 13027 D AmbientPlayRecognition: Not sending, data already sending
+02-22 14:15:40.411  9108 13030 D AmbientPlayRecognition: Not sending, data already sending
+02-22 14:15:43.416  9108 13032 D AmbientPlayRecognition: Not sending, data already sending
+02-22 14:15:44.212  9108 13024 D AmbientPlayRecognition: No match (Maybe we could not hear the track?)
+02-22 14:15:46.438  9108 13034 I dvm_lock_sample: [com.android.systemui,0,Thread-69,17,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-22 14:15:46.549  9108 13034 I dvm_lock_sample: [com.android.systemui,0,Thread-69,19,AmbientPlayRecognition.java,130,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread$1.run(),-,65,void com.android.systemui.ambientmusic.aoscp.AmbientPlayRecognition$RecorderThread.run(),3]
+02-22 14:15:46.631  9108 13034 D AmbientPlayRecognition: Preparing to send audio data: 334848 bytes
+02-22 14:15:46.632  9108 13034 D AmbientPlayRecognition: Sending mic data, 334848 bytes...
+02-22 14:15:49.431  9108 13038 D AmbientPlayRecognition: Not sending, data already sending
+02-22 14:15:50.333  9108  9108 D AmbientPlayRecognition: Interrupting recorder thread
+02-22 14:15:50.333  9108  9108 D AmbientPlayRecognition: Stopping recorder
+02-22 14:15:50.334  9108 13021 D AmbientPlayRecognition: Broke out of recording loop, mResultGiven=false
+02-22 14:15:50.338  9108 13039 D AmbientPlayRecognition: Not sending, data already sending
+
