@@ -1,0 +1,1280 @@
+kessaras@titan:~/Λήψεις$ adb shell "stop audioserver; logcat -c -b all; start audioserver" && sleep 10 && adb logcat -b all  | egrep -vi "(dialer|telecom|ril|gsm|touch|brightn|dct|QC-time-services|SST|sensors|AlarmMan|Lights|perfp)"
+--------- beginning of main
+05-15 17:00:12.643   866  2202 E AudioService: Audioserver died.
+05-15 17:00:12.797  5923  5937 I zygote64: Background concurrent copying GC freed 166795(7MB) AllocSpace objects, 47(3MB) LOS objects, 50% free, 12MB/24MB, paused 130us total 203.388ms
+05-15 17:00:13.142   866   866 I ServiceManager: Waiting for service media.audio_policy...
+05-15 17:00:13.142   570   772 I ServiceManager: Waiting for service media.audio_flinger...
+05-15 17:00:13.144   866  2202 E AudioService: Audioserver died.
+05-15 17:00:13.280  8436  8436 I tron.oc.mrc.rt: type=1400 audit(0.0:321): avc: denied { sendto } for path="/dev/socket/seempdw" scontext=u:r:priv_app:s0:c512,c768 tcontext=u:r:per_mgr:s0 tclass=unix_dgram_socket permissive=1
+05-15 17:00:13.648   866  2202 E AudioService: Audioserver died.
+05-15 17:00:14.145   866   866 I ServiceManager: Waiting for service media.audio_policy...
+05-15 17:00:14.146   570   772 I ServiceManager: Waiting for service media.audio_flinger...
+05-15 17:00:14.150   866  2202 E AudioService: Audioserver died.
+--------- beginning of kernel
+05-15 17:00:14.438     0     0 I [ 2696.484607 / 05-15 17:00:14.432][1] init: starting service 'audioserver'...
+05-15 17:00:14.444     0     0 E [ 2696.489062 / 05-15 17:00:14.436][3] init: property_set("ro.boottime.audioserver", "6227556558272") failed: property already set
+05-15 17:00:14.450     0     0 I [ 2696.494029 / 05-15 17:00:14.440][0] audioserver[14645]: syscall 384
+05-15 17:00:14.451     0     0 W [ 2696.494088 / 05-15 17:00:14.440][0] Code: e1a01002 e1a02003 e89c0078 ef000000 (e8bd00f0)
+05-15 17:00:14.451     0     0 W [ 2696.494128 / 05-15 17:00:14.440][0] CPU: 0 PID: 14645 Comm: audioserver Not tainted 3.10.108-g7af4250 #19
+05-15 17:00:14.451     0     0 W         : [ 2696.494156 / 05-15 17:00:14.440][0] Hardware name: Qualcomm Technologies, Inc. MSM8992 P1 GLOBAL COM (DT)
+05-15 17:00:14.451     0     0 W [ 2696.494189 / 05-15 17:00:14.440][0] task: ffffffc098e54000 ti: ffffffc086e38000 task.ti: ffffffc086e38000
+05-15 17:00:14.451     0     0 W         : [ 2696.494222 / 05-15 17:00:14.440][0] PC is at 0xe7d583f4
+05-15 17:00:14.451     0     0 W         : [ 2696.494247 / 05-15 17:00:14.440][0] LR is at 0xe7d6907d
+05-15 17:00:14.451     0     0 W [ 2696.494276 / 05-15 17:00:14.440][0] pc: [<00000000e7d583f4>] lr : [<00000000e7d6907d>] pstate: 00000010
+05-15 17:00:14.451     0     0 W [ 2696.494300 / 05-15 17:00:14.440][0] sp: 00000000ffe11498
+05-15 17:00:14.451     0     0 W [ 2696.494326 / 05-15 17:00:14.440][0] x12: 00000000ffe114a8
+05-15 17:00:14.451     0     0 W [ 2696.494349 / 05-15 17:00:14.440][0] x11: 0000000000000000 x10: 0000000000000000
+05-15 17:00:14.451     0     0 W [ 2696.494374 / 05-15 17:00:14.440][0] x9: 0000000000000000 x8 : 0000000000000000
+05-15 17:00:14.451     0     0 W [ 2696.494400 / 05-15 17:00:14.440][0] x7: 0000000000000180 x6 : 0000000000000000
+05-15 17:00:14.451     0     0 W [ 2696.494425 / 05-15 17:00:14.440][0] x5: 0000000000000000 x4 : 0000000000000000
+05-15 17:00:14.451     0     0 W [ 2696.494450 / 05-15 17:00:14.440][0] x3: 0000000000000000 x2 : 0000000000000001
+05-15 17:00:14.451     0     0 W [ 2696.494475 / 05-15 17:00:14.440][0] x1: 0000000000000028 x0 : 00000000ffe11540
+05-15 17:00:14.452     0     0 W         : [ 2696.494500 / 05-15 17:00:14.440][0]
+05-15 17:00:14.654   866  2202 E AudioService: Audioserver died.
+05-15 17:00:14.686     0     0 I [ 2696.733381 / 05-15 17:00:14.680][4] audioserver[14645]: syscall 384
+05-15 17:00:14.686     0     0 W [ 2696.733405 / 05-15 17:00:14.680][4] Code: e1a01002 e1a02003 e89c0078 ef000000 (e8bd00f0)
+05-15 17:00:14.686     0     0 W [ 2696.733421 / 05-15 17:00:14.680][4] CPU: 4 PID: 14645 Comm: audioserver Not tainted 3.10.108-g7af4250 #19
+05-15 17:00:14.687     0     0 W         : [ 2696.733431 / 05-15 17:00:14.680][4] Hardware name: Qualcomm Technologies, Inc. MSM8992 P1 GLOBAL COM (DT)
+05-15 17:00:14.687     0     0 W [ 2696.733441 / 05-15 17:00:14.680][4] task: ffffffc098e54000 ti: ffffffc086e38000 task.ti: ffffffc086e38000
+05-15 17:00:14.687     0     0 W         : [ 2696.733452 / 05-15 17:00:14.680][4] PC is at 0xe6129ccc
+05-15 17:00:14.687     0     0 W         : [ 2696.733458 / 05-15 17:00:14.680][4] LR is at 0xe6128f55
+05-15 17:00:14.687     0     0 W [ 2696.733466 / 05-15 17:00:14.680][4] pc: [<00000000e6129ccc>] lr : [<00000000e6128f55>] pstate: 000f0010
+05-15 17:00:14.687     0     0 W [ 2696.733473 / 05-15 17:00:14.680][4] sp: 00000000ffe112f0
+05-15 17:00:14.687     0     0 W [ 2696.733480 / 05-15 17:00:14.680][4] x12: 00000000ffe11300
+05-15 17:00:14.687     0     0 W [ 2696.733491 / 05-15 17:00:14.680][4] x11: 0000000000000000 x10: 00000000e7ced010
+05-15 17:00:14.687     0     0 W [ 2696.733500 / 05-15 17:00:14.680][4] x9: 0000000000000000 x8 : 00000000e7d0da40
+05-15 17:00:14.687     0     0 W [ 2696.733509 / 05-15 17:00:14.680][4] x7: 0000000000000180 x6 : 0000000000000000
+05-15 17:00:14.687     0     0 W [ 2696.733518 / 05-15 17:00:14.680][4] x5: 00000000e6000100 x4 : 00000000e61a38e8
+05-15 17:00:14.687     0     0 W [ 2696.733526 / 05-15 17:00:14.680][4] x3: 0000000000000000 x2 : 0000000000000001
+05-15 17:00:14.687     0     0 W [ 2696.733534 / 05-15 17:00:14.680][4] x1: 0000000000000028 x0 : 00000000ffe11398
+05-15 17:00:14.687     0     0 W         : [ 2696.733543 / 05-15 17:00:14.680][4]
+05-15 17:00:14.689 14645 14645 I FastMixerState: sMaxFastTracks = 8
+05-15 17:00:14.697 14645 14645 I audioserver: ServiceManager: 0xe5f98940
+05-15 17:00:14.705 14645 14645 D vndksupport: Loading /odm/lib/hw/android.hardware.audio@2.0-impl.so from current namespace instead of sphal namespace.
+05-15 17:00:14.716 14645 14645 D vndksupport: Loading /odm/lib/hw/android.hardware.audio.effect@2.0-impl.so from current namespace instead of sphal namespace.
+05-15 17:00:14.722 14645 14645 I AudioFlinger: Using default 3000 mSec as standby time.
+05-15 17:00:14.756 14645 14645 D audio_hw_primary: adev_open: enter
+05-15 17:00:14.780 14645 14645 W hardware_info: update_hardware_info_8994: Not an 8994 device
+05-15 17:00:15.148   866   866 I ServiceManager: Waiting for service media.audio_policy...
+05-15 17:00:15.156   866  2202 E AudioService: Audioserver started.
+05-15 17:00:15.574     0     0 E         : [ 2697.618815 / 05-15 17:00:15.568][4] msm_qti_pp_get_rms_value_control, back not active to query rms be_idx:3
+05-15 17:00:15.574     0     0 E         : [ 2697.623033 / 05-15 17:00:15.572][4] msm_pcm_volume_ctl_get substream runtime not found
+05-15 17:00:15.578     0     0 E         : [ 2697.623170 / 05-15 17:00:15.572][4] msm_pcm_volume_ctl_get substream runtime not found
+05-15 17:00:15.578     0     0 E         : [ 2697.623297 / 05-15 17:00:15.572][4] msm_pcm_volume_ctl_get substream runtime not found
+05-15 17:00:15.578     0     0 E [ 2697.623394 / 05-15 17:00:15.572][4] msm_compr_audio_effects_config_get: stream or effects inactive
+05-15 17:00:15.578     0     0 E         : [ 2697.623704 / 05-15 17:00:15.572][4] msm_pcm_volume_ctl_get substream runtime not found
+05-15 17:00:15.579     0     0 E [ 2697.623798 / 05-15 17:00:15.572][4] msm_compr_audio_effects_config_get: stream or effects inactive
+05-15 17:00:15.579     0     0 E [ 2697.624051 / 05-15 17:00:15.572][4] msm_compr_audio_effects_config_get: stream or effects inactive
+05-15 17:00:15.579     0     0 E [ 2697.624314 / 05-15 17:00:15.572][4] msm_compr_audio_effects_config_get: stream or effects inactive
+05-15 17:00:15.579     0     0 E         : [ 2697.624667 / 05-15 17:00:15.572][4] msm_pcm_volume_ctl_get substream runtime not found
+05-15 17:00:15.579     0     0 E [ 2697.624763 / 05-15 17:00:15.572][4] msm_compr_audio_effects_config_get: stream or effects inactive
+05-15 17:00:15.579     0     0 E [ 2697.625024 / 05-15 17:00:15.572][4] msm_compr_audio_effects_config_get: stream or effects inactive
+05-15 17:00:15.579     0     0 E [ 2697.625283 / 05-15 17:00:15.572][4] msm_compr_audio_effects_config_get: stream or effects inactive
+05-15 17:00:15.579     0     0 E [ 2697.625545 / 05-15 17:00:15.572][4] msm_compr_audio_effects_config_get: stream or effects inactive
+05-15 17:00:15.579     0     0 E [ 2697.625814 / 05-15 17:00:15.572][4] msm_compr_audio_effects_config_get: stream or effects inactive
+05-15 17:00:15.579     0     0 E [ 2697.626084 / 05-15 17:00:15.572][4] msm_compr_audio_effects_config_get: stream or effects inactive
+05-15 17:00:15.579     0     0 E         : [ 2697.626413 / 05-15 17:00:15.572][4] msm_pcm_volume_ctl_get substream runtime not found
+05-15 17:00:15.579     0     0 E         : [ 2697.627410 / 05-15 17:00:15.576][4] msm_pcm_volume_ctl_get substream runtime not found
+05-15 17:00:15.579     0     0 E         : [ 2697.627653 / 05-15 17:00:15.576][4] msm_pcm_volume_ctl_get substream runtime not found
+05-15 17:00:15.579     0     0 E         : [ 2697.627804 / 05-15 17:00:15.576][4] msm_pcm_volume_ctl_get substream runtime not found
+05-15 17:00:15.579     0     0 E         : [ 2697.627949 / 05-15 17:00:15.576][4] msm_pcm_volume_ctl_get substream runtime not found
+05-15 17:00:15.579     0     0 E         : [ 2697.628093 / 05-15 17:00:15.576][4] msm_pcm_volume_ctl_get substream runtime not found
+05-15 17:00:15.580     0     0 E         : [ 2697.628243 / 05-15 17:00:15.576][4] msm_pcm_volume_ctl_get substream runtime not found
+05-15 17:00:15.580     0     0 E         : [ 2697.628388 / 05-15 17:00:15.576][4] msm_pcm_volume_ctl_get substream runtime not found
+05-15 17:00:15.580     0     0 E         : [ 2697.628544 / 05-15 17:00:15.576][4] msm_pcm_volume_ctl_get substream runtime not found
+05-15 17:00:15.580     0     0 E         : [ 2697.628694 / 05-15 17:00:15.576][4] msm_pcm_volume_ctl_get substream runtime not found
+05-15 17:00:15.580     0     0 E         : [ 2697.628916 / 05-15 17:00:15.576][4] msm_pcm_volume_ctl_get substream runtime not found
+05-15 17:00:15.580     0     0 E         : [ 2697.629080 / 05-15 17:00:15.576][4] msm_pcm_volume_ctl_get substream runtime not found
+05-15 17:00:15.582     0     0 E         : [ 2697.629230 / 05-15 17:00:15.576][4] msm_pcm_volume_ctl_get substream runtime not found
+05-15 17:00:15.582     0     0 E         : [ 2697.629382 / 05-15 17:00:15.576][4] msm_pcm_volume_ctl_get substream runtime not found
+05-15 17:00:15.582     0     0 E         : [ 2697.629534 / 05-15 17:00:15.576][4] msm_pcm_volume_ctl_get substream runtime not found
+05-15 17:00:15.597 14645 14645 D msm8974_platform: platform_init: Opened sound card:0
+05-15 17:00:15.601 14645 14645 D ACDB-LOADER: ACDB -> Prop Load file: /etc/acdbdata/Bluetooth_cal.acdb
+05-15 17:00:15.601 14645 14645 D ACDB-LOADER: ACDB -> Prop Load file: /etc/acdbdata/General_cal.acdb
+05-15 17:00:15.601 14645 14645 D ACDB-LOADER: ACDB -> Prop Load file: /etc/acdbdata/Global_cal.acdb
+05-15 17:00:15.601 14645 14645 D ACDB-LOADER: ACDB -> Prop Load file: /etc/acdbdata/Handset_cal.acdb
+05-15 17:00:15.601 14645 14645 D ACDB-LOADER: ACDB -> Prop Load file: /etc/acdbdata/Hdmi_cal.acdb
+05-15 17:00:15.601 14645 14645 D ACDB-LOADER: ACDB -> Prop Load file: /etc/acdbdata/Headset_cal.acdb
+05-15 17:00:15.601 14645 14645 D ACDB-LOADER: ACDB -> Prop Load file: /etc/acdbdata/Speaker_cal.acdb
+05-15 17:00:15.601 14645 14645 D ACDB-LOADER: ACDB -> ACDB_CMD_INITIALIZE_V2
+05-15 17:00:15.601 14645 14645 D         : [ACDB Command]->SW Minor/Major/Revision version info for /etc/acdbdata/Bluetooth_cal.acdb
+05-15 17:00:15.601 14645 14645 D         : [ACDB Command]->ACDB Sw Major = 5, ACDB Sw Minor = 0, ACDB Sw Revision = 4
+05-15 17:00:15.601 14645 14645 D         : [ACDB Command]->ACDB File Major = 5, ACDB File Minor = 1, ACDB File Revision = 0
+05-15 17:00:15.602 14645 14645 D         : [AcdbIsDeltaFileAvailable] failed to open delta file /data/misc/audio/acdbdata/delta/Bluetooth_cal.acdbdelta
+05-15 17:00:15.602 14645 14645 D         : [ACDB Command]->SW Minor/Major/Revision version info for /etc/acdbdata/General_cal.acdb
+05-15 17:00:15.602 14645 14645 D         : [ACDB Command]->ACDB Sw Major = 5, ACDB Sw Minor = 0, ACDB Sw Revision = 4
+05-15 17:00:15.602 14645 14645 D         : [ACDB Command]->ACDB File Major = 5, ACDB File Minor = 1, ACDB File Revision = 0
+05-15 17:00:15.602 14645 14645 D         : [AcdbIsDeltaFileAvailable] failed to open delta file /data/misc/audio/acdbdata/delta/General_cal.acdbdelta
+05-15 17:00:15.602 14645 14645 D         : [ACDB Command]->SW Minor/Major/Revision version info for /etc/acdbdata/Global_cal.acdb
+05-15 17:00:15.602 14645 14645 D         : [ACDB Command]->ACDB Sw Major = 5, ACDB Sw Minor = 0, ACDB Sw Revision = 4
+05-15 17:00:15.602 14645 14645 D         : [ACDB Command]->ACDB File Major = 5, ACDB File Minor = 1, ACDB File Revision = 0
+05-15 17:00:15.602 14645 14645 D         : [AcdbIsDeltaFileAvailable] failed to open delta file /data/misc/audio/acdbdata/delta/Global_cal.acdbdelta
+05-15 17:00:15.603 14645 14645 D         : [ACDB Command]->SW Minor/Major/Revision version info for /etc/acdbdata/Handset_cal.acdb
+05-15 17:00:15.604 14645 14645 D         : [ACDB Command]->ACDB Sw Major = 5, ACDB Sw Minor = 0, ACDB Sw Revision = 4
+05-15 17:00:15.604 14645 14645 D         : [ACDB Command]->ACDB File Major = 5, ACDB File Minor = 1, ACDB File Revision = 0
+05-15 17:00:15.604 14645 14645 D         : [AcdbIsDeltaFileAvailable] failed to open delta file /data/misc/audio/acdbdata/delta/Handset_cal.acdbdelta
+05-15 17:00:15.604 14645 14645 D         : [ACDB Command]->SW Minor/Major/Revision version info for /etc/acdbdata/Hdmi_cal.acdb
+05-15 17:00:15.604 14645 14645 D         : [ACDB Command]->ACDB Sw Major = 5, ACDB Sw Minor = 0, ACDB Sw Revision = 4
+05-15 17:00:15.604 14645 14645 D         : [ACDB Command]->ACDB File Major = 5, ACDB File Minor = 1, ACDB File Revision = 0
+05-15 17:00:15.604 14645 14645 D         : [AcdbIsDeltaFileAvailable] failed to open delta file /data/misc/audio/acdbdata/delta/Hdmi_cal.acdbdelta
+05-15 17:00:15.604 14645 14645 D         : [ACDB Command]->SW Minor/Major/Revision version info for /etc/acdbdata/Headset_cal.acdb
+05-15 17:00:15.605 14645 14645 D         : [ACDB Command]->ACDB Sw Major = 5, ACDB Sw Minor = 0, ACDB Sw Revision = 4
+05-15 17:00:15.605 14645 14645 D         : [ACDB Command]->ACDB File Major = 5, ACDB File Minor = 1, ACDB File Revision = 0
+05-15 17:00:15.605 14645 14645 D         : [AcdbIsDeltaFileAvailable] failed to open delta file /data/misc/audio/acdbdata/delta/Headset_cal.acdbdelta
+05-15 17:00:15.606 14645 14645 D         : [ACDB Command]->SW Minor/Major/Revision version info for /etc/acdbdata/Speaker_cal.acdb
+05-15 17:00:15.606 14645 14645 D         : [ACDB Command]->ACDB Sw Major = 5, ACDB Sw Minor = 0, ACDB Sw Revision = 4
+05-15 17:00:15.606 14645 14645 D         : [ACDB Command]->ACDB File Major = 5, ACDB File Minor = 1, ACDB File Revision = 0
+05-15 17:00:15.606 14645 14645 D         : [AcdbIsDeltaFileAvailable] failed to open delta file /data/misc/audio/acdbdata/delta/Speaker_cal.acdbdelta
+05-15 17:00:15.606 14645 14645 D ACDB-LOADER: ACDB -> ACPH INIT
+05-15 17:00:15.606 14645 14645 D         : [ACPH]->Online service registered with ACPH
+05-15 17:00:15.606 14645 14645 E Diag_Lib:  Diag_LSM_Init: Failed to open handle to diag driver, error = 13
+05-15 17:00:15.606 14645 14645 E Diag_Lib:  diagpkt_tbl_reg: Registration failed.
+05-15 17:00:15.606 14645 14645 D         : [ACPH]->ACPH init success
+05-15 17:00:15.606 14645 14645 D ACDB-LOADER: ACDB -> RTAC INIT
+05-15 17:00:15.606 14645 14645 D         : [ACPH]->DSP RTC service registered with ACPH
+05-15 17:00:15.606 14645 14645 D ACDB-LOADER: ACDB -> MCS, FTS INIT
+05-15 17:00:15.606 14645 14645 D         : [ACPH]->MCS RTC service registered with ACPH
+05-15 17:00:15.606 14645 14645 D         : [ACPH]->FTS RTC service registered with ACPH
+05-15 17:00:15.606 14645 14645 D ACDB-LOADER: ACDB -> ADIE RTAC INIT
+05-15 17:00:15.606 14645 14645 D         : [ACPH]->ADIE RTC service registered with ACPH
+05-15 17:00:15.606 14645 14645 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_VOC_PROC_DYNAMIC_TABLE_SIZE
+05-15 17:00:15.607 14645 14645 D ACDB-LOADER: ACDB -> send_meta_info, lic 0
+05-15 17:00:15.607 14645 14645 D         : Couldnt find the key 00000000 
+05-15 17:00:15.607 14645 14645 D         : Output from GetMetaInfoSize command : 0
+05-15 17:00:15.625 14645 14645 D ACDB-LOADER: ACDB -> send_adm_custom_topology
+05-15 17:00:15.625 14645 14645 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDIO_COPP_TOPOLOGIES
+05-15 17:00:15.626 14645 14645 D ACDB-LOADER: ACDB -> AUDIO_SET_ADM_CUSTOM_TOPOLOGY
+05-15 17:00:15.626 14645 14645 D ACDB-LOADER: ACDB -> send_asm_custom_topology
+05-15 17:00:15.626 14645 14645 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDIO_POPP_TOPOLOGIES
+05-15 17:00:15.626 14645 14645 D ACDB-LOADER: ACDB -> AUDIO_SET_ASM_CUSTOM_TOPOLOGY
+05-15 17:00:15.626 14645 14645 D ACDB-LOADER: ACDB -> send_meta_info Enter
+05-15 17:00:15.626 14645 14645 E ACDB-LOADER: Fail to allocate memory for metainfo
+05-15 17:00:15.626 14645 14645 D ACDB-LOADER: ACDB -> send_meta_info failed
+05-15 17:00:15.626 14645 14645 D ACDB-LOADER: ACDB -> init done!
+05-15 17:00:15.627 14645 14645 D msm8974_platform: platform_init: Fluence_Type(1) max_mic_count(2) mic_type(0x3) fluence_in_voice_call(1) fluence_in_voice_rec(0) fluence_in_spkr_mode(1) 
+05-15 17:00:15.628 14645 14645 E DAP_HAL : dap_hal_set_hw_info: dmid=0
+05-15 17:00:15.628 14645 14645 E DAP_HAL :  key 00x
+05-15 17:00:15.628 14645 14645 D msm8974_platform: hw_util_open Opening device /dev/snd/hwC0D1000
+05-15 17:00:15.628 14645 14645 D msm8974_platform: hw_util_open success
+05-15 17:00:15.628 14645 14645 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_ANC_SETTING
+05-15 17:00:15.628 14645 14645 D         : Failed to fetch the lookup information of the device 0000001A 
+05-15 17:00:15.628 14645 14645 E ACDB-LOADER: Error: ACDB ANC returned = -1
+05-15 17:00:15.628 14645 14645 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_ANC_SETTING
+05-15 17:00:15.628 14645 14645 D         : Failed to fetch the lookup information of the device 0000001B 
+05-15 17:00:15.628 14645 14645 E ACDB-LOADER: Error: ACDB ANC returned = -1
+05-15 17:00:15.628 14645 14645 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_ANC_SETTING
+05-15 17:00:15.628 14645 14645 D         : Failed to fetch the lookup information of the device 0000001C 
+05-15 17:00:15.628 14645 14645 E ACDB-LOADER: Error: ACDB ANC returned = -1
+05-15 17:00:15.628 14645 14645 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_ANC_SETTING
+05-15 17:00:15.628 14645 14645 D         : Failed to fetch the lookup information of the device 0000001D 
+05-15 17:00:15.628 14645 14645 E ACDB-LOADER: Error: ACDB ANC returned = -1
+05-15 17:00:15.628 14645 14645 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_ANC_SETTING
+05-15 17:00:15.628 14645 14645 D         : Failed to fetch the lookup information of the device 0000001E 
+05-15 17:00:15.628 14645 14645 E ACDB-LOADER: Error: ACDB ANC returned = -1
+05-15 17:00:15.628 14645 14645 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_ANC_SETTING
+05-15 17:00:15.628 14645 14645 D         : Failed to fetch the lookup information of the device 0000001F 
+05-15 17:00:15.628 14645 14645 E ACDB-LOADER: Error: ACDB ANC returned = -1
+05-15 17:00:15.628 14645 14645 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_ANC_SETTING
+05-15 17:00:15.628 14645 14645 D         : Failed to fetch the lookup information of the device 00000067 
+05-15 17:00:15.628 14645 14645 E ACDB-LOADER: Error: ACDB ANC returned = -1
+05-15 17:00:15.628 14645 14645 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_ANC_SETTING
+05-15 17:00:15.628 14645 14645 D         : Failed to fetch the lookup information of the device 00000056 
+05-15 17:00:15.628 14645 14645 E ACDB-LOADER: Error: ACDB ANC returned = -1
+05-15 17:00:15.628 14645 14645 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_ANC_SETTING
+05-15 17:00:15.628 14645 14645 D         : Failed to fetch the lookup information of the device 00000059 
+05-15 17:00:15.628 14645 14645 E ACDB-LOADER: Error: ACDB ANC returned = -1
+05-15 17:00:15.628 14645 14645 D msm8974_platform: send_codec_cal cal sent for anc_cal
+05-15 17:00:15.628 14645 14645 E ACDB-LOADER: ACDB -> send_codec_cal
+05-15 17:00:15.628 14645 14645 E ACDB-LOADER: ACDB -> ACDB_CMD_GET_CODEC_CAL_DATA
+05-15 17:00:15.628 14645 14645 D msm8974_platform: send_codec_cal cal sent for mad_cal
+05-15 17:00:15.628 14645 14645 D ACDB-LOADER: send mbhc data
+05-15 17:00:15.628 14645 14645 D ACDB-LOADER: ACDB -> MBHC ACDB_PID_GENERAL_CONFIG
+05-15 17:00:15.628 14645 14645 D ACDB-LOADER: ACDB -> MBHC ACDB_PID_PLUG_REMOVAL_DETECTION
+05-15 17:00:15.628 14645 14645 D ACDB-LOADER: ACDB -> MBHC ACDB_PID_PLUG_TYPE_DETECTION
+05-15 17:00:15.628 14645 14645 D ACDB-LOADER: ACDB -> MBHC ACDB_PID_BUTTON_PRESS_DETECTION
+05-15 17:00:15.628 14645 14645 D ACDB-LOADER: ACDB -> MBHC ACDB_PID_IMPEDANCE_DETECTION
+05-15 17:00:15.628 14645 14645 D msm8974_platform: send_codec_cal cal sent for mbhc_cal
+05-15 17:00:15.630 14645 14645 D vndksupport: Loading /odm/lib/hw/audio_amplifier.default.so from current namespace instead of sphal namespace.
+05-15 17:00:15.632 14645 14645 E audio_hw_extn: audio_extn_perf_lock_init: Perf lock handles Success 
+05-15 17:00:15.632 14645 14645 W DeviceHAL: Device 0xe5fe3c80 get_master_volume: Function not implemented
+05-15 17:00:15.632 14645 14645 W DeviceHAL: Device 0xe5fe3c80 get_master_mute: Function not implemented
+05-15 17:00:15.632 14645 14645 W DeviceHAL: Device 0xe5fe3c80 set_master_volume: Function not implemented
+05-15 17:00:15.632 14645 14645 W DeviceHAL: Device 0xe5fe3c80 set_master_mute: Function not implemented
+05-15 17:00:15.632 14645 14645 I AudioFlinger: loadHwModule() Loaded primary audio interface, handle 10
+05-15 17:00:15.632 14645 14645 I AudioFlinger: openOutput() this 0xe5fbd000, module 10 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 2
+05-15 17:00:15.634 14645 14645 D audio_hw_primary: adev_open_output_stream: enter: sample_rate(48000) channel_mask(0x3) devices(0x2) flags(0x2)        stream_handle(0xe5726180)
+05-15 17:00:15.634 14645 14645 D audio_hw_primary: adev_open_output_stream: Stream (0xe5726180) picks up usecase (deep-buffer-playback)
+05-15 17:00:15.640 14645 14645 I AudioFlinger: HAL output buffer size 960 frames, normal sink buffer size 960 frames
+05-15 17:00:15.642 14645 14656 D PermissionCache: checking android.permission.MODIFY_AUDIO_SETTINGS for uid=1000 => granted (2699 us)
+05-15 17:00:15.644 14645 14645 D vndksupport: Loading /odm/lib/hw/android.hardware.audio.effect@2.0-impl.so from current namespace instead of sphal namespace.
+05-15 17:00:15.646 14645 14645 E EffectsConfig: Failed to parse /vendor/etc/audio_effects.xml: Tinyxml2 error (3): /vendor/etc/audio_effects.xml (null)
+05-15 17:00:15.646 14645 14645 E EffectsFactoryConfigLoader: Failed to parse XML configuration file
+05-15 17:00:15.646 14645 14645 W EffectsFactory: Failed to load XML effect configuration, fallback to .conf
+05-15 17:00:15.647 14645 14645 W EffectsFactoryConfigLoader: checkLibraryPath() corrected library path /vendor/lib/soundfx/libbundlewrapper.so to /odm/lib/soundfx/libbundlewrapper.so
+05-15 17:00:15.648 14645 14645 W EffectsFactoryConfigLoader: checkLibraryPath() corrected library path /vendor/lib/soundfx/libreverbwrapper.so to /odm/lib/soundfx/libreverbwrapper.so
+05-15 17:00:15.648 14645 14645 W EffectsFactoryConfigLoader: checkLibraryPath() corrected library path /vendor/lib/soundfx/libqcbassboost.so to /odm/lib/soundfx/libqcbassboost.so
+05-15 17:00:15.649 14645 14645 W EffectsFactoryConfigLoader: checkLibraryPath() corrected library path /vendor/lib/soundfx/libqcvirt.so to /odm/lib/soundfx/libqcvirt.so
+05-15 17:00:15.649 14645 14645 W EffectsFactoryConfigLoader: checkLibraryPath() corrected library path /vendor/lib/soundfx/libqcreverb.so to /odm/lib/soundfx/libqcreverb.so
+05-15 17:00:15.650 14645 14645 W EffectsFactoryConfigLoader: checkLibraryPath() corrected library path /vendor/lib/soundfx/libvisualizer.so to /odm/lib/soundfx/libvisualizer.so
+05-15 17:00:15.651 14645 14645 W EffectsFactoryConfigLoader: checkLibraryPath() corrected library path /vendor/lib/soundfx/libqcomvisualizer.so to /system/lib/soundfx/libqcomvisualizer.so
+05-15 17:00:15.651 14645 14645 W EffectsFactoryConfigLoader: checkLibraryPath() corrected library path /vendor/lib/soundfx/libdownmix.so to /odm/lib/soundfx/libdownmix.so
+05-15 17:00:15.651 14645 14645 W EffectsFactoryConfigLoader: checkLibraryPath() corrected library path /vendor/lib/soundfx/libldnhncr.so to /odm/lib/soundfx/libldnhncr.so
+05-15 17:00:15.652 14645 14645 W EffectsFactoryConfigLoader: checkLibraryPath() corrected library path /vendor/lib/soundfx/libeffectproxy.so to /odm/lib/soundfx/libeffectproxy.so
+05-15 17:00:15.652 14645 14645 W EffectsFactoryConfigLoader: checkLibraryPath() corrected library path /vendor/lib/soundfx/libqcompostprocbundle.so to /system/lib/soundfx/libqcompostprocbundle.so
+05-15 17:00:15.653 14645 14645 W EffectsFactoryConfigLoader: checkLibraryPath() corrected library path /vendor/lib/soundfx/libqcomvoiceprocessing.so to /system/lib/soundfx/libqcomvoiceprocessing.so
+05-15 17:00:15.654 14645 14645 W EffectsFactoryConfigLoader: Error querying effect 7d1580bd-297f-4683-9239-e475b6d1d69f on lib offload_bundle
+05-15 17:00:15.654 14645 14645 W EffectsFactoryConfigLoader: Error querying effect 0f8d0d2a-59e5-45fe-b6e4-248c8a799109 on lib audio_pre_processing
+05-15 17:00:15.654 14645 14645 W EffectsFactoryConfigLoader: Error querying effect 1d97bb0b-9e2f-4403-9ae3-58c2554306f8 on lib audio_pre_processing
+05-15 17:00:15.654 14645 14645 I BufferProvider: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+05-15 17:00:15.655 14645 14645 I AudioFlinger: Using module 10 as the primary audio interface
+05-15 17:00:15.655 14645 14660 I AudioFlinger: AudioFlinger's thread 0xe47830c0 tid=14660 ready to run
+05-15 17:00:15.656 14645 14660 W AudioFlinger: no wake lock to update, system not ready yet
+05-15 17:00:15.656 14645 14655 D audio_hw_extn: audio_extn_get_parameters: returns 
+05-15 17:00:15.656 14645 14660 D audio_hw_primary: out_standby: enter: stream (0xe5726180) usecase(0: deep-buffer-playback)
+05-15 17:00:15.657 14645 14656 D audio_hw_primary: adev_set_parameters: enter: restarting=true
+05-15 17:00:15.658 14645 14653 D audio_hw_extn: audio_extn_get_parameters: returns 
+05-15 17:00:15.659 14645 14645 W AudioFlinger: moveEffects() bad srcOutput 0
+05-15 17:00:15.660 14645 14660 W AudioFlinger: no wake lock to update, system not ready yet
+05-15 17:00:15.661 14645 14660 D audio_hw_primary: out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+05-15 17:00:15.662 14645 14655 D audio_hw_extn: audio_extn_get_parameters: returns 
+05-15 17:00:15.673 14645 14645 W APM_AudioPolicyManager: Output profile contains no device on module primary
+05-15 17:00:15.673 14645 14645 I AudioFlinger: openOutput() this 0xe5fbd000, module 10 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 8
+05-15 17:00:15.673 14645 14645 D audio_hw_primary: adev_open_output_stream: enter: sample_rate(48000) channel_mask(0x3) devices(0x2) flags(0x8)        stream_handle(0xe5726000)
+05-15 17:00:15.674 14645 14645 E audio_hw_primary: adev_open_output_stream: Primary output is already opened
+05-15 17:00:15.674 14645 14645 D audio_hw_primary: adev_open_output_stream: exit: ret -17
+05-15 17:00:15.674 14645 14645 W DeviceHAL: Device 0xe5fe3c80 open_output_stream: File exists
+05-15 17:00:15.674 14645 14645 I AudioHwDevice: openOutputStream(), HAL returned sampleRate 48000, Format 0x1, channelMask 0x3, status -61
+05-15 17:00:15.674 14645 14645 W APM_AudioPolicyManager: Cannot open output stream for device 00000002 on hw module primary
+05-15 17:00:15.674 14645 14645 I AudioFlinger: openOutput() this 0xe5fbd000, module 10 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 4
+05-15 17:00:15.674 14645 14645 D audio_hw_primary: adev_open_output_stream: enter: sample_rate(48000) channel_mask(0x3) devices(0x2) flags(0x4)        stream_handle(0xe5726000)
+05-15 17:00:15.674 14645 14645 D audio_hw_primary: adev_open_output_stream: Stream (0xe5726000) picks up usecase (low-latency-playback)
+05-15 17:00:15.677 14645 14645 I AudioFlinger: HAL output buffer size 240 frames, normal sink buffer size 960 frames
+05-15 17:00:15.678 14645 14663 I AudioFlinger: AudioFlinger's thread 0xe4203f80 tid=14663 ready to run
+05-15 17:00:15.678 14645 14663 W AudioFlinger: no wake lock to update, system not ready yet
+05-15 17:00:15.678 14645 14663 D audio_hw_primary: out_standby: enter: stream (0xe5726000) usecase(1: low-latency-playback)
+05-15 17:00:15.679 14645 14663 W AudioFlinger: no wake lock to update, system not ready yet
+05-15 17:00:15.679 14645 14663 D audio_hw_primary: out_set_parameters: enter: usecase(1: low-latency-playback) kvpairs: routing=2
+05-15 17:00:15.698 14645 14645 W APM_AudioPolicyManager: Output profile contains no device on module primary
+05-15 17:00:15.698 14645 14645 W APM_AudioPolicyManager: Output profile contains no device on module primary
+05-15 17:00:15.698 14645 14645 I AudioFlinger: openOutput() this 0xe5fbd000, module 10 Device 10000, SamplingRate 48000, Format 0x000001, Channels 3, flags 0
+05-15 17:00:15.699 14645 14645 D audio_hw_primary: adev_open_output_stream: enter: sample_rate(48000) channel_mask(0x3) devices(0x10000) flags(0)        stream_handle(0xe5726300)
+05-15 17:00:15.699 14645 14645 D audio_hw_primary: adev_open_output_stream: Stream (0xe5726300) picks up usecase (afe-proxy-playback)
+05-15 17:00:15.699 14645 14645 I AudioFlinger: HAL output buffer size 768 frames, normal sink buffer size 1152 frames
+05-15 17:00:15.706 14645 14666 I AudioFlinger: AudioFlinger's thread 0xe3d83540 tid=14666 ready to run
+05-15 17:00:15.706 14645 14666 W AudioFlinger: no wake lock to update, system not ready yet
+05-15 17:00:15.706 14645 14666 D audio_hw_primary: out_standby: enter: stream (0xe5726300) usecase(37: afe-proxy-playback)
+05-15 17:00:15.707 14645 14666 W AudioFlinger: no wake lock to update, system not ready yet
+05-15 17:00:15.708 14645 14666 D audio_hw_primary: out_set_parameters: enter: usecase(37: afe-proxy-playback) kvpairs: routing=65536
+05-15 17:00:15.729 14645 14645 W APM_AudioPolicyManager: Output profile contains no device on module primary
+05-15 17:00:15.730 14645 14645 W APM_AudioPolicyManager: Output profile contains no device on module primary
+05-15 17:00:15.730 14645 14645 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0xc) devices(0x80000004)        stream_handle(0xe5fbac80) io_handle(14) source(1)
+05-15 17:00:15.737 14645 14668 I AudioFlinger: AudioFlinger's thread 0xe39838c0 tid=14668 ready to run
+05-15 17:00:15.738 14645 14645 D audio_hw_primary: adev_close_input_stream: enter:stream_handle(0xe5fbac80)
+05-15 17:00:15.738 14645 14645 D audio_hw_primary: in_standby: enter: stream (0xe5fbac80) usecase(16: audio-record)
+05-15 17:00:15.739 14645 14645 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0xc) devices(0x80000040)        stream_handle(0xe5fbac80) io_handle(22) source(1)
+05-15 17:00:15.739 14645 14645 W DeviceHAL: Device 0xe5fe3c80 open_input_stream: Invalid argument
+05-15 17:00:15.739 14645 14645 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0xc) devices(0x80000040)        stream_handle(0xe5fbac80) io_handle(22) source(1)
+05-15 17:00:15.739 14645 14645 W DeviceHAL: Device 0xe5fe3c80 open_input_stream: Invalid argument
+05-15 17:00:15.739 14645 14645 W APM_AudioPolicyManager: Cannot open input stream for device 80000040 on hw module primary
+05-15 17:00:15.744 14645 14645 I bt_a2dp_hw: adev_open:  adev_open in A2dp_hw module
+05-15 17:00:15.745 14645 14645 I AudioFlinger: loadHwModule() Loaded a2dp audio interface, handle 18
+05-15 17:00:15.745 14645 14645 D vndksupport: Loading /odm/lib/hw/audio.usb.default.so from current namespace instead of sphal namespace.
+05-15 17:00:15.746 14645 14645 I AudioFlinger: loadHwModule() Loaded usb audio interface, handle 26
+05-15 17:00:15.747 14645 14645 D vndksupport: Loading /odm/lib/hw/audio.r_submix.default.so from current namespace instead of sphal namespace.
+05-15 17:00:15.748 14645 14645 I r_submix: adev_open(name=audio_hw_if)
+05-15 17:00:15.749 14645 14645 I r_submix: adev_init_check()
+05-15 17:00:15.749 14645 14645 W DeviceHAL: Device 0xe3dd4400 set_master_mute: Function not implemented
+05-15 17:00:15.749 14645 14645 I AudioFlinger: loadHwModule() Loaded r_submix audio interface, handle 34
+05-15 17:00:15.749 14645 14645 D r_submix: adev_open_input_stream(addr=0)
+05-15 17:00:15.749 14645 14645 D r_submix: submix_audio_device_create_pipe_l(addr=0, idx=9)
+05-15 17:00:15.749 14645 14645 D r_submix:   now using address 0 for route 9
+05-15 17:00:15.753 14645 14672 I AudioFlinger: AudioFlinger's thread 0xe3983300 tid=14672 ready to run
+05-15 17:00:15.755 14645 14645 D r_submix: adev_close_input_stream()
+05-15 17:00:15.755 14645 14645 D r_submix: submix_audio_device_release_pipe_l(idx=9) addr=0
+05-15 17:00:15.755 14645 14645 D r_submix: submix_audio_device_destroy_pipe_l(): pipe destroyed
+05-15 17:00:15.755 14645 14645 W APM_AudioPolicyManager: Input device 80000040 unreachable
+05-15 17:00:15.756 14645 14645 E EffectsConfig: Failed to parse /vendor/etc/audio_effects.xml: Tinyxml2 error (3): /vendor/etc/audio_effects.xml (null)
+05-15 17:00:15.756 14645 14645 W AudioPolicyEffects: Failed to load XML effect configuration, fallback to .conf
+--------- beginning of events
+05-15 17:00:15.760 14645 14645 I auditd  : type=1400 audit(0.0:322): avc: denied { read write } for comm="audioserver" name="soundtrigger_dma_drv" dev="tmpfs" ino=35208 scontext=u:r:audioserver:s0 tcontext=u:object_r:device:s0 tclass=file permissive=1
+05-15 17:00:15.760 14645 14645 I audioserver: type=1400 audit(0.0:322): avc: denied { read write } for name="soundtrigger_dma_drv" dev="tmpfs" ino=35208 scontext=u:r:audioserver:s0 tcontext=u:object_r:device:s0 tclass=file permissive=1
+05-15 17:00:15.760 14645 14645 I auditd  : type=1400 audit(0.0:323): avc: denied { open } for comm="audioserver" path="/dev/soundtrigger_dma_drv" dev="tmpfs" ino=35208 scontext=u:r:audioserver:s0 tcontext=u:object_r:device:s0 tclass=file permissive=1
+05-15 17:00:15.760 14645 14645 I audioserver: type=1400 audit(0.0:323): avc: denied { open } for path="/dev/soundtrigger_dma_drv" dev="tmpfs" ino=35208 scontext=u:r:audioserver:s0 tcontext=u:object_r:device:s0 tclass=file permissive=1
+05-15 17:00:15.763 14645 14645 D vndksupport: Loading /odm/lib/hw/android.hardware.soundtrigger@2.0-impl.so from current namespace instead of sphal namespace.
+05-15 17:00:15.764 14645 14645 D vndksupport: Loading /odm/lib/hw/sound_trigger.primary.default.so from current namespace instead of sphal namespace.
+05-15 17:00:15.765 14645 14645 I soundtrigger_hw: stdev_open soundtrigger open.
+05-15 17:00:15.765 14645 14645 I soundtrigger_hw: driver [/dev/soundtrigger_dma_drv] open success.
+05-15 17:00:15.765 14645 14645 I soundtrigger_hw: [stdev_open]soundtrigger open ret[0]
+05-15 17:00:15.765 14645 14645 I SoundTriggerHalImpl: onFirstRef() mModuleName primary mHwDevice 0xe347b0a4
+05-15 17:00:15.767 14645 14645 I soundtrigger_hw: stdev_get_properties
+05-15 17:00:15.767 14645 14645 I SoundTriggerHalHidl: getProperties res implementor The Android Open Source Project
+05-15 17:00:15.767 14645 14645 I SoundTriggerHalHidl: getProperties ret 0
+05-15 17:00:15.767 14645 14645 I SoundTriggerHwService: loaded default module Volantis OK Google , handle 1
+05-15 17:00:16.153 14645 14651 D audio_hw_primary: adev_set_parameters: enter: 00:1D:82:CB:EC:87=;connect=32
+05-15 17:00:16.155 14645 14654 I AudioFlinger: openOutput() this 0xe5fbd000, module 10 Device 20, SamplingRate 48000, Format 0x000001, Channels 3, flags 8
+05-15 17:00:16.156 14645 14654 D audio_hw_primary: adev_open_output_stream: enter: sample_rate(48000) channel_mask(0x3) devices(0x20) flags(0x8)        stream_handle(0xe5726480)
+05-15 17:00:16.156 14645 14654 E audio_hw_primary: adev_open_output_stream: Primary output is already opened
+05-15 17:00:16.156 14645 14654 D audio_hw_primary: adev_open_output_stream: exit: ret -17
+05-15 17:00:16.156 14645 14654 W DeviceHAL: Device 0xe5fe3c80 open_output_stream: File exists
+05-15 17:00:16.156 14645 14654 I AudioHwDevice: openOutputStream(), HAL returned sampleRate 48000, Format 0x1, channelMask 0x3, status -61
+05-15 17:00:16.156 14645 14654 W APM_AudioPolicyManager: checkOutputsForDevice() could not open output for device 20
+05-15 17:00:16.158 14645 14660 D audio_hw_primary: out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=0
+05-15 17:00:16.160 14645 14663 D audio_hw_primary: out_set_parameters: enter: usecase(1: low-latency-playback) kvpairs: routing=0
+05-15 17:00:16.162 14645 14666 D audio_hw_primary: out_set_parameters: enter: usecase(37: afe-proxy-playback) kvpairs: routing=0
+05-15 17:00:16.165 14645 14651 D audio_hw_primary: adev_set_parameters: enter: 00:1D:82:CB:EC:87=;connect=-2147483640
+05-15 17:00:16.166 14645 14656 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0xc) devices(0x80000008)        stream_handle(0xe5fb96c0) io_handle(38) source(1)
+05-15 17:00:16.169 14645 14677 I AudioFlinger: AudioFlinger's thread 0xe3983c80 tid=14677 ready to run
+05-15 17:00:16.169 14645 14677 D audio_hw_primary: in_standby: enter: stream (0xe5fb96c0) usecase(16: audio-record)
+05-15 17:00:16.169 14645 14677 W AudioFlinger: no wake lock to update, system not ready yet
+05-15 17:00:16.169 14645 14677 D audio_hw_primary: in_standby: enter: stream (0xe5fb96c0) usecase(16: audio-record)
+05-15 17:00:16.170 14645 14677 W AudioFlinger: no wake lock to update, system not ready yet
+05-15 17:00:16.170 14645 14677 D audio_hw_primary: in_set_parameters: enter: kvpairs=00:1D:82:CB:EC:87=
+05-15 17:00:16.172 14645 14677 W AudioFlinger: no wake lock to update, system not ready yet
+05-15 17:00:16.173 14645 14656 D audio_hw_primary: adev_close_input_stream: enter:stream_handle(0xe5fb96c0)
+05-15 17:00:16.173 14645 14656 D audio_hw_primary: in_standby: enter: stream (0xe5fb96c0) usecase(16: audio-record)
+05-15 17:00:16.176 14645 14674 I SoundTriggerHwService::Module: onCallbackEvent no clients
+05-15 17:00:16.178 14645 14654 W APM::AudioPolicyEngine: setPhoneState() setting same state 0
+05-15 17:00:16.178 14645 14654 W APM_AudioPolicyManager: setPhoneState() invalid or same state 0
+--------- beginning of system
+05-15 17:00:16.213 14645 14655 I AudioFlinger: systemReady
+05-15 17:00:16.213 14645 14653 D audio_hw_primary: adev_set_parameters: enter: restarting=false
+05-15 17:00:19.991     0     0 I         : [ 2702.038543 / 05-15 17:00:19.984][0] [CC] [C], USB_PRESENT, WIRELESS_PRESENT, USB_TYPE, CABLE_INFO, USBIN_VOL, BATT_FAKE, BATT_TEMP, BATT_SOC, BATT_VOL, PMI_IUSB_SET, PMI_IUSB_AICL, PMI_IBAT_SET, TOTAL_IBAT_NOW
+05-15 17:00:19.991     0     0 I         : [ 2702.038612 / 05-15 17:00:19.984][0] [CC] [I], 1, 0, USB, OPEN, 4440, FAKE_OFF, 23, 75, 4071, 500, 0, 2000, -392
+05-15 17:00:19.991     0     0 I [ 2702.038942 / 05-15 17:00:19.988][0] SMBCHG: get_parallel_psy: parallel charger not found
+05-15 17:00:19.991     0     0 I         : [ 2702.039398 / 05-15 17:00:19.988][0] [CC] charge_type = 3
+05-15 17:00:19.998     0     0 W [ 2702.045599 / 05-15 17:00:19.992][0] healthd: battery l=75 v=4071 t=23.0 h=2 st=2 c=-392 chg=u
+05-15 17:00:22.394     0     0 I         : [ 2704.440556 / 05-15 17:00:22.388][0] pet_watchdog
+05-15 17:00:24.537     0     0 D [ 2706.585633 / 05-15 17:00:24.532][1] logd: logdr: UID=0 GID=0 PID=14685 b tail=0 logMask=7f pid=0 start=0ns timeout=0ns
+05-15 17:00:25.279  5923  7784 I c2dm    : [8,com.google.android.googlequicksearchbox:0:1526392825076598,85,11]
+05-15 17:00:25.302  5923  7702 I c2dm    : [-7,,86,12]
+05-15 17:00:25.361   866  5968 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.googlequicksearchbox/com.google.android.apps.gsa.search.core.service.SearchService } to com.google.android.googlequicksearchbox/com.google.android.apps.gsa.search.core.service.SearchService from pid=5991 uid=10088 pkg=com.google.android.googlequicksearchbox
+05-15 17:00:25.363  5991  5991 E ServiceForegroundHelper: Attempting to start service when the app is in background is not allowed on Android O+. Intent: Intent { cmp=com.google.android.googlequicksearchbox/com.google.android.apps.gsa.search.core.service.SearchService }
+05-15 17:00:25.363  5991  5991 E ServiceForegroundHelper: java.lang.IllegalStateException: Not allowed to start service Intent { cmp=com.google.android.googlequicksearchbox/com.google.android.apps.gsa.search.core.service.SearchService }: app is in background uid UidRecord{37afaca u0a88 RCVR bg:+2m2s376ms idle change:uncached procs:1 seq(0,0,0)}
+05-15 17:00:25.363  5991  5991 E ServiceForegroundHelper: 	at android.app.ContextImpl.startServiceCommon(ContextImpl.java:1521)
+05-15 17:00:25.363  5991  5991 E ServiceForegroundHelper: 	at android.app.ContextImpl.startService(ContextImpl.java:1477)
+05-15 17:00:25.363  5991  5991 E ServiceForegroundHelper: 	at android.content.ContextWrapper.startService(ContextWrapper.java:650)
+05-15 17:00:25.363  5991  5991 E ServiceForegroundHelper: 	at com.google.android.apps.gsa.search.core.service.cl.axi(SourceFile:19)
+05-15 17:00:25.363  5991  5991 E ServiceForegroundHelper: 	at com.google.android.apps.gsa.search.core.service.co.axm(SourceFile:25)
+05-15 17:00:25.363  5991  5991 E ServiceForegroundHelper: 	at com.google.android.apps.gsa.search.core.service.SearchService.awZ(SourceFile:71)
+05-15 17:00:25.363  5991  5991 E ServiceForegroundHelper: 	at com.google.android.apps.gsa.search.core.service.SearchService.onCreate(SourceFile:34)
+05-15 17:00:25.363  5991  5991 E ServiceForegroundHelper: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:3363)
+05-15 17:00:25.363  5991  5991 E ServiceForegroundHelper: 	at android.app.ActivityThread.-wrap4(Unknown Source:0)
+05-15 17:00:25.363  5991  5991 E ServiceForegroundHelper: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1695)
+05-15 17:00:25.363  5991  5991 E ServiceForegroundHelper: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-15 17:00:25.363  5991  5991 E ServiceForegroundHelper: 	at android.os.Looper.loop(Looper.java:164)
+05-15 17:00:25.363  5991  5991 E ServiceForegroundHelper: 	at android.app.ActivityThread.main(ActivityThread.java:6552)
+05-15 17:00:25.363  5991  5991 E ServiceForegroundHelper: 	at java.lang.reflect.Method.invoke(Native Method)
+05-15 17:00:25.363  5991  5991 E ServiceForegroundHelper: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:440)
+05-15 17:00:25.363  5991  5991 E ServiceForegroundHelper: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+--------- beginning of radio
+05-15 17:00:25.402  5067  5109 D SubscriptionController: [getPhoneId] asked for default subId=1
+05-15 17:00:25.417  5991 14237 W LocationOracle: No location history returned by ContextManager
+05-15 17:00:25.479 13356 14689 I DynamiteModule: Considering local module com.google.android.gms.brella_dynamite:0 and remote module com.google.android.gms.brella_dynamite:222
+05-15 17:00:25.479 13356 14689 I DynamiteModule: Selected remote version of com.google.android.gms.brella_dynamite, version >= 222
+05-15 17:00:25.632  5991 14233 I dvm_lock_sample: [com.google.android.googlequickse,0,NonUserFacing28,10,SourceFile,4,java.lang.Object com.google.android.apps.gsa.staticplugins.ci.c.p.call(),Collections.java,5507,boolean java.util.Collections$SetFromMap.add(java.lang.Object),2]
+05-15 17:00:25.680  5923  6445 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.googlequicksearchbox], packageName=null]
+05-15 17:00:25.684  5991 12981 E GeofenceHelper: Failed: remove geofences by PendingIntent
+05-15 17:00:25.688  5923  5923 W GCM     : broadcast intent callback: result=CANCELLED forIntent { act=com.google.android.c2dm.intent.RECEIVE pkg=com.google.android.googlequicksearchbox (has extras) }
+05-15 17:00:26.650     0     0 I         : [ 2708.695639 / 05-15 17:00:26.644][0] [XO_THERM] Result:33 Raw:32205
+05-15 17:00:32.410     0     0 I         : [ 2714.456303 / 05-15 17:00:32.404][0] pet_watchdog
+05-15 17:00:34.456   866  1575 I PowerManagerService: Waking up from sleep (uid=1000 reason=android.policy:KEY)...
+05-15 17:00:34.462   866   866 I screen_toggled: 1
+05-15 17:00:34.462   866   969 I DisplayPowerController: Blocking screen on until initial contents have been drawn.
+05-15 17:00:34.462   866   866 I power_screen_broadcast_send: 1
+05-15 17:00:34.466     0     0 E [ 2716.502924 / 05-15 17:00:34.452][0] qpnp_pon_input_dispatch: code(114), value(2)
+05-15 17:00:34.473   866  4803 I QCOM PowerHAL: Got set_interactive hint
+05-15 17:00:34.474   489   489 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x77f4e5f000
+05-15 17:00:34.474   866   967 I DisplayManagerService: Display device changed state: "Ενσωματωμένη οθόνη", ON
+05-15 17:00:34.474   489   489 D qdhwcomposer: hwc_setPowerMode: Setting mode 2 on display: 0
+05-15 17:00:34.487   866  1575 I InputReader: Reconfiguring input devices.  changes=0x00000004
+05-15 17:00:34.511 14645 14656 D audio_hw_primary: adev_set_parameters: enter: screen_state=on
+05-15 17:00:34.514   866  4852 I sysui_view_visibility: [127,100]
+05-15 17:00:34.515   866  4852 I sysui_multi_action: [757,127,758,1]
+05-15 17:00:34.515   866  4852 I sysui_histogram: [note_load,2]
+05-15 17:00:34.515   866  4852 I sysui_multi_action: [757,804,799,note_load,801,2,802,1]
+05-15 17:00:34.515   866  4852 I notification_panel_revealed: 2
+05-15 17:00:34.512  4838  4838 I auditd  : type=1400 audit(0.0:324): avc: denied { sendto } for comm="ndroid.systemui" path="/dev/socket/seempdw" scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:per_mgr:s0 tclass=unix_dgram_socket permissive=1
+05-15 17:00:34.518  4830  4830 I DeviceStatusMonitor: onReceive() : Action = android.intent.action.SCREEN_ON
+05-15 17:00:34.512  4838  4838 I ndroid.systemui: type=1400 audit(0.0:324): avc: denied { sendto } for path="/dev/socket/seempdw" scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:per_mgr:s0 tclass=unix_dgram_socket permissive=1
+05-15 17:00:34.543  4838  4838 D StatusBar: disable<e i a s b H R c s q >
+05-15 17:00:34.544   866  5107 I sysui_multi_action: [757,128,758,1,793,688302,794,0,795,688302,796,26,798,0,806,android,857,DEVELOPER,858,2,947,0]
+05-15 17:00:34.545   866  5107 I sysui_histogram: [note_freshness,688302]
+05-15 17:00:34.545   866  5107 I sysui_multi_action: [757,804,799,note_freshness,801,688302,802,1]
+05-15 17:00:34.545   866  5107 I notification_visibility: [-1|android|26|null|1000,1,688302,688302,0,0]
+05-15 17:00:34.543  4838  4838 D StatusBar: disable<e i a s b H R c s q >
+05-15 17:00:34.579   866   969 I DisplayPowerController: Unblocked screen on after 117 ms
+05-15 17:00:34.609  5941  5941 D BrcmNfcJni: nfcManager_doSetScreenState: state = 4 discovry_param = 1
+05-15 17:00:34.637   866   866 I power_screen_broadcast_done: [1,174,1]
+05-15 17:00:34.646 13667 13702 I bt_stack: [INFO:gatt_api.cc(1004)] GATT_Register
+05-15 17:00:34.646 13667 13702 I bt_stack: [INFO:gatt_api.cc(1027)] allocated gatt_if=6
+05-15 17:00:34.647  5923  6445 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=6 mScannerId=0
+05-15 17:00:34.644 13714 13714 I auditd  : type=1400 audit(0.0:325): avc: denied { sendto } for comm="Binder:13667_3" path="/dev/socket/seempdw" scontext=u:r:bluetooth:s0 tcontext=u:r:per_mgr:s0 tclass=unix_dgram_socket permissive=1
+05-15 17:00:34.644 13714 13714 I Binder:13667_3: type=1400 audit(0.0:325): avc: denied { sendto } for path="/dev/socket/seempdw" scontext=u:r:bluetooth:s0 tcontext=u:r:per_mgr:s0 tclass=unix_dgram_socket permissive=1
+05-15 17:00:34.661  5923 13756 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=LOW_LATENCY, callbackType=ALL_MATCHES, reportDelayMillis=0, 6 filters, 1 clients, callingClientName=Nearby]
+05-15 17:00:34.686  5923 13756 I BeaconBle: 'L' hardware scan: 6 filters, scanMode=2, reportdelay=0, callback type=1, #clients=2, workSource=WorkSource{10031 com.google.android.gms}
+05-15 17:00:34.690  5923 13756 I BeaconBle: Starting scan on OS scanner. BT state: 12
+05-15 17:00:34.707 13667 13702 I bt_stack: [INFO:gatt_api.cc(1004)] GATT_Register
+05-15 17:00:34.707 13667 13702 I bt_stack: [INFO:gatt_api.cc(1027)] allocated gatt_if=7
+05-15 17:00:34.707  5923  6411 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=7 mScannerId=0
+05-15 17:00:34.798   489   799 I qdhwcomposer: handle_blank_event: dpy:0 panel power state: 1
+05-15 17:00:34.800   489   489 D qdhwcomposer: hwc_setPowerMode: Done setting mode 2 on display 0
+05-15 17:00:34.802     0     0 I [ 2716.524045 / 05-15 17:00:34.472][1] mdss_fb_blank_sub: + mdss_fb_blank+0x130/0x144 fb0 mode:0
+05-15 17:00:34.802     0     0 E [ 2716.524449 / 05-15 17:00:34.472][3] hdmi_tx_panel_event_handler: event = 9 suspend=0, hpd_feature=0
+05-15 17:00:34.802     0     0 I         : [ 2716.569084 / 05-15 17:00:34.516][0] CFG80211-TRACE) __wl_cfg80211_scan : START SCAN
+05-15 17:00:34.802     0     0 W [ 2716.583633 / 05-15 17:00:34.532][0] dhd_set_suspend: Remove extra suspend setting
+05-15 17:00:34.802     0     0 I [ 2716.590796 / 05-15 17:00:34.540][2] mdss_dsi_panel_power_ctrl: cur_power_state=0 req_power_state=1
+05-15 17:00:34.802     0     0 I [ 2716.616245 / 05-15 17:00:34.564][1] mdss_dsi_on-:  
+05-15 17:00:34.802     0     0 I [ 2716.616265 / 05-15 17:00:34.564][1] mdss_dsi_panel_power_ctrl: cur_power_state=0 req_power_state=1
+05-15 17:00:34.802     0     0 I [ 2716.616273 / 05-15 17:00:34.564][1] jdi_qhd_command_mdss_dsi_panel_reset: enable = 1, ndx = 1
+05-15 17:00:34.802     0     0 I         : [ 2716.616277 / 05-15 17:00:34.564][1] dw8768_mode_change mode = 1
+05-15 17:00:34.802     0     0 I [ 2716.623520 / 05-15 17:00:34.572][1] mdss_dsi_on-:  
+05-15 17:00:34.802     0     0 I [ 2716.628973 / 05-15 17:00:34.576][1] mdss_dsi_panel_on: -
+05-15 17:00:34.802     0     0 I [ 2716.631850 / 05-15 17:00:34.580][3] mdss_dsi_unblank-:  
+05-15 17:00:34.802     0     0 E [ 2716.698449 / 05-15 17:00:34.644][0] qpnp_pon_input_dispatch: code(114), value(0)
+05-15 17:00:34.802     0     0 I [ 2716.816241 / 05-15 17:00:34.764][0] mdss_dsi_panel_on: -
+05-15 17:00:34.802     0     0 I [ 2716.840422 / 05-15 17:00:34.788][1] mdss_dsi_unblank-:  
+05-15 17:00:34.802     0     0 I [ 2716.848363 / 05-15 17:00:34.796][1] mdss_fb_blank_sub: -
+05-15 17:00:34.804   866  4803 D SurfaceControl: Excessive delay in setPowerMode()
+05-15 17:00:34.805   866   969 I sysui_multi_action: [757,198,758,1,759,0,793,351]
+05-15 17:00:34.805   866   969 I power_screen_state: [1,0,0,0,351]
+05-15 17:00:34.809   866   969 W PowerManagerService: Screen on took 351 ms
+05-15 17:00:34.886     0     0 I         : [ 2716.930895 / 05-15 17:00:34.880][1] CFG80211-TRACE) wl_escan_handler : SCAN COMPLETED: scanned AP count=4
+05-15 17:00:34.890   866  5968 D WificondControl: Scan result ready event
+05-15 17:00:34.902  5923 14200 E ctxmgr  : [AppIntervalImpl]closeInterval: ongoing
+05-15 17:00:35.616  4838  5127 I sysui_multi_action: [757,1093,758,4,793,34447,1094,604505089,1095,5]
+05-15 17:00:35.810   866   879 W VibratorService: Failed to perform effect (2), insufficient HAL version
+05-15 17:00:35.811   866   879 E VibratorService: Failed to perform haptic effect: effect=2, strength=1, error=3366619201).
+05-15 17:00:35.830  4838  4838 I sysui_multi_action: [757,186,758,4,826,176,827,2334]
+05-15 17:00:35.830  4838  4838 I sysui_lockscreen_gesture: [1,176,2334]
+05-15 17:00:35.833  4838  4838 D StatusBar: disable<e i a s b H R c s q >
+05-15 17:00:35.834  4838  4838 I sysui_multi_action: [757,197,758,1,759,1]
+05-15 17:00:35.834  4838  4838 I sysui_status_bar_state: [1,1,0,1,1,0]
+05-15 17:00:36.016   866  6289 I sysui_multi_action: [757,128,758,2,793,689774,794,1472,795,689774,796,26,798,0,806,android,857,DEVELOPER,858,2,947,0]
+05-15 17:00:36.016   866  6289 I notification_visibility: [-1|android|26|null|1000,0,689774,689774,0,0]
+05-15 17:00:36.017   866  5065 I sysui_view_visibility: [127,0]
+05-15 17:00:36.018   866  5065 I sysui_multi_action: [757,127,758,2]
+05-15 17:00:36.018   866  5065 I notification_panel_hidden: 
+05-15 17:00:37.538  4838  5127 I sysui_multi_action: [757,1093,758,4,793,1922,1094,604505089,1095,5]
+05-15 17:00:35.948  4838  4838 I chatty  : uid=10029(com.android.systemui) identical 1 line
+05-15 17:00:36.019  4838  4838 D StatusBar: disable<e i a s b H R c s q >
+05-15 17:00:37.653  5923 13756 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=ZERO_POWER, callbackType=ALL_MATCHES, reportDelayMillis=0, 6 filters, 1 clients, callingClientName=Nearby]
+05-15 17:00:37.664   516   516 D keystore: AddAuthenticationToken: timestamp = 6257954 (2485247022983020544), time_received = 2719
+05-15 17:00:37.682  5923 13756 I BeaconBle: Stopping scan on delegate scanner. BT state: 12
+05-15 17:00:37.690   422   426 D DrmLibTime: got the req here! ret=0
+05-15 17:00:37.690   422   426 D DrmLibTime: command id, time_cmd_id = 770
+05-15 17:00:37.690   422   426 D DrmLibTime: time_getutcsec starts!
+05-15 17:00:37.690   422   426 D DrmLibTime: QSEE Time Listener: time_getutcsec
+05-15 17:00:37.690   422   426 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+05-15 17:00:37.690   422   426 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+05-15 17:00:37.690   422   426 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+05-15 17:00:37.692   422   426 D DrmLibTime: QSEE Time Listener: ATS_MODEM is set. Try to retrieve it.
+05-15 17:00:37.694  5923 13756 I BeaconBle: Resetting - new scanner available: true
+05-15 17:00:37.694  5923 13756 I BeaconBle: ZERO_POWER is disabled.
+05-15 17:00:37.694   422   426 D DrmLibTime: QSEE Time Listener: Time GenOff - seconds: 1526392838
+05-15 17:00:37.694   422   426 D DrmLibTime: time_getutcsec returns 0, sec = 1526392838; nsec = 0
+05-15 17:00:37.694  5923 13756 I BeaconBle: 'L' hardware scan: scan stopped, no powered clients
+05-15 17:00:37.695   422   426 D DrmLibTime: time_getutcsec finished! 
+05-15 17:00:37.695   422   426 D DrmLibTime: iotcl_continue_command finished! and return 0 
+05-15 17:00:37.695   422   426 D DrmLibTime: before calling ioctl to read the next time_cmd
+05-15 17:00:37.758   516   516 D keystore: AddAuthenticationToken: timestamp = 6258051 (9474833644662030336), time_received = 2719
+05-15 17:00:37.810   516   516 D keystore: AddAuthenticationToken: timestamp = 6258102 (13149770940596355072), time_received = 2719
+05-15 17:00:37.812   516   516 I keystore: calling unlock when already unlocked, ignoring.
+05-15 17:00:37.813   866  5107 I LockSettingsService: Unlocking user 0 with secret only, length 64
+05-15 17:00:37.814   866  5107 D LockSettingsService: unlockUser finished
+05-15 17:00:37.814   866  5107 W ActivityManager: Expected user 0 in state RUNNING_LOCKED but was in state RUNNING_UNLOCKED
+05-15 17:00:37.814   866  5107 I LockSettingsService: Disabling escrow token on user 0
+05-15 17:00:38.129   866  6282 I am_set_resumed_activity: [0,com.android.settings/.deviceinfo.UsbModeChooserActivity,resumeTopActivityInnerLocked]
+05-15 17:00:38.140   866  6282 I am_resume_activity: [0,42880123,16,com.android.settings/.deviceinfo.UsbModeChooserActivity]
+05-15 17:00:38.157   866  1067 I dvm_lock_sample: [system_server,1,android.anim,5,TaskSnapshotSurface.java,151,com.android.server.wm.TaskSnapshotSurface com.android.server.wm.TaskSnapshotSurface.create(com.android.server.wm.WindowManagerService, com.android.server.wm.AppWindowToken, android.app.ActivityManager$TaskSnapshot),WindowManagerService.java,2951,void com.android.server.wm.WindowManagerService.continueSurfaceLayout(),1]
+05-15 17:00:38.158   866  1067 W WindowManager: TaskSnapshotSurface.create: Failed to find top fullscreen for task={taskId=16 appTokens=[AppWindowToken{61172f1 token=Token{4063a98 ActivityRecord{28e4c7b u0 com.android.settings/.deviceinfo.UsbModeChooserActivity t16}}}] mdr=false}
+05-15 17:00:38.162  6012  6012 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:684 com.google.android.libraries.launcherclient.BaseOverlayServiceConnection.tryConnect:24 com.google.android.libraries.launcherclient.GoogleNow.tryConnect:241 com.google.android.libraries.launcherclient.GoogleNow.onStart:311 
+05-15 17:00:38.171   866  5107 I am_uid_active: 10088
+05-15 17:00:38.225   489   489 D SurfaceFlinger: duplicate layer name: changing com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity to com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#1
+05-15 17:00:38.264 14553 14553 I am_on_resume_called: [0,com.android.settings.deviceinfo.UsbModeChooserActivity,RESUME_ACTIVITY]
+05-15 17:00:38.308   489   489 D SurfaceFlinger: duplicate layer name: changing com.android.settings/com.android.settings.deviceinfo.UsbModeChooserActivity to com.android.settings/com.android.settings.deviceinfo.UsbModeChooserActivity#1
+05-15 17:00:38.371  4838  4838 D StatusBar: disable<e i a s b H R c s q >
+05-15 17:00:38.377  4838  4838 I sysui_view_visibility: [111,0]
+05-15 17:00:38.377  4838  4838 I sysui_multi_action: [757,111,758,2]
+05-15 17:00:38.386  4838  4838 I sysui_multi_action: [757,196,758,2,759,1]
+05-15 17:00:38.386  4838  4838 I sysui_status_bar_state: [0,0,0,0,1,0]
+05-15 17:00:38.390   866   879 I notification_expansion: [-1|android|26|null|1000,0,1,692148,692148,3846]
+05-15 17:00:38.409   866   958 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.USER_PRESENT flg=0x24200010 } to com.facebook.katana/com.facebook.rti.orca.FbnsLiteBroadcastReceiver
+05-15 17:00:38.409  5067  5599 D SubscriptionController: [getPhoneId] asked for default subId=1
+05-15 17:00:38.372  4838  4838 I chatty  : uid=10029(com.android.systemui) identical 1 line
+05-15 17:00:38.383  4838  4838 D StatusBar: disable<e i a s b H R c s q >
+05-15 17:00:38.411  5923  5923 I TrustAgent: [HomeAddressChangeTracker] User Present. Maybe fetch home.
+05-15 17:00:38.411  5941  5941 D BrcmNfcJni: nfcManager_doSetScreenState: state = 8 discovry_param = 1
+05-15 17:00:38.414  5923  5923 I TrustAgent: [HomeAddressChangeTracker] fetch for account theodoroupaulos@gmail.com
+05-15 17:00:38.414  5923  5923 I TrustAgent: [HomeFetcher] return existing home address!
+05-15 17:00:38.414  5923  5923 I TrustAgent: [HomeAddressChangeTracker] home address is not changed.
+05-15 17:00:38.427  4838  4838 D StatusBar: disable<e i a s b h!r!c s q >
+05-15 17:00:38.444 14385 14385 I auditd  : type=1400 audit(0.0:326): avc: denied { sendto } for comm="lowpool[55]" path="/dev/socket/seempdw" scontext=u:r:priv_app:s0:c512,c768 tcontext=u:r:per_mgr:s0 tclass=unix_dgram_socket permissive=1
+05-15 17:00:38.444 14385 14385 I lowpool[55]: type=1400 audit(0.0:326): avc: denied { sendto } for path="/dev/socket/seempdw" scontext=u:r:priv_app:s0:c512,c768 tcontext=u:r:per_mgr:s0 tclass=unix_dgram_socket permissive=1
+05-15 17:00:38.503  6174  7374 I CastDatabase: Opening the database
+05-15 17:00:38.526   866   880 I WifiService: startScan uid=10031
+05-15 17:00:38.530     0     0 I         : [ 2720.578257 / 05-15 17:00:38.524][3] CFG80211-TRACE) __wl_cfg80211_scan : START SCAN
+05-15 17:00:38.527  6174  7374 I SQLiteCastStore: 0 CastNetworkInfo instances loaded, 0 CastDeviceInfo instances loaded, 0 paired guest mode devices loaded.
+05-15 17:00:38.531  6174  6174 I DiscoveryManager: WifiGuestModeDeviceScanner enabled.
+05-15 17:00:38.535  6174  6342 I AsyncOpDispatcher: 122-GetRCNEnabledStatusOperation
+05-15 17:00:38.780  4838  4838 I auditd  : type=1400 audit(0.0:327): avc: denied { sendto } for comm="ndroid.systemui" path="/dev/socket/seempdw" scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:per_mgr:s0 tclass=unix_dgram_socket permissive=1
+05-15 17:00:38.780  4838  4838 I ndroid.systemui: type=1400 audit(0.0:327): avc: denied { sendto } for path="/dev/socket/seempdw" scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:per_mgr:s0 tclass=unix_dgram_socket permissive=1
+05-15 17:00:38.806     0     0 I         : [ 2720.850829 / 05-15 17:00:38.800][0] [CC] current batt_temp[23], batt_temp_state[0], current batt_volt[4071], batt_volt_state[1]
+05-15 17:00:38.870  6012  6201 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+05-15 17:00:38.923   866   957 I am_meminfo: [921837568,159965184,12288,137039872,253084672]
+05-15 17:00:38.974   866   957 I am_pss  : [4830,10083,com.google.android.inputmethod.latin,67389440,62492672,0]
+05-15 17:00:39.016   866   957 I am_pss  : [9366,10099,com.android.chrome,51869696,42713088,0]
+05-15 17:00:39.074   866   957 I am_pss  : [5923,10031,com.google.android.gms.persistent,89916416,72257536,0]
+05-15 17:00:39.121   866   957 I am_pss  : [13552,10014,com.android.vending,27297792,22380544,0]
+05-15 17:00:39.157   866   957 I am_pss  : [6275,10031,com.google.process.gapps,6001664,3747840,0]
+05-15 17:00:39.195   866   957 I am_pss  : [9814,10002,android.process.acore,15109120,12304384,0]
+05-15 17:00:39.238   866   957 I am_pss  : [11645,10099,com.android.chrome:privileged_process1,11737088,6025216,0]
+05-15 17:00:39.272   866   957 I am_pss  : [12238,99001,com.android.chrome:sandboxed_process1,15068160,6987776,0]
+05-15 17:00:39.334   866   957 I am_pss  : [6557,10079,com.facebook.orca,86587392,77959168,0]
+05-15 17:00:39.395   866   957 I am_pss  : [5973,10065,com.android.smspush,3585024,2240512,0]
+05-15 17:00:39.426   866   957 I am_pss  : [5941,1027,com.android.nfc,10131456,8130560,0]
+05-15 17:00:39.462   866   957 I am_pss  : [5067,1001,com.android.phone,29197312,24764416,0]
+05-15 17:00:39.549   866  6286 I am_finish_activity: [0,42880123,16,com.android.settings/.deviceinfo.UsbModeChooserActivity,app-request]
+05-15 17:00:39.555   866  6286 I am_focused_stack: [0,0,1,finishActivity adjustFocus]
+05-15 17:00:39.556   866  6286 I wm_task_moved: [2,1,0]
+05-15 17:00:39.564   866  6286 I am_pause_activity: [0,42880123,com.android.settings/.deviceinfo.UsbModeChooserActivity]
+05-15 17:00:39.572  4830  4830 I auditd  : type=1400 audit(0.0:328): avc: denied { sendto } for comm="putmethod.latin" path="/dev/socket/seempdw" scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:per_mgr:s0 tclass=unix_dgram_socket permissive=1
+05-15 17:00:39.572  4830  4830 I putmethod.latin: type=1400 audit(0.0:328): avc: denied { sendto } for path="/dev/socket/seempdw" scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:per_mgr:s0 tclass=unix_dgram_socket permissive=1
+05-15 17:00:39.570   866   958 I sysui_count: [window_time_0,139]
+05-15 17:00:39.570   866   958 I sysui_multi_action: [757,803,799,window_time_0,802,139]
+05-15 17:00:39.573  4830  4830 I GoogleInputMethod: onFinishInput() : Dummy InputConnection bound
+05-15 17:00:39.574  4830  4830 I GoogleInputMethod: onStartInput() : Dummy InputConnection bound
+05-15 17:00:39.575   866   957 I am_pss  : [866,1000,system,166495232,152166400,0]
+05-15 17:00:39.587 14553 14553 I am_on_paused_called: [0,com.android.settings.deviceinfo.UsbModeChooserActivity,handlePauseActivity]
+05-15 17:00:39.589   866  6282 I am_destroy_activity: [0,42880123,16,com.android.settings/.deviceinfo.UsbModeChooserActivity,finish-imm]
+05-15 17:00:39.595   866  6282 I am_set_resumed_activity: [0,com.google.android.apps.nexuslauncher/.NexusLauncherActivity,resumeTopActivityInnerLocked]
+05-15 17:00:39.599   866  6282 I am_resume_activity: [0,70815698,2,com.google.android.apps.nexuslauncher/.NexusLauncherActivity]
+05-15 17:00:39.655   866   958 I sysui_count: [window_time_0,0]
+05-15 17:00:39.655   866   958 I sysui_multi_action: [757,803,799,window_time_0,802,0]
+05-15 17:00:39.657   866   880 W ActivityManager: Finishing task with all activities already finished
+05-15 17:00:39.658   866   880 W ActivityManager: Duplicate finish request for ActivityRecord{28e4c7b u0 com.android.settings/.deviceinfo.UsbModeChooserActivity t16 f}
+05-15 17:00:39.659  6012  6012 I am_on_resume_called: [0,com.google.android.apps.nexuslauncher.NexusLauncherActivity,RESUME_ACTIVITY]
+05-15 17:00:39.660  5991  5991 W SessionLifecycleManager: Handover failed. Creating new session controller.
+05-15 17:00:39.662 14553 14553 I am_on_stop_called: [0,com.android.settings.deviceinfo.UsbModeChooserActivity,destroy]
+05-15 17:00:39.693  5991  5991 I OptInState: There is a new client and it does not support opt-in. Dropping request.
+05-15 17:00:39.715  5991  5991 I StreamController: registerScope: nowcards-9099013682601439833
+05-15 17:00:39.787  4838  4938 I zygote64: NativeAlloc concurrent copying GC freed 24233(952KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 7MB/15MB, paused 74us total 120.822ms
+05-15 17:00:39.825  5991 14237 W LocationOracle: No location history returned by ContextManager
+05-15 17:00:39.855   866  1067 I wm_task_removed: [16,removeTask]
+05-15 17:00:39.855   866  1067 I wm_task_removed: [16,removeAppToken: last token]
+05-15 17:00:39.856   866  1067 I wm_stack_removed: 1
+05-15 17:00:39.862  5991  5991 I StreamRenderer: maybeRegisterNowCardsScope(nowcards-9099013682601439833, com.google.android.sidekick.shared.remoteapi.CardRenderingContext@d23ac36)
+05-15 17:00:39.974  5923  6405 I AsyncOpDispatcher: 67-RequestPlaceUpdates
+05-15 17:00:39.993  5991  5991 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+05-15 17:00:39.996  5991  5991 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+05-15 17:00:39.998  5991  6002 I zygote64: Background concurrent copying GC freed 56783(2MB) AllocSpace objects, 4(328KB) LOS objects, 49% free, 7MB/14MB, paused 694us total 138.464ms
+05-15 17:00:39.998  5991  5991 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+05-15 17:00:40.017   866  5972 I force_gc: Binder
+05-15 17:00:40.014  5991  5991 I chatty  : uid=10088 com.google.android.googlequicksearchbox:search identical 4 lines
+05-15 17:00:40.016  5991  5991 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+05-15 17:00:40.018  5923  8269 I PlaceInferenceEngine: [anon] Changed inference mode: 0
+05-15 17:00:40.031  5991  5991 W ServiceUpdateReceiver: Ignoring update for non-existing controller.
+05-15 17:00:40.066  5991  5991 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+05-15 17:00:40.069  5991  5991 I chatty  : uid=10088 com.google.android.googlequicksearchbox:search identical 1 line
+05-15 17:00:40.072  5991  5991 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+05-15 17:00:40.074  5923  6405 I AsyncOpDispatcher: 67-RequestPlaceUpdates
+05-15 17:00:40.075  5991  5991 W StaticLayout: maxLineHeight should not be -1.  maxLines:2 lineCount:2
+05-15 17:00:40.134  5923  8269 I Places  : ?: PlacesBleScanner start() with priority 2
+05-15 17:00:40.135  5923  8269 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+05-15 17:00:40.158  5923  5923 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=ZERO_POWER, callbackType=ALL_MATCHES, reportDelayMillis=0, 1 filters, 0 clients, callingClientName=Places]
+05-15 17:00:40.175  5923  8269 I Places  : Converted 0 out of 11 WiFi scans
+05-15 17:00:40.179  5923  5923 I BeaconBle: ZERO_POWER is disabled.
+05-15 17:00:40.179  5923  5923 I BeaconBle: 'L' hardware scan: scan stopped, no powered clients
+05-15 17:00:40.191  5923  8269 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+05-15 17:00:40.217  5923 14200 I PlaceInferenceEngine: No beacon scan available - ignoring candidates.
+05-15 17:00:40.430  5923 14731 W ctxmgr  : [AclManager]No 2 for (accnt=account#-517948760#, com.google.android.gms(10031):PlacesProducer, vrsn=12673000, 0, 3pPkg = null ,  3pMdlId = null ,  pid = 5923). Was: 3 for 18, account#-517948760#
+05-15 17:00:40.550   866  6286 I wm_stack_created: 1
+05-15 17:00:40.550   866  6286 I wm_task_created: [17,1]
+05-15 17:00:40.552   866  6286 I wm_task_moved: [17,1,0]
+05-15 17:00:40.552   866  6286 I am_focused_stack: [0,1,0,reuseOrNewTask]
+05-15 17:00:40.552   866  6286 I wm_task_moved: [17,1,0]
+05-15 17:00:40.554   866  6286 I am_create_task: [0,17]
+05-15 17:00:40.554   866  6286 I wm_task_moved: [17,1,0]
+05-15 17:00:40.557   866  6286 I am_pause_activity: [0,70815698,com.google.android.apps.nexuslauncher/.NexusLauncherActivity]
+05-15 17:00:40.569  6012  6012 I am_on_paused_called: [0,com.google.android.apps.nexuslauncher.NexusLauncherActivity,handlePauseActivity]
+05-15 17:00:40.571   866  5065 I am_uid_running: 10018
+05-15 17:00:40.630   866   880 I am_uid_active: 10018
+05-15 17:00:40.759 14736 14736 W zygote64: Class android.support.v4.util.SimpleArrayMap failed lock verification and will run slower.
+05-15 17:00:40.759 14736 14736 W zygote64: Common causes for lock verification issues are non-optimized dex code
+05-15 17:00:40.759 14736 14736 W zygote64: and incorrect proguard optimizations.
+05-15 17:00:41.366 14736 14741 I zygote64: Do partial code cache collection, code=29KB, data=19KB
+05-15 17:00:41.367 14736 14741 I zygote64: After code cache collection, code=29KB, data=19KB
+05-15 17:00:41.367 14736 14741 I zygote64: Increasing code cache capacity to 128KB
+05-15 17:00:41.567  4838  5127 I sysui_multi_action: [757,1093,758,4,793,4029,1094,604505089,1095,5]
+05-15 17:00:41.739   866  5968 I am_uid_active: 10002
+05-15 17:00:41.791 14736 14762 D OpenGLRenderer: HWUI GL Pipeline
+05-15 17:00:42.017 14736 14762 I Adreno  : QUALCOMM build                   : d3015e9, I25dc76dc3f
+05-15 17:00:42.017 14736 14762 I Adreno  : Build Date                       : 01/26/17
+05-15 17:00:42.017 14736 14762 I Adreno  : OpenGL ES Shader Compiler Version: XE031.09.00.03
+05-15 17:00:42.017 14736 14762 I Adreno  : Local Branch                     : 
+05-15 17:00:42.017 14736 14762 I Adreno  : Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.BF64.1.2.3_RB1.07.00.00.258.011
+05-15 17:00:42.017 14736 14762 I Adreno  : Remote Branch                    : NONE
+05-15 17:00:42.017 14736 14762 I Adreno  : Reconstruct Branch               : NOTHING
+05-15 17:00:42.032 14736 14762 I OpenGLRenderer: Initialized EGL, version 1.4
+05-15 17:00:42.032 14736 14762 D OpenGLRenderer: Swap behavior 2
+05-15 17:00:42.048 14736 14736 E RecyclerView: No adapter attached; skipping layout
+05-15 17:00:42.084 14736 14762 D vndksupport: Loading /odm/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so from current namespace instead of sphal namespace.
+05-15 17:00:42.208  4830  4830 I GoogleInputMethod: onFinishInput() : Dummy InputConnection bound
+05-15 17:00:42.209  4830  4830 I GoogleInputMethod: onStartInput() : Dummy InputConnection bound
+05-15 17:00:42.218 14736 14741 I zygote64: Do partial code cache collection, code=58KB, data=43KB
+05-15 17:00:42.219 14736 14741 I zygote64: After code cache collection, code=55KB, data=42KB
+05-15 17:00:42.219 14736 14741 I zygote64: Increasing code cache capacity to 256KB
+05-15 17:00:42.422     0     0 I         : [ 2724.467115 / 05-15 17:00:42.416][1] pet_watchdog
+05-15 17:00:42.466 14736 14736 I zygote64: Deoptimizing void android.support.v7.widget.AppCompatImageHelper.loadFromAttributes(android.util.AttributeSet, int) due to JIT inline cache
+05-15 17:00:42.507   866   958 I am_proc_start: [0,14770,10002,com.android.calllogbackup,broadcast,com.android.calllogbackup/.CallLogChangeReceiver]
+05-15 17:00:42.507   866   958 I ActivityManager: Start proc 14770:com.android.calllogbackup/u0a2 for broadcast com.android.calllogbackup/.CallLogChangeReceiver
+05-15 17:00:42.528   866  5107 I am_proc_bound: [0,14770,com.android.calllogbackup]
+05-15 17:00:42.625     0     0 I         : [ 2724.672789 / 05-15 17:00:42.620][2] CFG80211-TRACE) wl_escan_handler : SCAN COMPLETED: scanned AP count=11
+05-15 17:00:42.627   866  6286 D WificondControl: Scan result ready event
+05-15 17:00:42.651  5923 14731 W ctxmgr  : [AclManager]No 2 for (accnt=account#-517948760#, com.google.android.gms(10031):IndoorOutdoorProducer, vrsn=12673000, 0, 3pPkg = null ,  3pMdlId = null ,  pid = 5923). Was: 3 for 57, account#-517948760#
+05-15 17:00:42.696 14736 14741 I zygote64: Do full code cache collection, code=121KB, data=109KB
+05-15 17:00:42.697 14736 14741 I zygote64: After code cache collection, code=71KB, data=50KB
+05-15 17:00:42.824   866  6282 I am_stop_activity: [0,70815698,com.google.android.apps.nexuslauncher/.NexusLauncherActivity]
+05-15 17:00:42.829  6012  6012 I am_on_stop_called: [0,com.google.android.apps.nexuslauncher.NexusLauncherActivity,handleStopActivity]
+05-15 17:00:42.941  5991  5991 I StreamRenderer: cleanUpRendererScope(nowcards-9099013682601439833)
+05-15 17:00:42.952  5991 12989 I PBSessionCacheImpl: Deleted sessionId[34512441249857] from persistence.
+05-15 17:00:42.971  5991  5991 W SearchService: Abort, client detached.
+05-15 17:00:42.974  5991  5991 I StreamController: cleanUpControllerScope(nowcards-9099013682601439833)
+05-15 17:00:43.571  4838  5127 I sysui_multi_action: [757,1093,758,4,793,2004,1094,604505089,1095,5]
+05-15 17:00:44.833 14736 14741 I zygote64: Do partial code cache collection, code=119KB, data=95KB
+05-15 17:00:44.834 14736 14741 I zygote64: After code cache collection, code=119KB, data=95KB
+05-15 17:00:44.834 14736 14741 I zygote64: Increasing code cache capacity to 512KB
+05-15 17:00:44.864   866   957 I am_pss  : [6124,10031,com.google.process.gservices,5426176,3559424,0]
+05-15 17:00:44.918  5991 14232 I EventLogSendingHelper: Sending log events.
+05-15 17:00:45.021  5991 14232 I EventLogSendingHelper: Sending log events.
+05-15 17:00:45.085   866  7964 W PhoneNumberUtils: getCountryIso Country {ISO=GR, source=2, time=1014193}
+05-15 17:00:45.085   866  7964 W PhoneNumberUtils: isLocalEmergencyNumberInternalGR
+05-15 17:00:45.086   866  7964 D PhoneNumberUtils: slotId:0 subId:1 country:GR emergencyNumbers: 112,911
+05-15 17:00:45.093   866   866 W PhoneNumberUtils: getCountryIso Country {ISO=GR, source=2, time=1014193}
+05-15 17:00:45.093   866   866 W PhoneNumberUtils: isLocalEmergencyNumberInternalGR
+05-15 17:00:45.094   866   866 D PhoneNumberUtils: slotId:0 subId:1 country:GR emergencyNumbers: 112,911
+05-15 17:00:45.108 14645 14655 D audio_hw_primary: adev_set_mode: mode 2
+05-15 17:00:45.113 13667 13713 W HeadsetStateMachine: terminateScoUsingVirtualVoiceCall: No present call to terminate
+05-15 17:00:45.113   866   866 W PhoneNumberUtils: getCountryIso Country {ISO=GR, source=2, time=1014193}
+05-15 17:00:45.113   866   866 W PhoneNumberUtils: isLocalEmergencyNumberInternalGR
+05-15 17:00:45.117   866   866 D PhoneNumberUtils: slotId:0 subId:1 country:GR emergencyNumbers: 112,911
+05-15 17:00:45.123 13667 13713 W HeadsetStateMachine: terminateScoUsingVirtualVoiceCall: No present call to terminate
+05-15 17:00:45.124 14645 14660 D audio_hw_primary: out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=1
+05-15 17:00:45.125 14645 14660 D voice_extn: update_calls: enter:
+05-15 17:00:45.125 14645 14660 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10c01000
+05-15 17:00:45.125 14645 14660 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10dc1000
+05-15 17:00:45.125 14645 14660 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10c02000
+05-15 17:00:45.125 14645 14660 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10803000
+05-15 17:00:45.125 14645 14660 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10002000
+05-15 17:00:45.128   866   866 W PhoneNumberUtils: getCountryIso Country {ISO=GR, source=2, time=1014193}
+05-15 17:00:45.128   866   866 W PhoneNumberUtils: isLocalEmergencyNumberInternalGR
+05-15 17:00:45.129   866   866 D PhoneNumberUtils: slotId:0 subId:1 country:GR emergencyNumbers: 112,911
+05-15 17:00:45.146  5067  5106 D SubscriptionController: [getPhoneId] asked for default subId=1
+05-15 17:00:45.146   866  6862 D CallerInfoAsyncQuery: Processing event: 1 token (arg1): 1 command: 0 query URI: content://com.android.contacts/phone_lookup_enterprise/xxxxxxx
+05-15 17:00:45.148   866   866 D PhoneNumberUtils: slotId:0 subId:1 country:null emergencyNumbers: 112,911
+05-15 17:00:45.152   866  5204 I stream_devices_changed: [3,2,1]
+05-15 17:00:45.154 13667 13715 W Avrcp   : playState object null, sending STOPPED
+05-15 17:00:45.155   866  5972 I wm_task_created: [18,1]
+05-15 17:00:45.155   866  5204 I stream_devices_changed: [4,2,1]
+05-15 17:00:45.156   866  5972 I wm_task_moved: [18,1,1]
+05-15 17:00:45.157   866  5972 I wm_task_moved: [18,1,1]
+05-15 17:00:45.157   866  5972 I am_create_task: [0,18]
+05-15 17:00:45.158   866  5972 I wm_task_moved: [18,1,1]
+05-15 17:00:45.163 13667 13715 V Avrcp   : No addressed player but active sessions, taking first.
+05-15 17:00:45.165 13667 13715 V Avrcp   : updatePlaybackState (1): 0➡0(PlaybackState {state=0, position=-1, buffered position=0, speed=0.0, updated=6258282, actions=0, custom actions=[], active item id=-1, error=null})
+05-15 17:00:45.165 13667 13715 I Avrcp   : Skipping update due to invalid playback state
+05-15 17:00:45.165 13667 13715 E Avrcp   : play status change 0➡0 mPlayStatusChangedNT: 1
+05-15 17:00:45.166 13667 13715 D Avrcp   : sendPlayPosNotificationRsp: Not registered or requesting.
+05-15 17:00:45.215   866  5204 I dvm_lock_sample: [system_server,0,CallAudioModeStateMachine,35,ActivityManagerService.java,19846,int com.android.server.am.ActivityManagerService.broadcastIntent(android.app.IApplicationThread, android.content.Intent, java.lang.String, android.content.IIntentReceiver, int, java.lang.String, android.os.Bundle, java.lang.String[], int, android.os.Bundle, boolean, boolean, int),-,7444,void com.android.server.am.ActivityManagerService.activityPaused(android.os.IBinder),7]
+05-15 17:00:45.215   866  5204 I stream_devices_changed: [2,2,1]
+05-15 17:00:45.222   866   958 I sysui_count: [window_time_0,6]
+05-15 17:00:45.222   866   958 I sysui_multi_action: [757,803,799,window_time_0,802,6]
+05-15 17:00:45.224   866  5065 I dvm_lock_sample: [system_server,1,Binder:866_4,73,AudioService.java,4078,int com.android.server.audio.AudioService.getDevicesForStream(int, boolean),-,4078,int com.android.server.audio.AudioService.getDevicesForStream(int, boolean),14]
+05-15 17:00:45.224   866   866 D CallerInfoAsyncQuery: ##### onQueryComplete() #####   query complete for token: 0
+05-15 17:00:45.226 14736 14736 D PhoneNumberUtils: slotId:0 subId:1 country:null emergencyNumbers: 112,911
+05-15 17:00:45.260   866  6862 D CallerInfoAsyncQuery: Processing event: 6 token (arg1): 1 command: 0 query URI: 
+05-15 17:00:45.261   866   866 D LocSvc_NiH: OutgoingCallReceiver :: onReceive
+05-15 17:00:45.262   866   866 D LocSvc_NiH: bundle != null
+05-15 17:00:45.264   866   866 D PhoneNumberUtils: slotId:0 subId:1 country:null emergencyNumbers: 112,911
+05-15 17:00:45.274   866   866 W PhoneNumberUtils: getCountryIso Country {ISO=GR, source=2, time=1014193}
+05-15 17:00:45.274   866   866 W PhoneNumberUtils: isLocalEmergencyNumberInternalGR
+05-15 17:00:45.276   866   866 D PhoneNumberUtils: slotId:0 subId:1 country:GR emergencyNumbers: 112,911
+05-15 17:00:45.278  5067  5599 D SubscriptionController: [getActiveSubscriptionInfo]+ subId=1 subInfo={id=1, iccId=89300100160427481402 simSlotIndex=0 displayName=CARD 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@2472402 mcc 202 mnc 1 isEmbedded false accessRules null}
+05-15 17:00:45.279  4838  5062 I vol.Events: writeEvent level_changed STREAM_SYSTEM 5
+05-15 17:00:45.286  4838  5062 I vol.Events: writeEvent level_changed STREAM_MUSIC 5
+05-15 17:00:45.288   866   866 D CallerInfoAsyncQuery: ##### onQueryComplete() #####   query complete for token: 0
+05-15 17:00:45.289   866  6862 D CallerInfoAsyncQuery: Processing event: 3 token (arg1): 1 command: 0 query URI: 
+05-15 17:00:45.289   866   866 D CallerInfoAsyncQuery: ##### onQueryComplete() #####   query complete for token: 0
+05-15 17:00:45.292 13688 13688 I auditd  : type=1400 audit(0.0:329): avc: denied { sendto } for comm=425420536572766963652043616C6C path="/dev/socket/seempdw" scontext=u:r:bluetooth:s0 tcontext=u:r:per_mgr:s0 tclass=unix_dgram_socket permissive=1
+05-15 17:00:45.292 13688 13688 I com.android.bluetooth: type=1400 audit(0.0:329): avc: denied { sendto } for comm=425420536572766963652043616C6C path="/dev/socket/seempdw" scontext=u:r:bluetooth:s0 tcontext=u:r:per_mgr:s0 tclass=unix_dgram_socket permissive=1
+05-15 17:00:45.294 13667 13713 D HeadsetStateMachine: Connected: CONNECT_AUDIO, device=00:1D:82:CB:EC:87
+05-15 17:00:45.295 13667 13702 W bt_btif : bta_ag_sco_event: BTA_AG_SCO_OPENING_ST: Ignoring event 1
+05-15 17:00:45.308  5067  5067 I Telephony: TelephonyConnectionService: onCreateOutgoingConnection, request: ConnectionRequest xxxxxxxx Bundle[mParcelledData.dataSize=736]: (SBC.oSC)->CS.crCo->H.CS.crCo->H.CS.crCo.pICR@E-AnU
+05-15 17:00:45.311  5067  5067 W PhoneNumberUtils: getCountryIso Country {ISO=GR, source=2, time=1014590}
+05-15 17:00:45.311  4838  5062 I vol.Events: writeEvent level_changed STREAM_RING 5
+05-15 17:00:45.311  5067  5067 W PhoneNumberUtils: isLocalEmergencyNumberInternalGR
+05-15 17:00:45.315  5067  5067 D PhoneNumberUtils: slotId:0 subId:1 country:GR emergencyNumbers: 112,911
+05-15 17:00:45.323  5067  5067 W PhoneNumberUtils: getCountryIso Country {ISO=GR, source=2, time=1014590}
+05-15 17:00:45.323  5067  5067 W PhoneNumberUtils: isLocalEmergencyNumberInternalGR
+05-15 17:00:45.324  5067  5067 D PhoneNumberUtils: slotId:0 subId:1 country:GR emergencyNumbers: 112,911
+05-15 17:00:45.327  5067  5067 D PhoneNumberUtils: slotId:0 subId:1 country:null emergencyNumbers: 112,911
+05-15 17:00:45.331  5067  5067 W PhoneNumberUtils: getCountryIso Country {ISO=GR, source=2, time=1014590}
+05-15 17:00:45.331  5067  5067 W PhoneNumberUtils: isLocalEmergencyNumberInternalGR
+05-15 17:00:45.332  5067  5067 D PhoneNumberUtils: slotId:0 subId:1 country:GR emergencyNumbers: 112,911
+05-15 17:00:45.366   866  5107 I force_gc: Binder
+05-15 17:00:45.367  5067  5067 W PhoneNumberUtils: getCountryIso Country {ISO=GR, source=2, time=1014590}
+05-15 17:00:45.367  5067  5067 W PhoneNumberUtils: isLocalEmergencyNumberInternalGR
+05-15 17:00:45.368  5067  5067 D PhoneNumberUtils: slotId:0 subId:1 country:GR emergencyNumbers: 112,911
+05-15 17:00:45.389   866 10213 I OpenGLRenderer: Initialized EGL, version 1.4
+05-15 17:00:45.389   866 10213 D OpenGLRenderer: Swap behavior 2
+05-15 17:00:45.399 14645 14655 D audio_hw_extn: audio_extn_get_parameters: returns 
+05-15 17:00:45.399 14645 14655 I hash_map_utils: key: 'all_call_states' value: ''
+05-15 17:00:45.404 14736 14736 I zygote64: Deoptimizing java.lang.Object android.support.v4.util.SimpleArrayMap.get(java.lang.Object) due to JIT same target
+05-15 17:00:45.406  5067  5067 D PhoneNumberUtils: slotId:0 subId:1 country:null emergencyNumbers: 112,911
+05-15 17:00:45.406 14645 14654 D audio_hw_extn: audio_extn_get_parameters: returns 
+05-15 17:00:45.406 14645 14654 I hash_map_utils: key: 'all_call_states' value: ''
+05-15 17:00:45.407 14645 14653 D audio_hw_extn: audio_extn_get_parameters: returns 
+05-15 17:00:45.407 14645 14653 I hash_map_utils: key: 'all_call_states' value: ''
+05-15 17:00:45.409 14645 14645 D audio_hw_extn: audio_extn_get_parameters: returns 
+05-15 17:00:45.409 14645 14645 I hash_map_utils: key: 'all_call_states' value: ''
+05-15 17:00:45.410  5067  5067 D PhoneNumberUtils: slotId:0 subId:1 country:null emergencyNumbers: 112,911
+05-15 17:00:45.411 14645 14656 D audio_hw_extn: audio_extn_get_parameters: returns 
+05-15 17:00:45.411 14645 14656 I hash_map_utils: key: 'all_call_states' value: ''
+05-15 17:00:45.414 14645 14655 D audio_hw_extn: audio_extn_get_parameters: returns 
+05-15 17:00:45.414 14645 14655 I hash_map_utils: key: 'all_call_states' value: ''
+05-15 17:00:45.418 14645 14654 D PermissionCache: checking android.permission.MODIFY_AUDIO_SETTINGS for uid=1001 => granted (2056 us)
+05-15 17:00:45.418 14645 14654 D audio_hw_primary: adev_set_parameters: enter: call_state=2;call_type=LTE;vsid=281022464
+05-15 17:00:45.418 14645 14654 D voice_extn: update_call_states is_call_active:0 in_call:1, mode:2
+05-15 17:00:45.418 14645 14654 D voice_extn: update_calls: enter:
+05-15 17:00:45.418 14645 14654 D voice_extn: update_calls: cur_state=1 new_state=2 vsid=10c01000
+05-15 17:00:45.418 14645 14654 D voice_extn: update_calls: INACTIVE -> ACTIVE vsid:10c01000
+05-15 17:00:45.418 14645 14654 D voice   : voice_start_usecase: enter usecase:voice-call
+05-15 17:00:45.418 14645 14654 D audio_hw_primary: select_devices: out_snd_device(12: voice-handset) in_snd_device(64: voice-dmic-ef)
+05-15 17:00:45.418 14645 14654 W msm8974_platform: Codec backend bitwidth 16, samplerate 48000
+05-15 17:00:45.419 14645 14654 W msm8974_platform: platform_check_codec_backend_cfg:Use default bw and sr for voice/voip calls 
+05-15 17:00:45.419 14645 14654 D hardware_info: hw_info_append_hw_type : device_name = voice-handset
+05-15 17:00:45.419 14645 14654 D audio_hw_primary: enable_snd_device: snd_device(12: voice-handset)
+05-15 17:00:45.419 14645 14654 D audio_route: Apply path: voice-handset
+05-15 17:00:45.437 14645 14654 D hardware_info: hw_info_append_hw_type : device_name = voice-dmic-ef
+05-15 17:00:45.437 14645 14654 D audio_hw_primary: enable_snd_device: snd_device(64: voice-dmic-ef)
+05-15 17:00:45.437 14645 14654 D audio_route: Apply path: voice-dmic-ef
+05-15 17:00:45.451 14645 14654 D ACDB-LOADER: ACDB -> send_voice_cal, acdb_rx = 7, acdb_tx = 10, feature_set = 0
+05-15 17:00:45.452 14645 14654 D         : ACDBFILE_MGR: CmnDevinfo for the devid 0000000A not found
+05-15 17:00:45.452 14645 14654 D         : ACDB_COMMAND: Failed to fetch the device pair info for devid 0000000A 
+05-15 17:00:45.452 14645 14654 E ACDB-LOADER: Error: failure to vaildate the device pair = -1
+05-15 17:00:45.452 14645 14654 E ACDB-LOADER: ACDB -> Error: invalid device pair!
+05-15 17:00:45.452 14645 14654 D audio_hw_primary: enable_audio_route: apply mixer and update path: voice-call
+05-15 17:00:45.452 14645 14654 D audio_route: Apply path: voice-call
+05-15 17:00:45.459 14645 14654 D audio_hw_primary: select_devices: done
+05-15 17:00:45.459 14645 14654 D voice   : voice_config.rate 8000
+05-15 17:00:45.464   866   958 W BroadcastQueue: Permission Denial: receiving Intent { act=android.intent.action.PHONE_STATE flg=0x1000010 (has extras) } to ProcessRecord{6adb6be 4838:com.android.systemui/u0a29} (pid=4838, uid=10029) requires android.permission.READ_PHONE_STATE due to sender android (uid 1000)
+05-15 17:00:45.464   866   958 W BroadcastQueue: Permission Denial: receiving Intent { act=android.intent.action.PHONE_STATE flg=0x1000010 (has extras) } to org.telegram.messenger/.CallReceiver requires android.permission.READ_PRIVILEGED_PHONE_STATE due to sender android (uid 1000)
+05-15 17:00:45.465   866   958 I am_uid_running: 10077
+05-15 17:00:45.480   866   958 I am_proc_start: [0,14806,10077,org.telegram.messenger,broadcast,org.telegram.messenger/.CallReceiver]
+05-15 17:00:45.480   866   958 I ActivityManager: Start proc 14806:org.telegram.messenger/u0a77 for broadcast org.telegram.messenger/.CallReceiver
+05-15 17:00:45.481   866   876 I zygote64: Background concurrent copying GC freed 29995(1724KB) AllocSpace objects, 4(208KB) LOS objects, 42% free, 15MB/26MB, paused 148us total 113.805ms
+05-15 17:00:45.482  5067  5094 I zygote64: Do partial code cache collection, code=103KB, data=99KB
+05-15 17:00:45.482  5067  5094 I zygote64: After code cache collection, code=102KB, data=98KB
+05-15 17:00:45.482  5067  5094 I zygote64: Increasing code cache capacity to 512KB
+05-15 17:00:45.487 14736 14736 W PhoneNumberUtils: getCountryIso null
+05-15 17:00:45.508  5067  5067 I Telephony: TelephonyConnectionService: notifyCreateConnectionComplete TC@5_1: (...->CSW.hCCC)->CS.crCoC->H.CS.crCoC@E-E-E-AnU
+05-15 17:00:45.509 14736 14736 W PhoneNumberUtils: isLocalEmergencyNumberInternalGR
+05-15 17:00:45.510 14736 14736 D PhoneNumberUtils: slotId:0 subId:1 country:GR emergencyNumbers: 112,911
+05-15 17:00:45.523   866  5986 I am_proc_bound: [0,14806,org.telegram.messenger]
+05-15 17:00:45.534 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:45.558 14736 14736 I zygote64: Deoptimizing int android.support.v4.util.SimpleArrayMap.indexOfKey(java.lang.Object) due to JIT same target
+05-15 17:00:45.574  4838  5127 I sysui_multi_action: [757,1093,758,4,793,2002,1094,604505089,1095,5]
+05-15 17:00:45.577 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:45.592 14806 14806 W ComponentDiscovery: Application info not found.
+05-15 17:00:45.592 14806 14806 W ComponentDiscovery: Could not retrieve metadata, returning empty list of registrars.
+05-15 17:00:45.593 14806 14806 D FirebaseApp: com.google.firebase.auth.FirebaseAuth is not linked. Skipping initialization.
+05-15 17:00:45.605     0     0 E [ 2727.654560 / 05-15 17:00:45.600][0] voice_get_cal: No cal data for cal 8!
+05-15 17:00:45.606     0     0 E [ 2727.654581 / 05-15 17:00:45.600][0] voice_send_cvs_register_cal_cmd: Voice_get_cal failed for cal 7!
+05-15 17:00:45.609     0     0 E [ 2727.655936 / 05-15 17:00:45.604][0] qdsp_cvp_callback: cmd = 0x11371 returned error = 0x2
+05-15 17:00:45.609     0     0 E [ 2727.657511 / 05-15 17:00:45.604][2] voice_get_cal: No cal data for cal 5!
+05-15 17:00:45.610     0     0 E [ 2727.657531 / 05-15 17:00:45.604][2] voice_send_cvp_register_cal_cmd: Voice_get_cal failed for cal 2!
+05-15 17:00:45.610     0     0 E [ 2727.658534 / 05-15 17:00:45.604][2] voice_get_cal: No cal data for cal 6!
+05-15 17:00:45.610     0     0 E [ 2727.658550 / 05-15 17:00:45.604][2] voice_send_cvp_register_vol_cal_cmd: Voice_get_cal failed for cal 3!
+05-15 17:00:45.609 14806 14806 D FirebaseApp: com.google.firebase.crash.FirebaseCrash is not linked. Skipping initialization.
+05-15 17:00:45.610 14736 14736 I am_on_resume_called: [0,com.android.incallui.InCallActivity,LAUNCH_ACTIVITY]
+05-15 17:00:45.612 14806 14806 I FirebaseInitProvider: FirebaseApp initialization successful
+05-15 17:00:45.613     0     0 I [ 2727.660164 / 05-15 17:00:45.608][1] set_start_call: LG audio bsp: set  1
+05-15 17:00:45.614     0     0 I         : [ 2727.660184 / 05-15 17:00:45.608][1] LG audio bsp - stated voice call
+05-15 17:00:45.614     0     0 E [ 2727.660430 / 05-15 17:00:45.608][0] qdsp_cvp_callback: cmd = 0x112c2 returned error = 0x1
+05-15 17:00:45.614 14645 14654 D voice   : voice_set_sidetone: enable, out_snd_device: 12
+05-15 17:00:45.614 14645 14654 D voice   : voice_set_sidetone: sidetone out device = sidetone-handset
+05-15 17:00:45.614 14645 14654 D audio_route: Apply path: sidetone-handset
+05-15 17:00:45.615 14645 14654 D voice   : voice_start_usecase: exit: status(0)
+05-15 17:00:45.615 14645 14654 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10dc1000
+05-15 17:00:45.615 14645 14654 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10c02000
+05-15 17:00:45.615 14645 14654 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10803000
+05-15 17:00:45.615 14645 14654 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10002000
+05-15 17:00:45.618     0     0 E [ 2727.664073 / 05-15 17:00:45.612][0] qdsp_cvp_callback: cmd = 0x112c2 returned error = 0x1
+05-15 17:00:45.638  5067  5067 D PhoneNumberUtils: slotId:0 subId:1 country:null emergencyNumbers: 112,911
+05-15 17:00:45.649 14736 14736 I zygote64: Deoptimizing void android.support.v4.view.ViewPager.onMeasure(int, int) due to JIT inline cache
+05-15 17:00:45.652 14736 14736 I zygote64: Deoptimizing int android.support.v4.view.ViewPager.getClientWidth() due to JIT inline cache
+05-15 17:00:45.678 14806 14823 I FA      : App measurement is starting up, version: 12451
+05-15 17:00:45.678 14806 14823 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+05-15 17:00:45.679 14806 14823 I FA      : To enable faster debug mode event logging run:
+05-15 17:00:45.679 14806 14823 I FA      :   adb shell setprop debug.firebase.analytics.app org.telegram.messenger
+05-15 17:00:45.680 14736 14750 I zygote64: Waiting for a blocking GC ProfileSaver
+05-15 17:00:45.684 14806 14823 E FA      : AppMeasurementReceiver not registered/enabled
+05-15 17:00:45.685 14806 14823 E FA      : AppMeasurementService not registered/enabled
+05-15 17:00:45.685 14806 14823 E FA      : Uploading is not possible. App measurement disabled
+05-15 17:00:45.705   866   879 I ActivityManager: Killing 12238:com.android.chrome:sandboxed_process1/u0a99i1 (adj 900): empty #17
+05-15 17:00:45.705   866   879 I am_kill : [0,12238,com.android.chrome:sandboxed_process1,900,empty #17]
+05-15 17:00:45.705   866   960 W system_server: Failed to open process cgroup uid 99001 pid 12238: No such file or directory
+05-15 17:00:45.705   866   960 E system_server: Error encountered killing process cgroup uid 99001 pid 12238: No such file or directory
+05-15 17:00:45.723  9366  9404 W cr_ChildProcessConn: onServiceDisconnected (crash or killed by oom): pid=12238
+05-15 17:00:45.723   866  5971 I am_proc_died: [0,12238,com.android.chrome:sandboxed_process1,900,17]
+05-15 17:00:45.726   866  5971 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService1 in 1000ms
+05-15 17:00:45.726   866  5971 I am_schedule_service_restart: [0,com.android.chrome/org.chromium.content.app.SandboxedProcessService1,1000]
+05-15 17:00:45.726   866  5971 I am_uid_stopped: 99001
+05-15 17:00:45.746   866   961 D KernelUidCpuTimeReader: Removing uids 99001-99001
+05-15 17:00:45.746 14736 14736 I zygote64: Deoptimizing void android.support.v4.view.ViewPager.onLayout(boolean, int, int, int, int) due to JIT inline cache
+05-15 17:00:45.748   866  5065 W ActivityManager: Background start not allowed: service Intent { cmp=org.telegram.messenger/.NotificationsService } to org.telegram.messenger/.NotificationsService from pid=14806 uid=10077 pkg=org.telegram.messenger
+05-15 17:00:45.770 14736 14736 I zygote64: Deoptimizing android.support.v7.widget.RecyclerView$ViewHolder android.support.v7.widget.RecyclerView$Recycler.tryGetViewHolderForPositionByDeadline(int, boolean, long) due to JIT inline cache
+05-15 17:00:45.775 14736 14736 I zygote64: Deoptimizing void android.support.v7.widget.RecyclerView$LayoutManager.measureChildWithMargins(android.view.View, int, int) due to JIT inline cache
+05-15 17:00:45.786 14736 14736 I zygote64: Deoptimizing java.lang.Object android.support.v4.util.SimpleArrayMap.put(java.lang.Object, java.lang.Object) due to JIT inline cache
+05-15 17:00:45.787 14736 14736 I zygote64: Deoptimizing void android.support.v7.widget.LinearLayoutManager.layoutChunk(android.support.v7.widget.RecyclerView$Recycler, android.support.v7.widget.RecyclerView$State, android.support.v7.widget.LinearLayoutManager$LayoutState, android.support.v7.widget.LinearLayoutManager$LayoutChunkResult) due to JIT inline cache
+05-15 17:00:45.788 14736 14736 I zygote64: Deoptimizing void android.support.v7.widget.RecyclerView$LayoutManager.addViewInt(android.view.View, int, boolean) due to JIT inline cache
+05-15 17:00:45.788 14736 14736 I zygote64: Deoptimizing android.support.v7.widget.RecyclerView$ViewHolder android.support.v7.widget.RecyclerView.getChildViewHolderInt(android.view.View) due to JIT inline cache
+05-15 17:00:45.788 14736 14736 I zygote64: Deoptimizing android.graphics.Rect android.support.v7.widget.RecyclerView.getItemDecorInsetsForChild(android.view.View) due to JIT inline cache
+05-15 17:00:45.788 14736 14736 I zygote64: Deoptimizing boolean android.support.v7.widget.RecyclerView$LayoutManager.shouldMeasureChild(android.view.View, int, int, android.support.v7.widget.RecyclerView$LayoutParams) due to JIT inline cache
+05-15 17:00:45.790 14736 14736 I zygote64: Deoptimizing int android.support.v7.widget.RecyclerView$LayoutManager.getDecoratedMeasuredHeight(android.view.View) due to JIT inline cache
+05-15 17:00:45.790 14736 14736 I zygote64: Deoptimizing int android.support.v7.widget.RecyclerView$LayoutManager.getDecoratedMeasuredWidth(android.view.View) due to JIT inline cache
+05-15 17:00:45.790 14736 14736 I zygote64: Deoptimizing void android.support.v7.widget.RecyclerView$LayoutManager.layoutDecoratedWithMargins(android.view.View, int, int, int, int) due to JIT inline cache
+05-15 17:00:45.796 14846 14846 I auditd  : type=1400 audit(0.0:331): avc: denied { sendto } for comm="storageQueue" path="/dev/socket/seempdw" scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:per_mgr:s0 tclass=unix_dgram_socket permissive=1
+05-15 17:00:45.796 14846 14846 I storageQueue: type=1400 audit(0.0:331): avc: denied { sendto } for path="/dev/socket/seempdw" scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:per_mgr:s0 tclass=unix_dgram_socket permissive=1
+05-15 17:00:45.830 14736 14736 I zygote64: Deoptimizing void android.support.v7.widget.RecyclerView.findMinMaxChildLayoutPositions(int[]) due to JIT inline cache
+05-15 17:00:45.833 14736 14736 D AccelerometerListener: enable(true)
+05-15 17:00:45.886 13667 13713 D HeadsetStateMachine: Set NREC: 1 for device:00:1D:82:CB:EC:87
+05-15 17:00:45.890 14645 14645 D PermissionCache: checking android.permission.MODIFY_AUDIO_SETTINGS for uid=1002 => granted (447 us)
+05-15 17:00:45.890 14645 14645 D audio_hw_primary: adev_set_parameters: enter: bt_headset_nrec=on
+05-15 17:00:45.890 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:45.894 14645 14656 D audio_hw_primary: adev_set_parameters: enter: bt_headset_name=Nokia BH-102
+05-15 17:00:45.902 14645 14655 D audio_hw_primary: adev_set_parameters: enter: BT_SCO=on
+05-15 17:00:45.912 14736 14736 I zygote64: Deoptimizing int android.support.v4.util.SimpleArrayMap.indexOf(java.lang.Object, int) due to JIT same target
+05-15 17:00:45.926 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:45.970 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:45.990 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:45.999   866  6282 I notification_expansion: [-1|android|26|null|1000,0,0,699757,699757,11455]
+05-15 17:00:46.004 14645 14660 D audio_hw_primary: out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: 00:1D:82:CB:EC:87=;routing=32
+05-15 17:00:46.004 14645 14660 D audio_hw_primary: select_devices: out_snd_device(18: bt-sco-headset) in_snd_device(59: bt-sco-mic)
+05-15 17:00:46.004 14645 14660 D voice   : voice_set_sidetone: disable, out_snd_device: 12
+05-15 17:00:46.004 14645 14660 D voice   : voice_set_sidetone: sidetone out device = sidetone-handset
+05-15 17:00:46.004 14645 14660 D audio_hw_primary: disable_audio_route: reset and update mixer path: voice-call
+05-15 17:00:46.005     0     0 E [ 2728.054117 / 05-15 17:00:46.000][0] qdsp_cvp_callback: cmd = 0x1307c returned error = 0x9
+05-15 17:00:46.005     0     0 E [ 2728.054295 / 05-15 17:00:46.000][0] qdsp_cvp_callback: cmd = 0x1307a returned error = 0x9
+05-15 17:00:46.006     0     0 E [ 2728.054640 / 05-15 17:00:46.000][0] qdsp_cvp_callback: cmd = 0x11372 returned error = 0x9
+05-15 17:00:46.015 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:46.029 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:46.055 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:46.058 14645 14660 D hardware_info: hw_info_append_hw_type : device_name = voice-handset
+05-15 17:00:46.058 14645 14660 D audio_hw_primary: disable_snd_device: snd_device(12: voice-handset)
+05-15 17:00:46.064 14645 14660 D audio_hw_primary: disable_audio_route: reset and update mixer path: voice-call
+05-15 17:00:46.064 14645 14660 D hardware_info: hw_info_append_hw_type : device_name = voice-dmic-ef
+05-15 17:00:46.064 14645 14660 D audio_hw_primary: disable_snd_device: snd_device(64: voice-dmic-ef)
+05-15 17:00:46.069 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:46.081 14645 14660 D hardware_info: hw_info_append_hw_type : device_name = bt-sco-headset
+05-15 17:00:46.081 14645 14660 D audio_hw_primary: enable_snd_device: snd_device(18: bt-sco-headset)
+05-15 17:00:46.081 14645 14660 D audio_route: Apply path: bt-sco-headset
+05-15 17:00:46.081 14645 14660 D hardware_info: hw_info_append_hw_type : device_name = bt-sco-mic
+05-15 17:00:46.081 14645 14660 D audio_hw_primary: enable_snd_device: snd_device(59: bt-sco-mic)
+05-15 17:00:46.081 14645 14660 D audio_route: Apply path: bt-sco-mic
+05-15 17:00:46.081 14645 14660 D ACDB-LOADER: ACDB -> send_voice_cal, acdb_rx = 22, acdb_tx = 10, feature_set = 0
+05-15 17:00:46.081 14645 14660 D         : ACDBFILE_MGR: CmnDevinfo for the devid 0000000A not found
+05-15 17:00:46.081 14645 14660 D         : ACDB_COMMAND: Failed to fetch the device pair info for devid 0000000A 
+05-15 17:00:46.081 14645 14660 E ACDB-LOADER: Error: failure to vaildate the device pair = -1
+05-15 17:00:46.081 14645 14660 E ACDB-LOADER: ACDB -> Error: invalid device pair!
+05-15 17:00:46.081 14645 14660 D voice   : voice_set_sidetone: enable, out_snd_device: 18
+05-15 17:00:46.081 14645 14660 D voice   : voice_set_sidetone: device 18 does not support sidetone
+05-15 17:00:46.081 14645 14660 D audio_hw_primary: enable_audio_route: apply mixer and update path: voice-call bt-sco
+05-15 17:00:46.081 14645 14660 D audio_route: Apply path: voice-call bt-sco
+05-15 17:00:46.090     0     0 E [ 2728.134834 / 05-15 17:00:46.084][5] afe_open: port_id 0x100c rate 8000
+05-15 17:00:46.090     0     0 E [ 2728.137364 / 05-15 17:00:46.084][4] afe_open: port_id 0x100d rate 8000
+05-15 17:00:46.098     0     0 E [ 2728.147466 / 05-15 17:00:46.096][0] qdsp_cvp_callback: cmd = 0x11371 returned error = 0x2
+05-15 17:00:46.098     0     0 E [ 2728.147554 / 05-15 17:00:46.096][0] voice_get_cal: No cal data for cal 5!
+05-15 17:00:46.098     0     0 E [ 2728.147565 / 05-15 17:00:46.096][0] voice_send_cvp_register_cal_cmd: Voice_get_cal failed for cal 2!
+05-15 17:00:46.098     0     0 E [ 2728.147665 / 05-15 17:00:46.096][5] voice_get_cal: No cal data for cal 6!
+05-15 17:00:46.098     0     0 E [ 2728.147675 / 05-15 17:00:46.096][5] voice_send_cvp_register_vol_cal_cmd: Voice_get_cal failed for cal 3!
+05-15 17:00:46.100 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:46.101 14645 14660 D audio_hw_primary: select_devices: done
+05-15 17:00:46.102 14736 14741 I zygote64: Do full code cache collection, code=253KB, data=183KB
+05-15 17:00:46.102 14736 14741 I zygote64: After code cache collection, code=173KB, data=99KB
+05-15 17:00:46.111 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:46.135 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:46.162 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:46.176 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:46.204 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:46.204 14645 14663 D audio_hw_primary: out_set_parameters: enter: usecase(1: low-latency-playback) kvpairs: 00:1D:82:CB:EC:87=;routing=32
+05-15 17:00:46.217 14645 14660 D audio_hw_primary: out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: 00:1D:82:CB:EC:87=;routing=32
+05-15 17:00:46.218 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:46.219 14645 14663 D audio_hw_primary: out_set_parameters: enter: usecase(1: low-latency-playback) kvpairs: 00:1D:82:CB:EC:87=;routing=32
+05-15 17:00:46.228 14736 14736 I Choreographer: Skipped 34 frames!  The application may be doing too much work on its main thread.
+05-15 17:00:46.233  5067  5067 D SIMRecords: [SIMRecords] getServiceProviderName: no brandOverride, providerName=null
+05-15 17:00:46.233  5067  5067 D SIMRecords: [SIMRecords] getServiceProviderName: no brandOverride, providerName=null
+05-15 17:00:46.254  5067  5067 D ServiceStateProvider: subId=1
+05-15 17:00:46.258  5067  5295 D DC-1    : DcActiveState not handled msg.what=EVENT_DATA_CONNECTION_DRS_OR_RAT_CHANGED
+05-15 17:00:46.258  5067  5295 D DC-1    : DcDefault msg=EVENT_DATA_CONNECTION_DRS_OR_RAT_CHANGED RefCount=1
+05-15 17:00:46.262  5067  5295 D DC-1    : DcActiveState not handled msg.what=REQ_GET_LINK_PROPERTIES
+05-15 17:00:46.262  5067  5295 D DC-1    : DcDefault msg=REQ_GET_LINK_PROPERTIES RefCount=1
+05-15 17:00:46.262  5067  5295 D DC-1    : REQ_GET_LINK_PROPERTIES linkProperties{InterfaceName: rmnet_data0 LinkAddresses: [178.147.68.132/29,]  Routes: [0.0.0.0/0 -> 178.147.68.133 rmnet_data0,] DnsAddresses: [94.143.182.1,94.143.182.2,] Domains: null MTU: 1500 TcpBufferSizes: 4094,87380,704512,4096,16384,110208}
+05-15 17:00:46.267  5067  5295 D DC-1    : DcActiveState not handled msg.what=REQ_GET_NETWORK_CAPABILITIES
+05-15 17:00:46.267  5067  5295 D DC-1    : DcDefault msg=REQ_GET_NETWORK_CAPABILITIES RefCount=1
+05-15 17:00:46.271  5067  5295 D DC-1    : REQ_GET_NETWORK_CAPABILITIES networkCapabilities[ Transports: CELLULAR Capabilities: SUPL&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN LinkUpBandwidth>=384Kbps LinkDnBandwidth>=384Kbps Specifier: <1>]
+05-15 17:00:46.279   866  5968 D TelephonyRegistry: onDataConnectionStateChanged(2, 3)
+05-15 17:00:46.284   866  5971 D TelephonyRegistry: notifyCellLocationForSubscriber: subId=1 cellLocation=Bundle[mParcelledData.dataSize=64]
+05-15 17:00:46.294  4830  4830 I GoogleInputMethod: onFinishInput() : Dummy InputConnection bound
+05-15 17:00:46.294  4830  4830 I GoogleInputMethod: onStartInput() : Dummy InputConnection bound
+05-15 17:00:46.295   866  2015 I netstats_mobile_sample: [4336,45,5582,46,4336,45,5398,46,4336,45,5398,46,1526392848329]
+05-15 17:00:46.296   866  2015 I netstats_wifi_sample: [1607521,3978,672984,3350,1607129,3964,630196,3427,1607129,3964,630196,3427,1526392848329]
+05-15 17:00:46.319  5067  5067 D TelephonyProvider: subIdString = 1 subId = 1
+05-15 17:00:46.328   866  1851 D RecurrenceRule: Resolving using anchor 2018-05-15T17:00:46.328+03:00[Europe/Athens]
+05-15 17:00:46.332   866  1851 D RecurrenceRule: Resolving using anchor 2018-05-15T17:00:46.332+03:00[Europe/Athens]
+05-15 17:00:46.336   866  1851 D RecurrenceRule: Cycle 15 from 2018-04-27T00:00+03:00[Europe/Athens] to 2018-05-27T00:00+03:00[Europe/Athens]
+05-15 17:00:46.337   866  1851 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+05-15 17:00:46.344   866  1851 D NetworkStats: Found active matching subId 1
+05-15 17:00:46.347  5067  5109 D SubscriptionController: [getActiveSubscriptionInfo]+ subId=1 subInfo={id=1, iccId=89300100160427481402 simSlotIndex=0 displayName=CARD 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@2472402 mcc 202 mnc 1 isEmbedded false accessRules null}
+05-15 17:00:46.352  5067  5067 D TelephonyProvider: subIdString = 1 subId = 1
+05-15 17:00:46.353   866  1851 D NetworkStats: Resolved to plan null
+05-15 17:00:46.380  5067  5067 I chatty  : uid=1001(radio) com.android.phone identical 1 line
+05-15 17:00:46.366  5067  5067 D TelephonyProvider: subIdString = 1 subId = 1
+05-15 17:00:46.381  5067  5067 D TelephonyProvider: subIdString = 1 subId = 1
+05-15 17:00:46.391 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:46.392  5067  5067 I chatty  : uid=1001(radio) com.android.phone identical 1 line
+05-15 17:00:46.393  5067  5067 D TelephonyProvider: subIdString = 1 subId = 1
+05-15 17:00:46.404 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:46.406  5067  5067 D TelephonyProvider: subIdString = 1 subId = 1
+05-15 17:00:46.421  5067  5067 D TelephonyProvider: subIdString = 1 subId = 1
+05-15 17:00:46.432  5067  5067 I chatty  : uid=1001(radio) com.android.phone identical 1 line
+05-15 17:00:46.433 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:46.433  5067  5067 D TelephonyProvider: subIdString = 1 subId = 1
+05-15 17:00:46.445 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:46.450  5067  5067 D TelephonyProvider: subIdString = 1 subId = 1
+05-15 17:00:46.456 14736 14736 I zygote64: Deoptimizing boolean com.android.contacts.common.ContactPhotoManagerImpl.loadCachedPhoto(android.widget.ImageView, com.android.contacts.common.ContactPhotoManagerImpl$Request, boolean) due to JIT inline cache
+05-15 17:00:46.460  5067  5067 I chatty  : uid=1001(radio) com.android.phone identical 1 line
+05-15 17:00:46.463 14736 14736 I zygote64: Deoptimizing void android.support.v7.widget.RecyclerView.clearOldPositions() due to JIT inline cache
+05-15 17:00:46.463 14736 14736 I zygote64: Deoptimizing void android.support.v7.widget.RecyclerView$LayoutManager.scrapOrRecycleView(android.support.v7.widget.RecyclerView$Recycler, int, android.view.View) due to JIT inline cache
+05-15 17:00:46.463 14736 14736 I zygote64: Deoptimizing void android.support.v7.widget.RecyclerView$5.detachViewFromParent(int) due to JIT inline cache
+05-15 17:00:46.463 14736 14736 I zygote64: Deoptimizing void android.support.v7.widget.RecyclerView$Recycler.scrapView(android.view.View) due to JIT inline cache
+05-15 17:00:46.464 14736 14736 I zygote64: Deoptimizing void android.support.v7.widget.RecyclerView$5.attachViewToParent(android.view.View, int, android.view.ViewGroup$LayoutParams) due to JIT inline cache
+05-15 17:00:46.540 14736 14736 D AccelerometerListener: orientation: horizontal
+05-15 17:00:47.293  4838  5127 I sysui_multi_action: [757,1093,758,4,793,1720,1094,604505089,1095,5]
+05-15 17:00:47.570 14770 14785 I zygote64: Waiting for a blocking GC ProfileSaver
+05-15 17:00:47.997  5923  6405 I AsyncOpDispatcher: 67-RequestPlaceUpdates
+05-15 17:00:48.001  5923  6405 I AsyncOpDispatcher: 67-RemovePlaceUpdates
+05-15 17:00:48.017  5923  8269 I Places  : ?: PlacesBleScanner stop()
+05-15 17:00:48.026  5923  5923 I BeaconBle: ZERO_POWER is disabled.
+05-15 17:00:48.026  5923  5923 I BeaconBle: 'L' hardware scan: scan stopped, no powered clients
+05-15 17:00:48.026  5923  5923 I BeaconBle: Places requested to stop scan
+05-15 17:00:48.027  5923  5923 I BeaconBle: Scan canceled successfully.
+05-15 17:00:48.031  5923  8269 I PlaceInferenceEngine: [anon] Changed inference mode: 0
+05-15 17:00:48.232 14645 14645 D audio_hw_extn: audio_extn_get_parameters: returns 
+05-15 17:00:48.233 14645 14645 I hash_map_utils: key: 'all_call_states' value: ''
+05-15 17:00:48.235 14645 14656 D audio_hw_extn: audio_extn_get_parameters: returns 
+05-15 17:00:48.236 14645 14656 I hash_map_utils: key: 'all_call_states' value: ''
+05-15 17:00:48.237 14645 14655 D audio_hw_extn: audio_extn_get_parameters: returns 
+05-15 17:00:48.238 14645 14655 I hash_map_utils: key: 'all_call_states' value: ''
+05-15 17:00:48.263  5067  5067 D PhoneNumberUtils: slotId:0 subId:1 country:null emergencyNumbers: 112,911
+05-15 17:00:48.271 14645 14654 D audio_hw_extn: audio_extn_get_parameters: returns 
+05-15 17:00:48.272 14645 14654 I hash_map_utils: key: 'all_call_states' value: ''
+05-15 17:00:48.275 14645 14653 D audio_hw_extn: audio_extn_get_parameters: returns 
+05-15 17:00:48.276 14645 14653 I hash_map_utils: key: 'all_call_states' value: ''
+05-15 17:00:48.277 14645 14645 D audio_hw_extn: audio_extn_get_parameters: returns 
+05-15 17:00:48.278 14645 14645 I hash_map_utils: key: 'all_call_states' value: ''
+05-15 17:00:48.302  5067  5067 D PhoneNumberUtils: slotId:0 subId:1 country:null emergencyNumbers: 112,911
+05-15 17:00:48.314 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:48.337 13667 13713 W HeadsetStateMachine: terminateScoUsingVirtualVoiceCall: No present call to terminate
+05-15 17:00:48.341 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:48.399 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:48.419 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:48.456 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:48.476 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:48.523 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:48.554 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:48.568 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:48.583  4838  5127 I sysui_multi_action: [757,1093,758,4,793,1290,1094,604505089,1095,5]
+05-15 17:00:48.596 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:48.611 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:48.636 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:48.650 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:49.918  5991 14233 I EventLogSendingHelper: Sending log events.
+05-15 17:00:50.026  5991 14232 I EventLogSendingHelper: Sending log events.
+05-15 17:00:50.404 14806 14820 I zygote64: Waiting for a blocking GC ProfileSaver
+05-15 17:00:50.409  4838  5127 I sysui_multi_action: [757,1093,758,4,793,1825,1094,604505089,1095,5]
+05-15 17:00:50.415 14806 14820 I zygote64: WaitForGcToComplete blocked ProfileSaver on AddRemoveAppImageSpace for 11.665ms
+05-15 17:00:51.320  5923  5939 I AsyncOpDispatcher: 35-GetDeviceDataUploadOptInStatusOperation
+05-15 17:00:52.262     0     0 I         : [ 2734.486199 / 05-15 17:00:52.254][0] pet_watchdog
+05-15 17:00:53.403  4838  5127 I sysui_multi_action: [757,1093,758,4,793,2995,1094,604505089,1095,5]
+05-15 17:00:56.449   866   957 I am_pss  : [9814,10002,android.process.acore,16624640,13979648,0]
+05-15 17:00:56.514   866   957 I am_pss  : [13356,10031,com.google.android.gms.learning,15809536,9605120,0]
+05-15 17:00:57.742  4838  4838 I auditd  : type=1400 audit(0.0:332): avc: denied { sendto } for comm="ndroid.systemui" path="/dev/socket/seempdw" scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:per_mgr:s0 tclass=unix_dgram_socket permissive=1
+05-15 17:00:57.742  4838  4838 I ndroid.systemui: type=1400 audit(0.0:332): avc: denied { sendto } for path="/dev/socket/seempdw" scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:per_mgr:s0 tclass=unix_dgram_socket permissive=1
+05-15 17:00:57.901 14736 14736 D AccelerometerListener: enable(false)
+05-15 17:00:57.934 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:57.938   866  5972 I notification_expansion: [-1|android|26|null|1000,0,1,711696,711696,23394]
+05-15 17:00:57.971 14645 14656 D audio_hw_extn: audio_extn_get_parameters: returns 
+05-15 17:00:57.971 14645 14656 I hash_map_utils: key: 'all_call_states' value: ''
+05-15 17:00:57.973 14645 14655 D audio_hw_extn: audio_extn_get_parameters: returns 
+05-15 17:00:57.974 14645 14655 I hash_map_utils: key: 'all_call_states' value: ''
+05-15 17:00:57.975 14645 14654 D audio_hw_extn: audio_extn_get_parameters: returns 
+05-15 17:00:57.975 14645 14654 I hash_map_utils: key: 'all_call_states' value: ''
+05-15 17:00:58.178 14645 14653 D audio_hw_extn: audio_extn_get_parameters: returns 
+05-15 17:00:58.179 14645 14653 I hash_map_utils: key: 'all_call_states' value: ''
+05-15 17:00:58.181 14645 14645 D audio_hw_extn: audio_extn_get_parameters: returns 
+05-15 17:00:58.182 14645 14645 I hash_map_utils: key: 'all_call_states' value: ''
+05-15 17:00:58.184 14645 14656 D audio_hw_extn: audio_extn_get_parameters: returns 
+05-15 17:00:58.184 14645 14656 I hash_map_utils: key: 'all_call_states' value: ''
+05-15 17:00:58.185 14645 14655 D audio_hw_primary: adev_set_parameters: enter: call_state=1;vsid=281022464
+05-15 17:00:58.186 14645 14655 D voice_extn: update_call_states is_call_active:1 in_call:1, mode:2
+05-15 17:00:58.186 14645 14655 D voice_extn: update_calls: enter:
+05-15 17:00:58.186 14645 14655 D voice_extn: update_calls: cur_state=2 new_state=1 vsid=10c01000
+05-15 17:00:58.186 14645 14655 D voice_extn: update_calls: ACTIVE/HOLD/LOCAL_HOLD -> INACTIVE vsid:10c01000
+05-15 17:00:58.186 14645 14655 D voice   : voice_stop_usecase: enter usecase:voice-call
+05-15 17:00:58.186 14645 14655 D voice   : voice_set_sidetone: disable, out_snd_device: 18
+05-15 17:00:58.186 14645 14655 D voice   : voice_set_sidetone: device 18 does not support sidetone
+05-15 17:00:58.192     0     0 I [ 2740.417244 / 05-15 17:00:58.186][1] set_start_call: LG audio bsp: set  0
+05-15 17:00:58.196     0     0 E [ 2740.422441 / 05-15 17:00:58.190][0] qdsp_cvp_callback: cmd = 0x1307c returned error = 0x9
+05-15 17:00:58.201     0     0 E [ 2740.422874 / 05-15 17:00:58.194][0] qdsp_cvp_callback: cmd = 0x1307a returned error = 0x9
+05-15 17:00:58.201     0     0 E [ 2740.423496 / 05-15 17:00:58.194][0] qdsp_cvp_callback: cmd = 0x11372 returned error = 0x9
+05-15 17:00:58.201     0     0 E [ 2740.423832 / 05-15 17:00:58.194][0] qdsp_cvs_callback: cmd = 0x1307e returned error = 0x9
+05-15 17:00:58.211 14645 14655 D audio_hw_primary: disable_audio_route: reset and update mixer path: voice-call bt-sco
+05-15 17:00:58.216 14645 14655 D hardware_info: hw_info_append_hw_type : device_name = bt-sco-headset
+05-15 17:00:58.216 14645 14655 D audio_hw_primary: disable_snd_device: snd_device(18: bt-sco-headset)
+05-15 17:00:58.216 14645 14655 D hardware_info: hw_info_append_hw_type : device_name = bt-sco-mic
+05-15 17:00:58.216 14645 14655 D audio_hw_primary: disable_snd_device: snd_device(59: bt-sco-mic)
+05-15 17:00:58.216 14645 14655 D voice   : voice_stop_usecase: exit: status(0)
+05-15 17:00:58.216 14645 14655 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10dc1000
+05-15 17:00:58.217 14645 14655 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10c02000
+05-15 17:00:58.217 14645 14655 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10803000
+05-15 17:00:58.217 14645 14655 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10002000
+05-15 17:00:58.256  5067 14970 D CallNotifier: SignalInfoTonePlayer.run(toneId = 98)...
+05-15 17:00:58.256  5067 14970 D CallNotifier: mSignalInfoToneGenerator created already, hence skipping
+05-15 17:00:58.290 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:58.293   866   958 W BroadcastQueue: Permission Denial: receiving Intent { act=android.intent.action.PHONE_STATE flg=0x1000010 (has extras) } to org.telegram.messenger/.CallReceiver requires android.permission.READ_PRIVILEGED_PHONE_STATE due to sender android (uid 1000)
+05-15 17:00:58.309   866   958 W BroadcastQueue: Permission Denial: receiving Intent { act=android.intent.action.PHONE_STATE flg=0x1000010 (has extras) } to ProcessRecord{6adb6be 4838:com.android.systemui/u0a29} (pid=4838, uid=10029) requires android.permission.READ_PHONE_STATE due to sender android (uid 1000)
+05-15 17:00:58.324 14736 14741 I zygote64: Do partial code cache collection, code=250KB, data=157KB
+05-15 17:00:58.325 14736 14741 I zygote64: After code cache collection, code=229KB, data=147KB
+05-15 17:00:58.325 14736 14741 I zygote64: Increasing code cache capacity to 1024KB
+05-15 17:00:58.348   866 14977 I AudioTrack: AUDIO_OUTPUT_FLAG_FAST successful; frameCount 960 -> 960
+05-15 17:00:58.348   866 14977 D AudioTrack: Client defaulted notificationFrames to 240 for frameCount 960
+05-15 17:00:58.354 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:58.371 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:58.373   866   957 I am_pss  : [4830,10083,com.google.android.inputmethod.latin,66945024,62427136,0]
+05-15 17:00:58.418   866   957 I am_pss  : [5923,10031,com.google.android.gms.persistent,95464448,78159872,0]
+05-15 17:00:58.423 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:58.431  4838  5127 I sysui_multi_action: [757,1093,758,4,793,5028,1094,604505089,1095,5]
+05-15 17:00:58.433 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:58.454 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:58.465 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:58.480   866   957 I am_pss  : [6557,10079,com.facebook.orca,86953984,77950976,0]
+05-15 17:00:58.490 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:58.509 14645 14645 D audio_hw_primary: adev_set_parameters: enter: BT_SCO=off
+05-15 17:00:58.510 13667 13713 W HeadsetStateMachine: terminateScoUsingVirtualVoiceCall: No present call to terminate
+05-15 17:00:58.511 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:58.522 14736 14736 W ResourceType: Failure getting entry for 0x7f100262 (t=15 e=610) (error -75)
+05-15 17:00:58.526   866   957 I am_pss  : [8977,10000,com.facebook.katana,56645632,48218112,0]
+05-15 17:00:58.575 13667 13715 V Avrcp   : updatePlaybackState (1): 0➡0(PlaybackState {state=0, position=-1, buffered position=0, speed=0.0, updated=6271656, actions=0, custom actions=[], active item id=-1, error=null})
+05-15 17:00:58.575 13667 13715 I Avrcp   : Skipping update due to invalid playback state
+05-15 17:00:58.575 13667 13715 E Avrcp   : play status change 0➡0 mPlayStatusChangedNT: 1
+05-15 17:00:58.575 13667 13715 D Avrcp   : sendPlayPosNotificationRsp: Not registered or requesting.
+05-15 17:00:58.578 14645 14980 D audio_hw_primary: start_output_stream: enter: stream(0xe5726000)usecase(1: low-latency-playback) devices(0x20)
+05-15 17:00:58.579 14645 14980 E audio_hw_extn: audio_extn_perf_lock_acquire: Failed to acquire perf lock, err: -1
+05-15 17:00:58.579 14645 14980 D audio_hw_primary: select_devices: out_snd_device(18: bt-sco-headset) in_snd_device(0: )
+05-15 17:00:58.579 14645 14980 D hardware_info: hw_info_append_hw_type : device_name = bt-sco-headset
+05-15 17:00:58.579 14645 14980 D audio_hw_primary: enable_snd_device: snd_device(18: bt-sco-headset)
+05-15 17:00:58.579 14645 14980 D audio_route: Apply path: bt-sco-headset
+05-15 17:00:58.579 14645 14980 I audio_hw_primary: select_devices Selected apptype: 69936
+05-15 17:00:58.579 14645 14980 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 22, path =  0
+05-15 17:00:58.580 14645 14980 D ACDB-LOADER: ACDB -> send_asm_topology
+05-15 17:00:58.580 14645 14980 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TOPOLOGY_ID
+05-15 17:00:58.580 14645 14980 D ACDB-LOADER: ACDB -> send_adm_topology
+05-15 17:00:58.580 14645 14980 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+05-15 17:00:58.580 14645 14980 D ACDB-LOADER: ACDB -> send_audtable
+05-15 17:00:58.580 14645 14980 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+05-15 17:00:58.580 14645 14980 D         : Failed to fetch the lookup information of the device 00000016 
+05-15 17:00:58.580 14645 14980 E ACDB-LOADER: Error: ACDB audproc returned = -19
+05-15 17:00:58.580 14645 14980 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_CAL
+05-15 17:00:58.580 14645 14980 D ACDB-LOADER: ACDB -> send_audvoltable
+05-15 17:00:58.580 14645 14980 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_STEP_TABLE
+05-15 17:00:58.580 14645 14980 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_VOL_CAL
+05-15 17:00:58.580 14645 14980 D ACDB-LOADER: ACDB -> send_afe_cal
+05-15 17:00:58.580 14645 14980 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+05-15 17:00:58.580 14645 14980 D         : Failed to fetch the lookup information of the device 00000016 
+05-15 17:00:58.580 14645 14980 E ACDB-LOADER: Error: ACDB AFE returned = -19
+05-15 17:00:58.580 14645 14980 D ACDB-LOADER: ACDB -> AUDIO_SET_AFE_CAL
+05-15 17:00:58.580 14645 14980 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 22 path = 0
+05-15 17:00:58.580 14645 14980 D ACDB-LOADER: ACDB -> ACDB_AVSYNC_INFO: ACDB_CMD_GET_DEVICE_PROPERTY
+05-15 17:00:58.580 14645 14980 I audio_hw_utils: audio_extn_utils_send_app_type_cfg app_type 69936, acdb_dev_id 22, sample_rate 48000
+05-15 17:00:58.580 14645 14980 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback bt-sco
+05-15 17:00:58.581 14645 14980 D audio_route: Apply path: low-latency-playback bt-sco
+05-15 17:00:58.582 14645 14980 D audio_hw_primary: select_devices: done
+05-15 17:00:58.584 14645 14980 D msm8974_platform: platform_set_channel_map mixer_ctl_name:Playback Channel Map15
+05-15 17:00:58.584   866   957 I am_pss  : [5973,10065,com.android.smspush,3476480,2240512,0]
+05-15 17:00:58.584 14645 14980 D msm8974_platform: platform_set_channel_map: set mapping(1 2 0 0 0 0 0 0) for channel:2
+05-15 17:00:58.588     0     0 E [ 2740.811822 / 05-15 17:00:58.582][2] afe_open: port_id 0x100c rate 8000
+05-15 17:00:58.589     0     0 E [ 2740.814119 / 05-15 17:00:58.582][0] afe_open: port_id 0x100d rate 8000
+05-15 17:00:58.602 14645 14980 E audio_hw_extn: audio_extn_perf_lock_release: Perf lock release error 
+05-15 17:00:58.602 14645 14980 D audio_hw_primary: start_output_stream: exit
+05-15 17:00:58.611   866   958 I sysui_count: [window_time_0,13]
+05-15 17:00:58.611   866   958 I sysui_multi_action: [757,803,799,window_time_0,802,13]
+05-15 17:00:58.635 14736 14736 I am_on_paused_called: [0,com.android.incallui.InCallActivity,handlePauseActivity]
+05-15 17:00:58.649   866   958 I sysui_count: [window_time_0,0]
+05-15 17:00:58.649   866   958 I sysui_multi_action: [757,803,799,window_time_0,802,0]
+05-15 17:00:58.677 14645 14660 D audio_hw_primary: out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=1
+05-15 17:00:58.767 14736 14736 I zygote64: Deoptimizing void android.support.v4.view.ViewPager.onMeasure(int, int) due to JIT inline cache
+05-15 17:00:58.769 14736 14736 I zygote64: Deoptimizing java.lang.Object android.support.v4.util.SimpleArrayMap.put(java.lang.Object, java.lang.Object) due to JIT inline cache
+05-15 17:00:58.782 14645 14663 D audio_hw_primary: out_set_parameters: enter: usecase(1: low-latency-playback) kvpairs: routing=1
+05-15 17:00:58.783 14645 14663 D audio_hw_primary: select_devices: out_snd_device(12: voice-handset) in_snd_device(0: )
+05-15 17:00:58.783 14645 14663 D audio_hw_primary: disable_audio_route: reset and update mixer path: low-latency-playback bt-sco
+05-15 17:00:58.786  9814  9826 I force_gc: Binder
+05-15 17:00:58.791 14645 14663 D hardware_info: hw_info_append_hw_type : device_name = bt-sco-headset
+05-15 17:00:58.791 14645 14663 D audio_hw_primary: disable_snd_device: snd_device(18: bt-sco-headset)
+05-15 17:00:58.791 14645 14663 W msm8974_platform: Codec backend bitwidth 16, samplerate 48000
+05-15 17:00:58.791 14645 14663 W msm8974_platform: platform_check_codec_backend_cfg:Use default bw and sr for voice/voip calls 
+05-15 17:00:58.791 14645 14663 D hardware_info: hw_info_append_hw_type : device_name = voice-handset
+05-15 17:00:58.791 14645 14663 D audio_hw_primary: enable_snd_device: snd_device(12: voice-handset)
+05-15 17:00:58.791 14645 14663 D audio_route: Apply path: voice-handset
+05-15 17:00:58.797 14645 14663 I audio_hw_primary: select_devices Selected apptype: 69936
+05-15 17:00:58.797 14645 14663 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 7, path =  0
+05-15 17:00:58.797 14645 14663 D ACDB-LOADER: ACDB -> send_asm_topology
+05-15 17:00:58.797 14645 14663 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TOPOLOGY_ID
+05-15 17:00:58.797 14645 14663 D ACDB-LOADER: ACDB -> send_adm_topology
+05-15 17:00:58.797 14645 14663 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+05-15 17:00:58.797 14645 14663 D ACDB-LOADER: ACDB -> send_audtable
+05-15 17:00:58.797 14645 14663 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+05-15 17:00:58.797 14645 14663 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_CAL
+05-15 17:00:58.797 14645 14663 D ACDB-LOADER: ACDB -> send_audvoltable
+05-15 17:00:58.797 14645 14663 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_STEP_TABLE
+05-15 17:00:58.797 14645 14663 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_VOL_CAL
+05-15 17:00:58.797 14645 14663 D ACDB-LOADER: ACDB -> send_afe_cal
+05-15 17:00:58.797 14645 14663 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+05-15 17:00:58.797 14645 14663 D         : Failed to fetch the lookup information of the device 00000007 
+05-15 17:00:58.797 14645 14663 E ACDB-LOADER: Error: ACDB AFE returned = -19
+05-15 17:00:58.797 14645 14663 D ACDB-LOADER: ACDB -> AUDIO_SET_AFE_CAL
+05-15 17:00:58.797 14645 14663 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 7 path = 0
+05-15 17:00:58.797 14645 14663 D ACDB-LOADER: ACDB -> ACDB_AVSYNC_INFO: ACDB_CMD_GET_DEVICE_PROPERTY
+05-15 17:00:58.798 14645 14663 I audio_hw_utils: audio_extn_utils_send_app_type_cfg app_type 69936, acdb_dev_id 7, sample_rate 48000
+05-15 17:00:58.798 14645 14663 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback
+05-15 17:00:58.798 14645 14663 D audio_route: Apply path: low-latency-playback
+05-15 17:00:58.830 14645 14663 D audio_hw_primary: select_devices: done
+05-15 17:00:58.836 14645 14660 D audio_hw_primary: out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=1
+05-15 17:00:58.848   866 14978 D AudioTrack: stop() called with 10080 frames delivered
+05-15 17:00:58.858 14645 14663 D audio_hw_primary: out_set_parameters: enter: usecase(1: low-latency-playback) kvpairs: routing=1
+05-15 17:00:58.896   866  5204 I MediaFocusControl: abandonAudioFocus() from uid/pid 1000/866 clientId=AudioFocus_For_Phone_Ring_And_Calls
+05-15 17:00:58.896 14645 14654 D audio_hw_primary: adev_set_mode: mode 0
+05-15 17:00:58.896 14645 14654 D voice_extn: voice_extn_stop_call: end all calls
+05-15 17:00:58.897 14645 14654 D voice_extn: update_calls: enter:
+05-15 17:00:58.897 14645 14654 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10c01000
+05-15 17:00:58.897 14645 14654 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10dc1000
+05-15 17:00:58.897 14645 14654 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10c02000
+05-15 17:00:58.897 14645 14654 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10803000
+05-15 17:00:58.897 14645 14654 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10002000
+05-15 17:00:58.897 14645 14660 D audio_hw_primary: out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=1
+05-15 17:00:58.903   866  5204 I stream_devices_changed: [3,1,2]
+05-15 17:00:58.904   866  5204 I stream_devices_changed: [4,1,2]
+05-15 17:00:58.908   866  5204 I stream_devices_changed: [2,1,2]
+05-15 17:00:58.912  4838  5062 I vol.Events: writeEvent level_changed STREAM_SYSTEM 3
+05-15 17:00:58.919  4838  5062 I vol.Events: writeEvent level_changed STREAM_MUSIC 12
+05-15 17:00:58.920 14645 14656 W DeviceHAL: Device 0xe5fe3a00 get_mic_mute: Function not implemented
+05-15 17:00:58.920 14645 14656 W DeviceHAL: Device 0xe3dd4400 get_mic_mute: Function not implemented
+05-15 17:00:58.930  4838  5062 I vol.Events: writeEvent level_changed STREAM_RING 3
+05-15 17:00:58.995  4830  4830 I GoogleInputMethod: onFinishInput() : Dummy InputConnection bound
+05-15 17:00:58.996  4830  4830 I GoogleInputMethod: onStartInput() : Dummy InputConnection bound
+05-15 17:00:59.137 14736 14736 I zygote64: Deoptimizing int android.support.v4.util.SimpleArrayMap.indexOf(java.lang.Object, int) due to JIT inline cache
+05-15 17:00:59.152 14736 14736 I zygote64: Deoptimizing android.support.v7.widget.RecyclerView$ViewHolder android.support.v7.widget.RecyclerView$Recycler.tryGetViewHolderForPositionByDeadline(int, boolean, long) due to JIT inline cache
+05-15 17:00:59.156 14736 14736 I zygote64: Deoptimizing void android.support.v7.widget.RecyclerView$LayoutManager.measureChildWithMargins(android.view.View, int, int) due to JIT inline cache
+05-15 17:00:59.167 14736 14736 I zygote64: Deoptimizing void android.support.v7.widget.RecyclerView$LayoutManager.addViewInt(android.view.View, int, boolean) due to JIT inline cache
+05-15 17:00:59.310  9366  9366 I auditd  : type=1400 audit(0.0:333): avc: denied { read } for comm=".android.chrome" name="vmstat" dev="proc" ino=4026535432 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc:s0 tclass=file permissive=1
+05-15 17:00:59.310  9366  9366 I .android.chrome: type=1400 audit(0.0:333): avc: denied { read } for name="vmstat" dev="proc" ino=4026535432 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc:s0 tclass=file permissive=1
+05-15 17:00:59.621  5067  5295 D Dcc     : onDataStateChanged: dcsToRetry=[]
+05-15 17:00:59.621  5067  5295 D Dcc     : onDataStateChanged: Found ConnId=0 newState=DataCallResponse: { status=0 retry=-1 cid=0 active=2 type=IP ifname=rmnet_data0 mtu=0 addresses=[178.147.68.132/29] dnses=[94.143.182.1,94.143.182.2] gateways=[178.147.68.133] pcscf=[]}
+05-15 17:00:59.623  5067  5295 D DataCallResponse: addr/pl=178.147.68.132/29
+05-15 17:00:59.624  5067  5295 D DC-1    : MTU set by config resource to: 1500
+05-15 17:00:59.624  5067  5295 D Dcc     : onDataStateChanged: no change
+05-15 17:00:59.624  5067  5295 D Dcc     : onDataStateChanged: Data Activity updated to NONE. isAnyDataCallActive = true isAnyDataCallDormant = false
+05-15 17:00:59.624  5067  5295 D Dcc     : onDataStateChanged: dcsToRetry=[] apnsToCleanup=[]
+05-15 17:00:59.698   866 10213 I OpenGLRenderer: Initialized EGL, version 1.4
+05-15 17:00:59.698   866 10213 D OpenGLRenderer: Swap behavior 2
+05-15 17:00:59.729  5067  5067 D SIMRecords: [SIMRecords] getServiceProviderName: no brandOverride, providerName=null
+05-15 17:00:59.729  5067  5067 D SIMRecords: [SIMRecords] getServiceProviderName: no brandOverride, providerName=null
+05-15 17:00:59.739 14736 14736 I am_on_stop_called: [0,com.android.incallui.InCallActivity,destroy]
+05-15 17:00:59.781   866  4852 I wm_task_removed: [18,removeAppToken: last token]
+05-15 17:00:59.781  5067  5067 D ServiceStateProvider: subId=1
+05-15 17:00:59.781   866  4852 I wm_task_removed: [18,removeTask]
+05-15 17:00:59.787  5067  5295 D DC-1    : DcActiveState not handled msg.what=EVENT_DATA_CONNECTION_DRS_OR_RAT_CHANGED
+05-15 17:00:59.787  5067  5295 D DC-1    : DcDefault msg=EVENT_DATA_CONNECTION_DRS_OR_RAT_CHANGED RefCount=1
+05-15 17:00:59.793  5067  5295 D DC-1    : DcActiveState not handled msg.what=REQ_GET_LINK_PROPERTIES
+05-15 17:00:59.793  5067  5295 D DC-1    : DcDefault msg=REQ_GET_LINK_PROPERTIES RefCount=1
+05-15 17:00:59.793  5067  5295 D DC-1    : REQ_GET_LINK_PROPERTIES linkProperties{InterfaceName: rmnet_data0 LinkAddresses: [178.147.68.132/29,]  Routes: [0.0.0.0/0 -> 178.147.68.133 rmnet_data0,] DnsAddresses: [94.143.182.1,94.143.182.2,] Domains: null MTU: 1500 TcpBufferSizes: 4094,87380,2560000,4096,16384,1220608}
+05-15 17:00:59.797  5067  5295 D DC-1    : DcActiveState not handled msg.what=REQ_GET_NETWORK_CAPABILITIES
+05-15 17:00:59.797  5067  5295 D DC-1    : DcDefault msg=REQ_GET_NETWORK_CAPABILITIES RefCount=1
+05-15 17:00:59.799  5067  5295 D DC-1    : REQ_GET_NETWORK_CAPABILITIES networkCapabilities[ Transports: CELLULAR Capabilities: SUPL&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN LinkUpBandwidth>=51200Kbps LinkDnBandwidth>=102400Kbps Specifier: <1>]
+05-15 17:00:59.805   866  2015 I netstats_mobile_sample: [4336,45,5582,46,4336,45,5398,46,4336,45,5398,46,1526392862015]
+05-15 17:00:59.805   866  2015 I netstats_wifi_sample: [1608562,3987,674100,3358,1608170,3973,631200,3435,1608170,3973,631200,3435,1526392862015]
+05-15 17:00:59.807   866  4852 D TelephonyRegistry: onDataConnectionStateChanged(2, 13)
+05-15 17:00:59.817   866  6286 D TelephonyRegistry: notifyCellLocationForSubscriber: subId=1 cellLocation=Bundle[mParcelledData.dataSize=64]
+05-15 17:00:59.831   866  1851 D RecurrenceRule: Resolving using anchor 2018-05-15T17:00:59.831+03:00[Europe/Athens]
+05-15 17:00:59.834   866  1851 D RecurrenceRule: Resolving using anchor 2018-05-15T17:00:59.834+03:00[Europe/Athens]
+05-15 17:00:59.838   866  1851 D RecurrenceRule: Cycle 15 from 2018-04-27T00:00+03:00[Europe/Athens] to 2018-05-27T00:00+03:00[Europe/Athens]
+05-15 17:00:59.838   866  1851 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=202010..., matchSubscriberIds=[202010...]
+05-15 17:00:59.130   866  1851 D NetworkStats: Found active matching subId 1
+05-15 17:00:59.135  5067  5106 D SubscriptionController: [getActiveSubscriptionInfo]+ subId=1 subInfo={id=1, iccId=89300100160427481402 simSlotIndex=0 displayName=CARD 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@2472402 mcc 202 mnc 1 isEmbedded false accessRules null}
+05-15 17:00:59.146   866  1851 D NetworkStats: Resolved to plan null
+05-15 17:00:59.152  5067  5067 D TelephonyProvider: subIdString = 1 subId = 1
+05-15 17:00:59.217  5067  5067 I chatty  : uid=1001(radio) com.android.phone identical 1 line
+05-15 17:00:59.235  5067  5067 I chatty  : uid=1001(radio) com.android.phone identical 1 line
+05-15 17:00:59.236  5067  5067 I chatty  : uid=1001(radio) com.android.phone identical 4 lines
+05-15 17:00:59.258  5067  5067 D TelephonyProvider: subIdString = 1 subId = 1
+05-15 17:00:59.264   866   876 I zygote64: NativeAlloc concurrent copying GC freed 50593(3MB) AllocSpace objects, 8(240KB) LOS objects, 42% free, 15MB/27MB, paused 2.101ms total 280.747ms
+05-15 17:00:59.280  5067  5067 D TelephonyProvider: subIdString = 1 subId = 1
+05-15 17:00:59.288  5923 14200 I GCoreUlr: Starting BLE scan: mode: 2
+05-15 17:00:59.288  5923  5923 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=LOW_LATENCY, callbackType=ALL_MATCHES, reportDelayMillis=0, 2 filters, 0 clients, callingClientName=ULR]
+05-15 17:00:59.291     0     0 I         : [ 2742.226773 / 05-15 17:00:59.284][1] CFG80211-TRACE) __wl_cfg80211_scan : START SCAN
+05-15 17:00:59.292  5067  5067 I chatty  : uid=1001(radio) com.android.phone identical 1 line
+05-15 17:00:59.293  5067  5067 D TelephonyProvider: subIdString = 1 subId = 1
+05-15 17:00:59.301  6174 15025 I Authzen : [DeviceStateSyncManager] The server is in sync with current state. Nothing to do
+05-15 17:00:59.311  5067  5067 D TelephonyProvider: subIdString = 1 subId = 1
+05-15 17:00:59.321  5923  5923 I BeaconBle: 'L' hardware scan: 6 filters, scanMode=2, reportdelay=0, callback type=1, #clients=2, workSource=WorkSource{}
+05-15 17:00:59.323  5923  5923 I BeaconBle: Starting scan on OS scanner. BT state: 12
+05-15 17:00:59.331  5067  5067 I chatty  : uid=1001(radio) com.android.phone identical 1 line
+05-15 17:00:59.339 13667 13702 I bt_stack: [INFO:gatt_api.cc(1004)] GATT_Register
+05-15 17:00:59.339 13667 13702 I bt_stack: [INFO:gatt_api.cc(1027)] allocated gatt_if=7
+05-15 17:00:59.340  5923  7806 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=7 mScannerId=0
+05-15 17:00:59.419  5923 15026 I AsyncOpDispatcher: 35-GetDeviceDataUploadOptInStatusOperation
+05-15 17:00:59.653 14736 14736 D AccelerometerListener: enable(false)
+05-15 17:00:59.740  4838  5127 I sysui_multi_action: [757,1093,758,4,793,1309,1094,604505089,1095,5]
+05-15 17:01:01.195 14645 14663 D audio_hw_primary: out_standby: enter: stream (0xe5726000) usecase(1: low-latency-playback)
+05-15 17:01:01.253 14645 14663 D audio_hw_primary: disable_audio_route: reset and update mixer path: low-latency-playback
+05-15 17:01:01.255 14645 14663 D hardware_info: hw_info_append_hw_type : device_name = voice-handset
+05-15 17:01:01.255 14645 14663 D audio_hw_primary: disable_snd_device: snd_device(12: voice-handset)
+05-15 17:01:01.329  5923 14200 I GCoreUlr: Starting BLE scan: mode: 3
+05-15 17:01:01.329  5923 14200 I GCoreUlr: BLE: collected 0 results
+05-15 17:01:01.330  5923  5923 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=ZERO_POWER, callbackType=ALL_MATCHES, reportDelayMillis=0, 2 filters, 0 clients, callingClientName=ULR]
+05-15 17:01:01.365  5923  5923 I BeaconBle: Stopping scan on delegate scanner. BT state: 12
+05-15 17:01:01.389  5923  5923 I BeaconBle: Resetting - new scanner available: true
+05-15 17:01:01.389  5923  5923 I BeaconBle: ZERO_POWER is disabled.
+05-15 17:01:01.389  5923  5923 I BeaconBle: 'L' hardware scan: scan stopped, no powered clients
+05-15 17:01:01.563     0     0 I         : [ 2744.501690 / 05-15 17:01:01.556][0] pet_watchdog
+05-15 17:01:03.843     0     0 I         : [ 2746.779045 / 05-15 17:01:03.836][0] CFG80211-TRACE) wl_escan_handler : SCAN COMPLETED: scanned AP count=9
+05-15 17:01:03.850   866  5107 D WificondControl: Scan result ready event
+05-15 17:01:03.905  5923 14732 W ctxmgr  : [AclManager]No 2 for (accnt=account#-517948760#, com.google.android.gms(10031):IndoorOutdoorProducer, vrsn=12673000, 0, 3pPkg = null ,  3pMdlId = null ,  pid = 5923). Was: 3 for 57, account#-517948760#
+05-15 17:01:04.005   866   957 I am_pss  : [6012,1000,com.google.android.apps.nexuslauncher,45293568,39981056,0]
+05-15 17:01:05.031     0     0 W [ 2747.969617 / 05-15 17:01:05.024][1] healthd: battery l=75 v=4071 t=23.0 h=2 st=2 c=305 chg=u
+05-15 17:01:05.463 13667 13713 D HeadsetPhoneState: sendDeviceStateChanged. mService=1 mIsSimStateLoaded=true mSignal=2 mRoam=0 mBatteryCharge=3
+05-15 17:01:06.512  4838  5127 I sysui_multi_action: [757,1093,758,4,793,6771,1094,604505089,1095,5]
+05-15 17:01:07.747  4838  5127 I sysui_multi_action: [757,1093,758,4,793,1236,1094,604505089,1095,5]
+05-15 17:01:07.931     0     0 I         : [ 2750.867634 / 05-15 17:01:07.924][0] [CC] current batt_temp[23], batt_temp_state[0], current batt_volt[4071], batt_volt_state[1]
+05-15 17:01:08.466 13667 13713 D HeadsetPhoneState: sendDeviceStateChanged. mService=1 mIsSimStateLoaded=true mSignal=4 mRoam=0 mBatteryCharge=3
+05-15 17:01:09.146  5067  5295 D Dcc     : onDataStateChanged: dcsToRetry=[]
+05-15 17:01:09.146  5067  5295 D Dcc     : onDataStateChanged: Found ConnId=0 newState=DataCallResponse: { status=0 retry=-1 cid=0 active=1 type=IP ifname=rmnet_data0 mtu=0 addresses=[178.147.68.132/29] dnses=[94.143.182.1,94.143.182.2] gateways=[178.147.68.133] pcscf=[]}
+05-15 17:01:09.147  5067  5295 D DataCallResponse: addr/pl=178.147.68.132/29
+05-15 17:01:09.147  5067  5295 D DC-1    : MTU set by config resource to: 1500
+05-15 17:01:09.148  5067  5295 D Dcc     : onDataStateChanged: no change
+05-15 17:01:09.148  5067  5295 D Dcc     : onDataStateChanged: Data Activity updated to DORMANT. stopNetStatePoll
+05-15 17:01:09.152  5067  5295 D Dcc     : onDataStateChanged: dcsToRetry=[] apnsToCleanup=[]
+05-15 17:01:09.513  4838  5127 I sysui_multi_action: [757,1093,758,4,793,1765,1094,604505089,1095,5]
+05-15 17:01:10.740  4838  5127 I sysui_multi_action: [757,1093,758,4,793,1224,1094,604505089,1095,5]
+05-15 17:01:11.583     0     0 I         : [ 2754.519945 / 05-15 17:01:11.576][0] pet_watchdog
+05-15 17:01:11.780  4838  5127 I sysui_multi_action: [757,1093,758,4,793,1043,1094,604505089,1095,5]
+
