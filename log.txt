@@ -1,0 +1,440 @@
+01-14 23:07:30.866     0     0 I [    2.043641 / 01-14 21:07:28.535][0] init: First stage mount skipped (missing/incompatible fstab in device tree)
+01-14 23:07:30.871     0     0 I         : [    3.633848 / 01-14 21:07:30.127][1] EXT4-fs (mmcblk0p47): mounted filesystem with ordered data mode. Opts: errors=remount-ro,nomblk_io_submit
+01-14 23:07:30.871     0     0 I [    3.634062 / 01-14 21:07:30.127][1] init: [libfs_mgr]check_fs(): mount(/dev/block/bootdevice/by-name/system,/system,ext4)=0: Success
+01-14 23:07:30.871     0     0 I [    3.634786 / 01-14 21:07:30.127][1] init: [libfs_mgr]check_fs(): unmount(/system) succeeded
+01-14 23:07:30.871     0     0 I         : [    3.637398 / 01-14 21:07:30.131][0] EXT4-fs (mmcblk0p47): mounted filesystem with ordered data mode. Opts: barrier=0,discard
+01-14 23:07:30.871     0     0 I [    3.637550 / 01-14 21:07:30.131][0] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/system,target=/system,type=ext4)=0: Success
+01-14 23:07:30.871     0     0 I [    3.708424 / 01-14 21:07:30.203][2] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/userdata,target=/data,type=f2fs)=-1: Invalid argument
+01-14 23:07:30.871     0     0 I [    3.724692 / 01-14 21:07:30.219][2] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/userdata,target=/data,type=f2fs)=-1: Invalid argument
+01-14 23:07:30.871     0     0 I         : [    3.727422 / 01-14 21:07:30.219][1] EXT4-fs (mmcblk0p50): mounted filesystem with ordered data mode. Opts: errors=remount-ro,nomblk_io_submit
+01-14 23:07:30.872     0     0 I [    3.727627 / 01-14 21:07:30.219][1] init: [libfs_mgr]check_fs(): mount(/dev/block/bootdevice/by-name/userdata,/data,ext4)=0: Success
+01-14 23:07:30.872     0     0 I [    3.728412 / 01-14 21:07:30.223][2] init: [libfs_mgr]check_fs(): unmount(/data) succeeded
+01-14 23:07:30.872     0     0 I         : [    3.807198 / 01-14 21:07:30.299][1] EXT4-fs (mmcblk0p50): mounted filesystem with ordered data mode. Opts: barrier=0,noauto_da_alloc,errors=continue,journal_async_commit,user_xattr,discard
+01-14 23:07:30.872     0     0 I [    3.807358 / 01-14 21:07:30.299][1] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/userdata,target=/data,type=ext4)=0: Success
+01-14 23:07:30.872     0     0 E [    3.807386 / 01-14 21:07:30.299][1] init: [libfs_mgr]mount_with_alternatives(): Mounted /dev/block/bootdevice/by-name/userdata on /data with fs_type=ext4 instead of f2fs
+01-14 23:07:30.872     0     0 I [    3.834811 / 01-14 21:07:30.327][1] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/cache,target=/cache,type=f2fs)=-1: Invalid argument
+01-14 23:07:30.872     0     0 I [    3.850990 / 01-14 21:07:30.343][2] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/cache,target=/cache,type=f2fs)=-1: Invalid argument
+01-14 23:07:30.872     0     0 I         : [    3.853136 / 01-14 21:07:30.347][1] EXT4-fs (mmcblk0p49): mounted filesystem with ordered data mode. Opts: errors=remount-ro,nomblk_io_submit
+01-14 23:07:30.872     0     0 I [    3.853306 / 01-14 21:07:30.347][1] init: [libfs_mgr]check_fs(): mount(/dev/block/bootdevice/by-name/cache,/cache,ext4)=0: Success
+01-14 23:07:30.872     0     0 I [    3.853891 / 01-14 21:07:30.347][1] init: [libfs_mgr]check_fs(): unmount(/cache) succeeded
+01-14 23:07:30.873     0     0 I [    3.876151 / 01-14 21:07:30.371][0] e2fsck: /dev/block/bootdevice/by-name/cache: clean, 18/78880 files, 10391/315392 blocks (check after next mount)
+01-14 23:07:30.873     0     0 I [    3.878142 / 01-14 21:07:30.371][1] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/cache,target=/cache,type=ext4)=0: Success
+01-14 23:07:30.873     0     0 E [    3.878171 / 01-14 21:07:30.371][1] init: [libfs_mgr]mount_with_alternatives(): Mounted /dev/block/bootdevice/by-name/cache on /cache with fs_type=ext4 instead of f2fs
+01-14 23:07:30.873     0     0 I [    3.881060 / 01-14 21:07:30.375][1] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/persist,target=/persist,type=ext4)=0: Success
+01-14 23:07:30.873     0     0 D [    3.887683 / 01-14 21:07:30.379][1] SELinux: initialized (dev mmcblk0p1, type vfat), uses mountpoint labeling
+01-14 23:07:30.873     0     0 I [    3.887766 / 01-14 21:07:30.383][1] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/modem,target=/firmware,type=vfat)=0: Success
+01-14 23:07:30.873     0     0 I [    3.890175 / 01-14 21:07:30.383][1] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/sns,target=/sns,type=ext4)=0: Success
+01-14 23:07:30.873     0     0 I [    3.893103 / 01-14 21:07:30.387][1] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/drm,target=/persist-lg,type=ext4)=0: Success
+01-14 23:07:30.873     0     0 I [    3.895677 / 01-14 21:07:30.387][1] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/mpt,target=/mpt,type=ext4)=0: Success
+01-14 23:07:30.873     0     0 I [    3.908977 / 01-14 21:07:30.403][1] init: Parsing file /system/etc/init/vold.rc...
+01-14 23:07:30.874     0     0 I [    3.917948 / 01-14 21:07:30.411][1] init: Command 'mount_all fstab.qcom' action=early-fs (/init.qcom.rc:54) returned 1 took 416ms.
+01-14 23:07:30.874     0     0 I [    3.947696 / 01-14 21:07:30.439][0] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/cust,target=/cust,type=ext4)=0: Success
+01-14 23:07:30.875     0     0 E [    3.948483 / 01-14 21:07:30.443][1] init: property_set("ro.boottime.init.mount_all.default", "26") failed: property already set
+01-14 23:07:30.875     0     0 I [    3.949912 / 01-14 21:07:30.443][0] init: [libfs_mgr]check_fs(): mount(/dev/block/bootdevice/by-name/system,/system,ext4)=-1: Permission denied
+01-14 23:07:30.876     0     0 I [    3.967693 / 01-14 21:07:30.459][0] e2fsck: Warning!  /dev/block/bootdevice/by-name/system is mounted.
+01-14 23:07:30.876     0     0 I [    3.968189 / 01-14 21:07:30.463][0] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/system,target=/system,type=ext4)=-1: Device or resource busy
+01-14 23:07:30.876     0     0 I [    3.985435 / 01-14 21:07:30.479][0] e2fsck: Warning!  /dev/block/bootdevice/by-name/system is mounted.
+01-14 23:07:30.876     0     0 I [    3.985848 / 01-14 21:07:30.479][0] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/system,target=/system,type=ext4)=-1: Device or resource busy
+01-14 23:07:30.876     0     0 E [    3.985988 / 01-14 21:07:30.479][0] init: [libfs_mgr]Failed to mount an un-encryptable or wiped partition on /dev/block/bootdevice/by-name/system at /system options: barrier=0,discard: Device or resource busy
+01-14 23:07:30.876     0     0 I [    3.999277 / 01-14 21:07:30.491][0] fsck.f2fs: Info: Mounted device!
+01-14 23:07:30.876     0     0 I [    3.999297 / 01-14 21:07:30.491][0] fsck.f2fs: Error: Not available on mounted device!
+01-14 23:07:30.876     0     0 I [    3.999650 / 01-14 21:07:30.491][0] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/userdata,target=/data,type=f2fs)=-1: Device or resource busy
+01-14 23:07:30.876     0     0 I [    4.012842 / 01-14 21:07:30.507][0] fsck.f2fs: Info: Mounted device!
+01-14 23:07:30.876     0     0 I [    4.012861 / 01-14 21:07:30.507][0] fsck.f2fs: Error: Not available on mounted device!
+01-14 23:07:30.876     0     0 I [    4.013215 / 01-14 21:07:30.507][0] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/userdata,target=/data,type=f2fs)=-1: Device or resource busy
+01-14 23:07:30.876     0     0 I [    4.013446 / 01-14 21:07:30.507][0] init: [libfs_mgr]check_fs(): mount(/dev/block/bootdevice/by-name/userdata,/data,ext4)=-1: Device or resource busy
+01-14 23:07:30.877     0     0 I [    4.030708 / 01-14 21:07:30.523][0] e2fsck: /dev/block/bootdevice/by-name/userdata is mounted.
+01-14 23:07:30.877     0     0 I [    4.031150 / 01-14 21:07:30.523][0] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/userdata,target=/data,type=ext4)=-1: Device or resource busy
+01-14 23:07:30.877     0     0 I [    4.048448 / 01-14 21:07:30.543][0] e2fsck: /dev/block/bootdevice/by-name/userdata is mounted.
+01-14 23:07:30.877     0     0 I [    4.048888 / 01-14 21:07:30.543][0] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/userdata,target=/data,type=ext4)=-1: Device or resource busy
+01-14 23:07:30.877     0     0 E [    4.048992 / 01-14 21:07:30.543][0] init: [libfs_mgr]Failed to mount an un-encryptable or wiped partition on /dev/block/bootdevice/by-name/userdata at /data options: inline_xattr,discard: Device or resource busy
+01-14 23:07:30.877     0     0 I [    4.062401 / 01-14 21:07:30.555][0] fsck.f2fs: Info: Mounted device!
+01-14 23:07:30.877     0     0 I [    4.062420 / 01-14 21:07:30.555][0] fsck.f2fs: Error: Not available on mounted device!
+01-14 23:07:30.877     0     0 I [    4.062801 / 01-14 21:07:30.555][0] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/cache,target=/cache,type=f2fs)=-1: Device or resource busy
+01-14 23:07:30.877     0     0 I [    4.076120 / 01-14 21:07:30.571][2] fsck.f2fs: Info: Mounted device!
+01-14 23:07:30.877     0     0 I [    4.076139 / 01-14 21:07:30.571][2] fsck.f2fs: Error: Not available on mounted device!
+01-14 23:07:30.877     0     0 I [    4.076497 / 01-14 21:07:30.571][2] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/cache,target=/cache,type=f2fs)=-1: Device or resource busy
+01-14 23:07:30.877     0     0 I [    4.076721 / 01-14 21:07:30.571][2] init: [libfs_mgr]check_fs(): mount(/dev/block/bootdevice/by-name/cache,/cache,ext4)=-1: Device or resource busy
+01-14 23:07:30.877     0     0 I [    4.093923 / 01-14 21:07:30.587][2] e2fsck: /dev/block/bootdevice/by-name/cache is mounted.
+01-14 23:07:30.877     0     0 I [    4.094363 / 01-14 21:07:30.587][2] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/cache,target=/cache,type=ext4)=-1: Device or resource busy
+01-14 23:07:30.877     0     0 I [    4.111444 / 01-14 21:07:30.603][2] e2fsck: /dev/block/bootdevice/by-name/cache is mounted.
+01-14 23:07:30.878     0     0 I [    4.111920 / 01-14 21:07:30.607][2] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/cache,target=/cache,type=ext4)=-1: Device or resource busy
+01-14 23:07:30.878     0     0 E [    4.112030 / 01-14 21:07:30.607][2] init: [libfs_mgr]Failed to mount an un-encryptable or wiped partition on /dev/block/bootdevice/by-name/cache at /cache options: inline_xattr,discard: Device or resource busy
+01-14 23:07:30.878     0     0 I [    4.112274 / 01-14 21:07:30.607][2] init: [libfs_mgr]check_fs(): mount(/dev/block/bootdevice/by-name/persist,/persist,ext4)=-1: Device or resource busy
+01-14 23:07:30.878     0     0 I [    4.129439 / 01-14 21:07:30.623][1] e2fsck: /dev/block/bootdevice/by-name/persist is mounted.
+01-14 23:07:30.878     0     0 I [    4.129883 / 01-14 21:07:30.623][1] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/persist,target=/persist,type=ext4)=-1: Device or resource busy
+01-14 23:07:30.878     0     0 I [    4.149487 / 01-14 21:07:30.643][1] e2fsck: /dev/block/bootdevice/by-name/persist is mounted.
+01-14 23:07:30.878     0     0 I [    4.149924 / 01-14 21:07:30.643][1] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/persist,target=/persist,type=ext4)=-1: Device or resource busy
+01-14 23:07:30.878     0     0 E [    4.150052 / 01-14 21:07:30.643][1] init: [libfs_mgr]Failed to mount an un-encryptable or wiped partition on /dev/block/bootdevice/by-name/persist at /persist options: barrier=1,data=ordered,nodelalloc,errors=panic: Device or resource busy
+01-14 23:07:30.878     0     0 I [    4.150232 / 01-14 21:07:30.643][1] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/modem,target=/firmware,type=vfat)=-1: Device or resource busy
+01-14 23:07:30.878     0     0 I [    4.150339 / 01-14 21:07:30.643][1] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/modem,target=/firmware,type=vfat)=-1: Device or resource busy
+01-14 23:07:30.878     0     0 E [    4.151467 / 01-14 21:07:30.643][1] init: [libfs_mgr]Failed to mount an un-encryptable or wiped partition on /dev/block/bootdevice/by-name/modem at /firmware options: shortname=lower,uid=1000,gid=1026,dmask=227,fmask=337,context=u:object_r:firmware_file:s0: Device or resource busy
+01-14 23:07:30.878     0     0 I [    4.151726 / 01-14 21:07:30.643][1] init: [libfs_mgr]check_fs(): mount(/dev/block/bootdevice/by-name/sns,/sns,ext4)=-1: Device or resource busy
+01-14 23:07:30.878     0     0 I [    4.169145 / 01-14 21:07:30.663][1] e2fsck: /dev/block/bootdevice/by-name/sns is mounted.
+01-14 23:07:30.878     0     0 I [    4.169593 / 01-14 21:07:30.663][1] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/sns,target=/sns,type=ext4)=-1: Device or resource busy
+01-14 23:07:30.879     0     0 I [    4.186893 / 01-14 21:07:30.679][1] e2fsck: /dev/block/bootdevice/by-name/sns is mounted.
+01-14 23:07:30.879     0     0 I [    4.187329 / 01-14 21:07:30.679][1] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/sns,target=/sns,type=ext4)=-1: Device or resource busy
+01-14 23:07:30.879     0     0 E [    4.187431 / 01-14 21:07:30.679][1] init: [libfs_mgr]Failed to mount an un-encryptable or wiped partition on /dev/block/bootdevice/by-name/sns at /sns options: barrier=1,noauto_da_alloc,errors=continue: Device or resource busy
+01-14 23:07:30.879     0     0 I [    4.187680 / 01-14 21:07:30.679][1] init: [libfs_mgr]check_fs(): mount(/dev/block/bootdevice/by-name/drm,/persist-lg,ext4)=-1: Device or resource busy
+01-14 23:07:30.879     0     0 I [    4.205176 / 01-14 21:07:30.699][1] e2fsck: /dev/block/bootdevice/by-name/drm is mounted.
+01-14 23:07:30.879     0     0 I [    4.205606 / 01-14 21:07:30.699][1] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/drm,target=/persist-lg,type=ext4)=-1: Device or resource busy
+01-14 23:07:30.879     0     0 I [    4.222925 / 01-14 21:07:30.715][1] e2fsck: /dev/block/bootdevice/by-name/drm is mounted.
+01-14 23:07:30.879     0     0 I [    4.223364 / 01-14 21:07:30.715][1] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/drm,target=/persist-lg,type=ext4)=-1: Device or resource busy
+01-14 23:07:30.879     0     0 E [    4.223467 / 01-14 21:07:30.715][1] init: [libfs_mgr]Failed to mount an un-encryptable or wiped partition on /dev/block/bootdevice/by-name/drm at /persist-lg options: barrier=1,noauto_da_alloc,errors=continue: Device or resource busy
+01-14 23:07:30.879     0     0 I [    4.223720 / 01-14 21:07:30.715][1] init: [libfs_mgr]check_fs(): mount(/dev/block/bootdevice/by-name/mpt,/mpt,ext4)=-1: Device or resource busy
+01-14 23:07:30.879     0     0 I [    4.241221 / 01-14 21:07:30.735][1] e2fsck: /dev/block/bootdevice/by-name/mpt is mounted.
+01-14 23:07:30.879     0     0 I [    4.241658 / 01-14 21:07:30.735][1] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/mpt,target=/mpt,type=ext4)=-1: Device or resource busy
+01-14 23:07:30.880     0     0 I [    4.258923 / 01-14 21:07:30.751][1] e2fsck: /dev/block/bootdevice/by-name/mpt is mounted.
+01-14 23:07:30.880     0     0 I [    4.259356 / 01-14 21:07:30.751][1] init: [libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/mpt,target=/mpt,type=ext4)=-1: Device or resource busy
+01-14 23:07:30.880     0     0 E [    4.259456 / 01-14 21:07:30.751][1] init: [libfs_mgr]Failed to mount an un-encryptable or wiped partition on /dev/block/bootdevice/by-name/mpt at /mpt options: barrier=1,noauto_da_alloc,errors=continue: Device or resource busy
+01-14 23:07:30.880     0     0 E [    4.259527 / 01-14 21:07:30.751][1] init: fs_mgr_mount_all returned an error: Device or resource busy
+01-14 23:07:30.880     0     0 E [    4.260143 / 01-14 21:07:30.755][0] init: property_set("ro.boottime.init.mount_all.default", "311") failed: property already set
+01-14 23:07:30.880     0     0 E [    4.260175 / 01-14 21:07:30.755][0] init: fs_mgr_mount_all returned unexpected error 255: File exists
+01-14 23:07:30.880     0     0 I [    4.260214 / 01-14 21:07:30.755][0] init: Command 'mount_all fstab.qcom' action=fs (/init.qcom.rc:76) returned 255 took 311ms.
+01-14 23:07:30.913     0     0 I [    4.353087 / 01-14 21:07:30.847][1] init: starting service 'vold'...
+01-14 23:07:30.913     0     0 I [    4.354873 / 01-14 21:07:30.847][0] init: Created socket '/dev/socket/vold', mode 660, user 0, group 1009
+01-14 23:07:30.930   408   408 I vold    : Vold 3.0 (the awakening) firing up
+01-14 23:07:30.930   408   408 V vold    : Detected support for: exfat ext4 f2fs ntfs vfat
+01-14 23:07:30.936   408   408 W Vold    : Tearing down stale mount /mnt/pstore
+01-14 23:07:30.937   408   408 I vold    : [libfs_mgr]fs_mgr_read_fstab_dt(): failed to read fstab from dt
+01-14 23:07:30.962   408   411 V vold    : /system/bin/sgdisk
+01-14 23:07:30.962   408   411 V vold    :     --android-dump
+01-14 23:07:30.962   408   411 V vold    :     /dev/block/vold/disk:179_64
+01-14 23:07:30.966   408   413 D vold    : e4crypt_init_user0
+01-14 23:07:30.966   408   413 D vold    : e4crypt_prepare_user_storage for volume null, user 0, serial 0, flags 1
+01-14 23:07:30.966   408   413 D vold    : Preparing: /data/system/users/0
+01-14 23:07:30.967   408   413 D vold    : Preparing: /data/misc/profiles/cur/0
+01-14 23:07:30.967   408   413 D vold    : Preparing: /data/system_de/0
+01-14 23:07:30.968   408   413 D vold    : Preparing: /data/misc_de/0
+01-14 23:07:30.969   408   413 D vold    : Preparing: /data/user_de/0
+01-14 23:07:30.969   408   413 D vold    : e4crypt_unlock_user_key 0 serial=0 token_present=0
+01-14 23:07:31.202   408   411 V vold    : DISK mbr
+01-14 23:07:31.203   408   411 V vold    : 
+01-14 23:07:31.203   408   411 V vold    : PART 1 c
+01-14 23:07:31.203   408   411 V vold    : 
+01-14 23:07:31.777     0     0 I [    5.276160 / 01-14 21:07:31.771][0] init: processing action (firmware_mounts_complete) from (/init.rc:262)
+07-04 12:59:55.023   509   509 D mm-camera-intf: index = 0 flag = 1 mount_angle = 90 facing = 0
+07-04 12:59:55.023   509   509 D mm-camera-intf: index = 1 flag = 103 mount_angle = 270 facing = 1
+07-04 13:00:00.141   965  1809 W StorageManagerService: No primary storage mounted!
+07-04 13:00:00.141   965  1809 D VoldConnector: SND -> {1 asec list}
+07-04 13:00:00.144   965  1820 D VoldConnector: RCV <- {200 1 asec operation succeeded}
+07-04 13:00:00.355   965  1809 W StorageManagerService: No primary storage mounted!
+07-04 13:00:00.355   965  1809 D VoldConnector: SND -> {2 asec list}
+07-04 13:00:00.359   965  1820 D VoldConnector: RCV <- {200 2 asec operation succeeded}
+07-04 13:00:04.145   408   413 D vold    : e4crypt_unlock_user_key 0 serial=0 token_present=0
+07-04 13:00:04.148   965  1809 D VoldConnector: SND -> {3 volume reset}
+07-04 13:00:04.149   965  1032 I ActivityManager: Force stopping com.android.providers.media appid=10035 user=-1: vold reset
+07-04 13:00:04.150   408   412 V vold    : /system/bin/sgdisk
+07-04 13:00:04.151   408   412 V vold    :     --android-dump
+07-04 13:00:04.151   965  1820 D VoldConnector: RCV <- {651 emulated 7}
+07-04 13:00:04.152   965  1820 D VoldConnector: RCV <- {659 emulated}
+07-04 13:00:04.153   965  1820 D VoldConnector: RCV <- {650 emulated 2 "" ""}
+07-04 13:00:04.153   965  1820 D VoldConnector: RCV <- {651 emulated 0}
+07-04 13:00:04.154   965  1820 D VoldConnector: RCV <- {651 public:179_65 7}
+07-04 13:00:04.154   965  1039 V StorageManagerService:     type=EMULATED diskId=null partGuid=null mountFlags=0 mountUserId=-1 
+07-04 13:00:04.154   965  1039 V StorageManagerService:     state=UNMOUNTED 
+07-04 13:00:04.154   965  1820 D VoldConnector: RCV <- {659 public:179_65}
+07-04 13:00:04.155   408   412 V vold    :     /dev/block/vold/disk:179_64
+07-04 13:00:04.155   965  1820 D VoldConnector: RCV <- {649 disk:179_64}
+07-04 13:00:04.156   965  1820 D VoldConnector: RCV <- {640 disk:179_64 5}
+07-04 13:00:04.157   965  1820 D VoldConnector: RCV <- {641 disk:179_64 15931539456}
+07-04 13:00:04.157   965  1820 D VoldConnector: RCV <- {642 disk:179_64 SanDisk}
+07-04 13:00:04.158   965  1820 D VoldConnector: RCV <- {644 disk:179_64 /sys//devices/soc.0/f98a4900.sdhci/mmc_host/mmc1/mmc1:aaaa/block/mmcblk1}
+07-04 13:00:04.212   408   412 V vold    : DISK mbr
+07-04 13:00:04.212   408   412 V vold    : 
+07-04 13:00:04.212   408   412 V vold    : PART 1 c
+07-04 13:00:04.212   408   412 V vold    : 
+07-04 13:00:04.214   965  1820 D VoldConnector: RCV <- {650 public:179_65 0 "disk:179_64" ""}
+07-04 13:00:04.216   965  1820 D VoldConnector: RCV <- {651 public:179_65 0}
+07-04 13:00:04.216   965  1820 D VoldConnector: RCV <- {643 disk:179_64}
+07-04 13:00:04.217   965  1820 D VoldConnector: RCV <- {200 3 Command succeeded}
+07-04 13:00:04.218   965  1809 D VoldConnector: SND -> {4 volume user_added 0 0}
+07-04 13:00:04.223   965  1820 D VoldConnector: RCV <- {200 4 Command succeeded}
+07-04 13:00:04.231   965  1809 D VoldConnector: SND -> {5 volume mount emulated 3 -1}
+07-04 13:00:04.232   965  1820 D VoldConnector: RCV <- {651 emulated 1}
+07-04 13:00:04.233   965  1820 D VoldConnector: RCV <- {656 emulated /data/media}
+07-04 13:00:04.234   408   412 V vold    : Waiting for FUSE to spin up...
+07-04 13:00:04.234   965  1820 D VoldConnector: RCV <- {655 emulated /storage/emulated}
+07-04 13:00:04.277  4980  4980 W /system/bin/sdcard: Device explicitly enabled sdcardfs
+07-04 13:00:04.280     0     0 I         : [   17.538750 / 07-04 13:00:04.273][3] sdcardfs version 2.0
+07-04 13:00:04.280     0     0 I [   17.538769 / 07-04 13:00:04.273][3] sdcardfs: dev_name -> /data/media
+07-04 13:00:04.280     0     0 I [   17.538778 / 07-04 13:00:04.273][3] sdcardfs: options -> fsuid=1023,fsgid=1023,multiuser,derive_gid,mask=6,userid=0,gid=1015
+07-04 13:00:04.282     0     0 I [   17.538787 / 07-04 13:00:04.273][3] sdcardfs: mnt -> ffffffc0939f0de0
+07-04 13:00:04.282     0     0 I [   17.538840 / 07-04 13:00:04.273][3] sdcardfs: mounted on top of /data/media type ext4
+07-04 13:00:04.282     0     0 D [   17.539143 / 07-04 13:00:04.273][3] SELinux: initialized (dev sdcardfs, type sdcardfs), uses genfs_contexts
+07-04 13:00:04.282     0     0 I         : [   17.539571 / 07-04 13:00:04.273][3] Remount options were mask=23,gid=9997 for vfsmnt ffffffc093afcb60.
+07-04 13:00:04.282     0     0 I [   17.539595 / 07-04 13:00:04.273][3] sdcardfs: options - debug:1
+07-04 13:00:04.282     0     0 I [   17.539603 / 07-04 13:00:04.273][3] sdcardfs: options - gid:9997
+07-04 13:00:04.282     0     0 I [   17.539612 / 07-04 13:00:04.273][3] sdcardfs: options - mask:23
+07-04 13:00:04.284   965  1820 D VoldConnector: RCV <- {651 emulated 2}
+07-04 13:00:04.285   965  1820 D VoldConnector: RCV <- {200 5 Command succeeded}
+07-04 13:00:04.286   965  1809 D VoldConnector: SND -> {6 volume mount public:179_65 2 0}
+07-04 13:00:04.287   408   412 V vold    : /system/bin/blkid
+07-04 13:00:04.287   408   412 V vold    :     -c
+07-04 13:00:04.287   408   412 V vold    :     /dev/null
+07-04 13:00:04.287   408   412 V vold    :     -s
+07-04 13:00:04.287   408   412 V vold    :     TYPE
+07-04 13:00:04.287   408   412 V vold    :     -s
+07-04 13:00:04.287   408   412 V vold    :     UUID
+07-04 13:00:04.287   408   412 V vold    :     -s
+07-04 13:00:04.287   408   412 V vold    :     LABEL
+07-04 13:00:04.287   408   412 V vold    :     /dev/block/vold/public:179_65
+07-04 13:00:04.288     0     0 I         : [   17.543854 / 07-04 13:00:04.281][3] Remount options were mask=7,gid=9997 for vfsmnt ffffffc093afb3e0.
+07-04 13:00:04.288     0     0 I [   17.543879 / 07-04 13:00:04.281][3] sdcardfs: options - debug:1
+07-04 13:00:04.289     0     0 I [   17.543887 / 07-04 13:00:04.281][3] sdcardfs: options - gid:9997
+07-04 13:00:04.289     0     0 I [   17.543895 / 07-04 13:00:04.281][3] sdcardfs: options - mask:7
+07-04 13:00:04.292   965  1820 D VoldConnector: RCV <- {651 public:179_65 1}
+07-04 13:00:04.378   408   412 V vold    : /dev/block/vold/public:179_65: LABEL="disk" UUID="9697-3C24" TYPE="exfat" 
+07-04 13:00:04.378   408   412 V vold    : 
+07-04 13:00:04.379   965  1820 D VoldConnector: RCV <- {652 public:179_65 exfat}
+07-04 13:00:04.379   965  1820 D VoldConnector: RCV <- {653 public:179_65 9697-3C24}
+07-04 13:00:04.379   408   412 V vold    : /system/bin/fsck.exfat
+07-04 13:00:04.379   408   412 V vold    :     /dev/block/vold/public:179_65
+07-04 13:00:04.380   965  1820 D VoldConnector: RCV <- {654 public:179_65 disk}
+07-04 13:00:04.380   965  1820 D VoldConnector: RCV <- {656 public:179_65 /mnt/media_rw/9697-3C24}
+07-04 13:00:04.381   965  1820 D VoldConnector: RCV <- {655 public:179_65 /storage/9697-3C24}
+07-04 13:00:04.412   408   412 I fsck.exfat: exfatfsck 1.2.7
+07-04 13:00:04.436   408   412 I fsck.exfat: Checking file system on /dev/block/vold/public:179_65.
+07-04 13:00:04.438   408   412 I fsck.exfat: File system version           1.0
+07-04 13:00:04.438   408   412 I fsck.exfat: Sector size                 512 bytes
+07-04 13:00:04.438   408   412 I fsck.exfat: Cluster size                 32 KB
+07-04 13:00:04.438   408   412 I fsck.exfat: Volume size                  15 GB
+07-04 13:00:04.438   408   412 I fsck.exfat: Used space                 2112 KB
+07-04 13:00:04.438   408   412 I fsck.exfat: Available space              15 GB
+07-04 13:00:04.441  4992  4992 I auditd  : type=1400 audit(0.0:39): avc: denied { entrypoint } for comm="vold" path="/system/bin/toybox" dev="mmcblk0p47" ino=446 scontext=u:r:fsck_untrusted:s0 tcontext=u:object_r:toolbox_exec:s0 tclass=file permissive=1
+07-04 13:00:04.441  4992  4992 I vold    : type=1400 audit(0.0:39): avc: denied { entrypoint } for path="/system/bin/toybox" dev="mmcblk0p47" ino=446 scontext=u:r:fsck_untrusted:s0 tcontext=u:object_r:toolbox_exec:s0 tclass=file permissive=1
+07-04 13:00:04.438   408   412 I fsck.exfat: Totally 0 directories and 0 files.
+07-04 13:00:04.439   408   412 I fsck.exfat: File system checking finished. No errors found.
+07-04 13:00:04.440   408   412 V vold    : /system/bin/mount
+07-04 13:00:04.440   408   412 V vold    :     -t
+07-04 13:00:04.440   408   412 V vold    :     exfat
+07-04 13:00:04.440   408   412 V vold    :     -o
+07-04 13:00:04.440   408   412 V vold    :     noatime,nodev,nosuid,uid=1023,gid=1023,fmask=7,dmask=7,noexec,rw
+07-04 13:00:04.440   408   412 V vold    :     /dev/block/vold/public:179_65
+07-04 13:00:04.440   408   412 V vold    :     /mnt/media_rw/9697-3C24
+07-04 13:00:04.449  4992  4992 I auditd  : type=1400 audit(0.0:40): avc: denied { getattr } for comm="mount" path="/system/bin/toybox" dev="mmcblk0p47" ino=446 scontext=u:r:fsck_untrusted:s0 tcontext=u:object_r:toolbox_exec:s0 tclass=file permissive=1
+07-04 13:00:04.449  4992  4992 I mount   : type=1400 audit(0.0:40): avc: denied { getattr } for path="/system/bin/toybox" dev="mmcblk0p47" ino=446 scontext=u:r:fsck_untrusted:s0 tcontext=u:object_r:toolbox_exec:s0 tclass=file permissive=1
+07-04 13:00:04.457  4992  4992 I auditd  : type=1400 audit(0.0:41): avc: denied { read } for comm="mount" path="/system/bin/toybox" dev="mmcblk0p47" ino=446 scontext=u:r:fsck_untrusted:s0 tcontext=u:object_r:toolbox_exec:s0 tclass=file permissive=1
+07-04 13:00:04.457  4992  4992 I mount   : type=1400 audit(0.0:41): avc: denied { read } for path="/system/bin/toybox" dev="mmcblk0p47" ino=446 scontext=u:r:fsck_untrusted:s0 tcontext=u:object_r:toolbox_exec:s0 tclass=file permissive=1
+07-04 13:00:04.489  4992  4992 I auditd  : type=1400 audit(0.0:42): avc: denied { search } for comm="mount" name="media_rw" dev="tmpfs" ino=977 scontext=u:r:fsck_untrusted:s0 tcontext=u:object_r:mnt_media_rw_file:s0 tclass=dir permissive=1
+07-04 13:00:04.489  4992  4992 I mount   : type=1400 audit(0.0:42): avc: denied { search } for name="media_rw" dev="tmpfs" ino=977 scontext=u:r:fsck_untrusted:s0 tcontext=u:object_r:mnt_media_rw_file:s0 tclass=dir permissive=1
+07-04 13:00:04.489  4992  4992 I auditd  : type=1400 audit(0.0:43): avc: denied { mounton } for comm="mount" path="/mnt/media_rw/9697-3C24" dev="tmpfs" ino=30241 scontext=u:r:fsck_untrusted:s0 tcontext=u:object_r:mnt_media_rw_stub_file:s0 tclass=dir permissive=1
+07-04 13:00:04.489  4992  4992 I mount   : type=1400 audit(0.0:43): avc: denied { mounton } for path="/mnt/media_rw/9697-3C24" dev="tmpfs" ino=30241 scontext=u:r:fsck_untrusted:s0 tcontext=u:object_r:mnt_media_rw_stub_file:s0 tclass=dir permissive=1
+07-04 13:00:04.496   408   412 I mount   : mount: '/dev/block/vold/public:179_65'->'/mnt/media_rw/9697-3C24': No such device
+07-04 13:00:04.496   408   412 I mount   : mount terminated by exit(1)
+07-04 13:00:04.498   408   412 E vold    : public:179_65 failed to mount /dev/block/vold/public:179_65: No such file or directory
+07-04 13:00:04.498   965  1820 D VoldConnector: RCV <- {651 public:179_65 6}
+07-04 13:00:04.500   965  1820 D VoldConnector: RCV <- {400 6 Command failed}
+07-04 13:00:05.698   519  1123 D installd: Found storage mount /data/media at /mnt/runtime/default/emulated
+07-04 13:00:09.258  4969  4969 D StorageNotification:     type=PRIVATE diskId=null partGuid=null mountFlags=0 mountUserId=-1 
+07-04 13:00:09.258  4969  4969 D StorageNotification:     state=MOUNTED 
+07-04 13:00:09.260  4969  4969 D StorageNotification:     type=PUBLIC diskId=disk:179_64 partGuid=null mountFlags=VISIBLE 
+07-04 13:00:09.260  4969  4969 D StorageNotification:     mountUserId=0 state=UNMOUNTABLE 
+07-04 13:00:09.260  4969  4969 D StorageNotification:     fsType=exfat fsUuid=9697-3C24 fsLabel=disk 
+07-04 13:00:09.384   408   413 D VoldCryptCmdListener: cryptfs getpw
+07-04 13:00:09.386   408   413 D VoldCryptCmdListener: cryptfs clearpw
+07-04 13:00:13.744   408   413 D vold    : e4crypt_prepare_user_storage for volume null, user 0, serial 0, flags 2
+07-04 13:00:13.744   408   413 D vold    : Preparing: /data/system_ce/0
+07-04 13:00:13.744   408   413 D vold    : Preparing: /data/misc_ce/0
+07-04 13:00:13.744   408   413 D vold    : Preparing: /data/media/0
+07-04 13:00:13.744   408   413 D vold    : Preparing: /data/data
+07-04 13:00:14.310   965  1032 D VoldConnector: SND -> {7 volume user_started 0}
+07-04 13:00:14.315   408   412 D vold    : Linking /storage/emulated/0 to /mnt/user/0/primary
+07-04 13:00:14.316   965  1820 D VoldConnector: RCV <- {200 7 Command succeeded}
+07-04 13:00:14.331   965  1809 D StorageManagerService: Volume emulated broadcasting mounted to UserHandle{0}
+07-04 13:00:14.694  6081  6081 D mm-camera-intf: index = 0 flag = 1 mount_angle = 90 facing = 0
+07-04 13:00:14.694  6081  6081 D mm-camera-intf: index = 1 flag = 103 mount_angle = 270 facing = 1
+07-04 13:00:15.569  6347  6347 D MediaScannerReceiver: action: android.intent.action.MEDIA_MOUNTED path: /storage/emulated/0
+07-04 13:00:15.602   965  6275 I am_proc_start: [0,6470,10097,com.google.android.apps.photos,broadcast,com.google.android.apps.photos/.sdcard.envcache.ExternalStorageStateChangeBroadcastReceiver]
+07-04 13:00:15.602   965  6275 I ActivityManager: Start proc 6470:com.google.android.apps.photos/u0a97 for broadcast com.google.android.apps.photos/.sdcard.envcache.ExternalStorageStateChangeBroadcastReceiver
+07-04 13:00:16.118   965  1005 I am_proc_start: [0,6622,10100,com.viber.voip,broadcast,com.viber.voip/.util.SDCardBroadcastReceiver]
+07-04 13:00:16.118   965  1005 I ActivityManager: Start proc 6622:com.viber.voip/u0a100 for broadcast com.viber.voip/.util.SDCardBroadcastReceiver
+07-04 13:00:18.284   965  7032 I sysui_histogram: [boot_mount_all_duration_default,394]
+07-04 13:00:18.284   965  7032 I sysui_multi_action: [757,804,799,boot_mount_all_duration_default,801,394,802,1]
+07-04 13:00:18.772   965  5269 D VoldConnector: SND -> {8 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.ptt/}
+07-04 13:00:18.775   965  1820 D VoldConnector: RCV <- {200 8 Command succeeded}
+07-04 13:00:19.598   965  6282 D VoldConnector: SND -> {9 volume mkdirs /storage/9697-3C24/Android/media/com.viber.voip/}
+07-04 13:00:19.601   965  1820 D VoldConnector: RCV <- {200 9 Command succeeded}
+07-04 13:00:20.403   965  5151 D VoldConnector: SND -> {10 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.stickers/}
+07-04 13:00:20.405   965  1820 D VoldConnector: RCV <- {200 10 Command succeeded}
+07-04 13:00:20.542   965  4994 D VoldConnector: SND -> {11 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.stickers/}
+07-04 13:00:20.548   965  1820 D VoldConnector: RCV <- {200 11 Command succeeded}
+07-04 13:00:20.608   965  6284 D VoldConnector: SND -> {12 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.stickers/}
+07-04 13:00:20.611   965  1820 D VoldConnector: RCV <- {200 12 Command succeeded}
+07-04 13:00:20.641   965  6284 D VoldConnector: SND -> {13 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.stickers/}
+07-04 13:00:20.644   965  1820 D VoldConnector: RCV <- {200 13 Command succeeded}
+07-04 13:00:20.996   965  5269 D VoldConnector: SND -> {14 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.stickers/}
+07-04 13:00:21.001   965  1820 D VoldConnector: RCV <- {200 14 Command succeeded}
+07-04 13:00:21.287   965  6284 D VoldConnector: SND -> {15 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.stickers/}
+07-04 13:00:21.288   965  1820 D VoldConnector: RCV <- {200 15 Command succeeded}
+07-04 13:00:21.823   965  1004 D VoldConnector: SND -> {16 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.stickers/}
+07-04 13:00:21.824   965  1820 D VoldConnector: RCV <- {200 16 Command succeeded}
+07-04 13:00:22.087   965  4994 D VoldConnector: SND -> {17 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.stickers/}
+07-04 13:00:22.088   965  1820 D VoldConnector: RCV <- {200 17 Command succeeded}
+07-04 13:00:22.453   965  1005 D VoldConnector: SND -> {18 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.emoticons/}
+07-04 13:00:22.457   965  1820 D VoldConnector: RCV <- {200 18 Command succeeded}
+07-04 13:00:22.486   965  6282 D VoldConnector: SND -> {19 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.hidden/}
+07-04 13:00:22.489   965  1820 D VoldConnector: RCV <- {200 19 Command succeeded}
+07-04 13:00:23.241   965  6284 D VoldConnector: SND -> {20 volume mkdirs /storage/9697-3C24/Android/data/com.google.android.gms/files/}
+07-04 13:00:23.243   965  1820 D VoldConnector: RCV <- {200 20 Command succeeded}
+07-04 13:00:23.965   965  6282 D VoldConnector: SND -> {21 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.stickers/}
+07-04 13:00:23.970   965  1820 D VoldConnector: RCV <- {200 21 Command succeeded}
+07-04 13:00:23.980   965  6282 D VoldConnector: SND -> {22 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.stickers/}
+07-04 13:00:23.981   965  1820 D VoldConnector: RCV <- {200 22 Command succeeded}
+07-04 13:00:23.992   965  6282 D VoldConnector: SND -> {23 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.stickers/}
+07-04 13:00:23.994   965  1820 D VoldConnector: RCV <- {200 23 Command succeeded}
+07-04 13:00:24.026   965  5269 D VoldConnector: SND -> {24 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.stickers/}
+07-04 13:00:24.027   965  1820 D VoldConnector: RCV <- {200 24 Command succeeded}
+07-04 13:00:24.070   965  6266 D VoldConnector: SND -> {25 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.stickers/}
+07-04 13:00:24.070   965  1820 D VoldConnector: RCV <- {200 25 Command succeeded}
+07-04 13:00:24.941   965  6284 D VoldConnector: SND -> {26 volume mkdirs /storage/9697-3C24/Android/data/com.google.android.apps.maps/files/}
+07-04 13:00:24.944   965  1820 D VoldConnector: RCV <- {200 26 Command succeeded}
+07-04 13:00:24.993   965  1005 D VoldConnector: SND -> {27 volume mkdirs /storage/9697-3C24/Android/data/com.google.android.apps.maps/files/}
+07-04 13:00:24.994   965  1820 D VoldConnector: RCV <- {200 27 Command succeeded}
+07-04 13:00:27.750   965  4994 D VoldConnector: SND -> {28 volume mkdirs /storage/9697-3C24/Android/data/com.google.android.apps.maps/files/}
+07-04 13:00:27.753   965  1820 D VoldConnector: RCV <- {200 28 Command succeeded}
+07-04 13:00:27.770   965  6266 D VoldConnector: SND -> {29 volume mkdirs /storage/9697-3C24/Android/data/com.google.android.apps.maps/files/}
+07-04 13:00:27.773   965  1820 D VoldConnector: RCV <- {200 29 Command succeeded}
+07-04 13:00:27.880   965  6275 D VoldConnector: SND -> {30 volume mkdirs /storage/9697-3C24/Android/data/com.google.android.apps.maps/files/}
+07-04 13:00:27.882   965  1820 D VoldConnector: RCV <- {200 30 Command succeeded}
+07-04 13:00:28.352   965  6275 D VoldConnector: SND -> {31 volume mkdirs /storage/9697-3C24/Android/data/com.google.android.gms/files/}
+07-04 13:00:28.355   965  1820 D VoldConnector: RCV <- {200 31 Command succeeded}
+07-04 13:00:29.067   965  4994 D VoldConnector: SND -> {32 volume mkdirs /storage/9697-3C24/Android/data/com.google.android.apps.maps/files/}
+07-04 13:00:29.068   965  1820 D VoldConnector: RCV <- {200 32 Command succeeded}
+07-04 13:00:29.102   965  7494 D VoldConnector: SND -> {33 volume mkdirs /storage/9697-3C24/Android/data/com.google.android.apps.maps/files/}
+07-04 13:00:29.104   965  1820 D VoldConnector: RCV <- {200 33 Command succeeded}
+07-04 13:00:32.110   965  4962 D VoldConnector: SND -> {34 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.ptt/}
+07-04 13:00:32.114   965  1820 D VoldConnector: RCV <- {200 34 Command succeeded}
+07-04 13:00:32.570   965  7494 D VoldConnector: SND -> {35 volume mkdirs /storage/9697-3C24/Android/media/com.viber.voip/}
+07-04 13:00:32.572   965  1820 D VoldConnector: RCV <- {200 35 Command succeeded}
+07-04 13:00:33.008   965  1005 D VoldConnector: SND -> {36 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.emoticons/}
+07-04 13:00:33.010   965  1820 D VoldConnector: RCV <- {200 36 Command succeeded}
+07-04 13:00:34.013   965  6266 D VoldConnector: SND -> {37 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.stickers/}
+07-04 13:00:34.014   965  1820 D VoldConnector: RCV <- {200 37 Command succeeded}
+07-04 13:00:34.093   965  6284 D VoldConnector: SND -> {38 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.stickers/}
+07-04 13:00:34.094   965  1820 D VoldConnector: RCV <- {200 38 Command succeeded}
+07-04 13:00:34.256   965  6284 D VoldConnector: SND -> {39 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.stickers/}
+07-04 13:00:34.257   965  1820 D VoldConnector: RCV <- {200 39 Command succeeded}
+07-04 13:00:34.364   965  6275 D VoldConnector: SND -> {40 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.stickers/}
+07-04 13:00:34.365   965  1820 D VoldConnector: RCV <- {200 40 Command succeeded}
+07-04 13:00:34.437   965  6266 D VoldConnector: SND -> {41 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.stickers/}
+07-04 13:00:34.438   965  1820 D VoldConnector: RCV <- {200 41 Command succeeded}
+07-04 13:00:34.446   965  6284 D VoldConnector: SND -> {42 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.hidden/}
+07-04 13:00:34.447   965  1820 D VoldConnector: RCV <- {200 42 Command succeeded}
+07-04 13:00:34.491   965  4962 D VoldConnector: SND -> {43 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.stickers/}
+07-04 13:00:34.492   965  1820 D VoldConnector: RCV <- {200 43 Command succeeded}
+07-04 13:00:34.616   965  1004 D VoldConnector: SND -> {44 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.stickers/}
+07-04 13:00:34.617   965  1820 D VoldConnector: RCV <- {200 44 Command succeeded}
+07-04 13:00:34.654   965  6284 D VoldConnector: SND -> {45 volume mkdirs /storage/9697-3C24/Android/data/com.viber.voip/files/.stickers/}
+07-04 13:00:34.655   965  1820 D VoldConnector: RCV <- {200 45 Command succeeded}
+07-04 13:00:37.396   965  1005 D VoldConnector: SND -> {46 volume mkdirs /storage/9697-3C24/Android/data/com.google.android.apps.maps/files/}
+07-04 13:00:37.398   965  1820 D VoldConnector: RCV <- {200 46 Command succeeded}
+07-04 13:00:37.425   965  6275 D VoldConnector: SND -> {47 volume mkdirs /storage/9697-3C24/Android/data/com.google.android.apps.maps/files/}
+07-04 13:00:37.427   965  1820 D VoldConnector: RCV <- {200 47 Command succeeded}
+07-04 13:00:38.172   965  5151 D VoldConnector: SND -> {48 volume mkdirs /storage/9697-3C24/Android/data/com.google.android.apps.maps/files/}
+07-04 13:00:38.174   965  1820 D VoldConnector: RCV <- {200 48 Command succeeded}
+07-04 13:00:38.215   965  6266 D VoldConnector: SND -> {49 volume mkdirs /storage/9697-3C24/Android/data/com.google.android.apps.maps/files/}
+07-04 13:00:38.217   965  1820 D VoldConnector: RCV <- {200 49 Command succeeded}
+07-04 13:00:41.079   965  4994 D VoldConnector: SND -> {50 volume mkdirs /storage/9697-3C24/Android/data/com.google.android.gms/files/}
+07-04 13:00:41.080   965  1820 D VoldConnector: RCV <- {200 50 Command succeeded}
+07-04 13:00:41.085   965  6266 D VoldConnector: SND -> {51 volume mkdirs /storage/9697-3C24/Android/data/com.google.android.gms/files/}
+07-04 13:00:41.086   965  1820 D VoldConnector: RCV <- {200 51 Command succeeded}
+07-04 13:01:08.386   965  5151 D VoldConnector: SND -> {52 volume partition disk:179_64 public}
+07-04 13:01:08.388   408   412 V vold    : /system/bin/sgdisk
+07-04 13:01:08.388   408   412 V vold    :     --zap-all
+07-04 13:01:08.388   408   412 V vold    :     /dev/block/vold/disk:179_64
+07-04 13:01:08.390   965  1820 D VoldConnector: RCV <- {651 public:179_65 7}
+07-04 13:01:08.391   965  1820 D VoldConnector: RCV <- {659 public:179_65}
+07-04 13:01:08.393  4969  4969 D StorageNotification:     type=PUBLIC diskId=disk:179_64 partGuid=null mountFlags=VISIBLE 
+07-04 13:01:08.393  4969  4969 D StorageNotification:     mountUserId=0 state=REMOVED 
+07-04 13:01:08.393  4969  4969 D StorageNotification:     fsType=exfat fsUuid=9697-3C24 fsLabel=disk 
+07-04 13:01:09.663   965  1820 D VoldConnector: RCV <- {200 52 Command succeeded}
+07-04 13:01:09.666   408   411 D vold    : Disk at 179:64 changed
+07-04 13:01:09.666   965  5151 E VoldConnector: NDC Command {52 volume partition disk:179_64 public} took too long (1279ms)
+07-04 13:01:09.667   408   411 V vold    : /system/bin/sgdisk
+07-04 13:01:09.667   408   411 V vold    :     --android-dump
+07-04 13:01:09.667   408   411 V vold    :     /dev/block/vold/disk:179_64
+07-04 13:01:09.667   965  1820 D VoldConnector: RCV <- {641 disk:179_64 15931539456}
+07-04 13:01:09.670   965  1820 D VoldConnector: RCV <- {642 disk:179_64 SanDisk}
+07-04 13:01:09.671   965  1820 D VoldConnector: RCV <- {644 disk:179_64 /sys//devices/soc.0/f98a4900.sdhci/mmc_host/mmc1/mmc1:aaaa/block/mmcblk1}
+07-04 13:01:09.730   408   411 V vold    : DISK mbr
+07-04 13:01:09.730   408   411 V vold    : 
+07-04 13:01:09.730   408   411 V vold    : PART 1 c
+07-04 13:01:09.731   408   411 V vold    : 
+07-04 13:01:09.732   408   411 D vold    : Device just partitioned; silently formatting
+07-04 13:01:09.735   408   411 I vold    : About to discard 15930490880 on /dev/block/vold/public:179_65
+07-04 13:01:09.583   408   412 I chatty  : uid=0(root) /system/bin/vold identical 1 line
+07-04 13:01:11.940   408   411 I vold    : Discard success on /dev/block/vold/public:179_65
+07-04 13:01:11.941   408   411 V vold    : /system/bin/newfs_msdos
+07-04 13:01:11.941   408   411 V vold    :     -F
+07-04 13:01:11.941   408   411 V vold    :     32
+07-04 13:01:11.941   408   411 V vold    :     -O
+07-04 13:01:11.941   408   411 V vold    :     android
+07-04 13:01:11.941   408   411 V vold    :     -c
+07-04 13:01:11.941   408   411 V vold    :     64
+07-04 13:01:11.941   408   411 V vold    :     -A
+07-04 13:01:11.941   408   411 V vold    :     /dev/block/vold/public:179_65
+07-04 13:01:11.967   408   411 I newfs_msdos: /system/bin/newfs_msdos: warning, /dev/block/vold/public:179_65 is not a character device
+07-04 13:01:11.967   408   411 I newfs_msdos: /system/bin/newfs_msdos: Skipping mount checks
+07-04 13:01:11.967   408   411 I newfs_msdos: /dev/block/vold/public:179_65: 31098944 sectors in 485921 FAT32 clusters (32768 bytes/cluster)
+07-04 13:01:13.398   408   411 I Vold    : Filesystem formatted OK
+07-04 13:01:13.401   408   411 D vold    : Disk at 179:64 changed
+07-04 13:01:13.401   965  1820 D VoldConnector: RCV <- {650 public:179_65 0 "disk:179_64" ""}
+07-04 13:01:13.402   408   411 V vold    : /system/bin/sgdisk
+07-04 13:01:13.402   408   411 V vold    :     --android-dump
+07-04 13:01:13.402   408   411 V vold    :     /dev/block/vold/disk:179_64
+07-04 13:01:13.403   965  1820 D VoldConnector: RCV <- {651 public:179_65 0}
+07-04 13:01:13.403   965  1809 D VoldConnector: SND -> {53 volume mount public:179_65 2 0}
+07-04 13:01:13.404   965  1820 D VoldConnector: RCV <- {643 disk:179_64}
+07-04 13:01:13.406   965  1820 D VoldConnector: RCV <- {641 disk:179_64 15931539456}
+07-04 13:01:13.408   965  1820 D VoldConnector: RCV <- {642 disk:179_64 SanDisk}
+07-04 13:01:13.408  4969  4969 D StorageNotification:     type=PUBLIC diskId=disk:179_64 partGuid=null mountFlags=VISIBLE 
+07-04 13:01:13.408  4969  4969 D StorageNotification:     mountUserId=0 state=UNMOUNTED 
+07-04 13:01:13.408   965  1820 D VoldConnector: RCV <- {644 disk:179_64 /sys//devices/soc.0/f98a4900.sdhci/mmc_host/mmc1/mmc1:aaaa/block/mmcblk1}
+07-04 13:01:13.409   965  1820 D VoldConnector: RCV <- {651 public:179_65 7}
+07-04 13:01:13.409   965  1820 D VoldConnector: RCV <- {659 public:179_65}
+07-04 13:01:13.412  4969  4969 D StorageNotification:     type=PUBLIC diskId=disk:179_64 partGuid=null mountFlags=VISIBLE 
+07-04 13:01:13.412  4969  4969 D StorageNotification:     mountUserId=0 state=REMOVED 
+07-04 13:01:13.439   408   411 V vold    : DISK mbr
+07-04 13:01:13.439   408   411 V vold    : 
+07-04 13:01:13.439   408   411 V vold    : PART 1 c
+07-04 13:01:13.439   408   411 V vold    : 
+07-04 13:01:13.443   965  1820 D VoldConnector: RCV <- {650 public:179_65 0 "disk:179_64" ""}
+07-04 13:01:13.443   408   412 V vold    : /system/bin/blkid
+07-04 13:01:13.443   408   412 V vold    :     -c
+07-04 13:01:13.443   408   412 V vold    :     /dev/null
+07-04 13:01:13.443   408   412 V vold    :     -s
+07-04 13:01:13.443   408   412 V vold    :     TYPE
+07-04 13:01:13.443   408   412 V vold    :     -s
+07-04 13:01:13.443   408   412 V vold    :     UUID
+07-04 13:01:13.443   408   412 V vold    :     -s
+07-04 13:01:13.443   408   412 V vold    :     LABEL
+07-04 13:01:13.443   408   412 V vold    :     /dev/block/vold/public:179_65
+07-04 13:01:13.443   965  1820 D VoldConnector: RCV <- {651 public:179_65 0}
+07-04 13:01:13.444   965  1820 D VoldConnector: RCV <- {643 disk:179_64}
+07-04 13:01:13.445   965  1820 D VoldConnector: RCV <- {651 public:179_65 1}
+07-04 13:01:13.445  4969  4969 D StorageNotification:     type=PUBLIC diskId=disk:179_64 partGuid=null mountFlags=VISIBLE 
+07-04 13:01:13.445  4969  4969 D StorageNotification:     mountUserId=0 state=UNMOUNTED 
+07-04 13:01:13.446  4969  4969 D StorageNotification:     type=PUBLIC diskId=disk:179_64 partGuid=null mountFlags=VISIBLE 
+07-04 13:01:13.446  4969  4969 D StorageNotification:     mountUserId=0 state=CHECKING 
+07-04 13:01:13.508   408   412 V vold    : /dev/block/vold/public:179_65: UUID="82E7-14E3" TYPE="vfat" 
+07-04 13:01:13.508   408   412 V vold    : 
+07-04 13:01:13.510   965  1820 D VoldConnector: RCV <- {652 public:179_65 vfat}
+07-04 13:01:13.510   408   412 V vold    : /system/bin/fsck_msdos
+07-04 13:01:13.510   408   412 V vold    :     -p
+07-04 13:01:13.510   408   412 V vold    :     -f
+07-04 13:01:13.510   408   412 V vold    :     /dev/block/vold/public:179_65
+07-04 13:01:13.511   965  1820 D VoldConnector: RCV <- {653 public:179_65 82E7-14E3}
+07-04 13:01:13.511   965  1820 D VoldConnector: RCV <- {654 public:179_65 }
+07-04 13:01:13.512   965  1820 D VoldConnector: RCV <- {656 public:179_65 /mnt/media_rw/82E7-14E3}
+07-04 13:01:13.512   965  1820 D VoldConnector: RCV <- {655 public:179_65 /storage/82E7-14E3}
+07-04 13:01:13.531   408   412 I fsck_msdos: ** /dev/block/vold/public:179_65
+07-04 13:01:13.693   408   412 I Vold    : Filesystem check completed OK
+07-04 13:01:13.702     0     0 D [   86.725445 / 07-04 13:01:13.696][2] SELinux: initialized (dev mmcblk1p1, type vfat), uses genfs_contexts
+07-04 13:01:13.723   408   412 V vold    : Waiting for FUSE to spin up...
+07-04 13:01:13.745     0     0 I         : [   86.769736 / 07-04 13:01:13.740][2] sdcardfs version 2.0
+07-04 13:01:13.745     0     0 I [   86.769755 / 07-04 13:01:13.740][2] sdcardfs: dev_name -> /mnt/media_rw/82E7-14E3
+07-04 13:01:13.745     0     0 I [   86.769763 / 07-04 13:01:13.740][2] sdcardfs: options -> fsuid=1023,fsgid=1023,mask=6,userid=0,gid=1015
+07-04 13:01:13.745     0     0 I [   86.769773 / 07-04 13:01:13.740][2] sdcardfs: mnt -> ffffffc08f2aca20
+07-04 13:01:13.745     0     0 I [   86.769820 / 07-04 13:01:13.740][2] sdcardfs: mounted on top of /mnt/media_rw/82E7-14E3 type vfat
+07-04 13:01:13.745     0     0 D [   86.769841 / 07-04 13:01:13.740][2] SELinux: initialized (dev sdcar
