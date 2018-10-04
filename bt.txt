@@ -1,0 +1,132 @@
+09-21 00:02:58.995  4122  4684 W bt_sdp  : process_service_search_attr_rsp
+09-21 00:02:58.995  4122  4684 W bt_sdp  : sdp_copy_raw_data: list_len:0 cpy_len:0 p:0x7be77dec0a p_ccb:0x7be87ebd88 p_db:0x7bfcb41008 raw_size:4096 raw_used:0 raw_data:0x7be86fe528
+09-21 00:02:59.035  4122  4684 I bt_bta_dm: bta_dm_find_services services_to_search=7ffffffe
+09-21 00:02:59.035  4122  4684 I bt_bta_dm: bta_dm_find_services search UUID = 0100
+09-21 00:02:59.805  4122  4684 W bt_sdp  : process_service_search_attr_rsp
+09-21 00:02:59.805  4122  4684 W bt_sdp  : sdp_copy_raw_data: list_len:175 cpy_len:175 p:0x7be1b2600b p_ccb:0x7be87ebd88 p_db:0x7bfcb41008 raw_size:4096 raw_used:0 raw_data:0x7be86fe528
+09-21 00:03:00.094  4122  4144 I bt_btif_dm: btif_dm_search_services_evt index:0 uuid:00001108-0000-1000-8000-00805f9b34fb
+09-21 00:03:00.095  4122  4144 I bt_btif_dm: btif_dm_search_services_evt index:1 uuid:0000111e-0000-1000-8000-00805f9b34fb
+09-21 00:03:00.095  4122  4144 I bt_btif_dm: btif_dm_search_services_evt index:2 uuid:00000000-0000-1000-8000-00805f9b34fb
+09-21 00:03:00.095  4122  4144 I bt_btif_dm: btif_dm_search_services_evt index:3 uuid:00000000-0000-1000-8000-00805f9b34fb
+09-21 00:03:00.095  4122  4144 D bt_btif_config: btif_get_device_type: Device [00:1d:82:cb:ec:87] type 1
+09-21 00:03:00.095  4122  4144 I bt_btif_dm: get_cod remote_cod = 0x00200404
+09-21 00:03:00.096  4122  4144 I BluetoothBondStateMachine: bondStateChangeCallback: Status: 0 Address: 00:1D:82:CB:EC:87 newState: 2
+09-21 00:03:00.096  4122  4630 D BluetoothAdapterProperties: Adding bonded device:00:1D:82:CB:EC:87
+09-21 00:03:00.099  4122  4630 I BluetoothBondStateMachine: Bond State Change Intent:00:1D:82:CB:EC:87 OldState: 11 NewState: 12
+09-21 00:03:00.100  4122  4630 I BluetoothBondStateMachine: StableState(): Entering Off State
+09-21 00:03:00.115  4122  4122 D BluetoothPhonePolicy: Received ACTION_UUID for device 00:1D:82:CB:EC:87
+09-21 00:03:00.115  4122  4122 D BluetoothPhonePolicy: index=0uuid=00001108-0000-1000-8000-00805f9b34fb
+09-21 00:03:00.115  4122  4122 D BluetoothPhonePolicy: index=1uuid=0000111e-0000-1000-8000-00805f9b34fb
+09-21 00:03:00.115  4122  4122 D BluetoothPhonePolicy: index=2uuid=00000000-0000-1000-8000-00805f9b34fb
+09-21 00:03:00.116  4122  4122 D BluetoothPhonePolicy: index=3uuid=00000000-0000-1000-8000-00805f9b34fb
+09-21 00:03:00.116  4122  4122 D BluetoothPhonePolicy: processInitProfilePriorities() - device 00:1D:82:CB:EC:87
+09-21 00:03:00.116  4122  4122 D HidService: getHidService(): returning com.android.bluetooth.hid.HidService@3cbe8fd
+09-21 00:03:00.118  4165  4574 D CachedBluetoothDevice: No profiles. Maybe we will connect later
+09-21 00:03:00.130   947  7232 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.bluetooth.device.action.BOND_STATE_CHANGED flg=0x10 (has extras) } to com.google.android.googlequicksearchbox/com.google.android.apps.gsa.broadcastreceiver.external.ExternalCommonBroadcastReceiver
+09-21 00:03:00.131  4405  4405 D CachedBluetoothDevice: No profiles. Maybe we will connect later
+09-21 00:03:00.144  4165  4574 D LocalBluetoothProfileManager: Current Profiles[]
+09-21 00:03:00.144  4165  4574 D BluetoothMap: getConnectedDevices()
+09-21 00:03:00.146   947  4435 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.bluetooth.device.action.UUID flg=0x10 (has extras) } to com.google.android.googlequicksearchbox/com.google.android.apps.gsa.broadcastreceiver.external.ExternalCommonBroadcastReceiver
+09-21 00:03:00.148  4165  4574 D BluetoothMap: getConnectionState(00:1D:82:CB:EC:87)
+09-21 00:03:00.151  4165  4574 D MapProfile: getConnectionStatus: status is: 0
+09-21 00:03:00.151  4165  4574 D LocalBluetoothProfileManager: New Profiles[HEADSET]
+09-21 00:03:00.155  4405  4405 D LocalBluetoothProfileManager: Current Profiles[]
+09-21 00:03:00.155  4405  4405 D BluetoothMap: getConnectedDevices()
+09-21 00:03:00.157  4122  4134 I zygote64: Deoptimizing boolean com.android.bluetooth.Utils.checkCallerAllowManagedProfiles(android.content.Context) due to JIT inline cache
+09-21 00:03:00.157  4405  4405 D BluetoothMap: getConnectionState(00:1D:82:CB:EC:87)
+09-21 00:03:00.159  4405  4405 D MapProfile: getConnectionStatus: status is: 0
+09-21 00:03:00.159  4405  4405 D LocalBluetoothProfileManager: New Profiles[HEADSET]
+09-21 00:03:00.163  4165  4574 D BluetoothHeadset: connect(00:1D:82:CB:EC:87)
+09-21 00:03:00.165  4122  7827 D HeadsetService: connect: device=00:1D:82:CB:EC:87
+09-21 00:03:00.166  4122  4843 D HeadsetStateMachine: Disconnected: connecting to device=00:1D:82:CB:EC:87
+09-21 00:03:00.166  4165  4574 D CachedBluetoothDevice: Command sent successfully:CONNECT Address:00:1D:82:CB:EC:87 Profile:HEADSET
+09-21 00:03:00.167  4405  4405 D BluetoothHeadset: connect(00:1D:82:CB:EC:87)
+09-21 00:03:00.169  4122  4843 I BluetoothHeadsetServiceJni: connectHfpNative: sBluetoothHfpInterface: 0x7be86f7b48
+09-21 00:03:00.169  4122  4122 D BluetoothAdapterProperties: PROFILE_CONNECTION_STATE_CHANGE: profile=1, device=00:1D:82:CB:EC:87, 0 -> 1
+09-21 00:03:00.169  4122  4122 D BluetoothAdapterProperties: ADAPTER_CONNECTION_STATE_CHANGE: 00:1D:82:CB:EC:87: 0 -> 1
+09-21 00:03:00.170  4122  4144 I bt_btif_queue: queue_int_add: allocating profile queue
+09-21 00:03:00.170  4122  4144 I bt_btif_queue: queue_int_add: adding connection request UUID=111F, bd_addr=00:1d:82:cb:ec:87, busy=0
+09-21 00:03:00.170  4122  4144 I bt_btif_queue: btif_queue_connect_next: executing connection request UUID=111F, bd_addr=00:1d:82:cb:ec:87, busy=0
+09-21 00:03:00.171  4122  4122 D BluetoothPhonePolicy: processProfileStateChanged, device=00:1D:82:CB:EC:87, profile=1, 0 -> 1
+09-21 00:03:00.174  4122  4135 D HeadsetService: connect: device=00:1D:82:CB:EC:87
+09-21 00:03:00.174  4165  4574 D CachedBluetoothDevice: onProfileStateChanged: profile HEADSET newProfileState 1
+09-21 00:03:00.175  4122  4135 W HeadsetService: connect: already connected/connecting, connectionState=1, device=00:1D:82:CB:EC:87
+09-21 00:03:00.175   947   947 I Telecom : BluetoothDeviceManager: Device 00:1D:82:CB:EC:87 changed state to 1: BM.oR@AGQ
+09-21 00:03:00.175  4405  4405 I CachedBluetoothDevice: Failed to connect HEADSET to Nokia BH-102
+09-21 00:03:00.205  4405  4405 D LocalBluetoothManager: setting foreground activity to non-null context
+09-21 00:03:00.232  4405  4405 D CachedBluetoothDevice: onProfileStateChanged: profile HEADSET newProfileState 1
+09-21 00:03:00.232  4405  7981 W TileUtils: Found com.android.settings.backup.BackupSettingsActivity for intent Intent { act=com.android.settings.action.SETTINGS pkg=com.android.settings } missing metadata com.android.settings.category
+09-21 00:03:00.235  4405  7981 W TileUtils: Found org.lineageos.lineageparts.trust.TrustPreferences for intent Intent { act=org.lineageos.lineageparts.action.SETTINGS pkg=org.lineageos.lineageparts } missing metadata 
+09-21 00:03:00.253  4405  7982 D Settings: No enabled state changed, skipping updateCategory call
+09-21 00:03:00.592  4122  4684 W bt_sdp  : process_service_search_attr_rsp
+09-21 00:03:00.628  4122  4684 I bt_stack: [INFO:port_api.cc(123)] RFCOMM_CreateConnection BDA: 00:1d:82:cb:ec:87
+09-21 00:03:00.792  4405  4405 D LocalBluetoothManager: setting foreground activity to null
+09-21 00:03:00.805  4122  4144 D BluetoothAdapterProperties: Discoverable Timeout:120
+09-21 00:03:00.813  4122  4144 D BluetoothAdapterProperties: Scan Mode:21
+09-21 00:03:00.845  4122  4144 D BluetoothAdapterProperties: Discoverable Timeout:120
+09-21 00:03:00.856  4122  4144 D BluetoothAdapterProperties: Scan Mode:23
+09-21 00:03:02.484   513   662 E ThermalEngine: [BMHB_GOV] read failed VS_TEMP
+09-21 00:03:03.593  4122  4684 W bt_btif : new conn_srvc id:5, app_id:0
+09-21 00:03:03.594  4122  4144 I BluetoothHeadsetServiceJni: connection_state_callback
+09-21 00:03:03.599  4122  4843 D HeadsetStateMachine: Pending: processConnectionEvent, state=2, device=00:1D:82:CB:EC:87
+09-21 00:03:05.183  4122  4843 I BluetoothHeadsetServiceJni: cindResponseNative: sBluetoothHfpInterface: 0x7be86f7b48
+09-21 00:03:05.630  4122  4144 I BluetoothHeadsetServiceJni: connection_state_callback
+09-21 00:03:05.635  4122  4144 I bt_btif_queue: queue_int_advance: removing connection request UUID=111F, bd_addr=00:1d:82:cb:ec:87, busy=1
+09-21 00:03:05.636  4122  4843 D HeadsetStateMachine: Pending: processConnectionEvent, state=3, device=00:1D:82:CB:EC:87
+09-21 00:03:05.636  4122  4843 D HeadsetStateMachine: Pending: added 00:1D:82:CB:EC:87 to mConnectedDevicesList, requested by us
+09-21 00:03:05.654   518   518 D PermissionCache: checking android.permission.MODIFY_AUDIO_SETTINGS for uid=1002 => granted (743 us)
+09-21 00:03:05.655   518   518 D audio_hw_primary: adev_set_parameters: enter: bt_headset_name=Nokia BH-102;bt_headset_nrec=on
+09-21 00:03:05.656  4122  4843 D HeadsetStateMachine: configAudioParameters for device:00:1D:82:CB:EC:87 are: nrec = 1
+09-21 00:03:05.659   947  7233 I Telecom : BluetoothPhoneService: queryPhoneState: BPSI.qPS@AGU
+09-21 00:03:05.660   947  7233 I Telecom : BluetoothPhoneService: updateHeadsetWithCallState numActive 0, numHeld 0, callState 6, ringing number [da39a3ee5e6b4b0d3255bfef95601890afd80709], ringing type 128: BPSI.qPS@AGU
+09-21 00:03:05.672  4122  4122 D BluetoothAdapterProperties: PROFILE_CONNECTION_STATE_CHANGE: profile=1, device=00:1D:82:CB:EC:87, 1 -> 2
+09-21 00:03:05.671  4122  4843 D HeadsetStateMachine: Pending: removed CONNECT_TIMEOUT for device=00:1D:82:CB:EC:87
+09-21 00:03:05.672  4122  4122 D BluetoothAdapterProperties: ADAPTER_CONNECTION_STATE_CHANGE: 00:1D:82:CB:EC:87: 1 -> 2
+09-21 00:03:05.674  4405  4405 D CachedBluetoothDevice: onProfileStateChanged: profile HEADSET newProfileState 2
+09-21 00:03:05.674  4165  4574 D CachedBluetoothDevice: onProfileStateChanged: profile HEADSET newProfileState 2
+09-21 00:03:05.678  4122  4122 D BluetoothPhonePolicy: processProfileStateChanged, device=00:1D:82:CB:EC:87, profile=1, 1 -> 2
+09-21 00:03:05.678  4122  4122 D BluetoothAdapterService: isQuetModeEnabled() - Enabled = false
+09-21 00:03:05.683   518   674 D AudioPolicyManagerCustom: setDeviceConnectionStateInt() device: 0x20, state 1, address 00:1D:82:CB:EC:87 name Nokia BH-102
+09-21 00:03:05.684   518   670 D audio_hw_primary: adev_set_parameters: enter: 00:1D:82:CB:EC:87=;connect=32
+09-21 00:03:05.685   518   674 I AudioFlinger: openOutput() this 0xe98bd000, module 10 Device 20, SamplingRate 48000, Format 0x000001, Channels 3, flags 8
+09-21 00:03:05.685   518   674 D audio_hw_primary: adev_open_output_stream: enter: sample_rate(48000) channel_mask(0x3) devices(0x20) flags(0x8)        stream_handle(0xe6e6d180)
+09-21 00:03:05.685   518   674 E audio_hw_primary: adev_open_output_stream: Primary output is already opened
+09-21 00:03:05.685   518   674 D audio_hw_primary: adev_open_output_stream: exit: ret -17
+09-21 00:03:05.685   518   674 W DeviceHAL: Device 0xe98dec80 open_output_stream: File exists
+09-21 00:03:05.685   518   674 I AudioHwDevice: openOutputStream(), HAL returned sampleRate 48000, Format 0x1, channelMask 0x3, status -61
+09-21 00:03:05.685   518   674 W APM_AudioPolicyManager: checkOutputsForDevice() could not open output for device 20
+09-21 00:03:05.687   518   848 D audio_hw_primary: out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=0
+09-21 00:03:05.689   518   851 D audio_hw_primary: out_set_parameters: enter: usecase(1: low-latency-playback) kvpairs: routing=0
+09-21 00:03:05.690   518   854 D audio_hw_primary: out_set_parameters: enter: usecase(37: afe-proxy-playback) kvpairs: routing=0
+09-21 00:03:05.694   518   675 D AudioPolicyManagerCustom: setDeviceConnectionStateInt() device: 0x80000008, state 1, address 00:1D:82:CB:EC:87 name Nokia BH-102
+09-21 00:03:05.694   518   670 D audio_hw_primary: adev_set_parameters: enter: 00:1D:82:CB:EC:87=;connect=-2147483640
+09-21 00:03:05.695   518   675 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0xc) devices(0x80000008)        stream_handle(0xe98b93c0) io_handle(38) source(1)
+09-21 00:03:05.698   518  7984 I AudioFlinger: AudioFlinger's thread 0xe7503d40 tid=7984 ready to run
+09-21 00:03:05.698   518  7984 D audio_hw_primary: in_standby: enter: stream (0xe98b93c0) usecase(16: audio-record)
+09-21 00:03:05.703   518  7984 D audio_hw_primary: in_standby: enter: stream (0xe98b93c0) usecase(16: audio-record)
+09-21 00:03:05.704   518  7984 D audio_hw_primary: in_set_parameters: enter: kvpairs=00:1D:82:CB:EC:87=
+09-21 00:03:05.707   518   675 D audio_hw_primary: adev_close_input_stream: enter:stream_handle(0xe98b93c0)
+09-21 00:03:05.707   518   675 D audio_hw_primary: in_standby: enter: stream (0xe98b93c0) usecase(16: audio-record)
+09-21 00:03:05.709   947   947 I Telecom : BluetoothDeviceManager: Device 00:1D:82:CB:EC:87 changed state to 2: BM.oR@AGY
+09-21 00:03:05.710   947  4613 I Telecom : BluetoothRouteManager: Message received: NEW_DEVICE_CONNECTED.: BM.oR->BRM.pM_1@AGY
+09-21 00:03:05.711   947  4614 I Telecom : CallAudioRouteStateMachine: Message received: CONNECT_BLUETOOTH=3, arg1=0: BM.oR->BRM.pM_1->CARSM.pM_CONNECT_BLUETOOTH@AGY
+09-21 00:03:05.711   947  4614 I Telecom : Logging.Events: Non-call EVENT: AUDIO_ROUTE, Bluetooth connected: BM.oR->BRM.pM_1->CARSM.pM_CONNECT_BLUETOOTH@AGY
+09-21 00:03:05.712   947  4614 I Telecom : CallAudioRouteStateMachine: Message received: SWITCH_BLUETOOTH=1002, arg1=0: BM.oR->BRM.pM_1->CARSM.pM_CONNECT_BLUETOOTH->CARSM.pM_SWITCH_BLUETOOTH@AGY
+09-21 00:03:05.712   947  4614 I Telecom : Logging.Events: Non-call EVENT: AUDIO_ROUTE, Leaving state QuiescentEarpieceRoute: BM.oR->BRM.pM_1->CARSM.pM_CONNECT_BLUETOOTH->CARSM.pM_SWITCH_BLUETOOTH@AGY
+09-21 00:03:05.713   947  4614 I Telecom : Logging.Events: Non-call EVENT: AUDIO_ROUTE, Entering state QuiescentBluetoothRoute: BM.oR->BRM.pM_1->CARSM.pM_CONNECT_BLUETOOTH->CARSM.pM_SWITCH_BLUETOOTH@AGY
+09-21 00:03:05.713   947  4613 I Telecom : BluetoothRouteManager: Running runnable for testing
+09-21 00:03:05.713   947  4613 W Telecom : Logging: Log.endSession was called with no session active.
+09-21 00:03:05.725   947   947 I Telecom : WiredHeadsetManager: ACTION_HEADSET_PLUG event, plugged in: false, : WHC.oADA@AGc
+09-21 00:03:05.836   947  2336 D sensors_hal_SMGR: processBufferingInd:report(on_change_sensor) eventtype 0
+09-21 00:03:06.547   947  7232 W SchedPolicy: add_tid_to_cgroup failed to write '6025' (Permission denied); fd=28
+09-21 00:03:07.485   513   662 E ThermalEngine: [BMHB_GOV] read failed VS_TEMP
+09-21 00:03:07.783  4122  4843 E HeadsetStateMachine: Connected: unexpected message 7
+09-21 00:03:07.784  4165  4571 I vol.Events: writeEvent level_changed STREAM_BLUETOOTH_SCO 8
+09-21 00:03:09.571   513   663 E ThermalEngine: [GPU_MON] Gpu Clock is back to idle state ( 600000000 Mhz ) 
+09-21 00:03:09.572   513   663 E ThermalEngine: [GPU_MON] ACTION: GPU - [GPU_MON] Setting GPU[0] to 600000000
+09-21 00:03:09.572   513   663 E ThermalEngine: ACTION: GPU - Setting max_pwrlevel to 0
+09-21 00:03:11.681  4122  4122 D BluetoothPhonePolicy: processConnectOtherProfiles, device=00:1D:82:CB:EC:87
+09-21 00:03:12.485   513   662 E ThermalEngine: [BMHB_GOV] read failed VS_TEMP
+09-21 00:03:17.486   513   662 E ThermalEngine: [BMHB_GOV] read failed VS_TEMP
+09-21 00:03:19.058   947  2336 D sensors_hal_SMGR: processBufferingInd:report(on_change_sensor) eventtype 0
+
