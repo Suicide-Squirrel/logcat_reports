@@ -1,0 +1,46 @@
+device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/HwRIL.java:104: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/HwRIL.java:109: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/HwRIL.java:119: error: cannot find symbol
+        return getMessageFromRequest(r);
+               ^
+  symbol:   method getMessageFromRequest(Object)
+  location: class HwRIL
+device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/HwRIL.java:123: error: incompatible types: Object cannot be converted to RILRequest
+        processResponseDone(r, i, o);
+                            ^
+device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/HwRadioIndication.java:32: error: RadioIndication(RIL) is not public in RadioIndication; cannot be accessed from outside package
+        super(ril);
+        ^
+device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/QtiTelephonyComponentFactory.java:33: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/QtiTelephonyComponentFactory.java:36: error: cannot find symbol
+        Rlog.d(LOG_TAG, "makeHwExtTelephonyClasses");
+               ^
+  symbol:   variable LOG_TAG
+  location: class QtiTelephonyComponentFactory
+device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/QtiTelephonyComponentFactory.java:40: error: cannot find symbol
+            Rlog.e(LOG_TAG, "Error creating HwExtTelephony", e);
+                   ^
+  symbol:   variable LOG_TAG
+  location: class QtiTelephonyComponentFactory
+device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/QtiTelephonyComponentFactory.java:44: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/QtiTelephonyComponentFactory.java:47: error: cannot find symbol
+        Rlog.d(LOG_TAG, "makeHwRIL");
+               ^
+  symbol:   variable LOG_TAG
+  location: class QtiTelephonyComponentFactory
+device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/QtiTelephonyComponentFactory.java:51: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/QtiTelephonyComponentFactory.java:55: error: cannot find symbol
+        Rlog.d(LOG_TAG, "makeHwPhone");
+               ^
+  symbol:   variable LOG_TAG
+  location: class QtiTelephonyComponentFactory
