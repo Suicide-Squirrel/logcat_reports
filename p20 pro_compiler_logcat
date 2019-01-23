@@ -1,46 +1,36 @@
-device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/HwRIL.java:104: error: method does not override or implement a method from a supertype
-    @Override
-    ^
-device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/HwRIL.java:109: error: method does not override or implement a method from a supertype
-    @Override
-    ^
-device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/HwRIL.java:119: error: cannot find symbol
-        return getMessageFromRequest(r);
-               ^
-  symbol:   method getMessageFromRequest(Object)
-  location: class HwRIL
-device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/HwRIL.java:123: error: incompatible types: Object cannot be converted to RILRequest
-        processResponseDone(r, i, o);
-                            ^
-device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/HwRadioIndication.java:32: error: RadioIndication(RIL) is not public in RadioIndication; cannot be accessed from outside package
-        super(ril);
-        ^
-device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/QtiTelephonyComponentFactory.java:33: error: method does not override or implement a method from a supertype
-    @Override
-    ^
-device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/QtiTelephonyComponentFactory.java:36: error: cannot find symbol
-        Rlog.d(LOG_TAG, "makeHwExtTelephonyClasses");
-               ^
-  symbol:   variable LOG_TAG
-  location: class QtiTelephonyComponentFactory
-device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/QtiTelephonyComponentFactory.java:40: error: cannot find symbol
-            Rlog.e(LOG_TAG, "Error creating HwExtTelephony", e);
-                   ^
-  symbol:   variable LOG_TAG
-  location: class QtiTelephonyComponentFactory
-device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/QtiTelephonyComponentFactory.java:44: error: method does not override or implement a method from a supertype
-    @Override
-    ^
-device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/QtiTelephonyComponentFactory.java:47: error: cannot find symbol
-        Rlog.d(LOG_TAG, "makeHwRIL");
-               ^
-  symbol:   variable LOG_TAG
-  location: class QtiTelephonyComponentFactory
-device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/QtiTelephonyComponentFactory.java:51: error: method does not override or implement a method from a supertype
-    @Override
-    ^
-device/huawei/kirin970-common/ril/src/com/qualcomm/qti/internal/telephony/QtiTelephonyComponentFactory.java:55: error: cannot find symbol
-        Rlog.d(LOG_TAG, "makeHwPhone");
-               ^
-  symbol:   variable LOG_TAG
-  location: class QtiTelephonyComponentFactory
+Traceback (most recent call last):
+  File "build/make/tools/post_process_props.py", line 144, in <module>
+    main(sys.argv)
+  File "build/make/tools/post_process_props.py", line 132, in main
+    if not validate(properties):
+  File "build/make/tools/post_process_props.py", line 65, in validate
+    for key, value in buildprops.iteritems():
+AttributeError: 'dict' object has no attribute 'iteritems'
+[  0% 11/25969] Building Kernel Config
+make: Entering directory '/run/media/kessaras/data/android/aoscp/kernel/huawei/kirin970'
+make[1]: Entering directory '/run/media/kessaras/data/android/aoscp/out/target/product/charlotte/obj/KERNEL_OBJ'
+  GEN     /run/media/kessaras/data/android/aoscp/out/target/product/charlotte/obj/KERNEL_OBJ/Makefile
+'rivers/huawei_platform/net/himos/Kconfig:1:warning: ignoring unsupported character '
+'rivers/huawei_platform/net/himos/Kconfig:2:warning: ignoring unsupported character '
+drivers/huawei_platform/sw/Kconfig:4:warning: prompt redefined
+drivers/huawei_platform/sw/Kconfig:1:warning: ignoring type redefinition of 'HW_SW_DEVICES' from 'tristate' to 'boolean'
+'rivers/devkit/lcdkit/lcdkit3.0/kernel/mtk/src/Kconfig:4:warning: ignoring unsupported character '
+#
+# configuration written to .config
+#
+make[1]: Leaving directory '/run/media/kessaras/data/android/aoscp/out/target/product/charlotte/obj/KERNEL_OBJ'
+make: Leaving directory '/run/media/kessaras/data/android/aoscp/kernel/huawei/kirin970'
+make: Entering directory '/run/media/kessaras/data/android/aoscp/kernel/huawei/kirin970'
+make[1]: Entering directory '/run/media/kessaras/data/android/aoscp/out/target/product/charlotte/obj/KERNEL_OBJ'
+  GEN     /run/media/kessaras/data/android/aoscp/out/target/product/charlotte/obj/KERNEL_OBJ/Makefile
+scripts/kconfig/conf  --savedefconfig=defconfig Kconfig
+'rivers/huawei_platform/net/himos/Kconfig:1:warning: ignoring unsupported character '
+'rivers/huawei_platform/net/himos/Kconfig:2:warning: ignoring unsupported character '
+drivers/huawei_platform/sw/Kconfig:4:warning: prompt redefined
+drivers/huawei_platform/sw/Kconfig:1:warning: ignoring type redefinition of 'HW_SW_DEVICES' from 'tristate' to 'boolean'
+'rivers/devkit/lcdkit/lcdkit3.0/kernel/mtk/src/Kconfig:4:warning: ignoring unsupported character '
+make[1]: Leaving directory '/run/media/kessaras/data/android/aoscp/out/target/product/charlotte/obj/KERNEL_OBJ'
+make: Leaving directory '/run/media/kessaras/data/android/aoscp/kernel/huawei/kirin970'
+[  0% 13/25969] APK certs list: /run/media/kessa...mediates/aoscp_charlotte-apkcerts-fc13ca626b.txt
+ninja: build stopped: subcommand failed.
+08:05:16 ninja failed with: exit status 1
