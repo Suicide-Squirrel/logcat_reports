@@ -1,0 +1,322 @@
+02-12 07:22:18.239   929  3991 I ActivityManager: START u0 {flg=0x10020000 cmp=com.netflix.mediaclient/o.BN (has extras)} from uid 10122
+02-12 07:22:18.284   572   572 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x1,intFmt=0x1,btStrd=4352,size=9748480,pid=572 
+02-12 07:22:18.284   572   572 I GRALLOC : 	 yuv=2,w=1080,h=2240,Stride u=0 v=0,offset u=0 v=0 
+02-12 07:22:18.284   572   572 I GRALLOC : 	 iova_size=9748480,conUsg=0x306,proUsg=0x366,	 strd=1088,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:18.352   929  3991 I ActivityManager: Config changes=20000480 {1.15 202mcc1mnc [el_GR,en_US] ldltr sw423dp w847dp h395dp 408dpi nrml long hdr land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(80, 0 - 2240, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.10}
+02-12 07:22:18.366   573   573 W hwcomposer: setGpuFreqBoost:148: boostGpuFreq succ !
+02-12 07:22:18.380   929  3991 I ActivityManager: Override config changes=20000480 {1.15 202mcc1mnc [el_GR,en_US] ldltr sw423dp w847dp h395dp 408dpi nrml long hdr land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2160) mAppBounds=Rect(80, 0 - 2240, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.10} for displayId=0
+02-12 07:22:18.384   572   572 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x1,intFmt=0x200000001,btStrd=8960,size=9904128,pid=572 
+02-12 07:22:18.384   572   572 I GRALLOC : 	 yuv=2,w=2240,h=1080,Stride u=0 v=0,offset u=0 v=0 
+02-12 07:22:18.384   572   572 I GRALLOC : 	 iova_size=9904128,conUsg=0xb00,proUsg=0xb00,	 strd=2240,[afbc]HdrStrd=2240 PyldStrd=143360 Scrmbl=2,ionhnd = 1 
+02-12 07:22:18.413   929   945 W system_server: Long monitor contention with owner Binder:929_D (3991) at void com.android.server.am.ActivityManagerService.activityPaused(android.os.IBinder)(ActivityManagerService.java:8175) waiters=1 in void com.android.server.am.ActivityStackSupervisor$ActivityStackSupervisorHandler.activityIdleInternal(com.android.server.am.ActivityRecord, boolean) for 140ms
+02-12 07:22:18.424   573   618 I GRALLOC : getCallingPid=573, shrFd=48,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=10047488,pid=573 
+02-12 07:22:18.424   573   618 I GRALLOC : 	 yuv=2,w=1080,h=2240,Stride u=0 v=0,offset u=0 v=0 
+02-12 07:22:18.424   573   618 I GRALLOC : 	 iova_size=10047488,conUsg=0x0,proUsg=0x8000100,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=70656 Scrmbl=2,ionhnd = 4 
+02-12 07:22:18.426   573   618 I GRALLOC : getCallingPid=573, shrFd=45,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=10047488,pid=573 
+02-12 07:22:18.426   573   618 I GRALLOC : 	 yuv=2,w=1080,h=2240,Stride u=0 v=0,offset u=0 v=0 
+02-12 07:22:18.426   573   618 I GRALLOC : 	 iova_size=10047488,conUsg=0x0,proUsg=0x8000100,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=70656 Scrmbl=2,ionhnd = 5 
+02-12 07:22:18.427  2822  2822 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@8eb032a
+02-12 07:22:18.429   572   572 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x1,intFmt=0x200000001,btStrd=8960,size=9904128,pid=572 
+02-12 07:22:18.429   572   572 I GRALLOC : 	 yuv=2,w=2240,h=1080,Stride u=0 v=0,offset u=0 v=0 
+02-12 07:22:18.429   572   572 I GRALLOC : 	 iova_size=9904128,conUsg=0xb00,proUsg=0xb00,	 strd=2240,[afbc]HdrStrd=2240 PyldStrd=143360 Scrmbl=2,ionhnd = 1 
+02-12 07:22:18.431   929  1101 I InputReader: Reconfiguring input devices.  changes=0x00000004
+02-12 07:22:18.431   929  1101 I InputReader: Device reconfigured: id=5, name='huawei,ts_kit', size 1080x2240, orientation 1, mode 1, display id 0
+02-12 07:22:18.479  6638  6638 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+02-12 07:22:18.537   573   618 I GRALLOC : getCallingPid=573, shrFd=77,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=10047488,pid=573 
+02-12 07:22:18.537   573   618 I GRALLOC : 	 yuv=2,w=1080,h=2240,Stride u=0 v=0,offset u=0 v=0 
+02-12 07:22:18.537   573   618 I GRALLOC : 	 iova_size=10047488,conUsg=0x0,proUsg=0x8000100,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=70656 Scrmbl=2,ionhnd = 6 
+02-12 07:22:18.539   573   573 W hwcomposer: setGpuFreqBoost:153: boostGpuFreq release !
+02-12 07:22:18.554   572   572 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x1,intFmt=0x200000001,btStrd=8960,size=9904128,pid=572 
+02-12 07:22:18.554   572   572 I GRALLOC : 	 yuv=2,w=2240,h=1080,Stride u=0 v=0,offset u=0 v=0 
+02-12 07:22:18.554   572   572 I GRALLOC : 	 iova_size=9904128,conUsg=0xb00,proUsg=0xb00,	 strd=2240,[afbc]HdrStrd=2240 PyldStrd=143360 Scrmbl=2,ionhnd = 1 
+02-12 07:22:18.596  1145  3081 I DlamWrapper: close(): Successfully wrote DLAM properties file.
+02-12 07:22:18.647   614  1188 E BufferQueueProducer: [ScreenDecorOverlayBottom#0] disconnect: not connected (req=1)
+02-12 07:22:18.650  6638  6684 W libEGL  : EGLNativeWindowType 0x7b0e5ca010 disconnect failed
+02-12 07:22:18.651  6638  6684 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+02-12 07:22:18.658  2822  2822 W MediaSessionCompat: Couldn't find a unique registered media button receiver in the given context.
+02-12 07:22:18.694   614  1188 E BufferQueueProducer: [ScreenDecorOverlay#0] disconnect: not connected (req=1)
+02-12 07:22:18.694  6638  6684 W libEGL  : EGLNativeWindowType 0x7b0e5c9010 disconnect failed
+02-12 07:22:18.697  6638  6684 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+02-12 07:22:18.718   572   572 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x1,intFmt=0x1,btStrd=4352,size=348160,pid=572 
+02-12 07:22:18.718   572   572 I GRALLOC : 	 yuv=2,w=1080,h=80,Stride u=0 v=0,offset u=0 v=0 
+02-12 07:22:18.718   572   572 I GRALLOC : 	 iova_size=348160,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:18.778   614  1188 E BufferQueueProducer: [ScreenDecorOverlayBottom#0] disconnect: not connected (req=1)
+02-12 07:22:18.784  6638  6684 W libEGL  : EGLNativeWindowType 0x7b0e5ca010 disconnect failed
+02-12 07:22:18.786  6638  6684 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+02-12 07:22:18.789   572   572 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x1,intFmt=0x1,btStrd=4352,size=90112,pid=572 
+02-12 07:22:18.789   572   572 I GRALLOC : 	 yuv=2,w=1080,h=20,Stride u=0 v=0,offset u=0 v=0 
+02-12 07:22:18.789   572   572 I GRALLOC : 	 iova_size=90112,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:18.826   572   572 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x1,intFmt=0x1,btStrd=4352,size=348160,pid=572 
+02-12 07:22:18.826   572   572 I GRALLOC : 	 yuv=2,w=1080,h=80,Stride u=0 v=0,offset u=0 v=0 
+02-12 07:22:18.826   572   572 I GRALLOC : 	 iova_size=348160,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:18.834  1145  1145 I KeyboardViewUtil: systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+02-12 07:22:18.855  2822  2889 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+02-12 07:22:18.873   572   572 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x1,intFmt=0x1,btStrd=4352,size=90112,pid=572 
+02-12 07:22:18.873   572   572 I GRALLOC : 	 yuv=2,w=1080,h=20,Stride u=0 v=0,offset u=0 v=0 
+02-12 07:22:18.873   572   572 I GRALLOC : 	 iova_size=90112,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:18.875   572   778 I GRALLOC : getCallingPid=614, shrFd=22,fmt=0x1,intFmt=0x200000001,btStrd=8704,size=9621504,pid=572 
+02-12 07:22:18.875   572   778 I GRALLOC : 	 yuv=2,w=2160,h=1080,Stride u=0 v=0,offset u=0 v=0 
+02-12 07:22:18.875   572   778 I GRALLOC : 	 iova_size=9621504,conUsg=0xb00,proUsg=0xb00,	 strd=2176,[afbc]HdrStrd=2176 PyldStrd=139264 Scrmbl=2,ionhnd = 2 
+02-12 07:22:18.885  1145  1145 I DeviceStatusMonitor: onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+02-12 07:22:18.885   572   572 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x1,intFmt=0x200000001,btStrd=8704,size=9621504,pid=572 
+02-12 07:22:18.885   572   572 I GRALLOC : 	 yuv=2,w=2160,h=1080,Stride u=0 v=0,offset u=0 v=0 
+02-12 07:22:18.885   572   572 I GRALLOC : 	 iova_size=9621504,conUsg=0xb00,proUsg=0xb00,	 strd=2176,[afbc]HdrStrd=2176 PyldStrd=139264 Scrmbl=2,ionhnd = 1 
+02-12 07:22:18.891   572  3193 I GRALLOC : getCallingPid=614, shrFd=24,fmt=0x1,intFmt=0x200000001,btStrd=8704,size=9621504,pid=572 
+02-12 07:22:18.891   572  3193 I GRALLOC : 	 yuv=2,w=2160,h=1080,Stride u=0 v=0,offset u=0 v=0 
+02-12 07:22:18.891   572  3193 I GRALLOC : 	 iova_size=9621504,conUsg=0xb00,proUsg=0xb00,	 strd=2176,[afbc]HdrStrd=2176 PyldStrd=139264 Scrmbl=2,ionhnd = 3 
+02-12 07:22:18.898  2822  2822 W AudioManager: Use of stream types is deprecated for operations other than volume control
+02-12 07:22:18.898  2822  2822 W AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+02-12 07:22:18.901  6638  6638 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+02-12 07:22:18.901   929  2789 I MediaFocusControl: requestAudioFocus() from uid/pid 10122/2822 clientId=android.media.AudioManager@f1ef76acom.netflix.mediaclient.ui.player.videoview.NetflixVideoViewBase$3@58dd45b callingPack=com.netflix.mediaclient req=1 flags=0x0 sdk=28
+02-12 07:22:18.915   614   661 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10122 pid=2822
+02-12 07:22:18.915   614   661 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10122 => denied (386 us)
+02-12 07:22:18.943   614  1188 E BufferQueueProducer: [StatusBar#0] disconnect: not connected (req=1)
+02-12 07:22:18.944  6638  6684 W libEGL  : EGLNativeWindowType 0x7afa3fd010 disconnect failed
+02-12 07:22:18.945  6638  6684 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+02-12 07:22:18.946  6638  6638 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+02-12 07:22:18.946   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=9547776,pid=572 
+02-12 07:22:18.946   572  3193 I GRALLOC : 	 yuv=2,w=1080,h=2160,Stride u=0 v=0,offset u=0 v=0 
+02-12 07:22:18.946   572  3193 I GRALLOC : 	 iova_size=9547776,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=2,ionhnd = 1 
+02-12 07:22:18.955  6638  6638 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+02-12 07:22:18.990   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x1,intFmt=0x1,btStrd=256,size=573440,pid=572 
+02-12 07:22:18.990   572  3193 I GRALLOC : 	 yuv=2,w=61,h=2240,Stride u=0 v=0,offset u=0 v=0 
+02-12 07:22:18.990   572  3193 I GRALLOC : 	 iova_size=573440,conUsg=0xb00,proUsg=0xb00,	 strd=64,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:19.004   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=9547776,pid=572 
+02-12 07:22:19.004   572  3193 I GRALLOC : 	 yuv=2,w=1080,h=2160,Stride u=0 v=0,offset u=0 v=0 
+02-12 07:22:19.004   572  3193 I GRALLOC : 	 iova_size=9547776,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=2,ionhnd = 1 
+02-12 07:22:19.018   614  1375 W SurfaceFlinger: Attempting to destroy on removed layer: 8904e95 AssistPreviewPanel#0
+02-12 07:22:19.032   614  1188 E BufferQueueProducer: [com.netflix.mediaclient/o.sQ#0] disconnect: not connected (req=1)
+02-12 07:22:19.032  2822  2889 W libEGL  : EGLNativeWindowType 0xcd9eb808 disconnect failed
+02-12 07:22:19.034   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=9547776,pid=572 
+02-12 07:22:19.034   572  3193 I GRALLOC : 	 yuv=2,w=1080,h=2160,Stride u=0 v=0,offset u=0 v=0 
+02-12 07:22:19.034   572  3193 I GRALLOC : 	 iova_size=9547776,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=2,ionhnd = 1 
+02-12 07:22:19.037   929  1031 I WindowManager: Screen frozen for +765ms due to Window{24b23f u0 StatusBar}
+02-12 07:22:19.040   614  1188 D SurfaceFlinger: duplicate layer name: changing BlackSurface to BlackSurface#1
+02-12 07:22:19.042   614  1375 D SurfaceFlinger: duplicate layer name: changing BlackSurface to BlackSurface#2
+02-12 07:22:19.043   614  1375 D SurfaceFlinger: duplicate layer name: changing BlackSurface to BlackSurface#3
+02-12 07:22:19.046   614  1375 W SurfaceFlinger: Attempting to destroy on removed layer: 458d869 DockedStackDivider#0
+02-12 07:22:19.052   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x1,intFmt=0x1,btStrd=256,size=573440,pid=572 
+02-12 07:22:19.052   572  3193 I GRALLOC : 	 yuv=2,w=61,h=2240,Stride u=0 v=0,offset u=0 v=0 
+02-12 07:22:19.052   572  3193 I GRALLOC : 	 iova_size=573440,conUsg=0xb00,proUsg=0xb00,	 strd=64,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:19.066   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x1,intFmt=0x1,btStrd=256,size=573440,pid=572 
+02-12 07:22:19.066   572  3193 I GRALLOC : 	 yuv=2,w=61,h=2240,Stride u=0 v=0,offset u=0 v=0 
+02-12 07:22:19.066   572  3193 I GRALLOC : 	 iova_size=573440,conUsg=0xb00,proUsg=0xb00,	 strd=64,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:19.066   573   573 W hwcomposer: setGpuFreqBoost:148: boostGpuFreq succ !
+02-12 07:22:19.234   573   618 I GRALLOC : getCallingPid=573, shrFd=45,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=10047488,pid=573 
+02-12 07:22:19.234   573   618 I GRALLOC : 	 yuv=2,w=1080,h=2240,Stride u=0 v=0,offset u=0 v=0 
+02-12 07:22:19.234   573   618 I GRALLOC : 	 iova_size=10047488,conUsg=0x0,proUsg=0x8000100,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=70656 Scrmbl=2,ionhnd = 4 
+02-12 07:22:19.235   573   618 I GRALLOC : getCallingPid=573, shrFd=48,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=10047488,pid=573 
+02-12 07:22:19.235   573   618 I GRALLOC : 	 yuv=2,w=1080,h=2240,Stride u=0 v=0,offset u=0 v=0 
+02-12 07:22:19.235   573   618 I GRALLOC : 	 iova_size=10047488,conUsg=0x0,proUsg=0x8000100,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=70656 Scrmbl=2,ionhnd = 5 
+02-12 07:22:19.236   573   618 I GRALLOC : getCallingPid=573, shrFd=54,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=10047488,pid=573 
+02-12 07:22:19.236   573   618 I GRALLOC : 	 yuv=2,w=1080,h=2240,Stride u=0 v=0,offset u=0 v=0 
+02-12 07:22:19.236   573   618 I GRALLOC : 	 iova_size=10047488,conUsg=0x0,proUsg=0x8000100,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=70656 Scrmbl=2,ionhnd = 6 
+02-12 07:22:19.250   573   573 W hwcomposer: setGpuFreqBoost:153: boostGpuFreq release !
+02-12 07:22:19.397   570  4219 I WVCdm   : [cdm_engine.cpp(480):QueryStatus] CdmEngine::QueryStatus
+02-12 07:22:19.397   570  4219 D WVCdm   : [crypto_session.cpp(646):Open] CryptoSession::Open: Lock: requested_security_level: Default
+02-12 07:22:19.404   570  4219 I WVCdm   : [cdm_engine.cpp(110):OpenSession] CdmEngine::OpenSession
+02-12 07:22:19.404   570  4219 D WVCdm   : [crypto_session.cpp(646):Open] CryptoSession::Open: Lock: requested_security_level: Default
+02-12 07:22:19.409   570  4219 I WVCdm   : [device_files.cpp(166):ExtractDeviceInfo] ExtractDeviceInfo Entry
+02-12 07:22:19.420   570  4219 I WVCdm   : [cdm_engine.cpp(147):OpenSession] CdmEngine::OpenSession: sid12
+02-12 07:22:19.420   570  4219 I WVCdm   : [cdm_engine.cpp(742):QueryOemCryptoSessionId] CdmEngine::QueryOemCryptoSessionId
+02-12 07:22:19.427   655   655 D CryptoHal: found drm@1.0 ICryptoFactory clearkey
+02-12 07:22:19.429   655   655 D CryptoHal: found drm@1.0 ICryptoFactory default
+02-12 07:22:19.431   655   655 D CryptoHal: found drm@1.0 ICryptoFactory widevine
+02-12 07:22:19.434   655   655 D CryptoHal: found drm@1.1 ICryptoFactory clearkey
+02-12 07:22:19.436   655   655 D CryptoHal: found drm@1.1 ICryptoFactory widevine
+02-12 07:22:19.437   568  4218 D NOVELCDRMPlugin-NDU: Version:DRMClientLib v1.2.1.180907R
+02-12 07:22:19.440   570  4219 I WVCdm   : [cdm_engine.cpp(233):GenerateKeyRequest] CdmEngine::GenerateKeyRequest
+02-12 07:22:19.444   570  4219 D WVCdm   : [license.cpp(355):PrepareKeyRequest] PrepareKeyRequest: nonce=2160954673
+02-12 07:22:19.466  2822  2835 I lix.mediaclien: Background concurrent copying GC freed 147772(9MB) AllocSpace objects, 75(2MB) LOS objects, 49% free, 12MB/24MB, paused 335us total 124.103ms
+02-12 07:22:19.954  2822  3107 I OMXClient: IOmx service obtained
+02-12 07:22:19.954   668 11510 I OMXMaster: makeComponentInstance(OMX.google.aac.decoder) in omx@1.0-service process
+02-12 07:22:19.960   570  4219 I WVCdm   : [cdm_engine.cpp(312):AddKey] CdmEngine::AddKey
+02-12 07:22:19.962   562   562 W AshmemAllocator: ashmem_create_region(8192) returning hidl_memory(0x7346c2c100, 8192)
+02-12 07:22:19.977   562   562 I chatty  : uid=1000(system) allocator@1.0-s identical 2 lines
+02-12 07:22:19.978   562   562 W AshmemAllocator: ashmem_create_region(8192) returning hidl_memory(0x7346c2c100, 8192)
+02-12 07:22:19.980   562   562 W AshmemAllocator: ashmem_create_region(32768) returning hidl_memory(0x7346c2c100, 32768)
+02-12 07:22:19.981   562   562 I chatty  : uid=1000(system) allocator@1.0-s identical 2 lines
+02-12 07:22:19.981   562   562 W AshmemAllocator: ashmem_create_region(32768) returning hidl_memory(0x7346c2c100, 32768)
+02-12 07:22:19.986   570   570 I WVCdm   : [cdm_engine.cpp(640):QuerySessionStatus] CdmEngine::QuerySessionStatus
+02-12 07:22:19.993  2822  3112 I OMXClient: IOmx service obtained
+02-12 07:22:19.993   668 11510 I OMXMaster: makeComponentInstance(OMX.hisi.video.decoder.vp9.secure) in omx@1.0-service process
+02-12 07:22:19.993   668 11510 D HIOMX_CORE: OMX_GetHandle :: component name:OMX.hisi.video.decoder.vp9.secure
+02-12 07:22:19.994   668 11510 E HIOMX_CORE: opening file: No such file or directory 
+02-12 07:22:19.994   668 11510 D HIOMX_CORE: OMX_GetHandle :: prepare to load  libOMX.hisi.video.decoder.secure.so
+02-12 07:22:19.994   668 11510 D HIOMX_CORE: OMX_GetHandle :: load  libOMX.hisi.video.decoder.secure.so ok
+02-12 07:22:19.996   668 11510 I VDEC    : [OMXVDECThreadState] task_create_thread, create task success
+02-12 07:22:19.996   668 11510 I VDEC    : hi_open : open driver ok[/dev/hi_vdec],drv fd : 8
+02-12 07:22:19.996   668  3114 I VDEC    : [OMXVDECThreadState] enter task thread
+02-12 07:22:19.997   668 11510 I VDEC    : [OMXThreadState] create event thread success.
+02-12 07:22:19.997   668  3115 I VDEC    : [OMXThreadState] enter event thread.
+02-12 07:22:19.999   570   570 I WVCdm   : [cdm_engine.cpp(640):QuerySessionStatus] CdmEngine::QuerySessionStatus
+02-12 07:22:20.001  2822  3111 D SurfaceUtils: connecting to surface 0xc3534008, reason connectToSurface
+02-12 07:22:20.001  2822  3111 I MediaCodec: [OMX.hisi.video.decoder.vp9.secure] setting surface generation to 2889729
+02-12 07:22:20.001  2822  3111 D SurfaceUtils: disconnecting from surface 0xc3534008, reason connectToSurface(reconnect)
+02-12 07:22:20.001  2822  3111 D SurfaceUtils: connecting to surface 0xc3534008, reason connectToSurface(reconnect)
+02-12 07:22:20.002   668 11510 W VDEC    : get_extension_index, "OMX.google.android.index.storeANWBufferInMetadata" not implemented
+02-12 07:22:20.002   668 11510 W VDEC    : get_extension_index, "OMX.google.android.index.storeMetaDataInBuffers" not implemented
+02-12 07:22:20.002   668 11510 E OMXNodeInstance: getExtensionIndex(0xecba8620:hisi.decoder.vp9.secure, OMX.google.android.index.storeMetaDataInBuffers) ERROR: NotImplemented(0x80001006)
+02-12 07:22:20.002   668 11510 W VDEC    : set_parameter, set native buffer Bad port index 0
+02-12 07:22:20.002   668 11510 E OMXNodeInstance: setParameter(0xecba8620:hisi.decoder.vp9.secure, OMX.google.android.index.enableAndroidNativeBuffers(0x7f000002): Input:0 en=0) ERROR: BadPortIndex(0x8000101b)
+02-12 07:22:20.002   668 11510 W VDEC    : set_parameter, allocate native buffer Bad port index 1
+02-12 07:22:20.002   668 11510 E OMXNodeInstance: setParameter(0xecba8620:hisi.decoder.vp9.secure, OMX.google.android.index.allocateNativeHandle(0x7f000008): Output:1 en=0) ERROR: BadPortIndex(0x8000101b)
+02-12 07:22:20.002   668 11510 W VDEC    : get_extension_index, "OMX.google.android.index.storeANWBufferInMetadata" not implemented
+02-12 07:22:20.003   668 11510 W VDEC    : get_extension_index, "OMX.google.android.index.storeMetaDataInBuffers" not implemented
+02-12 07:22:20.003   668 11510 E OMXNodeInstance: getExtensionIndex(0xecba8620:hisi.decoder.vp9.secure, OMX.google.android.index.storeMetaDataInBuffers) ERROR: NotImplemented(0x80001006)
+02-12 07:22:20.003  2822  3112 E ACodec  : [OMX.hisi.video.decoder.vp9.secure] setPortMode on output to DynamicANWBuffer failed w/ err -2147483648
+02-12 07:22:20.003   668 11510 W VDEC    : set_parameter, allocate native buffer Bad port index 1
+02-12 07:22:20.003   668 11510 E OMXNodeInstance: setParameter(0xecba8620:hisi.decoder.vp9.secure, OMX.google.android.index.allocateNativeHandle(0x7f000008): Output:1 en=0) ERROR: BadPortIndex(0x8000101b)
+02-12 07:22:20.003   668 11510 W VDEC    : get_extension_index, "OMX.google.android.index.storeANWBufferInMetadata" not implemented
+02-12 07:22:20.003   668 11510 W VDEC    : get_extension_index, "OMX.google.android.index.storeMetaDataInBuffers" not implemented
+02-12 07:22:20.003   668 11510 E OMXNodeInstance: getExtensionIndex(0xecba8620:hisi.decoder.vp9.secure, OMX.google.android.index.storeMetaDataInBuffers) ERROR: NotImplemented(0x80001006)
+02-12 07:22:20.005   668 11510 I VDEC    : set_parameter, Invalid stride 64 is not equal to cal_stride 512 of width 480
+02-12 07:22:20.006   668 11510 I VDEC    : set_parameter, Invalid stride convert to 512
+02-12 07:22:20.006   668 11510 I VDEC    : buffer min_count[1], max_count[8]
+02-12 07:22:20.006   668 11510 I VDEC    : portDefn->nPortIndex is 0, xFramerate is 0
+02-12 07:22:20.006   668 11510 W VDEC    : [vdecutil_set_framerate], xFramerate is more than 60000, not reasonable , mFrameRate is 0
+02-12 07:22:20.006   668 11510 W VDEC    : get_extension_index, "OMX.google.android.index.describeColorAspects" not implemented
+02-12 07:22:20.006   668 11510 W VDEC    : get_extension_index, "OMX.google.android.index.describeHDRStaticInfo" not implemented
+02-12 07:22:20.007   668 11510 E VDEC    : get_paramter: unknown param 0x6f600007
+02-12 07:22:20.007   668 11510 E OMXNodeInstance: getParameter(0xecba8620:hisi.decoder.vp9.secure, ParamVideoAndroidVp8Encoder(0x6f600007)) ERROR: UnsupportedIndex(0x8000101a)
+02-12 07:22:20.014   668  3115 I VDEC    : OmxState, Current State 1, Expected State 2
+02-12 07:22:20.014   668  3115 I VDEC    : channel_create enter
+02-12 07:22:20.015   668  3115 E ion     : ioctl c0044901 failed with code -1: Invalid argument
+02-12 07:22:20.015   668  3115 I VDEC    : 
+02-12 07:22:20.015   668  3115 I VDEC    :  Protocol         = VP9
+02-12 07:22:20.015   668  3115 I VDEC    :  Resolution       = 480x270
+02-12 07:22:20.015   668  3115 I VDEC    :  Stride           = 512
+02-12 07:22:20.015   668  3115 I VDEC    :  ColorFormat      = YUV420SemiPlanar
+02-12 07:22:20.015   668  3115 I VDEC    :  IsAdvProfile     = 0
+02-12 07:22:20.015   668  3115 I VDEC    :  CodecVersion     = 0
+02-12 07:22:20.016   668  3115 I VDEC    :  bReversed        = 0
+02-12 07:22:20.016   668  3115 I VDEC    :  SpecMode         = 0
+02-12 07:22:20.016   668  3115 I VDEC    :  Priority         = 1
+02-12 07:22:20.016   668  3115 I VDEC    :  ErrThreshold     = 100
+02-12 07:22:20.016   668  3115 I VDEC    :  DecMode          = 0
+02-12 07:22:20.016   668  3115 I VDEC    :  OutputOrder      = 0
+02-12 07:22:20.016   668  3115 I VDEC    :  LowdlyEnable     = 0
+02-12 07:22:20.016   668  3115 I VDEC    :  CompressEnbale   = 0
+02-12 07:22:20.016   668  3115 I VDEC    :  ActInBufNum      = 5
+02-12 07:22:20.016   668  3115 I VDEC    :  ActInBufSize     = 2097152
+02-12 07:22:20.016   668  3115 I VDEC    : 
+02-12 07:22:20.016   668  3115 I VDEC    : pchan->frame_rate 0, width 480, height 270, chan_num 1, needHighFreq 0, needNormFreq 0
+02-12 07:22:20.066   668  3115 W VDEC    : TVP_VDEC_SecureInit Enter
+02-12 07:22:20.069   668  3115 E teec_app_load: realpath open file erro(No such file or directory), path=/vendor/bin/528822b7-fc78-466b-b57e-62093d6034a7.sec
+02-12 07:22:20.127   668  3115 I VDEC    : [OMXVDECThreadState] processor_create_inst, create processor thread success, [BppContext : 0xee5d5000, channel_id: 0, decoder_id: 0, processor_id :0]
+02-12 07:22:20.129   668  3119 I VDEC    : [OMXVDECThreadState] processor_thread, enter processor thread success, [BppContext : 0xee5d5000, channel_id: 0, decoder_id: 0, processor_id :0]
+02-12 07:22:20.138   668  3115 I VDEC    : [OMXThreadState] create msg thread success.
+02-12 07:22:20.138   668  3120 I VDEC    : [OMXThreadState] enter msg thread.
+02-12 07:22:20.138   668  3115 I VDEC    : [OMXThreadState] create commonblock thread success.
+02-12 07:22:20.138   668  3115 I VDEC    : [OmxState] Loaded --> Idle_Pending
+02-12 07:22:20.138   668  3121 I VDEC    : [OMXThreadState] enter commonblock thread.
+02-12 07:22:20.144   929   929 V SettingsProvider: Notifying for 0: content://settings/system/screen_brightness
+02-12 07:22:20.218   668  2955 W VDEC    : get_extension_index, "OMX.google.android.index.AndroidNativeBufferConsumerUsage" not implemented
+02-12 07:22:20.218  2822  3112 D SurfaceUtils: disconnecting from surface 0xc3534008, reason setNativeWindowSizeFormatAndUsage
+02-12 07:22:20.218  2822  3112 D SurfaceUtils: connecting to surface 0xc3534008, reason setNativeWindowSizeFormatAndUsage
+02-12 07:22:20.218  2822  3112 D SurfaceUtils: set up nativeWindow 0xc3534008 for 480x270, color 0x30d, rotation 0, usage 0x24006900
+02-12 07:22:20.219   614   661 W MapperHal: buffer descriptor with invalid usage bits 0x4002000
+02-12 07:22:20.219   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x300,intFmt=0x300,btStrd=512,size=229376,pid=572 
+02-12 07:22:20.219   572  3193 I GRALLOC : 	 yuv=1,w=480,h=270,Stride u=512 v=512,offset u=147456 v=147456 
+02-12 07:22:20.219   572  3193 I GRALLOC : 	 iova_size=229376,conUsg=0x24006900,proUsg=0x24006900,	 strd=512,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:20.231   614  1188 W MapperHal: buffer descriptor with invalid usage bits 0x4002000
+02-12 07:22:20.232   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x300,intFmt=0x300,btStrd=512,size=229376,pid=572 
+02-12 07:22:20.232   572  3193 I GRALLOC : 	 yuv=1,w=480,h=270,Stride u=512 v=512,offset u=147456 v=147456 
+02-12 07:22:20.232   572  3193 I GRALLOC : 	 iova_size=229376,conUsg=0x24006900,proUsg=0x24006900,	 strd=512,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:20.233   614  1188 W MapperHal: buffer descriptor with invalid usage bits 0x4002000
+02-12 07:22:20.233   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x300,intFmt=0x300,btStrd=512,size=229376,pid=572 
+02-12 07:22:20.233   572  3193 I GRALLOC : 	 yuv=1,w=480,h=270,Stride u=512 v=512,offset u=147456 v=147456 
+02-12 07:22:20.233   572  3193 I GRALLOC : 	 iova_size=229376,conUsg=0x24006900,proUsg=0x24006900,	 strd=512,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:20.234   614   661 W MapperHal: buffer descriptor with invalid usage bits 0x4002000
+02-12 07:22:20.235   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x300,intFmt=0x300,btStrd=512,size=229376,pid=572 
+02-12 07:22:20.235   572  3193 I GRALLOC : 	 yuv=1,w=480,h=270,Stride u=512 v=512,offset u=147456 v=147456 
+02-12 07:22:20.235   572  3193 I GRALLOC : 	 iova_size=229376,conUsg=0x24006900,proUsg=0x24006900,	 strd=512,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:20.236   614   661 W MapperHal: buffer descriptor with invalid usage bits 0x4002000
+02-12 07:22:20.236   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x300,intFmt=0x300,btStrd=512,size=229376,pid=572 
+02-12 07:22:20.236   572  3193 I GRALLOC : 	 yuv=1,w=480,h=270,Stride u=512 v=512,offset u=147456 v=147456 
+02-12 07:22:20.236   572  3193 I GRALLOC : 	 iova_size=229376,conUsg=0x24006900,proUsg=0x24006900,	 strd=512,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:20.237   668 11508 I VDEC    : [OmxState] Idle_Pending --> Idle
+02-12 07:22:20.238   668  3115 I VDEC    : OmxState, Current State 2, Expected State 3
+02-12 07:22:20.238   668  3115 I VDEC    : [OmxState] Idle --> Executing_Pending
+02-12 07:22:20.240   668  3115 I VDEC    : [OmxState] Execute_Pending --> Executing
+02-12 07:22:20.246   668  3109 I SoftAAC2: Reconfiguring decoder: 0->48000 Hz, 0->2 channels
+02-12 07:22:20.249   562   562 W AshmemAllocator: ashmem_create_region(32768) returning hidl_memory(0x7346c2c100, 32768)
+02-12 07:22:20.251   562   562 I chatty  : uid=1000(system) allocator@1.0-s identical 2 lines
+02-12 07:22:20.251   562   562 W AshmemAllocator: ashmem_create_region(32768) returning hidl_memory(0x7346c2c100, 32768)
+02-12 07:22:20.265   668  3117 I VDEC    : decoder_ext_event_handler, EVNT_NEED_ARRANGE
+02-12 07:22:20.265   668  3114 I VDEC    : pchan->frame_rate 0, width 480, height 270, chan_num 1, needHighFreq 0, needNormFreq 0
+02-12 07:22:20.267   668  3120 I VDEC    : not vr mode
+02-12 07:22:20.267   668  3120 I VDEC    : vdec disable hfbc
+02-12 07:22:20.267   668  3120 I VDEC    : buffer min_count[12], max_count[16]
+02-12 07:22:20.269   668 11510 I VDEC    : [OmxState] Disable_Pending --> Disable
+02-12 07:22:20.270   668 11508 W VDEC    : get_extension_index, "OMX.google.android.index.AndroidNativeBufferConsumerUsage" not implemented
+02-12 07:22:20.270  2822  3112 D SurfaceUtils: disconnecting from surface 0xc3534008, reason setNativeWindowSizeFormatAndUsage
+02-12 07:22:20.272  2822  3112 D SurfaceUtils: connecting to surface 0xc3534008, reason setNativeWindowSizeFormatAndUsage
+02-12 07:22:20.273  2822  3112 D SurfaceUtils: set up nativeWindow 0xc3534008 for 3840x2160, color 0x30d, rotation 0, usage 0x24006900
+02-12 07:22:20.273   614   676 W MapperHal: buffer descriptor with invalid usage bits 0x4002000
+02-12 07:22:20.274   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x300,intFmt=0x300,btStrd=3840,size=12656640,pid=572 
+02-12 07:22:20.274   572  3193 I GRALLOC : 	 yuv=1,w=3840,h=2160,Stride u=3840 v=3840,offset u=8355840 v=8355840 
+02-12 07:22:20.274   572  3193 I GRALLOC : 	 iova_size=12656640,conUsg=0x24006900,proUsg=0x24006900,	 strd=3840,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:20.276   614  1188 W MapperHal: buffer descriptor with invalid usage bits 0x4002000
+02-12 07:22:20.277   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x300,intFmt=0x300,btStrd=3840,size=12656640,pid=572 
+02-12 07:22:20.277   572  3193 I GRALLOC : 	 yuv=1,w=3840,h=2160,Stride u=3840 v=3840,offset u=8355840 v=8355840 
+02-12 07:22:20.277   572  3193 I GRALLOC : 	 iova_size=12656640,conUsg=0x24006900,proUsg=0x24006900,	 strd=3840,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:20.280   610  1388 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000008) and output flags (00000002)
+02-12 07:22:20.280   610  1388 D AudioFlinger: Client defaulted notificationFrames to 6000 for frameCount 12000
+02-12 07:22:20.281   614  1188 W MapperHal: buffer descriptor with invalid usage bits 0x4002000
+02-12 07:22:20.282   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x300,intFmt=0x300,btStrd=3840,size=12656640,pid=572 
+02-12 07:22:20.282   572  3193 I GRALLOC : 	 yuv=1,w=3840,h=2160,Stride u=3840 v=3840,offset u=8355840 v=8355840 
+02-12 07:22:20.282   572  3193 I GRALLOC : 	 iova_size=12656640,conUsg=0x24006900,proUsg=0x24006900,	 strd=3840,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:20.284   614   676 W MapperHal: buffer descriptor with invalid usage bits 0x4002000
+02-12 07:22:20.288   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x300,intFmt=0x300,btStrd=3840,size=12656640,pid=572 
+02-12 07:22:20.288   572  3193 I GRALLOC : 	 yuv=1,w=3840,h=2160,Stride u=3840 v=3840,offset u=8355840 v=8355840 
+02-12 07:22:20.288   572  3193 I GRALLOC : 	 iova_size=12656640,conUsg=0x24006900,proUsg=0x24006900,	 strd=3840,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:20.291   614   676 W MapperHal: buffer descriptor with invalid usage bits 0x4002000
+02-12 07:22:20.296   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x300,intFmt=0x300,btStrd=3840,size=12656640,pid=572 
+02-12 07:22:20.296   572  3193 I GRALLOC : 	 yuv=1,w=3840,h=2160,Stride u=3840 v=3840,offset u=8355840 v=8355840 
+02-12 07:22:20.296   572  3193 I GRALLOC : 	 iova_size=12656640,conUsg=0x24006900,proUsg=0x24006900,	 strd=3840,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:20.298   614   676 W MapperHal: buffer descriptor with invalid usage bits 0x4002000
+02-12 07:22:20.302   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x300,intFmt=0x300,btStrd=3840,size=12656640,pid=572 
+02-12 07:22:20.302   572  3193 I GRALLOC : 	 yuv=1,w=3840,h=2160,Stride u=3840 v=3840,offset u=8355840 v=8355840 
+02-12 07:22:20.302   572  3193 I GRALLOC : 	 iova_size=12656640,conUsg=0x24006900,proUsg=0x24006900,	 strd=3840,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:20.306   614  1188 W MapperHal: buffer descriptor with invalid usage bits 0x4002000
+02-12 07:22:20.309   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x300,intFmt=0x300,btStrd=3840,size=12656640,pid=572 
+02-12 07:22:20.309   572  3193 I GRALLOC : 	 yuv=1,w=3840,h=2160,Stride u=3840 v=3840,offset u=8355840 v=8355840 
+02-12 07:22:20.309   572  3193 I GRALLOC : 	 iova_size=12656640,conUsg=0x24006900,proUsg=0x24006900,	 strd=3840,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:20.311   614  1188 W MapperHal: buffer descriptor with invalid usage bits 0x4002000
+02-12 07:22:20.314   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x300,intFmt=0x300,btStrd=3840,size=12656640,pid=572 
+02-12 07:22:20.314   572  3193 I GRALLOC : 	 yuv=1,w=3840,h=2160,Stride u=3840 v=3840,offset u=8355840 v=8355840 
+02-12 07:22:20.314   572  3193 I GRALLOC : 	 iova_size=12656640,conUsg=0x24006900,proUsg=0x24006900,	 strd=3840,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:20.316   614  1188 W MapperHal: buffer descriptor with invalid usage bits 0x4002000
+02-12 07:22:20.320   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x300,intFmt=0x300,btStrd=3840,size=12656640,pid=572 
+02-12 07:22:20.320   572  3193 I GRALLOC : 	 yuv=1,w=3840,h=2160,Stride u=3840 v=3840,offset u=8355840 v=8355840 
+02-12 07:22:20.320   572  3193 I GRALLOC : 	 iova_size=12656640,conUsg=0x24006900,proUsg=0x24006900,	 strd=3840,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:20.325   614   661 W MapperHal: buffer descriptor with invalid usage bits 0x4002000
+02-12 07:22:20.329   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x300,intFmt=0x300,btStrd=3840,size=12656640,pid=572 
+02-12 07:22:20.329   572  3193 I GRALLOC : 	 yuv=1,w=3840,h=2160,Stride u=3840 v=3840,offset u=8355840 v=8355840 
+02-12 07:22:20.329   572  3193 I GRALLOC : 	 iova_size=12656640,conUsg=0x24006900,proUsg=0x24006900,	 strd=3840,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:20.333   614  1188 W MapperHal: buffer descriptor with invalid usage bits 0x4002000
+02-12 07:22:20.336   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x300,intFmt=0x300,btStrd=3840,size=12656640,pid=572 
+02-12 07:22:20.336   572  3193 I GRALLOC : 	 yuv=1,w=3840,h=2160,Stride u=3840 v=3840,offset u=8355840 v=8355840 
+02-12 07:22:20.336   572  3193 I GRALLOC : 	 iova_size=12656640,conUsg=0x24006900,proUsg=0x24006900,	 strd=3840,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:20.339   614   676 W MapperHal: buffer descriptor with invalid usage bits 0x4002000
+02-12 07:22:20.341   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x300,intFmt=0x300,btStrd=3840,size=12656640,pid=572 
+02-12 07:22:20.341   572  3193 I GRALLOC : 	 yuv=1,w=3840,h=2160,Stride u=3840 v=3840,offset u=8355840 v=8355840 
+02-12 07:22:20.341   572  3193 I GRALLOC : 	 iova_size=12656640,conUsg=0x24006900,proUsg=0x24006900,	 strd=3840,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:20.343   614  1188 W MapperHal: buffer descriptor with invalid usage bits 0x4002000
+02-12 07:22:20.344   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x300,intFmt=0x300,btStrd=3840,size=12656640,pid=572 
+02-12 07:22:20.344   572  3193 I GRALLOC : 	 yuv=1,w=3840,h=2160,Stride u=3840 v=3840,offset u=8355840 v=8355840 
+02-12 07:22:20.344   572  3193 I GRALLOC : 	 iova_size=12656640,conUsg=0x24006900,proUsg=0x24006900,	 strd=3840,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:20.347   614  1188 W MapperHal: buffer descriptor with invalid usage bits 0x4002000
+02-12 07:22:20.349   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x300,intFmt=0x300,btStrd=3840,size=12656640,pid=572 
+02-12 07:22:20.349   572  3193 I GRALLOC : 	 yuv=1,w=3840,h=2160,Stride u=3840 v=3840,offset u=8355840 v=8355840 
+02-12 07:22:20.349   572  3193 I GRALLOC : 	 iova_size=12656640,conUsg=0x24006900,proUsg=0x24006900,	 strd=3840,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:20.351   614  1188 W MapperHal: buffer descriptor with invalid usage bits 0x4002000
+02-12 07:22:20.353   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x300,intFmt=0x300,btStrd=3840,size=12656640,pid=572 
+02-12 07:22:20.353   572  3193 I GRALLOC : 	 yuv=1,w=3840,h=2160,Stride u=3840 v=3840,offset u=8355840 v=8355840 
+02-12 07:22:20.353   572  3193 I GRALLOC : 	 iova_size=12656640,conUsg=0x24006900,proUsg=0x24006900,	 strd=3840,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:20.354   614  1188 W MapperHal: buffer descriptor with invalid usage bits 0x4002000
+02-12 07:22:20.357   572  3193 I GRALLOC : getCallingPid=614, shrFd=12,fmt=0x300,intFmt=0x300,btStrd=3840,size=12656640,pid=572 
+02-12 07:22:20.357   572  3193 I GRALLOC : 	 yuv=1,w=3840,h=2160,Stride u=3840 v=3840,offset u=8355840 v=8355840 
+02-12 07:22:20.357   572  3193 I GRALLOC : 	 iova_size=12656640,conUsg=0x24006900,proUsg=0x24006900,	 strd=3840,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+02-12 07:22:20.479   668 11510 I VDEC    : [OmxState] Enable_Pending --> Enable
