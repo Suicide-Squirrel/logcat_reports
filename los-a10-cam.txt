@@ -1,0 +1,418 @@
+6,7330,291249005,-;android.camera[29702]: syscall 279
+4,7331,291249182,-;Code: aa0403e3 aa0503e4 aa0603e5 d4000001 (b140041f) 
+4,7332,291249278,-;CPU: 3 PID: 29702 Comm: android.camera Not tainted 3.10.108-gf6931a7b9439c8 #2
+4,7333,291249436,-;Hardware name: Qualcomm Technologies, Inc. MSM8992 P1 GLOBAL COM (DT)
+4,7334,291249594,-;task: ffffffc013e11000 ti: ffffffc03f2bc000 task.ti: ffffffc03f2bc000
+4,7335,291249751,-;PC is at 0x745c442340
+4,7336,291249958,-;LR is at 0x73db668ddc
+4,7337,291250052,-;pc : [<000000745c442340>] lr : [<00000073db668ddc>] pstate: 60000000
+4,7338,291250208,-;sp : 0000007fce82e380
+6,7339,278176009,-;msm8994_quat_mi2s_snd_shutdown Quaternary MI2S Clock is Disabled
+4,7340,291250297,c;x29: 0000007fce82e380 
+4,7341,291250524,+;x28: 000000745ff97020 
+4,7342,291250680,-;x27: 0000007fce82e430 x26: 000000745fd40cb0 
+4,7343,291250920,-;x25: 0000000000000801 x24: 0000000000000000 
+4,7344,291251157,-;x23: 000000745fde5df0 x22: 0000000004000000 
+4,7345,291251490,-;x21: 0000000000000001 x20: 000000745fde5a00 
+4,7346,291251927,-;x19: 0000007fce82e6b0 x18: 0000007460b9c000 
+4,7347,291252172,-;x17: 000000745c442320 x16: 00000073db6b4e88 
+4,7348,291252483,-;x15: 003b9aca00000000 x14: 000c713da5000000 
+4,7349,291252791,-;x13: 0000000000000000 x12: 000000745fde5a90 
+4,7350,291253031,-;x11: 0000000032010000 x10: 0000000000000000 
+4,7351,291253339,-;x9 : 4598058a58758f8f x8 : 0000000000000117 
+4,7352,291253678,-;x7 : 0000000000000000 x6 : 0000007461278000 
+4,7353,291253919,-;x5 : 0000007461278000 x4 : 00000073c97bb5da 
+4,7354,291254224,-;x3 : 00000073c97bb45a x2 : 0000007fce82e6b0 
+4,7355,291254529,-;x1 : 0000000000000000 x0 : 00000073daadaa2f 
+4,7356,291254765,-;
+3,7357,291589469,-;camera_v4l2_open: msm_create_session id=2
+3,7358,291589554,-;msm_create_command_ack_q: session_id = 2, stream_id = 0
+38,7359,291590053,-;type=1400 audit(1596129875.982:166): avc: denied { open } for comm="main" path="/dev/stune/top-app/tasks" dev="tmpfs" ino=12102 scontext=u:r:zygote:s0 tcontext=u:object_r:device:s0 tclass=file permissive=1
+38,7360,291590259,-;type=1400 audit(1596129876.334:167): avc: denied { search } for comm="mm-qcamera-daem" name="camera" dev="mmcblk0p50" ino=1340912 scontext=u:r:mmqcamd:s0 tcontext=u:object_r:camera_data_file:s0 tclass=dir permissive=1
+6,7361,291592373,-;msm_csid_init: CSID_VERSION = 0x30010000
+6,7362,291612247,-;MSM-CPP cpp_init_hardware:1106 CPP HW Version: 0x50010000
+3,7363,291612387,-;MSM-CPP cpp_init_hardware:1127 stream_cnt:0
+14,7364,291623352,-;ueventd: firmware: loading 'cpp_firmware_v1_8_0.fw' for '/devices/soc.0/fda04000.qcom,cpp/firmware/cpp_firmware_v1_8_0.fw'
+14,7365,291624239,-;ueventd: loading /devices/soc.0/fda04000.qcom,cpp/firmware/cpp_firmware_v1_8_0.fw took 1ms
+6,7366,291627094,-;msm_cci_init:879: hw_version = 0x10020001
+3,7367,291627490,-;msm_sensor_match_id: read id: 0x1490 expected id 0x1490:
+3,7368,291627682,-;msm_sensor_power_up for t4ka3
+6,7369,291643646,-;MSM-CPP cpp_load_fw:1264 MC Bootloader Version: 0x312e3176
+6,7370,291650012,-;MSM-CPP cpp_load_fw:1277 CPP FW Version: 0x1008001e
+6,7371,291671800,-;msm8994_quat_mi2s_snd_shutdown: dai name qcom,msm-dai-q6-mi2s-quat.217 ffffffc0c2e00410  substream = subdevice #0  stream = 0  
+3,7372,291839590,-;camera_v4l2_close: close stream_id=0
+3,7373,291841091,-;msm_post_event : timeout cannot be negative Line 805
+3,7374,291841234,-;msm_delete_command_ack_q: session_id = 2, stream_id = 0
+3,7375,291841367,-;msm_destroy_session: session_id = 2
+3,7376,291879393,-;CAM_PREVIEW_TUNE_OFF
+3,7377,291880204,-;msm_sensor_power_down for t4ka3
+3,7378,291893919,-;camera_v4l2_open: msm_create_session id=1
+3,7379,291894093,-;msm_create_command_ack_q: session_id = 1, stream_id = 0
+3,7380,291895864,-;MSM-CPP cpp_release_ion_client:695 Calling ion_client_destroy
+6,7381,291911603,-;msm_csid_init: CSID_VERSION = 0x30010000
+6,7382,291933577,-;MSM-CPP cpp_init_hardware:1106 CPP HW Version: 0x50010000
+3,7383,291933727,-;MSM-CPP cpp_init_hardware:1127 stream_cnt:0
+14,7384,291946258,-;ueventd: firmware: loading 'cpp_firmware_v1_8_0.fw' for '/devices/soc.0/fda04000.qcom,cpp/firmware/cpp_firmware_v1_8_0.fw'
+14,7385,291947799,-;ueventd: loading /devices/soc.0/fda04000.qcom,cpp/firmware/cpp_firmware_v1_8_0.fw took 1ms
+6,7386,291969659,-;MSM-CPP cpp_load_fw:1264 MC Bootloader Version: 0x312e3176
+6,7387,291975045,-;msm_cci_init:879: hw_version = 0x10020001
+3,7388,291975381,-;msm_sensor_match_id: read id: 0x240 expected id 0x240:
+3,7389,291975509,-;msm_sensor_power_up for imx234
+6,7390,291975596,-;MSM-CPP cpp_load_fw:1277 CPP FW Version: 0x1008001e
+6,7391,291986880,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+6,7392,291989459,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+3,7393,291990271,-;msm_ois_subdev_ioctl:553 Enter
+3,7394,291990362,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
+3,7395,291990522,-;msm_ois_config:341 Enter
+3,7396,291990651,-;msm_ois_config:342 msm_ois_config type 6
+3,7397,291990779,-;msm_ois_power_up:582 msm_ois_power_up called
+3,7398,291990852,-;msm_ois_power_up:591 Exit
+3,7399,291990979,-;msm_ois_config:471 Exit
+3,7400,291991057,-;msm_ois_subdev_ioctl:553 Enter
+3,7401,291991186,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
+3,7402,291991313,-;msm_ois_config:341 Enter
+3,7403,291991385,-;msm_ois_config:342 msm_ois_config type 0
+3,7404,291991511,-;msm_ois_init:210 Enter
+4,7405,291991964,-;msm_ois_init : imtech onsemi i2c shift addr 0x24!
+3,7406,291992097,-;msm_ois_init:272 Exit
+6,7407,291992136,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+3,7408,291992292,-;msm_ois_config:471 Exit
+3,7409,291994096,-;msm_init_proxy:677 msm_init_proxy ENTER!
+3,7410,291994221,-;msm_ois_subdev_ioctl:553 Enter
+3,7411,291994227,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
+3,7412,291994230,-;msm_ois_config:341 Enter
+3,7413,291994232,-;msm_ois_config:342 msm_ois_config type 3
+3,7414,291994235,-;imtech_init_set_onsemi_ois Enter
+3,7415,291994237,-;imtech_init_set_onsemi_ois: ois_on! ver:0
+6,7416,291994515,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+3,7417,291995308,-;msm_init_proxy:683 init proxy alive!
+3,7418,292088036,-;msm_init_proxy:692 Model ID : 0xB4, REVISION ID : 0x3
+3,7419,292088976,-;msm_init_proxy:694 not calibrated!
+3,7420,292136279,-;imtech_init_set_onsemi_ois OIS_VER_RELEASE
+3,7421,292147690,-;msm_init_proxy:803 KSY module ID : 20
+3,7422,292148038,-;msm_init_proxy:815 inot read offset = -1 from eeprom
+3,7423,292160247,-;imtech_init_set_onsemi_ois End
+3,7424,292160461,-;msm_proxy_thread_start:599 msm_proxy_thread_start
+3,7425,292160542,-;msm_ois_config:471 Exit
+3,7426,292160919,-;msm_proxy_thread_start:612 INIT_WORK done!
+3,7427,292161073,-;msm_proxy_thread_start:615 queue_work done!
+3,7428,292162176,-;msm_tcs_power_up:435 msm_tcs_power_up called
+3,7429,292162317,-;msm_tcs_power_up:443 Exit
+3,7430,292162407,-;msm_tcs_init:470 Enter
+3,7431,292163800,-;msm_tcs_init:483 exit
+3,7432,292164933,-;pause_tcs:282 pause_workqueue = 1
+3,7433,292165387,-;tcs stop Reading(CLR) 
+3,7434,292316849,-;camera_v4l2_close: close stream_id=0
+3,7435,292318861,-;msm_post_event : timeout cannot be negative Line 805
+3,7436,292319028,-;msm_delete_command_ack_q: session_id = 1, stream_id = 0
+3,7437,292319109,-;msm_destroy_session: session_id = 1
+3,7438,292348530,-;msm_proxy_thread_end:622 msm_proxy_thread_end
+3,7439,292348660,-;stop_proxy:572 stop_proxy!
+3,7440,292365956,-;MSM-CPP cpp_release_ion_client:695 Calling ion_client_destroy
+3,7441,292407595,-;get_proxy:568 end workqueue!
+3,7442,292407836,-;stop_proxy:578 destroy_workqueue!
+3,7443,292415616,-;get_tcs:257 end workqueue!
+3,7444,292415898,-;stop_tcs:270 destroy_workqueue!
+3,7445,292415993,-;msm_tcs_power_down:450 Enter
+3,7446,292416111,-;msm_tcs_power_down:463 Exit
+3,7447,292416866,-;stop_proxy:572 stop_proxy!
+3,7448,292417027,-;msm_ois_subdev_ioctl:553 Enter
+3,7449,292417097,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
+3,7450,292417214,-;msm_ois_config:341 Enter
+3,7451,292417330,-;msm_ois_config:342 msm_ois_config type 2
+3,7452,292417396,-;msm_ois_power_down:180 Enter
+3,7453,292418208,-;msm_ois_power_down:202 Exit
+3,7454,292418336,-;msm_ois_config:471 Exit
+3,7455,292418829,-;msm_ois_close:523 Enter
+3,7456,292418961,-;msm_ois_close:539 Exit
+3,7457,292427023,-;CAM_PREVIEW_TUNE_OFF
+3,7458,292427110,-;msm_sensor_power_down for imx234
+6,7459,292428571,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+6,7460,292431698,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+6,7461,292434368,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+6,7462,292440193,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+3,7463,294908275,-;[Touch] 1 finger pressed: <0> x[ 816] y[2296] z[ 54]
+3,7464,294998183,-;[Touch] touch_release[ ]: <0> x[ 815] y[2294]
+6,7465,295042732,-;msm8994_quat_mi2s_snd_startup: dai name qcom,msm-dai-q6-mi2s-quat.217 ffffffc0c2e00410  substream = subdevice #0  stream = 0 bit width =2 sample rate =48000  
+3,7466,295113424,-;camera_v4l2_open: msm_create_session id=1
+3,7467,295113554,-;msm_create_command_ack_q: session_id = 1, stream_id = 0
+6,7468,295116970,-;msm_csid_init: CSID_VERSION = 0x30010000
+6,7469,295148003,-;MSM-CPP cpp_init_hardware:1106 CPP HW Version: 0x50010000
+3,7470,295148148,-;MSM-CPP cpp_init_hardware:1127 stream_cnt:0
+14,7471,295162618,-;ueventd: firmware: loading 'cpp_firmware_v1_8_0.fw' for '/devices/soc.0/fda04000.qcom,cpp/firmware/cpp_firmware_v1_8_0.fw'
+14,7472,295163431,-;ueventd: loading /devices/soc.0/fda04000.qcom,cpp/firmware/cpp_firmware_v1_8_0.fw took 0ms
+6,7473,295181053,-;msm_cci_init:879: hw_version = 0x10020001
+3,7474,295181455,-;msm_sensor_match_id: read id: 0x240 expected id 0x240:
+3,7475,295181530,-;msm_sensor_power_up for imx234
+6,7476,295187637,-;MSM-CPP cpp_load_fw:1264 MC Bootloader Version: 0x312e3176
+6,7477,295192682,-;MSM-CPP cpp_load_fw:1277 CPP FW Version: 0x1008001e
+6,7478,295192767,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+6,7479,295195495,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+3,7480,295197928,-;msm_ois_subdev_ioctl:553 Enter
+3,7481,295198060,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
+3,7482,295198178,-;msm_ois_config:341 Enter
+3,7483,295198243,-;msm_ois_config:342 msm_ois_config type 6
+3,7484,295198360,-;msm_ois_power_up:582 msm_ois_power_up called
+3,7485,295198425,-;msm_ois_power_up:591 Exit
+3,7486,295198491,-;msm_ois_config:471 Exit
+3,7487,295198647,-;msm_ois_subdev_ioctl:553 Enter
+6,7488,295198695,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+3,7489,295198859,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
+3,7490,295198977,-;msm_ois_config:341 Enter
+3,7491,295199042,-;msm_ois_config:342 msm_ois_config type 0
+3,7492,295199158,-;msm_ois_init:210 Enter
+4,7493,295199892,-;msm_ois_init : imtech onsemi i2c shift addr 0x24!
+3,7494,295199969,-;msm_ois_init:272 Exit
+3,7495,295200086,-;msm_ois_config:471 Exit
+6,7496,295201069,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+3,7497,295201855,-;msm_init_proxy:677 msm_init_proxy ENTER!
+3,7498,295202353,-;msm_init_proxy:683 init proxy alive!
+3,7499,295203504,-;msm_init_proxy:692 Model ID : 0xB4, REVISION ID : 0x3
+3,7500,295203784,-;msm_init_proxy:694 not calibrated!
+3,7501,295206947,-;msm_ois_subdev_ioctl:553 Enter
+3,7502,295207032,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
+3,7503,295207148,-;msm_ois_config:341 Enter
+3,7504,295207266,-;msm_ois_config:342 msm_ois_config type 3
+3,7505,295207339,-;imtech_init_set_onsemi_ois Enter
+3,7506,295207462,-;imtech_init_set_onsemi_ois: ois_on! ver:0
+3,7507,295219874,-;msm_init_proxy:803 KSY module ID : 20
+3,7508,295220274,-;msm_init_proxy:815 inot read offset = -1 from eeprom
+3,7509,295226318,-;msm_proxy_thread_start:599 msm_proxy_thread_start
+3,7510,295226580,-;msm_proxy_thread_start:612 INIT_WORK done!
+3,7511,295226658,-;msm_proxy_thread_start:615 queue_work done!
+3,7512,295227665,-;msm_tcs_power_up:435 msm_tcs_power_up called
+3,7513,295227737,-;msm_tcs_power_up:443 Exit
+3,7514,295227872,-;msm_tcs_init:470 Enter
+3,7515,295243165,-;msm_tcs_init:483 exit
+3,7516,295244635,-;pause_tcs:282 pause_workqueue = 1
+3,7517,295246020,-;tcs stop Reading(CLR) 
+3,7518,295365075,-;camera_v4l2_close: close stream_id=0
+3,7519,295366715,-;msm_post_event : timeout cannot be negative Line 805
+3,7520,295366812,-;msm_delete_command_ack_q: session_id = 1, stream_id = 0
+3,7521,295366932,-;msm_destroy_session: session_id = 1
+3,7522,295383704,-;imtech_init_set_onsemi_ois OIS_VER_RELEASE
+3,7523,295393692,-;imtech_init_set_onsemi_ois End
+3,7524,295393834,-;msm_ois_config:471 Exit
+3,7525,295394375,-;msm_proxy_thread_end:622 msm_proxy_thread_end
+3,7526,295394500,-;stop_proxy:572 stop_proxy!
+3,7527,295405365,-;MSM-CPP cpp_release_ion_client:695 Calling ion_client_destroy
+3,7528,295435644,-;get_proxy:568 end workqueue!
+3,7529,295435868,-;stop_proxy:578 destroy_workqueue!
+3,7530,295447618,-;get_tcs:257 end workqueue!
+3,7531,295447843,-;stop_tcs:270 destroy_workqueue!
+3,7532,295447944,-;msm_tcs_power_down:450 Enter
+3,7533,295448062,-;msm_tcs_power_down:463 Exit
+3,7534,295448647,-;stop_proxy:572 stop_proxy!
+3,7535,295448743,-;msm_ois_subdev_ioctl:553 Enter
+3,7536,295448870,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
+3,7537,295448988,-;msm_ois_config:341 Enter
+3,7538,295449135,-;msm_ois_config:342 msm_ois_config type 2
+3,7539,295449338,-;msm_ois_power_down:180 Enter
+3,7540,295450112,-;msm_ois_power_down:202 Exit
+3,7541,295450236,-;msm_ois_config:471 Exit
+3,7542,295450736,-;msm_ois_close:523 Enter
+3,7543,295450864,-;msm_ois_close:539 Exit
+3,7544,295453247,-;CAM_PREVIEW_TUNE_OFF
+3,7545,295453383,-;msm_sensor_power_down for imx234
+6,7546,295454665,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+6,7547,295457121,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+6,7548,295459712,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+6,7549,295462208,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+6,7550,295535189,-;msm8994_quat_mi2s_snd_shutdown: dai name qcom,msm-dai-q6-mi2s-quat.217 ffffffc0c2e00410  substream = subdevice #0  stream = 0  
+6,7551,291693016,-;msm8994_quat_mi2s_snd_shutdown Quaternary MI2S Clock is Disabled
+6,7552,295556207,c;msm8994_quat_mi2s_snd_shutdown Quaternary MI2S Clock is Disabled
+3,7553,297674746,-;[Touch] 1 finger pressed: <0> x[1187] y[1357] z[ 51]
+3,7554,297747706,-;[Touch] touch_release[ ]: <0> x[1187] y[1353]
+6,7555,297830790,-;msm8994_quat_mi2s_snd_startup: dai name qcom,msm-dai-q6-mi2s-quat.217 ffffffc0c2e00410  substream = subdevice #0  stream = 0 bit width =2 sample rate =48000  
+3,7556,298081404,-;camera_v4l2_open: msm_create_session id=1
+3,7557,298081487,-;msm_create_command_ack_q: session_id = 1, stream_id = 0
+6,7558,298096285,-;msm_csid_init: CSID_VERSION = 0x30010000
+6,7559,298153438,-;MSM-CPP cpp_init_hardware:1106 CPP HW Version: 0x50010000
+3,7560,298153532,-;MSM-CPP cpp_init_hardware:1127 stream_cnt:0
+14,7561,298172166,-;ueventd: firmware: loading 'cpp_firmware_v1_8_0.fw' for '/devices/soc.0/fda04000.qcom,cpp/firmware/cpp_firmware_v1_8_0.fw'
+14,7562,298173400,-;ueventd: loading /devices/soc.0/fda04000.qcom,cpp/firmware/cpp_firmware_v1_8_0.fw took 2ms
+6,7563,298193667,-;MSM-CPP cpp_load_fw:1264 MC Bootloader Version: 0x312e3176
+6,7564,298199612,-;MSM-CPP cpp_load_fw:1277 CPP FW Version: 0x1008001e
+6,7565,298220078,-;msm_cci_init:879: hw_version = 0x10020001
+3,7566,298220741,-;msm_sensor_match_id: read id: 0x240 expected id 0x240:
+3,7567,298220817,-;msm_sensor_power_up for imx234
+6,7568,298232096,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+6,7569,298234583,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+3,7570,298239436,-;msm_ois_subdev_ioctl:553 Enter
+6,7571,298239825,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+3,7572,298240722,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
+3,7573,298240846,-;msm_ois_config:341 Enter
+3,7574,298240912,-;msm_ois_config:342 msm_ois_config type 6
+3,7575,298241066,-;msm_ois_power_up:582 msm_ois_power_up called
+3,7576,298241200,-;msm_ois_power_up:591 Exit
+3,7577,298241408,-;msm_ois_config:471 Exit
+3,7578,298241544,-;msm_ois_subdev_ioctl:553 Enter
+3,7579,298241613,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
+3,7580,298241728,-;msm_ois_config:341 Enter
+3,7581,298241843,-;msm_ois_config:342 msm_ois_config type 0
+3,7582,298241907,-;msm_ois_init:210 Enter
+4,7583,298242261,-;msm_ois_init : imtech onsemi i2c shift addr 0x24!
+6,7584,298242321,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+3,7585,298242446,-;msm_ois_init:272 Exit
+3,7586,298242560,-;msm_ois_config:471 Exit
+3,7587,298244461,-;msm_ois_subdev_ioctl:553 Enter
+3,7588,298244592,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
+3,7589,298244707,-;msm_ois_config:341 Enter
+3,7590,298244824,-;msm_ois_config:342 msm_ois_config type 3
+3,7591,298244889,-;imtech_init_set_onsemi_ois Enter
+3,7592,298245003,-;imtech_init_set_onsemi_ois: ois_on! ver:0
+3,7593,298245480,-;msm_init_proxy:677 msm_init_proxy ENTER!
+3,7594,298250583,-;msm_init_proxy:683 init proxy alive!
+3,7595,298251203,-;msm_init_proxy:692 Model ID : 0xB4, REVISION ID : 0x3
+3,7596,298251320,-;msm_init_proxy:694 not calibrated!
+3,7597,298293955,-;msm_init_proxy:803 KSY module ID : 20
+3,7598,298294240,-;msm_init_proxy:815 inot read offset = -1 from eeprom
+3,7599,298300790,-;msm_proxy_thread_start:599 msm_proxy_thread_start
+3,7600,298301044,-;msm_proxy_thread_start:612 INIT_WORK done!
+3,7601,298301172,-;msm_proxy_thread_start:615 queue_work done!
+6,7602,298302917,-;msm8994_quat_mi2s_snd_shutdown: dai name qcom,msm-dai-q6-mi2s-quat.217 ffffffc0c2e00410  substream = subdevice #0  stream = 0  
+3,7603,298303228,-;msm_tcs_power_up:435 msm_tcs_power_up called
+3,7604,298303351,-;msm_tcs_power_up:443 Exit
+3,7605,298303703,-;msm_tcs_init:470 Enter
+3,7606,298330800,-;msm_tcs_init:483 exit
+3,7607,298332385,-;pause_tcs:282 pause_workqueue = 1
+3,7608,298333182,-;tcs stop Reading(CLR) 
+3,7609,298435084,-;imtech_init_set_onsemi_ois OIS_VER_RELEASE
+3,7610,298444980,-;imtech_init_set_onsemi_ois End
+3,7611,298445112,-;msm_ois_config:471 Exit
+3,7612,298482206,-;camera_v4l2_open: msm_create_command_ack_q id=1
+3,7613,298482338,-;msm_create_command_ack_q: session_id = 1, stream_id = 1
+14,7614,298526109,-;init: Received control message 'interface_start' for 'android.hardware.graphics.allocator@3.0::IAllocator/default' from pid: 365 (/system/bin/hwservicemanager)
+11,7615,298526299,-;init: Could not find 'android.hardware.graphics.allocator@3.0::IAllocator/default' for ctl.interface_start
+3,7616,298562195,-;camera_v4l2_open: msm_create_command_ack_q id=1
+3,7617,298562324,-;msm_create_command_ack_q: session_id = 1, stream_id = 2
+3,7618,298575355,-;camera_v4l2_open: msm_create_command_ack_q id=1
+3,7619,298575434,-;msm_create_command_ack_q: session_id = 1, stream_id = 3
+3,7620,298589921,-;camera_v4l2_open: msm_create_command_ack_q id=1
+3,7621,298590051,-;msm_create_command_ack_q: session_id = 1, stream_id = 4
+3,7622,298660060,-;msm_proxy_thread_restart:636 msm_proxy_thread_restart
+3,7623,298660138,-;restart_proxy:592 restart_proxy!
+3,7624,298660259,-;restart_proxy:594 pause_workqueue = 0
+31,7625,298913319,-;logd: logdr: UID=1006 GID=1006 PID=30164 n tail=50 logMask=8 pid=6334 start=0ns timeout=0ns
+31,7626,298917719,-;logd: logdr: UID=1006 GID=1006 PID=30164 n tail=50 logMask=1 pid=6334 start=0ns timeout=0ns
+31,7627,299014957,-;logd: logdr: UID=1006 GID=1006 PID=30164 n tail=0 logMask=8 pid=6334 start=0ns timeout=0ns
+31,7628,299023067,-;logd: logdr: UID=1006 GID=1006 PID=30164 n tail=0 logMask=1 pid=6334 start=0ns timeout=0ns
+14,7629,299078181,-;init: Untracked pid 30164 exited with status 0
+14,7630,299099458,-;init: Untracked pid 30166 exited with status 0
+3,7631,299100260,-;msm_isp_ioctl_compat:885 failed: invalid params 0000000000000000
+3,7632,299100445,-;msm_isp_ioctl_compat:888 failed 0000000000000000
+3,7633,299100699,-;msm_ois_subdev_ioctl:553 Enter
+3,7634,299100865,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
+3,7635,299100991,-;msm_ois_power_down:180 Enter
+6,7636,299102948,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+3,7637,299105208,-;msm_ois_power_down:202 Exit
+3,7638,299105343,-;msm_ois_close:523 Enter
+3,7639,299105413,-;msm_ois_close:539 Exit
+6,7640,299105535,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+3,7641,299105660,-;stop_proxy:572 stop_proxy!
+6,7642,299107896,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+6,7643,299110375,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
+3,7644,299163600,-;get_proxy:568 end workqueue!
+3,7645,299163848,-;stop_proxy:578 destroy_workqueue!
+3,7646,299164005,-;msm_tcs_power_down:450 Enter
+3,7647,299171568,-;get_tcs:257 end workqueue!
+3,7648,299171877,-;stop_tcs:270 destroy_workqueue!
+3,7649,299171964,-;msm_tcs_power_down:463 Exit
+3,7650,299172246,-;msm_sensor_power_down for imx234
+3,7651,299194896,-;msm_csiphy_release csiphy dev NULL / ref_count ZERO
+3,7652,299195066,-;msm_csiphy_release csiphy dev NULL / ref_count ZERO
+3,7653,299197273,-;msm_csid_release: csid invalid state 1
+3,7654,299197698,-;msm_csid_release: csid invalid state 1
+3,7655,299197876,-;msm_csid_release: csid invalid state 1
+3,7656,299198666,-;MSM-SENSOR-INIT msm_sensor_init_subdev_ioctl:119 default\x0a
+6,7657,299199002,-;MSM-CPP msm_cpp_subdev_ioctl:2648 shutdown cpp node. open cnt:1
+3,7658,299202448,-;MSM-CPP cpp_release_ion_client:695 Calling ion_client_destroy
+3,7659,299203487,-;msm_ois_close:523 Enter
+3,7660,299203920,-;msm_ois_close:539 Exit
+3,7661,299206863,-;msm_isp_close_node invalid state open cnt 0
+3,7662,299210291,-;msm_isp_close_node invalid state open cnt 0
+14,7663,299212683,-;init: Service 'qcamerasvr' (pid 6334) received signal 11
+14,7664,299213034,-;init: Sending signal 9 to service 'qcamerasvr' (pid 6334) process group...
+14,7665,299213656,-;libprocessgroup: Successfully killed process cgroup uid 1006 pid 6334 in 0ms
+14,7666,299219119,-;init: starting service 'qcamerasvr'...
+3,7667,299994535,-;msm_ois_subdev_ioctl:553 Enter
+3,7668,299994641,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
+3,7669,299994863,-;msm_ois_get_subdev_id:479 Enter
+3,7670,299994950,-;msm_ois_get_subdev_id:489 subdev_id 0
+3,7671,299995102,-;msm_ois_get_subdev_id:490 Exit
+3,7672,299995864,-;msm_ois_close:523 Enter
+3,7673,299996023,-;msm_ois_close:539 Exit
+3,7674,299996165,-;msm_proxy_get_subdev_id:145 Enter
+6,7675,299997559,-;msm_csid_init: CSID_VERSION = 0x30010000
+6,7676,300001181,-;msm_csid_init: CSID_VERSION = 0x30010000
+6,7677,300077718,-;MSM-CPP cpp_init_hardware:1106 CPP HW Version: 0x50010000
+3,7678,300077923,-;MSM-CPP cpp_init_hardware:1127 stream_cnt:0
+14,7679,300086830,-;ueventd: firmware: loading 'cpp_firmware_v1_8_0.fw' for '/devices/soc.0/fda04000.qcom,cpp/firmware/cpp_firmware_v1_8_0.fw'
+14,7680,300088513,-;ueventd: loading /devices/soc.0/fda04000.qcom,cpp/firmware/cpp_firmware_v1_8_0.fw took 1ms
+6,7681,300109039,-;MSM-CPP cpp_load_fw:1264 MC Bootloader Version: 0x312e3176
+6,7682,300115361,-;MSM-CPP cpp_load_fw:1277 CPP FW Version: 0x1008001e
+3,7683,300119992,-;MSM-CPP cpp_release_ion_client:695 Calling ion_client_destroy
+6,7684,302089205,-;[CC] [C], USB_PRESENT, WIRELESS_PRESENT, USB_TYPE, CABLE_INFO, USBIN_VOL, BATT_FAKE, BATT_TEMP, BATT_SOC, BATT_VOL, PMI_IUSB_SET, PMI_IUSB_AICL, PMI_IBAT_SET, TOTAL_IBAT_NOW
+6,7685,302089910,-;[CC] [I], 1, 0, USB, OPEN, 4392, FAKE_OFF, 23, 88, 4062, 500, 0, 2000, -53
+6,7686,302090964,-;[CC] charge_type = 3
+12,7687,302101319,-;healthd: battery l=88 v=4062 t=23.2 h=2 st=2 c=-53 chg=u
+31,7688,302873182,-;logd: logdr: UID=0 GID=0 PID=30404 n tail=0 logMask=ff pid=0 start=0ns timeout=0ns
+6,7689,304903737,-;[CC] current batt_temp[23], batt_temp_state[0], current batt_volt[4062], batt_volt_state[1]
+12,7690,305371756,-;healthd: battery l=88 v=4062 t=23.2 h=2 st=2 c=-53 chg=u
+3,7691,308624208,-;msm_post_event: Timed out
+3,7692,308624514,-;Evt_type=8002000 Evt_id=3 Evt_cmd=8000008
+3,7693,308624950,-;Evt_session_id=1 Evt_stream_id=4 Evt_arg=-1
+4,7694,308625215,-;CPU: 0 PID: 30141 Comm: C3Dev-0-ReqQueu Not tainted 3.10.108-gf6931a7b9439c8 #2
+4,7695,308625654,-;Hardware name: Qualcomm Technologies, Inc. MSM8992 P1 GLOBAL COM (DT)
+4,7696,308626088,-;Call trace:
+4,7697,308626373,-;[<ffffffc000087854>] dump_backtrace+0x0/0x244
+4,7698,308626817,-;[<ffffffc000087aa8>] show_stack+0x10/0x1c
+4,7699,308627268,-;[<ffffffc000e466fc>] dump_stack+0x1c/0x28
+4,7700,308627533,-;[<ffffffc0007d2de8>] msm_post_event+0x484/0x4dc
+4,7701,308628170,-;[<ffffffc0007d3630>] camera_v4l2_streamon+0x40/0x60
+4,7702,308628687,-;[<ffffffc00077ba44>] v4l_streamon+0x18/0x24
+4,7703,308628990,-;[<ffffffc00077f1f8>] __video_do_ioctl+0x180/0x270
+4,7704,308629440,-;[<ffffffc00077eec4>] video_usercopy+0x244/0x3dc
+4,7705,308629876,-;[<ffffffc00077f06c>] video_ioctl2+0x10/0x1c
+4,7706,308630122,-;[<ffffffc00077a924>] v4l2_ioctl+0xf0/0x130
+4,7707,308630605,-;[<ffffffc000788ff4>] do_video_ioctl+0xfbc/0x1bb0
+4,7708,308631107,-;[<ffffffc00078a1dc>] v4l2_compat_ioctl32+0x5f4/0x64c
+4,7709,308631731,-;[<ffffffc0001bf524>] compat_sys_ioctl+0x10c/0x1228
+3,7710,308632000,-;msm_shutdown_imaging_server: sending event to shutdown qcamsvr
+3,7711,308679808,-;msm_post_event:775] blocking events while restarting qcamsvr
+31,7712,308916116,-;logd: logdr: UID=1006 GID=1006 PID=30571 n tail=50 logMask=8 pid=30188 start=0ns timeout=0ns
+31,7713,308920274,-;logd: logdr: UID=1006 GID=1006 PID=30571 n tail=50 logMask=1 pid=30188 start=0ns timeout=0ns
+31,7714,308970658,-;logd: logdr: UID=1006 GID=1006 PID=30571 n tail=0 logMask=8 pid=30188 start=0ns timeout=0ns
+31,7715,308974391,-;logd: logdr: UID=1006 GID=1006 PID=30571 n tail=0 logMask=1 pid=30188 start=0ns timeout=0ns
+3,7716,308998230,-;msm_isp_ioctl_compat:885 failed: invalid params 0000000000000000
+3,7717,308998361,-;msm_isp_ioctl_compat:888 failed 0000000000000000
+3,7718,308998427,-;msm_isp_ioctl_compat:885 failed: invalid params 0000000000000000
+3,7719,308998544,-;msm_isp_ioctl_compat:888 failed 0000000000000000
+14,7720,308999383,-;init: Untracked pid 30571 exited with status 0
+6,7721,298313479,-;msm8994_quat_mi2s_snd_shutdown Quaternary MI2S Clock is Disabled
+3,7722,309000269,c;msm_flash_config:675 msm_flash_config:675 flash_state= 1 cfg_type= 1, returned!!
+3,7723,309000514,-;msm_ois_subdev_ioctl:553 Enter
+3,7724,309000679,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
+3,7725,309000814,-;msm_ois_power_down:180 Enter
+3,7726,309000955,-;msm_ois_power_down:202 Exit
+3,7727,309001840,-;msm_ois_close:523 Enter
+3,7728,309001967,-;msm_ois_close:539 Exit
+3,7729,309002039,-;msm_tcs_power_down:450 Enter
+3,7730,309002158,-;msm_tcs_power_down:463 Exit
+3,7731,309002233,-;msm_csiphy_release csiphy dev NULL / ref_count ZERO
+3,7732,309002357,-;msm_csiphy_release csiphy dev NULL / ref_count ZERO
+3,7733,309002477,-;msm_csiphy_release csiphy dev NULL / ref_count ZERO
+3,7734,309002544,-;msm_csid_release: csid invalid state 1
+3,7735,309002664,-;msm_csid_release: csid invalid state 1
+3,7736,309002731,-;msm_csid_release: csid invalid state 1
+3,7737,309002848,-;msm_csid_release: csid invalid state 1
+3,7738,309002970,-;MSM-SENSOR-INIT msm_sensor_init_subdev_ioctl:119 default\x0a
+6,7739,309003100,-;MSM-CPP msm_cpp_subdev_ioctl:2648 shutdown cpp node. open cnt:0
+3,7740,309003409,-;camera_v4l2_close: close stream_id=0
+3,7741,309003487,-;msm_post_event : msm event queue not available Line 751
+3,7742,309004201,-;msm_delete_command_ack_q: session_id = 1, stream_id = 0
+14,7743,309005556,-;init: Service 'qcamerasvr' (pid 30188) received signal 6
+14,7744,309005663,-;init: Sending signal 9 to service 'qcamerasvr' (pid 30188) process group...
+14,7745,309011436,-;libprocessgroup: Successfully killed process cgroup uid 1006 pid 30188 in 5ms
+14,7746,309013771,-;init: Untracked pid 30573 exited with status 0
+
