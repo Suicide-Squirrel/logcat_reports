@@ -1,418 +1,806 @@
-6,7330,291249005,-;android.camera[29702]: syscall 279
-4,7331,291249182,-;Code: aa0403e3 aa0503e4 aa0603e5 d4000001 (b140041f) 
-4,7332,291249278,-;CPU: 3 PID: 29702 Comm: android.camera Not tainted 3.10.108-gf6931a7b9439c8 #2
-4,7333,291249436,-;Hardware name: Qualcomm Technologies, Inc. MSM8992 P1 GLOBAL COM (DT)
-4,7334,291249594,-;task: ffffffc013e11000 ti: ffffffc03f2bc000 task.ti: ffffffc03f2bc000
-4,7335,291249751,-;PC is at 0x745c442340
-4,7336,291249958,-;LR is at 0x73db668ddc
-4,7337,291250052,-;pc : [<000000745c442340>] lr : [<00000073db668ddc>] pstate: 60000000
-4,7338,291250208,-;sp : 0000007fce82e380
-6,7339,278176009,-;msm8994_quat_mi2s_snd_shutdown Quaternary MI2S Clock is Disabled
-4,7340,291250297,c;x29: 0000007fce82e380 
-4,7341,291250524,+;x28: 000000745ff97020 
-4,7342,291250680,-;x27: 0000007fce82e430 x26: 000000745fd40cb0 
-4,7343,291250920,-;x25: 0000000000000801 x24: 0000000000000000 
-4,7344,291251157,-;x23: 000000745fde5df0 x22: 0000000004000000 
-4,7345,291251490,-;x21: 0000000000000001 x20: 000000745fde5a00 
-4,7346,291251927,-;x19: 0000007fce82e6b0 x18: 0000007460b9c000 
-4,7347,291252172,-;x17: 000000745c442320 x16: 00000073db6b4e88 
-4,7348,291252483,-;x15: 003b9aca00000000 x14: 000c713da5000000 
-4,7349,291252791,-;x13: 0000000000000000 x12: 000000745fde5a90 
-4,7350,291253031,-;x11: 0000000032010000 x10: 0000000000000000 
-4,7351,291253339,-;x9 : 4598058a58758f8f x8 : 0000000000000117 
-4,7352,291253678,-;x7 : 0000000000000000 x6 : 0000007461278000 
-4,7353,291253919,-;x5 : 0000007461278000 x4 : 00000073c97bb5da 
-4,7354,291254224,-;x3 : 00000073c97bb45a x2 : 0000007fce82e6b0 
-4,7355,291254529,-;x1 : 0000000000000000 x0 : 00000073daadaa2f 
-4,7356,291254765,-;
-3,7357,291589469,-;camera_v4l2_open: msm_create_session id=2
-3,7358,291589554,-;msm_create_command_ack_q: session_id = 2, stream_id = 0
-38,7359,291590053,-;type=1400 audit(1596129875.982:166): avc: denied { open } for comm="main" path="/dev/stune/top-app/tasks" dev="tmpfs" ino=12102 scontext=u:r:zygote:s0 tcontext=u:object_r:device:s0 tclass=file permissive=1
-38,7360,291590259,-;type=1400 audit(1596129876.334:167): avc: denied { search } for comm="mm-qcamera-daem" name="camera" dev="mmcblk0p50" ino=1340912 scontext=u:r:mmqcamd:s0 tcontext=u:object_r:camera_data_file:s0 tclass=dir permissive=1
-6,7361,291592373,-;msm_csid_init: CSID_VERSION = 0x30010000
-6,7362,291612247,-;MSM-CPP cpp_init_hardware:1106 CPP HW Version: 0x50010000
-3,7363,291612387,-;MSM-CPP cpp_init_hardware:1127 stream_cnt:0
-14,7364,291623352,-;ueventd: firmware: loading 'cpp_firmware_v1_8_0.fw' for '/devices/soc.0/fda04000.qcom,cpp/firmware/cpp_firmware_v1_8_0.fw'
-14,7365,291624239,-;ueventd: loading /devices/soc.0/fda04000.qcom,cpp/firmware/cpp_firmware_v1_8_0.fw took 1ms
-6,7366,291627094,-;msm_cci_init:879: hw_version = 0x10020001
-3,7367,291627490,-;msm_sensor_match_id: read id: 0x1490 expected id 0x1490:
-3,7368,291627682,-;msm_sensor_power_up for t4ka3
-6,7369,291643646,-;MSM-CPP cpp_load_fw:1264 MC Bootloader Version: 0x312e3176
-6,7370,291650012,-;MSM-CPP cpp_load_fw:1277 CPP FW Version: 0x1008001e
-6,7371,291671800,-;msm8994_quat_mi2s_snd_shutdown: dai name qcom,msm-dai-q6-mi2s-quat.217 ffffffc0c2e00410  substream = subdevice #0  stream = 0  
-3,7372,291839590,-;camera_v4l2_close: close stream_id=0
-3,7373,291841091,-;msm_post_event : timeout cannot be negative Line 805
-3,7374,291841234,-;msm_delete_command_ack_q: session_id = 2, stream_id = 0
-3,7375,291841367,-;msm_destroy_session: session_id = 2
-3,7376,291879393,-;CAM_PREVIEW_TUNE_OFF
-3,7377,291880204,-;msm_sensor_power_down for t4ka3
-3,7378,291893919,-;camera_v4l2_open: msm_create_session id=1
-3,7379,291894093,-;msm_create_command_ack_q: session_id = 1, stream_id = 0
-3,7380,291895864,-;MSM-CPP cpp_release_ion_client:695 Calling ion_client_destroy
-6,7381,291911603,-;msm_csid_init: CSID_VERSION = 0x30010000
-6,7382,291933577,-;MSM-CPP cpp_init_hardware:1106 CPP HW Version: 0x50010000
-3,7383,291933727,-;MSM-CPP cpp_init_hardware:1127 stream_cnt:0
-14,7384,291946258,-;ueventd: firmware: loading 'cpp_firmware_v1_8_0.fw' for '/devices/soc.0/fda04000.qcom,cpp/firmware/cpp_firmware_v1_8_0.fw'
-14,7385,291947799,-;ueventd: loading /devices/soc.0/fda04000.qcom,cpp/firmware/cpp_firmware_v1_8_0.fw took 1ms
-6,7386,291969659,-;MSM-CPP cpp_load_fw:1264 MC Bootloader Version: 0x312e3176
-6,7387,291975045,-;msm_cci_init:879: hw_version = 0x10020001
-3,7388,291975381,-;msm_sensor_match_id: read id: 0x240 expected id 0x240:
-3,7389,291975509,-;msm_sensor_power_up for imx234
-6,7390,291975596,-;MSM-CPP cpp_load_fw:1277 CPP FW Version: 0x1008001e
-6,7391,291986880,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-6,7392,291989459,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-3,7393,291990271,-;msm_ois_subdev_ioctl:553 Enter
-3,7394,291990362,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
-3,7395,291990522,-;msm_ois_config:341 Enter
-3,7396,291990651,-;msm_ois_config:342 msm_ois_config type 6
-3,7397,291990779,-;msm_ois_power_up:582 msm_ois_power_up called
-3,7398,291990852,-;msm_ois_power_up:591 Exit
-3,7399,291990979,-;msm_ois_config:471 Exit
-3,7400,291991057,-;msm_ois_subdev_ioctl:553 Enter
-3,7401,291991186,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
-3,7402,291991313,-;msm_ois_config:341 Enter
-3,7403,291991385,-;msm_ois_config:342 msm_ois_config type 0
-3,7404,291991511,-;msm_ois_init:210 Enter
-4,7405,291991964,-;msm_ois_init : imtech onsemi i2c shift addr 0x24!
-3,7406,291992097,-;msm_ois_init:272 Exit
-6,7407,291992136,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-3,7408,291992292,-;msm_ois_config:471 Exit
-3,7409,291994096,-;msm_init_proxy:677 msm_init_proxy ENTER!
-3,7410,291994221,-;msm_ois_subdev_ioctl:553 Enter
-3,7411,291994227,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
-3,7412,291994230,-;msm_ois_config:341 Enter
-3,7413,291994232,-;msm_ois_config:342 msm_ois_config type 3
-3,7414,291994235,-;imtech_init_set_onsemi_ois Enter
-3,7415,291994237,-;imtech_init_set_onsemi_ois: ois_on! ver:0
-6,7416,291994515,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-3,7417,291995308,-;msm_init_proxy:683 init proxy alive!
-3,7418,292088036,-;msm_init_proxy:692 Model ID : 0xB4, REVISION ID : 0x3
-3,7419,292088976,-;msm_init_proxy:694 not calibrated!
-3,7420,292136279,-;imtech_init_set_onsemi_ois OIS_VER_RELEASE
-3,7421,292147690,-;msm_init_proxy:803 KSY module ID : 20
-3,7422,292148038,-;msm_init_proxy:815 inot read offset = -1 from eeprom
-3,7423,292160247,-;imtech_init_set_onsemi_ois End
-3,7424,292160461,-;msm_proxy_thread_start:599 msm_proxy_thread_start
-3,7425,292160542,-;msm_ois_config:471 Exit
-3,7426,292160919,-;msm_proxy_thread_start:612 INIT_WORK done!
-3,7427,292161073,-;msm_proxy_thread_start:615 queue_work done!
-3,7428,292162176,-;msm_tcs_power_up:435 msm_tcs_power_up called
-3,7429,292162317,-;msm_tcs_power_up:443 Exit
-3,7430,292162407,-;msm_tcs_init:470 Enter
-3,7431,292163800,-;msm_tcs_init:483 exit
-3,7432,292164933,-;pause_tcs:282 pause_workqueue = 1
-3,7433,292165387,-;tcs stop Reading(CLR) 
-3,7434,292316849,-;camera_v4l2_close: close stream_id=0
-3,7435,292318861,-;msm_post_event : timeout cannot be negative Line 805
-3,7436,292319028,-;msm_delete_command_ack_q: session_id = 1, stream_id = 0
-3,7437,292319109,-;msm_destroy_session: session_id = 1
-3,7438,292348530,-;msm_proxy_thread_end:622 msm_proxy_thread_end
-3,7439,292348660,-;stop_proxy:572 stop_proxy!
-3,7440,292365956,-;MSM-CPP cpp_release_ion_client:695 Calling ion_client_destroy
-3,7441,292407595,-;get_proxy:568 end workqueue!
-3,7442,292407836,-;stop_proxy:578 destroy_workqueue!
-3,7443,292415616,-;get_tcs:257 end workqueue!
-3,7444,292415898,-;stop_tcs:270 destroy_workqueue!
-3,7445,292415993,-;msm_tcs_power_down:450 Enter
-3,7446,292416111,-;msm_tcs_power_down:463 Exit
-3,7447,292416866,-;stop_proxy:572 stop_proxy!
-3,7448,292417027,-;msm_ois_subdev_ioctl:553 Enter
-3,7449,292417097,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
-3,7450,292417214,-;msm_ois_config:341 Enter
-3,7451,292417330,-;msm_ois_config:342 msm_ois_config type 2
-3,7452,292417396,-;msm_ois_power_down:180 Enter
-3,7453,292418208,-;msm_ois_power_down:202 Exit
-3,7454,292418336,-;msm_ois_config:471 Exit
-3,7455,292418829,-;msm_ois_close:523 Enter
-3,7456,292418961,-;msm_ois_close:539 Exit
-3,7457,292427023,-;CAM_PREVIEW_TUNE_OFF
-3,7458,292427110,-;msm_sensor_power_down for imx234
-6,7459,292428571,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-6,7460,292431698,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-6,7461,292434368,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-6,7462,292440193,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-3,7463,294908275,-;[Touch] 1 finger pressed: <0> x[ 816] y[2296] z[ 54]
-3,7464,294998183,-;[Touch] touch_release[ ]: <0> x[ 815] y[2294]
-6,7465,295042732,-;msm8994_quat_mi2s_snd_startup: dai name qcom,msm-dai-q6-mi2s-quat.217 ffffffc0c2e00410  substream = subdevice #0  stream = 0 bit width =2 sample rate =48000  
-3,7466,295113424,-;camera_v4l2_open: msm_create_session id=1
-3,7467,295113554,-;msm_create_command_ack_q: session_id = 1, stream_id = 0
-6,7468,295116970,-;msm_csid_init: CSID_VERSION = 0x30010000
-6,7469,295148003,-;MSM-CPP cpp_init_hardware:1106 CPP HW Version: 0x50010000
-3,7470,295148148,-;MSM-CPP cpp_init_hardware:1127 stream_cnt:0
-14,7471,295162618,-;ueventd: firmware: loading 'cpp_firmware_v1_8_0.fw' for '/devices/soc.0/fda04000.qcom,cpp/firmware/cpp_firmware_v1_8_0.fw'
-14,7472,295163431,-;ueventd: loading /devices/soc.0/fda04000.qcom,cpp/firmware/cpp_firmware_v1_8_0.fw took 0ms
-6,7473,295181053,-;msm_cci_init:879: hw_version = 0x10020001
-3,7474,295181455,-;msm_sensor_match_id: read id: 0x240 expected id 0x240:
-3,7475,295181530,-;msm_sensor_power_up for imx234
-6,7476,295187637,-;MSM-CPP cpp_load_fw:1264 MC Bootloader Version: 0x312e3176
-6,7477,295192682,-;MSM-CPP cpp_load_fw:1277 CPP FW Version: 0x1008001e
-6,7478,295192767,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-6,7479,295195495,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-3,7480,295197928,-;msm_ois_subdev_ioctl:553 Enter
-3,7481,295198060,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
-3,7482,295198178,-;msm_ois_config:341 Enter
-3,7483,295198243,-;msm_ois_config:342 msm_ois_config type 6
-3,7484,295198360,-;msm_ois_power_up:582 msm_ois_power_up called
-3,7485,295198425,-;msm_ois_power_up:591 Exit
-3,7486,295198491,-;msm_ois_config:471 Exit
-3,7487,295198647,-;msm_ois_subdev_ioctl:553 Enter
-6,7488,295198695,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-3,7489,295198859,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
-3,7490,295198977,-;msm_ois_config:341 Enter
-3,7491,295199042,-;msm_ois_config:342 msm_ois_config type 0
-3,7492,295199158,-;msm_ois_init:210 Enter
-4,7493,295199892,-;msm_ois_init : imtech onsemi i2c shift addr 0x24!
-3,7494,295199969,-;msm_ois_init:272 Exit
-3,7495,295200086,-;msm_ois_config:471 Exit
-6,7496,295201069,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-3,7497,295201855,-;msm_init_proxy:677 msm_init_proxy ENTER!
-3,7498,295202353,-;msm_init_proxy:683 init proxy alive!
-3,7499,295203504,-;msm_init_proxy:692 Model ID : 0xB4, REVISION ID : 0x3
-3,7500,295203784,-;msm_init_proxy:694 not calibrated!
-3,7501,295206947,-;msm_ois_subdev_ioctl:553 Enter
-3,7502,295207032,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
-3,7503,295207148,-;msm_ois_config:341 Enter
-3,7504,295207266,-;msm_ois_config:342 msm_ois_config type 3
-3,7505,295207339,-;imtech_init_set_onsemi_ois Enter
-3,7506,295207462,-;imtech_init_set_onsemi_ois: ois_on! ver:0
-3,7507,295219874,-;msm_init_proxy:803 KSY module ID : 20
-3,7508,295220274,-;msm_init_proxy:815 inot read offset = -1 from eeprom
-3,7509,295226318,-;msm_proxy_thread_start:599 msm_proxy_thread_start
-3,7510,295226580,-;msm_proxy_thread_start:612 INIT_WORK done!
-3,7511,295226658,-;msm_proxy_thread_start:615 queue_work done!
-3,7512,295227665,-;msm_tcs_power_up:435 msm_tcs_power_up called
-3,7513,295227737,-;msm_tcs_power_up:443 Exit
-3,7514,295227872,-;msm_tcs_init:470 Enter
-3,7515,295243165,-;msm_tcs_init:483 exit
-3,7516,295244635,-;pause_tcs:282 pause_workqueue = 1
-3,7517,295246020,-;tcs stop Reading(CLR) 
-3,7518,295365075,-;camera_v4l2_close: close stream_id=0
-3,7519,295366715,-;msm_post_event : timeout cannot be negative Line 805
-3,7520,295366812,-;msm_delete_command_ack_q: session_id = 1, stream_id = 0
-3,7521,295366932,-;msm_destroy_session: session_id = 1
-3,7522,295383704,-;imtech_init_set_onsemi_ois OIS_VER_RELEASE
-3,7523,295393692,-;imtech_init_set_onsemi_ois End
-3,7524,295393834,-;msm_ois_config:471 Exit
-3,7525,295394375,-;msm_proxy_thread_end:622 msm_proxy_thread_end
-3,7526,295394500,-;stop_proxy:572 stop_proxy!
-3,7527,295405365,-;MSM-CPP cpp_release_ion_client:695 Calling ion_client_destroy
-3,7528,295435644,-;get_proxy:568 end workqueue!
-3,7529,295435868,-;stop_proxy:578 destroy_workqueue!
-3,7530,295447618,-;get_tcs:257 end workqueue!
-3,7531,295447843,-;stop_tcs:270 destroy_workqueue!
-3,7532,295447944,-;msm_tcs_power_down:450 Enter
-3,7533,295448062,-;msm_tcs_power_down:463 Exit
-3,7534,295448647,-;stop_proxy:572 stop_proxy!
-3,7535,295448743,-;msm_ois_subdev_ioctl:553 Enter
-3,7536,295448870,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
-3,7537,295448988,-;msm_ois_config:341 Enter
-3,7538,295449135,-;msm_ois_config:342 msm_ois_config type 2
-3,7539,295449338,-;msm_ois_power_down:180 Enter
-3,7540,295450112,-;msm_ois_power_down:202 Exit
-3,7541,295450236,-;msm_ois_config:471 Exit
-3,7542,295450736,-;msm_ois_close:523 Enter
-3,7543,295450864,-;msm_ois_close:539 Exit
-3,7544,295453247,-;CAM_PREVIEW_TUNE_OFF
-3,7545,295453383,-;msm_sensor_power_down for imx234
-6,7546,295454665,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-6,7547,295457121,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-6,7548,295459712,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-6,7549,295462208,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-6,7550,295535189,-;msm8994_quat_mi2s_snd_shutdown: dai name qcom,msm-dai-q6-mi2s-quat.217 ffffffc0c2e00410  substream = subdevice #0  stream = 0  
-6,7551,291693016,-;msm8994_quat_mi2s_snd_shutdown Quaternary MI2S Clock is Disabled
-6,7552,295556207,c;msm8994_quat_mi2s_snd_shutdown Quaternary MI2S Clock is Disabled
-3,7553,297674746,-;[Touch] 1 finger pressed: <0> x[1187] y[1357] z[ 51]
-3,7554,297747706,-;[Touch] touch_release[ ]: <0> x[1187] y[1353]
-6,7555,297830790,-;msm8994_quat_mi2s_snd_startup: dai name qcom,msm-dai-q6-mi2s-quat.217 ffffffc0c2e00410  substream = subdevice #0  stream = 0 bit width =2 sample rate =48000  
-3,7556,298081404,-;camera_v4l2_open: msm_create_session id=1
-3,7557,298081487,-;msm_create_command_ack_q: session_id = 1, stream_id = 0
-6,7558,298096285,-;msm_csid_init: CSID_VERSION = 0x30010000
-6,7559,298153438,-;MSM-CPP cpp_init_hardware:1106 CPP HW Version: 0x50010000
-3,7560,298153532,-;MSM-CPP cpp_init_hardware:1127 stream_cnt:0
-14,7561,298172166,-;ueventd: firmware: loading 'cpp_firmware_v1_8_0.fw' for '/devices/soc.0/fda04000.qcom,cpp/firmware/cpp_firmware_v1_8_0.fw'
-14,7562,298173400,-;ueventd: loading /devices/soc.0/fda04000.qcom,cpp/firmware/cpp_firmware_v1_8_0.fw took 2ms
-6,7563,298193667,-;MSM-CPP cpp_load_fw:1264 MC Bootloader Version: 0x312e3176
-6,7564,298199612,-;MSM-CPP cpp_load_fw:1277 CPP FW Version: 0x1008001e
-6,7565,298220078,-;msm_cci_init:879: hw_version = 0x10020001
-3,7566,298220741,-;msm_sensor_match_id: read id: 0x240 expected id 0x240:
-3,7567,298220817,-;msm_sensor_power_up for imx234
-6,7568,298232096,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-6,7569,298234583,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-3,7570,298239436,-;msm_ois_subdev_ioctl:553 Enter
-6,7571,298239825,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-3,7572,298240722,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
-3,7573,298240846,-;msm_ois_config:341 Enter
-3,7574,298240912,-;msm_ois_config:342 msm_ois_config type 6
-3,7575,298241066,-;msm_ois_power_up:582 msm_ois_power_up called
-3,7576,298241200,-;msm_ois_power_up:591 Exit
-3,7577,298241408,-;msm_ois_config:471 Exit
-3,7578,298241544,-;msm_ois_subdev_ioctl:553 Enter
-3,7579,298241613,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
-3,7580,298241728,-;msm_ois_config:341 Enter
-3,7581,298241843,-;msm_ois_config:342 msm_ois_config type 0
-3,7582,298241907,-;msm_ois_init:210 Enter
-4,7583,298242261,-;msm_ois_init : imtech onsemi i2c shift addr 0x24!
-6,7584,298242321,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-3,7585,298242446,-;msm_ois_init:272 Exit
-3,7586,298242560,-;msm_ois_config:471 Exit
-3,7587,298244461,-;msm_ois_subdev_ioctl:553 Enter
-3,7588,298244592,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
-3,7589,298244707,-;msm_ois_config:341 Enter
-3,7590,298244824,-;msm_ois_config:342 msm_ois_config type 3
-3,7591,298244889,-;imtech_init_set_onsemi_ois Enter
-3,7592,298245003,-;imtech_init_set_onsemi_ois: ois_on! ver:0
-3,7593,298245480,-;msm_init_proxy:677 msm_init_proxy ENTER!
-3,7594,298250583,-;msm_init_proxy:683 init proxy alive!
-3,7595,298251203,-;msm_init_proxy:692 Model ID : 0xB4, REVISION ID : 0x3
-3,7596,298251320,-;msm_init_proxy:694 not calibrated!
-3,7597,298293955,-;msm_init_proxy:803 KSY module ID : 20
-3,7598,298294240,-;msm_init_proxy:815 inot read offset = -1 from eeprom
-3,7599,298300790,-;msm_proxy_thread_start:599 msm_proxy_thread_start
-3,7600,298301044,-;msm_proxy_thread_start:612 INIT_WORK done!
-3,7601,298301172,-;msm_proxy_thread_start:615 queue_work done!
-6,7602,298302917,-;msm8994_quat_mi2s_snd_shutdown: dai name qcom,msm-dai-q6-mi2s-quat.217 ffffffc0c2e00410  substream = subdevice #0  stream = 0  
-3,7603,298303228,-;msm_tcs_power_up:435 msm_tcs_power_up called
-3,7604,298303351,-;msm_tcs_power_up:443 Exit
-3,7605,298303703,-;msm_tcs_init:470 Enter
-3,7606,298330800,-;msm_tcs_init:483 exit
-3,7607,298332385,-;pause_tcs:282 pause_workqueue = 1
-3,7608,298333182,-;tcs stop Reading(CLR) 
-3,7609,298435084,-;imtech_init_set_onsemi_ois OIS_VER_RELEASE
-3,7610,298444980,-;imtech_init_set_onsemi_ois End
-3,7611,298445112,-;msm_ois_config:471 Exit
-3,7612,298482206,-;camera_v4l2_open: msm_create_command_ack_q id=1
-3,7613,298482338,-;msm_create_command_ack_q: session_id = 1, stream_id = 1
-14,7614,298526109,-;init: Received control message 'interface_start' for 'android.hardware.graphics.allocator@3.0::IAllocator/default' from pid: 365 (/system/bin/hwservicemanager)
-11,7615,298526299,-;init: Could not find 'android.hardware.graphics.allocator@3.0::IAllocator/default' for ctl.interface_start
-3,7616,298562195,-;camera_v4l2_open: msm_create_command_ack_q id=1
-3,7617,298562324,-;msm_create_command_ack_q: session_id = 1, stream_id = 2
-3,7618,298575355,-;camera_v4l2_open: msm_create_command_ack_q id=1
-3,7619,298575434,-;msm_create_command_ack_q: session_id = 1, stream_id = 3
-3,7620,298589921,-;camera_v4l2_open: msm_create_command_ack_q id=1
-3,7621,298590051,-;msm_create_command_ack_q: session_id = 1, stream_id = 4
-3,7622,298660060,-;msm_proxy_thread_restart:636 msm_proxy_thread_restart
-3,7623,298660138,-;restart_proxy:592 restart_proxy!
-3,7624,298660259,-;restart_proxy:594 pause_workqueue = 0
-31,7625,298913319,-;logd: logdr: UID=1006 GID=1006 PID=30164 n tail=50 logMask=8 pid=6334 start=0ns timeout=0ns
-31,7626,298917719,-;logd: logdr: UID=1006 GID=1006 PID=30164 n tail=50 logMask=1 pid=6334 start=0ns timeout=0ns
-31,7627,299014957,-;logd: logdr: UID=1006 GID=1006 PID=30164 n tail=0 logMask=8 pid=6334 start=0ns timeout=0ns
-31,7628,299023067,-;logd: logdr: UID=1006 GID=1006 PID=30164 n tail=0 logMask=1 pid=6334 start=0ns timeout=0ns
-14,7629,299078181,-;init: Untracked pid 30164 exited with status 0
-14,7630,299099458,-;init: Untracked pid 30166 exited with status 0
-3,7631,299100260,-;msm_isp_ioctl_compat:885 failed: invalid params 0000000000000000
-3,7632,299100445,-;msm_isp_ioctl_compat:888 failed 0000000000000000
-3,7633,299100699,-;msm_ois_subdev_ioctl:553 Enter
-3,7634,299100865,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
-3,7635,299100991,-;msm_ois_power_down:180 Enter
-6,7636,299102948,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-3,7637,299105208,-;msm_ois_power_down:202 Exit
-3,7638,299105343,-;msm_ois_close:523 Enter
-3,7639,299105413,-;msm_ois_close:539 Exit
-6,7640,299105535,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-3,7641,299105660,-;stop_proxy:572 stop_proxy!
-6,7642,299107896,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-6,7643,299110375,-;SMBCHG: smbchg_otg_pulse_skip_disable: enabling pulse skip, reason 2
-3,7644,299163600,-;get_proxy:568 end workqueue!
-3,7645,299163848,-;stop_proxy:578 destroy_workqueue!
-3,7646,299164005,-;msm_tcs_power_down:450 Enter
-3,7647,299171568,-;get_tcs:257 end workqueue!
-3,7648,299171877,-;stop_tcs:270 destroy_workqueue!
-3,7649,299171964,-;msm_tcs_power_down:463 Exit
-3,7650,299172246,-;msm_sensor_power_down for imx234
-3,7651,299194896,-;msm_csiphy_release csiphy dev NULL / ref_count ZERO
-3,7652,299195066,-;msm_csiphy_release csiphy dev NULL / ref_count ZERO
-3,7653,299197273,-;msm_csid_release: csid invalid state 1
-3,7654,299197698,-;msm_csid_release: csid invalid state 1
-3,7655,299197876,-;msm_csid_release: csid invalid state 1
-3,7656,299198666,-;MSM-SENSOR-INIT msm_sensor_init_subdev_ioctl:119 default\x0a
-6,7657,299199002,-;MSM-CPP msm_cpp_subdev_ioctl:2648 shutdown cpp node. open cnt:1
-3,7658,299202448,-;MSM-CPP cpp_release_ion_client:695 Calling ion_client_destroy
-3,7659,299203487,-;msm_ois_close:523 Enter
-3,7660,299203920,-;msm_ois_close:539 Exit
-3,7661,299206863,-;msm_isp_close_node invalid state open cnt 0
-3,7662,299210291,-;msm_isp_close_node invalid state open cnt 0
-14,7663,299212683,-;init: Service 'qcamerasvr' (pid 6334) received signal 11
-14,7664,299213034,-;init: Sending signal 9 to service 'qcamerasvr' (pid 6334) process group...
-14,7665,299213656,-;libprocessgroup: Successfully killed process cgroup uid 1006 pid 6334 in 0ms
-14,7666,299219119,-;init: starting service 'qcamerasvr'...
-3,7667,299994535,-;msm_ois_subdev_ioctl:553 Enter
-3,7668,299994641,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
-3,7669,299994863,-;msm_ois_get_subdev_id:479 Enter
-3,7670,299994950,-;msm_ois_get_subdev_id:489 subdev_id 0
-3,7671,299995102,-;msm_ois_get_subdev_id:490 Exit
-3,7672,299995864,-;msm_ois_close:523 Enter
-3,7673,299996023,-;msm_ois_close:539 Exit
-3,7674,299996165,-;msm_proxy_get_subdev_id:145 Enter
-6,7675,299997559,-;msm_csid_init: CSID_VERSION = 0x30010000
-6,7676,300001181,-;msm_csid_init: CSID_VERSION = 0x30010000
-6,7677,300077718,-;MSM-CPP cpp_init_hardware:1106 CPP HW Version: 0x50010000
-3,7678,300077923,-;MSM-CPP cpp_init_hardware:1127 stream_cnt:0
-14,7679,300086830,-;ueventd: firmware: loading 'cpp_firmware_v1_8_0.fw' for '/devices/soc.0/fda04000.qcom,cpp/firmware/cpp_firmware_v1_8_0.fw'
-14,7680,300088513,-;ueventd: loading /devices/soc.0/fda04000.qcom,cpp/firmware/cpp_firmware_v1_8_0.fw took 1ms
-6,7681,300109039,-;MSM-CPP cpp_load_fw:1264 MC Bootloader Version: 0x312e3176
-6,7682,300115361,-;MSM-CPP cpp_load_fw:1277 CPP FW Version: 0x1008001e
-3,7683,300119992,-;MSM-CPP cpp_release_ion_client:695 Calling ion_client_destroy
-6,7684,302089205,-;[CC] [C], USB_PRESENT, WIRELESS_PRESENT, USB_TYPE, CABLE_INFO, USBIN_VOL, BATT_FAKE, BATT_TEMP, BATT_SOC, BATT_VOL, PMI_IUSB_SET, PMI_IUSB_AICL, PMI_IBAT_SET, TOTAL_IBAT_NOW
-6,7685,302089910,-;[CC] [I], 1, 0, USB, OPEN, 4392, FAKE_OFF, 23, 88, 4062, 500, 0, 2000, -53
-6,7686,302090964,-;[CC] charge_type = 3
-12,7687,302101319,-;healthd: battery l=88 v=4062 t=23.2 h=2 st=2 c=-53 chg=u
-31,7688,302873182,-;logd: logdr: UID=0 GID=0 PID=30404 n tail=0 logMask=ff pid=0 start=0ns timeout=0ns
-6,7689,304903737,-;[CC] current batt_temp[23], batt_temp_state[0], current batt_volt[4062], batt_volt_state[1]
-12,7690,305371756,-;healthd: battery l=88 v=4062 t=23.2 h=2 st=2 c=-53 chg=u
-3,7691,308624208,-;msm_post_event: Timed out
-3,7692,308624514,-;Evt_type=8002000 Evt_id=3 Evt_cmd=8000008
-3,7693,308624950,-;Evt_session_id=1 Evt_stream_id=4 Evt_arg=-1
-4,7694,308625215,-;CPU: 0 PID: 30141 Comm: C3Dev-0-ReqQueu Not tainted 3.10.108-gf6931a7b9439c8 #2
-4,7695,308625654,-;Hardware name: Qualcomm Technologies, Inc. MSM8992 P1 GLOBAL COM (DT)
-4,7696,308626088,-;Call trace:
-4,7697,308626373,-;[<ffffffc000087854>] dump_backtrace+0x0/0x244
-4,7698,308626817,-;[<ffffffc000087aa8>] show_stack+0x10/0x1c
-4,7699,308627268,-;[<ffffffc000e466fc>] dump_stack+0x1c/0x28
-4,7700,308627533,-;[<ffffffc0007d2de8>] msm_post_event+0x484/0x4dc
-4,7701,308628170,-;[<ffffffc0007d3630>] camera_v4l2_streamon+0x40/0x60
-4,7702,308628687,-;[<ffffffc00077ba44>] v4l_streamon+0x18/0x24
-4,7703,308628990,-;[<ffffffc00077f1f8>] __video_do_ioctl+0x180/0x270
-4,7704,308629440,-;[<ffffffc00077eec4>] video_usercopy+0x244/0x3dc
-4,7705,308629876,-;[<ffffffc00077f06c>] video_ioctl2+0x10/0x1c
-4,7706,308630122,-;[<ffffffc00077a924>] v4l2_ioctl+0xf0/0x130
-4,7707,308630605,-;[<ffffffc000788ff4>] do_video_ioctl+0xfbc/0x1bb0
-4,7708,308631107,-;[<ffffffc00078a1dc>] v4l2_compat_ioctl32+0x5f4/0x64c
-4,7709,308631731,-;[<ffffffc0001bf524>] compat_sys_ioctl+0x10c/0x1228
-3,7710,308632000,-;msm_shutdown_imaging_server: sending event to shutdown qcamsvr
-3,7711,308679808,-;msm_post_event:775] blocking events while restarting qcamsvr
-31,7712,308916116,-;logd: logdr: UID=1006 GID=1006 PID=30571 n tail=50 logMask=8 pid=30188 start=0ns timeout=0ns
-31,7713,308920274,-;logd: logdr: UID=1006 GID=1006 PID=30571 n tail=50 logMask=1 pid=30188 start=0ns timeout=0ns
-31,7714,308970658,-;logd: logdr: UID=1006 GID=1006 PID=30571 n tail=0 logMask=8 pid=30188 start=0ns timeout=0ns
-31,7715,308974391,-;logd: logdr: UID=1006 GID=1006 PID=30571 n tail=0 logMask=1 pid=30188 start=0ns timeout=0ns
-3,7716,308998230,-;msm_isp_ioctl_compat:885 failed: invalid params 0000000000000000
-3,7717,308998361,-;msm_isp_ioctl_compat:888 failed 0000000000000000
-3,7718,308998427,-;msm_isp_ioctl_compat:885 failed: invalid params 0000000000000000
-3,7719,308998544,-;msm_isp_ioctl_compat:888 failed 0000000000000000
-14,7720,308999383,-;init: Untracked pid 30571 exited with status 0
-6,7721,298313479,-;msm8994_quat_mi2s_snd_shutdown Quaternary MI2S Clock is Disabled
-3,7722,309000269,c;msm_flash_config:675 msm_flash_config:675 flash_state= 1 cfg_type= 1, returned!!
-3,7723,309000514,-;msm_ois_subdev_ioctl:553 Enter
-3,7724,309000679,-;msm_ois_subdev_ioctl:554 msm_ois_subdev_ioctl:554 o_ctrl 0000000000000000 argp 0000000000000000
-3,7725,309000814,-;msm_ois_power_down:180 Enter
-3,7726,309000955,-;msm_ois_power_down:202 Exit
-3,7727,309001840,-;msm_ois_close:523 Enter
-3,7728,309001967,-;msm_ois_close:539 Exit
-3,7729,309002039,-;msm_tcs_power_down:450 Enter
-3,7730,309002158,-;msm_tcs_power_down:463 Exit
-3,7731,309002233,-;msm_csiphy_release csiphy dev NULL / ref_count ZERO
-3,7732,309002357,-;msm_csiphy_release csiphy dev NULL / ref_count ZERO
-3,7733,309002477,-;msm_csiphy_release csiphy dev NULL / ref_count ZERO
-3,7734,309002544,-;msm_csid_release: csid invalid state 1
-3,7735,309002664,-;msm_csid_release: csid invalid state 1
-3,7736,309002731,-;msm_csid_release: csid invalid state 1
-3,7737,309002848,-;msm_csid_release: csid invalid state 1
-3,7738,309002970,-;MSM-SENSOR-INIT msm_sensor_init_subdev_ioctl:119 default\x0a
-6,7739,309003100,-;MSM-CPP msm_cpp_subdev_ioctl:2648 shutdown cpp node. open cnt:0
-3,7740,309003409,-;camera_v4l2_close: close stream_id=0
-3,7741,309003487,-;msm_post_event : msm event queue not available Line 751
-3,7742,309004201,-;msm_delete_command_ack_q: session_id = 1, stream_id = 0
-14,7743,309005556,-;init: Service 'qcamerasvr' (pid 30188) received signal 6
-14,7744,309005663,-;init: Sending signal 9 to service 'qcamerasvr' (pid 30188) process group...
-14,7745,309011436,-;libprocessgroup: Successfully killed process cgroup uid 1006 pid 30188 in 5ms
-14,7746,309013771,-;init: Untracked pid 30573 exited with status 0
-
+08-04 17:30:22.843  6955  6955 I android.camera: The ClassLoaderContext is a special shared library.
+08-04 17:30:22.849   517  1589 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10099 pid=1671
+08-04 17:30:22.850   517  1589 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10099 => denied (1209 us)
+08-04 17:30:22.864  6955  6955 V CAM_Profiler: [  0.000ms][ui] GUARD: CameraApp onCreate() - START
+08-04 17:30:22.866  6955  6955 V CAM_Profiler: [  0.000ms][ui] GUARD: FirstRunDetector getTimeOfFirstRun - START
+08-04 17:30:22.869  6955  6955 V CAM_Profiler: [  2.882ms][ui] GUARD: FirstRunDetector getTimeOfFirstRun - [ 2.882ms] PreferenceManager.getDefaultSharedPreferences
+08-04 17:30:22.874  6955  6955 V CAM_Profiler: [  5.488ms][ui] GUARD: FirstRunDetector getTimeOfFirstRun - [ 2.606ms] preferences.getLong
+08-04 17:30:22.874  6955  6955 V CAM_Profiler: [  8.786ms][ui] GUARD: FirstRunDetector getTimeOfFirstRun - STOP
+08-04 17:30:22.876  6955  6955 V CAM_Profiler: [ 13.014ms][ui] GUARD: CameraApp onCreate() - [13.014ms] initializeTimeOfFirstRun
+08-04 17:30:22.877  6955  6955 V CAM_Profiler: [ 14.114ms][ui] GUARD: CameraApp onCreate() - [ 1.100ms] UsageStatistics.initialize
+08-04 17:30:22.879  6955  6955 V CAM_Profiler: [ 16.525ms][ui] GUARD: CameraApp onCreate() - [ 2.411ms] clearNotifications
+08-04 17:30:22.880  6955  6955 I CAM_Profiler: [ 16.525ms][ui] GUARD: CameraApp onCreate() - STOP
+08-04 17:30:22.910  6955  6955 V CAM_QuickActivity: START onCreate: Activity = com.android.camera.CameraActivity@5ea19db
+08-04 17:30:22.911  6955  6955 V CAM_Profiler: [  0.000ms][ui] GUARD: CameraActivity.onCreateTasks - START
+08-04 17:30:22.914  6955  6955 D CAM_LocationManager: Using LegacyLocationProvider
+08-04 17:30:22.959   517   517 E RenderEngine: GL error 0x0501
+08-04 17:30:22.975   517   517 E RenderEngine: GL error 0x0501
+08-04 17:30:23.036  6955  6955 D CAM_MemoryManagerImpl: Max native memory: 537 MB
+08-04 17:30:23.044  6955  6955 I CAM_OneCamFtrCnfgCrtr: CaptureModule? true
+08-04 17:30:23.068  6955  6955 I CAM_Profiler: [156.926ms][ui] GUARD: CameraActivity.onCreateTasks - [16.612ms] Glide.setup
+08-04 17:30:23.073  6955  6955 D CAM_Camera2OneCamMgr: Getting First BACK Camera
+08-04 17:30:23.075  6955  6955 I CameraManagerGlobal: Connecting to camera service
+08-04 17:30:23.082  5277  6351 W ServiceManager: Permission failure: android.permission.CAMERA_OPEN_CLOSE_LISTENER from uid=10102 pid=6955
+08-04 17:30:23.089  6955  6955 D CAM_Camera2OneCamMgr: Getting First FRONT Camera
+08-04 17:30:23.100  6955  6955 I CAM_Profiler: [188.109ms][ui] GUARD: CameraActivity.onCreateTasks - [31.184ms] OneCameraManager.get
+08-04 17:30:23.113  6955  6955 V CAM_SettingsManager: listeners: [com.android.camera.CameraActivity@5ea19db]
+08-04 17:30:23.131  6955  6955 V CAM_Profiler: [219.265ms][ui] GUARD: CameraActivity.onCreateTasks - [14.307ms] computePictureSizes
+08-04 17:30:23.182   474  1263 D audio_hw_primary: out_standby: enter: stream (0xe6a4f000) usecase(1: low-latency-playback)
+08-04 17:30:23.191  6955  6955 W CAM_Log : Tag RoundedThumbnailView is 1 chars longer than limit.
+08-04 17:30:23.242   474  1263 D audio_hw_primary: disable_audio_route: reset and update mixer path: low-latency-playback speaker
+08-04 17:30:23.244   474  1263 D hardware_info: hw_info_append_hw_type : device_name = speaker
+08-04 17:30:23.245   474  1263 D audio_hw_primary: disable_snd_device: snd_device(2: speaker)
+08-04 17:30:23.284  1329  1329 D ImageWallpaper: wallpaper visibility changes to: false
+08-04 17:30:23.291   517   517 E Layer   : [Surface(name=AppWindowToken{75594e3 token=Token{2f2c512 ActivityRecord{4461f74 u0 com.android.launcher3/.lineage.LineageLauncher t2}}})/@0xaf271e3 - animation-leash#0] No local sync point found
+08-04 17:30:23.292   517   517 I chatty  : uid=1000(system) /system/bin/surfaceflinger identical 1 line
+08-04 17:30:23.292   517   517 E Layer   : [Surface(name=AppWindowToken{75594e3 token=Token{2f2c512 ActivityRecord{4461f74 u0 com.android.launcher3/.lineage.LineageLauncher t2}}})/@0xaf271e3 - animation-leash#0] No local sync point found
+08-04 17:30:23.293   517   517 E Layer   : [Surface(name=AppWindowToken{35c8e65 token=Token{3af8b5c ActivityRecord{32315cf u0 com.android.camera2/com.android.camera.CameraLauncher t3}}})/@0xcb9f9db - animation-leash#0] No local sync point found
+08-04 17:30:23.293   517   517 I chatty  : uid=1000(system) /system/bin/surfaceflinger identical 1 line
+08-04 17:30:23.293   517   517 E Layer   : [Surface(name=AppWindowToken{35c8e65 token=Token{3af8b5c ActivityRecord{32315cf u0 com.android.camera2/com.android.camera.CameraLauncher t3}}})/@0xcb9f9db - animation-leash#0] No local sync point found
+08-04 17:30:23.308   517   517 E Layer   : [Surface(name=AppWindowToken{75594e3 token=Token{2f2c512 ActivityRecord{4461f74 u0 com.android.launcher3/.lineage.LineageLauncher t2}}})/@0xaf271e3 - animation-leash#0] No local sync point found
+08-04 17:30:23.308   517   517 E Layer   : [Surface(name=AppWindowToken{35c8e65 token=Token{3af8b5c ActivityRecord{32315cf u0 com.android.camera2/com.android.camera.CameraLauncher t3}}})/@0xcb9f9db - animation-leash#0] No local sync point found
+08-04 17:30:23.413  6955  6955 I CAM_Profiler: [501.830ms][ui] GUARD: CameraActivity.onCreateTasks - [277.091ms] setContentView()
+08-04 17:30:23.442  6955  6955 I CAM_Profiler: [530.216ms][ui] GUARD: CameraActivity.onCreateTasks - [28.386ms] Configure Camera UI
+08-04 17:30:23.457  6955  6955 V CAM_CameraController: Closing camera
+08-04 17:30:23.459  6955  6981 W CAM2PORT_AndCamAgntImp: Releasing camera without any camera opened.
+08-04 17:30:23.459  6955  6955 V CAM_ModulesInfo: EnableCaptureModule = true
+08-04 17:30:23.462  6955  6955 V CAM_Profiler: [  0.000ms][ui] GUARD: new CaptureModule - START
+08-04 17:30:23.467  6955  6955 V CAM_Profiler: [  4.703ms][ui] GUARD: new CaptureModule - STOP
+08-04 17:30:23.467  6955  6955 V CAM_SettingsManager: listeners: [com.android.camera.CameraActivity@5ea19db, com.android.camera.app.CameraAppUI@8fe7085]
+08-04 17:30:23.485  6955  6955 V CAM_SettingsManager: listeners: [com.android.camera.CameraActivity@5ea19db, com.android.camera.app.CameraAppUI@8fe7085, com.android.camera.ButtonManager@c95cea6]
+08-04 17:30:23.486  6955  6955 V CAM_SettingsManager: listeners: [com.android.camera.CameraActivity@5ea19db, com.android.camera.app.CameraAppUI@8fe7085, com.android.camera.ButtonManager@c95cea6, com.android.camera.widget.IndicatorIconController@ca9b494]
+08-04 17:30:23.487  6955  6955 I CAM_Profiler: [575.319ms][ui] GUARD: CameraActivity.onCreateTasks - [19.254ms] Init Current Module UI
+08-04 17:30:23.488  6955  6955 V CAM_Profiler: [  0.000ms][ui] GUARD: CaptureModule.init - START
+08-04 17:30:23.488  6955  6955 D CAM_CaptureModule: init UseAutotransformUiLayout = false
+08-04 17:30:23.489  6955  6955 D CAM_Camera2OneCamMgr: Getting First BACK Camera
+08-04 17:30:23.492  6955  6955 D CAM_Camera2OneCamMgr: Getting First FRONT Camera
+08-04 17:30:23.519  6955  6955 I CAM_Profiler: [ 31.370ms][ui] GUARD: CaptureModule.init - STOP
+08-04 17:30:23.520  6955  6955 I CAM_Profiler: [608.789ms][ui] GUARD: CameraActivity.onCreateTasks - [33.469ms] Init CurrentModule
+08-04 17:30:23.544  6955  6955 I CAM_Profiler: [632.017ms][ui] GUARD: CameraActivity.onCreateTasks - STOP
+08-04 17:30:23.544  6955  6955 V CAM_QuickActivity: END onCreate: Activity = com.android.camera.CameraActivity@5ea19db
+08-04 17:30:23.556  6955  6955 V CAM_QuickActivity: START onStart: Activity = com.android.camera.CameraActivity@5ea19db
+08-04 17:30:23.565  6955  6955 V CAM_QuickActivity: END onStart: Activity = com.android.camera.CameraActivity@5ea19db
+08-04 17:30:23.568  6955  6955 V CAM_QuickActivity: START onResume: Activity = com.android.camera.CameraActivity@5ea19db
+08-04 17:30:23.569  6955  6955 V CAM_QuickActivity: onResume(): isKeyguardLocked() = false
+08-04 17:30:23.570  6955  6955 V CAM_QuickActivity: onResume --> onResumeTasks()
+08-04 17:30:23.572  6955  6955 V CAM_Profiler: [  0.000ms][ui] GUARD: CameraActivity.resume - START
+08-04 17:30:23.573  6955  6955 V CAM_CameraActivity: Build info: lineage_h815-userdebug 10 QQ3A.200705.002 eng.kessar.20200804.122306 test-keys
+08-04 17:30:23.584  6955  6955 V CAM_Profiler: [  0.000ms][ui] GUARD: CaptureModule.resume - START
+08-04 17:30:23.585  6955  6994 D CAM_Storage: External storage state=mounted
+08-04 17:30:23.585  6955  6955 V CAM_Profiler: [  1.569ms][ui] GUARD: CaptureModule.resume - [ 0.034ms] getRemoteShutterListener.onModuleReady
+08-04 17:30:23.582  6955  6990 V CAM_CameraDataAdapter: retrieved photo metadata, number of items: 0
+08-04 17:30:23.587  6955  6990 V CAM_CameraDataAdapter: retrieved video metadata, number of items: 0
+08-04 17:30:23.588  6955  6990 V CAM_CameraDataAdapter: sorting video/photo metadata
+08-04 17:30:23.588  6955  6990 V CAM_CameraDataAdapter: sorted video/photo metadata
+08-04 17:30:23.598  6955  6992 D CCodec  : allocate(c2.android.vorbis.decoder)
+08-04 17:30:23.598  6955  6991 D CCodec  : allocate(c2.android.vorbis.decoder)
+08-04 17:30:23.605  6955  6991 I Codec2Client: Available Codec2 services: "software"
+08-04 17:30:23.606  6955  6991 I Codec2Client: Creating a Codec2 client to service "software"
+08-04 17:30:23.606   947  1664 D sensors_hal_SMGR: batch:sensor(android.sensor.magnetic_field) sample_rate=5.000000Hz report_rate_f=0.000000Hz curr sample rate:0.000000 cur rpt rate:0 max:100.000000 min:1.000000
+08-04 17:30:23.606   947  1664 D sensors_hal_SMGR: enable:sensor(android.sensor.magnetic_field) handle 10, freq=5.000000 report_rate=0 batched=0
+08-04 17:30:23.607   947  1664 D sensors_hal_SMGR: SMGRPrepareAddMsg sample_rate 5.000000 report_rate 327680 subhz_sample_rate_ms 0 sample_rate_hz 5
+08-04 17:30:23.607   947  1664 D sensors_hal_SMGR: SMGRPrepareAddMsg:sensor android.sensor.magnetic_field 
+08-04 17:30:23.609  6955  6991 I Codec2Client: Client to Codec2 service "software" created
+08-04 17:30:23.609   947  1126 D sensors_hal: flushSendCmplt: handle=0
+08-04 17:30:23.610   947  1196 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:0, x:0.000000 y:0.000000 z:9566168065947904877949085148172517376.000000
+08-04 17:30:23.611   705  1793 V C2Store : in init
+08-04 17:30:23.611   947  1664 D sensors_hal_SMGR: SMGRReportAdd: Received Response: 0
+08-04 17:30:23.611   705  1793 V C2Store : loading dll
+08-04 17:30:23.613  6955  6955 V CAM_Profiler: [ 29.145ms][ui] GUARD: CaptureModule.resume - [ 8.808ms] mHeadingSensor.activate()
+08-04 17:30:23.614  6955  6955 I CAM_Profiler: [ 29.145ms][ui] GUARD: CaptureModule.resume - STOP
+08-04 17:30:23.615  6955  6955 I CAM_Profiler: [ 42.186ms][ui] GUARD: CameraActivity.resume - [30.985ms] mCurrentModule.resume
+08-04 17:30:23.616  6955  6992 I CCodec  : Created component [c2.android.vorbis.decoder]
+08-04 17:30:23.616  6955  6991 I CCodec  : Created component [c2.android.vorbis.decoder]
+08-04 17:30:23.617  6955  6955 V CAM_Profiler: [ 44.337ms][ui] GUARD: CameraActivity.resume - [ 0.040ms] mPanoramaViewHelper.onResume()
+08-04 17:30:23.617  6955  6992 D CCodecConfig: read media type: audio/vorbis
+08-04 17:30:23.618  6955  6955 V CAM_LcyLocProvider: starting location updates
+08-04 17:30:23.618  6955  6991 D CCodecConfig: read media type: audio/vorbis
+08-04 17:30:23.621   947  1126 V sensors_hal_Mag: processReportInd:sensor android.sensor.magnetic_field 
+08-04 17:30:23.622   947  1126 V sensors_hal_Mag: processReportInd: Cal Mag Filter, 0, 1, 2.163696, -4.426575, -44.973755, 2.163696, -4.426575, -44.973755, 2.163696, -4.426575, -44.973755
+08-04 17:30:23.622  6955  6955 D CAM_LcyLocProvider: provider does not exist provider doesn't exist: network
+08-04 17:30:23.622   947  1196 D sensors_hal_Ctx: poll:polldata:1, sensor:10, type:2, x:2.163696 y:-4.426575 z:-44.973755
+08-04 17:30:23.622  6955  6992 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+08-04 17:30:23.623  6955  6991 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+08-04 17:30:23.624  6955  6991 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+08-04 17:30:23.625  6955  6991 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+08-04 17:30:23.625  6955  6955 D CAM_LcyLocProvider: startReceivingLocationUpdates
+08-04 17:30:23.626  6955  6955 I CAM_Profiler: [ 53.387ms][ui] GUARD: CameraActivity.resume - STOP
+08-04 17:30:23.626  6955  6991 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+08-04 17:30:23.627  6955  6991 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+08-04 17:30:23.627  6955  6991 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+08-04 17:30:23.627  6955  6992 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+08-04 17:30:23.628   947  1048 E LocSvc_eng: I/===> loc_eng_set_position_mode line 2089 
+08-04 17:30:23.628   947  1048 E LocSvc_eng: I/===> loc_eng_start line 1970 
+08-04 17:30:23.629   947  1464 E LocSvc_api_v02: I/---> locClientSendReq line 2059 QMI_LOC_REG_EVENTS_REQ_V02
+08-04 17:30:23.629  6955  6992 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+08-04 17:30:23.629  6955  6991 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+08-04 17:30:23.630  6955  6992 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+08-04 17:30:23.631  6955  6992 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+08-04 17:30:23.632  6955  6992 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+08-04 17:30:23.633  6955  6992 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+08-04 17:30:23.633  6955  6991 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+08-04 17:30:23.634  6955  6955 V CAM_QuickActivity: END onResume: Activity = com.android.camera.CameraActivity@5ea19db
+08-04 17:30:23.634  6955  6991 D CCodecConfig: c2 config diff is Dict {
+08-04 17:30:23.634  6955  6991 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+08-04 17:30:23.634  6955  6991 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+08-04 17:30:23.634  6955  6991 D CCodecConfig:   c2::u32 input.delay.value = 0
+08-04 17:30:23.634  6955  6991 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+08-04 17:30:23.634  6955  6991 D CCodecConfig:   string output.media-type.value = "audio/raw"
+08-04 17:30:23.634  6955  6991 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+08-04 17:30:23.634  6955  6991 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+08-04 17:30:23.634  6955  6991 D CCodecConfig: }
+08-04 17:30:23.635  6955  6992 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+08-04 17:30:23.635  6955  6991 D CCodecConfig: no c2 equivalents for durationUs
+08-04 17:30:23.635  6955  6992 D CCodecConfig: c2 config diff is Dict {
+08-04 17:30:23.635  6955  6992 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+08-04 17:30:23.635  6955  6992 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+08-04 17:30:23.635  6955  6992 D CCodecConfig:   c2::u32 input.delay.value = 0
+08-04 17:30:23.635  6955  6992 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+08-04 17:30:23.635  6955  6992 D CCodecConfig:   string output.media-type.value = "audio/raw"
+08-04 17:30:23.635  6955  6992 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+08-04 17:30:23.635  6955  6992 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+08-04 17:30:23.635  6955  6992 D CCodecConfig: }
+08-04 17:30:23.636  6955  6991 D CCodecConfig: no c2 equivalents for csd-1
+08-04 17:30:23.636  6955  6991 D CCodecConfig: no c2 equivalents for track-id
+08-04 17:30:23.637  6955  6991 D CCodecConfig: no c2 equivalents for channel-mask
+08-04 17:30:23.637  6955  6992 D CCodecConfig: no c2 equivalents for durationUs
+08-04 17:30:23.637  6955  6992 D CCodecConfig: no c2 equivalents for csd-1
+08-04 17:30:23.638  6955  6992 D CCodecConfig: no c2 equivalents for track-id
+08-04 17:30:23.638  6955  6991 D CCodecConfig: c2 config diff is   c2::u32 raw.channel-count.value = 2
+08-04 17:30:23.638  6955  6992 D CCodecConfig: no c2 equivalents for channel-mask
+08-04 17:30:23.639  6955  6991 W Codec2Client: query -- param skipped: index = 1107298332.
+08-04 17:30:23.640  6955  6992 D CCodecConfig: c2 config diff is   c2::u32 raw.channel-count.value = 2
+08-04 17:30:23.640  6955  6992 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+08-04 17:30:23.640  6955  6991 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+08-04 17:30:23.640  6955  6991 D CCodec  :   int32_t channel-count = 2
+08-04 17:30:23.640  6955  6991 D CCodec  :   int32_t max-input-size = 32768
+08-04 17:30:23.640  6955  6991 D CCodec  :   string mime = "audio/vorbis"
+08-04 17:30:23.640  6955  6991 D CCodec  :   int32_t sample-rate = 48000
+08-04 17:30:23.640  6955  6991 D CCodec  : } and output: AMessage(what = 0x00000000) = {
+08-04 17:30:23.640  6955  6991 D CCodec  :   int32_t channel-count = 2
+08-04 17:30:23.640  6955  6991 D CCodec  :   string mime = "audio/raw"
+08-04 17:30:23.640  6955  6991 D CCodec  :   int32_t sample-rate = 48000
+08-04 17:30:23.640  6955  6991 D CCodec  :   int32_t channel-mask = 3
+08-04 17:30:23.640  6955  6991 D CCodec  : }
+08-04 17:30:23.641  6955  6992 W Codec2Client: query -- param skipped: index = 1107298332.
+08-04 17:30:23.641  6955  6992 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+08-04 17:30:23.641  6955  6992 D CCodec  :   int32_t channel-count = 2
+08-04 17:30:23.641  6955  6992 D CCodec  :   int32_t max-input-size = 32768
+08-04 17:30:23.641  6955  6992 D CCodec  :   string mime = "audio/vorbis"
+08-04 17:30:23.641  6955  6992 D CCodec  :   int32_t sample-rate = 44100
+08-04 17:30:23.641  6955  6992 D CCodec  : } and output: AMessage(what = 0x00000000) = {
+08-04 17:30:23.641  6955  6992 D CCodec  :   int32_t channel-count = 2
+08-04 17:30:23.641  6955  6992 D CCodec  :   string mime = "audio/raw"
+08-04 17:30:23.641  6955  6992 D CCodec  :   int32_t sample-rate = 44100
+08-04 17:30:23.641  6955  6992 D CCodec  :   int32_t channel-mask = 3
+08-04 17:30:23.641  6955  6992 D CCodec  : }
+08-04 17:30:23.642  6955  6991 W Codec2Client: query -- param skipped: index = 1342179345.
+08-04 17:30:23.643  6955  6991 W Codec2Client: query -- param skipped: index = 2415921170.
+08-04 17:30:23.643   947  1464 E LocSvc_api_v02: I/---> locClientSendReq line 2059 QMI_LOC_SET_OPERATION_MODE_REQ_V02
+08-04 17:30:23.645  6955  6992 W Codec2Client: query -- param skipped: index = 1342179345.
+08-04 17:30:23.645  6955  6992 W Codec2Client: query -- param skipped: index = 2415921170.
+08-04 17:30:23.647  6955  6991 D CCodecBufferChannel: [c2.android.vorbis.decoder#824] Created input block pool with allocatorID 16 => poolID 17 - OK (0)
+08-04 17:30:23.648  6955  6992 D CCodecBufferChannel: [c2.android.vorbis.decoder#918] Created input block pool with allocatorID 16 => poolID 18 - OK (0)
+08-04 17:30:23.650   947  1920 E LocSvc_ApiV02: I/<--- void globalRespCb(locClientHandleType, uint32_t, const locClientRespIndUnionType, uint32_t, void *) line 133 QMI_LOC_SET_OPERATION_MODE_REQ_V02
+08-04 17:30:23.650   947  1464 E LocSvc_api_v02: I/---> locClientSendReq line 2059 QMI_LOC_START_REQ_V02
+08-04 17:30:23.650  1329  1815 D BufferPoolAccessor: bufferpool2 0x6f984b2820 : 0(0 size) total buffers - 0(0 size) used buffers - 3/9 (recycle/alloc) - 6/36 (fetch/transfer)
+08-04 17:30:23.651   947  1267 D BufferPoolAccessor: bufferpool2 0x6f07dfc420 : 0(0 size) total buffers - 0(0 size) used buffers - 2/9 (recycle/alloc) - 9/18 (fetch/transfer)
+08-04 17:30:23.651  1329  1815 D BufferPoolAccessor: Destruction - bufferpool2 0x6f984b2820 cached: 0/0M, 0/0% in use; allocs: 9, 33% recycled; transfers: 36, 83% unfetced
+08-04 17:30:23.652   947  1267 D BufferPoolAccessor: Destruction - bufferpool2 0x6f07dfc420 cached: 0/0M, 0/0% in use; allocs: 9, 22% recycled; transfers: 18, 50% unfetced
+08-04 17:30:23.652  1329  1815 D BufferPoolAccessor: bufferpool2 0x6f824a5e20 : 0(0 size) total buffers - 0(0 size) used buffers - 2/9 (recycle/alloc) - 7/38 (fetch/transfer)
+08-04 17:30:23.652   947  1267 D BufferPoolAccessor: bufferpool2 0x6f07dfc620 : 0(0 size) total buffers - 0(0 size) used buffers - 2/9 (recycle/alloc) - 9/20 (fetch/transfer)
+08-04 17:30:23.652  1329  1815 D BufferPoolAccessor: Destruction - bufferpool2 0x6f824a5e20 cached: 0/0M, 0/0% in use; allocs: 9, 22% recycled; transfers: 38, 82% unfetced
+08-04 17:30:23.653   947  1267 D BufferPoolAccessor: Destruction - bufferpool2 0x6f07dfc620 cached: 0/0M, 0/0% in use; allocs: 9, 22% recycled; transfers: 20, 55% unfetced
+08-04 17:30:23.653  1329  1815 D BufferPoolAccessor: bufferpool2 0x6f984de020 : 0(0 size) total buffers - 0(0 size) used buffers - 2/9 (recycle/alloc) - 7/18 (fetch/transfer)
+08-04 17:30:23.653   947  1266 D BufferPoolAccessor: bufferpool2 0x6f06084220 : 0(0 size) total buffers - 0(0 size) used buffers - 2/9 (recycle/alloc) - 7/20 (fetch/transfer)
+08-04 17:30:23.653   947  1818 D BufferPoolAccessor: bufferpool2 0x6f1f95c020 : 0(0 size) total buffers - 0(0 size) used buffers - 2/9 (recycle/alloc) - 7/34 (fetch/transfer)
+08-04 17:30:23.654  6955  6991 I CCodecBufferChannel: [c2.android.vorbis.decoder#824] Created output block pool with allocatorID 16 => poolID 26 - OK
+08-04 17:30:23.654  6955  6955 V CAM_FocusController: configurePreviewDimensions(RectF(0.0, 0.0, 0.0, 0.0))
+08-04 17:30:23.654  1329  1815 D BufferPoolAccessor: Destruction - bufferpool2 0x6f984de020 cached: 0/0M, 0/0% in use; allocs: 9, 22% recycled; transfers: 18, 61% unfetced
+08-04 17:30:23.655  6955  6955 V CAM_CameraActivity: ignoring storage callback after activity pause
+08-04 17:30:23.656  6955  6991 D CCodecBufferChannel: [c2.android.vorbis.decoder#824] Configured output block pool ids 26 => OK
+08-04 17:30:23.656   947  1266 D BufferPoolAccessor: Destruction - bufferpool2 0x6f06084220 cached: 0/0M, 0/0% in use; allocs: 9, 22% recycled; transfers: 20, 65% unfetced
+08-04 17:30:23.657  6955  6991 E ion     : ioctl c0044901 failed with code -1: Invalid argument
+08-04 17:30:23.657   947  1266 D BufferPoolAccessor: bufferpool2 0x6f97000e20 : 0(0 size) total buffers - 0(0 size) used buffers - 3/9 (recycle/alloc) - 6/34 (fetch/transfer)
+08-04 17:30:23.657  6955  6993 D CAM_MemoryQuery: timestamp=217087, availMem=1904, totalMem=2819, totalPSS=20, lastTrimLevel=0, largeMemoryClass=768, nativePSS=10, dalvikPSS=2, otherPSS=7,threshold=216, lowMemory=false
+08-04 17:30:23.658   947  1266 D BufferPoolAccessor: Destruction - bufferpool2 0x6f97000e20 cached: 0/0M, 0/0% in use; allocs: 9, 33% recycled; transfers: 34, 82% unfetced
+08-04 17:30:23.658  6955  6992 I CCodecBufferChannel: [c2.android.vorbis.decoder#918] Created output block pool with allocatorID 16 => poolID 27 - OK
+08-04 17:30:23.659  6955  6992 D CCodecBufferChannel: [c2.android.vorbis.decoder#918] Configured output block pool ids 27 => OK
+08-04 17:30:23.661   705  6999 D SimpleC2Component: Using output block pool with poolID 26 => got 26 - 0
+08-04 17:30:23.662   947  1818 D BufferPoolAccessor: Destruction - bufferpool2 0x6f1f95c020 cached: 0/0M, 0/0% in use; allocs: 9, 22% recycled; transfers: 34, 79% unfetced
+08-04 17:30:23.665   947  1267 D BufferPoolAccessor: bufferpool2 0x6f06084020 : 0(0 size) total buffers - 0(0 size) used buffers - 2/9 (recycle/alloc) - 7/34 (fetch/transfer)
+08-04 17:30:23.666   705  6998 D SimpleC2Component: Using output block pool with poolID 27 => got 27 - 0
+08-04 17:30:23.669   947  1267 D BufferPoolAccessor: Destruction - bufferpool2 0x6f06084020 cached: 0/0M, 0/0% in use; allocs: 9, 22% recycled; transfers: 34, 79% unfetced
+08-04 17:30:23.695  6955  6976 I Adreno  : QUALCOMM build                   : d3015e9, I25dc76dc3f
+08-04 17:30:23.695  6955  6976 I Adreno  : Build Date                       : 01/26/17
+08-04 17:30:23.695  6955  6976 I Adreno  : OpenGL ES Shader Compiler Version: XE031.09.00.03
+08-04 17:30:23.695  6955  6976 I Adreno  : Local Branch                     : 
+08-04 17:30:23.695  6955  6976 I Adreno  : Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.BF64.1.2.3_RB1.07.00.00.258.011
+08-04 17:30:23.695  6955  6976 I Adreno  : Remote Branch                    : NONE
+08-04 17:30:23.695  6955  6976 I Adreno  : Reconstruct Branch               : NOTHING
+08-04 17:30:23.697  6955  6955 V CAM_TexViewHelper: onLayoutChange
+08-04 17:30:23.699  6955  6955 V CAM_TexViewHelper: updateTransform
+08-04 17:30:23.700  6955  6955 V CAM_TexViewHelper: setAspectRatio: 0.0
+08-04 17:30:23.701  6955  6955 D CAM_CaptureModule: updatePreviewTransform: 1440 x 2392
+08-04 17:30:23.708  6955  6955 V CAM_TexViewHelper: setAspectRatio: NaN
+08-04 17:30:23.709  6955  6955 V CAM_TexViewHelper: aspect ratio changed from: 0.0
+08-04 17:30:23.732  6955  6955 V CAM_TexViewHelper: updateTransform
+08-04 17:30:23.733  6955  6955 V CAM_CameraAppUI: SurfaceTexture is available
+08-04 17:30:23.734  6955  6955 D CAM_CaptureModule: onSurfaceTextureAvailable
+08-04 17:30:23.734  6955  6955 D CAM_CaptureModule: updatePreviewTransform: 1440 x 2392
+08-04 17:30:23.738  6955  6955 V CAM_TexViewHelper: setAspectRatio: NaN
+08-04 17:30:23.738  6955  6955 V CAM_TexViewHelper: aspect ratio changed from: NaN
+08-04 17:30:23.740   947  1126 V sensors_hal_Mag: processReportInd:sensor android.sensor.magnetic_field 
+08-04 17:30:23.740  6955  6955 I CAM_FocusRingView: Computing center via view bounds.
+08-04 17:30:23.740   947  1126 V sensors_hal_Mag: processReportInd: Cal Mag Filter, 0, 1, 3.607178, -4.426575, -45.668030, 3.607178, -4.426575, -45.668030, 3.607178, -4.426575, -45.668030
+08-04 17:30:23.740  6955  6993 V CAM_Profiler: [  0.000ms] GUARD: CaptureModule.closeCamera() - START
+08-04 17:30:23.741   947  1196 D sensors_hal_Ctx: poll:polldata:1, sensor:10, type:2, x:3.607178 y:-4.426575 z:-45.668030
+08-04 17:30:23.742  6955  6993 V CAM_Profiler: [  1.707ms] GUARD: CaptureModule.closeCamera() - [ 1.707ms] mCameraOpenCloseLock.acquire()
+08-04 17:30:23.743  6955  6993 V CAM_Profiler: [  2.665ms] GUARD: CaptureModule.closeCamera() - STOP
+08-04 17:30:23.745  6955  6993 V CAM_Profiler: [  0.000ms] GUARD: CaptureModule.openCameraAndStartPreview() - START
+08-04 17:30:23.746  6955  6993 V CAM_Profiler: [  1.132ms] GUARD: CaptureModule.openCameraAndStartPreview() - [ 1.132ms] Acquired mCameraOpenCloseLock
+08-04 17:30:23.752  6955  6976 W Gralloc3: mapper 3.x is not supported
+08-04 17:30:23.759  6955  6993 I CAM_OneCamera1Opnr: Opening Camera: CameraId{Api2='0',Api1:0}
+08-04 17:30:23.760  6955  6993 V CAM_ActvCamDevTrckr: Tracking active camera: null
+08-04 17:30:23.763   947  1196 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-3.069992 y:5.303986 z:7.587555
+08-04 17:30:23.771  5277  5277 I CameraService: CameraService::connect call (PID -1 "com.android.camera2", camera ID 0) for HAL version default and Camera API version 2
+08-04 17:30:23.775  5277  5277 I Camera2ClientBase: Camera 0: Opened. Client: com.android.camera2 (PID 6955, UID 10102)
+08-04 17:30:23.775  5277  5277 I CameraDeviceClient: CameraDeviceClient 0: Opened
+08-04 17:30:23.782   947  1196 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-3.125488 y:5.369446 z:7.704163
+08-04 17:30:23.786   474   474 D audio_hw_primary: adev_set_parameters: enter: cameraFacing=back
+08-04 17:30:23.790   474   474 D audio_hw_extn: audio_extn_set_anc_parameters: anc_enabled:0
+08-04 17:30:23.791   474   474 E soundtrigger: audio_extn_sound_trigger_set_parameters: str_params NULL
+08-04 17:30:23.796  6358  6358 D mm-camera: mct: mct_controller_new: Creating new mct_controller with session-id 1
+08-04 17:30:23.799   705   705 V C2Store : in ~ComponentModule
+08-04 17:30:23.800   705   705 V C2Store : unloading dll
+08-04 17:30:23.802  6358  7004 D mm-camera: mct: mct_pipeline_start_session_thread: E sensor
+08-04 17:30:23.810  6358  7005 D mm-camera: mct: mct_pipeline_start_session_thread: E iface
+08-04 17:30:23.815  6955  7006 D CCodec  : allocate(c2.android.vorbis.decoder)
+08-04 17:30:23.818   705  1786 V C2Store : in init
+08-04 17:30:23.819   705  1786 V C2Store : loading dll
+08-04 17:30:23.823  6955  7006 I CCodec  : Created component [c2.android.vorbis.decoder]
+08-04 17:30:23.824  6955  7006 D CCodecConfig: read media type: audio/vorbis
+08-04 17:30:23.830  6955  7006 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+08-04 17:30:23.831  6955  7006 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+08-04 17:30:23.832  6955  7006 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+08-04 17:30:23.833  6955  7006 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+08-04 17:30:23.834  6955  7006 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+08-04 17:30:23.836  6955  7006 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+08-04 17:30:23.836   947  1056 I ActivityTaskManager: Displayed com.android.camera2/com.android.camera.CameraLauncher: +1s155ms
+08-04 17:30:23.838  6358  7005 D mm-camera: mct: mct_pipeline_start_session_thread: X isp
+08-04 17:30:23.840  6358  7007 D mm-camera: mct: mct_pipeline_start_session_thread: E isp
+08-04 17:30:23.840  6358  7007 E mm-camera-isp2: isp_module_start_session:174 session id 1
+08-04 17:30:23.840  6955  7006 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+08-04 17:30:23.841   947  1196 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-3.160416 y:5.409241 z:7.650543
+08-04 17:30:23.844  6955  7006 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+08-04 17:30:23.846  6955  7006 D CCodecConfig: c2 config diff is Dict {
+08-04 17:30:23.846  6955  7006 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+08-04 17:30:23.846  6955  7006 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+08-04 17:30:23.846  6955  7006 D CCodecConfig:   c2::u32 input.delay.value = 0
+08-04 17:30:23.846  6955  7006 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+08-04 17:30:23.846  6955  7006 D CCodecConfig:   string output.media-type.value = "audio/raw"
+08-04 17:30:23.846  6955  7006 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+08-04 17:30:23.846  6955  7006 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+08-04 17:30:23.846  6955  7006 D CCodecConfig: }
+08-04 17:30:23.847  6358  7004 E mm-camera: module_sensor_init_session:1245eeprom_name = imx234_eeprom
+08-04 17:30:23.847  6955  7006 D CCodecConfig: no c2 equivalents for durationUs
+08-04 17:30:23.848  6955  7006 D CCodecConfig: no c2 equivalents for csd-1
+08-04 17:30:23.848  6955  7006 D CCodecConfig: no c2 equivalents for track-id
+08-04 17:30:23.849  6955  7006 D CCodecConfig: no c2 equivalents for channel-mask
+08-04 17:30:23.850  6955  7006 D CCodecConfig: c2 config diff is   c2::u32 raw.channel-count.value = 2
+08-04 17:30:23.850  6955  7006 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+08-04 17:30:23.851  6358  7010 D mm-camera: mct: mct_pipeline_start_session_thread: E stats
+08-04 17:30:23.853  6955  7006 W Codec2Client: query -- param skipped: index = 1107298332.
+08-04 17:30:23.854  6955  7006 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+08-04 17:30:23.854  6955  7006 D CCodec  :   int32_t channel-count = 2
+08-04 17:30:23.854  6955  7006 D CCodec  :   int32_t max-input-size = 32768
+08-04 17:30:23.854  6955  7006 D CCodec  :   string mime = "audio/vorbis"
+08-04 17:30:23.854  6955  7006 D CCodec  :   int32_t sample-rate = 44100
+08-04 17:30:23.854  6955  7006 D CCodec  : } and output: AMessage(what = 0x00000000) = {
+08-04 17:30:23.854  6955  7006 D CCodec  :   int32_t channel-count = 2
+08-04 17:30:23.854  6955  7006 D CCodec  :   string mime = "audio/raw"
+08-04 17:30:23.854  6955  7006 D CCodec  :   int32_t sample-rate = 44100
+08-04 17:30:23.854  6955  7006 D CCodec  :   int32_t channel-mask = 3
+08-04 17:30:23.854  6955  7006 D CCodec  : }
+08-04 17:30:23.856  6955  7006 W Codec2Client: query -- param skipped: index = 1342179345.
+08-04 17:30:23.857  6955  7006 W Codec2Client: query -- param skipped: index = 2415921170.
+08-04 17:30:23.857  6358  7012 D mm-camera: mct: mct_pipeline_start_session_thread: E pproc
+08-04 17:30:23.858  6955  6955 V CAM_CameraDataAdapter: new photos query return num items: 0
+08-04 17:30:23.859  6358  7010 E mm-camera: tcc_init: TCC ver.150418a
+08-04 17:30:23.859  6955  7006 D CCodecBufferChannel: [c2.android.vorbis.decoder#782] Created input block pool with allocatorID 16 => poolID 19 - OK (0)
+08-04 17:30:23.860  6358  7010 E mm-camera: q3a_port_init aecawb data: 0xeeae5f28 hal_version 3
+08-04 17:30:23.863  6358  7010 I libsensor1: sensor1_init_once: Setting log level to 5
+08-04 17:30:23.863  6358  7014 D mm-camera: mct: mct_pipeline_start_session_thread: E imglib
+08-04 17:30:23.863  6955  7006 I CCodecBufferChannel: [c2.android.vorbis.decoder#782] Created output block pool with allocatorID 16 => poolID 28 - OK
+08-04 17:30:23.864  6955  7006 D CCodecBufferChannel: [c2.android.vorbis.decoder#782] Configured output block pool ids 28 => OK
+08-04 17:30:23.867   705  7008 D SimpleC2Component: Using output block pool with poolID 28 => got 28 - 0
+08-04 17:30:23.868  6358  7014 E mm-camera: module_faceproc_start_session:1844] session cnt 1
+08-04 17:30:23.869  6358  7007 D mm-camera: mct: mct_pipeline_start_session_thread: X imglib
+08-04 17:30:23.880  6955  6955 V CAM_FocusController: configurePreviewDimensions(RectF(NaN, NaN, NaN, NaN))
+08-04 17:30:23.881  6955  6955 I CAM_FocusRingView: Computing center via view bounds.
+08-04 17:30:23.882  6358  7010 E mm-camera: sensor_laser_init:144  HW module: id: sensors name: STMicroelectronics VL53L0 sensor module
+08-04 17:30:23.882  6955  6955 V CAM_FocusController: configurePreviewDimensions(RectF(NaN, NaN, NaN, NaN))
+08-04 17:30:23.882  6358  7010 E Sensors : openInput
+08-04 17:30:23.883  6955  6955 I CAM_FocusRingView: Computing center via view bounds.
+08-04 17:30:23.884  6955  6955 V CAM_FocusController: configurePreviewDimensions(RectF(NaN, NaN, NaN, NaN))
+08-04 17:30:23.884  6358  7010 E Sensors : devname: /dev/input/event4
+08-04 17:30:23.885  6955  6955 I CAM_FocusRingView: Computing center via view bounds.
+08-04 17:30:23.888  6358  7014 D mm-camera: mct: mct_pipeline_start_session_thread: X imglib
+08-04 17:30:23.899  6358  7004 E mm-camera: module_sensor_init_session:1277flash subdev id = 0
+08-04 17:30:23.901   947  1196 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-3.092712 y:5.431320 z:7.554382
+08-04 17:30:23.903  6358  7004 E mm-camera-sensor: sensor_sdk_util_get_kernel_i2c_addr_type:26Invalid addr_type = 0
+08-04 17:30:23.904  6358  7004 E mm-camera-sensor: sensor_sdk_util_get_kernel_i2c_data_type:40Invalid addr_type = 0
+08-04 17:30:23.907  6358  7010 E Sensors : devname: /dev/input/event3
+08-04 17:30:23.908  6358  7004 E mm-camera-sensor: actuator_load_lib:491name=lc898122_claf, mode=camera
+08-04 17:30:23.915  6358  7004 E mm-camera-sensor: actuator_load_lib:491name=lc898122_claf, mode=camcorder
+08-04 17:30:23.918  6358  7004 E mm-camera-sensor: eeprom_do_af_calibration:197turn on Cal af(1)
+08-04 17:30:23.919  6358  7004 E mm-camera-sdk: eeprom_autofocus_calibration_claf:173 KSY Kernel original macro hall : 17800, inf hall : -3300, macro_mecha 21000, vcm_type 65
+08-04 17:30:23.920  6358  7004 E mm-camera-sdk: eeprom_autofocus_calibration_claf:178 KSY AF_algorithm convert macro hall : 350, inf hall : 0, total_rangetomacro : 0, offset_value_pplus_mtm : 0
+08-04 17:30:23.920  6358  7004 E mm-camera: ois_init:305start: ois_init
+08-04 17:30:23.922  6358  7010 E Sensors : devname: /dev/input/event0
+08-04 17:30:23.924  6358  7004 E mm-camera: ois_init:372done: ois_init
+08-04 17:30:23.925  6358  7004 E mm-camera-sensor: proxy_init:71name = LD_AF
+08-04 17:30:23.925  6358  7026 E mm-camera: ois_thread:201ois thread is running
+08-04 17:30:23.926  6358  7004 E mm-camera-sensor: sensor_proxy_on:151enter
+08-04 17:30:23.941  6358  7012 E mm-camera-pp: [INFO] base_module_start_session:91, E, session=1
+08-04 17:30:23.941   947  1126 V sensors_hal_Mag: processReportInd:sensor android.sensor.magnetic_field 
+08-04 17:30:23.941  6358  7012 E mm-camera-pp: [INFO] base_module_start_session:91, E, session=1
+08-04 17:30:23.942   947  1126 V sensors_hal_Mag: processReportInd: Cal Mag Filter, 0, 1, 4.328918, -3.713989, -48.442078, 4.328918, -3.713989, -48.442078, 4.328918, -3.713989, -48.442078
+08-04 17:30:23.942  6358  7012 D mm-camera: mct: mct_pipeline_start_session_thread: X imglib
+08-04 17:30:23.943   947  1196 D sensors_hal_Ctx: poll:polldata:1, sensor:10, type:2, x:4.328918 y:-3.713989 z:-48.442078
+08-04 17:30:23.946  6358  7010 E Sensors : devname: /dev/input/event1
+08-04 17:30:23.962  6358  7010 E Sensors : devname: /dev/input/mice
+08-04 17:30:23.966  6358  7004 E mm-camera-sensor: sensor_proxy_thread_on:198enter
+08-04 17:30:23.967  6358  7004 E mm-camera: module_sensor_init_session:1412tcs_sensor init Enter **
+08-04 17:30:23.968   705   705 V C2Store : in ~ComponentModule
+08-04 17:30:23.968   705   705 V C2Store : unloading dll
+08-04 17:30:23.977  6955  7034 D CCodec  : allocate(c2.android.vorbis.decoder)
+08-04 17:30:23.978   705   823 V C2Store : in init
+08-04 17:30:23.978  6358  7010 E Sensors : devname: /dev/input/event2
+08-04 17:30:23.978   705   823 V C2Store : loading dll
+08-04 17:30:23.981   947  1196 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-3.062592 y:5.410660 z:7.828186
+08-04 17:30:23.985  6955  7034 I CCodec  : Created component [c2.android.vorbis.decoder]
+08-04 17:30:23.986  6955  7034 D CCodecConfig: read media type: audio/vorbis
+08-04 17:30:23.988  6955  7034 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+08-04 17:30:23.989  6955  7034 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+08-04 17:30:23.990  6955  7034 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+08-04 17:30:23.990  6955  7034 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+08-04 17:30:23.991  6955  7034 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+08-04 17:30:23.992  6955  7034 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+08-04 17:30:23.992  6955  7034 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+08-04 17:30:23.993  6358  7004 E mm-camera-sensor: tcs_thread_create:291tcs_thread, thread_id 0
+08-04 17:30:23.993  6358  7004 E mm-camera: module_sensor_start_session:1684SUCCESS
+08-04 17:30:23.994  6358  7004 D mm-camera: mct: mct_pipeline_start_session_thread: X imglib
+08-04 17:30:23.995  6955  7034 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+08-04 17:30:23.995  6358  7010 E Sensors : couldn't find 'STM VL53L0 proximity sensor' input device
+08-04 17:30:23.998  6955  7034 D CCodecConfig: c2 config diff is Dict {
+08-04 17:30:23.998  6955  7034 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+08-04 17:30:23.998  6955  7034 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+08-04 17:30:23.998  6955  7034 D CCodecConfig:   c2::u32 input.delay.value = 0
+08-04 17:30:23.998  6955  7034 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+08-04 17:30:23.998  6955  7034 D CCodecConfig:   string output.media-type.value = "audio/raw"
+08-04 17:30:23.998  6955  7034 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+08-04 17:30:23.998  6955  7034 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+08-04 17:30:23.998  6955  7034 D CCodecConfig: }
+08-04 17:30:23.999  6358  7010 E Sensors : ProximitySensor::ProximitySensor gets called!
+08-04 17:30:23.999  6358  7010 E Sensors : ProximitySensor: input_name:, input_sysfs_path:/sys/class/input/input
+08-04 17:30:24.000  6358  7010 E Sensors : ProximitySensor::enable function called for stmvl53L0!
+08-04 17:30:24.000  6955  7034 D CCodecConfig: no c2 equivalents for durationUs
+08-04 17:30:24.001  6955  7034 D CCodecConfig: no c2 equivalents for csd-1
+08-04 17:30:24.001  6358  7010 E Sensors : ProximitySensor::enable filename:/sys/class/input/input/enable_ps_sensor
+08-04 17:30:24.001  6955  7034 D CCodecConfig: no c2 equivalents for track-id
+08-04 17:30:24.002  6955  7034 D CCodecConfig: no c2 equivalents for channel-mask
+08-04 17:30:24.003  6955  7034 D CCodecConfig: c2 config diff is   c2::u32 raw.channel-count.value = 2
+08-04 17:30:24.003  6955  7034 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+08-04 17:30:24.004  6358  7010 E Sensors : ProximitySensor::enable: Failed to open file descriptor for enabling VL53L0
+08-04 17:30:24.004  6358  7010 E Sensors : ProximitySensor::enable: Attempted to open file /sys/class/input/input/enable_ps_sensor. Error: -1
+08-04 17:30:24.004  6955  7034 W Codec2Client: query -- param skipped: index = 1107298332.
+08-04 17:30:24.005  6358  7010 E Sensors : open_sensors gets called!
+08-04 17:30:24.005  6955  7034 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+08-04 17:30:24.005  6955  7034 D CCodec  :   int32_t channel-count = 2
+08-04 17:30:24.005  6955  7034 D CCodec  :   int32_t max-input-size = 32768
+08-04 17:30:24.005  6955  7034 D CCodec  :   string mime = "audio/vorbis"
+08-04 17:30:24.005  6955  7034 D CCodec  :   int32_t sample-rate = 44100
+08-04 17:30:24.005  6955  7034 D CCodec  : } and output: AMessage(what = 0x00000000) = {
+08-04 17:30:24.005  6955  7034 D CCodec  :   int32_t channel-count = 2
+08-04 17:30:24.005  6955  7034 D CCodec  :   string mime = "audio/raw"
+08-04 17:30:24.005  6955  7034 D CCodec  :   int32_t sample-rate = 44100
+08-04 17:30:24.005  6955  7034 D CCodec  :   int32_t channel-mask = 3
+08-04 17:30:24.005  6955  7034 D CCodec  : }
+08-04 17:30:24.005  6358  7010 E Sensors : is_tof_sensor_available() called
+08-04 17:30:24.006  6358  7010 E Sensors : devname: /dev/input/event4
+08-04 17:30:24.007  6955  7034 W Codec2Client: query -- param skipped: index = 1342179345.
+08-04 17:30:24.007  6955  7034 W Codec2Client: query -- param skipped: index = 2415921170.
+08-04 17:30:24.009  6955  7034 D CCodecBufferChannel: [c2.android.vorbis.decoder#974] Created input block pool with allocatorID 16 => poolID 20 - OK (0)
+08-04 17:30:24.009  6358  7010 E Sensors : devname: /dev/input/event3
+08-04 17:30:24.011  6955  7034 I CCodecBufferChannel: [c2.android.vorbis.decoder#974] Created output block pool with allocatorID 16 => poolID 29 - OK
+08-04 17:30:24.012  6955  7034 D CCodecBufferChannel: [c2.android.vorbis.decoder#974] Configured output block pool ids 29 => OK
+08-04 17:30:24.015   705  7035 D SimpleC2Component: Using output block pool with poolID 29 => got 29 - 0
+08-04 17:30:24.017  6358  7010 E Sensors : devname: /dev/input/event0
+08-04 17:30:24.026  6358  7010 E Sensors : devname: /dev/input/event1
+08-04 17:30:24.040   947  1196 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-2.869354 y:5.486084 z:7.560471
+08-04 17:30:24.046  6358  7010 E Sensors : devname: /dev/input/mice
+08-04 17:30:24.065  6358  7010 E Sensors : devname: /dev/input/event2
+08-04 17:30:24.073  6358  7010 E Sensors : No Tof sensor found!!!
+08-04 17:30:24.074  6358  7010 E mm-camera: sensor_laser_init:164  0 sensor supported
+08-04 17:30:24.074  6358  7010 E mm-camera: gyro_port_init:1404  Failure initializing laser sensor. Error: 4
+08-04 17:30:24.075  6358  7010 I CAMERA_SENSOR: start_accel_sensor
+08-04 17:30:24.075  6358  7010 E mm-camera: start_accel_sensor: sensor1_open E
+08-04 17:30:24.076   947  1126 D sensors_hal_SMGR: processBufferingInd:report(on_change_sensor) eventtype 0
+08-04 17:30:24.077   705   705 V C2Store : in ~ComponentModule
+08-04 17:30:24.077   705   705 V C2Store : unloading dll
+08-04 17:30:24.078  6358  7010 E mm-camera: start_accel_sensor: sensor1_open X, res = 0
+08-04 17:30:24.081  6358  7040 I CAMERA_SENSOR: accel_data_cb received RESP - SNS_SMGR_REPORT_RESP_V01
+08-04 17:30:24.082  6358  6358 E mm-camera: sensor_get_cur_chromatix_name:2577Error: Load default preview chroamtix
+08-04 17:30:24.082  6358  6358 E mm-camera-sensor: chromatix_load_library_ex : chromatix = libchromatix_imx234_snapshot.so , lib name = /system/vendor/lib/libchromatix_imx234_snapshot.so
+08-04 17:30:24.084  6358  7010 D mm-camera: mct: mct_pipeline_start_session_thread: X imglib
+08-04 17:30:24.086  6358  6358 E mm-camera-sensor: vendor/qcom/proprietary/mm-camera/mm-camera2/media-controller/modules/sensors/chromatix/0304/chromatix_imx234/snapshot/chromatix_imx234_snapshot.c : start chromatix process 
+08-04 17:30:24.087  6358  6358 E mm-camera-sensor: vendor/qcom/proprietary/mm-camera/mm-camera2/media-controller/modules/sensors/chromatix/0304/chromatix_imx234/snapshot/chromatix_imx234_snapshot.c : fd_chromatix=-1 
+08-04 17:30:24.088  6358  6358 E mm-camera-sensor: vendor/qcom/proprietary/mm-camera/mm-camera2/media-controller/modules/sensors/chromatix/0304/chromatix_imx234/snapshot/chromatix_imx234_snapshot.c: chromatix : Use default params
+08-04 17:30:24.088  6358  6358 I mm-camera-sensor: chromatix ptr vendor/qcom/proprietary/mm-camera/mm-camera2/media-controller/modules/sensors/chromatix/0304/chromatix_imx234/snapshot/chromatix_imx234_snapshot.c, 0xe5f48008
+08-04 17:30:24.089  6358  6358 E mm-camera-sensor: chromatix_load_library_ex : chromatix = libchromatix_imx234_snapshot.so , lib name = /system/vendor/lib/libchromatix_imx234_snapshot.so
+08-04 17:30:24.090  6358  6358 E mm-camera-sensor: chromatix_load_library_ex : chromatix = libchromatix_imx234_common.so , lib name = /system/vendor/lib/libchromatix_imx234_common.so
+08-04 17:30:24.093  6358  6358 E mm-camera-sensor: vendor/qcom/proprietary/mm-camera/mm-camera2/media-controller/modules/sensors/chromatix/0304/chromatix_imx234/common/chromatix_imx234_common.c : start chromatix process 
+08-04 17:30:24.093  6358  6358 E mm-camera-sensor: vendor/qcom/proprietary/mm-camera/mm-camera2/media-controller/modules/sensors/chromatix/0304/chromatix_imx234/common/chromatix_imx234_common.c : fd_chromatix=-1 
+08-04 17:30:24.093  6358  6358 E mm-camera-sensor: vendor/qcom/proprietary/mm-camera/mm-camera2/media-controller/modules/sensors/chromatix/0304/chromatix_imx234/common/chromatix_imx234_common.c: chromatix : Use default params
+08-04 17:30:24.094  6358  6358 I mm-camera-sensor: chromatix ptr vendor/qcom/proprietary/mm-camera/mm-camera2/media-controller/modules/sensors/chromatix/0304/chromatix_imx234/common/chromatix_imx234_common.c, 0xe5c44008
+08-04 17:30:24.095  6358  6358 E mm-camera-sensor: chromatix_load_library_ex : chromatix = libchromatix_imx234_cpp_snapshot.so , lib name = /system/vendor/lib/libchromatix_imx234_cpp_snapshot.so
+08-04 17:30:24.098  6358  6358 E mm-camera-sensor: chromatix_load_library_ex : chromatix = libchromatix_imx234_cpp_snapshot.so , lib name = /system/vendor/lib/libchromatix_imx234_cpp_snapshot.so
+08-04 17:30:24.099  6358  6358 E mm-camera-sensor: chromatix_load_library_ex : chromatix = libchromatix_imx234_cpp_flash_snapshot.so , lib name = /system/vendor/lib/libchromatix_imx234_cpp_flash_snapshot.so
+08-04 17:30:24.100   947  1196 D sensors_hal_Ctx: poll:polldata:1, sensor:0, type:1, x:-2.756439 y:5.465469 z:7.637405
+08-04 17:30:24.102  6358  6358 E mm-camera-sensor: chromatix ptr 0xe42b3004
+08-04 17:30:24.102  6358  6358 E mm-camera-sensor: chromatix_load_library_ex : chromatix = libchromatix_imx234_cpp_video.so , lib name = /system/vendor/lib/libchromatix_imx234_cpp_video.so
+08-04 17:30:24.106  6358  6358 E mm-camera-sensor: chromatix_load_library_ex : chromatix = libchromatix_imx234_postproc.so , lib name = /system/vendor/lib/libchromatix_imx234_postproc.so
+08-04 17:30:24.108  6358  6358 E mm-camera: module_faceproc_query_mod:1996] Caps ROI 5 scene_mode_cnt 1 HW analysis supported 0
+08-04 17:30:24.108  6358  6358 E hdr     : module_hdr_lib_query_mod:181] Supported scenemode cnt 2
+08-04 17:30:24.109  6358  6358 D mm-camera: mct: mct_pipeline_process_set:command=800000a
+08-04 17:30:24.109  6358  6358 D mm-camera: mct: mct_pipeline_process_set: Adding new stream: id [0f]
+08-04 17:30:24.110  6358  6358 D mm-camera: mct: mct_pipeline_process_set:command=8000012
+08-04 17:30:24.110  6358  6358 D mm-camera: mct: mct_stream_start_link: Start linking Session-stream 0x1000f
+08-04 17:30:24.110  6358  6358 I mm-camera: module_iface_set_mod_func: set module type = 8, identity 1000f
+08-04 17:30:24.111  6358  6358 I mm-camera: port dir 2 stream info ide 1000f type 10 dim 0 x 0 port 0xeebb67c0
+08-04 17:30:24.111  6358  6358 I mm-camera: port 0xeebb67c0 ide 1000f type 10 dim 0 0
+08-04 17:30:24.112  6358  6358 I mm-camera: port dir 1 stream info ide 1000f type 10 dim 0 x 0 port 0xeebb6820
+08-04 17:30:24.112  6358  6358 I mm-camera: port dir 1 stream info ide 1000f type 10 dim 0 x 0 port 0xeebb6880
+08-04 17:30:24.113  6358  6358 I mm-camera: port dir 1 stream info ide 1000f type 10 dim 0 x 0 port 0xeebb68e0
+08-04 17:30:24.113  6358  6358 I mm-camera: port dir 1 stream info ide 1000f type 10 dim 0 x 0 port 0xeebb6940
+08-04 17:30:24.114  6358  6358 E mm-camera: int_link = 0xeebbcde0
+08-04 17:30:24.114  6358  6358 I mm-camera: pproc_port_add_modules_to_stream:433, linking mods tmod and c2d
+08-04 17:30:24.116  6358  6358 I mm-camera: pproc_port_add_modules_to_stream:433, linking mods c2d and cpp
+08-04 17:30:24.117  6358  6358 E mm-camera: Interleaved flag is 0, identity 65551 port type 0
+08-04 17:30:24.117  6358  6358 I mm-camera: pproc_port_add_modules_to_stream:433, linking mods cpp and afs
+08-04 17:30:24.118  6358  6358 I mm-camera: pproc_port_add_modules_to_stream:433, linking mods afs and llvd
+08-04 17:30:24.119  6358  6358 I mm-camera: pproc_port_add_modules_to_stream:433, linking mods llvd and ezt
+08-04 17:30:24.119  6358  7026 E mm-camera: ois_thread:239done : ois initialization
+08-04 17:30:24.119  6358  6358 E mm-camera: pproc_port_add_modules_to_stream:454] X rc: 1
+08-04 17:30:24.120  6358  6358 I mm-camera: port dir 1 stream info ide 1000f type 10 dim 0 x 0 port 0xeebb6820
+08-04 17:30:24.120  6358  6358 I mm-camera: port dir 1 stream info ide 1000f type 10 dim 0 x 0 port 0xeebb6880
+08-04 17:30:24.121  6358  6358 I mm-camera: port dir 1 stream info ide 1000f type 10 dim 0 x 0 port 0xeebb68e0
+08-04 17:30:24.121  6358  6358 I mm-camera: port dir 1 stream info ide 1000f type 10 dim 0 x 0 port 0xeebb6940
+08-04 17:30:24.121  6358  6358 I mm-camera: port dir 1 stream info ide 1000f type 10 dim 0 x 0 port 0xeebb69a0
+08-04 17:30:24.126  6358  6358 D mm-camera: mct: mct_pipeline_process_set: Linking successful for stream 0x1000f stream type=10
+08-04 17:30:24.139  6955  6993 I CAM_Profiler: [393.273ms] GUARD: CaptureModule.openCameraAndStartPreview() - [392.141ms] mOneCameraOpener.open()
+08-04 17:30:24.139  6955  6993 I CAM_Profiler: [393.273ms] GUARD: CaptureModule.openCameraAndStartPreview() - STOP
+08-04 17:30:24.141  6955  6986 I CAM_OneCamCreator: Camera support level: LIMITED_YUV
+08-04 17:30:24.156  6955  6986 I CAM_OneCamCreator: Picture Size Configuration: PictureSizeCalculator.Configuration{native size=5312x2988, crop=Rect(0, 0 - 5312, 2988)}
+08-04 17:30:24.174  6955  6986 D CAM_CaptureModule: onCameraOpened: com.android.camera.one.v2.initialization.GenericOneCameraImpl@8672abc
+08-04 17:30:24.176  6955  6986 D CAM_CaptureModule: starting preview ...
+08-04 17:30:24.178   947  1920 E LocSvc_ApiV02: I/<--- void globalEventCb(locClientHandleType, uint32_t, const locClientEventIndUnionType, void *) line 107 QMI_LOC_EVENT_POSITION_REPORT_IND_V02
+08-04 17:30:24.189  5277  6350 W CameraDeviceClient: createSurfaceFromGbp: Camera 0 with consumer usage flag: 256: Forcing asynchronous mode for stream
+08-04 17:30:24.190   947  1920 E LocSvc_ApiV02: I/<--- void globalEventCb(locClientHandleType, uint32_t, const locClientEventIndUnionType, void *) line 107 QMI_LOC_EVENT_ENGINE_STATE_IND_V02
+08-04 17:30:24.190  5277  6350 W CameraDeviceClient: createSurfaceFromGbp: Camera 0: Overriding format 0x1 to IMPLEMENTATION_DEFINED
+08-04 17:30:24.191   947  1464 E LocSvc_eng: I/<=== status_cb line 2229 GPS_STATUS_ENGINE_ON
+08-04 17:30:24.192   947  1464 E LocSvc_eng: I/<=== status_cb line 2229 GPS_STATUS_SESSION_BEGIN
+08-04 17:30:24.194  6955  6955 W CAM_IndicatorIconCtrlr: Trying to sync a pano indicator that is not initialized.
+08-04 17:30:24.195  5277  6351 I QCamera3HWI: int qcamera::QCamera3HardwareInterface::configureStreams(camera3_stream_configuration_t*): Limited maxViewfinderSize to 2047x1536
+08-04 17:30:24.195  5277  6351 I QCamera3HWI: int qcamera::QCamera3HardwareInterface::configureStreams(camera3_stream_configuration_t*): stream[0] type = 0, format = 35, width = 5312, height = 2988
+08-04 17:30:24.196  5277  6351 I QCamera3HWI: int qcamera::QCamera3HardwareInterface::configureStreams(camera3_stream_configuration_t*): stream[1] type = 0, format = 34, width = 1920, height = 1080
+08-04 17:30:24.200  6358  7050 D mm-camera: mct: mct_pipeline_process_set:command=800000a
+08-04 17:30:24.201  6358  7050 D mm-camera: mct: mct_pipeline_process_set: Adding new stream: id [01]
+08-04 17:30:24.203  6358  7050 D mm-camera: mct: mct_pipeline_process_set:command=8000012
+08-04 17:30:24.204  6358  7050 D mm-camera: mct: mct_stream_start_link: Link Metadata stream 0x10001: do nothing 
+08-04 17:30:24.205  6358  7050 D mm-camera: mct: mct_pipeline_process_set: Linking successful for stream 0x10001 stream type=7
+08-04 17:30:24.205  5277  6351 E mm-camera-intf: mm_stream_get_v4l2_fmt: Unknown fmt=100
+08-04 17:30:24.206  6358  7050 D mm-camera: mct: mct_pipeline_process_set:command=8000004
+08-04 17:30:24.206  5277  6351 E Camera3-Device: configureStreams: Stream 0: DataSpace override not allowed for format 0x23
+08-04 17:30:24.212  5277  6351 D Camera3-Device: Set real time priority for request queue thread (tid 7055)
+08-04 17:30:24.224  6955  6986 V CAM_SettingsManager: listeners: [com.android.camera.CameraActivity@5ea19db, com.android.camera.app.CameraAppUI@8fe7085, com.android.camera.ButtonManager@c95cea6, com.android.camera.widget.IndicatorIconController@ca9b494, com.android.camera.settings.SettingObserver$Listener@ed7ff6d]
+08-04 17:30:24.225  6955  6986 V CAM_SettingsManager: listeners: [com.android.camera.CameraActivity@5ea19db, com.android.camera.app.CameraAppUI@8fe7085, com.android.camera.ButtonManager@c95cea6, com.android.camera.widget.IndicatorIconController@ca9b494, com.android.camera.settings.SettingObserver$Listener@ed7ff6d, com.android.camera.settings.SettingObserver$Listener@7156c33]
+08-04 17:30:24.231  6955  7062 D CAM_CommandExecutor: Executing command: com.android.camera.one.v2.commands.PreviewCommand@5282eab START
+08-04 17:30:24.232  6955  6955 D CAM_CaptureModule: Ready for capture.
+08-04 17:30:24.233  6955  6955 V CAM_CameraAppUI: onPreviewStarted
+08-04 17:30:24.240  6955  7062 D CAM_CommandExecutor: Executing command: com.android.camera.one.v2.commands.PreviewCommand@5282eab END
+08-04 17:30:24.241   364   364 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@3.0::IAllocator/default in either framework or device manifest.
+08-04 17:30:24.243  6955  6973 W Gralloc3: allocator 3.x is not supported
+08-04 17:30:24.245  6955  6973 I Gralloc2: Adding additional valid usage bits: 0x2202400
+08-04 17:30:24.251  5277  7055 W Gralloc3: mapper 3.x is not supported
+08-04 17:30:24.264  6358  7050 E mm-camera: sensor_set_frame_rate:1176max fps 30.000000 min fps 2.000000,fixed_frame_rate=0 
+08-04 17:30:24.265  6358  7050 E mm-camera: iface_util_set_hfr: can't find hw stream, only save hfr mode
+08-04 17:30:24.265  6358  7050 E mm-camera-sensor: sensor_pick_fill_expected_data:410ex_w:5312, ex_h:2988,ex_mode:1, ex_fps:30.000000, ex_clk:0, ex_ar: 177
+08-04 17:30:24.266  6358  7050 E mm-camera-sensor: sensor_pick_resolution:722 res_idx: 0
+08-04 17:30:24.266  6358  7050 I mm-camera: Stream type 5 Resolution: 5312x2988 pp_mask: 0x68e
+08-04 17:30:24.267  6358  7050 I mm-camera: Stream type 1 Resolution: 1920x1080 pp_mask: 0x68e
+08-04 17:30:24.267  6358  7050 I mm-camera: Stream type 11 Resolution: 640x480 pp_mask: 0x1
+08-04 17:30:24.269  6358  7050 I mm-camera-isp2: INFO: ISP resource acquired: session 1 num_isp 1
+08-04 17:30:24.269  6358  7050 I mm-camera-isp2: INFO: ISP resource acquired: hw_id 0
+08-04 17:30:24.270  6358  7050 I mm-camera: isp_util_map_streams_to_hw_hal3: controllable_out_needed=1
+08-04 17:30:24.270  6358  7050 I mm-camera: stream_port_map num streams 3
+08-04 17:30:24.270  6358  7050 I mm-camera: INFO: type 5 resolution 5312x2988 hw_stream 1 need_native_buff 0 controllable_output 0 shared_output 0
+08-04 17:30:24.271  6358  7050 I mm-camera: INFO: type 1 resolution 1920x1080 hw_stream 0 need_native_buff 1 controllable_output 0 shared_output 0
+08-04 17:30:24.271  6358  7050 I mm-camera: INFO: type 11 resolution 640x480 hw_stream 0 need_native_buff 1 controllable_output 0 shared_output 0
+08-04 17:30:24.271  6358  7050 I mm-camera-isp2: ide 1000f type 10 hw stream 0
+08-04 17:30:24.272  6358  7050 I mm-camera-isp2: ide 1000f type 10 hw stream 1
+08-04 17:30:24.274  6358  7050 E mm-camera: sensor_set_max_dimension:3751raw w 5312 h 2988
+08-04 17:30:24.275  6358  7050 E mm-camera-sensor: sensor_pick_fill_expected_data:410ex_w:5312, ex_h:2988,ex_mode:1, ex_fps:30.000000, ex_clk:0, ex_ar: 177
+08-04 17:30:24.276  6358  7050 E mm-camera-sensor: sensor_pick_resolution:722 res_idx: 0
+08-04 17:30:24.276  6358  7050 E mm-camera: sensor_get_raw_dimension:3813pick res 0
+08-04 17:30:24.276  6358  7050 E mm-camera: sensor_get_raw_dimension:3828raw w 5312 h 2988
+08-04 17:30:24.278  5277  7055 I QCamera3HWI: int32_t qcamera::QCamera3HardwareInterface::getSensorOutputSize(cam_dimension_t&): sensor output dimension = 5312 x 2988
+08-04 17:30:24.278  5277  7055 I QCamera3CropRegionMapper: void qcamera::QCamera3CropRegionMapper::update(uint32_t, uint32_t, uint32_t, uint32_t): active_array: 5312 x 2988, sensor size 5312 x 2988
+08-04 17:30:24.279  6358  7050 D mm-camera: mct: mct_pipeline_process_set:command=800000a
+08-04 17:30:24.280  6358  7050 D mm-camera: mct: mct_pipeline_process_set: Adding new stream: id [02]
+08-04 17:30:24.281  6358  7050 D mm-camera: mct: mct_pipeline_process_set:command=8000012
+08-04 17:30:24.281  6358  7050 D mm-camera: mct: mct_stream_start_link: Start linking preview stream 0x10002
+08-04 17:30:24.282  6358  7050 D mm-camera: mct: mct_stream_start_link: non secure stream linking 
+08-04 17:30:24.283  6358  7050 I mm-camera: module_iface_set_mod_func: set module type = 8, identity 10002
+08-04 17:30:24.283  6358  7050 I mm-camera: port dir 2 stream info ide 10002 type 1 dim 1920 x 1080 port 0xeebb67c0
+08-04 17:30:24.283  6358  7050 I mm-camera: port 0xeebb67c0 ide 10002 type 1 dim 1920 1080
+08-04 17:30:24.284  6358  7050 I mm-camera-isp2: i 0 hw_stream 1
+08-04 17:30:24.284  6358  7050 I mm-camera-isp2: ide 10002 type 1 hw stream 0
+08-04 17:30:24.285  6358  7050 I mm-camera: port dir 1 stream info ide 10002 type 1 dim 1920 x 1080 port 0xeebb6820
+08-04 17:30:24.285  6358  7050 E mm-camera: int_link = 0xeebbcea0
+08-04 17:30:24.286  6358  7050 I mm-camera: pproc_port_add_modules_to_stream:433, linking mods tmod and afs
+08-04 17:30:24.286  6358  7050 I mm-camera: pproc_port_add_modules_to_stream:433, linking mods afs and cpp
+08-04 17:30:24.286  6358  7050 E mm-camera: module_afs_acquire_port:582] Port already reserved
+08-04 17:30:24.287  6358  7050 E mm-camera: module_afs_port_check_caps_reserve:1452] Error acquiring port
+08-04 17:30:24.287  6358  7050 I mm-camera: pproc_port_add_modules_to_stream:433, linking mods cpp and ezt
+08-04 17:30:24.288  6358  7050 E mm-camera: pproc_port_add_modules_to_stream:454] X rc: 1
+08-04 17:30:24.288  6358  7050 I mm-camera: port dir 1 stream info ide 10002 type 1 dim 1920 x 1080 port 0xeebb6820
+08-04 17:30:24.288  6358  7050 I mm-camera: port dir 1 stream info ide 10002 type 1 dim 1920 x 1080 port 0xeebb6880
+08-04 17:30:24.289  6358  7050 I mm-camera: port dir 1 stream info ide 10002 type 1 dim 1920 x 1080 port 0xeebb68e0
+08-04 17:30:24.289  6358  7050 I mm-camera: port dir 1 stream info ide 10002 type 1 dim 1920 x 1080 port 0xeebb6940
+08-04 17:30:24.289  6358  7050 I mm-camera: port dir 1 stream info ide 10002 type 1 dim 1920 x 1080 port 0xeebb69a0
+08-04 17:30:24.290  6358  7050 D mm-camera: mct: mct_pipeline_process_set: Linking successful for stream 0x10002 stream type=1
+08-04 17:30:24.291  6358  7050 D mm-camera: mct: mct_pipeline_process_set:command=8000004
+08-04 17:30:24.292  6358  7050 D mm-camera: mct: mct_pipeline_process_set:command=800000a
+08-04 17:30:24.293  6358  7050 D mm-camera: mct: mct_pipeline_process_set: Adding new stream: id [03]
+08-04 17:30:24.295  6358  7050 D mm-camera: mct: mct_pipeline_process_set:command=8000012
+08-04 17:30:24.295  6358  7050 D mm-camera: mct: mct_stream_start_link: Start linking Callback stream 0x10003
+08-04 17:30:24.296  6358  7050 I mm-camera: module_iface_set_mod_func: set module type = 8, identity 10003
+08-04 17:30:24.296  6358  7050 I mm-camera: port dir 2 stream info ide 10003 type 5 dim 5312 x 2988 port 0xeebb67c0
+08-04 17:30:24.297  6358  7050 I mm-camera: port 0xeebb67c0 ide 10003 type 5 dim 5312 2988
+08-04 17:30:24.297  6358  7050 I mm-camera-isp2: i 1 hw_stream 1
+08-04 17:30:24.298  6358  7050 I mm-camera-isp2: ide 10003 type 5 hw stream 1
+08-04 17:30:24.299  6358  7050 I mm-camera: port dir 1 stream info ide 10003 type 5 dim 5312 x 2988 port 0xeebb6820
+08-04 17:30:24.299  6358  7050 I mm-camera: port dir 1 stream info ide 10003 type 5 dim 5312 x 2988 port 0xeebb6880
+08-04 17:30:24.300  6358  7050 E mm-camera: int_link = 0xeebbcf60
+08-04 17:30:24.300  6358  7050 I mm-camera: pproc_port_add_modules_to_stream:433, linking mods tmod and afs
+08-04 17:30:24.301  6358  7050 I mm-camera: pproc_port_add_modules_to_stream:433, linking mods afs and cpp
+08-04 17:30:24.301  6358  7050 E mm-camera: module_afs_acquire_port:582] Port already reserved
+08-04 17:30:24.302  6358  7050 E mm-camera: module_afs_port_check_caps_reserve:1452] Error acquiring port
+08-04 17:30:24.302  6358  7050 E mm-camera: module_afs_acquire_port:582] Port already reserved
+08-04 17:30:24.302  6358  7050 E mm-camera: module_afs_port_check_caps_reserve:1452] Error acquiring port
+08-04 17:30:24.303  6358  7050 I mm-camera: pproc_port_add_modules_to_stream:433, linking mods cpp and ezt
+08-04 17:30:24.303  6358  7050 E mm-camera: pproc_port_add_modules_to_stream:454] X rc: 1
+08-04 17:30:24.304  6358  7050 I mm-camera: port dir 1 stream info ide 10003 type 5 dim 5312 x 2988 port 0xeebb6820
+08-04 17:30:24.304  6358  7050 I mm-camera: port dir 1 stream info ide 10003 type 5 dim 5312 x 2988 port 0xeebb6880
+08-04 17:30:24.304  6358  7050 I mm-camera: port dir 1 stream info ide 10003 type 5 dim 5312 x 2988 port 0xeebb68e0
+08-04 17:30:24.305  6358  7050 I mm-camera: port dir 1 stream info ide 10003 type 5 dim 5312 x 2988 port 0xeebb6940
+08-04 17:30:24.305  6358  7050 I mm-camera: port dir 1 stream info ide 10003 type 5 dim 5312 x 2988 port 0xeebb69a0
+08-04 17:30:24.306  6358  7050 D mm-camera: mct: mct_pipeline_process_set: Linking successful for stream 0x10003 stream type=5
+08-04 17:30:24.306  6358  7050 D mm-camera: mct: mct_pipeline_process_set:command=8000004
+08-04 17:30:24.308  6358  7050 D mm-camera: mct: mct_pipeline_process_set:command=800000a
+08-04 17:30:24.308  6358  7050 D mm-camera: mct: mct_pipeline_process_set: Adding new stream: id [04]
+08-04 17:30:24.310  6358  7050 D mm-camera: mct: mct_pipeline_process_set:command=8000012
+08-04 17:30:24.310  6358  7050 D mm-camera: mct: mct_stream_start_link: Starting Analysis stream linking
+08-04 17:30:24.310  6358  7050 I mm-camera: module_iface_set_mod_func: set module type = 8, identity 10004
+08-04 17:30:24.311  6358  7050 I mm-camera: port dir 2 stream info ide 10004 type 11 dim 640 x 480 port 0xeebb67c0
+08-04 17:30:24.311  6358  7050 I mm-camera: port 0xeebb67c0 ide 10004 type 11 dim 640 480
+08-04 17:30:24.312  6358  7050 I mm-camera-isp2: i 0 hw_stream 1
+08-04 17:30:24.312  6358  7050 I mm-camera-isp2: ide 10004 type 11 hw stream 0
+08-04 17:30:24.313  6358  7050 I mm-camera: port dir 1 stream info ide 10004 type 11 dim 640 x 480 port 0xeebb6820
+08-04 17:30:24.314  6358  7050 E mm-camera: int_link = 0xeebbcea0
+08-04 17:30:24.314  6358  7050 E mm-camera: pproc_port_add_modules_to_stream:454] X rc: 1
+08-04 17:30:24.315  6358  7050 D mm-camera: mct: mct_pipeline_process_set: Linking successful for stream 0x10004 stream type=11
+08-04 17:30:24.315  6358  7050 D mm-camera: mct: mct_pipeline_process_set:command=8000004
+08-04 17:30:24.328  6358  7050 D mm-camera: mct: mct_pipeline_process_set:command=8000008
+08-04 17:30:24.328  6358  7050 D mm-camera: mct: mct_pipeline_process_set: STREAM-ON on stream 0x10001 stream type=7
+08-04 17:30:24.329  6358  7050 D mm-camera: mct: mct_pipeline_process_set: STREAM-ON success for stream 0x10001, stream type=7
+08-04 17:30:24.339  6358  7050 D mm-camera: mct: mct_pipeline_process_set:command=8000008
+08-04 17:30:24.340  6358  7050 D mm-camera: mct: mct_pipeline_process_set: STREAM-ON on stream 0x10004 stream type=11
+08-04 17:30:24.340  6358  7050 E mm-camera-sensor: sensor_pick_fill_expected_data:410ex_w:5312, ex_h:2988,ex_mode:1, ex_fps:30.000000, ex_clk:0, ex_ar: 177
+08-04 17:30:24.341  6358  7050 E mm-camera-sensor: sensor_pick_resolution:722 res_idx: 0
+08-04 17:30:24.349  6358  7050 E mm-camera: sensor_set_resolution:2067send sesor mode command to sensor , res : 0
+08-04 17:30:24.349  6358  7050 E mm-camera: sensor_get_resolution_info:3340full 5312 2988 out 5312 2988 offset 0 0 scale 1
+08-04 17:30:24.350  6358  7050 E mm-camera-isp2: scaler44_check_hw_limit:561 Entry 1 y_cfg->hOut 5312 y_cfg->vOut 2988
+08-04 17:30:24.350  6358  7050 E mm-camera: af_port_handle_sensor_update:2659  Depth_Err: actuator sensitivity: 0.000000 is invalid
+08-04 17:30:24.350  6358  7043 E mm-camera-CORE: awb_set_parameters: param->u.camsensor_position=0 
+08-04 17:30:24.352  6358  7043 E mm-camera-CORE: aec_set_crop:333  aec_set_crop: Aec_Error: VFE crop info received is null
+08-04 17:30:24.352  6358  7050 I mm-camera-isp2: isp version 44 af_kernel_size 2
+08-04 17:30:24.352  6358  7050 E mm-camera: sensor_get_resolution_info:3340full 5312 2988 out 5312 2988 offset 0 0 scale 1
+08-04 17:30:24.353  6358  7050 E mm-camera-sensor: af_actuator_set_params:359E
+08-04 17:30:24.353  6358  7050 E mm-camera-sensor: sensor_sdk_util_get_kernel_i2c_data_type:40Invalid addr_type = 0
+08-04 17:30:24.354  6358  7050 E mm-camera-sensor: sensor_sdk_util_get_kernel_i2c_addr_type:26Invalid addr_type = 0
+08-04 17:30:24.356  6358  7043 E mm-camera-CORE: aec_set_parse_chromatix: Andy_Test sensor flag 5
+08-04 17:30:24.356  6358  7043 E mm-camera-CORE: awb_set_parse_chromatix: Andy_Test sensor flag 5
+08-04 17:30:24.357  6358  7050 I mm-camera-eztune: vendor/qcom/proprietary/mm-camera/mm-camera2/server-tuning/tuning/eztune_interface.cpp(340): "Create Server : 0xe58ac100"
+08-04 17:30:24.359  6358  7072 I mm-camera-eztune: vendor/qcom/proprietary/mm-camera/mm-camera2/server-tuning/tuning/eztune_interface.cpp(47): "Server: Waiting on new connection...\n"
+08-04 17:30:24.359  6358  7050 I mm-camera-eztune: vendor/qcom/proprietary/mm-camera/mm-camera2/server-tuning/tuning/eztune_interface.cpp(340): "Create Server : 0xe58ac180"
+08-04 17:30:24.360  6358  7073 I mm-camera-eztune: vendor/qcom/proprietary/mm-camera/mm-camera2/server-tuning/tuning/eztune_interface.cpp(47): "Server: Waiting on new connection...\n"
+08-04 17:30:24.360  6358  7050 E mm-camera: af_port_send_af_checksum_to_module_sensor
+08-04 17:30:24.361  6358  7050 E mm-camera-sensor: port_sensor_handle_upstream_module_event:1588MCT_EVENT_MODULE_AF_CHECKSUM_EVENT, af_checksum_ok 1
+08-04 17:30:24.362  6358  7044 E mm-camera: af_config_lgaf_cal_e2p_cal_to_fit_90degree, actuator type=5, pos_diff_zero_to_nine = 0
+08-04 17:30:24.362  6358  7050 E mm-camera-isp2: mesh_rolloff44_set_parm_tintless:3577 <tintless_dbg> 0
+08-04 17:30:24.363  6358  7044 E mm-camera: af_config_lgaf_cal_e2p_cal_to_fit_90degree, 90 degree starting_dac = 350, infinity_dac = 0, macro_dac = 350
+08-04 17:30:24.363  6358  7050 E mm-camera-isp2: mesh_rolloff44_request_stats_type:3839 1 0
+08-04 17:30:24.363  6358  7044 E mm-camera: [ACCEL_SENSOR_USE_AF_DEBUG] af_set_init_data: accel [#not#] enable
+08-04 17:30:24.363  6358  7050 I mm-camera-isp2: enable_stats_mask d98
+08-04 17:30:24.364  6358  7050 I mm-camera-isp2: dual_dbg stream type 1, AXI_SRC = 1 (ENC 0/ View 1/Camif 2/Ideal 3/Rdi 456)
+08-04 17:30:24.365  6358  7050 E mm-camera-isp2: scaler44_handle_isp_private_event:1599 failed: invalid private event 16
+08-04 17:30:24.366  6358  7050 I mm-camera-isp2: dual_dbg stream type 11, AXI_SRC = 1 (ENC 0/ View 1/Camif 2/Ideal 3/Rdi 456)
+08-04 17:30:24.366  6358  7044 E mm-camera: af_set_init_data: property_get: persist.camera.af.data 335
+08-04 17:30:24.367  6358  7050 E mm-camera-isp2: scaler44_handle_isp_private_event:1599 failed: invalid private event 16
+08-04 17:30:24.367  6358  7050 I mm-camera-isp2: dual_dbg stream type 5, AXI_SRC = 0 (ENC 0/ View 1/Camif 2/Ideal 3/Rdi 456)
+08-04 17:30:24.368  6358  7050 E mm-camera-isp2: scaler44_handle_isp_private_event:1599 failed: invalid private event 16
+08-04 17:30:24.370  6358  7050 E mm-camera: iface_util_io_cfg: 6428is_split 0
+08-04 17:30:24.370  6358  7044 E mm-camera: af_util_cur_pos_after_lens_move: After move: FV: 0 CurPosition: 350
+08-04 17:30:24.372  6358  7050 I mm-camera-isp2: isp version 44 af_kernel_size 2
+08-04 17:30:24.373  6358  7050 E mm-camera-isp2: scaler44_handle_isp_private_event:1599 failed: invalid private event 17
+08-04 17:30:24.374  6358  7050 E mm-camera-isp2: scaler44_handle_isp_private_event:1599 failed: invalid private event 17
+08-04 17:30:24.374  6358  7050 E mm-camera-isp2: bpc44_run_abcc_algo:212 No defective pixels set by sensor event
+08-04 17:30:24.375  6358  7050 E mm-camera-isp2: isp_sub_module_port_process_downstream_ctrl_event:946 failed: mct event 1 int_event 0
+08-04 17:30:24.376  6358  7050 E mm-camera: af_port_restart_proxy_value
+08-04 17:30:24.377  6358  7050 E mm-camera-sensor: sensor_proxy_thread_restart:231enter
+08-04 17:30:24.377  6358  7050 E mm-camera-sensor: port_sensor_handle_upstream_module_event:1569PROXY_THREAD_RESTART OK
+08-04 17:30:24.377  6358  7050 E mm-camera-sensor: 
+08-04 17:30:24.378  6358  7050 E mm-camera-sensor: proxy_thread_start:274p_thread, enter
+08-04 17:30:24.378  6358  7050 E mm-camera-sensor: proxy_thread_start:281p_thread,end
+08-04 17:30:24.379  6358  7050 E mm-camera-img: faceproc_comp_get_param:299] Error
+08-04 17:30:24.379  6358  7050 E mm-camera: module_faceproc_client_use_int_bufs:792] rc -4
+08-04 17:30:24.383  6358  7050 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x24 in tid 7050 (mm-qcamera-daem), pid 6358 (mm-qcamera-daem)
+08-04 17:30:24.440  7079  7079 I crash_dump32: obtaining output fd from tombstoned, type: kDebuggerdTombstone
+08-04 17:30:24.441   744   744 I /system/bin/tombstoned: received crash request for pid 7050
+08-04 17:30:24.443  7079  7079 I crash_dump32: performing dump of process 6358 (target tid = 7050)
+08-04 17:30:24.461  7079  7079 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+08-04 17:30:24.461  7079  7079 F DEBUG   : LineageOS Version: '17.1-20200804-UNOFFICIAL-h815'
+08-04 17:30:24.462  7079  7079 F DEBUG   : Build fingerprint: 'lge/p1_global_com/p1:6.0/MRA58K/152940055675e:user/release-keys'
+08-04 17:30:24.462  7079  7079 F DEBUG   : Revision: '0'
+08-04 17:30:24.463  7079  7079 F DEBUG   : ABI: 'arm'
+08-04 17:30:24.465  7079  7079 F DEBUG   : Timestamp: 2020-08-04 17:30:24+0300
+08-04 17:30:24.465  7079  7079 F DEBUG   : pid: 6358, tid: 7050, name: mm-qcamera-daem  >>> /vendor/bin/mm-qcamera-daemon <<<
+08-04 17:30:24.466  7079  7079 F DEBUG   : uid: 1006
+08-04 17:30:24.466  7079  7079 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x24
+08-04 17:30:24.467  7079  7079 F DEBUG   : Cause: null pointer dereference
+08-04 17:30:24.467  7079  7079 F DEBUG   :     r0  e3b023c0  r1  00008204  r2  00000000  r3  00000060
+08-04 17:30:24.468  7079  7079 F DEBUG   :     r4  e3b02e38  r5  00000001  r6  eeb6d1a0  r7  00000001
+08-04 17:30:24.468  7079  7079 F DEBUG   :     r8  00000000  r9  eeb61000  r10 00000002  r11 e3b023c0
+08-04 17:30:24.468  7079  7079 F DEBUG   :     ip  00000000  sp  e3b02360  lr  eab1001b  pc  eab1002c
+08-04 17:30:24.473  7079  7079 F DEBUG   : 
+08-04 17:30:24.473  7079  7079 F DEBUG   : backtrace:
+08-04 17:30:24.473  7079  7079 F DEBUG   :       #00 pc 0000902c  /system/vendor/lib/libmmcamera2_isp_modules.so (isp_handler_control_streamon+1376) (BuildId: a4f781ac8558c8bc0c8b11d45bd8d7f1)
+08-04 17:30:24.474  7079  7079 F DEBUG   :       #01 pc 00007891  /system/vendor/lib/libmmcamera2_isp_modules.so (BuildId: a4f781ac8558c8bc0c8b11d45bd8d7f1)
+08-04 17:30:24.474  7079  7079 F DEBUG   :       #02 pc 000147b7  /system/vendor/lib/libmmcamera2_iface_modules.so (BuildId: 46cf1de9414f7522c7008dde4314f6f1)
+08-04 17:30:24.475  7079  7079 F DEBUG   :       #03 pc 00006457  /system/vendor/lib/liboemcamera.so (mct_list_traverse+32) (BuildId: ef8fcf0aaf9e471d92a6a3c21e51daa1)
+08-04 17:30:24.475  7079  7079 F DEBUG   :       #04 pc 00006877  /system/vendor/lib/libmmcamera2_iface_modules.so (BuildId: 46cf1de9414f7522c7008dde4314f6f1)
+08-04 17:30:24.476  7079  7079 F DEBUG   :       #05 pc 0000772f  /system/vendor/lib/libmmcamera2_iface_modules.so (iface_streamon_to_thread+138) (BuildId: 46cf1de9414f7522c7008dde4314f6f1)
+08-04 17:30:24.476  7079  7079 F DEBUG   :       #06 pc 00014d2d  /system/vendor/lib/libmmcamera2_iface_modules.so (BuildId: 46cf1de9414f7522c7008dde4314f6f1)
+08-04 17:30:24.477  7079  7079 F DEBUG   :       #07 pc 0001699d  /system/vendor/lib/libmmcamera2_sensor_modules.so (BuildId: 9225e43c70a075f82a5b7e4a371321f7)
+08-04 17:30:24.478  7079  7079 F DEBUG   :       #08 pc 00006457  /system/vendor/lib/liboemcamera.so (mct_list_traverse+32) (BuildId: ef8fcf0aaf9e471d92a6a3c21e51daa1)
+08-04 17:30:24.478  7079  7079 F DEBUG   :       #09 pc 0000de0d  /system/vendor/lib/libmmcamera2_sensor_modules.so (module_sensor_stream_on+4508) (BuildId: 9225e43c70a075f82a5b7e4a371321f7)
+08-04 17:30:24.479  7079  7079 F DEBUG   :       #10 pc 00016f15  /system/vendor/lib/libmmcamera2_sensor_modules.so (port_sensor_handle_stream_on+24) (BuildId: 9225e43c70a075f82a5b7e4a371321f7)
+08-04 17:30:24.479  7079  7079 F DEBUG   :       #11 pc 00010f45  /system/vendor/lib/libmmcamera2_sensor_modules.so (BuildId: 9225e43c70a075f82a5b7e4a371321f7)
+08-04 17:30:24.480  7079  7079 F DEBUG   :       #12 pc 00010aad  /system/vendor/lib/liboemcamera.so (BuildId: ef8fcf0aaf9e471d92a6a3c21e51daa1)
+08-04 17:30:24.480  7079  7079 F DEBUG   :       #13 pc 0000c071  /system/vendor/lib/liboemcamera.so (BuildId: ef8fcf0aaf9e471d92a6a3c21e51daa1)
+08-04 17:30:24.481  7079  7079 F DEBUG   :       #14 pc 00009e21  /system/vendor/lib/liboemcamera.so (BuildId: ef8fcf0aaf9e471d92a6a3c21e51daa1)
+08-04 17:30:24.481  7079  7079 F DEBUG   :       #15 pc 0000532d  /system/vendor/lib/liboemcamera.so (BuildId: ef8fcf0aaf9e471d92a6a3c21e51daa1)
+08-04 17:30:24.482  7079  7079 F DEBUG   :       #16 pc 000a6b83  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+20) (BuildId: be2954ec495707bc280c21e0cf2919f2)
+08-04 17:30:24.482  7079  7079 F DEBUG   :       #17 pc 00060723  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30) (BuildId: be2954ec495707bc280c21e0cf2919f2)
+08-04 17:30:24.755   947  1349 W NativeCrashListener: Couldn't find ProcessRecord for pid 6358
+08-04 17:30:24.757   744   744 E /system/bin/tombstoned: Tombstone written to: /data/tombstones/tombstone_07
+08-04 17:30:24.767   947  1063 I BootReceiver: Copying /data/tombstones/tombstone_07 to DropBox (SYSTEM_TOMBSTONE)
+08-04 17:30:24.769   947  1063 I DropBoxManagerService: add tag=SYSTEM_TOMBSTONE isTagEnabled=true flags=0x2
+08-04 17:30:24.827     1     1 W libc    : Unable to set property "ro.init.updatable_crashing_process_name" to "qcamerasvr": error code: 0xb
+08-04 17:30:24.827     1     1 W libc    : Unable to set property "ro.init.updatable_crashing" to "1": error code: 0xb
+08-04 17:30:25.174   947  1920 E LocSvc_ApiV02: I/<--- void globalEventCb(locClientHandleType, uint32_t, const locClientEventIndUnionType, void *) line 107 QMI_LOC_EVENT_POSITION_REPORT_IND_V02
+08-04 17:30:25.473  7090  7090 I mm-camera: server_process_module_init:59, int mods
+08-04 17:30:25.474  7090  7090 E mm-camera-sensor: eebin_read:387failed!
+08-04 17:30:25.475  7090  7090 E mm-camera-sensor: eebin_read:387failed!
+08-04 17:30:25.475  7090  7090 E mm-camera-sensor: sensor_init_probe:475failed: to oribe eeprom bin sensors
+08-04 17:30:25.476  7090  7090 E mm-camera-sensor: add_external_sensor:109NO external sensor lib: no external path
+08-04 17:30:25.478  7090  7090 E mm-camera-sensor: sensor_probe:270failed: to load 
+08-04 17:30:25.478  7090  7090 E mm-camera-sensor: sensor_util_match_sensor_lib_name:1965s_bundle sensor_lib_name imx234 sensor_name t4ka3
+08-04 17:30:25.479  7090  7090 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev0 subdev id 0
+08-04 17:30:25.479  7090  7090 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev1 subdev id 1
+08-04 17:30:25.480  7090  7090 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev2 subdev id 2
+08-04 17:30:25.480  7090  7090 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev3 subdev id 0
+08-04 17:30:25.481  7090  7090 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev4 subdev id 1
+08-04 17:30:25.481  7090  7090 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev5 subdev id 2
+08-04 17:30:25.482  7090  7090 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev6 subdev id 3
+08-04 17:30:25.482  7090  7090 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev7 subdev id 1
+08-04 17:30:25.483  7090  7090 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev8 subdev id 0
+08-04 17:30:25.483  7090  7090 E mm-camera: module_sensor_find_other_subdev:7799SUB_MODULE_LED_FLASH subdev_name /dev/v4l-subdev8 subdev_id 0
+08-04 17:30:25.483  7090  7090 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev9 subdev id 0
+08-04 17:30:25.484  7090  7090 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev10 subdev id 2
+08-04 17:30:25.485  7090  7090 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev11 subdev id 0
+08-04 17:30:25.486  7090  7090 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev12 subdev id 998
+08-04 17:30:25.486  7090  7090 E mm-camera: module_sensor_find_other_subdev:7773subdev_name /dev/v4l-subdev13 subdev id 997
+08-04 17:30:25.513  7090  7090 E mm-camera-isp2: module_chroma_enhan40_init:90 name chroma_enhan40
+08-04 17:30:25.516  7090  7090 E mm-camera-isp2: module_color_correct40_init:104 name color_correct40
+08-04 17:30:25.518  7090  7090 E mm-camera-isp2: module_luma_adaptation40_init:87 name luma_adaptation40
+08-04 17:30:25.533  7090  7090 E mm-camera-isp2: module_chroma_enhan40_init:90 name chroma_enhan40
+08-04 17:30:25.535  7090  7090 E mm-camera-isp2: module_color_correct40_init:104 name color_correct40
+08-04 17:30:25.535  7090  7090 E mm-camera-isp2: module_luma_adaptation40_init:87 name luma_adaptation40
+08-04 17:30:25.538  7090  7090 E mm-camera-isp2: isp_resource_gen_hws_caps:3631 i 0 isp id 0
+08-04 17:30:25.538  7090  7090 E mm-camera-isp2: isp_resource_gen_hws_caps:3631 i 1 isp id 1
+08-04 17:30:25.539  7090  7090 E mm-camera-isp2: module_isp_init:565 module 0xf55c91a0
+08-04 17:30:25.593  7090  7090 E mm-camera: vpe_module_init:26 name=vpe
+08-04 17:30:25.594  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=video0 entity.revision=0
+08-04 17:30:25.594  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=msm_cci entity.revision=0
+08-04 17:30:25.595  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=v4l-subdev0 entity.revision=0
+08-04 17:30:25.595  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=v4l-subdev1 entity.revision=0
+08-04 17:30:25.596  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=v4l-subdev2 entity.revision=0
+08-04 17:30:25.596  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=v4l-subdev3 entity.revision=0
+08-04 17:30:25.597  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=v4l-subdev4 entity.revision=0
+08-04 17:30:25.598  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=v4l-subdev5 entity.revision=0
+08-04 17:30:25.598  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=v4l-subdev6 entity.revision=0
+08-04 17:30:25.599  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=v4l-subdev7 entity.revision=0
+08-04 17:30:25.599  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=v4l-subdev8 entity.revision=0
+08-04 17:30:25.600  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=v4l-subdev9 entity.revision=0
+08-04 17:30:25.600  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=v4l-subdev10 entity.revision=0
+08-04 17:30:25.601  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=v4l-subdev11 entity.revision=0
+08-04 17:30:25.601  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=v4l-subdev12 entity.revision=0
+08-04 17:30:25.602  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=v4l-subdev13 entity.revision=0
+08-04 17:30:25.602  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=v4l-subdev14 entity.revision=0
+08-04 17:30:25.603  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=v4l-subdev15 entity.revision=0
+08-04 17:30:25.603  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=v4l-subdev16 entity.revision=0
+08-04 17:30:25.604  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=v4l-subdev17 entity.revision=17
+08-04 17:30:25.604  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=v4l-subdev18 entity.revision=0
+08-04 17:30:25.605  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=v4l-subdev19 entity.revision=0
+08-04 17:30:25.606  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=v4l-subdev20 entity.revision=0
+08-04 17:30:25.606  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=v4l-subdev21 entity.revision=0
+08-04 17:30:25.607  7090  7090 E mm-camera: vpe_hardware_find_subdev:714: done enumerating media entities
+08-04 17:30:25.608  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=video1 entity.revision=0
+08-04 17:30:25.609  7090  7090 E mm-camera: vpe_hardware_find_subdev:714: done enumerating media entities
+08-04 17:30:25.609  7090  7090 E mm-camera: vpe_hardware_find_subdev:719: entity.name=video2 entity.revision=0
+08-04 17:30:25.610  7090  7090 E mm-camera: vpe_hardware_find_subdev:714: done enumerating media entities
+08-04 17:30:25.611  7090  7090 E mm-camera: vpe_hardware_find_subdev:686: no more media devices
+08-04 17:30:25.611  7090  7090 E mm-camera: vpe_hardware_find_subdev:731: no vpe device found.
+08-04 17:30:25.612  7090  7090 E mm-camera: vpe_hardware_create:31: error: cannot find vpe subdev
+08-04 17:30:25.612  7090  7090 E mm-camera: vpe_module_create_vpe_ctrl:141, failed, cannnot create vpe hardware instance
+08-04 17:30:25.613  7090  7090 E mm-camera: vpe_module_init:34 failed
+08-04 17:30:25.614  7090  7090 E mm-camera-vpu: vpu_module_init:54, INFO name=vpu
+08-04 17:30:25.615  7090  7090 E mm-camera-pp: [INFO] base_module_init:142, name=tmod
+08-04 17:30:25.617  7090  7090 E mm-camera-pp: [INFO] base_module_init:142, name=ezt
+08-04 17:30:25.684  7090  7090 I mm-camera: < INFO> 420: void init(): memleak lib init.
+08-04 17:30:25.685  7090  7090 I mm-camera: < INFO> 439: void init(): memleak tracer not attached
+08-04 17:30:25.702  7090  7090 E mm-camera-img: frameproc_comp_load_fn_ptrs:880] Warning linking img_algo_frame_ind
+08-04 17:30:25.703  7090  7090 E mm-camera-img: frameproc_comp_load_fn_ptrs:887] Warning linking img_algo_meta_ind
+08-04 17:30:25.704  7090  7090 E mm-camera-img: frameproc_comp_load_fn_ptrs:894] Warning linking img_algo_set_frame_ops
+08-04 17:30:25.704  7090  7090 E mm-camera: module_cac_init:1961] CAC disabled rc 0
+08-04 17:30:25.705  7090  7090 E mm-camera: pproc_module_init:2812 num_sub_mods:6
+08-04 17:30:25.706  7090  7090 E mm-camera-img: Can not discover face-detect device
+08-04 17:30:25.707  7090  7090 E mm-camera-img: Can not find device name
+08-04 17:30:25.707  7090  7090 E mm-camera-img: faceproc_dsp_comp_load:1225] E 
+08-04 17:30:25.708  7090  7090 E mm-camera: module_faceproc_init:2392] HW or DSP FD not available switch to SW
+08-04 17:30:25.714  7090  7090 E mm-camera-img: hdr_comp_reload_lib:1315] Error linking hdrSingleFrameCore
+08-04 17:30:25.715  7090  7090 E hdr     : module_hdr_lib_query_mod:181] Supported scenemode cnt 1
+08-04 17:30:25.731  7090  7090 E mm-camera-img: frameproc_comp_load_fn_ptrs:880] Warning linking img_algo_frame_ind
+08-04 17:30:25.732  7090  7090 E mm-camera-img: frameproc_comp_load_fn_ptrs:887] Warning linking img_algo_meta_ind
+08-04 17:30:25.732  7090  7090 E mm-camera-img: img_dsp_dlopen:127] NOT FOUND llvd 
+08-04 17:30:25.741  7090  7090 E mm-camera-img: frameproc_comp_load_fn_ptrs:880] Warning linking img_algo_frame_ind
+08-04 17:30:25.741  7090  7090 E mm-camera-img: frameproc_comp_load_fn_ptrs:887] Warning linking img_algo_meta_ind
+08-04 17:30:25.742  7090  7090 E mm-camera-img: img_dsp_dlopen:127] NOT FOUND llvd 
+08-04 17:30:25.760  7090  7090 E mm-camera-img: frameproc_comp_load_fn_ptrs:887] Warning linking img_algo_meta_ind
+08-04 17:30:25.760  7090  7090 E mm-camera-img: img_dsp_dlopen:127] NOT FOUND llvd 
+08-04 17:30:25.762  7090  7090 E mm-camera-img: frameproc_comp_load_fn_ptrs:887] Warning linking img_algo_meta_ind
+08-04 17:30:25.762  7090  7090 E mm-camera-img: img_dsp_dlopen:127] NOT FOUND llvd 
+08-04 17:30:25.771  7090  7090 E mm-camera-img: frameproc_comp_load_fn_ptrs:880] Warning linking img_algo_frame_ind
+08-04 17:30:25.772  7090  7090 E mm-camera-img: frameproc_comp_load_fn_ptrs:887] Warning linking img_algo_meta_ind
+08-04 17:30:25.773  7090  7090 E mm-camera-img: img_dsp_dlopen:127] NOT FOUND llvd 
+08-04 17:30:25.776  7090  7090 E mm-camera-img: frameproc_comp_load_fn_ptrs:887] Warning linking img_algo_meta_ind
+08-04 17:30:25.776  7090  7090 E mm-camera-img: img_dsp_dlopen:127] NOT FOUND llvd 
+08-04 17:30:26.175   947  1920 E LocSvc_ApiV02: I/<--- void globalEventCb(locClientHandleType, uint32_t, const locClientEventIndUnionType, void *) line 107 QMI_LOC_EVENT_POSITION_REPORT_IND_V02
+08-04 17:30:26.373   947   979 I system_server: Background young concurrent copying GC freed 96831(5227KB) AllocSpace objects, 68(5252KB) LOS objects, 51% free, 10MB/20MB, paused 405us total 112.340ms
+08-04 17:30:27.175   947  1920 E LocSvc_ApiV02: I/<--- void globalEventCb(locClientHandleType, uint32_t, const locClientEventIndUnionType, void *) line 107 QMI_LOC_EVENT_POSITION_REPORT_IND_V02
+08-04 17:30:27.271   497   497 I MSM-irqbalance: Decided to move IRQ65 from CPU2 to CPU0
+08-04 17:30:28.175   947  1920 E LocSvc_ApiV02: I/<--- void globalEventCb(locClientHandleType, uint32_t, const locClientEventIndUnionType, void *) line 107 QMI_LOC_EVENT_POSITION_REPORT_IND_V02
